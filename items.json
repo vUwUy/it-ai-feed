@@ -1,0 +1,464 @@
+[
+  {
+    "id": "2026-10-08-us-dol-perm-suspension-microsoft-adobe",
+    "date": "2026-10-08",
+    "category": "AI·IT",
+    "title": "미 노동부, MS·Adobe 등 8개사 PERM 영주권 프로그램 참여 정지",
+    "summary": "미국 노동부가 Microsoft·Adobe와 Cognizant·Infosys·Capgemini·Tata·Wipro·HCL을 영주권 노동허가(PERM) 프로그램에서 정지하고 신규 신청을 받지 않겠다고 발표했다(CNBC 보도). Microsoft·Adobe는 '다수의 연방 수사 진행'이 사유로 제시됐다.",
+    "why": "미국 빅테크·IT 서비스 기업의 외국인 인력 영주권 경로가 막히는 조치로, 해외 엔지니어 채용·이민 계획에 직접 영향을 줄 수 있다. Microsoft는 미국 직원 대다수가 미국인이며 H-1B 신청 약 6,000건 중 80%가 기존 직원 연장·변경이라고 반박했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 보도(10/8) 직접 확인. 미 노동부 원문 보도자료는 아직 별도 확인하지 못함(단일 언론 출처)."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108377025-17914705752026-10-08t143311z_959347769_rc22znalidnp_rtrmadp_0_usa-vance.jpeg?v=1791473275&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-samsung-3q-2026-earnings-guidance",
+    "date": "2026-10-08",
+    "category": "한국 IT",
+    "title": "삼성전자 3분기 잠정 영업이익 약 107.4조 원",
+    "summary": "삼성전자가 2026년 3분기 잠정실적으로 연결 매출 약 195조 원, 영업이익 약 107.40조 원을 공시했다(범위: 매출 194~196조, 영업이익 107.3~107.5조 원, K-IFRS).",
+    "why": "직전 분기(2026년 2분기) 매출 171.5조·영업이익 89.49조 원, 전년 동기(2025년 3분기) 매출 86.06조·영업이익 12.17조 원과 비교해 크게 늘어난 수치다. 공시 기준 잠정치다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성전자 글로벌 뉴스룸 공식 공시문(10/8) 직접 확인. 확정 실적은 추후 발표."
+    },
+    "links": [
+      {
+        "label": "삼성 뉴스룸",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-kakao-colm-2026-moe-bbt",
+    "date": "2026-10-08",
+    "category": "한국 IT",
+    "title": "카카오, COLM 2026서 MoE 학습 최적화·BBT 경량화 연구 발표",
+    "summary": "카카오가 언어모델링 학회 COLM 2026에서 대규모 MoE 모델의 최적 학습률을 전체 학습 비용의 약 1%로 예측하는 방법론과, 바이트 기반 경량화 구조 'BBT'를 발표했다. 학습률 방법론은 'Kanana-2.6-155b-a17b' 사전학습(10조 토큰)에 실제 적용됐다.",
+    "why": "BBT는 비교 실험에서 파라미터 수를 20.2~40.4% 줄이면서 성능을 2.7~6.6% 개선했다고 밝혀, 온디바이스용 한국어 모델의 메모리 부담을 줄일 수 있는 기술이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공식 보도자료(10/8) + 연합뉴스·머니투데이 보도로 교차 확인."
+    },
+    "image": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/news/18cad3c701a100001.png?type=thumb&opt=C800x400",
+    "links": [
+      {
+        "label": "카카오 보도자료",
+        "url": "https://www.kakaocorp.com/page/detail/12157",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261008042900017",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/10/08/2026100809073824714",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-jetbrains-mellum2-1",
+    "date": "2026-10-08",
+    "category": "로컬 AI",
+    "title": "JetBrains Mellum2.1 (12B MoE 코딩 에이전트 모델, Apache 2.0)",
+    "summary": "JetBrains가 12B MoE(활성 2.5B) 코딩 에이전트용 오픈 모델 Mellum2.1을 Apache 2.0으로 공개했다. 구조는 Mellum2와 같고, 대규모 실환경 강화학습으로 저장소 탐색·파일 수정·자체 검증이 가능해졌다.",
+    "why": "자체 하드웨어에서 돌리는 빠른 코딩 서브에이전트용으로, 고부하에서 Qwen3.5-9B 대비 거의 2배 토큰을 처리하고 MTP로 단일 요청이 약 1.6배 빨라진다고 밝혔다(JetBrains 수치). GGUF(llama.cpp·Ollama·LM Studio)도 Hugging Face에 올라와 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "JetBrains 공식 블로그 + Hugging Face 저장소(license: apache-2.0) 확인. 블로그엔 GGUF '예정'으로 적혀 있으나 HF에 GGUF 저장소가 이미 존재."
+    },
+    "image": "https://blog.jetbrains.com/wp-content/uploads/2026/10/mellum21-hero-with-2x.png",
+    "specs": {
+      "params": "12B 총 / 2.5B 활성 (MoE)",
+      "license": "Apache 2.0",
+      "memory": "미발표"
+    },
+    "links": [
+      {
+        "label": "JetBrains 블로그",
+        "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+        "type": "source"
+      },
+      {
+        "label": "Mellum2.1-12B-A2.5B-Thinking",
+        "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF",
+        "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-google-cloud-gemini-agent",
+    "date": "2026-10-08",
+    "category": "AI·IT",
+    "title": "Google Cloud, 업무용 범용 'Gemini agent' 발표",
+    "summary": "Google Cloud가 'Gemini at Work 2026'에서 업무용 범용 에이전트 'Gemini agent'를 발표했다. 하나의 프롬프트 창에서 조직의 비즈니스 맥락을 바탕으로 작업을 계획하고, 스킬·도구와 고객사 업무 시스템을 연결해 문서·메일·개발 환경 안에 완성된 결과를 돌려준다.",
+    "why": "작업에 맞는 모델을 자동 선택하고 비용 통제·보안·관리·거버넌스를 내장했다고 밝혔다. 기업용 AI 에이전트 시장에 Google Cloud가 단일 진입점 제품을 내놓은 것이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google 공식 블로그(10/8) 직접 확인. 세부 가격·출시 일정은 해당 글에 없음."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/CloudGeminiAgent_hero.max-1440x810.png",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-surface-laptop-ultra-rtx-spark-preorder",
+    "date": "2026-10-07",
+    "category": "로컬 AI",
+    "title": "Microsoft Surface Laptop Ultra·RTX Spark Dev Box 예약 판매 시작",
+    "summary": "Microsoft가 NVIDIA RTX Spark 슈퍼칩(Blackwell RTX GPU 최대 6,144코어, Grace CPU 최대 20코어, 통합 메모리 최대 128GB)을 탑재한 Surface Laptop Ultra($2,599부터, 10/16 출시)와 Surface RTX Spark Dev Box($5,999, 미국 한정·11월 배송) 예약을 시작했다.",
+    "why": "120B 파라미터 이상 AI 모델을 로컬에서 실행할 수 있고 최대 1페타플롭(FP4·희소성 기준) AI 성능을 낸다고 밝혀, 로컬 LLM용 노트북·데스크톱 선택지가 넓어진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Microsoft Devices 블로그(10/7) 직접 확인. 제품 페이지 접속 확인. 가격은 미국 MSRP."
+    },
+    "image": "https://winblogs.thesourcemediaassets.com/sites/43/2026/10/Surface_Combo_16x9.png",
+    "specs": {
+      "memory": "최대 128GB 통합 메모리",
+      "compute": "최대 1 PFLOP (FP4, sparsity)",
+      "price": "Laptop Ultra $2,599~ / Dev Box $5,999"
+    },
+    "links": [
+      {
+        "label": "Microsoft 블로그",
+        "url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+        "type": "source"
+      },
+      {
+        "label": "Surface Laptop Ultra",
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra",
+        "type": "buy"
+      },
+      {
+        "label": "RTX Spark Dev Box",
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box",
+        "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-openai-gpt-6-chatgpt-intelligent-ui",
+    "date": "2026-10-07",
+    "category": "AI·IT",
+    "title": "OpenAI, ChatGPT에 GPT-6·Intelligent UI 전 등급 배포",
+    "summary": "OpenAI가 ChatGPT Chat 탭에 GPT-6와 대화 안에서 차트·버튼·폼 같은 인터랙티브 UI로 답하는 'Intelligent UI'를 배포한다. Plus·Pro·Business·Enterprise는 10월 7일부터, Free·Go는 다음 날부터 순차 적용되며 각각 GPT-6 Sol, GPT-6 Luna가 구동한다.",
+    "why": "주간 이용자 12억 명 이상(OpenAI 발표)에게 최신 모델이 기본 탑재되고, 답변 형식이 텍스트에서 인터랙티브 UI로 확장된다. 웹 검색이 필요한 질문에서 GPT-6 Instant는 GPT-5.6 Instant보다 평균 44% 빨리 답을 시작한다고 밝혔다. Work·Codex 모델은 이번 변경 대상이 아니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표문(10/7) 직접 확인. 성능 수치는 OpenAI 내부 평가 기준."
+    },
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/gpt-6-for-everyone/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-msit-amd-fullstack-ai-infra",
+    "date": "2026-10-07",
+    "category": "한국 IT",
+    "title": "과기정통부, 내년 '풀스택 AI 인프라' 추진…리사 수 AMD 회장·국내 13개사 라운드테이블",
+    "summary": "과기정통부가 10월 7일 리사 수 AMD 회장과 퓨리오사AI·하이퍼엑셀·업스테이지 등 국내 AI 기업 13곳이 참여한 라운드테이블을 열었다. 정부는 내년 CPU·GPU·국산 NPU·CXL·소프트웨어를 묶은 풀스택 대규모 레퍼런스 구축을 공모 방식으로 추진할 계획이다.",
+    "why": "국산 NPU가 칩 단독 공급을 넘어 시스템 단위로 레퍼런스를 확보할 기회다. AMD는 수백 명 규모 엔지니어가 참여하는 CoE를 한국에 세우겠다고 재차 밝혔고 연내 설립을 목표로 협의 중이다. 다만 AMD GPU 공급 규모는 논의되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이 보도(10/7) + 과기정통부 보도자료(KDI 경제정보센터 게재본)로 교차 확인."
+    },
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026100711215178864_1.jpg",
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/index.php/tech/2026/10/07/2026100711215178864",
+        "type": "source"
+      },
+      {
+        "label": "과기정통부 보도자료(KDI)",
+        "url": "https://eiec.kdi.re.kr/policy/callDownload.do?dtime=20261007191042&filenum=1&num=287887",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-liquid-ai-open-d1",
+    "date": "2026-10-07",
+    "category": "로컬 AI",
+    "title": "Liquid AI, 오픈 웨이트 결정 모델 d1-3B·d1-omni-600M 공개",
+    "summary": "Liquid AI가 토큰을 생성하지 않고 한 번의 순전파로 구조화된 답(분류·라우팅·점수 등)을 내는 '결정 모델' d1-3B(텍스트+이미지)와 실험판 d1-omni-600M(텍스트+이미지 또는 텍스트+오디오)을 Hugging Face에 공개했다.",
+    "why": "d1-3B는 RTX 4090에서 질문당 8ms, Jetson AGX Thor 16ms, Jetson Orin Nano 50ms로 응답한다고 밝혀, 엣지 기기의 실시간 판단·모더레이션에 쓸 수 있다. llama.cpp를 출시 당일부터 지원한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Liquid AI 공식 블로그 + Hugging Face 저장소·블로그 확인, MarkTechPost 독립 보도. 라이선스는 HF에 'lfm1.0'(LFM Open License v1.0)으로 표기 — MarkTechPost에 따르면 연매출 1,000만 달러 미만 기업은 상업적 무료 사용."
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/hLsllw4zhC04cVGiV69v0.png",
+    "specs": {
+      "params": "3B / 600M",
+      "license": "LFM Open License v1.0 (license: other)",
+      "memory": "미발표",
+      "modality": "d1-3B: 텍스트·이미지 / omni: 텍스트+이미지 또는 오디오"
+    },
+    "links": [
+      {
+        "label": "Liquid AI 블로그",
+        "url": "https://www.liquid.ai/blog/d1-open",
+        "type": "source"
+      },
+      {
+        "label": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/",
+        "type": "source"
+      },
+      {
+        "label": "LiquidAI/d1-3B",
+        "url": "https://huggingface.co/LiquidAI/d1-3B",
+        "type": "huggingface"
+      },
+      {
+        "label": "d1-3B GGUF",
+        "url": "https://huggingface.co/LiquidAI/d1-3B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "LiquidAI/d1-omni-600M",
+        "url": "https://huggingface.co/LiquidAI/d1-omni-600M",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-anthropic-claude-haiku-5-5",
+    "date": "2026-10-07",
+    "category": "AI·IT",
+    "title": "Anthropic, Claude Haiku 5.5 출시",
+    "summary": "Anthropic이 소형 모델 Claude Haiku 5.5를 출시했다. 10만 토큰 이하 프롬프트 기준 입력 $0.10·출력 $0.50(100만 토큰당)으로 Haiku 4.5($1/$5)보다 90% 저렴하며, Haiku급 최초로 effort 조절을 지원한다.",
+    "why": "서브에이전트·요약·분류 같은 대량 작업 비용이 크게 낮아진다(Anthropic은 평균 약 75% 절감이라고 설명). 함께 Sonnet 5.5 캐시 읽기 가격을 50% 인하하고, Max·Team 구독자에게 월 API 크레딧(Max 5x $100, Max 20x $200, Team 최대 $500)을 제공한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 발표 페이지(10/7) 직접 확인. 벤치마크는 Anthropic 자체 수치."
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+    "links": [
+      {
+        "label": "Anthropic 발표",
+        "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-06-msit-gukgam-modu-ai",
+    "date": "2026-10-06",
+    "category": "한국 IT",
+    "title": "배경훈 부총리 \"연말 '모두의 AI' 출시\"…AI 3대 메가 프로젝트 강조",
+    "summary": "배경훈 부총리 겸 과기정통부 장관이 10월 6일 국회 과방위 국정감사 인사말에서 올 연말 모든 국민이 비용 부담과 이용량 제한 없이 쓰는 '모두의 AI' 서비스를 출시한다고 밝혔다. AI 데이터센터·피지컬 AI·반도체를 3대 메가 프로젝트로 꼽았다.",
+    "why": "대화형 서비스뿐 아니라 공공서비스를 먼저 안내하고 신청까지 돕는 공공 AI 에이전트, 건강·교육·금융·세무 특화 서비스가 함께 제공될 예정이라 국내 AI 서비스 시장과 이용자에게 직접 영향이 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·서울신문 보도(10/6)로 교차 확인. 구체적 출시일·운영 방식은 미발표."
+    },
+    "image": "https://img7.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100606980001301_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261006071300017",
+        "type": "source"
+      },
+      {
+        "label": "서울신문",
+        "url": "https://m.seoul.co.kr/news/2026/10/06/20261006500099?cp=seoul",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-06-mistral-large-4-preview",
+    "date": "2026-10-06",
+    "category": "로컬 AI",
+    "title": "Mistral Large 4 퍼블릭 프리뷰 (가중치 10월 말 공개 예정)",
+    "summary": "Mistral이 총 1조(1T) 파라미터·활성 520억(52B) 파라미터의 네이티브 멀티모달 모델 Mistral Large 4(ML4) 프리뷰 API를 공개했다. 오픈 웨이트는 이달 말 공개 예정이다.",
+    "why": "유럽산 최대급 오픈 웨이트 모델로, Mistral은 DeepSWE v1.1 61.7%, Terminal-Bench 4 28.3%, Cybench 93% 등을 제시했다. 유럽 자체 데이터센터의 NVIDIA Grace Blackwell GPU 3,800장으로 처음부터 학습했다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Mistral 공식 발표(10/6) 직접 확인. 가중치는 아직 미공개라 Hugging Face 링크 없음. 벤치마크는 Mistral 자체 수치."
+    },
+    "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+    "specs": {
+      "params": "1T 총 / 52B 활성 (MoE)",
+      "license": "미발표 (가중치 10월 말 공개 예정)",
+      "memory": "미발표",
+      "modality": "텍스트·이미지 (네이티브 멀티모달)"
+    },
+    "links": [
+      {
+        "label": "Mistral 발표",
+        "url": "https://mistral.ai/news/mistral-large-4/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-06-google-embeddinggemma-2",
+    "date": "2026-10-06",
+    "category": "로컬 AI",
+    "title": "Google EmbeddingGemma 2 (740M 멀티모달 임베딩, Apache 2.0)",
+    "summary": "Google이 텍스트·코드·이미지·영상·오디오를 하나의 임베딩 공간에 매핑하는 7.4억(740M) 파라미터 오픈 모델 EmbeddingGemma 2를 Apache 2.0으로 공개했다. 컨텍스트는 8K 토큰으로 전작의 4배다.",
+    "why": "온디바이스 RAG·검색용으로, 양자화 시 Pixel 11 Pro에서 텍스트 전용 약 191MB, 전체 멀티모달 약 567MB RAM으로 동작한다고 밝혔다. MTEB Code 점수는 68.76→78.68로 올랐다(Google 수치).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google 공식 블로그 + Hugging Face 모델 카드(license: apache-2.0) 확인. 독립 매체(The Frontier)도 보도."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+    "specs": {
+      "params": "740M (텍스트 전용 270M + 비전 170M + 오디오 300M)",
+      "license": "Apache 2.0",
+      "memory": "~191MB(텍스트) / ~567MB(멀티모달), 양자화·Pixel 11 Pro 기준",
+      "context": "8K 토큰"
+    },
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+        "type": "source"
+      },
+      {
+        "label": "google/embeddinggemma-2",
+        "url": "https://huggingface.co/google/embeddinggemma-2",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF (ggml-org)",
+        "url": "https://huggingface.co/ggml-org/embeddinggemma-2-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-05-llama-cpp-v0-6-0",
+    "date": "2026-10-05",
+    "category": "로컬 AI",
+    "title": "llama.cpp v0.6.0 릴리스",
+    "summary": "llama.cpp v0.6.0이 나왔다. 토큰·임베딩을 섞어 넣는 새 llama_batch_ext API, GLM-5.3-Flash(320B)·Clef 결정 모델 지원, Qwen4Exp MTP 추측 디코딩(DGX Spark에서 디코드 약 1.5배), 서버의 /v1/systemone 결정 모델 API, Web UI의 Hugging Face Hub 모델 다운로드 파이프라인이 추가됐다.",
+    "why": "로컬 LLM 실행의 사실상 표준 엔진 업데이트로, Metal 소수 행 MMA 커널(Apple GPU에서 mat-mul 최대 약 3배) 등 성능 개선과 API 변경(세션 포맷 버전 상향)이 있어 업그레이드 시 확인이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트(2026-10-05 16:56 UTC 게시) 직접 확인."
+    },
+    "image": "https://opengraph.githubassets.com/f148c6e1fa26a2f23e77888f27f831597619df4e9dedb1c712812b4146909c58/ggml-org/llama.cpp/releases/tag/v0.6.0",
+    "links": [
+      {
+        "label": "릴리스 노트",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0",
+        "type": "source"
+      },
+      {
+        "label": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-03-bilibili-index-translate-35b-a3b",
+    "date": "2026-10-03",
+    "category": "로컬 AI",
+    "title": "bilibili Index-Translate-35B-A3B 프리뷰·공식 GGUF 공개 (150개 언어 번역)",
+    "summary": "bilibili Index Team이 Qwen3.5 기반 35B 총·3B 활성 MoE 번역 모델 Index-Translate-35B-A3B-preview와 공식 GGUF(Q2_K~F16)를 Apache 2.0으로 공개했다. 150개 언어 번역과 용어집·포맷 강제 같은 지시 기반 번역을 지원한다.",
+    "why": "권장 Q4_K_M 파일이 21.71GB로 24GB급 GPU나 넉넉한 RAM 맥에서 로컬 번역기로 쓸 수 있다. 기술 보고서 기준 FLORES COMET-22 0.8794로 비교 대상 중 최고라고 밝혔다(자체 평가).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드·GGUF 저장소(license: apache-2.0, 10/2~3 업로드) 확인, Open Model Weights 독립 보도."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/IndexTeam/Index-Translate-35B-A3B-preview.png",
+    "specs": {
+      "params": "35B 총 / 3B 활성 (MoE)",
+      "license": "Apache 2.0",
+      "memory": "GGUF Q4_K_M 21.71GB (Q2_K 13.25GB ~ F16 71.07GB)"
+    },
+    "links": [
+      {
+        "label": "Open Model Weights",
+        "url": "https://openmodelweights.com/news/index-translate-35b-a3b-official-gguf-llamacpp/",
+        "type": "source"
+      },
+      {
+        "label": "Index-Translate-35B-A3B-preview",
+        "url": "https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF",
+        "url": "https://huggingface.co/IndexTeam/Index-Translate-35B-A3B-preview-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "bilibili/Index-Translate",
+        "url": "https://github.com/bilibili/Index-Translate",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-03-aleph-alpha-kolibri-1",
+    "date": "2026-10-03",
+    "category": "로컬 AI",
+    "title": "Aleph Alpha, 78B MoE 오픈 웨이트 'Kolibri-1' 공개 (Apache 2.0)",
+    "summary": "독일 Aleph Alpha가 영어·독일어 특화 MoE 추론 모델 Kolibri-1을 Apache 2.0으로 Hugging Face에 공개했다. 총 78.1B·토큰당 활성 3.46B 파라미터, 최대 1,048,576 토큰 컨텍스트(서빙은 262,144 이하 권장), 추론 모드·툴 호출을 지원한다.",
+    "why": "활성 파라미터가 작아 서빙 비용이 낮은 '소버린' 오픈 모델로, AIME 2025 96.9, LiveCodeBench v6 85.9 등을 제시했다(자체 측정). vLLM 플러그인(aleph-alpha-inference)이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Aleph Alpha 공식 블로그 + Hugging Face 모델 카드(license: apache-2.0) 확인, Open Model Weights 독립 보도."
+    },
+    "image": "https://aleph-alpha.com/_astro/00-cover.DUwFlxIO_ZzchVg.jpeg",
+    "specs": {
+      "params": "78.1B 총 / 3.46B 활성 (MoE, 전문가 384개 중 6개 선택)",
+      "license": "Apache 2.0",
+      "memory": "FP8 가중치 ~78GB, 최소 2×A100 80GB / 1×H200 등",
+      "context": "최대 1M 토큰 (권장 ≤262K)"
+    },
+    "links": [
+      {
+        "label": "Aleph Alpha 블로그",
+        "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+        "type": "source"
+      },
+      {
+        "label": "Aleph-Alpha/Kolibri-1",
+        "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+        "type": "huggingface"
+      },
+      {
+        "label": "Kolibri-1-BF16",
+        "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1-BF16",
+        "type": "huggingface"
+      },
+      {
+        "label": "aleph-alpha-inference",
+        "url": "https://github.com/Aleph-Alpha/aleph-alpha-inference",
+        "type": "github"
+      }
+    ]
+  }
+]

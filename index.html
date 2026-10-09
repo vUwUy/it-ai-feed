@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111317" media="(prefers-color-scheme: dark)">
+<meta name="referrer" content="no-referrer">
+<title>IT·AI·로컬 AI 뉴스 피드</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--fg:#14161a;--muted:#5d6470;--line:#e3e6eb;--accent:#2f6fec;--chip:#eef1f6;
+--src:#e8eefc;--src-fg:#2550b8;--hf:#fff4d6;--hf-fg:#8a5a00;--gh:#eceef1;--gh-fg:#24292f;--buy:#e3f6ea;--buy-fg:#17703f;
+--ok:#17803d;--warn:#b25b00}
+@media (prefers-color-scheme:dark){:root{--bg:#111317;--card:#1a1d23;--fg:#e8eaee;--muted:#9aa2ae;--line:#2a2f37;--accent:#6c9cff;--chip:#252a32;
+--src:#1e2a45;--src-fg:#9dbbff;--hf:#3a2f12;--hf-fg:#ffd36b;--gh:#2a2e35;--gh-fg:#d9dde3;--buy:#15321f;--buy-fg:#7fe0a3;--ok:#5fd18a;--warn:#ffb15c}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR","Malgun Gothic",sans-serif}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line);padding:calc(env(safe-area-inset-top) + 10px) 14px 8px}
+.top{display:flex;align-items:center;gap:8px;max-width:720px;margin:0 auto}
+h1{font-size:18px;margin:0;flex:1;letter-spacing:-.3px}
+.count{font-size:12px;color:var(--muted)}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;max-width:720px;margin:8px auto 0;padding-bottom:2px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer}
+.tab[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.tools{display:flex;gap:8px;align-items:center;max-width:720px;margin:8px auto 0;font-size:13px}
+.tools label{display:flex;align-items:center;gap:6px;flex:1;color:var(--muted)}
+.tools input{width:18px;height:18px;accent-color:var(--accent)}
+button.ghost{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:8px;padding:6px 10px;font-size:13px;cursor:pointer}
+main{max-width:720px;margin:0 auto;padding:12px 12px calc(env(safe-area-inset-bottom) + 40px)}
+.day{font-size:12px;font-weight:600;color:var(--muted);margin:16px 4px 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 12px;overflow:hidden;transition:opacity .2s,filter .2s;cursor:pointer}
+.card.read{opacity:.5;filter:grayscale(.85)}
+.thumb{display:block;width:100%;aspect-ratio:1.91/1;object-fit:cover;background:var(--chip)}
+.body{padding:12px 14px 14px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px;color:var(--muted);margin-bottom:6px}
+.cat{background:var(--chip);color:var(--fg);border-radius:6px;padding:1px 7px;font-weight:600}
+.vf{font-weight:600}.vf.ok{color:var(--ok)}.vf.no{color:var(--warn)}
+.newdot{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block}
+.card.read .newdot{display:none}
+h2{font-size:17px;line-height:1.35;margin:0 0 6px;letter-spacing:-.2px}
+p{margin:0 0 8px}
+.why{font-size:14px;color:var(--muted)}
+.why b{color:var(--fg)}
+.specs{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+.spec{font-size:12px;background:var(--chip);border-radius:6px;padding:2px 7px}
+.spec i{font-style:normal;color:var(--muted)}
+details.ver{font-size:12px;color:var(--muted);margin:2px 0 10px}
+details.ver summary{cursor:pointer}
+.links{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:13px;text-decoration:none;border-radius:999px;padding:5px 10px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip.source{background:var(--src);color:var(--src-fg)}
+.chip.huggingface{background:var(--hf);color:var(--hf-fg)}
+.chip.github{background:var(--gh);color:var(--gh-fg)}
+.chip.buy{background:var(--buy);color:var(--buy-fg)}
+.row{display:flex;justify-content:flex-end;margin-top:10px}
+.toggle{font-size:12px}
+.empty,.err{text-align:center;color:var(--muted);padding:40px 10px}
+</style>
+</head>
+<body>
+<header>
+  <div class="top"><h1>📰 IT·AI·로컬 AI 피드</h1><span class="count" id="count"></span></div>
+  <nav class="tabs" id="tabs" aria-label="카테고리"></nav>
+  <div class="tools">
+    <label><input type="checkbox" id="unreadOnly"> 안 읽은 것만</label>
+    <button class="ghost" id="markAll">모두 읽음</button>
+  </div>
+</header>
+<main id="list"><div class="empty">불러오는 중…</div></main>
+<script>
+(function(){
+  var KEY='itfeed.read.v1', CATKEY='itfeed.cat', UNKEY='itfeed.unreadOnly';
+  var items=[], cat=localStorage.getItem(CATKEY)||'전체', unreadOnly=localStorage.getItem(UNKEY)==='1';
+  var read; try{read=JSON.parse(localStorage.getItem(KEY))||{}}catch(e){read={}}
+  var $=function(id){return document.getElementById(id)};
+  var CHIP={source:'출처',huggingface:'🤗 HF',github:'GitHub',buy:'🛒 구매'};
+  var SPEC={params:'파라미터',license:'라이선스',memory:'메모리',context:'컨텍스트',modality:'입력',compute:'성능',price:'가격'};
+  function save(){localStorage.setItem(KEY,JSON.stringify(read))}
+  function isRead(id){return !!read[id]}
+  function setRead(id,v){if(v)read[id]=Date.now();else delete read[id];save();}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+  function safeUrl(u){return /^https?:\/\//i.test(u||'')?u:'#'}
+  function fmtDay(d){var m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||'');if(!m)return d;var w='일월화수목금토'[new Date(+m[1],+m[2]-1,+m[3]).getDay()];return m[1]+'년 '+(+m[2])+'월 '+(+m[3])+'일 ('+w+')'}
+  function renderTabs(){
+    var cats=['전체'];items.forEach(function(i){if(cats.indexOf(i.category)<0)cats.push(i.category)});
+    if(cats.indexOf(cat)<0)cat='전체';
+    $('tabs').innerHTML=cats.map(function(c){var n=c==='전체'?items.length:items.filter(function(i){return i.category===c}).length;
+      return '<button class="tab" aria-pressed="'+(c===cat)+'" data-cat="'+esc(c)+'">'+esc(c)+' '+n+'</button>'}).join('');
+  }
+  function card(i){
+    var v=i.verification||{}, ok=(v.status||'').indexOf('확인됨')===0;
+    var specs=i.specs?'<div class="specs">'+Object.keys(i.specs).map(function(k){return '<span class="spec"><i>'+esc(SPEC[k]||k)+'</i> '+esc(i.specs[k])+'</span>'}).join('')+'</div>':'';
+    var links=(i.links||[]).map(function(l){return '<a class="chip '+esc(l.type||'source')+'" href="'+esc(safeUrl(l.url))+'" target="_blank" rel="noopener noreferrer" data-link>'+esc(CHIP[l.type]||'링크')+' · '+esc(l.label)+'</a>'}).join('');
+    return '<article class="card'+(isRead(i.id)?' read':'')+'" data-id="'+esc(i.id)+'">'+
+      (i.image?'<img class="thumb" loading="lazy" referrerpolicy="no-referrer" alt="" src="'+esc(safeUrl(i.image))+'" onerror="this.remove()">':'')+
+      '<div class="body"><div class="meta"><span class="newdot" title="안 읽음"></span><span class="cat">'+esc(i.category)+'</span><span>'+esc(i.date)+'</span>'+
+      '<span class="vf '+(ok?'ok':'no')+'">'+(ok?'✓ 확인됨':'⚠ '+esc(v.status||'미확인'))+'</span></div>'+
+      '<h2>'+esc(i.title)+'</h2><p>'+esc(i.summary)+'</p>'+
+      (i.why?'<p class="why"><b>왜 중요?</b> '+esc(i.why)+'</p>':'')+specs+
+      (v.note?'<details class="ver"><summary>검증 메모</summary>'+esc(v.note)+'</details>':'')+
+      '<div class="links">'+links+'</div>'+
+      '<div class="row"><button class="ghost toggle" data-toggle>'+(isRead(i.id)?'안 읽음으로':'읽음으로')+'</button></div></div></article>';
+  }
+  function render(){
+    renderTabs();
+    var list=items.filter(function(i){return (cat==='전체'||i.category===cat)&&(!unreadOnly||!isRead(i.id))});
+    var unread=items.filter(function(i){return !isRead(i.id)}).length;
+    $('count').textContent='안 읽음 '+unread+' / '+items.length;
+    if(!list.length){$('list').innerHTML='<div class="empty">'+(unreadOnly?'모두 읽었어요 🎉':'항목이 없어요')+'</div>';return}
+    var html='',last='';
+    list.forEach(function(i){if(i.date!==last){html+='<div class="day">'+esc(fmtDay(i.date))+'</div>';last=i.date}html+=card(i)});
+    $('list').innerHTML=html;
+  }
+  function updateCard(el,id){
+    var r=isRead(id);el.classList.toggle('read',r);var b=el.querySelector('[data-toggle]');if(b)b.textContent=r?'안 읽음으로':'읽음으로';
+    $('count').textContent='안 읽음 '+items.filter(function(i){return !isRead(i.id)}).length+' / '+items.length;
+  }
+  $('tabs').addEventListener('click',function(e){var b=e.target.closest('[data-cat]');if(!b)return;cat=b.getAttribute('data-cat');localStorage.setItem(CATKEY,cat);render();window.scrollTo(0,0)});
+  $('unreadOnly').checked=unreadOnly;
+  $('unreadOnly').addEventListener('change',function(e){unreadOnly=e.target.checked;localStorage.setItem(UNKEY,unreadOnly?'1':'0');render()});
+  $('markAll').addEventListener('click',function(){var vis=items.filter(function(i){return cat==='전체'||i.category===cat});if(!vis.length)return;if(!confirm((cat==='전체'?'전체':cat)+' 항목 '+vis.length+'개를 모두 읽음 처리할까요?'))return;vis.forEach(function(i){if(!read[i.id])read[i.id]=Date.now()});save();render()});
+  $('list').addEventListener('click',function(e){
+    var c=e.target.closest('.card');if(!c)return;var id=c.getAttribute('data-id');
+    if(e.target.closest('[data-toggle]')){setRead(id,!isRead(id));if(unreadOnly)render();else updateCard(c,id);return}
+    if(e.target.closest('[data-link]')){setRead(id,true);updateCard(c,id);return}
+    if(e.target.closest('summary,details'))return;
+    if(!isRead(id)){setRead(id,true);updateCard(c,id)}
+  });
+  $('list').addEventListener('auxclick',function(e){var a=e.target.closest('[data-link]');if(!a)return;var c=a.closest('.card');setRead(c.getAttribute('data-id'),true);updateCard(c,c.getAttribute('data-id'))});
+  fetch('items.json?v='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(function(d){
+    items=(Array.isArray(d)?d:[]).slice().sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0});render();
+  }).catch(function(e){$('list').innerHTML='<div class="err">피드를 불러오지 못했어요 ('+esc(e.message)+')</div>'});
+})();
+</script>
+</body>
+</html>
