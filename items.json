@@ -20,6 +20,54 @@
     ]
   },
   {
+    "id": "2026-10-08-skt-upstage-cybersec-consortium",
+    "date": "2026-10-08",
+    "category": "한국 IT",
+    "title": "SKT·업스테이지, 독자 AI 사이버보안 협의체 출범",
+    "summary": "SK텔레콤과 업스테이지가 안랩·시큐아이 등 보안기업 6곳·대학 3곳 등 11개 기관과 ‘독자 AI 사이버보안 협의체’를 출범해 A.X K3·솔라에 현장 보안 데이터를 학습·상호 레드티밍한다고 밝혔다.",
+    "why": "독파모 진출 국산 모델을 보안 특화·제로데이·관제에 붙이는 민관·산학 협력으로, ‘모두의 AI’ 안전 운영과도 연결된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이(SKT 제공, 10/8) + 포스시큐리티 등 교차 확인."
+    },
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/10/08/2026100809170480927",
+        "type": "source"
+      },
+      {
+        "label": "포스시큐리티",
+        "url": "https://www.4th.kr/news/articleView.html?idxno=2119404",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-sk-hynix-ai-env-lab",
+    "date": "2026-10-08",
+    "category": "한국 IT",
+    "title": "SK하이닉스, AI 환경연구소·탈탄소전환센터 설립 추진",
+    "summary": "SK하이닉스가 K-GX 전략 선포식에서 반도체·데이터센터 전력·탄소·용수 문제를 AI로 다루는 AI 환경연구소와, 협력사 약 1700곳의 저탄소 전환을 돕는 탈탄소전환센터 설립을 추진한다고 밝혔다.",
+    "why": "AI 인프라 폭증과 ESG·공급망 탄소 규제에 대한 국내 메모리 리더의 조직적 대응이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "조선비즈(10/8) 업계·행사 인용 + EBN 등 교차 확인."
+    },
+    "links": [
+      {
+        "label": "조선비즈",
+        "url": "https://www.chosun.com/economy/tech_it/2026/10/08/GI3WEZDCGQ4WMMZYGU4DGYTFGM/",
+        "type": "source"
+      },
+      {
+        "label": "EBN",
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1727154",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-08-samsung-3q-2026-earnings-guidance",
     "date": "2026-10-08",
     "category": "한국 IT",
@@ -34,6 +82,30 @@
       {
         "label": "삼성 뉴스룸",
         "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-openai-false-front-io",
+    "date": "2026-10-08",
+    "category": "AI·IT",
+    "title": "OpenAI, 러시아·이란 ‘페이크 프론트’ 영향작전 ChatGPT 계정 차단",
+    "summary": "OpenAI가 러시아 기원 ‘Dark Clark’(중남미 가짜 싱크탱크, Breakout Scale Category 5)와 이란 기원 ‘Bogus Bylines’(가짜 기자 7명·약 100편 기고, Category 4) 영향작전 계정을 차단했다고 밝혔다. AI로 전통 IO 워크플로를 효율화해 실제 언론·정치 반응까지 이어진 사례다.",
+    "why": "OpenAI 영향작전 보고 중 첫 Category 5이며, 가짜 싱크탱크·기자 페르소나로 콘텐츠를 실제 매체에 심는 ‘false front’ 패턴을 공식 문서로 공개했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 보고서(10/8) + NPR 등 교차 확인."
+    },
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+        "type": "source"
+      },
+      {
+        "label": "NPR",
+        "url": "https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatgpt",
         "type": "source"
       }
     ]
@@ -119,6 +191,49 @@
       {
         "label": "Google 블로그",
         "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-google-amie-lancet",
+    "date": "2026-10-08",
+    "category": "AI·IT",
+    "title": "Google AMIE, The Lancet 실제 진료 전향 연구 결과 발표",
+    "summary": "Google·Beth Israel Deaconess Medical Center 연구진이 AMIE 진단 챗봇을 긴급 일차진료 전 단계에 쓴 전향 연구에서 환자 98명이 상담했고, 감독의의 안전 중단은 0건, 감별진단이 최종 진단과 90% 일치했다고 The Lancet에 보고했다.",
+    "why": "Google의 Lancet 본지 첫 게재급 임상 실현가능성 연구로, 환자 대면 AI 의료의 근거 수준이 한 단계 올라간다(대규모 RCT는 추가 필요).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google 블로그(10/8) + Lancet 논문 링크 교차 확인."
+    },
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+        "type": "source"
+      },
+      {
+        "label": "The Lancet",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01535-7/abstract",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-anthropic-oss-scanner",
+    "date": "2026-10-08",
+    "category": "AI·IT",
+    "title": "Anthropic, 오픈소스용 무료 취약점 스캐너 OSS Scanner 출시",
+    "summary": "Anthropic이 Project Glasswing 경험을 바탕으로, 오픈소스 프로젝트가 신청하면 최강 모델(Claude Mythos 포함)로 주기 보안 스캔을 무료 제공하는 opt-in 서비스 OSS Scanner를 출시했다. 리포트는 재현·설명·후보 패치를 포함하며 인간 검수 없이 모델이 생성한다.",
+    "why": "엔터프라이즈용 Claude Security와 별도로, 인간 병목 없이 OSS에 모델 생성 취약점 리포트를 직접 공급하는 AI 보안 인프라 움직임이다. CyberGym 기준 LLM 취약점 발견률이 작년 초 20% 미만에서 올해 85% 이상으로 올랐다고 Anthropic은 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 블로그(10/8) 직접 확인."
+    },
+    "links": [
+      {
+        "label": "Anthropic 블로그",
+        "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
         "type": "source"
       }
     ]
@@ -249,6 +364,60 @@
     ]
   },
   {
+    "id": "2026-10-07-google-playground-games",
+    "date": "2026-10-07",
+    "category": "AI·IT",
+    "title": "Google Labs, 프롬프트만으로 게임 만드는 Playground 출시",
+    "summary": "Google이 코딩 없이 텍스트 프롬프트로 게임을 만들고 공유하는 실험 플랫폼 Playground를 미국 18세+ 대상으로 공개했다. 브라우저 기반이며, 이후 Unity Spark 통합을 예고했다.",
+    "why": "월드모델·크리에이티브 AI의 소비자 제품화이며, 유니티 협력으로 프로급 게임 제작 경로를 연다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google 공식 블로그(10/7) 직접 확인."
+    },
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+        "type": "source"
+      },
+      {
+        "label": "Playground",
+        "url": "https://labs.google/playground",
+        "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-autotrust-jev-27b-vl",
+    "date": "2026-10-07",
+    "category": "로컬 AI",
+    "title": "AutoTrust JEV-27B-VL, Decision Index Vision 보드 1위",
+    "summary": "AutoTrust의 오픈웨이트 멀티모달 결정 모델 JEV-27B-VL(Apache-2.0, Qwen3.8-27B 기반)이 Jev Decision Index 0.3 Vision 보드 Full score 69.82로 20개 모델 중 1위를 기록했다(보드 갱신 10/7). vLLM POST /v1/decide로 서빙한다.",
+    "why": "이미지 위 예/아니오·선택·점수 결정을 한 번에 내는 로컬·에이전트용 결정 모델로, 로봇·컴퓨터 유즈 데모까지 공개됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드의 보드 수치·라이선스 직접 확인."
+    },
+    "specs": {
+      "params": "27B",
+      "license": "Apache 2.0",
+      "modality": "텍스트·이미지",
+      "compute": "vLLM /v1/decide"
+    },
+    "links": [
+      {
+        "label": "autotrust/JEV-27B-VL",
+        "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+        "type": "huggingface"
+      },
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/autotrust-ais-jev-27b-vl-tops-hugging-face-global-trending-list-as-open-decision-models-gain-momentum-302902279.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-07-anthropic-claude-haiku-5-5",
     "date": "2026-10-07",
     "category": "AI·IT",
@@ -264,6 +433,59 @@
       {
         "label": "Anthropic 발표",
         "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-06-personal-agent-protocol",
+    "date": "2026-10-06",
+    "category": "AI·IT",
+    "title": "Sierra·Meta 등, Personal Agent Protocol(PAP) 오픈 표준 발표",
+    "summary": "Sierra와 Meta가 Genesys·Instinct·Shopify·Stripe·Walmart 등과 함께 개인 AI 에이전트가 OAuth 기반으로 기업 웹·API·기업 에이전트와 안전하게 상호작용하는 오픈 표준 PAP를 발표하고, 이달 중 v0.1 스펙을 공개할 예정이라고 밝혔다.",
+    "why": "에이전트 커머스·계정 작업의 ‘클릭 대행’에서 표준화된 인증·권한·가시성으로 넘어가는 산업 인프라다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Sierra 공식 블로그(10/6) 직접 확인."
+    },
+    "links": [
+      {
+        "label": "Sierra 블로그",
+        "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-06-openai-math-release-withdraw",
+    "date": "2026-10-06",
+    "category": "AI·IT",
+    "title": "OpenAI, AI 수학 원고 700편 이상 GitHub 공개…이후 3편 철회",
+    "summary": "OpenAI가 내부 프론티어 모델로 만든 수학 결과물 700편 이상을 10월 6일 GitHub에 공개했고, 이후 부호 오류 등으로 3편을 철회했다(철회된 원고는 Lean 미검증분). Nature는 수학계 반응·보이콧 논란을 보도했다.",
+    "why": "AI 수학 연구 대량 공개 방식·Lean 검증·수학계 부담이 동시에 불거진 대형 스토리다. HN 철회 스레드도 활발하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식(10/6) + Nature(10/7) + HN 철회 논의 교차 확인. ‘700편 이상’은 Nature 표현."
+    },
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "type": "source"
+      },
+      {
+        "label": "openai/math",
+        "url": "https://github.com/openai/math",
+        "type": "github"
+      },
+      {
+        "label": "Nature",
+        "url": "https://www.nature.com/articles/d41586-026-03196-8",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50002650",
         "type": "source"
       }
     ]
@@ -352,6 +574,30 @@
         "label": "GGUF (ggml-org)",
         "url": "https://huggingface.co/ggml-org/embeddinggemma-2-GGUF",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-05-openai-textgrain-eu",
+    "date": "2026-10-05",
+    "category": "AI·IT",
+    "title": "OpenAI, EU용 텍스트 워터마크 textGrain 도입",
+    "summary": "OpenAI가 EU AI Act 대응으로 textGrain 비가시 텍스트 워터마크를 도입했다. API는 전 세계 opt-in(기본 off), EU ChatGPT·Codex 적격 텍스트는 수주 내 적용하며, 탐지기는 승인 연구기관부터 개방한다.",
+    "why": "생성 텍스트 출처 표시의 실무 롤아웃이며, 편집·짧은 텍스트에서 탐지율이 크게 떨어진다는 한계도 함께 공개했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 정책 글(10/5) 직접 확인."
+    },
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/eu-text-provenance",
+        "type": "source"
+      },
+      {
+        "label": "Help Center",
+        "url": "https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content",
+        "type": "source"
       }
     ]
   },
