@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-10-09-korean-banks-artex-ai-hack",
+    "date": "2026-10-09",
+    "category": "한국 IT",
+    "title": "국내 은행 연쇄 해킹에 AI 에이전트 ARTEX·Claude Code 사용 정황…개발자는 ARTEX 비공개 전환",
+    "summary": "9월 말부터 국내 은행 최소 9곳이 사이버 공격 대상으로 공개·보도됐고(Reuters 집계), CrowdStrike는 용의자가 중국 거주 26세로 추정되며 오픈소스 침투 테스트 AI 에이전트 ARTEX와 Anthropic의 Claude Code를 썼다고 밝혔다. ARTEX 개발자는 이후 프로젝트를 비공개로 전환하고 업데이트를 중단했다.",
+    "why": "AI 에이전트를 악용한 공격이 국내 금융권 고객 개인정보 유출로 이어진 사례로, 경찰 수사가 시작됐고 대통령도 강력한 대응을 주문했다. 오픈소스 보안 도구 공개와 AI 코딩 도구 악용 논란이 커질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Reuters 보도(The Hindu 전재) + CrowdStrike 발표를 인용한 별도 보도로 교차 확인"
+    },
+    "links": [
+      {
+        "label": "The Hindu (Reuters)",
+        "url": "https://www.thehindu.com/sci-tech/technology/chinese-developer-makes-artex-ai-agent-closed-source-after-korean-bank-hack/article71562469.ece",
+        "type": "source"
+      },
+      {
+        "label": "WebProNews",
+        "url": "https://www.webpronews.com/ai-tools-and-sloppy-opsec-expose-suspected-chinese-hacker-behind-south-korean-bank-breaches/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-08-us-dol-perm-suspension-microsoft-adobe",
     "date": "2026-10-08",
     "category": "AI·IT",
