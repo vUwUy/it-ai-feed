@@ -1,5 +1,48 @@
 [
   {
+    "id": "2026-10-09-sk-chey-honam-fab",
+    "date": "2026-10-09",
+    "category": "한국 IT",
+    "title": "최태원 회장, 전남광주 반도체 클러스터 건설 가속 지시",
+    "summary": "9일 SK하이닉스 경영진과 광주 부지를 방문해, 용인 클러스터 일정을 12년 앞당겼지만 그래도 부족할 것으로 보여 용인·전남광주 공장 병행 건설도 검토한다고 밝혔습니다.",
+    "why": "AI 메모리(HBM) 수요가 예상보다 빨라 국내 생산 투자 일정이 당겨지고 있다는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이 현장 보도(최 회장·SK하이닉스 발언 직접 인용)"
+    },
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/industry/2026/10/09/2026100916284260972",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-09-ollama-v0-40-2",
+    "date": "2026-10-09",
+    "category": "로컬 AI",
+    "title": "Ollama v0.40.2: 기존 모델 자동 업그레이드·백업 정리 안내",
+    "summary": "이전 버전에서 받은 모델을 처음 실행할 때 llama.cpp 런타임용으로 백그라운드 업그레이드하며, 다운그레이드 대비 원본을 백업으로 남겨 디스크를 일시적으로 더 씁니다. 릴리스 노트에 백업 삭제 스크립트가 있습니다.",
+    "why": "0.40 계열(Apple Silicon MLX 기본 실행)로 올린 사용자라면 디스크 용량을 확인할 필요가 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "릴리스 노트",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+        "type": "source"
+      },
+      {
+        "label": "ollama v0.40.2",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-10-09-korean-banks-artex-ai-hack",
     "date": "2026-10-09",
     "category": "한국 IT",
@@ -19,6 +62,30 @@
       {
         "label": "WebProNews",
         "url": "https://www.webpronews.com/ai-tools-and-sloppy-opsec-expose-suspected-chinese-hacker-behind-south-korean-bank-breaches/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-09-anthropic-2026-usage-policy",
+    "date": "2026-10-09",
+    "category": "AI·IT",
+    "title": "Anthropic, 1년여 만에 Claude 이용 정책 개정 (11월 12일 시행)",
+    "summary": "기만적 캠페인·선거 방해 금지를 한 섹션으로 묶고, 무기 소프트웨어·감시 금지를 넓혔으며, 모델에 대한 '지속적이고 불필요한 학대·잔혹 행위'를 새로 금지했습니다. 건강·금융 등 고위험 용도와 물리적 자율 행동 통제 요건도 명확히 했습니다.",
+    "why": "Claude API·Claude Code를 쓰는 모든 사용자와 서비스에 적용되는 규칙 변경입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 공지 + TechCrunch·The Verge 보도"
+    },
+    "links": [
+      {
+        "label": "Anthropic 공지",
+        "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
         "type": "source"
       }
     ]
@@ -598,6 +665,30 @@
         "label": "GGUF (ggml-org)",
         "url": "https://huggingface.co/ggml-org/embeddinggemma-2-GGUF",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-06-deepseek-funding-15b",
+    "date": "2026-10-06",
+    "category": "AI·IT",
+    "title": "DeepSeek, 텐센트 참여 투자 유치 최대 150억 달러 규모로 확대",
+    "summary": "최소 800억 위안(약 120억 달러), 최대 1000억 위안(약 150억 달러)으로 당초 목표의 두 배이며, 텐센트·CATL 등이 참여하고 10월 마감, 2027년 초 상하이 IPO 가능성이 거론됩니다.",
+    "why": "대표적인 오픈 웨이트 연구소의 자금력이 크게 늘어 차기 모델 개발 속도에 영향을 줄 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC·Bloomberg Law(Bloomberg 보도) 독립 보도 2곳, 회사 공식 발표는 아님"
+    },
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
+        "type": "source"
+      },
+      {
+        "label": "Straits Times",
+        "url": "https://www.straitstimes.com/business/deepseek-set-to-raise-at-least-15-billion-in-tencent-backed-funding",
+        "type": "source"
       }
     ]
   },
