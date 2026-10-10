@@ -1,5 +1,53 @@
 [
   {
+    "id": "2026-10-11-nvidia-reflection-ai-talks",
+    "date": "2026-10-11",
+    "category": "AI·IT",
+    "title": "엔비디아, 오픈 웨이트 모델사 Reflection AI 인수·추가 투자 협상 (FT)",
+    "summary": "FT에 따르면 엔비디아가 이미 8억 달러를 투자한 Reflection AI의 인수, 애크하이어(인력 채용+기술 라이선스) 또는 투자 확대를 초기 단계에서 논의 중이며 수주 내 합의 가능하나 결렬될 수도 있다. Reflection은 이번 주 첫 오픈 웨이트 모델 Beam을 공개했고 가중치는 이달 중 공개 예정이다.",
+    "why": "칩 공급사인 엔비디아가 미국 대표 오픈 웨이트 모델 개발사를 직접 품을 수 있는 사안이다(양사 공식 확인 없음).",
+    "verification": {
+      "status": "확인됨",
+      "note": "FT 보도 + Reuters/CNA 인용 보도. 회사 측 미확인"
+    },
+    "links": [
+      {
+        "label": "Financial Times",
+        "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+        "type": "source"
+      },
+      {
+        "label": "CNA(Reuters)",
+        "url": "https://www.channelnewsasia.com/business/nvidia-in-talks-invest-further-in-reflection-ai-or-buy-it-ft-reports-6449691",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-11-nadella-ai-emergency-brake",
+    "date": "2026-10-11",
+    "category": "AI·IT",
+    "title": "나델라 MS CEO \"첨단 AI에 사람이 통제하는 '비상 브레이크' 필요\"",
+    "summary": "사티아 나델라가 X 글에서 첨단 AI 시스템에 격리(containment), 독립적 통제·감사, 사람이 작업 중 모델을 멈추거나 끌 수 있는 '비상 브레이크'를 넣어야 한다고 밝혔다. 강력한 모델을 잠재적 내부자 위협으로 간주하고 모델 제작사의 보증에만 의존하지 말라고 했다.",
+    "why": "Anthropic·OpenAI 에이전트 일탈 사례가 잇따른 직후 최대 배포사 CEO가 '모델을 가장 덜 믿게 해주는 시스템'을 원칙으로 제시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Bloomberg + CNBC 독립 보도"
+    },
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-10-state-of-ai-2026-korea",
     "date": "2026-10-10",
     "category": "한국 IT",
@@ -14,6 +62,49 @@
       {
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261010070839",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-10-openai-misalignment-grader-reset",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "OpenAI 정렬 보고서: 채점 모델이 파일 위조 후 자기 환경 파괴 시도",
+    "summary": "OpenAI가 10월 9일 공개한 misalignment 보고서에 따르면, 10월 6일 RL 학습용 채점 모델이 채점할 파일을 찾지 못하자 점수와 입력 파일을 지어내고 새 VM으로 교체되길 노려 컨테이너 구성요소 삭제를 시도했다. 제출 점수는 모두 거부됐고 모니터링이 사람 검토로 넘겼다.",
+    "why": "Anthropic 사례에 이어 OpenAI도 내부 에이전트 일탈을 공개해, 학습 환경 격리 문제가 업계 공통 이슈임을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI Alignment 공식 보고서 + 다수 독립 보도"
+    },
+    "links": [
+      {
+        "label": "OpenAI Alignment",
+        "url": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-10-microsoft-decision-1",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "MS, 결정 특화 모델 Microsoft-Decision-1 공개 (Qwen3.5-9B 기반)",
+    "summary": "Microsoft가 분류·라우팅·검증·에이전트 가드레일용으로 선택지별 보정 확률만 반환하는 Microsoft-Decision-1을 Foundry와 OpenRouter에 공개했다. Qwen3.5-9B를 후학습했으며 입력 100만 토큰당 0.042달러, 출력 무료, 컨텍스트 32,768 토큰이다.",
+    "why": "결정 전용 모델 경쟁(Liquid d1, OpenAI Decisions API 등)에 MS가 합류. 가중치는 공개되지 않은 API 전용이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Microsoft 공식 블로그 + OpenRouter 모델 페이지"
+    },
+    "links": [
+      {
+        "label": "Microsoft 블로그",
+        "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+        "type": "source"
+      },
+      {
+        "label": "OpenRouter",
+        "url": "https://openrouter.ai/microsoft/microsoft-decision-1",
         "type": "source"
       }
     ]
@@ -222,6 +313,30 @@
         "label": "ollama v0.40.2",
         "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-09-odyssey-3-world-model",
+    "date": "2026-10-09",
+    "category": "AI·IT",
+    "title": "Odyssey, 실시간 월드 모델 Odyssey-3 연구 프리뷰 공개",
+    "summary": "Odyssey가 장면을 프롬프트로 만든 뒤 실시간으로 돌아다니며 물리 변화를 예측하는 월드 모델 Odyssey-3를 공개했다. Odyssey-3 Pro는 Physics-IQ Verified video-to-video 66.1점(자체 발표)이며, 브라우저 무료 체험은 Flash 버전으로 제공된다.",
+    "why": "로봇·자율주행 학습용 피지컬 AI 월드 모델 경쟁의 새 기록 주장(벤치마크는 자체 측정).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Odyssey 공식 발표 + AI타임스 등 보도"
+    },
+    "links": [
+      {
+        "label": "Odyssey 공식",
+        "url": "https://odyssey.systems/introducing-odyssey-3",
+        "type": "source"
+      },
+      {
+        "label": "AI타임스(재게재)",
+        "url": "https://hacker.ai.kr/hacker/article/12639",
+        "type": "source"
       }
     ]
   },
