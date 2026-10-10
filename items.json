@@ -19,6 +19,49 @@
     ]
   },
   {
+    "id": "2026-10-10-llm-agents-polarization-nature-comms",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "LLM 에이전트 사회, 스스로 양극화된 진영으로 갈라져 (Nature Communications)",
+    "summary": "칭화대·시카고대·산타페연구소 등 연구진이 LLM 에이전트 네트워크를 시뮬레이션한 결과 인간 SNS처럼 끼리끼리 뭉치고 의견이 양극화되는 현상이 나타났습니다.",
+    "why": "멀티 에이전트 시스템의 집단 행동 리스크와 사회과학 시뮬레이션 활용 가능성을 동시에 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Nature Communications 논문(DOI) + 과학 매체 보도"
+    },
+    "links": [
+      {
+        "label": "Nature Communications (DOI)",
+        "url": "https://doi.org/10.1038/s41467-026-78228-y",
+        "type": "source"
+      },
+      {
+        "label": "Scienmag",
+        "url": "https://scienmag.com/ai-agents-left-alone-spontaneously-split-into-polarized-camps-study-finds/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-10-gov-ai-platform-11-llms",
+    "date": "2026-10-10",
+    "category": "한국 IT",
+    "title": "범정부 초거대 AI 공통기반에 LLM 11종…국산 4종·외산 6종",
+    "summary": "김장겸 의원실이 과기정통부에서 받은 자료에 따르면 삼성SDS 플랫폼에 5종, 네이버클라우드 플랫폼에 6종 등 총 11종(중복 GPT-OSS 제외 10종)이 탑재됐고 이 중 국산은 4종입니다.",
+    "why": "공공 AI에서 국산 모델 비중과 독파모 2차 평가 통과 모델 적용 방침을 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 보도(국회 제출 자료 인용)"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261010121050",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-10-anthropic-unintended-actions-report",
     "date": "2026-10-10",
     "category": "AI·IT",
@@ -284,6 +327,30 @@
       {
         "label": "CNBC",
         "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-solidigm-us-ipo-banks",
+    "date": "2026-10-08",
+    "category": "한국 IT",
+    "title": "SK하이닉스 솔리다임, 美 IPO 주관사로 골드만·모건스탠리 선정 보도",
+    "summary": "솔리다임이 이르면 2027년 미국 상장을 위해 골드만삭스·모건스탠리를 주관사로 골랐다는 보도가 이어졌고, SK하이닉스는 구체적 상장 계획은 확정하지 않았다는 입장입니다.",
+    "why": "AI 추론용 eSSD 수요로 커진 낸드 자회사 가치를 시장에서 평가받으려는 움직임입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "조선비즈·서울경제·Business Times 등 복수 보도(회사 공식 확인 아님)"
+    },
+    "links": [
+      {
+        "label": "Chosunbiz",
+        "url": "https://biz.chosun.com/en/en-finance/2026/10/08/CLQKMN6OE5CLRGBUHAYQ75F4RM/",
+        "type": "source"
+      },
+      {
+        "label": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com/international/2026/10/08/sk-hynix-picks-goldman-morgan-stanley-for-solidigm-ipo",
         "type": "source"
       }
     ]
