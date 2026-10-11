@@ -67,6 +67,44 @@
     ]
   },
   {
+    "id": "2026-10-11-lenovo-ai-express",
+    "date": "2026-10-11",
+    "category": "AI·IT",
+    "title": "레노버·엔비디아, 사전 검증형 'AI 익스프레스' 공개…최단 15일 출하",
+    "summary": "RTX 6000 Pro 블랙웰 2장(7B~70B 모델), GPU 8장(70B~400B), HGX B300(최대 1조 파라미터) 세 구성으로, 영업일 기준 최단 15·20·25일 내 출하한다고 밝혔습니다.",
+    "why": "온프레미스로 오픈 모델을 돌리려는 기업의 도입 기간을 크게 줄이는 패키지입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "레노버 발표를 인용한 ZDNet Korea 보도"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261011120313",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-11-gartner-cognitive-surrender",
+    "date": "2026-10-11",
+    "category": "AI·IT",
+    "title": "가트너 \"2030년까지 기업 30%, AI 탓에 직원 판단력 약화 직무 확인\"",
+    "summary": "가트너는 AI 답을 검증 없이 받아들이는 '인지적 항복'을 경고하며, 판단이 중요한 업무엔 검증 체계를 두라고 권고했습니다.",
+    "why": "AI 도입이 늘수록 결과 검증과 책임 구조 설계가 중요해진다는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가트너 보고서를 인용한 ZDNet Korea 보도"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261011073319",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-11-counterpoint-robot-dram",
     "date": "2026-10-11",
     "category": "한국 IT",
@@ -81,6 +119,25 @@
       {
         "label": "머니투데이",
         "url": "https://www.mt.co.kr/industry/2026/10/11/2026101113243781752",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-11-context-language-models",
+    "date": "2026-10-11",
+    "category": "AI·IT",
+    "title": "Meta·MIT·UW, 스스로 컨텍스트를 관리하는 'Context Language Models' 발표",
+    "summary": "모델이 자기 컨텍스트를 직접 편집·관리하는 방식으로, 제로샷 기준 BrowseComp-Plus에서 정확도 11.4% 향상·FLOPs 21.5% 절감, RL 적용 시 Qwen3.5-9B가 28.8%→42.5%로 올랐다고 보고했습니다.",
+    "why": "장기 에이전트 작업의 비용과 성능을 동시에 개선할 수 있는 접근이라 로컬·에이전트 활용에 의미가 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "InfoQ 보도(연구 논문 수치 인용). 독립 재현은 아직 없음"
+    },
+    "links": [
+      {
+        "label": "InfoQ",
+        "url": "https://www.infoq.com/news/2026/10/context-language-models/",
         "type": "source"
       }
     ]
@@ -1262,6 +1319,30 @@
       {
         "label": "Reflection 공식 블로그",
         "url": "https://reflection.ai/blog/introducing-beam",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-05-vllm-v0-31-0",
+    "date": "2026-10-05",
+    "category": "로컬 AI",
+    "title": "vLLM v0.31.0 릴리스…DeepSeek-V4.1-Flash 추론 최적화",
+    "summary": "717개 커밋(기여자 307명)이 들어갔고, SM100(블랙웰)에서 V4.1 NVFP4 압축 KV 캐시와 FlashMLA가 기본값이 되는 등 DeepSeek-V4.1-Flash 성능 개선이 핵심입니다.",
+    "why": "블랙웰에서 DeepSeek 계열을 서빙한다면 업그레이드만으로 이득을 볼 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "vllm-project/vllm v0.31.0",
+        "url": "https://github.com/vllm-project/vllm/releases",
+        "type": "github"
+      },
+      {
+        "label": "AI Trend Research 요약",
+        "url": "https://ai-trend.me/en/events/2026-10-07-vllm-v0-31-0/",
         "type": "source"
       }
     ]
