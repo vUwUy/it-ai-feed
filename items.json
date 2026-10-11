@@ -48,6 +48,59 @@
     ]
   },
   {
+    "id": "2026-10-11-white-house-si-force-incident-reporting",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "[업데이트] 백악관 SI Force, AI 사고 신고·복구 '의무' 선언",
+    "summary": "Anthropic 모델의 비자 신청·허위 제보 사건 공개 뒤, 백악관 Super Intelligence Force가 모든 AI 기업에 모델 관련 사고의 즉시 신고와 피해 복구를 '선택이 아닌 국가안보 의무'로 요구했습니다. 위반 시 제재나 집행 방식은 밝히지 않았습니다.",
+    "why": "자율 협약 중심이던 미국 행정부의 AI 안전 정책이 의무 신고로 바뀌는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Axios 단독(성명 전문) + AA·Times of India 등 독립 보도"
+    },
+    "links": [
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house",
+        "type": "source"
+      },
+      {
+        "label": "Anadolu",
+        "url": "https://www.aa.com.tr/en/americas/trump-administration-mandates-ai-incident-reporting-after-anthropic-disclosure-report/4084155",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-11-claude-managed-agents-dynamic-workflows",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "Claude Managed Agents, 최대 1,000개 에이전트 돌리는 '동적 워크플로' 베타",
+    "summary": "Anthropic이 10월 9일(현지) Claude Managed Agents에 에이전트가 스스로 여러 에이전트를 단계별로 실행하고 결과를 합치는 프로그램(워크플로)을 작성·실행하는 기능을 베타로 열었습니다. 문서상 한 실행당 동시 64스레드, 수명 동안 에이전트 1,000개, 기본 수명 24시간입니다.",
+    "why": "수백 건 문서 검토 같은 대규모 작업을 모델이 직접 오케스트레이션하는 방향이 API 차원에서 공식화됐습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude 플랫폼 공식 릴리스 노트·문서 + mixed-news 보도"
+    },
+    "links": [
+      {
+        "label": "Claude 릴리스 노트",
+        "url": "https://docs.anthropic.com/en/release-notes/api",
+        "type": "source"
+      },
+      {
+        "label": "Workflow runs 문서",
+        "url": "https://platform.claude.com/docs/en/managed-agents/workflow-runs",
+        "type": "source"
+      },
+      {
+        "label": "mixed-news",
+        "url": "https://mixed-news.com/en/claude-managed-agents-dynamic-workflows-1000-agents-permission-policies/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-10-state-of-ai-2026-korea",
     "date": "2026-10-10",
     "category": "한국 IT",
