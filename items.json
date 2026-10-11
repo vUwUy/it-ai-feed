@@ -24,6 +24,25 @@
     ]
   },
   {
+    "id": "2026-10-11-naver-kakao-ai-monetization",
+    "date": "2026-10-11",
+    "category": "한국 IT",
+    "title": "네이버·카카오 AI 수익화 본격화…카카오 13~14일 if(kakao)26서 카나나 전략 공개",
+    "summary": "네이버 AI 브리핑은 7월 기준 월 이용자 3000만 명을 넘었고, 카카오는 카카오톡 에이전틱 AI 연말 MAU 1000만 명을 목표로 한다. 카카오는 13~14일 if(kakao)26에서 'AI 레이어'와 카나나 모델 전략을 공개할 예정이다.",
+    "why": "국내 양대 플랫폼이 AI를 광고·커머스·결제 매출로 연결하는 단계로 들어섰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "매일일보 보도(업계 취재), 카카오 수치는 회사 발표 기반"
+    },
+    "links": [
+      {
+        "label": "매일일보",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2003965",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-11-nadella-ai-emergency-brake",
     "date": "2026-10-11",
     "category": "AI·IT",
@@ -48,6 +67,25 @@
     ]
   },
   {
+    "id": "2026-10-11-counterpoint-robot-dram",
+    "date": "2026-10-11",
+    "category": "한국 IT",
+    "title": "카운터포인트 \"휴머노이드 로봇 D램 수요 2030년까지 20배\"",
+    "summary": "카운터포인트리서치는 휴머노이드 로봇 D램 수요가 올해 약 8300Tbit에서 2030년 17만2000Tbit로 늘고, 대당 탑재량은 19GB에서 39GB로 늘 것으로 전망했다. 2분기 HBM 점유율은 SK하이닉스 50%, 삼성전자 33%다.",
+    "why": "HBM 이후 삼성전자·SK하이닉스의 다음 메모리 수요처로 로봇이 꼽히고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이가 카운터포인트 자료 인용"
+    },
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/industry/2026/10/11/2026101113243781752",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-11-white-house-si-force-incident-reporting",
     "date": "2026-10-10",
     "category": "AI·IT",
@@ -67,6 +105,49 @@
       {
         "label": "Anadolu",
         "url": "https://www.aa.com.tr/en/americas/trump-administration-mandates-ai-incident-reporting-after-anthropic-disclosure-report/4084155",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-11-telegram-desktop-cve-2026-107181",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "Telegram Desktop 원클릭 계정 탈취 취약점 CVE-2026-107181…7.2.9로 업데이트",
+    "summary": "7.2.9 이전 Telegram Desktop은 조작된 tg:// 링크 한 번 클릭으로 IPC 명령 주입, 세션(tdata) 등 로컬 파일 열람, 계정 탈취가 가능했다. 7.2.9 이상으로 업데이트하고, 의심되면 활성 세션을 종료해야 한다.",
+    "why": "PC용 텔레그램 사용자라면 바로 업데이트해야 하는 보안 이슈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CVE.org 레코드 + Tenable"
+    },
+    "links": [
+      {
+        "label": "CVE.org",
+        "url": "https://www.cve.org/CVERecord?id=CVE-2026-107181",
+        "type": "source"
+      },
+      {
+        "label": "Tenable",
+        "url": "https://www.tenable.com/cve/CVE-2026-107181",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-11-nuvacore-2-5b-valuation",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "세쿼이아 투자 칩 스타트업 Nuvacore, 기업가치 약 25억 달러로 투자 유치 추진 (로이터)",
+    "summary": "AI 데이터센터용 범용 CPU 코어를 설계하는 Nuvacore가 약 25억 달러 가치로 수억 달러 조달을 추진 중이라고 로이터가 소식통을 인용해 보도했다. 10월 9일 기준 라운드는 마감 전이다.",
+    "why": "제품 출시 전 단계에서도 AI 인프라 칩에 대형 자금이 몰리고 있음을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독(CNA·US News 전재), 조건은 바뀔 수 있음"
+    },
+    "links": [
+      {
+        "label": "CNA (Reuters)",
+        "url": "https://www.channelnewsasia.com/business/exclusive-sequoia-backed-chip-startup-nuvacore-raising-funds-about-25-billion-valuation-sources-say-6448066",
         "type": "source"
       }
     ]
@@ -1157,6 +1238,30 @@
       {
         "label": "Straits Times",
         "url": "https://www.straitstimes.com/business/deepseek-set-to-raise-at-least-15-billion-in-tencent-backed-funding",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-11-reflection-beam-501b",
+    "date": "2026-10-05",
+    "category": "로컬 AI",
+    "title": "Reflection AI, 501B MoE 오픈 웨이트 모델 Beam 발표 (가중치 10월 중 공개 예정)",
+    "summary": "총 501B·활성 23B 희소 MoE로 코딩·추론·에이전트용이며, 미드트레이닝으로 유효 컨텍스트 1M 토큰을 주장한다. Apache 2.0 가중치·기술 보고서·모델 카드는 '이달 말' 공개 예정이고 지금은 대기자 API만 있다.",
+    "why": "엔비디아의 Reflection AI 인수 협상 보도와 맞물린 대형 미국산 오픈 웨이트 모델이다. 성능 수치는 회사 자체 발표라 가중치 공개 후 검증이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Reflection 공식 블로그 + SiliconANGLE 등 보도. 가중치는 아직 미공개"
+    },
+    "specs": {
+      "params": "501B (활성 23B)",
+      "license": "Apache 2.0 (예정)",
+      "context": "1M (주장), 베타 API 262K"
+    },
+    "links": [
+      {
+        "label": "Reflection 공식 블로그",
+        "url": "https://reflection.ai/blog/introducing-beam",
         "type": "source"
       }
     ]
