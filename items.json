@@ -1,5 +1,293 @@
 [
   {
+    "id": "2026-10-13-physical-ai-tech-week",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "과기정통부 '피지컬 AI 테크 위크' 13~14일 코엑스…2027년 범부처 사업설명회",
+    "summary": "오늘부터 이틀간 코엑스에서 피지컬 AI 얼라이언스 400여 곳 등 500명 이상이 참여하는 행사가 열립니다. 첫날에는 과기정통부·중기부·농식품부·해수부가 제조·물류·농업·항만 분야 2027년 사업을 소개하고, 크래프톤·엔비디아코리아·인텔 발표가 이어집니다.",
+    "why": "내년 정부 피지컬 AI 예산과 사업 방향을 미리 볼 수 있는 자리입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "과기정통부 보도자료 기반 아이뉴스24·디지털타임스 등 복수 보도"
+    },
+    "image": "https://image.inews24.com/v1/4596842e0c41e0.jpg",
+    "links": [
+      {
+        "label": "아이뉴스24",
+        "url": "https://www.inews24.com/view/2013742",
+        "type": "source"
+      },
+      {
+        "label": "과기정통부 보도자료",
+        "url": "https://www.msit.go.kr/bbs/view.do?bbsSeqNo=94&mId=113&mPid=112&nttSeqNo=3187856&sCode=user",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-microsoft-maia-300",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "마이크로소프트, 3세대 AI 추론 칩 'Maia 300' 공개…2027년부터 멀티 기가와트 배치",
+    "summary": "마이크로소프트가 Maia 300을 공개하고 2027년부터 Maia를 자사 제품·서비스의 주력 추론 시스템으로 키운다고 밝혔습니다. HBM4 8스택(18.0TB/s, TDP 950W), TSMC N2P 칩렛 구조이며, 선도 GPU 시스템 대비 메가와트당 토큰 40% 증가, 96개 가속기 랙 기준 Maia 200 대비 최대 7배 처리량을 예상한다고 했습니다.",
+    "why": "현재 Maia 200이 Copilot 등 실서비스를 돌리고 있어, 빅테크의 엔비디아 GPU 의존 축소가 본격 단계로 들어섰다는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "마이크로소프트 공식 블로그(스콧 거스리) + The Verge 보도"
+    },
+    "specs": {
+      "memory": "HBM4 8스택, 18.0TB/s",
+      "compute": "TSMC N2P 칩렛, TDP 950W, 랙당 96개·167kW"
+    },
+    "links": [
+      {
+        "label": "Microsoft 공식 블로그",
+        "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+        "type": "source"
+      },
+      {
+        "label": "Azure 아키텍처 상세",
+        "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-meta-muse-wonder",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "메타, 첫 프런티어 모델 'Muse Wonder'·'Muse Wonder Full' 출시",
+    "summary": "메타 초지능연구소가 개인·업무용 에이전트에 맞춘 Muse Wonder와 Muse Wonder Full을 공개했습니다. Muse Wonder는 Meta Model API와 Muse Code로 바로 쓸 수 있고(입력 100만 토큰당 4달러, 출력 20달러), Wonder Full은 Muse Code 구독자 전용이며 API로는 제공하지 않습니다.",
+    "why": "메타가 Muse Spark 같은 경량 모델을 넘어 OpenAI·Anthropic과 정면으로 겨루는 첫 프런티어급 모델입니다. 메타 자체 테스트에서 MemoryBench 점수가 Fable·Opus·Astra보다 높다고 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 공식 발표·연구 블로그 + TechCrunch 보도. 벤치마크는 메타 자체 측정치"
+    },
+    "image": "https://about.fb.com/wp-content/uploads/2026/10/museWonder_socialShare.jpg?w=1200",
+    "specs": {
+      "price": "입력 $4 / 출력 $20 (100만 토큰당, Muse Wonder API)"
+    },
+    "links": [
+      {
+        "label": "메타 공식 발표",
+        "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+        "type": "source"
+      },
+      {
+        "label": "메타 연구 블로그",
+        "url": "https://research.meta.ai/blog/muse-wonder",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50059115",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-france-supermarket-fridge-hack",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "프랑스 슈퍼마켓 약 400곳 냉장고 해킹…최고 50도까지 가열돼 식품 폐기",
+    "summary": "해커가 덴마크 Danfoss의 냉장 관리 소프트웨어를 장악해 카르푸·인터마르셰·모노프리 등 프랑스 슈퍼마켓 냉장·냉동고를 가열시켰습니다. BBC에 따르면 업체별 수치를 합치면 약 400개 매장이 피해를 입었고, Danfoss는 보안 업데이트가 불가능한 구형 장비가 당했다고 밝혔습니다. 파리 검찰이 수사에 착수했습니다.",
+    "why": "구형 산업용 IoT 장비가 실제 물리적 피해로 이어진 대규모 공격 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "BBC + CBS·DW 등 복수 언론 보도"
+    },
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cfaf/live/a3ced500-c63a-11f1-b99d-0127a94fa1d0.jpg",
+    "links": [
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo",
+        "type": "source"
+      },
+      {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/news/cyberattack-supermarkets-refrigerators-france-fires-food-losses/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50055304",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-anthropic-self-replicating-ai",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "Anthropic \"소형 AI 모델, 몇 달 안에 IoT 기기로 자가 복제 가능할 수도\" 연구 공개",
+    "summary": "Anthropic은 실험에서 9B 모델이 9종 하드웨어 중 8종에 추론 환경을 스스로 구축했고, 단순화한 평가에서는 GLM-5.2 이상 모델이 끝까지 자가 복제를 해냈다고 밝혔습니다. 55달러짜리 안드로이드 TV 박스 15대로 Gemma4-26B-A4B를 초당 0.39토큰으로 돌리는 시연도 공개했습니다.",
+    "why": "오픈 웨이트 소형 모델의 성능 추세대로라면 올해 말 이 수준에 도달할 수 있다는 전망이라, 로컬 AI 생태계와 IoT 보안 모두에 직접 관련됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 연구 글(1차 출처). 시점 전망은 Anthropic의 추정"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "links": [
+      {
+        "label": "Anthropic 연구",
+        "url": "https://www.anthropic.com/research/self-replicating-ai",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-vllm-sr-decision-3",
+    "date": "2026-10-12",
+    "category": "로컬 AI",
+    "title": "vLLM Semantic Router, 결정 모델 'Decision 3.0(d3)' 6종 공개…llama.cpp 지원·공식 GGUF",
+    "summary": "vLLM Semantic Router가 텍스트·이미지·영상을 받아 선택·예/아니오·점수 질문에 확률로 답하는 결정 모델 d3 계열 6종(0.59B~26.09B, Apache 2.0)을 허깅페이스에 올렸습니다. llama.cpp에 지원이 병합됐고 ggml-org가 GGUF 변환본을 공개했으며, 27B급 d3는 Jev Decision Index 0.3 공개 세트에서 65.45점이라고 밝혔습니다.",
+    "why": "라우팅·분류용 소형 모델을 로컬에서 바로 돌릴 수 있고, 최소 0.59B 크기라 엣지 기기에도 들어갑니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드 + llama.cpp 병합 PR + ggml-org GGUF 저장소 확인. 점수는 개발사 측정치"
+    },
+    "specs": {
+      "params": "0.59B·0.85B·2.21B·4.54B·8.39B·26.09B",
+      "license": "Apache 2.0",
+      "modality": "텍스트·이미지·영상 입력"
+    },
+    "links": [
+      {
+        "label": "d3 공식 모델 카드",
+        "url": "https://huggingface.co/vllm-sr/d3",
+        "type": "source"
+      },
+      {
+        "label": "vllm-sr/d3",
+        "url": "https://huggingface.co/vllm-sr/d3",
+        "type": "huggingface"
+      },
+      {
+        "label": "vllm-sr/d3-edge",
+        "url": "https://huggingface.co/vllm-sr/d3-edge",
+        "type": "huggingface"
+      },
+      {
+        "label": "ggml-org/vllm-d3-GGUF",
+        "url": "https://huggingface.co/ggml-org/vllm-d3-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "llama.cpp PR #30383",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30383",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-sk-hynix-h-tpu",
+    "date": "2026-10-12",
+    "category": "한국 IT",
+    "title": "SK하이닉스, SSD용 초경량 프로세서 'H-TPU' 구조 공개…내년 HBF에도 적용",
+    "summary": "SK하이닉스는 ISOCC 2026에서 SSD 컨트롤러의 반복 입출력 작업을 100여 개의 소형 H-TPU에 나눠 맡기는 구조를 공개했습니다. 범용 CPU 코어 대비 전력은 40분의 1, 면적은 25분의 1 수준이며, 차세대 eSSD와 AI 스토리지 '스토리지 넥스트', 내년 출시될 HBF에 적용할 계획입니다.",
+    "why": "AI 데이터센터 병목이 메모리·스토리지로 옮겨가는 가운데, 스토리지 컨트롤러까지 AI용으로 재설계하는 흐름입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "디일렉 + ZDNet Korea 독립 보도(학회 발표 내용)"
+    },
+    "image": "https://cdn.thelec.kr/news/photo/202610/63561_50004_711.jpg",
+    "links": [
+      {
+        "label": "디일렉",
+        "url": "https://www.thelec.kr/news/articleView.html?idxno=63561",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261012144007",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-lecun-seoul-world-model",
+    "date": "2026-10-12",
+    "category": "한국 IT",
+    "title": "얀 르쿤 서울 간담회 \"다음 AI 혁명은 물리 세계…한국 제조업에 기회\"",
+    "summary": "AMI Labs의 얀 르쿤 회장은 12일 서울 '산업 AI 글로벌 협력' 기자간담회에서 LLM은 물리 세계 이해에 한계가 있다며 월드모델과 JEPA를 차세대 핵심으로 꼽았습니다. 한국의 제조 역량을 글로벌 AI와 연결해야 하고, 해외 연구자를 끌어들일 연구 환경이 필요하다고 말했습니다.",
+    "why": "정부의 피지컬 AI 드라이브와 맞물려 국내 제조 AI 논의에 힘을 싣는 발언입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·디지털데일리·조선비즈 등 현장 취재 복수 보도"
+    },
+    "image": "https://img7.yna.co.kr/etc/inner/KR/2026/10/12/AKR20261012086500017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261012086500017",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026101212570564156",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-gpt-6-1-sol-500k-context",
+    "date": "2026-10-12",
+    "category": "AI·IT",
+    "title": "OpenAI, Codex·Work의 GPT-6.1 Sol 기본 컨텍스트 272K→500K로 확대",
+    "summary": "OpenAI의 Tibo(티보 소티오)가 Codex와 Work에서 GPT-6.1 Sol의 기본 컨텍스트 길이를 272K에서 500K로, 약 80% 늘렸다고 X에서 밝혔습니다. 앞으로 더 늘릴 예정이며 컨텍스트 압축(compaction) 빈도를 줄여준다고 설명했습니다.",
+    "why": "긴 코드베이스·장기 작업을 다루는 코딩 에이전트 사용자에게 바로 체감되는 변화입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 담당자 본인 X 게시물(1차 출처) + 다수 매체 보도"
+    },
+    "links": [
+      {
+        "label": "Tibo X 게시물",
+        "url": "https://x.com/thsottiaux/status/2109430343346581527",
+        "type": "source"
+      },
+      {
+        "label": "TechFlow",
+        "url": "https://techflowpost.com/en-US/newsletter/139604",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-deepseek-winverse-seed",
+    "date": "2026-10-12",
+    "category": "AI·IT",
+    "title": "딥시크, 전 텐센트 과학자의 로봇 AI 스타트업 Winverse 시드 투자 주도 추진 (블룸버그)",
+    "summary": "블룸버그에 따르면 딥시크가 텐센트 출신 후한(Hu Han)이 올해 세운 로봇 AI 스타트업 Winverse AI의 시드 라운드를 주도하며, 투자 후 기업가치는 약 4억 달러입니다. 거래 조건과 투자자 구성은 아직 바뀔 수 있다고 보도됐습니다.",
+    "why": "딥시크가 지분 투자를 넘어 피지컬 AI(로봇) 분야로 영역을 넓히는 움직임입니다.",
+    "verification": {
+      "status": "미확인",
+      "note": "블룸버그 익명 소식통 보도(Quartz 등 인용), 딥시크·Winverse 공식 확인 없음"
+    },
+    "links": [
+      {
+        "label": "Quartz (블룸버그 인용)",
+        "url": "https://qz.com/deepseek-winverse-ai-robotics-seed-round-101226",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Government",
+        "url": "https://news.bgov.com/capital-markets/deepseek-backs-ex-tencent-ai-scientists-400-million-robot-lab",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-12-shipbuilding-max-alliance",
     "date": "2026-10-12",
     "category": "한국 IT",
