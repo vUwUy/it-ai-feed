@@ -1,5 +1,72 @@
 [
   {
+    "id": "2026-10-12-samsung-znand-lineup",
+    "date": "2026-10-12",
+    "category": "한국 IT",
+    "title": "삼성전자, 차세대 'z낸드' 3종으로 세분화 개발 중 (업계 보도)",
+    "summary": "ZDNet Korea에 따르면 삼성전자는 8월 공개한 z낸드-O 외에 처리량 특화 z낸드-T, IOPS 특화 z낸드-I를 초기 개발 중이다. 삼성은 공식 발표하지 않았다.",
+    "why": "AI 데이터센터·추론용 맞춤형 낸드(HBF 등) 경쟁의 방향을 보여준다.",
+    "verification": {
+      "status": "미확인",
+      "note": "ZDNet Korea 업계 소식통 보도 단독, 삼성 공식 발표 없음"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261012103405",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-naver-maps-ai-glasses",
+    "date": "2026-10-12",
+    "category": "한국 IT",
+    "title": "네이버지도, 메타·구글·삼성 AI 글래스로 길안내 확대",
+    "summary": "네이버가 국내 지도 서비스 최초로 AI 글래스 음성 길안내를 지원하며, 레이밴 메타·오클리 메타에서 먼저 제공하고 연내 출시 예정인 구글·삼성 '인텔리전트 아이웨어'로 확대한다. 안드로이드 우선, iOS 순차 적용.",
+    "why": "스마트폰 없는 AI 웨어러블에 국내 서비스가 붙는 첫 사례로, 구글·삼성 기기에서는 제미나이와 연동된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴스핌·헤럴드경제 독립 보도(네이버 12일 발표)"
+    },
+    "links": [
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261012000257",
+        "type": "source"
+      },
+      {
+        "label": "The Herald Business",
+        "url": "https://biz.heraldcorp.com/article/10899049",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-llamacpp-probabilistic-mtp",
+    "date": "2026-10-11",
+    "category": "로컬 AI",
+    "title": "llama.cpp, 확률적 MTP(멀티토큰 예측) 병합",
+    "summary": "llama.cpp에 확률적 MTP 추측 디코딩 PR #27694가 병합됐다. r/LocalLLaMA 사용자 테스트에서는 산문 생성 디코딩이 약 14% 빨라졌다고 한다(사용자 측정치).",
+    "why": "MTP 헤드가 있는 모델을 로컬에서 더 빠르게 돌릴 수 있다. 최신 빌드로 업데이트 필요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub PR 병합 확인, 속도 수치는 커뮤니티 측정"
+    },
+    "links": [
+      {
+        "label": "ggml-org/llama.cpp#27694",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/27694",
+        "type": "github"
+      },
+      {
+        "label": "r/LocalLLaMA 글(미러)",
+        "url": "https://prismix.dev/news/52391cdfbae7",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-11-nvidia-reflection-ai-talks",
     "date": "2026-10-11",
     "category": "AI·IT",
@@ -412,6 +479,35 @@
     ]
   },
   {
+    "id": "2026-10-12-cloudflare-deno",
+    "date": "2026-10-09",
+    "category": "AI·IT",
+    "title": "Deno 팀 Cloudflare 합류…Deno 런타임은 1년 뒤 개발 종료",
+    "summary": "Deno 팀 전원이 Cloudflare에 합류해 celld와 workerd를 합친다. Deno 런타임은 1년간 월간 버그·보안 업데이트 후 개발을 끝내고, Deno Deploy는 6개월 뒤 종료, JSR은 유지된다. 인수 조건은 비공개.",
+    "why": "Deno·Deno Deploy 사용자는 마이그레이션 계획이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Cloudflare·Deno 공식 블로그 + TechCrunch"
+    },
+    "links": [
+      {
+        "label": "Deno 블로그",
+        "url": "https://deno.com/blog/cloudflare",
+        "type": "source"
+      },
+      {
+        "label": "Cloudflare 블로그",
+        "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-09-sk-chey-honam-fab",
     "date": "2026-10-09",
     "category": "한국 IT",
@@ -613,6 +709,30 @@
       {
         "label": "AI타임스(요약)",
         "url": "https://hacker.ai.kr/hacker/article/12580",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-manus-500m",
+    "date": "2026-10-08",
+    "category": "AI·IT",
+    "title": "Manus, 메타 인수 무산 후 첫 투자 5억 달러 이상 유치",
+    "summary": "Manus 모회사 Butterfly Effect가 Boyu Capital·IDG Capital 주도로 5억 달러 이상을 유치했고 텐센트·HSG·ZhenFund가 참여했다. 기업가치는 공개하지 않았다.",
+    "why": "중국 당국의 메타 인수 해제 명령 이후에도 AI 에이전트 기업에 대형 자금이 몰린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC·TechCrunch·로이터(DealStreetAsia) 독립 보도"
+    },
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
         "type": "source"
       }
     ]
