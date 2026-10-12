@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-10-12-shipbuilding-max-alliance",
+    "date": "2026-10-12",
+    "category": "한국 IT",
+    "title": "산업부·해수부, 조선업 AI 전환에 2030년까지 1.4조 원…영암에 4천억 원 'AI 조선소 등대공장'",
+    "summary": "정부가 자율운항선박 얼라이언스를 '조선 M.AX 얼라이언스'로 확대하고 목포·영암(5,960억 원), 거제·부산(5,000억 원), 군산(3,100억 원) 3대 플래그십 프로젝트를 추진합니다. 첫 사업으로 HD현대삼호와 대아산업이 영암 대불자유무역지역에 4,000억 원을 투자해 AI 자율운영 조선소 등대공장을 짓는 MOU를 맺었습니다.",
+    "why": "대형 조선소에 머물던 AI 전환을 중소 조선·기자재사까지 넓히는 정부의 첫 대규모 공정 AX 사업입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "해양수산부 보도자료(1차 출처) + 파이낸셜뉴스 보도"
+    },
+    "image": "https://image.fnnews.com/resource/media/image/2026/10/12/202610121555163875_e.JPG",
+    "links": [
+      {
+        "label": "해양수산부 보도자료",
+        "url": "https://www.mof.go.kr/doc/ko/selectDoc.do?bbsSeq=10&docSeq=68969&menuSeq=971",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610121443318403",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-12-samsung-znand-lineup",
     "date": "2026-10-12",
     "category": "한국 IT",
@@ -14,6 +39,31 @@
       {
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261012103405",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-sakana-mass-rsi",
+    "date": "2026-10-12",
+    "category": "AI·IT",
+    "title": "Sakana AI·UC 버클리, 같은 모델이 스스로 팀을 짜고 배우는 자기개선 연구 'MASS'",
+    "summary": "한 모델이 실행자·워크플로 최적화자·평가자를 모두 맡아 멀티에이전트 작업 기록으로 스스로 학습하는 방법입니다. Qwen3.6-27B로 2라운드를 돈 결과 보류 과제에서 기본 모델 대비 승률이 53.9%에서 69.9%로 올랐고, 연구형 벤치마크 4종에서 출력 토큰당 점수가 1.2~1.6배가 됐지만 Terminal-Bench 2.0(0.96배)·SWE-bench Verified(0.94배)에서는 오히려 낮았습니다.",
+    "why": "외부 정답 없이 모델이 자기 판단만으로 개선하는 재귀적 자기개선(RSI) 실험이라, 성능뿐 아니라 '공유된 맹점' 같은 안전 문제도 함께 다룹니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Sakana AI 공식 연구 페이지(1차 출처). 수치는 저자 발표치"
+    },
+    "image": "https://pub.sakana.ai/mass/assets/figures/ogp.png",
+    "links": [
+      {
+        "label": "Sakana AI 연구 페이지",
+        "url": "https://pub.sakana.ai/mass/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50048522",
         "type": "source"
       }
     ]
@@ -38,6 +88,96 @@
       {
         "label": "The Herald Business",
         "url": "https://biz.heraldcorp.com/article/10899049",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-mangoboost-mango-inference",
+    "date": "2026-10-12",
+    "category": "한국 IT",
+    "title": "망고부스트, 서버리스 AI 추론 플랫폼 '망고 인퍼런스' 출시",
+    "summary": "DPU 스타트업 망고부스트가 인프라 구축 없이 API로 AI 모델을 쓰는 서버리스 추론 서비스 '망고 인퍼런스'를 내놨습니다. 김장우 대표는 자사 소프트웨어로 AMD GPU에서도 엔비디아에 맞먹는 추론 성능을 낼 수 있다며, 내년 1분기 강남에 1MW급 데이터센터를 짓고 내년 중 5MW급으로 키우겠다고 밝혔습니다.",
+    "why": "국내 하드웨어 스타트업이 칩·네트워크에서 추론 클라우드 서비스까지 직접 뛰어드는 사례로, 향후 국산 NPU 적용 계획도 내놨습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이 + 아이뉴스24 + 디지털데일리 독립 보도(기자간담회)"
+    },
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=834,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026101214170029475_1.jpg",
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/10/12/2026101214170029475",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026101213265545597",
+        "type": "source"
+      },
+      {
+        "label": "아이뉴스24",
+        "url": "https://www.inews24.com/view/2013914",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-lablup-glm52-dflash-ko",
+    "date": "2026-10-12",
+    "category": "로컬 AI",
+    "title": "래블업, 한국어 추론 가속용 드래프트 모델 'GLM-5.2-NVFP4-DFlash-ko' 공개 (MIT)",
+    "summary": "nvidia/GLM-5.2-NVFP4(753B MoE, 활성 40B)와 짝을 이루는 1.05B DFlash 블록 확산 드래프트 모델로, vLLM 추측 디코딩에 붙여 씁니다. 모델 카드 기준 실제 트래픽에서 에이전트 멀티턴은 1.72배, 한국어 코딩 질의는 1.92배 디코딩이 빨라졌습니다.",
+    "why": "영어로 학습한 드래프트는 한국어에서 수락 길이가 떨어지는데, 한국어 에이전트 트래픽으로 학습한 공개 드래프트라 국내 셀프호스팅 서빙에 바로 쓸 수 있습니다. 다만 대상 모델은 B200급 8장(TP8) 규모입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(1차 출처) + ZDNet Korea·뉴스핌 보도"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/lablup/GLM-5.2-NVFP4-DFlash-ko.png",
+    "specs": {
+      "params": "1.05B (드래프트)",
+      "license": "MIT",
+      "compute": "대상 모델 vLLM TP8"
+    },
+    "links": [
+      {
+        "label": "lablup/GLM-5.2-NVFP4-DFlash-ko",
+        "url": "https://huggingface.co/lablup/GLM-5.2-NVFP4-DFlash-ko",
+        "type": "huggingface"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261012103624",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261012000723",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-kt-modu-ai-beta",
+    "date": "2026-10-12",
+    "category": "한국 IT",
+    "title": "[업데이트] KT '모두의 AI', 이달 베타 시작·12월 정식 출시",
+    "summary": "KT가 12일 '모두의 AI 커넥트 서밋 2026'을 열고 국내 기업들과 개발 중인 통합 AI 서비스 '모두의 AI'를 이달 중 베타로, 12월에 정식 출시한다고 밝혔습니다. 다음·업스테이지·솔트룩스·EBS·리벨리온·래블업·NC AI 등 컨소시엄 17개 기업이 검색·교육·금융·부동산 서비스를 하나로 연결합니다.",
+    "why": "정부 'AI 3대 메가 프로젝트' 중 하나로 예고된 '모두의 AI'의 구체적인 출시 일정이 처음 나왔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "파이낸셜뉴스 + ZDNet Korea 독립 보도"
+    },
+    "image": "https://image.zdnet.co.kr/2026/10/12/67fc79c38a2b87aae845955e6e1e144c.jpg",
+    "links": [
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610120903347542",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261012095041",
         "type": "source"
       }
     ]
@@ -72,6 +212,30 @@
       {
         "label": "Decart",
         "url": "https://decart.ai/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-us-restores-uk-aisi-access",
+    "date": "2026-10-11",
+    "category": "AI·IT",
+    "title": "미 행정부, 영국 AI안전연구소(AISI)에 신모델 사전 공유 막던 요청 철회",
+    "summary": "트럼프 행정부가 OpenAI·Anthropic 등에 출시 전 모델을 영국 AI Security Institute와 공유하지 말라고 했던 요청을 뒤집었다고 텔레그래프가 11일 보도했고 로이터가 이를 전했습니다. 이에 따라 미국 개발사들은 다시 영국 정부에 안전 테스트용 조기 접근을 줄 수 있게 됐습니다.",
+    "why": "미국 정부가 국제 AI 안전 협력에 한발 물러선 태도를 보인 것으로, 직전에 나온 AI 사고 신고 의무화와 함께 정책 기조 변화 신호로 읽힙니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "텔레그래프 원보도 + 로이터 전재 확인. 백악관·OpenAI·Anthropic은 로이터 문의에 즉답하지 않음"
+    },
+    "links": [
+      {
+        "label": "The Telegraph",
+        "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/",
+        "type": "source"
+      },
+      {
+        "label": "Reuters (Devdiscourse 전재)",
+        "url": "https://www.devdiscourse.com/article/international/3990564-us-reverses-course-on-britains-testing-of-ai-models-telegraph-says",
         "type": "source"
       }
     ]
@@ -537,6 +701,38 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-cloudflare-clef-omni",
+    "date": "2026-10-09",
+    "category": "로컬 AI",
+    "title": "Cloudflare, 오디오·영상까지 한 번에 판단하는 결정 모델 Clef-omni 공개 (30B-A3B, Apache 2.0)",
+    "summary": "Qwen3-Omni-30B-A3B-Instruct를 후학습한 MoE 결정 모델로, 텍스트·JSON·이미지·오디오·영상을 받아 질문별 선택지 확률을 한 번의 순전파로 돌려줍니다. 모델 카드 기준 bfloat16에서 GPU 메모리 약 64GB가 필요하며(H200 1장 테스트), HF에 양자화 버전 8종이 올라와 있습니다.",
+    "why": "전사·캡션 단계 없이 멀티모달 입력을 바로 분류·라우팅할 수 있는 오픈 웨이트 결정 모델이라, 최근 Jev·Decision-1로 이어진 '결정 모델' 흐름의 첫 옴니 버전입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(1차 출처) + MarkTechPost 보도. 벤치마크는 Cloudflare 자체 측정"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Cloudflare/clef-omni.png",
+    "specs": {
+      "params": "30B (활성 3B)",
+      "license": "Apache 2.0",
+      "memory": "~64GB (BF16)",
+      "context": "64K",
+      "modality": "텍스트·이미지·오디오·영상"
+    },
+    "links": [
+      {
+        "label": "Cloudflare/clef-omni",
+        "url": "https://huggingface.co/Cloudflare/clef-omni",
+        "type": "huggingface"
+      },
+      {
+        "label": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
         "type": "source"
       }
     ]
