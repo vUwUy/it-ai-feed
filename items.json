@@ -43,6 +43,40 @@
     ]
   },
   {
+    "id": "2026-10-12-amazon-decart-talks-7b",
+    "date": "2026-10-12",
+    "category": "AI·IT",
+    "title": "아마존, AI 스타트업 Decart 약 70억 달러 인수 협상 (WSJ)",
+    "summary": "WSJ에 따르면 아마존이 실시간 영상 편집(Lucy)·로봇·자율주행 시뮬레이션(Oasis) AI 스타트업 Decart를 약 70억 달러에 인수하는 협상을 진행 중이다. 5월 기업가치는 약 40억 달러였고, 9월 Anthropic이 약 60억 달러 인수를 실사 후 철회한 바 있다. 딜 성사·결렬·다른 인수자 등장 모두 가능하며 양사는 논평하지 않았다.",
+    "why": "약 70억 달러 규모 AI 스타트업 인수 협상으로, 영상·월드 모델 영역에 아마존이 직접 진입할 수 있는 대형 M&A다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WSJ 보도 + Bloomberg Law·Straits Times·Hindu BusinessLine 등 전재. Reuters는 독립 확인 못함. 회사 측 미확인, 딜 미확정"
+    },
+    "links": [
+      {
+        "label": "WSJ",
+        "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
+        "type": "source"
+      },
+      {
+        "label": "The Straits Times",
+        "url": "https://www.straitstimes.com/business/amazon-in-talks-to-buy-ai-startup-decart-for-around-us7-billion-report",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports",
+        "type": "source"
+      },
+      {
+        "label": "Decart",
+        "url": "https://decart.ai/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-12-llamacpp-probabilistic-mtp",
     "date": "2026-10-11",
     "category": "로컬 AI",
