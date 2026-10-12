@@ -217,6 +217,36 @@
     ]
   },
   {
+    "id": "2026-10-12-yandex-datacenter-strikes",
+    "date": "2026-10-11",
+    "category": "AI·IT",
+    "title": "얀덱스 데이터센터 3곳, 나흘 새 드론 공격으로 가동 중단·마비…클라우드·AI 서비스 장애",
+    "summary": "러시아 얀덱스의 대형 데이터센터 5곳 중 3곳(사소보 10/8, 칼루가 10/9, 블라디미르 10/11)이 우크라이나 드론 공격을 받아 사소보·블라디미르는 운영이 완전히 중단되고 칼루가는 일부 설비가 멈췄습니다. 얀덱스는 복구 시점을 예측하기 매우 어렵다고 밝혔고, 키이우포스트 등은 블라디미르 공격 뒤 80개 넘는 서비스가 영향을 받았다고 전했습니다.",
+    "why": "전쟁 중 상대국 빅테크의 데이터센터가 직접 표적이 돼 클라우드 가용 영역과 AI 학습용 슈퍼컴퓨터까지 멈춘 드문 사례로, 데이터센터 물리 보안과 재해 복구 설계의 중요성을 보여 줍니다. TNW는 사소보에 YandexGPT 학습용 슈퍼컴퓨터 3대 중 2대가 있다고 보도했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "얀덱스 공식 발표(10/9, 사소보·칼루가) + BBC(블라디미르 포함 3차 공격, 얀덱스 텔레그램 인용) + 로이터 인용 TNW 보도. 서비스 수(80개 이상)는 키이우포스트·YAC News 보도 기준"
+    },
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/92b1/live/fca86430-c56c-11f1-a64c-550be9e3c66b.jpg",
+    "links": [
+      {
+        "label": "얀덱스 공식 발표 (10/9)",
+        "url": "https://yandex.com/company/news/2026-10-09",
+        "type": "source"
+      },
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo",
+        "type": "source"
+      },
+      {
+        "label": "TNW (로이터 인용)",
+        "url": "https://thenextweb.com/news/drone-attack-shuts-a-third-yandex-data-centre",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-12-us-restores-uk-aisi-access",
     "date": "2026-10-11",
     "category": "AI·IT",
