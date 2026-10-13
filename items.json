@@ -179,6 +179,41 @@
     ]
   },
   {
+    "id": "2026-10-13-kospi-cxmt-chip-selloff",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "中 CXMT '4F² D램' 발표 여파…SK하이닉스 10%·삼성전자 7.4% 급락, 코스피 5.46% 하락",
+    "summary": "13일 코스피는 348.89포인트(5.46%) 내린 6,035.35로 마감했고, 삼성전자는 7.39% 내린 23만2천원, SK하이닉스는 10.09% 내린 144만3천원에 장을 마쳤습니다. 오전 9시47분 8월 19일 이후 처음으로 매도 사이드카가 발동됐고, 외국인은 4조5,259억원을 순매도했습니다. 중국 창신메모리(CXMT)는 연말까지 4F² 구조 서버용 DDR5 RDIMM을 내놓겠다고 밝혔습니다.",
+    "why": "CXMT가 삼성·SK하이닉스가 아직 연구 단계로만 보여 준 4F² 셀 구조를 서버 D램에 먼저 쓰겠다고 하면서 한국 메모리 업계의 기술 격차와 공급 과잉 우려가 함께 불거졌습니다. 다만 CXMT는 속도·용량·고객사를 공개하지 않았고, 국내 업계는 양산 성공 여부가 별개 문제라고 보고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "주가 수치는 연합뉴스·동아일보·파이낸셜뉴스 보도 일치. CXMT 계획은 차오칸위 사장의 상하이 컨퍼런스 발언을 Tom's Hardware·디지타임스·서울경제가 보도(CXMT 공식 보도자료는 없음). 급락 원인은 CXMT 외에 자사주 매입 종료·금리 등도 거론되는 언론 분석임."
+    },
+    "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/13/134831886.1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스 (코스피 마감)",
+        "url": "https://www.yna.co.kr/view/AKR20261013089251008",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스 (삼성·하이닉스 마감)",
+        "url": "https://www.yna.co.kr/view/AKR20261013042152008",
+        "type": "source"
+      },
+      {
+        "label": "동아일보",
+        "url": "https://www.donga.com/news/Economy/article/all/20261013/134831370/1",
+        "type": "source"
+      },
+      {
+        "label": "Tom's Hardware (CXMT 4F²)",
+        "url": "https://www.tomshardware.com/pc-components/dram/cxmt-president-says-companys-first-4f2-dram-will-be-a-server-ddr5-rdimm-due-by-year-end-vertical-transistors-cut-each-memory-cells-footprint-by-a-third-on-paper-but-no-speeds-or-capacities-yet",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-kes-2026-samsung-lg-ai",
     "date": "2026-10-13",
     "category": "한국 IT",
