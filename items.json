@@ -89,6 +89,25 @@
     ]
   },
   {
+    "id": "2026-10-13-naturewill-natura-1",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "베이징 스타트업 Nature Will, 로봇 손 조작 파운데이션 모델 'Natura-1' 공개",
+    "summary": "Nature Will이 1인칭 사람 영상 100만 시간으로 사전학습한 500억(50B) 파라미터 MoE 모델 Natura-1을 발표했습니다. 자연어 지시를 제로샷으로 받아 정교한 로봇 손 동작으로 바꾼다고 밝혔습니다.",
+    "why": "로봇 데이터 대신 사람의 1인칭 영상으로 손 조작을 배우는 접근이 대규모로 시도됐다는 점에서 피지컬 AI 흐름의 사례입니다. 다만 성능은 회사 시연 기준이고 가중치·논문 공개는 확인되지 않았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Nature Will 공식 인증 X 계정 발표 확인. 성능 주장은 회사 시연 기준이며 독립 검증 없음"
+    },
+    "links": [
+      {
+        "label": "Nature Will 공식 발표 (X)",
+        "url": "https://x.com/naturewill/status/2109858475333570565",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-microsoft-maia-300",
     "date": "2026-10-13",
     "category": "AI·IT",
@@ -160,6 +179,90 @@
     ]
   },
   {
+    "id": "2026-10-13-kes-2026-samsung-lg-ai",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "한국전자전(KES 2026) 개막…삼성은 일상 AI, LG는 데이터센터 냉각·로봇 부품 전면에",
+    "summary": "13일부터 16일까지 코엑스에서 열리는 제57회 한국전자전에서 삼성전자는 가전·모바일을 잇는 AI 경험을, LG전자는 AI 데이터센터 냉각 솔루션과 스마트팩토리, 로봇 액추에이터 브랜드 '악시움(AXIUM)' 등 B2B 기술을 선보였습니다.",
+    "why": "국내 가전 양사가 AI를 앞세워 데이터센터·로봇 같은 산업용 시장으로 사업을 넓히는 흐름을 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·뉴데일리 보도"
+    },
+    "image": "https://img0.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101308630001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261013027701003",
+        "type": "source"
+      },
+      {
+        "label": "뉴데일리",
+        "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/13/2026101300215.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-kakao-kanana-o-live-update",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "[업데이트] 카카오, 풀듀플렉스 음성 AI '카나나 라이브' 개발…카나나-오 인코더·디코더 오픈소스 예정",
+    "summary": "if(kakao)26에서 카카오가 듣는 동시에 말하는 풀듀플렉스 음성 기술 '카나나 라이브'(맞장구·실시간 통역)를 개발 중이라고 밝혔습니다. 텍스트·이미지·음성을 함께 다루는 옴니 모델 '카나나-오'의 인코더·디코더는 오픈소스로 공개할 예정이고, 요청 난이도에 따라 프런티어·플래그십·소형·온디바이스 모델을 고르는 'AI 컨덕터' 구조도 소개했습니다.",
+    "why": "앞서 보낸 카나나 스페이스 발표 이후 나온 모델·기술 쪽 새 내용입니다. 공개 예정인 음성·비전 구성요소는 국내 오픈소스 생태계에도 쓰일 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea·뉴스1·디지털데일리 보도 (현장 발표 기반)"
+    },
+    "image": "https://i3n.news1.kr/system/photos/2026/10/13/8156075/high.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261013125305",
+        "type": "source"
+      },
+      {
+        "label": "뉴스1",
+        "url": "https://www.news1.kr/it-science/internet-platform/6318119",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026101311150793930",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-janas-ssd-expert-streaming",
+    "date": "2026-10-13",
+    "category": "로컬 AI",
+    "title": "Janas: SSD에서 MoE 전문가를 불러와 RAM보다 큰 모델을 돌리는 C 런타임",
+    "summary": "순수 C로 만든 로컬 추론 도구 Janas-LLM이 가중치를 디스크에 두고 토큰마다 필요한 전문가만 NVMe SSD에서 읽어 오는 방식으로, 32GB 노트북에서 48.4GB짜리 Qwen3-Next-80B-A3B를 초당 24토큰(드래프트 사용 시 37토큰)으로 돌렸다고 밝혔습니다. 같은 노트북의 llama.cpp는 2.8토큰이었다는 것이 개발자 측정입니다.",
+    "why": "메모리보다 큰 MoE 모델을 일반 노트북에서 쓰려는 사람에게 흥미로운 접근입니다. 다만 실험 단계이고 수치는 개발자 한 대의 노트북 측정이라 직접 확인이 필요합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소 README 확인 (GPL-3.0, 실험 단계). 성능 수치는 개발자 자체 측정, Hacker News 화제"
+    },
+    "image": "https://opengraph.githubassets.com/59289a26f0fb05c54ed8f83a49017639d68ee8ab1b7b3cd7f5054549552005b1/prabanta-dev/janas",
+    "specs": {
+      "license": "GPL-3.0",
+      "compute": "Linux·Windows x86-64, CPU 또는 GPU"
+    },
+    "links": [
+      {
+        "label": "prabanta-dev/janas",
+        "url": "https://github.com/prabanta-dev/janas",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50063717",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-intel-gpu-d-series",
     "date": "2026-10-13",
     "category": "AI·IT",
@@ -225,6 +328,31 @@
       {
         "label": "if(kakao)26",
         "url": "https://if.kakao.com/2026",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-gemini-spark-task-redesign",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "구글 Gemini 앱, 개인 에이전트 Spark를 채팅창 'Task'로 통합…'예약됨' 페이지 신설",
+    "summary": "안드로이드 Gemini 앱에 입력창 위 'Chat'·'Task' 버튼이 생기고, Task가 곧 Spark 에이전트가 됩니다. 작업과 예약 작업을 진행 중·일시정지·완료·추천으로 보여주는 'Scheduled' 페이지가 추가되고, 대화와 작업 기록이 하나로 합쳐졌습니다.",
+    "why": "따로 떨어져 있던 에이전트 기능을 일반 채팅 흐름으로 끌어와, 에이전트를 일상적으로 쓰게 만들려는 변화입니다. 서버 측 업데이트로 안드로이드부터 배포 중이고 Spark는 AI Pro·Ultra 구독자 전용입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "9to5Google(구글 앱 내 안내 문구 인용)·AndroidPure 보도, 구글 공식 블로그 발표는 아직 없음"
+    },
+    "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/Gemini-App-Redesign-1-1.jpg?quality=82&strip=all&resize=1200,628",
+    "links": [
+      {
+        "label": "9to5Google",
+        "url": "https://9to5google.com/2026/10/12/gemini-spark-task-redesign/",
+        "type": "source"
+      },
+      {
+        "label": "AndroidPure",
+        "url": "https://www.androidpure.com/gemini-spark-task-mode/",
         "type": "source"
       }
     ]
@@ -330,6 +458,61 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50065553",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-amd-helion-agentic-rack",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "AMD, 에이전트 AI용 랙 'Helion' 공개…CPU 전용 랙에 EPYC 코어 최대 32,768개",
+    "summary": "AMD가 OCP 글로벌 서밋에서 에이전트 AI용 오픈 랙 설계 'Helion'을 발표했습니다. 6세대 EPYC만 넣은 하이퍼스케일용 CPU 전용 랙(최대 32,768코어)과 EPYC·Instinct MI350P GPU를 섞은 기업용 올인원 랙 두 가지이며, 파트너 구성은 2026년 11월 출시 예정입니다.",
+    "why": "에이전트는 도구 호출·코드 실행처럼 CPU 일이 많아, GPU 중심이던 AI 인프라 경쟁이 CPU 밀도로도 번지고 있다는 신호입니다. AMD는 사양을 OCP에 기여할 계획입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AMD 공식 보도자료 + DCD·HotHardware 보도"
+    },
+    "image": "https://newsroom.amd.com/images/2026/10/7087f39d-c32f-4a2a-a29d-d35e137e0b90.jpg",
+    "links": [
+      {
+        "label": "AMD 뉴스룸",
+        "url": "https://newsroom.amd.com/news/open-rack-blueprint-scale-agentic-ai/",
+        "type": "source"
+      },
+      {
+        "label": "DCD",
+        "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-cpu-only-helion-rack-to-support-agentic-ai-workloads/",
+        "type": "source"
+      },
+      {
+        "label": "HotHardware",
+        "url": "https://hothardware.com/news/amd-announces-new-helion-ai-racks",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-ai-basic-act-data-amendment",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "AI기본법·데이터산업법 개정안 국무회의 통과…정부사업 AI 학습데이터 'AI허브' 제공 의무화",
+    "summary": "과기정통부는 정부사업으로 구축한 AI 학습용 데이터를 AI허브에 연계·제공하도록 의무화하는 AI기본법 개정안과, 공공·민간 데이터 소재 정보를 한곳에서 찾는 '원-윈도우' 연계를 강화하는 데이터산업법 개정안이 13일 국무회의를 통과했다고 밝혔습니다. 영업비밀·개인정보·저작권·국가안보 등은 예외이며 2027년 4월 시행 예정입니다.",
+    "why": "대학·중소기업처럼 데이터를 직접 모으기 어려운 곳의 AI 개발 접근성이 높아질 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea·머니투데이 보도 (과기정통부 발표 기반)"
+    },
+    "image": "https://image.zdnet.co.kr/2025/07/09/e6ecfd471423f8fceb12e03eb249be48.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261013143530",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/10/13/2026101309495919053",
         "type": "source"
       }
     ]
@@ -980,6 +1163,30 @@
     ]
   },
   {
+    "id": "2026-10-13-arxiv-hidden-capabilities",
+    "date": "2026-10-10",
+    "category": "AI·IT",
+    "title": "\"AI 모델은 능력을 증명 가능하게 숨길 수 있다\" 연구…NeurIPS 2026 채택",
+    "summary": "모델 가중치 안에 암호화된 신경망을 심어 비밀 트리거가 있을 때만 실행되게 하는 백도어를 만들었고, 미세조정·가중치 노이즈·트리거 탐색 등으로도 끌어내지 못했다는 연구가 arXiv에 공개됐습니다. 저자들은 실험 모델도 공개했습니다.",
+    "why": "배포 전 '위험한 능력을 끌어내 보는' 방식의 안전성 평가가 적대적 상황에서는 한계가 있다는 점을 암호학적으로 보인 결과라, AI 감사·규제 설계에 영향을 줄 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "arXiv 원문(2610.13928) 확인, Hacker News에서 화제"
+    },
+    "links": [
+      {
+        "label": "arXiv 2610.13928",
+        "url": "https://arxiv.org/abs/2610.13928",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50065692",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-11-white-house-si-force-incident-reporting",
     "date": "2026-10-10",
     "category": "AI·IT",
@@ -1556,6 +1763,37 @@
         "label": "CNBC",
         "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-underdog-saluki-27b",
+    "date": "2026-10-08",
+    "category": "로컬 AI",
+    "title": "Underdog Saluki 27B: Qwen3.8-27B를 7.89GB 2비트 GGUF로…도구 호출 유지에 초점",
+    "summary": "Conway Research가 Qwen3.8-27B를 7.89GB(원본 54GB) IQ2 혼합 GGUF로 줄인 Saluki 27B 1.0을 Apache 2.0으로 공개했습니다. 자체 벤치마크에서 도구 호출 88점(원본 84점), 9개 벤치마크 평균 96% 유지라고 밝혔고 일반 llama.cpp에서 그대로 돌아갑니다.",
+    "why": "8GB급 GPU에서도 27B급 에이전트용 모델을 쓸 수 있다는 점에서 로컬 사용자에게 실용적입니다. 성능 수치는 개발사 자체 벤치마크 기준입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 확인 (다운로드 약 24만 건). 벤치마크는 개발사 자체 수치"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ConwayResearch/Underdog-Saluki-27B-1.0.png",
+    "specs": {
+      "params": "27B",
+      "license": "Apache 2.0",
+      "memory": "7.89GB (GGUF IQ2)",
+      "modality": "텍스트 (+이미지 추가 모듈)"
+    },
+    "links": [
+      {
+        "label": "HF 모델 카드",
+        "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0/blob/main/README.md",
+        "type": "source"
+      },
+      {
+        "label": "ConwayResearch/Underdog-Saluki-27B-1.0",
+        "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+        "type": "huggingface"
       }
     ]
   },
