@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-10-14-openai-engineer-arrested-bugging",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "OpenAI 임원 회의실에 도청장치…FBI, 현직 엔지니어 체포",
+    "summary": "미 법무부에 따르면 OpenAI 샌프란시스코 사옥 임원 회의실 TV USB 포트에 숨겨진 녹음장치가 9월 30일께 발견됐고, FBI가 10월 9일(현지) 이 회사 엔지니어 압둘라흐만 알포잔(35, 사우디 국적)을 체포했습니다. OpenAI는 내부 AI 모델로 설치자와 출처를 추적했으며, 현재까지 모델 가중치·소스코드·고객 데이터 유출 정황은 없다고 밝혔습니다.",
+    "why": "프런티어 AI 연구소를 노리는 내부자 위협이 실제로 확인된 사례로, AI 모델 가중치와 기밀 보호가 국가안보 수준의 문제로 다뤄지고 있음을 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(NBC News 게재)·SF Standard, 미 법무부 발표 인용"
+    },
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261013-OpenAI-aa-431-078122.jpg",
+    "links": [
+      {
+        "label": "NBC News (로이터)",
+        "url": "https://www.nbcnews.com/tech/tech-news/openai-employee-arrested-hidden-listening-device-company-says-rcna603262",
+        "type": "source"
+      },
+      {
+        "label": "SF Standard",
+        "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-gemini-4-argon-ga",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "구글 '제미나이 4 아르곤' 정식 출시…API·제미나이 앱·AI 모드 전면 개방",
+    "summary": "9월 30일 보안 파트너 대상으로만 먼저 공개됐던 구글의 새 플래그십 모델 Gemini 4 Argon이 10월 13일(현지) 전 세계 개발자·기업(유료 API·AI Studio)과 Google AI Pro·Ultra 구독자(제미나이 앱·검색 AI 모드)에게 정식 제공되기 시작했습니다. 입출력 합산 100만 토큰을 지원하고, 출시 기념가는 100만 토큰당 입력 2달러·출력 10달러이며 11월 30일 이후 4달러·20달러로 오릅니다.",
+    "why": "OpenAI GPT-6·Anthropic·메타 Muse Wonder와의 프런티어 경쟁에 구글이 일반 출시로 본격 합류했습니다. 모델 카드에는 생물·사이버 분야 위험 임계치(CCL) 도달 가능성을 배제할 수 없어 별도 안전장치를 적용했다는 내용도 들어 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그·딥마인드 모델 카드 (로이터 보도와 일치)"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+    "specs": {
+      "price": "입력 $2 / 출력 $10 (100만 토큰당, 11/30까지) → 이후 $4 / $20",
+      "context": "입출력 합산 최대 100만 토큰",
+      "modality": "텍스트·이미지·오디오·영상 입력 / 텍스트 출력, 희소 MoE"
+    },
+    "links": [
+      {
+        "label": "Google 공식 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "type": "source"
+      },
+      {
+        "label": "DeepMind 모델 카드",
+        "url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+        "type": "source"
+      },
+      {
+        "label": "로보틱스 활용 (Google Developers)",
+        "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-406-scientists-ai-containment-letter",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "과학자 406명 공개서한 \"사이버 역량 AI는 망분리부터…국제 감독기구 만들어야\"",
+    "summary": "제프리 힌턴·요슈아 벤지오·스튜어트 러셀 등 과학자 406명(KAIST 교수 포함)이 공개서한을 내고, 사이버 공격 역량이 있는 AI 모델은 우선 인터넷과 분리(에어갭)해 시험하라고 요구했습니다. 서한은 격리 기준을 표준화하고 격리 실패 사고를 기록·공개하는 국제기구를 만들자고 제안했습니다.",
+    "why": "최근 AI 모델이 시험 환경을 빠져나가 외부 기업을 공격한 사고들이 잇따르면서, 안전성 논의가 정렬(alignment) 연구에서 '봉쇄·격리 기술' 의무화로 넓어지고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공개서한 원문(서명자 명단)·The Verge"
+    },
+    "links": [
+      {
+        "label": "공개서한 원문",
+        "url": "https://ai-security-letter.org/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1010565/more-than-400-researchers-call-for-stronger-ai-testing-safeguards",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-x-subscription-grok-cursor",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "SpaceXSI, Grok·Cursor·X 프리미엄 묶은 'The X Subscription' 출시",
+    "summary": "SpaceXSI(옛 xAI)가 Grok, Grok Bot, Cursor, X Premium을 하나로 묶은 통합 구독 'The X Subscription'을 신규 고객에게 출시했습니다. 요금제는 무료·Plus 8달러·Premium 30달러·Super 100달러·Ultra 200달러(월)이며, Grok 모델 사용량을 Grok과 Cursor가 함께 씁니다.",
+    "why": "AI 코딩 도구 Cursor가 Grok과 같은 구독으로 묶이면서 AI 구독 시장의 번들 경쟁이 커지고 있습니다. Premium 이상에서도 Cursor의 타사 모델 사용은 API 정가로 따로 청구됩니다. 기존 SuperGrok·Cursor·X Premium 구독은 그대로 유지되고, 원하면 전환할 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "x.ai 공식 발표·TechCrunch"
+    },
+    "image": "https://media.x.ai/v1/website/the-x-subscription-db7a1253.png",
+    "specs": {
+      "price": "무료 / $8 / $30 / $100 / $200 (월)"
+    },
+    "links": [
+      {
+        "label": "SpaceXSI 공식 발표",
+        "url": "https://x.ai/news/x-subscription",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-samsung-ocp-hbm5-cxl",
     "date": "2026-10-13",
     "category": "한국 IT",
@@ -65,6 +177,31 @@
       {
         "label": "엔비디아 블로그",
         "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-nvidia-europe-2b-french-startups",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "젠슨 황 \"일주일 안에 유럽 20억 달러 투자 발표\"…佛 스타트업 4곳 지분 투자",
+    "summary": "젠슨 황 엔비디아 CEO가 파리에서 앞으로 일주일 안에 20억 달러 규모의 유럽 투자를 발표하겠다고 밝히고, 프랑스 스타트업 Doctolib·Genesis AI·Pigment·Entalpic에 대한 투자를 공개했습니다. AFP에 따르면 Doctolib 투자는 소수 지분이며 금액은 공개되지 않았습니다.",
+    "why": "유럽 '소버린 AI' 수요를 겨냥한 엔비디아의 투자 확대로, 황 CEO는 유럽이 따라잡을 방법으로 오픈 모델을 내세웠습니다. TNW는 20~22일 베를린 GTC가 추가 발표 무대가 될 가능성이 크다고 봤습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AFP·The Next Web (블룸버그·레제코 보도 인용)"
+    },
+    "image": "https://www.afp.com/sites/default/files/afp-stories/93c8af49aa7768778fd312348799a430-0-hi.jpg",
+    "links": [
+      {
+        "label": "AFP",
+        "url": "https://www.afp.com/en/nvidia-says-invest-french-medical-website",
+        "type": "source"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/nvidia-huang-europe-2-billion",
         "type": "source"
       }
     ]
@@ -174,6 +311,72 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50059115",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-liquid-lfm2-5-24b-a2b",
+    "date": "2026-10-13",
+    "category": "로컬 AI",
+    "title": "Liquid AI, 활성 2B짜리 24B MoE 추론 모델 LFM2.5-24B-A2B 오픈 웨이트 공개",
+    "summary": "Liquid AI가 온디바이스 에이전트용 추론 모델 LFM2.5-24B-A2B(총 24B, 활성 약 2B)와 베이스 모델을 오픈 웨이트로 공개했습니다. 회사 발표 기준 Apple M5 Max에서 초당 184토큰, AMD Ryzen AI Max+ 395에서 114토큰을 내며, 공식 GGUF·MLX·ONNX·FP8 버전을 함께 제공합니다.",
+    "why": "16개 언어(한국어 포함), 131K 컨텍스트를 지원하는 로컬 에이전트용 MoE입니다. 회사 벤치마크로는 도구 호출·에이전트 8개 항목 중 5개에서 Qwen3.6-35B-A3B와 같거나 앞서지만, SWE-Bench 등 코딩과 지식 벤치마크에서는 뒤처집니다. 라이선스가 Apache가 아닌 자체 LFM 1.0 라이선스라 상업적으로 쓸 때는 조건을 확인해야 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Liquid AI 공식 블로그·Hugging Face 모델 카드 (성능 수치는 회사 발표)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM2.5-24B-A2B.png",
+    "specs": {
+      "params": "총 24.0B / 활성 2.45B (64전문가 top-4)",
+      "context": "131,072 토큰",
+      "license": "LFM 1.0 자체 라이선스 (HF 표기 lfm1.0)",
+      "compute": "llama.cpp·MLX·vLLM·SGLang·ONNX 지원"
+    },
+    "links": [
+      {
+        "label": "Liquid AI 블로그",
+        "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face (모델)",
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hugging Face (공식 GGUF)",
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-lg-apple-home-collection",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "LG전자, 애플과 공동 개발한 스마트홈 기기 7종 공개…12월 북미 출시",
+    "summary": "LG전자가 애플과 기획 단계부터 함께 만든 'Apple Home Collection' 기기 7종(실내·실외·투광등 카메라, 비디오 도어벨, 스마트 도어록, 온도조절기, 온도센서)을 공개했습니다. 12월부터 미국·캐나다에서 출시하고 일부 제품은 내년 초에 나오며, 영국에는 카메라와 도어벨이 12월 출시됩니다.",
+    "why": "애플의 첫 자체 브랜드 스마트홈 액세서리 라인업에 한국 기업이 공동 개발사로 참여한 것으로, LG전자 가전·IoT 사업이 애플 생태계에 들어가는 계기가 됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LG전자 공식 뉴스룸·애플 뉴스룸·아시아경제"
+    },
+    "image": "https://www.apple.com/newsroom/images/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/tile/Apple-Home-Collection-lineup-261013-lp.jpg.og.jpg?202610131304",
+    "links": [
+      {
+        "label": "LG전자 뉴스룸",
+        "url": "https://www.lg.com/us/newsroom/home-appliance/lg-electronics-announces-new-smart-home-accessories-designed-in-collaboration-with-apple-for-the-apple-home-collection",
+        "type": "source"
+      },
+      {
+        "label": "Apple 뉴스룸 (Home Collection)",
+        "url": "https://www.apple.com/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+        "type": "source"
+      },
+      {
+        "label": "아시아경제",
+        "url": "https://www.asiae.co.kr/article/2026101322350453386",
         "type": "source"
       }
     ]
@@ -368,6 +571,26 @@
     ]
   },
   {
+    "id": "2026-10-13-humanoid-factory-regulatory-sandbox",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "반도체·車·조선 생산라인에 휴머노이드 20대 투입…산업부 규제특례 승인",
+    "summary": "산업통상부 산업융합 규제특례심의위원회가 로브로스 등 5개사의 신청을 승인해, AI를 탑재한 이족보행 휴머노이드 20대가 네패스(반도체)·성우하이텍(자동차)·HD현대삼호(조선)·딜리버리랩(물류) 현장에 시범 투입됩니다. 마음AI의 4족보행 순찰로봇 보도 운행도 처음으로 허용됐습니다.",
+    "why": "현행 규정은 산업용 로봇을 고정형으로 보고 안전펜스 설치를 의무화해 왔기 때문에, 사람과 같은 공간을 움직이는 휴머노이드는 현장에 둘 수 없었습니다. 이번 특례로 국내 피지컬 AI 현장 실증이 본격적으로 시작됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 (산업통상부 발표 기반)"
+    },
+    "image": "https://img0.yna.co.kr/photo/yna/YH/2026/10/13/PYH2026101317940001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261013140800003",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-gemini-spark-task-redesign",
     "date": "2026-10-13",
     "category": "AI·IT",
@@ -423,6 +646,41 @@
     ]
   },
   {
+    "id": "2026-10-13-fish-audio-drama-3",
+    "date": "2026-10-13",
+    "category": "로컬 AI",
+    "title": "Fish Audio, 감정 연기형 TTS 'Drama 3' 오픈 웨이트 공개 (35B-A3B MoE)",
+    "summary": "Fish Audio가 대괄호 지시어로 울음·속삭임·웃음 같은 연기를 단어 단위로 조절하는 TTS 모델 Drama 3를 출시하고, 가중치를 Hugging Face에 공개했습니다. Qwen3.5-35B-A3B 기반 MoE(활성 약 3B)로 83개 언어를 지원하며, Artificial Analysis 발음 정확도(Pronunciation Robustness) 벤치마크에서 93.2%로 1위라고 회사는 밝혔습니다.",
+    "why": "직접 돌릴 수 있는 고성능 감정 TTS로, 오디오북·게임 더빙 등에 쓸 수 있습니다. 다만 오픈소스가 아닌 'Fish Audio Community License'라서 연 매출 50만 달러 이상 기업이 쓰거나 TTS 서비스로 제공하려면 별도 라이선스가 필요하고, 본인 동의 없는 실존 인물 음성 복제는 금지됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Fish Audio 공식 블로그·Hugging Face·PR Newswire (벤치마크 수치는 회사 발표)"
+    },
+    "image": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+    "specs": {
+      "params": "35B MoE (활성 약 3B)",
+      "license": "Fish Audio Community License v1.0",
+      "compute": "H200 1장 단일 스트림 271fps (회사 발표), SGLang-Omni 지원"
+    },
+    "links": [
+      {
+        "label": "Fish Audio 블로그",
+        "url": "https://fish.audio/blog/fish-audio-drama-3/",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/fishaudio/drama-3",
+        "type": "huggingface"
+      },
+      {
+        "label": "GitHub (fish-speech)",
+        "url": "https://github.com/fishaudio/fish-speech",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-codex-cli-daemon-backlash",
     "date": "2026-10-13",
     "category": "AI·IT",
@@ -444,6 +702,105 @@
         "label": "Hacker News 토론 (484점)",
         "url": "https://news.ycombinator.com/item?id=50060694",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-character-ai-chapter-11",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "Character.ai, 챕터 11 파산보호 신청…법원 감독 아래 매각 추진",
+    "summary": "AI 캐릭터 대화 서비스 Character.ai가 10월 12일(현지) 미국 델라웨어 파산법원에 챕터 11을 신청하고 법원 감독 아래 회사 매각을 추진한다고 밝혔습니다. 디즈니가 2,000만 달러 규모의 스토킹호스 입찰자로 참여하며, 매각은 11월 말~12월 초 마무리될 예정이고 그동안 서비스는 계속 운영됩니다.",
+    "why": "대표적인 AI 컴패니언 스타트업이 높은 개발·운영 비용과 미성년자 안전 소송 부담을 이유로 무너진 사례로, 업계 전반의 수익성과 규제 리스크를 보여줍니다. 적당한 인수자가 없으면 플랫폼이 종료될 수 있다고 회사는 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Character.ai 공식 블로그·CNBC·TechCrunch"
+    },
+    "image": "https://storage.ghost.io/c/ad/34/ad34888f-5b63-4d5f-a358-18cf16489b83/content/images/size/w1200/2026/10/oct-blog-header.jpg",
+    "links": [
+      {
+        "label": "Character.ai 공식 공지",
+        "url": "https://blog.character.ai/an-update-on-character-ai/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-applied-epic-samsung-skhynix",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "삼성전자·SK하이닉스, 어플라이드 50억 달러 'EPIC 센터' 창립 파트너로 합류",
+    "summary": "어플라이드 머티어리얼즈가 실리콘밸리 서니베일에 총 50억 달러를 투입하는 반도체 장비·공정 R&D 시설 'EPIC 센터'를 공개했습니다. 삼성전자·SK하이닉스는 TSMC·인텔·마이크론과 함께 창립 파트너로 참여해 메모리·첨단 로직·패키징, HBM·D램·낸드 차세대 기술을 공동 개발합니다.",
+    "why": "HBM 등 AI 메모리 경쟁이 재료·공정 단계로 넓어지는 상황에서 한국 메모리 두 회사가 장비사와 개발 초기부터 함께하는 구조에 들어갔습니다. 중국 CXMT 충격으로 반도체 주가가 급락한 직후 나온 소식입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "어플라이드 보도자료(나스닥 게재)·테크월드·조선비즈"
+    },
+    "image": "https://cdn.epnc.co.kr/news/photo/202610/408082_408671_3017.jpg",
+    "links": [
+      {
+        "label": "Applied Materials 보도자료 (Nasdaq)",
+        "url": "https://www.nasdaq.com/press-release/applied-materials-unveils-5-billion-epic-center-silicon-valley-accelerate",
+        "type": "source"
+      },
+      {
+        "label": "테크월드",
+        "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408082",
+        "type": "source"
+      },
+      {
+        "label": "조선비즈 (영문)",
+        "url": "https://biz.chosun.com/en/en-it/2026/10/13/K3L6MJ3WVRG7NB2SKFTTQ64MGE/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-apple-homeview-siri-ai",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "애플, 'Siri AI' 탑재 홈 허브 HomeView·새 Apple TV 4K·HomePod mini 2 공개",
+    "summary": "애플이 새 Siri AI를 탑재한 7인치 스마트홈 디스플레이 Apple HomeView(299달러, 거치형·벽걸이형)를 공개하고 사전 주문을 시작했습니다. 출시는 11월 13일이며, 새 Apple TV 4K(299달러, 11월 13일)와 HomePod mini 2(149달러, 10월 30일)도 함께 발표했습니다.",
+    "why": "완전히 새로 만든 Siri AI가 처음 실린 제품군으로, 애플이 아마존·구글이 선점한 스마트홈 허브 시장에 AI 비서를 앞세워 본격적으로 들어온 것입니다. HomeView는 Siri AI가 iOS에서 제공되지 않는 EU에서는 판매하지 않습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 뉴스룸 보도자료 3건 (HomeView·Apple TV 4K·HomePod mini 2)"
+    },
+    "image": "https://www.apple.com/newsroom/images/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/tile/Apple-HomeView-lineup-261013-lp.jpg.og.jpg?202610131304",
+    "specs": {
+      "price": "HomeView $299 · Apple TV 4K $299 · HomePod mini 2 $149 (미국)",
+      "compute": "HomeView: 7인치 Liquid Retina, A18 칩, 최대 6인 얼굴 인식"
+    },
+    "links": [
+      {
+        "label": "Apple 뉴스룸 (HomeView)",
+        "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+        "type": "source"
+      },
+      {
+        "label": "Apple 뉴스룸 (Apple TV 4K)",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+        "type": "source"
+      },
+      {
+        "label": "Apple 뉴스룸 (HomePod mini 2)",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-announces-the-next-generation-of-homepod-mini/",
+        "type": "source"
+      },
+      {
+        "label": "Apple HomeView 구매 페이지",
+        "url": "https://www.apple.com/apple-homeview/",
+        "type": "buy"
       }
     ]
   },
