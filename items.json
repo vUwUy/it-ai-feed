@@ -505,6 +505,41 @@
     ]
   },
   {
+    "id": "2026-10-12-ahold-delhaize-security-incident",
+    "date": "2026-10-12",
+    "category": "AI·IT",
+    "title": "아홀드 델레이즈 네트워크 보안 사고…알버트 하인·스톱앤숍 등 온라인 서비스 중단",
+    "summary": "네덜란드 유통 대기업 아홀드 델레이즈가 10월 12일 네트워크에 보안 문제가 생겨 일부 시스템을 오프라인으로 전환했다고 발표했습니다. 네덜란드 알버트 하인·Etos·Gall & Gall과 벨기에 Delhaize, 미국 Stop & Shop·Hannaford·Giant Food의 웹사이트·앱·온라인 주문이 멈췄고, 매장은 정상 영업 중입니다.",
+    "why": "9개국 17개 브랜드를 운영하는 대형 유통사의 온라인·배송·고객센터가 한꺼번에 멈춘 사건입니다. 원인과 고객·직원 데이터 유출 여부, 복구 시점은 아직 공개되지 않았고, 회사는 프랑스 슈퍼마켓 냉장고 해킹과 연관이 있다고 볼 이유는 없다고 밝혔습니다(로이터).",
+    "verification": {
+      "status": "확인됨",
+      "note": "아홀드 델레이즈 공식 뉴스룸 발표(1차 출처) + 보스턴글로브·Cybernews·로이터 보도. 원인·피해 규모는 미공개"
+    },
+    "image": "https://media.cybernews.com/images/featured-big/2026/10/albert-heijn-oopsie.jpg",
+    "links": [
+      {
+        "label": "아홀드 델레이즈 공식 발표",
+        "url": "https://newsroom.aholddelhaize.com/ahold-delhaize-takes-precautionary-measures-following-cybersecurity-incident/",
+        "type": "source"
+      },
+      {
+        "label": "보스턴글로브",
+        "url": "https://www.bostonglobe.com/2026/10/12/metro/grocery-store-cyber-security-incident-leaves-sites-offline/",
+        "type": "source"
+      },
+      {
+        "label": "Cybernews",
+        "url": "https://cybernews.com/security/dutch-retailer-albert-heijn-offline-cybersecurity-incident/",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Devdiscourse 전재)",
+        "url": "https://www.devdiscourse.com/article/international/3991102-ahold-says-no-reason-to-see-link-in-french-dutch-cyber-issues",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-12-yandex-datacenter-strikes",
     "date": "2026-10-11",
     "category": "AI·IT",
