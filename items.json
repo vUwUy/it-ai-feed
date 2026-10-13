@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-10-13-samsung-ocp-hbm5-cxl",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "삼성전자, OCP 서밋서 HBM5·맞춤형 HBM·CXL·기업용 SSD 전략 공개",
+    "summary": "삼성전자가 미국 새너제이 OCP 글로벌 서밋 2026에서 8세대 HBM인 HBM5와 고객 맞춤형 HBM, CXL 기반 메모리 확장, QLC·FDP 기반 차세대 기업용 SSD를 축으로 한 AI 인프라 전략을 발표했습니다.",
+    "why": "AI 추론 수요로 HBM 속도뿐 아니라 서버 전체 메모리 용량과 스토리지 병목이 중요해지면서, 메모리 업체 경쟁 범위가 넓어지고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "조선비즈·아시아경제 보도 (현지 발표 기반)"
+    },
+    "image": "https://cphoto.asiae.co.kr/listimglink/1/2026101309184058346_1791850719.jpg",
+    "links": [
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/it-science/ict/2026/10/13/PW276CXWMNHUZPKHLL3QOHEDSM/",
+        "type": "source"
+      },
+      {
+        "label": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026101309234883779",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-physical-ai-tech-week",
     "date": "2026-10-13",
     "category": "한국 IT",
@@ -20,6 +45,45 @@
       {
         "label": "과기정통부 보도자료",
         "url": "https://www.msit.go.kr/bbs/view.do?bbsSeqNo=94&mId=113&mPid=112&nttSeqNo=3187856&sCode=user",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-nvidia-ocp-vera-rubin-open",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "엔비디아, OCP에 Vera Rubin 랙 설계 기여…메타는 Spectrum-6 스위치 채택",
+    "summary": "엔비디아가 OCP 글로벌 서밋에서 Vera Rubin 랙·컴퓨트 트레이 설계를 MGX 아키텍처로 OCP에 기여하고 DSX AI 팩토리용 오픈소스 구성요소를 공개했습니다. 메타는 Vera Rubin 데이터센터에 Spectrum-6(102.4Tb/s) 이더넷 스위치를 쓰기로 했고, 시스코와는 400Gb/s급 광모듈 규격 USFP를 발표했습니다.",
+    "why": "차세대 AI 데이터센터 설계가 개방 표준으로 풀리면서 서버·전력·냉각 업체들이 같은 기준으로 장비를 만들 수 있게 됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 블로그(10/12)"
+    },
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/gpu-architecture-rolling-blog-kv-ocp-blog-1920x1080-5820310-1680x945.jpg",
+    "links": [
+      {
+        "label": "엔비디아 블로그",
+        "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-naver-powerlink-ai-summary",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "네이버, 검색광고 파워링크에 'AI 요약텍스트' 정식 적용",
+    "summary": "네이버가 광고주가 등록한 소재·랜딩페이지 정보를 바탕으로 AI가 생성한 요약 문구를 파워링크 광고에 붙이는 기능을 오늘부터 정식 적용했습니다. 광고그룹 단위로 끌 수 있고 노출·순위·과금에는 영향이 없다고 안내했습니다.",
+    "why": "국내 검색광고의 핵심 지면에 생성형 AI 문구가 기본 적용된 것으로, 네이버의 AI 수익화가 광고 쪽에서 구체화되는 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 광고주센터 공식 공지"
+    },
+    "links": [
+      {
+        "label": "네이버 광고주센터 공지",
+        "url": "https://ads.naver.com/notice/34356",
         "type": "source"
       }
     ]
@@ -96,6 +160,76 @@
     ]
   },
   {
+    "id": "2026-10-13-intel-gpu-d-series",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "인텔, 추론 가속기 'Crescent Island'를 'GPU D-Series'로 정식 공개…최대 480GB LPDDR5X",
+    "summary": "인텔이 OCP 글로벌 서밋에서 추론용 가속기 GPU D-Series를 공개했습니다. FP8 최대 1.3 PFLOPS, 메모리 대역폭 1.5TB/s, 최대 480GB LPDDR5X를 350W 공랭 PCIe 카드에 담았고 고객 샘플링이 진행 중이며 가격·출시일은 미공개입니다.",
+    "why": "HBM 대신 대용량 LPDDR5X로 큰 모델을 한 장에 올리는 방향이라, 메모리가 병목인 대형 모델 추론 비용 구도에 변수가 될 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "인텔 뉴스룸 + Tom's Hardware·ServeTheHome 보도"
+    },
+    "image": "https://cdn.mos.cms.futurecdn.net/rhHcYjk8r2a28j68LDnQ88-1920-80.jpg",
+    "specs": {
+      "memory": "최대 480GB LPDDR5X (1.5TB/s)",
+      "compute": "FP8 최대 1.3 PFLOPS, 350W 공랭 PCIe",
+      "price": "미공개 (샘플링 중)"
+    },
+    "links": [
+      {
+        "label": "인텔 뉴스룸",
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-accelerates-open-infrastructure-agentic-ai-era.html",
+        "type": "source"
+      },
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/intels-crescent-island-ai-accelerator-officially-powers-new-gpu-d-series-products-chip-delivers-1-3-peak-pflops-of-fp8-compute-and-1-5-tb-s-of-memory-bandwidth",
+        "type": "source"
+      },
+      {
+        "label": "제품 페이지",
+        "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+        "type": "buy"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50063365",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-ifkakao26-kanana-space",
+    "date": "2026-10-13",
+    "category": "한국 IT",
+    "title": "카카오, 카톡 AI 비서 '카나나 스페이스' 공개…12월 비공개 베타",
+    "summary": "카카오가 if(kakao)26에서 카카오톡 어디서나 두 손가락으로 불러 음성·텍스트로 메시지 전송·일정·검색·주문·예약을 맡기는 '카나나 스페이스'를 공개했습니다. 오늘부터 사전 신청을 받고 12월 비공개 베타를 시작하며, PC용 에이전트 팀 플랫폼 '칸바스', 자체 모델 '카나나', 개인화 전략 '프로젝트 모자이크'도 함께 소개했습니다.",
+    "why": "5천만 명이 쓰는 메신저에 실행형 AI 에이전트가 들어가는 첫 사례라 국내 AI 서비스 경쟁의 기준이 될 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·머니투데이·아주경제 보도 + if(kakao) 공식 세션표"
+    },
+    "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/13/AKR20261013075900017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261013075900017",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/10/13/2026101310045961674",
+        "type": "source"
+      },
+      {
+        "label": "if(kakao)26",
+        "url": "https://if.kakao.com/2026",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-france-supermarket-fridge-hack",
     "date": "2026-10-13",
     "category": "AI·IT",
@@ -126,6 +260,31 @@
     ]
   },
   {
+    "id": "2026-10-13-codex-cli-daemon-backlash",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "Codex CLI, 기본으로 상주·자동 업데이트 데몬 실행…개발자 반발 확산",
+    "summary": "Codex CLI 0.157.0부터 대화형 세션을 열면 창을 닫아도 남는 백그라운드 데몬과 매시간 업데이트를 확인하는 업데이터가 기본으로 실행되고, 첫 세션의 환경변수(프록시 등)를 이후 세션에도 쓴다는 GitHub 이슈가 화제입니다. 'codex features disable daemon_auto_start'로 끌 수 있고, OpenAI의 공식 답변은 아직 없습니다.",
+    "why": "로컬에서 코딩 에이전트를 쓰는 사람이라면 모르는 사이 상주 프로세스와 자동 업데이트가 돌 수 있어 확인해 둘 만합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 이슈(여러 사용자 재현) + 0.157.0 릴리스 노트의 '자동 백그라운드 서버 시작' 문구. OpenAI 공식 입장 없음"
+    },
+    "image": "https://opengraph.githubassets.com/a5d91744e19f2d83e4199ae6f06e9015d55e7f239a2b0f0be4e7fd4d8a9b0eb9/openai/codex/issues/48195",
+    "links": [
+      {
+        "label": "openai/codex #48195",
+        "url": "https://github.com/openai/codex/issues/48195",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론 (484점)",
+        "url": "https://news.ycombinator.com/item?id=50060694",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-anthropic-self-replicating-ai",
     "date": "2026-10-13",
     "category": "AI·IT",
@@ -141,6 +300,36 @@
       {
         "label": "Anthropic 연구",
         "url": "https://www.anthropic.com/research/self-replicating-ai",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-anthropic-distillation-defenses",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "Anthropic, 증류 공격 방어 강화…\"추출되는 데이터 90~99% 줄었다\"",
+    "summary": "Anthropic이 'preserved thinking'(8월 31일 이후 생성된 API 계정은 Claude의 이전 컨텍스트 편집 불가)과 추출 탐지 분류기 등 새 방어책을 공개하며, 증류 시도자가 가져간 추론 토큰이 이전보다 10~100배 줄었고 관련 계정 수만 개를 차단했다고 밝혔습니다. Zhipu(Z.ai)가 GLM-5.3 개발 중 미국 모델의 사이버 역량을 증류했다고 사례로 들었습니다.",
+    "why": "미·중 모델 경쟁 속 '증류' 문제가 안보 이슈로 번지는 가운데, 프런티어 기업이 처음으로 방어 효과를 수치로 내놨습니다. 일반 API 사용자에게도 컨텍스트 편집 제한 같은 변화가 생깁니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 연구 글 + 로이터 보도(이코노믹타임스 전재)"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
+    "links": [
+      {
+        "label": "Anthropic 공식 글",
+        "url": "https://www.anthropic.com/research/distillation-defenses",
+        "type": "source"
+      },
+      {
+        "label": "로이터 (Economic Times)",
+        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks/articleshow/134906398.cms",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50065553",
         "type": "source"
       }
     ]
@@ -283,6 +472,36 @@
       {
         "label": "Bloomberg Government",
         "url": "https://news.bgov.com/capital-markets/deepseek-backs-ex-tencent-ai-scientists-400-million-robot-lab",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-12-zai-glm-legal",
+    "date": "2026-10-12",
+    "category": "AI·IT",
+    "title": "Z.ai, 법률 특화 에이전트 모델 'GLM-Legal' 베타…Harvey LAB 19.2%",
+    "summary": "Z.ai(Zhipu)가 GLM-5.3-Flash 기반 법률 특화 모델 GLM-Legal을 공개했습니다. Harvey 법률 에이전트 벤치마크(LAB) 전체 통과율 19.2%로 기반 모델보다 12.5%p 높았고, 결과는 Vals가 독립 평가했다고 밝혔습니다. 현재는 API 신청형 베타이며 데스크톱 에이전트 AutoClaw에도 들어갈 예정입니다.",
+    "why": "범용 모델 경쟁이 직무별 특화 에이전트로 옮겨가는 흐름이고, 같은 날 Anthropic이 Zhipu를 증류 사례로 지목해 함께 볼 만합니다. 가중치 공개 여부는 밝히지 않았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Z.ai 공식 블로그 + Vals 평가 페이지"
+    },
+    "image": "https://www.vals.ai/og/models/zai_glm-legal.png",
+    "links": [
+      {
+        "label": "Z.ai 블로그",
+        "url": "https://z.ai/blog/glm-legal",
+        "type": "source"
+      },
+      {
+        "label": "Vals 평가",
+        "url": "https://www.vals.ai/models/zai%5Fglm-legal",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50058507",
         "type": "source"
       }
     ]
@@ -1603,6 +1822,47 @@
       {
         "label": "Anthropic 블로그",
         "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-minicpm-v-4-7-35b-a3b",
+    "date": "2026-10-07",
+    "category": "로컬 AI",
+    "title": "OpenBMB 'MiniCPM-V 4.7 35B-A3B' 공개…아이폰에서 초당 13토큰 이상 도는 MoE 비전 모델",
+    "summary": "OpenBMB가 MiniCPM-V 시리즈 첫 MoE 모델(35B, 활성 3B, Qwen3.6 기반)을 Apache 2.0으로 공개했습니다. 다음 층에 필요한 전문가를 미리 불러오는 기법(LES)과 층별 양자화, 추측 디코딩을 묶어 iPhone 17 Pro Max에서 초당 13토큰 이상을 냈다고 밝혔고, 공식 GGUF와 Ollama 모델이 함께 나왔습니다.",
+    "why": "메모리에 다 안 들어가는 MoE를 폰에서 끊김 없이 돌리는 접근이라, 노트북·폰 등 저사양 기기용 로컬 멀티모달 선택지가 넓어집니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드 + 공식 GGUF 저장소·Ollama 페이지 확인 (성능 수치는 개발사 발표)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/openbmb/MiniCPM-V-4.7-35B-A3B.png",
+    "specs": {
+      "params": "35B (활성 3B, MoE)",
+      "license": "Apache 2.0",
+      "modality": "텍스트·이미지·비디오",
+      "compute": "iPhone 17 Pro Max 13+ tok/s (개발사 발표)"
+    },
+    "links": [
+      {
+        "label": "openbmb/MiniCPM-V-4.7-35B-A3B",
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+        "type": "huggingface"
+      },
+      {
+        "label": "공식 GGUF",
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf",
+        "type": "huggingface"
+      },
+      {
+        "label": "OpenBMB/MiniCPM-V",
+        "url": "https://github.com/OpenBMB/MiniCPM-V",
+        "type": "github"
+      },
+      {
+        "label": "Ollama",
+        "url": "https://ollama.com/openbmb/minicpm-v4.7",
         "type": "source"
       }
     ]
