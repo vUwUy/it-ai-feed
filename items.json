@@ -1,5 +1,136 @@
 [
   {
+    "id": "2026-10-15-openai-alleges-ex-employee-device-files-apple",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "오픈AI \"애플로 돌아간 전 직원이 미공개 기기 파일 100여 건 유출\" 법원 제출",
+    "summary": "애플이 7월 제기한 영업비밀 소송에서 오픈AI는 새 서면을 내고, 애플 출신으로 6개월 근무 후 애플로 복귀한 전 직원이 퇴사일인 6월 2일 미공개 오픈AI 기기 관련 고기밀 파일 100건 이상(기기 이미지, 엔지니어링·제조 데이터, 공급사 정보 등)을 개인 계정으로 보냈고 애플 고위 경영진에게 발표했다고 주장했다. 애플은 로이터에 이를 뒷받침할 증거를 찾지 못했다고 밝혔다.",
+    "why": "애플–오픈AI 영업비밀 분쟁이 맞소송 성격으로 번지면서, 오픈AI 하드웨어 기기의 존재와 개발 상황이 법정 문서로 드러나고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "9to5Mac(서면 원문 인용)·The Verge 교차 확인, 애플 반박은 로이터 인용"
+    },
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/apple-openai.jpg?quality=82&strip=all&resize=1200,628",
+    "links": [
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-eight-states-sue-openai-kids",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "미국 8개 주, 오픈AI 제소…\"챗GPT가 아동에게 자해·폭력 유도\"",
+    "summary": "아이오와·캔자스·네브래스카·웨스트버지니아·아칸소·애리조나·아이다호·몬태나 등 8개 주가 14일(현지시간) 각 주 법원에 오픈AI를 상대로 소송을 냈다. 소비자보호법 위반을 근거로 미성년자용 제품 작동 방식 변경 명령과 손해배상을 요구했고, 자기개선형 AI 모델이 인간 가치와 부합함을 입증할 때까지 개발을 중단시켜 달라는 요청도 포함됐다.",
+    "why": "가디언은 여러 주가 AI 기업을 상대로 공동 보조를 맞춘 첫 법적 대응이라고 짚었습니다. 아동 안전 규제가 개별 소송에서 주 정부 차원으로 넘어가는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가디언·로이터(뉴스핌 전재) 교차 확인, 오픈AI 대변인 입장 포함"
+    },
+    "image": "https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=017921cb3150b65f75a30d54827ba596",
+    "links": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌(로이터 인용)",
+        "url": "https://www.newspim.com/news/view/20261015000022",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-cisco-seg-zero-day-cve-2026-76519",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "시스코 이메일 보안 게이트웨이 제로데이(CVE-2026-76519) 실제 악용…CISA KEV 추가",
+    "summary": "시스코가 Secure Email Gateway의 AMP 첨부파일 처리 경로 탐색 취약점 CVE-2026-76519를 패치했다. 비인증 원격 공격자가 조작한 첨부파일 이메일만으로 루트 권한 명령을 실행할 수 있고, 10월 실제 악용이 확인됐다. CISA는 14일 이 취약점과 팔로알토 PAN-OS(CVE-2026-0322) 등 4건을 KEV 목록에 추가했다.",
+    "why": "메일을 받기만 해도 장비가 장악될 수 있는 유형이라, 해당 장비를 쓰는 조직은 즉시 Content Scanner Tools 버전과 File Reputation 설정을 점검해야 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CISA KEV 공지(1차) + BleepingComputer(시스코 권고 인용) 확인"
+    },
+    "links": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+        "type": "source"
+      },
+      {
+        "label": "CISA KEV 공지",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-characterai-40-ags-bankruptcy-filing",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "[업데이트] Character.ai 파산 절차에 40개 주·지역 검찰총장 개입…\"아동 보호·대화 데이터 보호 없이 매각 말라\"",
+    "summary": "뉴욕주 레티샤 제임스 검찰총장 등 초당적 40명 연합이 Character.ai 파산 법원에 서면을 내고, 매각 시 연령 확인·유해 콘텐츠 차단·자해 대응·'면허 전문가' 사칭 챗봇 제거와 함께 개인정보 보호, 대화의 AI 학습 이용 제한, 매각 전 이용자 데이터 열람·삭제 기회를 요구했다. 서면에 인용된 독립 테스트에선 12~15세 계정으로 50시간 동안 유해 상호작용 669건이 확인됐다.",
+    "why": "파산 매각 과정에서 수백만 명의 민감한 대화 데이터가 자산으로 넘어갈 수 있다는 점을 주 정부들이 공식 쟁점화했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴욕주 검찰총장실 보도자료(1차) + The Verge 보도 확인"
+    },
+    "image": "https://ag.ny.gov/sites/default/files/2023-01/oag-social-preview.png",
+    "links": [
+      {
+        "label": "뉴욕주 검찰총장실",
+        "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-urges-court-protect-children-and-consumers-characterai",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-ant-ling-3-1-flash-open-weights",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "앤트그룹 Ling-3.1-flash 오픈 웨이트 공개 (560B·활성 25B, MIT)",
+    "summary": "앤트그룹 inclusionAI가 하이브리드 추론 모델 Ling-3.1-flash 가중치를 허깅페이스·ModelScope에 MIT 라이선스로 공개했다. 총 560B·토큰당 활성 25B의 하이브리드 선형 MoE(KDA 63층+Gated MLA 9층, 전문가 512개 중 8개 활성)로 최대 1M 컨텍스트를 지원하며, SGLang·vLLM 데이 0 지원과 MTP 추측 디코딩을 제공한다.",
+    "why": "8월 말 이후 잠잠하던 중국 오픈 웨이트 진영의 대형 신작입니다. 다만 공식 예시가 8×H200 또는 4×GB300이라 개인 PC보다는 서버·클러스터용입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드(라이선스 MIT 확인) + Ant Ling 공식 X 발표"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/Ling-3.1-flash.png",
+    "specs": {
+      "params": "560B (활성 25B)",
+      "license": "MIT",
+      "context": "최대 1M (모델 카드)",
+      "modality": "텍스트",
+      "compute": "공식 예시 8×H200 또는 4×GB300 (SGLang TP/EP)"
+    },
+    "links": [
+      {
+        "label": "inclusionAI/Ling-3.1-flash",
+        "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+        "type": "huggingface"
+      },
+      {
+        "label": "Ant Ling 공식 X",
+        "url": "https://x.com/AntLingAGI/status/2110390124743970952",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-14-sk-hynix-sedex-hbf-3d-dram",
     "date": "2026-10-14",
     "category": "한국 IT",
@@ -45,6 +176,31 @@
       {
         "label": "더구루",
         "url": "https://www.theguru.co.kr/news/article.html?no=108240",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-samsung-4f2-vct-dram-confirmed",
+    "date": "2026-10-14",
+    "category": "한국 IT",
+    "title": "삼성전자 송재혁 CTO \"4F² D램 개발 중\"…CXMT 추격에 공식 확인",
+    "summary": "송재혁 삼성전자 CTO(사장)는 14일 SEDEX 2026 현장에서 4F² 기술 개발 여부를 묻는 질문에 \"그렇다\"고 답했고, 진행 상황엔 \"열심히 하고 있다\"며 말을 아꼈다. 지디넷코리아는 업계를 인용해 삼성이 수직 채널 트랜지스터(VCT) D램 형태로 고도화 중이며 내부 프로젝트명이 'D0a-V'라고 전했다.",
+    "why": "CXMT의 4F² 서버 D램 예고로 13일 삼성전자·SK하이닉스 주가가 급락한 뒤 나온 첫 공식 확인입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·지디넷코리아 현장 취재 교차 확인 (프로젝트명은 업계 전언)"
+    },
+    "image": "https://img9.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101419970001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261014136100003",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261014162447",
         "type": "source"
       }
     ]
@@ -99,6 +255,31 @@
         "label": "ollama/ollama",
         "url": "https://github.com/ollama/ollama",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-modal-series-d-750m",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "Modal, 7억5천만 달러 시리즈 D…기업가치 157.5억 달러·연환산 매출 10억 달러 돌파",
+    "summary": "AI 인프라 기업 Modal이 Accel 주도로 7억5천만 달러 시리즈 D를 유치했다(투자 후 기업가치 157억5천만 달러, Kleiner Perkins 합류). 5개월 전 시리즈 C 이후 사용량이 3배로 늘어 연환산 매출(run rate) 10억 달러를 넘겼고, 샌드박스 제품만 3억 달러 런레이트라고 밝혔다. 자금은 RL·포스트트레이닝 제품 등에 쓴다.",
+    "why": "에이전트용 샌드박스·추론 인프라 수요가 매출로 확인된 사례로, 'AI 클라우드' 2선 업체의 몸값이 빠르게 오르고 있음을 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Modal 공식 블로그(CEO Erik Bernhardsson) + SiliconANGLE 확인"
+    },
+    "image": "https://modal.com/docs/social-image.png?title=Modal+crosses+%241B+in+Annualized+Run+Rate+and+raises+%24750M+Series+D&socialType=blog",
+    "links": [
+      {
+        "label": "Modal 공식 블로그",
+        "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+        "type": "source"
+      },
+      {
+        "label": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/10/14/ai-cloud-startup-modal-raises-750m-at-15-75b-valuation/",
+        "type": "source"
       }
     ]
   },
@@ -241,6 +422,56 @@
     ]
   },
   {
+    "id": "2026-10-14-hermes-agent-v0-22-local-llamacpp",
+    "date": "2026-10-14",
+    "category": "로컬 AI",
+    "title": "Hermes Agent v0.22.0, 원클릭 로컬 모델(llama.cpp) 실행 지원",
+    "summary": "Nous Research가 Hermes Agent v0.22.0 'The Threshold Release'를 내놨다. 하드웨어에 맞는 llama.cpp 엔진(CPU·CUDA·Metal·Vulkan·ROCm)을 자동 설치·관리하고 GPU·RAM에 맞는 모델 빌드를 골라주며, 카탈로그에 Qwen3.8 27B·Qwen3.8 Flash Next·Qwen3.6 35B-A3B·DeepSeek V4 Flash와 HF GGUF를 지원한다. 키 없는 가이드 온보딩, Gmail·Linear·Notion 커넥터, 600개 플러그인 카탈로그, SemVer 안정 채널도 추가됐다.",
+    "why": "오픈소스 에이전트 앱이 API 키 없이 로컬 모델까지 한 번에 설치·실행하는 흐름을 기본 기능으로 넣었습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트 확인"
+    },
+    "image": "https://opengraph.githubassets.com/939f60e00f7a84394f36cd9904f1da8fd681c845a566252627dfa4c04657ca24/NousResearch/hermes-agent/releases/tag/v0.22.0",
+    "links": [
+      {
+        "label": "GitHub 릴리스",
+        "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
+        "type": "github"
+      },
+      {
+        "label": "설치 문서",
+        "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-gpu-260k-81pct-private-plans-audit",
+    "date": "2026-10-14",
+    "category": "한국 IT",
+    "title": "\"GPU 26만장 중 81%는 정부와 약속 없는 기업 계획\"…실제 가동 정부 GPU는 1.31만장 (국감)",
+    "summary": "최형두 의원이 과기정통부·NIPA 국감 자료를 분석한 결과, 정부가 내세운 GPU 26만장 중 민간 몫 21만장(81%)은 협약·확약 없는 기업별 발표 계획이었고, 정부 몫 '3.5만장 확보'도 계약·발주 기준이었다. 실제 서비스 중인 정부 GPU는 1.31만장이며, 올해 2조원 구매분은 10월 8일 기준 반입률 26.9%인데 8월 말 집행률은 79.8%였다.",
+    "why": "'AI 3대 강국' 핵심 지표인 GPU 수치가 계약·입고·가동 단계로 나뉘어 공개되지 않는다는 지적으로, 15일 NIPA 국감에서 추가 점검이 예고됐습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴스데일리·SR타임스 등 복수 매체 (최형두 의원실 국감 자료 기반)"
+    },
+    "image": "https://cdn.srtimes.kr/news/thumbnail/202610/214712_219797_914_v150.jpg",
+    "links": [
+      {
+        "label": "뉴스데일리",
+        "url": "http://www.newsdaily.kr/news/articleView.html?idxno=261944",
+        "type": "source"
+      },
+      {
+        "label": "SR타임스",
+        "url": "https://www.srtimes.kr/news/articleView.html?idxno=214712",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-14-gist-dual-memory-reconfigurable-device",
     "date": "2026-10-14",
     "category": "한국 IT",
@@ -300,6 +531,43 @@
     ]
   },
   {
+    "id": "2026-10-14-dmis-ultrabert-encoder-32k",
+    "date": "2026-10-14",
+    "category": "로컬 AI",
+    "title": "고려대 DMIS랩, 32K 컨텍스트 인코더 UltraBERT 공개 (150M·380M, Apache 2.0)",
+    "summary": "DMIS랩(강재우 교수팀)이 영어 인코더 UltraBERT 150M·380M과 임베딩 모델 UltraBERT-Embed-150M을 Apache 2.0으로 공개했다. 마스킹 5%·50%를 한 배치에 섞고 비율별 LM 헤드를 분리해 분류·검색을 동시에 잡았다며, 380M 기준 GLUE 91.0·BEIR 47.7, 32K까지 패스키 정확도 99%, Embed-150M은 MTEB(eng, v2) 67.24를 제시했다.",
+    "why": "RAG 임베딩·분류·가드레일처럼 로컬에서 대량으로 돌리는 작업에 쓰기 좋은 소형 인코더이고, 국내 연구실이 허깅페이스 공식 블로그로 낸 공개 모델입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 블로그 + 모델 카드(Apache 2.0) + arXiv 2610.15028 확인"
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/5efbdc4ac3896117eab961a9/O7K265JC814c1mZG3dW-i.jpeg",
+    "specs": {
+      "params": "150M · 380M (+Embed-150M)",
+      "license": "Apache 2.0",
+      "context": "32K",
+      "modality": "텍스트(영어)",
+      "compute": "transformers>=5, trust_remote_code 필요"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/dmis-lab/ultrabert",
+        "type": "source"
+      },
+      {
+        "label": "dmis-lab/UltraBERT-380M",
+        "url": "https://huggingface.co/dmis-lab/UltraBERT-380M",
+        "type": "huggingface"
+      },
+      {
+        "label": "arXiv 2610.15028",
+        "url": "https://arxiv.org/abs/2610.15028",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-14-clickon-ai-season-2",
     "date": "2026-10-14",
     "category": "한국 IT",
@@ -319,6 +587,26 @@
       {
         "label": "아이뉴스24",
         "url": "https://www.inews24.com/view/2014817",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-anthropic-singapore-office-mou",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "Anthropic, 싱가포르 사무소 개소…정부와 AI 안전·평가 MOU",
+    "summary": "Anthropic이 아태 지역 다섯 번째 사무소를 싱가포르에 열고 싱가포르 디지털개발정보부(MDDI)와 MOU를 체결했다. AI 안전·보안·모델 평가, AI 도입 영향 연구, 공공·민간의 책임 있는 도입이 협력 분야이며, 싱가포르 AI 안전·보증 기관과 모델 평가·테스트 표준·사고 대응 기술 교류를 계획한다.",
+    "why": "서울 등에 이은 아태 거점 확장으로, 각국 정부와 '평가·사고대응' 채널을 넓히는 Anthropic의 정책 전략이 이어지고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 뉴스룸 확인"
+    },
+    "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+    "links": [
+      {
+        "label": "Anthropic 공식 발표",
+        "url": "https://www.anthropic.com/news/singapore-office-opening",
         "type": "source"
       }
     ]
