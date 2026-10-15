@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-10-15-paper-instruments-ultramarine-1-flash",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "5명 팀이 만든 업무용 모델 Ultramarine 1 Flash…API 먼저, 가중치는 '곧' 공개",
+    "summary": "Paper Instruments가 오픈 모델 GLM-5.3 Flash에 대규모 강화학습을 적용한 엑셀·파워포인트·워드 업무용 에이전트 모델 Ultramarine 1 Flash를 API로 공개했습니다. 자체 벤치마크 PI Knowledge Work에서 과제당 0.13달러로 Claude Fable 5(8.19달러)를 앞섰다고 주장했으며, 허깅페이스 가중치는 'coming soon'으로 표시돼 있습니다.",
+    "why": "가중치가 나오면 민감한 문서 업무를 사내 서버에서 돌릴 수 있는 오픈 모델 선택지가 됩니다. 다만 성능은 회사 내부 벤치마크 기준이고 독립 검증이 없으며, 가중치 공개 시점(약 2주 뒤)과 라이선스는 아직 확정 발표가 없습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Paper Instruments 공식 모델 페이지·기술 보고서 확인(출시 사실). 성능 수치는 자체 벤치마크, 가중치 미공개"
+    },
+    "image": "https://www.paperinstruments.com/ultramarine/opengraph-image.png",
+    "specs": {
+      "params": "GLM-5.3 Flash 기반",
+      "license": "미발표 (가중치 공개 예정)"
+    },
+    "links": [
+      {
+        "label": "Ultramarine 1 Flash",
+        "url": "https://www.paperinstruments.com/ultramarine",
+        "type": "source"
+      },
+      {
+        "label": "기술 보고서",
+        "url": "https://www.paperinstruments.com/blog/ultramarine",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-opencode-2-0",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "오픈소스 코딩 에이전트 OpenCode 2.0…상주 서비스·Code Mode·백그라운드 서브에이전트",
+    "summary": "OpenCode 2.0은 TUI·웹·데스크톱 앱이 하나의 백그라운드 서비스에 붙는 구조로 바뀌었고, MCP 서버나 OpenAPI를 함수로 바꿔 에이전트가 스크립트로 여러 도구를 한 번에 호출하게 하는 Code Mode를 모든 MCP에 기본 적용했습니다. 백그라운드 서브에이전트·셸 명령, 80개 이상 내부 플러그인, 라이브러리로 쓰는 @opencode/sdk도 추가됐고, 1.x 플러그인은 호환되지 않습니다.",
+    "why": "Ollama·LM Studio·llama.cpp 서버 같은 로컬 모델에 붙여 쓸 수 있는 대표적인 오픈소스 코딩 에이전트의 대규모 개편입니다. MCP를 많이 붙여도 컨텍스트가 덜 늘어나는 Code Mode는 컨텍스트가 작은 로컬 모델에 특히 도움이 될 수 있습니다. 업그레이드는 1.x 최신판에서 'opencode upgrade --major'로 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "개발사(Anomaly) 공식 릴리스 노트 + 공식 문서(로컬 모델 지원) 확인. HN 357점·GeekNews에서 화제"
+    },
+    "image": "https://anoma.ly/notes/og/opencode-2-0.png",
+    "specs": {
+      "license": "MIT (오픈소스)"
+    },
+    "links": [
+      {
+        "label": "OpenCode 2.0 릴리스 노트",
+        "url": "https://anoma.ly/notes/opencode-2-0/",
+        "type": "source"
+      },
+      {
+        "label": "로컬 모델 설정 문서",
+        "url": "https://opencode.ai/docs/providers/",
+        "type": "source"
+      },
+      {
+        "label": "anomalyco/opencode",
+        "url": "https://github.com/anomalyco/opencode",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-openai-eu-agentic-report",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "오픈AI \"EU 기업 고객 출력 토큰 절반 이상이 에이전트\"…중소기업 사용자 5개월 새 8.1배",
+    "summary": "오픈AI 경제연구팀 보고서에 따르면 EU의 ChatGPT 엔터프라이즈·비즈니스 고객 출력 토큰 가운데 55%가 Codex(34%)와 ChatGPT Work(21%) 같은 에이전트 도구에서 나왔습니다. 사용자 200명 이하 EU 중소기업의 에이전트 주간 활성 사용자는 5월 첫 주 대비 9월 말~10월 초 8.1배로 늘었고, 27개 회원국 모두 5배를 넘었습니다.",
+    "why": "AI 사용이 질문형 챗봇에서 작업을 끝까지 수행하는 에이전트로 옮겨가고 있다는 1차 사용 데이터입니다. 다만 사용자당 토큰 상위 10% 기업 중 EU 비중은 약 10%에 그쳐, 보고서는 EU의 AI 활용이 넓어졌지만 아직 얕다고 진단했습니다. 오픈AI 자체 고객 표본 기준입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 블로그·보고서 PDF 원문 확인"
+    },
+    "links": [
+      {
+        "label": "오픈AI 블로그",
+        "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+        "type": "source"
+      },
+      {
+        "label": "보고서 PDF",
+        "url": "https://cdn.openai.com/pdf/europes-agentic-opportunity.pdf",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-openai-alleges-ex-employee-device-files-apple",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -49,6 +135,86 @@
       {
         "label": "연합뉴스 마켓뷰 (AI 수익성 논란)",
         "url": "https://www.yna.co.kr/view/AKR20261015018100008",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-kospi-7pct-plunge-update",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "[업데이트] 코스피 낙폭 7%대로 확대…삼성전자 9%·SK하이닉스 10.7%↓, 코스피·코스닥 동시 사이드카",
+    "summary": "5%대 급락 출발 이후 낙폭이 커져 코스피는 오전 10시 30분 기준 7.77% 내린 5539.51까지 밀렸고, 같은 시각 삼성전자는 9.05% 내린 21만1000원, SK하이닉스는 10.71% 내린 126만7000원에 거래됐습니다. 오전 9시 7분 코스피, 9시 12분 코스닥에 매도 사이드카가 발동돼 두 시장 동시 발동은 7월 29일 이후 처음이며, 외국인은 10시 30분까지 유가증권시장에서 1조9200억원을 순매도했습니다.",
+    "why": "아침에 전한 급락이 장중 더 깊어진 것으로, 마감까지 하락하면 2024년 9월 이후 첫 7거래일 연속 하락입니다. 증권가는 앤트로픽 3분기 매출 성장 둔화로 불거진 AI 투자 수익성 우려, CXMT 공급 확대 우려, 미국 금리 상승을 원인으로 꼽았고, 10월 말 빅테크 실적이 분기점이 될 것으로 봤습니다. 장중 수치라 마감과 다를 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "코리아중앙데일리(한국거래소 수치·애널리스트 코멘트), AP(7% 넘게 하락), CNBC(SK하이닉스 10%대 급락) 교차 확인. 장중 수치"
+    },
+    "image": "https://image.koreajoongangdaily.com/12922084.jpg?imageId=12922084&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+      {
+        "label": "코리아중앙데일리",
+        "url": "https://www.koreajoongangdaily.com/business/kospinbspplunges-over-7-as-ai-doubts-us-rate-fears-hit-seoul/12922059",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/stock-markets-kospi-tech-shares-e889ad7dee2b7dd959f1b8bc87366914",
+        "type": "source"
+      },
+      {
+        "label": "CNBC (아시아 기술주 급락)",
+        "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-kakao-ai-ethics-spirit-norma",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "카카오, 자율 에이전트 대비 AI 윤리 원칙 'SPIRIT'·이행 체계 'NORMA' 공개",
+    "summary": "카카오가 스스로 과업을 수행하는 AI 에이전트 확산에 대응해 안전·프라이버시·포용·책임·이용자 주체성·투명성/신뢰성 6개 원칙(SPIRIT)과 이를 서비스 기획부터 운영까지 단계별로 적용하는 이행 체계(NORMA)를 공개했습니다. 에이전트 위험은 통제 주도권·목표·권한·참조 자원·상호작용 5개 영역으로 나눠 관리하고, 이행 체크리스트는 연내 적용할 예정입니다.",
+    "why": "카카오가 카나나 등 에이전트형 서비스를 늘리는 가운데, 국내 대형 플랫폼이 '에이전트 권한·통제'를 명시적으로 관리 항목에 넣은 사례입니다. AI기본법 시행을 앞두고 다른 국내 기업의 내부 기준에도 참고가 될 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공식 보도자료 + 연합뉴스·아이뉴스24·디지털타임스 보도 확인"
+    },
+    "image": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/news/3cd7cf8301a100001.jpg?type=thumb&opt=C800x400",
+    "links": [
+      {
+        "label": "카카오 공식",
+        "url": "https://www.kakaocorp.com/page/detail/12163",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261015045800017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-globalfoundries-japan-21b-ny-fabs",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "일본, 글로벌파운드리 뉴욕 팹 2곳에 최대 210억 달러…美 상무부는 GF 지분 4% 확보",
+    "summary": "글로벌파운드리(GF)는 미·일 무역·투자 합의에 따라 일본이 최대 210억 달러를 대는 신규 팹 2곳을 뉴욕 몰타 사이트에서 운영하게 됐다고 발표했습니다. 첫 투자 약 100억 달러로 짓는 300mm 팹은 2029년 가동 예정이며, 약 100억 달러를 더 들여 두 번째 팹을 지을 수 있습니다. 미국 상무부는 별도 합의로 GF 지분 약 4%를 받습니다.",
+    "why": "미국이 동맹국 투자금으로 자국 내 반도체 생산을 늘리는 방식이 구체화된 사례입니다. 한·미·대만 무역 합의에도 비슷한 투자 조항이 있어 국내 반도체 업계의 대미 투자 논의에도 참고가 됩니다. 팹 1곳당 연 약 90만 장(300mm) 생산능력이 추가될 예정입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GlobalFoundries 공식 보도자료 + 로이터·AP 보도 확인"
+    },
+    "image": "https://assets.gf.com/image/328833518282/image_i68dsfhmlp0mnei3om31pmd109/-B1920-FWEBP",
+    "links": [
+      {
+        "label": "GlobalFoundries 공식",
+        "url": "https://gf.com/news-and-events/news/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/globalfoundries-chip-manufacturing-japan-trump-2cba3c18009fc19638dfd721a292bf1a",
         "type": "source"
       }
     ]
@@ -123,6 +289,86 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-bofa-1000-contractors-mythos-patching",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "뱅크오브아메리카, Mythos가 찾아낸 취약점 패치에 외부 인력 1000명 투입",
+    "summary": "브라이언 모이니핸 BofA CEO는 CNBC 인터뷰에서 앤트로픽 Mythos 등 최신 AI 모델이 드러낸 자체·협력사 소프트웨어 취약점을 고치기 위해 2분기에 외부 계약 인력 1000명을 투입했고, 이들이 기존 내부 인력 3000명과 함께 아직 일하고 있다고 밝혔습니다. 3분기 소프트웨어 보완과 자금세탁방지 규제 대응 비용은 '수억 달러(a couple hundred million plus)' 수준이었습니다.",
+    "why": "프런티어 AI의 취약점 발견 능력 때문에 대기업이 들인 인력과 비용을 구체적으로 밝힌 첫 사례 중 하나입니다. 모이니핸은 패치가 끝나면 비용이 줄 것이라고 했고, 내부 AI 프로젝트 130개로 절감액이 올해 3억 달러에서 2027년 7억 달러로 늘 것이라고 했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 단독 인터뷰 + 3분기 실적 컨퍼런스콜 녹취(stockanalysis)·Quartz 교차 확인"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108345330-1785941825072-moy1.jpg?v=1785944224&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+        "type": "source"
+      },
+      {
+        "label": "Quartz",
+        "url": "https://qz.com/bank-of-america-contractors-patch-anthropic-mythos-software-flaws-101426",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-artificial-analysis-aa-robotics",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "Artificial Analysis, LLM이 실제 로봇팔 조종하는 'AA-Robotics v0.1' 공개…GPT-6 Astra 69점 1위",
+    "summary": "독립 벤치마크 기관 Artificial Analysis가 언어 모델이 카메라 영상과 파이썬·HTTP API만으로 실제 6축 로봇팔을 조작하는 벤치마크를 연구 프리뷰로 공개했습니다. 8개 과제에서 GPT-6 Astra가 69점으로 1위였고 GPT-6.1 Sol(65), Gemini 4 Argon(55), Claude Opus 5.5(49), Claude Fable 5.1(46) 순이었으며, Astra는 과제당 평균 30분·16.36달러가 들었습니다.",
+    "why": "범용 LLM이 별도 학습 없이 물리 세계를 다루는 능력을 처음으로 공개 비교한 지표입니다. 사람보다 약 100배 느리고 10배 비싸 아직 실용과는 거리가 있으며, 비용 대비 성능은 GPT-6.1 Sol(과제당 1.93달러)이 좋았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Artificial Analysis 공식 글 + AlphaSignal 보도 확인. 독립 재현은 아직 없음"
+    },
+    "image": "https://artificialanalysiscdn.com/article-assets/2026/aa-robotics.jpg",
+    "links": [
+      {
+        "label": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai/articles/aa-robotics",
+        "type": "source"
+      },
+      {
+        "label": "AlphaSignal",
+        "url": "https://alphasignal.ai/news/artificial-analysis-aa-robotics-pits-gpt-6-astra-against-real-robot-arms",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-apple-5-trillion-close",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "애플, 시가총액 5조 달러로 첫 마감…엔비디아 이어 두 번째",
+    "summary": "애플이 14일(현지시간) 처음으로 시가총액 5조 달러를 넘긴 채 장을 마쳤습니다. 장중에는 이전에 여섯 차례 5조 달러를 넘었지만 종가 기준은 처음이며, 5조 달러 이상으로 마감한 회사는 엔비디아에 이어 두 번째입니다.",
+    "why": "같은 날 미국 CPI 충격으로 나스닥이 1.88% 떨어지고 AI 인프라주가 급락한 가운데 나온 기록이라, 시장 자금이 AI 인프라에서 기기·서비스 쪽으로 옮겨가는 흐름으로도 읽힙니다. 애플은 전날 Siri AI 홈 허브 HomeView를 공개했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge(WSJ 인용)·MacRumors·연합뉴스 교차 확인"
+    },
+    "image": "https://images.macrumors.com/t/tbbtyA1_rWog0wJbYaLY_rROx5U=/2500x/article-new/2025/04/Stocks-App-Icon-and-Apple-Logo-Feature.jpg",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1011574/apple-is-now-a-5-trillion-company",
+        "type": "source"
+      },
+      {
+        "label": "MacRumors",
+        "url": "https://www.macrumors.com/2026/10/14/apple-5-trillion-close/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261015014600072",
         "type": "source"
       }
     ]
@@ -288,6 +534,31 @@
     ]
   },
   {
+    "id": "2026-10-14-nvidia-uk-agentic-safety-250m",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "엔비디아, 영국 AI 에이전트 안전 연구에 5년간 2억5천만 달러 상당 컴퓨팅 기부",
+    "summary": "엔비디아가 영국의 에이전트 AI 안전·보안 연구를 위해 5년간 2억5000만 달러(연 5000만 달러) 상당의 컴퓨팅 자원을 기부한다고 발표했습니다. 대부분은 영국 AI 안전 연구계 전반에 쓰이고, 일부는 옥스퍼드 BOLD, UCL SOFAIR, 임페리얼 칼리지의 에이전트 기반 모델·로봇 안전 연구에 배정되며, 영국 내 엔비디아 클라우드 파트너를 통해 제공됩니다.",
+    "why": "보안 에이전트, 오픈 모델 보안, 샌드박스·안전성 벤치마크 연구가 대상이라, AI 에이전트의 무단 시스템 접근 사건이 잇따르는 가운데 칩 공급사가 안전 연구에 직접 자원을 대는 사례입니다. 제공사 선정과 상업 조건은 아직 정해지지 않았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 뉴스룸 + 가디언·UCL 발표 확인"
+    },
+    "image": "https://i.guim.co.uk/img/media/63fe41cf76dc85790ffaa07a8437c6647182b789/1000_0_4500_3600/master/4500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=29a5f46a552f2e27fe9c22326ed87c85",
+    "links": [
+      {
+        "label": "엔비디아 뉴스룸",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
+        "type": "source"
+      },
+      {
+        "label": "가디언",
+        "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-14-modal-series-d-750m",
     "date": "2026-10-14",
     "category": "AI·IT",
@@ -328,6 +599,35 @@
       {
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261014152705",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-korea-ict-exports-september-record",
+    "date": "2026-10-14",
+    "category": "한국 IT",
+    "title": "9월 ICT 수출 751.5억 달러, 사상 첫 700억 달러 돌파…반도체만 603억 달러",
+    "summary": "산업통상부·과기정통부가 14일 발표한 9월 ICT 수출입 동향에 따르면 ICT 수출은 751억5000만 달러로 전년 동월보다 195.8% 늘어 종전 최고(8월 599억8000만 달러)를 한 달 만에 넘어섰고, 무역수지는 537억1000만 달러 흑자였습니다. 반도체 수출이 603억3000만 달러(262.8%↑)로 전체의 약 80%를 차지했고, AI 데이터센터용 SSD 수출은 67억7000만 달러로 532% 늘었습니다.",
+    "why": "AI 인프라 투자가 한국 반도체·SSD 수출을 사상 최대로 끌어올렸다는 수치입니다. 대미 ICT 수출은 420% 늘었지만 중소·중견기업 ICT 수출 증가율은 21.7%에 그쳐 대기업 반도체 쏠림이 뚜렷합니다. 같은 시기 증시에서는 AI 투자 수익성 우려로 반도체주가 급락하고 있어 실적과 주가가 엇갈리는 모습입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "산업통상부 보도자료 원문(9월 ICT 수출입 동향) + 지디넷코리아·아주경제 보도 확인"
+    },
+    "links": [
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261014112052",
+        "type": "source"
+      },
+      {
+        "label": "산업통상부 보도자료",
+        "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172289/view",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261014093338484",
         "type": "source"
       }
     ]
@@ -616,6 +916,31 @@
       {
         "label": "아이뉴스24",
         "url": "https://www.inews24.com/view/2014817",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-asml-q3-record-demand-exceeds-supply",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "ASML 3분기 매출 117억 유로 사상 최대…\"2027·2028년 공급, 수요 못 따라가\"",
+    "summary": "ASML은 3분기 매출 116억6200만 유로, 매출총이익률 57.5%, 순이익 49억6000만 유로를 발표하고 2026년 연간 매출 전망을 440억~450억 유로로 제시했습니다. 4분기 매출은 142억~152억 유로로 예상했으며, 일부 고객이 2029년, 2030년 물량까지 주문하려 한다며 2028년 생산능력을 기존 계획(30% 증설)보다 더 늘리는 방안을 검토 중이라고 밝혔습니다.",
+    "why": "EUV 장비를 독점 공급하는 ASML이 AI 투자로 인한 장비 수요가 2028년까지 공급을 넘어선다고 공식화했습니다. 같은 날 증시에서는 AI 투자 수익성 우려가 커졌지만, 반도체 제조사들의 설비 투자 계획은 오히려 늘고 있다는 신호입니다. WSJ는 올해 세 번째 가이던스 상향이라고 전했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ASML 공식 실적 보도자료(GlobeNewswire·SEC 6-K) + WSJ 보도 확인"
+    },
+    "image": "https://images.wsj.net/im-06465812/social",
+    "links": [
+      {
+        "label": "ASML 실적 발표",
+        "url": "https://rss.globenewswire.com/news-release/2026/10/14/3380319/0/en/asml-reports-11-7-billion-total-net-sales-and-5-0-billion-net-income-in-q3-2026.html",
+        "type": "source"
+      },
+      {
+        "label": "WSJ",
+        "url": "https://www.wsj.com/business/earnings/chip-machine-supplier-asml-boosts-guidance-for-third-time-on-surging-ai-demand-7ea173d9",
         "type": "source"
       }
     ]
