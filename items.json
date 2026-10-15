@@ -1,5 +1,42 @@
 [
   {
+    "id": "2026-10-15-stepfun-step-5-preview-open-weights",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "StepFun, Step 5 Preview 오픈 웨이트 공개 (600B·활성 27B)",
+    "summary": "중국 StepFun(阶跃星辰)이 에이전트용 플래그십 Step 5 Preview 가중치를 Hugging Face·ModelScope에 BF16·FP8(및 NVFP4)로 공개했다. 희소 MoE로 총 600B·활성 27B, 컨텍스트 최대 1M, 입력은 텍스트·이미지이며 StepFun Model License 1.0을 쓴다.",
+    "why": "오늘 나온 대형 오픈 웨이트 릴리스다. 코딩·장시간 에이전트·금융 업무를 내세우지만, BF16 약 1.2TB·FP8 약 650GB급이라 개인 PC보다는 서버·클러스터용이고, 대형 MaaS·하드웨어 OEM 등에는 별도 상업 라이선스 조건이 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 공식 모델 카드·실제 safetensors 확인 + 제일재경(Yicai) 가중치 개방 보도"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/stepfun-ai/Step-5-Preview.png",
+    "specs": {
+      "params": "600B (활성 27B)",
+      "license": "StepFun Model License 1.0",
+      "context": "최대 1M",
+      "modality": "텍스트·이미지",
+      "compute": "공식 예: FP8 1×H200(8GPU) 또는 1×B300(4GPU) / BF16은 더 큼"
+    },
+    "links": [
+      {
+        "label": "stepfun-ai/Step-5-Preview",
+        "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "모델 페이지",
+        "url": "https://www.stepfun.com/step-5-preview",
+        "type": "source"
+      },
+      {
+        "label": "제일재경 보도",
+        "url": "https://www.yicai.com/news/103394563.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-paper-instruments-ultramarine-1-flash",
     "date": "2026-10-15",
     "category": "로컬 AI",
