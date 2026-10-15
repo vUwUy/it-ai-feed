@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-10-16-update-nvidia-rtx-spark-retail",
+    "date": "2026-10-16",
+    "category": "로컬 AI",
+    "title": "[업데이트] 엔비디아 RTX Spark 노트북, 10월 16일부터 매장·판매 개시",
+    "summary": "엔비디아·PC 제조사들이 예고한 RTX Spark 노트북의 소매 판매가 10월 16일(현지)부터 시작된다. 앞서 10월 7일 사전예약이 열렸고, Blackwell GPU+Grace CPU·최대 128GB 통합 메모리·약 1페타플롭스(FP4)급 로컬 AI를 내세웠으며 컴팩트 데스크톱은 11월 판매 예정이다. 같은 날 Nemotron 3.5 Bolt가 Spark·RTX PC용 로컬 에이전트 모델로 맞춰졌다.",
+    "why": "로컬 에이전트용 노트북 하드웨어가 실제로 손에 들어가는 날이며, 오픈 로컬 모델 릴리스와 타이밍이 겹친다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA 공식 블로그(사전예약·10/16 판매) + RTX Spark/Nemotron 연계 발표"
+    },
+    "links": [
+      {
+        "label": "NVIDIA Windows·RTX Spark 발표",
+        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+        "type": "source"
+      },
+      {
+        "label": "RTX Spark 제품 페이지",
+        "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+        "type": "buy"
+      },
+      {
+        "label": "Nemotron 3.5 블로그",
+        "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-xai-grok-voice-3",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -140,6 +169,49 @@
     ]
   },
   {
+    "id": "2026-10-15-simons-openai-anthropic-math-15m",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "사이먼스 재단·OpenAI·Anthropic, 수학계 AI 대응에 총 1500만 달러 파트너십",
+    "summary": "사이먼스 재단이 Anthropic·OpenAI와 함께 수학 연구자가 AI 결과를 검증·학습·표준을 만들도록 돕는 이니셔티브에 총 1500만 달러 규모의 자금·자원을 투입한다고 밝혔다. 재단이 공모·워크숍 등을 운영하고, OpenAI는 500만 달러를 포함해 모델·컴퓨팅 접근을 지원한다고 보도됐다.",
+    "why": "AI가 증명을 빠르게 내놓는 상황에서, 수학 커뮤니티가 검증·채택 기준을 스스로 잡도록 빅랩이 공동 지원에 나섰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Simons Foundation 공식 발표 + The Verge(OpenAI 500만 달러 기여 보도)"
+    },
+    "links": [
+      {
+        "label": "Simons Foundation 발표",
+        "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1012049/openai-is-giving-5-million-to-help-mathematicians-make-sense-of-ai-generated-research",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-samsung-ai-native-6g-summit",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "삼성전자, 실리콘밸리서 AI 내재형 6G 네트워크 성과 공개…AI RAN·X/D-MIMO·ISAC",
+    "summary": "삼성전자가 미국 마운틴뷰에서 Partner Day(14일)·실리콘밸리 미래 통신 서밋(15일)을 열고 AI 내재형 6G 네트워크 기술 개발 성과를 선보였다. AI RAN, X-MIMO, D-MIMO, 통신·센싱 융합(ISAC), 7GHz 대역 전송 검증 결과 등을 공개하고 SKT·KT·LGU+·Verizon·NTT Docomo 등과 협력을 확대한다고 밝혔다.",
+    "why": "6G·AI RAN 표준·상용화 경쟁에서 삼성 네트워크 사업의 기술·파트너 전략을 공식 무대에서 제시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성 뉴스룸 공식 보도"
+    },
+    "links": [
+      {
+        "label": "삼성 뉴스룸",
+        "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%8b%a4%eb%a6%ac%ec%bd%98%eb%b0%b8%eb%a6%ac-%eb%af%b8%eb%9e%98-%ed%86%b5%ec%8b%a0-%ec%84%9c%eb%b0%8b-2026-%ea%b0%9c%ec%b5%9c",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-paper-instruments-ultramarine-1-flash",
     "date": "2026-10-15",
     "category": "로컬 AI",
@@ -202,6 +274,30 @@
     ]
   },
   {
+    "id": "2026-10-15-openai-gpt-live-1-1",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "OpenAI, ChatGPT Voice에 GPT-Live-1.1·새 음성 롤아웃…한국어 등 악센트 개선",
+    "summary": "OpenAI가 ChatGPT Voice에 GPT-Live-1.1과 미니 버전 Quip을 순차 배포한다고 발표했다. 프랑스·독일어·힌디어·일본어·한국어·멕시코 스페인어 등 새 Live 음성과 더 자연스러운 악센트를 넣고, 검색 중임을 알리는 짧은 문구도 다양화했다. 시스템 카드도 같은 날 공개됐다.",
+    "why": "풀듀플렉스 음성 모델의 차기 버전으로, 다국어·한국어 음성 경험을 바로 체감할 수 있는 업데이트다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 제품 릴리스 노트 + GPT-Live-1.1 시스템 카드"
+    },
+    "links": [
+      {
+        "label": "OpenAI 릴리스 노트",
+        "url": "https://openai.com/products/release-notes/",
+        "type": "source"
+      },
+      {
+        "label": "GPT-Live-1.1 시스템 카드",
+        "url": "https://deploymentsafety.openai.com/gpt-live-1-1/gpt-live-1-1.pdf",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-openai-eu-agentic-report",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -247,6 +343,105 @@
         "label": "The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-nvidia-nemotron-3-5-super-vl-bolt",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "엔비디아, 오픈 Nemotron 3.5 Super VL(120B-A12B)·Bolt 74B-A9B(24GB) 공개",
+    "summary": "엔비디아가 항상 켜 두는 에이전트용 오픈 모델 Nemotron 3.5 Super VL(120B, 활성 약 12B, 멀티모달)과 로컬용 Bolt 74B-A9B 24GB(네이티브 2비트, 24GB 메모리)를 공개했다. Super VL은 Hugging Face·NIM 등에서, Bolt는 llama.cpp·Ollama·LM Studio·Unsloth·vLLM 지원으로 제공되며 Bolt E4B(4GB)는 10월 23일 예정이다.",
+    "why": "데이터센터급 오픈 VL 에이전트 모델과 24GB 로컬 에이전트 모델을 한날에 맞춰, RTX Spark 등 로컬 AI 하드웨어 출시와 맞물린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA 공식 블로그 + Hugging Face 모델 카드(Super VL·Bolt)"
+    },
+    "specs": {
+      "params": "Super VL 120B-A12B / Bolt 74B-A9B",
+      "memory": "Bolt 24GB(2-bit)",
+      "modality": "텍스트·이미지·문서·비디오(Super VL)"
+    },
+    "links": [
+      {
+        "label": "NVIDIA 공식 블로그",
+        "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "type": "source"
+      },
+      {
+        "label": "Nemotron-3.5-Super-VL",
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+        "type": "huggingface"
+      },
+      {
+        "label": "Nemotron-3.5-Bolt-74B-24GB",
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+        "type": "huggingface"
+      },
+      {
+        "label": "vLLM Day-0 지원",
+        "url": "https://vllm.ai/blog/2026-10-15-nemotron-3-5-super-vl-vllm",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-naver-emnlp-2026-24-papers",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "팀네이버, EMNLP 2026에 논문 24편 채택…한국어 추론·옴니모달·에이전트",
+    "summary": "네이버·네이버클라우드·네이버랩스 유럽 등 팀네이버 논문 24편이 EMNLP 2026(10/24–29 부다페스트)에 채택됐다. 시각-언어 적응 시 지시 수행 저하 진단, 전문 분야 한국어 추론 데이터 합성, 장시간 영상 temporal grounding, 옴니모달 음향 제어 벤치마크, 경험 검색 증강 에이전트 등이 포함된다.",
+    "why": "국내 빅테크가 서비스 현장 문제를 학회로 끌어올리는 연구 성과이며, ECCV 23편·ICML 6편에 이은 연이은 채택이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 공식 보도자료"
+    },
+    "links": [
+      {
+        "label": "네이버 보도자료",
+        "url": "https://navercorp.com/media/pressReleasesDetail?seq=10034754",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-meta-muse-spark-open",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "메타, 오픈 웨이트 Muse Spark Open 공개…816B-A42B·1M 컨텍스트·MLX·llama.cpp 지원",
+    "summary": "메타가 미국 오픈 웨이트 중 가장 능력 있다고 밝힌 Muse Spark Open 가중치를 공개했다. 총 816B(활성 약 42B) MoE, 텍스트·이미지·오디오·비디오 입력, 1M 토큰 컨텍스트이며, BF16·NVFP4 체크포인트와 Muse Model License(제한적 상업 조건)로 Hugging Face 등에 올라왔다. 두 대의 Apple M5 Ultra Mac Studio(MLX)와 llama.cpp·vLLM·SGLang·Unsloth 등에서 구동을 지원한다고 밝혔다.",
+    "why": "폐쇄형에 가까운 규모의 멀티모달·에이전트 모델을 오픈 웨이트로 풀어 로컬·온프레미스 코딩 에이전트 경쟁의 기준을 바꿨다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Meta AI Research 공식 블로그 + Hugging Face 공식 소개 글·모델 컬렉션"
+    },
+    "specs": {
+      "params": "816B total / ~42B active",
+      "context": "1M",
+      "modality": "텍스트·이미지·오디오·비디오→텍스트",
+      "license": "Muse Model License (제한적 상업)",
+      "memory": "BF16 ~1.5TB; 2bit GGUF는 대용량 통합 메모리급"
+    },
+    "links": [
+      {
+        "label": "Meta 공식 발표",
+        "url": "https://research.meta.ai/blog/muse-spark-open",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face 소개",
+        "url": "https://huggingface.co/blog/meta-muse-spark-open",
+        "type": "source"
+      },
+      {
+        "label": "meta-models/muse-spark-open",
+        "url": "https://huggingface.co/collections/meta-models/muse-spark-open",
+        "type": "huggingface"
+      },
+      {
+        "label": "meta-models/Muse-Spark-Open-816B-A42B",
+        "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+        "type": "huggingface"
       }
     ]
   },
@@ -539,6 +734,36 @@
         "label": "Quartz",
         "url": "https://qz.com/bank-of-america-contractors-patch-anthropic-mythos-software-flaws-101426",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-bfl-flux-3-image-klein",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "Black Forest Labs, FLUX 3 Image Klein 5.6B 오픈 웨이트 공개…8GB VRAM·네이티브 4K",
+    "summary": "BFL이 FLUX 3 Image Klein(5.6B) 오픈 웨이트를 공개했다. 텍스트→이미지·편집·최대 10장 레퍼런스·바운딩박스 제어·네이티브 4K를 지원하고, 베이스·스텝 증류·FP8/INT8/NVFP4 빌드를 FLUX Kommunity License로 제공한다. INT8 기준 GeForce 8GB VRAM에서도 ComfyUI·Diffusers로 돌릴 수 있다고 밝혔다.",
+    "why": "소비자 GPU에서 돌릴 수 있는 소형 오픈 이미지 모델로, 로컬 이미지 생성·편집 문턱을 낮춘다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "BFL 공식 블로그 + Hugging Face 모델 카드"
+    },
+    "specs": {
+      "params": "5.6B",
+      "license": "FLUX Kommunity License",
+      "memory": "BF16 11.2GB / FP8 5.6GB / INT8≈8GB VRAM",
+      "compute": "네이티브 4K·편집·최대 10 레퍼런스"
+    },
+    "links": [
+      {
+        "label": "BFL 공식 블로그",
+        "url": "https://bfl.ai/blog/flux-3-image-klein",
+        "type": "source"
+      },
+      {
+        "label": "black-forest-labs/flux-3-image-klein",
+        "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+        "type": "huggingface"
       }
     ]
   },
@@ -903,6 +1128,30 @@
       {
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261014152705",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-kt-ai-dedicated-line-800gbps",
+    "date": "2026-10-14",
+    "category": "한국 IT",
+    "title": "KT, AI 데이터센터용 최대 800Gbps ‘AI 전용회선’ 출시…APN 초저지연",
+    "summary": "KT가 AI 데이터센터(AIDC) 간 대용량 전송을 위해 기존 최대 100Gbps급을 400·800Gbps로 올린 ‘AI 전용회선’을 출시했다. 전국 84만km 광케이블과 다원 경로, APN(All Photonic Network) 기반 광 중심 구조로 초저지연을 강화한다고 밝혔다.",
+    "why": "분산 AIDC·GPU 인프라가 늘면서 초고속·초저지연 전용망이 국내 AI 인프라 병목 해소의 핵심이 되고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "KT 보도자료(연합뉴스 원문 게재) + 복수 국내 언론"
+    },
+    "links": [
+      {
+        "label": "KT 보도자료(연합)",
+        "url": "https://www.yna.co.kr/view/RPR20261014001700353",
+        "type": "source"
+      },
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/2026101421921",
         "type": "source"
       }
     ]
