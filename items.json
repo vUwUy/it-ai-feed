@@ -410,6 +410,36 @@
     ]
   },
   {
+    "id": "2026-10-15-citizen-lab-adfection-candiru-ads",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "시티즌랩 'AdFection' 공개…타깃 광고만 떠도 감염되는 제로클릭 스파이웨어 첫 실전 확인",
+    "summary": "토론토대 시티즌랩이 이스라엘 광고업체 Discover-Tech의 플랫폼 'Controlium'을 통해 용병 스파이웨어 업체 Candiru의 제로클릭 스파이웨어가 타깃 광고로 유포됐다고 발표했다. 2024~2025년 알자지라 기기 최소 45대가 표적·감염된 것으로 고신뢰도 판단했고, 올해 3~6월 이 업체 광고는 웹사이트 12만 곳 이상, 모바일 앱 7만 개 이상에 노출됐다. 조사 결과 구글과 IAB Europe는 승인 업체 목록에서 Discover-Tech를 뺐고, 구글과 Beeswax는 광고 시스템 접근을 차단했다.",
+    "why": "클릭 없이 광고를 보는 것만으로 감염되는 방식이 실제로 쓰였다는 첫 공개 기술 증거입니다. 광고 입찰 기록상 NATO·국방부처 등 안보 민감 네트워크에도 노출돼 파장이 큽니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "시티즌랩 보고서(1차) + WIRED·CyberScoop·NBC News 보도 확인"
+    },
+    "image": "https://citizenlab.ca/wp-content/uploads/2026/10/discover-report_updated-01-e1792025505984.png",
+    "links": [
+      {
+        "label": "시티즌랩 보고서 요약",
+        "url": "https://citizenlab.ca/research/exposing-adfection-executive-summary/",
+        "type": "source"
+      },
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
+        "type": "source"
+      },
+      {
+        "label": "CyberScoop",
+        "url": "https://cyberscoop.com/adfection-zero-click-spyware-discover-tech/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-cisco-seg-zero-day-cve-2026-76519",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -454,6 +484,35 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-burger-king-japan-app-breach-1118",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "버거킹 재팬, 공식 앱 회원정보 약 1,118만 건 유출…무단 접근",
+    "summary": "버거킹 재팬 운영사가 공식 앱 회원관리 시스템에 10월 2~7일 무단 접근이 있었고, 13일 회원정보 약 1,118만 건 유출을 확인했다고 15일 발표했다. 유출 항목은 회원 ID·이메일·이름·전화번호·생년월일·성별·도도부현·모바일 주문 이력 유무 등이며, 신용카드 번호는 보유하지 않아 유출되지 않았고 로그인 비밀번호 유출은 현재 확인되지 않았다.",
+    "why": "일본 외식 앱 사상 최대급 규모로, 이름·전화번호·이메일이 함께 나가 피싱 위험이 큽니다. 원인은 외부 기관과 조사 중입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "버거킹 재팬 공식 공지(1차) + NHK·닛케이 보도 확인"
+    },
+    "links": [
+      {
+        "label": "버거킹 재팬 공지(PDF)",
+        "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
+        "type": "source"
+      },
+      {
+        "label": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261015de59803",
+        "type": "source"
+      },
+      {
+        "label": "닛케이",
+        "url": "https://www.nikkei.com/article/DGXZQOUC157B50V11C26A0000000/",
         "type": "source"
       }
     ]
