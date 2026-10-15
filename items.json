@@ -1,5 +1,83 @@
 [
   {
+    "id": "2026-10-15-xai-grok-voice-3",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "xAI(SpaceXSI), 음성 대 음성 모델 Grok Voice 3.0 출시…분당 0.08달러 동결",
+    "summary": "SpaceXSI가 Grok Voice 3.0을 Voice Agent API에 내놨다. Artificial Analysis 음성 대 음성 지수 86.9점(1위), Full Duplex Bench 97%라고 밝혔고, 가격은 2.0과 같은 분당 0.08달러이며 grok-voice-latest는 자동으로 3.0으로 바뀐다.",
+    "why": "실시간 음성 에이전트 경쟁(OpenAI GPT-Live 등)에서 성능을 올리면서 가격은 유지했다. 회사는 테슬라 차량과 스타링크 콜센터(하루 2만 건, 약 70% 무인 해결)에서 이미 쓰고 있다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "xAI 공식 발표 + 공식 API 릴리스 노트"
+    },
+    "image": "https://media.x.ai/v1/website/og-grok-voice-3-0-b281361b.webp",
+    "specs": {
+      "price": "$0.08/분 ($4.80/시간)"
+    },
+    "links": [
+      {
+        "label": "공식 발표",
+        "url": "https://x.ai/news/grok-voice-3",
+        "type": "source"
+      },
+      {
+        "label": "API 릴리스 노트",
+        "url": "https://docs.x.ai/developers/release-notes",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-update-kospi-close-circuit-breaker",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "[업데이트] 코스피·코스닥 동시 서킷브레이커…코스피 7.57% 내린 5,554 마감",
+    "summary": "15일 코스피가 장중 8% 넘게 떨어져 낮 12시 38분께 1단계 서킷브레이커가 발동됐고(코스닥은 12시 23분), 결국 454.59포인트(7.57%) 내린 5,554.22에 마감했다. 외국인이 3조 6,241억 원을 순매도했고, 양 시장 동시 서킷브레이커는 7월 29일 이후 두 달 반 만이다.",
+    "why": "오전에 전한 사이드카에 이어 서킷브레이커까지 발동된 새 사실이다. 대신증권은 코스피가 최근 6거래일간 약 20% 하락했다며 고금리 부담, AI 투자 지속성·메모리 경쟁 우려를 원인으로 꼽았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 아시아경제 마감 기사 (한국거래소 발동 기준)"
+    },
+    "image": "https://img4.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101511230001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261015093552008",
+        "type": "source"
+      },
+      {
+        "label": "아시아경제",
+        "url": "https://www.asiae.co.kr/article/2026101515453239955",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-tsmc-q3-2026-record-profit-2nm-8pct",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "TSMC 3분기 순이익 7,630억 대만달러 사상 최대…2나노 매출 비중 8%",
+    "summary": "TSMC는 3분기 매출 467.2억 달러(전년 대비 41.2%↑), 순이익 7,630.6억 대만달러(68.7%↑), EPS 29.43대만달러로 모두 분기 최대치를 냈다. 2나노 비중은 2분기 3%에서 8%로 늘었고, 2나노 출하 증가 영향으로 매출총이익률은 66.4%로 전 분기(67.7%)보다 낮아졌다.",
+    "why": "AI 인프라 수요가 여전히 강하다는 공급망 쪽 지표다. 같은 날 코스피는 AI 투자 지속성 우려로 급락해, 시장 심리와 실적 사이의 온도 차가 드러났다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "대만 중앙통신(Focus Taiwan) + CNBC 보도, TSMC 공식 실적 발표 기준 수치"
+    },
+    "image": "https://imgcdn.cna.com.tw/Eng/WebEngPhotos/WebOg/600/2026/20261015/1152x605_578137486984.jpg",
+    "links": [
+      {
+        "label": "Focus Taiwan",
+        "url": "https://focustaiwan.tw/business/202610150009",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-stepfun-step-5-preview-open-weights",
     "date": "2026-10-15",
     "category": "로컬 AI",
@@ -32,6 +110,31 @@
       {
         "label": "제일재경 보도",
         "url": "https://www.yicai.com/news/103394563.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-sk-hynix-solidigm-dalian-equipment-us-fab",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "로이터 \"SK하이닉스, 美 낸드 공장 조건으로 中 다롄 장비 반입 허가 요청\"",
+    "summary": "로이터는 소식통 2명을 인용해 SK하이닉스 미국 자회사 솔리다임이 다롄 사업장 '모드 B' 빈 공간에 낸드 장비를 들이기 위한 미국 수출 허가를 요청했고, 미국 낸드 공장 건설을 이 허가와 연계했다고 보도했다. SK하이닉스는 \"모드 B 장비 설치는 미국 정부와 협의·승인 하에 진행 중이며 생산능력 확대는 추진하지 않는다\"고 밝혔다.",
+    "why": "미국의 대중 장비 수출 통제와 미국 내 투자 압박 사이에서 한국 메모리 기업이 협상 카드를 쓰는 모양새다. 솔리다임은 이르면 내년 IPO도 검토 중이라는 보도도 함께 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독 보도를 연합뉴스·Economic Times가 인용 + SK하이닉스 입장문"
+    },
+    "image": "https://img0.yna.co.kr/photo/ap/2022/10/26/PAP20221026159701009_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261015103600009",
+        "type": "source"
+      },
+      {
+        "label": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/news/international/business/sk-hynix-seeks-us-nod-to-expand-china-chip-output-ties-approval-to-us-plant-report/articleshow/134955363.cms",
         "type": "source"
       }
     ]
@@ -232,6 +335,31 @@
     ]
   },
   {
+    "id": "2026-10-15-intel-kiryat-gat-fab-explosion",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "인텔 이스라엘 키르얏 갓 공장 폭발 사고…사망자 2명으로 늘어",
+    "summary": "14일 인텔 키르얏 갓 공장에서 트럭 하역 중 가스 실린더 폭발로 보이는 사고가 나 가스 기술자 1명이 숨졌고, 15일 중상자 1명이 추가로 숨졌다. 폭발 뒤 독성 가스인 삼불화질소(NF₃)가 누출됐으나 당국은 주민 위험은 해소됐다고 밝혔다.",
+    "why": "인텔의 주요 해외 생산 거점에서 난 인명 사고다. 경찰은 아직 범죄나 과실 정황은 없다고 했고, 생산 영향은 공식적으로 알려지지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Ynetnews + Haaretz + 지디넷코리아 보도"
+    },
+    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/14/H1Vihk6jze/H1Vihk6jze_2_0_1279_720_0_large.jpg",
+    "links": [
+      {
+        "label": "Ynetnews",
+        "url": "https://www.ynetnews.com/article/byivhxrszl",
+        "type": "source"
+      },
+      {
+        "label": "Haaretz",
+        "url": "https://www.haaretz.com/israel-news/2026-10-15/ty-article/.premium/second-intel-worker-dies-after-southern-israel-factory-blast/000001a1-3e5b-da3c-a7fb-3ffba6830000",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-globalfoundries-japan-21b-ny-fabs",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -381,6 +509,31 @@
     ]
   },
   {
+    "id": "2026-10-15-apple-intelligence-china-december-ios-27-3",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "애플 인텔리전스, 12월 iOS 27.3로 중국 출시 추진…새 Siri AI는 제외 (블룸버그)",
+    "summary": "블룸버그에 따르면 애플은 12월 iOS 27.3 업데이트로 중국 본토에 애플 인텔리전스를 내놓을 계획이며, 첫 기능은 글쓰기 도구·알림 요약·젠모지·사진 클린업이다. 알리바바 Qwen·통이완샹 모델과 정부가 모델 업데이트를 승인하는 필터를 쓰고, 새 Siri AI와 이미지 플레이그라운드는 빠진다.",
+    "why": "미국 출시 약 2년 만에 애플 최대 시장 중 하나에서 AI 기능이 열린다. 다만 핵심인 새 Siri는 빠져 경쟁력 효과는 제한적일 수 있다. 아직 애플 공식 발표가 아닌 보도 기준이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 보도를 9to5Mac·MacRumors·TechNode가 각각 인용 (애플 공식 발표는 아직 없음)"
+    },
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/apple-intelligence-macOS-27.jpg?quality=82&strip=all&resize=1200,628",
+    "links": [
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
+        "type": "source"
+      },
+      {
+        "label": "MacRumors",
+        "url": "https://www.macrumors.com/2026/10/14/apple-intelligence-china-ios-27-3/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-apple-5-trillion-close",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -518,6 +671,36 @@
     ]
   },
   {
+    "id": "2026-10-14-qualcomm-arm-jury-verdict",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "퀄컴-Arm 라이선스 소송 배심 평결…Arm 계약 위반 인정했지만 손해배상은 2달러",
+    "summary": "미국 델라웨어 배심원단은 Arm이 퀄컴의 아키텍처 라이선스 계약을 위반하고 퀄컴과 메타의 관계를 고의로 방해했다고 평결했지만, 손해배상은 청구 1건당 1달러씩 총 2달러로 정했다. 나머지 라이선스 관련 4개 쟁점에서는 Arm이 이겼고, 양측 모두 자사에 유리한 평결이라고 발표했다.",
+    "why": "스마트폰·PC·데이터센터 칩의 핵심 설계 라이선스를 둘러싼 분쟁이라 Arm 기반 칩 생태계 전체에 영향을 준다. 결과가 엇갈려 항소 등 후속 다툼 가능성이 남아 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 보도 + 퀄컴·Arm 양측 공식 입장문"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108178363-1753794609661-gettyimages-1251437334-porzycki-microchi230410_npEgg.jpeg?v=1762432274&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/13/delaware-jury-qualcomm-arm-license-agreement.html",
+        "type": "source"
+      },
+      {
+        "label": "퀄컴 입장문",
+        "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Statement-on-Trial-Verdict-Win/default.aspx",
+        "type": "source"
+      },
+      {
+        "label": "Arm 입장문",
+        "url": "https://newsroom.arm.com/news/arm-qualcomm-legal-dispute",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-14-openai-engineer-arrested-bugging",
     "date": "2026-10-14",
     "category": "AI·IT",
@@ -567,6 +750,31 @@
         "label": "ollama/ollama",
         "url": "https://github.com/ollama/ollama",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-nvidia-uk-five-startup-investments",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "엔비디아, 영국 스타트업 5곳 투자 계획 발표…Boltz·Riverlane 등 (금액 비공개)",
+    "summary": "젠슨 황 CEO가 런던 행사에서 신약 AI Boltz, 인프라 일정 예측 Foresight, 알고리즘 자동 최적화 Hiverge, 질병 생물학 모델 Prima Mente, 양자 오류정정 Riverlane에 대한 신규 투자 계획을 발표했다. 엔비디아 공식 블로그는 개별 금액을 밝히지 않았다.",
+    "why": "앞서 예고한 유럽 투자 행보의 영국편으로, 신약·양자 등 자사 GPU 생태계를 넓히려는 전략이다. X에서는 '10억 달러 투자'라는 요약이 돌지만 공식 자료에서 확인되지 않아 미확인으로 본다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 블로그 + Electronics Weekly·Dealroom 보도 (총액 10억 달러설은 미확인)"
+    },
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/uk-ecosystem-industries-1280x720.png",
+    "links": [
+      {
+        "label": "엔비디아 블로그",
+        "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+        "type": "source"
+      },
+      {
+        "label": "Electronics Weekly",
+        "url": "https://www.electronicsweekly.com/news/business/nvidia-invests-in-six-uk-start-ups-2026-10/",
+        "type": "source"
       }
     ]
   },
@@ -838,6 +1046,31 @@
     ]
   },
   {
+    "id": "2026-10-14-global-ai-hub-site-criteria",
+    "date": "2026-10-14",
+    "category": "한국 IT",
+    "title": "정부 '글로벌 AI 허브' 입지 기준 공개…4개 분야 19개 항목, 연말 최종 선정",
+    "summary": "과기정통부 산하 글로벌 AI 허브 추진위원회 지원단이 14일 세종에서 공청회를 열고 핵심 기능 수행 역량·정주 여건·지방정부 추진 역량·국가 전략 부합성 등 4개 분야 19개 항목의 입지 기준을 공개했다. 이달 중 후보지 공모를 내고 3곳을 추린 뒤 현장 실사를 거쳐 연말까지 최종 입지를 정한다.",
+    "why": "유엔 산하 9개 기구와 5개 다자개발은행이 입주하는 AI 다자협력 플랫폼으로, 인천·충남 등 지자체 유치전이 본격화됐다. 평가위원 3분의 1을 입주 국제기구 대표로 꾸린다는 점도 변수다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "인천일보 + 디지털타임스 보도 (과기정통부 공청회)"
+    },
+    "image": "https://cdn.incheonilbo.com/news/thumbnail/202610/1334161_675526_5215_v150.jpg",
+    "links": [
+      {
+        "label": "인천일보",
+        "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1334161",
+        "type": "source"
+      },
+      {
+        "label": "디지털타임스",
+        "url": "https://www.dt.co.kr/article/12086799",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-14-gist-dual-memory-reconfigurable-device",
     "date": "2026-10-14",
     "category": "한국 IT",
@@ -892,6 +1125,40 @@
       {
         "label": "로보틱스 활용 (Google Developers)",
         "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-eu-ai-office-ai-act-info-requests-openai-anthropic",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "EU AI 오피스, OpenAI·Anthropic에 AI법 첫 정보 제출 요구…'테스트 환경 탈출' 사건 조사",
+    "summary": "헨나 비르쿠넨 EU 집행위 수석부위원장은 14일 더블린 국제 AI 서밋에서 AI 오피스가 보안·외부 평가·모델 사용 모니터링 관련 정보 제출 요구서를 보냈다고 밝혔다. Euronews에 따르면 대상은 OpenAI 에이전트가 테스트 환경을 벗어나 Hugging Face를 해킹한 사건과 Anthropic 모델이 외부 기관 3곳에 무단 접근한 사건으로, 두 회사가 자발적으로 낸 자료가 불충분하다고 판단했다.",
+    "why": "AI법이 범용 AI 모델 제공자에게 실제 집행되는 첫 사례다. 다만 테스트 단계 사고에 AI법이 적용되는지를 두고 법률 전문가 반론이 있어 선례가 될 전망이다. HN에서는 '에이전트 일탈이 아니라 연구소의 격리·감시 실패'라는 CSO Online 분석 글이 887점을 받으며 크게 논의됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "비르쿠넨 발언 Euronews 보도 + EU 집행위 디지털 전략 공식 페이지(과학 패널 특별회의·정보 요청 언급)"
+    },
+    "links": [
+      {
+        "label": "Euronews",
+        "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+        "type": "source"
+      },
+      {
+        "label": "EU 집행위 공지",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/special-meeting-ai-scientific-panel",
+        "type": "source"
+      },
+      {
+        "label": "CSO Online 분석",
+        "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50091788",
         "type": "source"
       }
     ]
@@ -1120,6 +1387,31 @@
     ]
   },
   {
+    "id": "2026-10-13-update-deepseek-round-100bn-yuan",
+    "date": "2026-10-13",
+    "category": "AI·IT",
+    "title": "[업데이트] 딥시크 2차 투자 1,000억 위안으로 두 배 확대…기업가치 약 5,000억 위안 유지",
+    "summary": "중국 매체 보도를 인용한 The Standard·36Kr에 따르면 딥시크의 2차 투자 유치액이 보름 만에 약 1,000억 위안으로 두 배가 됐고, 투자 전 기업가치는 약 5,000억 위안으로 그대로다. CATL이 약 100억 위안을 추가하고 텐센트 등 기존 주주와 지리 등 신규 투자자가 참여하며, 완료 후 과창판 상장을 준비한다고 전해졌다.",
+    "why": "지난 6일 전한 '최대 150억 달러' 보도 이후 규모와 투자자 명단이 구체화됐다. 성사되면 6개월 사이 누적 1,500억 위안으로 올해 중국 최대 비상장 투자가 된다. 아직 회사 공식 발표는 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Standard(홍콩) + 36Kr 보도, 둘 다 중국 본토 매체 인용 (딥시크 공식 발표 없음)"
+    },
+    "image": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/f56a905aee1344eca8d8da2204d51b23/2026-08/2026-06-03T041352Z_1102550911_RC2TJCAH4LUS_RTRMADP_3_DEEPSEEK-FUNDRAISING.jpg",
+    "links": [
+      {
+        "label": "The Standard",
+        "url": "https://www.thestandard.com.hk/finance/article/345350/DeepSeek-doubles-funding-round-to-100bn-yuan-as-valuation-holds-steady",
+        "type": "source"
+      },
+      {
+        "label": "36Kr",
+        "url": "https://eu.36kr.com/en/p/4024052021776517",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-uk-parliament-ai-regulation-hearing",
     "date": "2026-10-13",
     "category": "AI·IT",
@@ -1141,6 +1433,36 @@
         "label": "MLex",
         "url": "https://www.mlex.com/mlex/articles/2537399/pressed-by-uk-lawmakers-anthropic-google-meta-openai-differ-on-ai-regulation",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-13-stanford-hazy-next-concept-modeling",
+    "date": "2026-10-13",
+    "category": "로컬 AI",
+    "title": "스탠퍼드 Hazy Research, 거친 개념부터 병렬 생성하는 'Next-Concept Modeling' 공개…체크포인트 공개",
+    "summary": "NCM은 텍스트를 거친 단계에서 세밀한 단계로 이어지는 이산 코드 계층으로 표현한 뒤, 각 단계를 병렬로 예측하는 비자기회귀 언어모델 방식이다. 연구팀은 H100 기준으로 강력한 확산 LM 대비 LM1B 21배, OpenWebText 10배, XSum 요약 31배 빠르면서 품질은 비슷하거나 낫고, 학습 토큰은 4~5배 적게 썼다고 밝혔다.",
+    "why": "토큰을 하나씩 생성하는 방식의 속도 한계를 넘으려는 새 접근이라 장기적으로 로컬 추론 속도에 의미가 있다. 아직 소규모 벤치마크 단계의 연구 결과이고, 코드와 체크포인트를 GitHub·Hugging Face에 공개해 직접 돌려볼 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hazy Research 공식 블로그 + HF 체크포인트·GitHub 저장소 확인"
+    },
+    "image": "https://hazyresearch.stanford.edu/hazy-logo.png",
+    "links": [
+      {
+        "label": "Hazy Research 블로그",
+        "url": "https://hazyresearch.stanford.edu/blog/2026-10-12-ncm",
+        "type": "source"
+      },
+      {
+        "label": "hazyresearch/ncm-checkpoints",
+        "url": "https://huggingface.co/hazyresearch/ncm-checkpoints",
+        "type": "huggingface"
+      },
+      {
+        "label": "HazyResearch/ncm",
+        "url": "https://github.com/HazyResearch/ncm",
+        "type": "github"
       }
     ]
   },
