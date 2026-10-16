@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-10-17-elorian-glimpse",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "전 딥마인드 연구자 스타트업 Elorian, 첫 시각 추론 모델 'Glimpse' 공개",
+    "summary": "시드 5,500만 달러를 유치한 Elorian이 추론 도중 이미지를 확대·자르고 영상 프레임을 다시 보고 코드를 돌려 확인하는 시각 추론 모델 Glimpse를 리서치 프리뷰로 공개했다. 회사 자체 평가에서 과학 차트 추론·짧은 영상 캡션 등 4개 평가에서 GPT-6 Astra를 앞섰다고 했고, 가격은 입력 100만 토큰당 0.60달러·출력 3달러다. 오픈 웨이트 베이스 모델을 수백 개 GPU로 후학습했다.",
+    "why": "작은 팀·저비용으로 프런티어급 멀티모달 성능을 주장하는 사례로, 이미지·영상을 '다시 보며' 추론하는 모델 경쟁이 붙고 있다. 성능은 회사 자체 측정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Elorian 공식 블로그 + TechCrunch 단독 보도 교차"
+    },
+    "image": "https://elorian.ai/assets/blog/glimpse/og-introducing-glimpse.jpg",
+    "links": [
+      {
+        "label": "Elorian 공식 블로그",
+        "url": "https://elorian.ai/blog/introducing-glimpse",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-anthropic-employment-report",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "Anthropic 사내 고용 보고서: 에이전트 작업시간이 직원의 6배, 주니어 기술직 채용 비중 27%→9%",
+    "summary": "Anthropic은 사내 데이터로 AI가 고용을 어떻게 바꿨는지 분석한 보고서를 냈다. 8월 기준 직원이 돌린 AI 에이전트의 작업시간이 직원 근무시간의 6배였고, 기술 부서 주니어 비중은 21%에서 14%로, 주니어 기술직 신규 채용 비중은 27%에서 9%로 떨어졌다. 엔지니어당 커밋은 6개월 전의 5배이며, 직원들은 에이전트 관리 같은 '메타 업무' 비중이 10%→22%로 늘었다.",
+    "why": "AI를 가장 깊게 쓰는 회사 내부에서 신입 수요 감소와 '에이전트 관리자'화가 숫자로 확인됐다는 점에서 노동시장 논의의 선행 지표가 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic Institute 공식 보고서(직원·대중 기대 비교 보고서 동시 공개)"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "links": [
+      {
+        "label": "Anthropic 고용 보고서",
+        "url": "https://www.anthropic.com/research/employment-at-anthropic",
+        "type": "source"
+      },
+      {
+        "label": "직원 vs 대중 기대 보고서",
+        "url": "https://www.anthropic.com/research/expectations-for-the-future",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-anthropic-claude-quantum-circuits",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "Claude Mythos 5, 양자회로 8종에서 기존 최고 설계보다 큐비트·게이트 모두 줄여",
+    "summary": "Anthropic(하버드 Lukin·Yelin 교수 공동)은 Claude Mythos 5가 양자회로 설계 과제 8종에서, 기존에 발표된 최고 설계보다 큐비트와 게이트를 모두 줄였다고 밝혔다. 타원곡선 점 덧셈은 53시간 단일 실행으로 새 가역 모듈러 역원 방식을 찾았고(최소 설계 대비 큐비트 12% 많지만 게이트 17배 적음), DQI의 Reed–Solomon 디코더는 구글 기존 구성보다 게이트를 12배 줄였다.",
+    "why": "AI가 회로 설계 쪽에서 양자컴퓨터의 실용화 시점을 앞당길 수 있다는 구체 사례다. 다만 회사 측 연구 발표다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 연구 글(하버드 공동 연구)"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cc389d90b468ebc86011f6642099dfad9a4a757f-2000x1125.jpg",
+    "links": [
+      {
+        "label": "Anthropic 연구 글",
+        "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-anthropic-claude-ecdsa-seed-origins",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "Claude, 25년 미스터리였던 NIST 타원곡선(P-256 등) 시드 출처 규명…\"그냥 타임스탬프\"",
+    "summary": "Anthropic은 내부 연구 모델이 30분도 안 돼 NIST P-192·P-224·P-256·P-384·P-521 곡선 시드가 해시가 아니라 1990년대 C 라이브러리 난수생성기 lrand48을 유닉스 타임스탬프(1997년 5월~1998년 4월)로 초기화해 뽑은 값임을 밝혀냈다고 공개했다. 일부 기준점(base point)이 FreeLIP 난수생성기에서 나왔다는 것도 찾았지만, B-163 시드는 여전히 설명되지 않았다. 현상금 36,864달러는 ISRG에 기부한다.",
+    "why": "NSA가 설명 없이 준 상수라 '백도어' 의혹이 따라붙던 ECDSA 곡선 논란에 사실상 마침표를 찍은 결과다. Anthropic은 암호 해독이나 새 취약점이 아니며 바꿀 것은 없다고 강조했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 연구 글 + Hacker News 480점대·댓글 200개 토론"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dac862860da089b5a053e6ad2105b422d01fefe1-1200x630.jpg",
+    "links": [
+      {
+        "label": "Anthropic 연구 글",
+        "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50122800",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-update-reflection-beam-weights-released",
+    "date": "2026-10-16",
+    "category": "로컬 AI",
+    "title": "[업데이트] Reflection, 501B MoE 'Beam 1.0' 가중치 공개…Apache 2.0·BF16/FP8/NVFP4",
+    "summary": "10월 5일 예고했던 Beam의 가중치가 허깅페이스에 Apache 2.0으로 공개됐다(총 501B·활성 23B, 텍스트 전용, 1M 컨텍스트). BF16(약 1TB)·FP8·NVFP4(약 280GB) 체크포인트와 DFlash2 추측 디코딩 드래프터, Rust 기반 Mirror CLI를 함께 냈고 transformers·vLLM·SGLang·Unsloth 등이 첫날 지원한다. Artificial Analysis 지능 지수 30점으로 미국 오픈 웨이트 2위라고 AA가 밝혔다.",
+    "why": "'10월 공개' 예고가 지켜져 실제로 내려받아 검증할 수 있게 됐다. 다만 NVFP4도 B200 2~4장급이라 개인 로컬보다는 사내 서버용이고, Unsloth 등 커뮤니티 GGUF 양자화가 올라오기 시작했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Reflection 공식 블로그 + Hugging Face 블로그·모델 카드 + Artificial Analysis 공식 X"
+    },
+    "image": "https://huggingface.co/blog/assets/reflection-beam/thumbnail.jpg",
+    "specs": {
+      "params": "501B (활성 23B)",
+      "license": "Apache 2.0",
+      "memory": "BF16 약 1TB · NVFP4 약 280GB",
+      "context": "1M",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "Reflection 공식 블로그",
+        "url": "https://reflection.ai/blog/beam-is-available",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face 블로그",
+        "url": "https://huggingface.co/blog/reflection-beam",
+        "type": "source"
+      },
+      {
+        "label": "reflection/Beam-1.0-501B-A23B",
+        "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+        "type": "huggingface"
+      },
+      {
+        "label": "unsloth/Beam-1.0-501B-A23B-GGUF",
+        "url": "https://huggingface.co/unsloth/Beam-1.0-501B-A23B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "Artificial Analysis 평가 (X)",
+        "url": "https://x.com/ArtificialAnlys/status/2111087606759030831",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-update-nvidia-rtx-spark-retail",
     "date": "2026-10-16",
     "category": "로컬 AI",
@@ -108,6 +250,55 @@
     ]
   },
   {
+    "id": "2026-10-16-sk-hynix-ocp-mars-cmm-ddr5",
+    "date": "2026-10-16",
+    "category": "한국 IT",
+    "title": "SK하이닉스, OCP서 메모리 중심 AI 랙 'MARS'·2세대 CMM-DDR5(256GB) 공개",
+    "summary": "SK하이닉스가 OCP 글로벌 서밋 2026에서 CXL로 여러 서버·GPU가 메모리 풀을 나눠 쓰는 메모리 중심 AI 랙 시스템 MARS를 시연했다. CXL 3.2 기반 2세대 CMM-DDR5(256GB)는 대역폭이 이전 세대의 2배 이상(80GB/s)이고 에너지 효율은 약 30% 개선됐다. 네이버클라우드와 에이전틱 AI KV 캐시 공유를 PoC 수준에서 검증했고, 메모리 내 연산 CMM-Ax 연구는 MICRO 2026에 채택됐다.",
+    "why": "HBM 공급을 넘어 에이전트 추론의 KV 캐시 병목을 랙 단위 메모리로 풀겠다는 전략이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SK하이닉스 뉴스룸 + 연합뉴스·뉴스핌 보도 교차"
+    },
+    "image": "https://skhynix-prd-data.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2026/10/ocp-global-summit-2026-Thumb.jpg",
+    "links": [
+      {
+        "label": "SK하이닉스 뉴스룸",
+        "url": "https://news.skhynix.co.kr/ocp-global-summit-2026/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261016043200003",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://ir.newspim.com/news/view/20261016001115",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-openai-prompt-to-voice-korean-noeul",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "OpenAI API에 '프롬프트로 목소리 만들기' 개방…GPT-Live 한국어 목소리 'Noeul' 추가",
+    "summary": "OpenAI가 텍스트 설명만으로 맞춤 음성을 만들어 GPT-Live 세션에서 재사용하는 prompt-to-voice를 모든 API 고객에게 열었다. 음성 생성 자체는 무료이고 발화는 일반 GPT-Live 세션 요금이 붙는다. 독일어·프랑스어·힌디어·일본어와 함께 한국어 목소리 Noeul 등 GPT-Live 음성 9종도 추가됐다.",
+    "why": "앞서 ChatGPT에 들어간 GPT-Live-1.1에 이어 개발자 API에서도 한국어 음성 선택지가 늘어, 국내 음성 에이전트 서비스에 바로 쓸 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 릴리스 노트(10월 16일)"
+    },
+    "links": [
+      {
+        "label": "OpenAI 릴리스 노트",
+        "url": "https://openai.com/products/release-notes/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-openai-model-used-testnet-wallet",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -186,6 +377,41 @@
     ]
   },
   {
+    "id": "2026-10-16-meta-commercial-terms-scraping",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "메타 새 상업 약관, 비즈니스 계정 연계 웹사이트 크롤링·AI 학습 허용 논란 (10/30 시행)",
+    "summary": "10월 30일 시행되는 메타 상업 약관은 메타 서비스를 사업 목적으로 쓰는 계정과 '연계된' 도메인을 크롤링하고 그 콘텐츠로 메타 제품을 개발·연구·'학습'할 수 있다고 적었다. 법률 전문가들은 언론사 사이트 무단 학습 근거가 될 수 있다고 지적했고, 메타는 크롤러 사용 방식은 바뀌지 않으며 robots.txt로 거부할 수 있고 상품 정보 수집 목적이라고 반박했다.",
+    "why": "라이선스 계약 없이도 약관 동의만으로 언론·기업 사이트를 AI 학습에 쓸 길이 열리는지가 쟁점이다. 메타에 비즈니스 계정을 둔 언론사·기업 모두가 대상이 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Nieman Lab + The Verge·The Register 교차, 메타 측 반박 포함"
+    },
+    "image": "https://www.niemanlab.org/images/Meta-stock-image-700x467.jpg",
+    "links": [
+      {
+        "label": "Nieman Lab",
+        "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/16/meta-grants-itself-right-to-scrape-content-from-business-customers-for-model-training/5303658",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50111852",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-llama-cpp-v0-7-0",
     "date": "2026-10-16",
     "category": "로컬 AI",
@@ -209,6 +435,31 @@
       {
         "label": "MoE 전문가 캐시 PR #29887",
         "url": "https://github.com/ggml-org/llama.cpp/pull/29887",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-g7-ai-cyberattack-tabletop-exercise",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "G7 재무장관들, AI 악용 사이버 공격 대비 공동 도상훈련 합의",
+    "summary": "방콕 G7 재무장관·중앙은행총재 회의에서 첨단 AI를 이용한 사이버 공격에 대비한 도상훈련(시뮬레이션)을 하기로 합의했다고 가타야마 사쓰키 일본 재무상이 밝혔다(로이터). 재무당국·중앙은행에 시나리오에 따라 민간 금융기관도 참여하며, 결과로 기존 대응 절차를 점검하고 지침을 개정한다. IMF가 AI 사이버 공격이 금융 신뢰를 훼손할 수 있다고 경고한 뒤 나온 합의다.",
+    "why": "AI 기반 사이버 공격을 금융 안정 리스크로 보고 주요국 금융당국이 공동 대응을 구체화하는 흐름이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 보도를 CNA·연합뉴스가 전재(교차 확인)"
+    },
+    "image": "https://img9.yna.co.kr/photo/reuters/2026/10/14/PRU20261014314201009_P4.jpg",
+    "links": [
+      {
+        "label": "CNA (로이터)",
+        "url": "https://www.channelnewsasia.com/business/g7-launch-exercises-guard-against-ai-cyber-attacks-6464781",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261016107900009",
         "type": "source"
       }
     ]
@@ -523,6 +774,42 @@
         "label": "CNBC",
         "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-tencent-hy-memory-30b-a3b",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "텐센트, 에이전트 장기기억 작성 전용 오픈 모델 Hy-Memory-30B-A3B 공개",
+    "summary": "텐센트 훈위안이 Mem0·MemOS 같은 외부 메모리 프레임워크에서 범용 LLM 대신 '무엇을 기억하고 어떻게 갱신할지'를 쓰는 30B MoE(활성 약 3B) 모델을 Apache 2.0으로 공개했다. 자체 평가(벤치마크 20% 부분 표본)에서 매크로 평균 55.49로 Claude Opus 5(54.62)를 앞섰다고 밝혔다. vLLM v0.31.0으로 테스트했다.",
+    "why": "에이전트 메모리를 비싼 API 대신 로컬 3B 활성 모델로 돌릴 수 있는 전용 선택지다. 수치는 회사 자체 측정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 + arXiv 기술 보고서 + GitHub 저장소"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy-Memory-30B-A3B.png",
+    "specs": {
+      "params": "30B (활성 약 3B)",
+      "license": "Apache 2.0",
+      "memory": "BF16 가중치 약 60GB",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "arXiv 기술 보고서",
+        "url": "https://arxiv.org/abs/2610.22196",
+        "type": "source"
+      },
+      {
+        "label": "tencent/Hy-Memory-30B-A3B",
+        "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+        "type": "huggingface"
+      },
+      {
+        "label": "Tencent-Hunyuan/Hy-Memory",
+        "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+        "type": "github"
       }
     ]
   },
