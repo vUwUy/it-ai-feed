@@ -212,6 +212,35 @@
     ]
   },
   {
+    "id": "2026-10-15-proofpoint-varonis-63b",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "Proofpoint, 데이터·AI 보안 Varonis를 약 63억 달러에 인수 합의",
+    "summary": "Thoma Bravo 포트폴리오인 Proofpoint가 Varonis Systems(Nasdaq: VRNS)를 전액 현금 약 63억 달러에 인수하는 확정 계약을 발표했다. 주당 49.75달러로, 2027년 상반기 종결을 목표로 하며 주주·규제 승인이 조건이다. 양사는 마감 전까지 별도 운영하고, 합치면 1만 6천 개 이상 기업을 대상으로 데이터·AI 접근 통제와 통신·신원 보안을 묶은 플랫폼을 내세운다.",
+    "why": "AI 가속 위협·데이터 리스크를 전면에 내건 대형 사이버보안 M&A다. 에이전트·데이터 접근 통제가 보안의 핵심으로 옮겨가는 흐름을 보여 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Proofpoint·Varonis 공식 보도자료 + CyberScoop·Bloomberg Law 등 독립 보도"
+    },
+    "links": [
+      {
+        "label": "Proofpoint 공식 발표",
+        "url": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-acquire-varonis-creating-global-leader-data-and-ai-security",
+        "type": "source"
+      },
+      {
+        "label": "GlobeNewswire 보도자료",
+        "url": "https://www.globenewswire.com/news-release/2026/10/15/3382143/0/en/proofpoint-to-acquire-varonis-in-a-6-3-billion-transaction.html",
+        "type": "source"
+      },
+      {
+        "label": "CyberScoop",
+        "url": "https://cyberscoop.com/proofpoint-acquires-varonis-systems-data-security/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-paper-instruments-ultramarine-1-flash",
     "date": "2026-10-15",
     "category": "로컬 AI",
