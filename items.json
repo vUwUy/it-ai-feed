@@ -84,6 +84,30 @@
     ]
   },
   {
+    "id": "2026-10-16-taiwan-ai-chip-export-controls",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "대만, 대중국 AI 칩 수출통제 강화 검토…미 제재·밀수 대응 차원 (블룸버그)",
+    "summary": "블룸버그가 관계자를 인용해 대만이 미국과의 통상 조율 속에서 대중국 AI 칩·서버 수출통제를 대폭 강화하는 방안을 검토 중이라고 16일 보도했다. 고급 AI 서버(엔비디아 칩 탑재)의 우회·밀수를 막을 법적 수단을 늘리려는 취지이며, 중국 반발을 부를 수 있다. Super Micro 관련 DOJ 수사 등 밀수 의가 배경으로 언급됐다.",
+    "why": "AI 가속기 공급망·지정학 긴장이 대만 수출 규칙으로 확장되는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Bloomberg 관계자 인용을 Investing.com·Bloomberg Law 등 복수 매체가 전재. 공식 법령 발표는 아직 없음"
+    },
+    "links": [
+      {
+        "label": "Investing.com (Bloomberg 인용)",
+        "url": "https://www.investing.com/news/stock-market-news/taiwan-to-curb-ai-chip-sales-to-china-for-more-us-alignment-bloomberg-4953152",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/international-trade/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-openai-model-used-testnet-wallet",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -103,6 +127,30 @@
       {
         "label": "TechFlow",
         "url": "https://www.techflowpost.com/en-US/article/34631",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-openai-korea-daybreak-cxo",
+    "date": "2026-10-16",
+    "category": "한국 IT",
+    "title": "오픈AI, 서울서 사이버 CXO 라운드테이블…Daybreak·Defense Factory 공유",
+    "summary": "오픈AI가 16일 서울 웨스틴 파르나스에서 CISO 등 임원급 60여 명을 초청해 AI 시대 사이버 방어 전략을 공유했다. 모델·Codex·Codex Security를 연결한 Daybreak로 취약점 발견·악용 가능성 검증·수정 확인을 돕고, 자사 Defense Factory 운영 경험도 소개했다. 오픈AI는 국내 주요 기업 상당수가 Daybreak를 도입했거나 검토 중이라고 밝혔다.",
+    "why": "국내 기업 보안 경영진을 대상으로 AI 공격·방어 운영 체계를 공식 브리핑한 현장이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + ZDNet Korea 당일 보도 교차"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261016112400017",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261016150017",
         "type": "source"
       }
     ]
@@ -161,6 +209,25 @@
       {
         "label": "MoE 전문가 캐시 PR #29887",
         "url": "https://github.com/ggml-org/llama.cpp/pull/29887",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-excynas-cxl-mx1-ocp-skhynix",
+    "date": "2026-10-16",
+    "category": "한국 IT",
+    "title": "엑시나, OCP서 CXL MX1 AI 추론 시연…SK하이닉스와 하이브리드 메모리 검증",
+    "summary": "팹리스 엑시나가 OCP 글로벌 서밋 2026에서 CXL 메모리 솔루션 MX1로 여러 추론 서버가 KV 캐시를 공유하고, NDP로 RAG 벡터 검색을 가속하는 기술을 시연했다고 16일 밝혔다. SK하이닉스와는 Infinite Memory(SSD 기반 확장)로 CXL 하이브리드 메모리의 AI 워크로드 적용을 검증 중이며, 삼성전자와도 분리형 CXL 아키텍처를 공동 발표했다.",
+    "why": "국내 팹리스·메모리 벤더가 에이전틱 추론의 메모리 병목을 CXL로 푸는 구체 협력이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "디지털데일리 당일 보도(엑시나 발표·OCP 전시)"
+    },
+    "links": [
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026101612002085159",
         "type": "source"
       }
     ]
@@ -268,6 +335,30 @@
       {
         "label": "API 릴리스 노트",
         "url": "https://docs.x.ai/developers/release-notes",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-update-white-house-si-force-first-meeting",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "[업데이트] 백악관 Super Intelligence Force, 첫 회의서 120일 차터·사고 신고 프로토콜 착수",
+    "summary": "백악관 Super Intelligence Force가 15일(현지) 첫 공식 회의에서 차터를 채택하고 120일 작업을 시작했다. PCAST에 사이버·바이오·모델 통제 위험 보고서를 의뢰하고, DNI 제이 클레이턴·국가사이버국장이 SI Accord 이행 워킹그룹을, 에밀 마이클 차관보가 랩의 침해·해킹·탈옥 등 조기 통보 프로토콜을 맡는다. FTC 의장 주도 법집행·소비자보호 조율 위원회도 신설한다.",
+    "why": "앞서 논의되던 SI Force의 사고 신고·산업 약속이 실제 정부 작업반과 일정으로 구체화됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Semafor 독점(백악관 성명·회의 결과) + Politico·AI Affairs 교차"
+    },
+    "links": [
+      {
+        "label": "Semafor",
+        "url": "https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work",
+        "type": "source"
+      },
+      {
+        "label": "AI Affairs 요약",
+        "url": "https://www.aiaffairs.com/government/white-house-super-intelligence-task-force-charter-120-day-review/",
         "type": "source"
       }
     ]
@@ -517,6 +608,40 @@
     ]
   },
   {
+    "id": "2026-10-15-perplexity-space-open-source",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "퍼플렉시티, AI 에이전트 샌드박스 'SPACE' 오픈소스 공개",
+    "summary": "퍼플렉시티가 AI 에이전트 실행용 격리 플랫폼 SPACE의 소스코드를 공개했다. Firecracker 기반 소형 VM에서 코드를 돌리고, 인증정보·네트워크는 샌드박스 밖에서 관리하며 일시정지·복원·스냅샷을 지원한다. 회사는 9개 프론티어 모델에 탈출을 지시해 118회 시험했을 때 샌드박스 탈출은 없었다고 밝혔고, CoreWeave·Akamai·Crusoe가 도입·제공에 합류했다.",
+    "why": "에이전트 탈출·외부 해킹 사고가 잇따른 가운데, 정렬만 믿지 않고 격리 가드레일을 업계가 함께 강화하려는 움직임이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Semafor 인터뷰·블로그 예고 + GitHub perplexityai/SPACE + SiliconANGLE·ZDNet Korea 교차"
+    },
+    "links": [
+      {
+        "label": "Semafor",
+        "url": "https://www.semafor.com/article/10/15/2026/perplexity-to-give-away-its-ai-security-software",
+        "type": "source"
+      },
+      {
+        "label": "perplexityai/SPACE",
+        "url": "https://github.com/perplexityai/SPACE",
+        "type": "github"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261016140626",
+        "type": "source"
+      },
+      {
+        "label": "공식 블로그",
+        "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-paper-instruments-ultramarine-1-flash",
     "date": "2026-10-15",
     "category": "로컬 AI",
@@ -575,6 +700,54 @@
         "label": "anomalyco/opencode",
         "url": "https://github.com/anomalyco/opencode",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-openai-rosalind-academic-plan",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "OpenAI, 미국 대학 연구실용 'Rosalind Academic Plan' 공개…GPT-Rosalind 최대 30석 무료",
+    "summary": "OpenAI가 생명과학 특화 모델 GPT-Rosalind를 미국 대학 연구실에 보급하는 Rosalind Academic Plan을 발표했다. 자격 있는 랩은 최대 12개월간 Business Standard 좌석 최대 30개를 무료로 받을 수 있고, GPT-Rosalind는 Trusted Access 승인 후 사용한다. 연구 데이터는 기본으로 학습에 쓰이지 않으며, 현재 API·API 크레딧은 포함되지 않는다.",
+    "why": "프론티어 생명과학 모델을 학계에 유료 장벽을 낮춰 공급하는 제도적 접근이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표 + Help Center Rosalind Academic Plan 안내"
+    },
+    "links": [
+      {
+        "label": "OpenAI 공식",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+        "type": "source"
+      },
+      {
+        "label": "Help Center",
+        "url": "https://help.openai.com/en/articles/20001602-rosalind-academic-plan",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-openai-meta-deepfake-evidence-panel",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "OpenAI·Meta, 美 증거규칙 자문위에 \"딥페이크 완전 탐지는 어렵다\" 경고",
+    "summary": "OpenAI와 Meta 관계자가 15일 보스턴에서 열린 미 사법회의 증거규칙 자문위에서, 합성 음성·영상이 원본과 구분이 어려워져 증거 인증이 어려워질 수 있다고 밝혔다. OpenAI 정책 고문 시라 앤더슨은 AI 이미지를 안정적으로 모두 식별하는 과학적 방법이 없을 수 있다고 말했고, Meta는 최근 모델 출력이 저비용·단시간에 만들어진다고 설명했다. 위원장은 아직 딥페이크 이의 제기가 흔하지는 않다고 했다.",
+    "why": "법정 증거 규칙(안 Rule 901(c) 등)과 AI 미디어 인증 논의를 빅테크가 직접 제기했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "StreetInsider/로이터 계열 보도 + AI Affairs 요약, 연방법원 Evidence Rules 아젠다와 정합"
+    },
+    "links": [
+      {
+        "label": "AI Affairs",
+        "url": "https://www.aiaffairs.com/government/openai-meta-us-evidence-panel-deepfake-authentication/",
+        "type": "source"
+      },
+      {
+        "label": "Yahoo Finance (보도)",
+        "url": "https://ca.finance.yahoo.com/news/openai-meta-warn-u-judicial-184412718.html",
+        "type": "source"
       }
     ]
   },
@@ -1183,6 +1356,30 @@
     ]
   },
   {
+    "id": "2026-10-15-anthropic-opus-5-5-fast-mode-ga",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "Anthropic, Claude Opus 5.5 Fast Mode 정식 개방…최대 약 2.5배 출력 속도",
+    "summary": "Anthropic이 Claude Opus 5.5의 Fast Mode를 리서치 프리뷰에서 꺼내 대기열·베타 헤더 없이 쓸 수 있게 했다. 같은 모델 가중치로 출력 토큰/초를 최대 약 2.5배 높이며, Fast 요금은 입력 $8·출력 $40/백만 토큰이다. Azure 호스팅 Claude in Microsoft Foundry에도 제공되고, Opus 5·4.8 Fast Mode는 리서치 프리뷰로 남는다.",
+    "why": "에이전트·코딩처럼 긴 출력 작업에서 체감 지연을 줄이는 상용 옵션이 열린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude Platform 릴리스 노트(2026-10-15) + Fast Mode 공식 문서(가격·속도)"
+    },
+    "links": [
+      {
+        "label": "Claude Platform 릴리스 노트",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "type": "source"
+      },
+      {
+        "label": "Fast Mode 문서",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-ant-ling-3-1-flash-open-weights",
     "date": "2026-10-15",
     "category": "로컬 AI",
@@ -1340,6 +1537,30 @@
       {
         "label": "SF Standard",
         "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-ollama-v0-40-5-nemotron",
+    "date": "2026-10-14",
+    "category": "로컬 AI",
+    "title": "Ollama v0.40.5, Nemotron 3.5 Super·Bolt 로컬 실행 지원",
+    "summary": "Ollama v0.40.5가 NVIDIA Nemotron 3.5 Super(120B MoE·활성 약 12B, 비전·도구·최대 1M 컨텍스트)와 24GB GPU용 Bolt(74B·활성 9B)를 `ollama run nemotron-3.5-super` 등으로 돌릴 수 있게 했다. llama.cpp·MLX를 Nemotron 3.5에 맞게 갱신했고, 클라우드 의사결정 모델(clef:cloud 등)과 Responses 커스텀 툴 오류 수정도 포함됐다.",
+    "why": "전날 공개된 Nemotron 3.5 오픈 가중치를 로컬 원커맨드로 쓰기 쉬워진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub ollama/ollama Releases v0.40.5 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "Ollama v0.40.5",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
+        "type": "github"
+      },
+      {
+        "label": "릴리스 페이지",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
         "type": "source"
       }
     ]
