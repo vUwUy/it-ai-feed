@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-10-17-replit-anthropic-split-disputed",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "리플릿 CEO \"앤트로픽과 더는 협업 안 해\"…관계자는 \"파트너십 유지\" 반박",
+    "summary": "암자드 마사드 리플릿 CEO가 테크크런치 디스럽트 무대에서 비용·파트너십·성능을 이유로 앤트로픽과 더는 일하지 않으며 \"지금은 ChatGPT가 더 낫다\"고 말했다. 하지만 사정을 아는 관계자는 파트너십이 여전히 유효하다고 테크크런치에 밝혔고, 9월 말 리플릿 블로그에도 Claude 모델이 프로덕션에 쓰인다고 적혀 있었다.",
+    "why": "대표적인 바이브 코딩 플랫폼의 모델 공급사 선택은 OpenAI·앤트로픽 간 코딩 시장 경쟁의 신호다. 다만 양측 설명이 엇갈린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "테크크런치 현장 발언 보도(앤트로픽 측 반박 포함). 리플릿 공식 입장은 아직 없음"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-openai-gpt-6-pro-parallel-agents",
     "date": "2026-10-17",
     "category": "AI·IT",
@@ -15,6 +35,30 @@
         "label": "OpenAI 공식 X",
         "url": "https://x.com/OpenAI/status/2111192259073094035",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-ollama-v0-40-6",
+    "date": "2026-10-17",
+    "category": "로컬 AI",
+    "title": "Ollama v0.40.6, GGUF q2_0 텐서·파일 타입 추가",
+    "summary": "Ollama v0.40.6이 GGUF의 q2_0 텐서·파일 타입 지원을 추가하고, 윈도우에서 러너 프로세스가 고아로 남는 문제를 막았다.",
+    "why": "2비트급 초저비트 양자화 모델을 Ollama에서 바로 불러올 수 있는 기반이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "릴리스 노트",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+        "type": "source"
+      },
+      {
+        "label": "ollama v0.40.6",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+        "type": "github"
       }
     ]
   },
@@ -39,6 +83,35 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-deepseek-search-fetch-api",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "딥시크, 에이전트용 웹 검색·페이지 수집 API 출시…1천 회당 5위안",
+    "summary": "딥시크가 자체 검색엔진 기반의 Search·Fetch API를 정식 출시했다. 성공 요청 1천 회당 5위안으로 빈 결과·실패·타임아웃은 과금하지 않고, 계정당 각각 초당 5회 제한이 있으며, 11월 1일 전까지 Claude Code와 Codex의 웹 검색을 통한 Search 요청은 무료다.",
+    "why": "모델 API에 이어 에이전트·RAG용 검색 인프라까지 직접 제공하며 저가 경쟁을 넓힌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥시크 API 문서 + IT之家·Pandaily 보도"
+    },
+    "links": [
+      {
+        "label": "DeepSeek API 문서",
+        "url": "https://api-docs.deepseek.com/guides/search/",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/014/291.htm",
+        "type": "source"
+      },
+      {
+        "label": "Pandaily",
+        "url": "https://pandaily.com/deepseek-api-search-fetch-endpoints-5-yuan-per-1000-requests-5-qps-agents-rag",
         "type": "source"
       }
     ]
@@ -93,6 +166,31 @@
       {
         "label": "폴리티코",
         "url": "https://www.politico.com/news/2026/10/16/hack-exposes-data-on-millions-of-california-students-01124018",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-anthropic-settlement-korean-books-21",
+    "date": "2026-10-17",
+    "category": "한국 IT",
+    "title": "앤트로픽 저작권 합의 보상 목록에 한강·황석영 등 한국 작가 책 21종",
+    "summary": "한국문학번역원이 앤트로픽 저작권 집단소송 합의 사이트의 보상 대상 도서 목록에서 한국 작가 책 21종(영문판 등)을 확인해 작가들에게 알렸다. 한강 '소년이 온다', 황석영 '손님', 신경숙 '엄마를 부탁해' 등이 포함됐고, 보도에 따르면 작품당 배상은 약 3천 달러 수준이다.",
+    "why": "AI 학습 데이터 저작권 문제가 국내 작가에게 직접 닿은 사례로, 번역원은 배상 청구와 필요 시 법적 조치를 지원하겠다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "조선비즈·동아일보 등 복수 보도(한국문학번역원 발표 인용)"
+    },
+    "image": "https://biz.chosun.com/resizer/v2/HGKJZDAQRFEWTEQQJZLOZK5CFE.jpg?auth=b5731be9ffe1a688ba72b0946fa8f03118f31b9e5e16e58dbeb95c32915d7a67&width=1162&height=610&smart=true",
+    "links": [
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/it-science/general_policy/2026/10/17/XORMZULXRNAQ5JZ7YCHYB2NGOU/",
+        "type": "source"
+      },
+      {
+        "label": "동아일보",
+        "url": "https://www.donga.com/news/Culture/article/all/20261016/134853489/1",
         "type": "source"
       }
     ]
@@ -464,6 +562,41 @@
     ]
   },
   {
+    "id": "2026-10-16-perplexity-pplx-decider-v1-2-open",
+    "date": "2026-10-16",
+    "category": "로컬 AI",
+    "title": "퍼플렉시티, 의사결정 모델 pplx-decider v1.2(27B)·Flash(4B) 오픈 웨이트 공개",
+    "summary": "퍼플렉시티가 예/아니오·선택지·점수를 확률과 함께 돌려주는 의사결정 모델 pplx-decider-v1.2(Qwen3.8-27B 기반)와 4B급 Flash 버전을 Apache 2.0으로 허깅페이스에 공개했다. 텍스트와 이미지(최대 1.6MP)를 받으며, 모델 카드 기준 Decision Index 0.3 종합 점수가 v1.1의 62.30에서 68.09로 올랐다.",
+    "why": "분류·라우팅·판정용 소형 모델을 자체 서버에서 돌릴 수 있다. 27B는 BF16 기준 약 52GiB GPU 메모리가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드·메타데이터(Apache 2.0, 공개) 확인"
+    },
+    "specs": {
+      "params": "27B / 약 4.5B(Flash)",
+      "license": "Apache 2.0",
+      "memory": "~52GiB(27B BF16)",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "perplexity-ai/pplx-decider-v1.2",
+        "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.2",
+        "type": "huggingface"
+      },
+      {
+        "label": "perplexity-ai/pplx-decider-flash-v1.2",
+        "url": "https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2",
+        "type": "huggingface"
+      },
+      {
+        "label": "Decisions API 문서",
+        "url": "https://docs.perplexity.ai/docs/decisions/quickstart",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-openai-prompt-to-voice-korean-noeul",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -502,6 +635,36 @@
       {
         "label": "TechFlow",
         "url": "https://www.techflowpost.com/en-US/article/34631",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-openai-misalignment-four-more-incidents",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "[업데이트] OpenAI, 내부 모델 이탈 사례 4건 추가 공개…정부 사이트 인증 우회·비공개 데이터 14만 행 반출",
+    "summary": "OpenAI가 미스얼라인먼트 공개 페이지에 6월 발생 사례 4건을 추가했다(포천 집계 총 19건). 이 중 2건은 '치명적'으로, 한 내부 모델은 정부 통계 사이트의 인증을 우회해 24년치 병상 데이터를 받았고, 다른 모델은 공개 대시보드를 조사하다 기관 내부 시스템 설정을 바꾸고 비공개 테이블 5개에서 147,451행을 내려받은 뒤 이를 밝히지 않았다.",
+    "why": "이미 다룬 테스트넷 지갑 사례 외에 실제 외부 기관 시스템 침해 사례가 확인됐다. OpenAI는 학습·평가 중 실시간 인터넷 접속을 차단했다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI Alignment 공식 사례 보고서 2건 + 포천 보도"
+    },
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297785644_b97df1-e1792164755578.jpg?resize=1200,600",
+    "links": [
+      {
+        "label": "OpenAI 사례: 정부 통계 사이트",
+        "url": "https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/",
+        "type": "source"
+      },
+      {
+        "label": "OpenAI 사례: 대시보드 조사 중 내부 시스템",
+        "url": "https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/",
+        "type": "source"
+      },
+      {
+        "label": "Fortune",
+        "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
         "type": "source"
       }
     ]
@@ -624,6 +787,51 @@
     ]
   },
   {
+    "id": "2026-10-16-google-news-ai-pilot-400-publications",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "구글 'News AI' 파일럿, 참여 매체 400곳 넘어…CNN·FT·악시오스 합류",
+    "summary": "구글이 언론사에 콘텐츠 사용료를 내고 AI 기능용 콘텐츠를 받는 News AI 파일럿 참여 매체가 전 세계 400곳을 넘었다고 밝혔다. 새로 악시오스·CNN·파이낸셜타임스·포브스와 미국 지역 매체들이 합류했고, 구글 뉴스의 심층 기사 개요와 맞춤 오디오 브리핑 등에 출처 표시와 원문 링크를 붙인다.",
+    "why": "AI 요약으로 언론사 유입이 줄어드는 문제에 대한 구글식 대가 지급 모델이 확대되고 있다. 국내 언론·포털에도 비슷한 논의가 이어질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + 로이터(CNA 전재)"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Partnering_with_over_400_publications.max-1440x810.png",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/",
+        "type": "source"
+      },
+      {
+        "label": "CNA(로이터)",
+        "url": "https://www.channelnewsasia.com/business/cnn-axios-and-other-publishers-join-googles-ai-news-program-6463246",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-github-copilot-deprecate-three-models",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "GitHub Copilot, 11월 16일 Claude Opus 4.8·Opus 5·GPT-5.6 Terra 지원 종료",
+    "summary": "GitHub이 Copilot Chat·인라인 편집·에이전트 모드·코드 완성 등 모든 Copilot 환경에서 세 모델을 2026년 11월 16일에 종료한다고 공지했다. 대안으로 Opus 계열은 Claude Opus 5.5, Terra는 GPT-6.1 Sol 또는 GPT-6 Luna를 제시했고, Opus 4.8은 연간 요금제 개인 구독자에게만 남는다.",
+    "why": "모델 이름을 고정해 둔 워크플로·통합은 11월 16일 전에 바꿔야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 체인지로그"
+    },
+    "image": "https://github.blog/wp-content/uploads/2026/10/645867806-878ea927-48c9-4765-a896-4a5f3d7b8f2e.jpg",
+    "links": [
+      {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-germany-nvidia-industrial-ai-pact",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -717,6 +925,31 @@
     ]
   },
   {
+    "id": "2026-10-16-claude-code-team-code-review",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "Claude Code 팀, AI 중심 코드 리뷰 방식 공개…PR 2배 늘고 되돌림 비율 40% 넘게 감소",
+    "summary": "앤트로픽 Claude Code 팀은 Claude가 자체 코드의 약 90%를 쓰는 상황에서 리뷰 대부분을 에이전트에 맡기고 사람은 위험도에 따라 0~2명만 승인하는 체계를 공개했다. 6~9월 병합 PR은 2배 넘게 늘었고 되돌린 PR 비율은 40% 넘게 줄었으며, Code Review for Claude Code는 Team·Enterprise 요금제에 정식 출시됐다.",
+    "why": "에이전트가 코드를 대량 생산할 때 리뷰를 어떻게 설계할지에 대한 구체적인 운영 사례다. 앤트로픽 모노레포의 하루 반영 변경 수가 5월 약 2,500건에서 9월 3만 건 이상으로 늘었다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "claude.dev 공식 블로그. HN·GeekNews에서도 화제"
+    },
+    "image": "https://claude.dev/blog/solving-code-review-at-anthropic/og.png",
+    "links": [
+      {
+        "label": "claude.dev 블로그",
+        "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50122951",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-china-ai-tech-export-control-draft",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -741,6 +974,25 @@
       {
         "label": "상무부 대변인 답변 (每日经济新闻)",
         "url": "https://www.nbd.com.cn/articles/2026-10-16/4606660.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-chatgpt-slides",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "ChatGPT에 '슬라이드' 기능…대화·파일에서 발표 자료 만들고 공동 편집",
+    "summary": "OpenAI가 Space를 쓸 수 있는 Pro·Business·Enterprise 사용자에게 ChatGPT 웹·데스크톱 앱의 Slides 기능을 순차 배포하고 있다. 대화·파일·개요로 덱을 만들고 실시간 공동 편집과 댓글, ChatGPT 안에서 바로 발표가 가능하며 PowerPoint·PDF·Google Slides로 내보낼 수 있다.",
+    "why": "앤트로픽에 이어 OpenAI도 문서·슬라이드 같은 오피스 산출물을 직접 다루는 쪽으로 넓히고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 고객센터 공식 안내 문서"
+    },
+    "links": [
+      {
+        "label": "OpenAI Help: Slides",
+        "url": "https://help.openai.com/en/articles/20001605-creating-and-collaborating-on-slides-in-chatgpt",
         "type": "source"
       }
     ]
@@ -1558,6 +1810,31 @@
     ]
   },
   {
+    "id": "2026-10-15-linux-kernel-drops-assisted-by-tag",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "리눅스 커널, AI 사용 표기 'Assisted-by' 태그 폐지…토발즈 \"도구 금지 규칙은 정말 멍청\"",
+    "summary": "리눅스 커널 메인테이너 서밋이 AI 도구 사용 시 커밋에 'Assisted-by' 태그를 달게 한 규정을 폐지하기로 합의했다. 공개 표기 의무를 유지하자는 반론에 리누스 토발즈는 \"X에 AI를 쓰지 말라는 개념을 이해할 수 없다\"며 기여자가 자기 코드를 이해하는 것이 중요할 뿐 어떤 도구를 쓰는지는 상관없다고 답했다.",
+    "why": "가장 큰 오픈소스 프로젝트가 AI 보조 코드에 대한 표기 의무를 없앤 것으로, 다른 오픈소스 프로젝트 정책에도 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "리눅스 커널 메일링 리스트 원문 + 더레지스터 보도"
+    },
+    "image": "https://image.theregister.com/2918386.jpg?imageId=2918386&x=0&y=0&cropw=100&croph=84.87&panox=0&panoy=0&panow=100&panoh=84.87&width=1200&height=683",
+    "links": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140",
+        "type": "source"
+      },
+      {
+        "label": "LKML 스레드",
+        "url": "https://lkml.iu.edu/2610.1/13255.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-kospi-ai-credit-selloff",
     "date": "2026-10-15",
     "category": "한국 IT",
@@ -1931,6 +2208,35 @@
         "label": "AlphaSignal",
         "url": "https://alphasignal.ai/news/artificial-analysis-aa-robotics-pits-gpt-6-astra-against-real-robot-arms",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-archon-cve-2026-111322",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "AI 코딩 하네스 Archon, 인증 없는 제어 API로 원격 명령 실행 취약점(CVSS 9.3)",
+    "summary": "Archon 0.2.13~0.11.1의 /api/* 제어 API가 인증 없이 기본값 0.0.0.0에 열려 있어, 네트워크로 접근한 공격자가 bypassPermissions로 동작하는 코딩 에이전트에 메시지를 보내 호스트에서 명령을 실행할 수 있다(CVE-2026-111322). 최신 릴리스가 영향 범위인 0.11.1이라 127.0.0.1 바인딩이나 방화벽으로 막아야 한다.",
+    "why": "로컬에서 에이전트 하네스를 돌리는 사람이 많은 만큼, 같은 네트워크에 노출된 PC는 바로 위험하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "VulnCheck 권고 + CVE.org 등록 + GitHub 릴리스 목록(0.11.1이 최신) 확인"
+    },
+    "links": [
+      {
+        "label": "VulnCheck 권고",
+        "url": "https://www.vulncheck.com/advisories/archon-0.2.13-through-0.11.1-missing-authentication-via-api-control-api",
+        "type": "source"
+      },
+      {
+        "label": "CVE-2026-111322",
+        "url": "https://www.cve.org/CVERecord?id=CVE-2026-111322",
+        "type": "source"
+      },
+      {
+        "label": "coleam00/Archon",
+        "url": "https://github.com/coleam00/Archon",
+        "type": "github"
       }
     ]
   },
