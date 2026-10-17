@@ -418,7 +418,7 @@
     "why": "AI가 코드를 '쓰는' 것보다 '검토하는' 쪽에서 오픈소스 일정에 먼저 영향을 준 사례로, 이제 병목은 사람의 분류·수정 역량이라는 점을 보여준다.",
     "verification": {
       "status": "확인됨",
-      "note": "The Register 보도(아이젠트라우트 블로그 인용) + Postgres Weekly·PostgreSQL 위키 오픈 항목에 11월 19일 일정 반영"
+      "note": "The Register 보도(핵심 커미터 아이젠트라우트 블로그 인용). HN 181점 토론"
     },
     "image": "https://image.theregister.com/228745.jpg?imageId=228745&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
     "links": [
