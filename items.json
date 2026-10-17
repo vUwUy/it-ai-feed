@@ -69,6 +69,35 @@
     ]
   },
   {
+    "id": "2026-10-17-california-ets-student-data-breach",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "캘리포니아 공립학교 학생 수백만 명 정보 유출…시험 위탁기관 ETS 파일전송 서버 침해",
+    "summary": "캘리포니아 교육부(CDE)는 주 학력평가를 맡은 비영리기관 ETS의 SFTP(파일 전송) 서버에 공격자가 탈취한 로그인 계정으로 2026년 5월 22일~9월 18일 여러 차례 접속해 최근 3개 학년도 재학생 전원을 포함한 학생 정보를 복사해 갔다고 공지했다. 이름·생년월일·주소·학교와 장애·504 지위, 인종, 영어 학습자 여부, 시험 결과 등이 포함될 수 있고, 주민번호(SSN)·금융정보·비밀번호는 빠졌다. 로이터는 2025-26학년도 재학생만 570만 명이 넘는다고 전했다.",
+    "why": "미성년자 수백만 명의 장애·인종 같은 민감 정보가 외부 위탁업체의 계정 하나로 넉 달 가까이 새어 나간 사례로, 공공기관 데이터 위탁 관리와 계정 보안 문제가 다시 부각됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "캘리포니아 교육부 공식 유출 공지(ETS 명의) + 로이터 보도. 피해 인원 '약 700만 명'은 일부 매체 추정이라 제외"
+    },
+    "links": [
+      {
+        "label": "캘리포니아 교육부 공지",
+        "url": "https://www.cde.ca.gov/nr/in/ets-notification.asp",
+        "type": "source"
+      },
+      {
+        "label": "로이터 (KTWB 전재)",
+        "url": "https://ktwb.com/2026/10/16/hacker-gets-data-on-millions-of-california-students-state-education-department-says/",
+        "type": "source"
+      },
+      {
+        "label": "폴리티코",
+        "url": "https://www.politico.com/news/2026/10/16/hack-exposes-data-on-millions-of-california-students-01124018",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-anthropic-employment-report",
     "date": "2026-10-17",
     "category": "AI·IT",
