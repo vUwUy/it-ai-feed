@@ -1,5 +1,140 @@
 [
   {
+    "id": "2026-10-18-update-replit-openai-default-claude-optional",
+    "date": "2026-10-18",
+    "category": "AI·IT",
+    "title": "[업데이트] 리플릿 CEO \"OpenAI가 기본 모델, Claude도 계속 선택 가능\"",
+    "summary": "'앤트로픽과 더는 협업하지 않는다'던 발언 이후 암자드 마사드 CEO가 \"리플릿은 모델 중립적이며 사용자는 Claude 등 지원 모델을 고를 수 있고, OpenAI가 이제 Replit Agent의 선호 파트너\"라고 테크크런치에 해명했다. 그는 리플릿이 최근까지 앤트로픽의 상위 5개 고객이었다고도 말했다.",
+    "why": "완전 결별이 아니라 기본값 교체다. 다만 대부분 사용자가 기본 모델을 쓰는 만큼 앤트로픽 매출에는 의미 있는 감소가 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch 업데이트 기사(마사드 CEO 직접 해명 인용)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-update-meta-removes-scraping-terms",
+    "date": "2026-10-18",
+    "category": "AI·IT",
+    "title": "[업데이트] 메타, 논란 된 상업 약관의 '웹 콘텐츠 AI 학습' 조항 삭제",
+    "summary": "비즈니스 계정의 도메인·웹페이지 콘텐츠를 메타 제품 학습 등에 쓸 수 있다는 상업 약관 문구가 삭제됐다고 더버지·테크크런치가 보도했다. 메타는 \"통합한 크롤링 조항은 광고·비즈니스 제품에만 적용되며 이를 약관에 명확히 했다. 웹 크롤러 사용 방식은 바뀌지 않는다\"고 밝혔다.",
+    "why": "언론사 사이트 무단 학습 우려를 낳았던 조항이 반발 며칠 만에 철회돼, 퍼블리셔 측 압박이 실제 약관 수정으로 이어진 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch 보도(The Verge 인용) + 메타 공식 성명"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-opencode-console-breach-api-keys",
+    "date": "2026-10-18",
+    "category": "AI·IT",
+    "title": "OpenCode Console 보안 침해…저장된 OpenAI·Anthropic 등 API 키 노출, 사용자 1.4% 영향",
+    "summary": "OpenCode가 공식 X에서 \"대규모 증류(distillation) 공격과 관련된 보안 침해\"로 OpenCode Console 사용자의 1.4%가 영향을 받았다고 밝혔다. 이용자 이메일에서는 폐기 중이던 레거시 시스템에 무단 접근이 있었고, 워크스페이스에 저장한 OpenAI·Anthropic 등 외부 공급사 키가 노출됐을 수 있다며 해당 키를 공급사 대시보드에서 폐기·재발급하라고 안내했다.",
+    "why": "외부 키를 넣어 둔(BYOK) 사용자만 해당되고 로컬 CLI는 영향 없다는 게 현재 설명이지만, 일부 사용자는 Anthropic 계정 400달러 등 무단 과금을 겪었다고 보고했다(Notebookcheck). Console에 키를 저장했다면 즉시 교체가 필요하다. HN에서도 545점·91개 댓글로 주목받았고, 증류 공격이 어떻게 키 유출로 이어졌는지 상세 설명(RCA)을 요구하는 반응이 많다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenCode 공식 X 공지 + Notebookcheck 보도(사용자 이메일·피해 보고 인용). 사고는 진행 중이라 세부 원인은 미공개"
+    },
+    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/OpenCode-confirms-the-breach-and-API-keys-been-leaked.png",
+    "links": [
+      {
+        "label": "OpenCode 공식 X",
+        "url": "https://x.com/opencode/status/2111519637049319818",
+        "type": "source"
+      },
+      {
+        "label": "Notebookcheck",
+        "url": "https://www.notebookcheck.net/OpenCode-hacked-users-urged-to-revoke-their-API-keys.1426957.0.html",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50133401",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-nabo-1gw-aidc-corporate-tax-estimate",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "국회예산정책처 \"1GW급 AI데이터센터 1곳, 연 법인세 8,281억원\" 추산",
+    "summary": "황정아 의원실이 받은 국회예산정책처 분석에 따르면 1GW급 AIDC 1곳의 연간 법인세는 8,281억원, 법인지방소득세는 828억원으로 추산됐다. 엘리스그룹 상반기 실적(IT 전력 약 4.7MW, 영업이익률 30.1%)을 1GW로 단순 확대해 연매출 11조1천억원을 가정한 수치로, 예산정책처는 실제 세수 전망치가 아닌 가정치라고 밝혔다.",
+    "why": "지자체 AIDC 유치 경쟁과 세제 지원 논의의 근거로 쓰일 숫자다. 다만 해외 네오클라우드(네비우스·코어위브 등)는 대부분 적자라 실제 세수는 수익성에 크게 좌우된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도(국회예산정책처 조사분석 회답, 황정아 의원실 제공)"
+    },
+    "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016134500017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261016134500017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-llama-cpp-webui-discover-hf-models",
+    "date": "2026-10-18",
+    "category": "로컬 AI",
+    "title": "llama.cpp 웹 UI에 '모델 탐색(Discover)' 추가…HF Hub에서 GGUF 검색·다운로드, 드래프트 모델 자동 동반",
+    "summary": "llama-server 웹 UI 모델 관리자에 Hugging Face GGUF 모델을 검색·필터하고 양자화별 메모리 적합 표시를 보며 내려받는 Discover 화면이 병합됐다(빌드 b11714). 본 모델을 받으면 같은 양자화의 DFlash/MTP 추측 디코딩 드래프트를 함께 받고, 일시정지·재개와 재시작 후 이어받기도 지원한다. 설정의 'Enable Discover Models'는 기본 꺼짐이다.",
+    "why": "LM Studio·Ollama처럼 GUI에서 모델을 찾아 받는 흐름이 llama.cpp 본체에 들어와, 별도 앱 없이 llama-server만으로 로컬 모델을 관리하기 쉬워졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub PR #29584(10/17 병합) + 릴리스 b11714"
+    },
+    "image": "https://opengraph.githubassets.com/a142b6aecee8d01f355e9c883da394e3c41f983e498ad4a0415fc3e4c1933929/ggml-org/llama.cpp/pull/29584",
+    "links": [
+      {
+        "label": "PR #29584",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/29584",
+        "type": "github"
+      },
+      {
+        "label": "릴리스 b11714",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11714",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-deepx-intel-openvino-samsung-2nm-tapeout",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "딥엑스 \"인텔 OpenVINO에 NPU 연동, AMD와도 협력 논의…삼성 2나노 칩 이달 테이프아웃\"",
+    "summary": "김녹원 딥엑스 대표는 연합뉴스 인터뷰에서 인텔 AI 추론 도구 OpenVINO에 자사 NPU를 연동하는 기술 협력을 진행 중이며 내년 초 초기 결과물을 기대한다고 밝혔다. 삼성전자 2나노 공정 칩은 이달 테이프아웃해 내년 3~4월 첫 칩을 예상하고, 지난해 8월~올해 7월 10개국 이상에서 구매주문 77건을 받았다고 했다.",
+    "why": "국내 온디바이스·피지컬 AI 반도체가 인텔·AMD 소프트웨어 생태계에 들어가려는 시도이자 삼성 2나노 파운드리의 국내 고객 사례다. 인텔과의 공식 협력 발표는 결과물이 나온 뒤에 하겠다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 단독 인터뷰(회사 대표 직접 발언). 인텔·AMD 측 공식 발표는 아직 없음"
+    },
+    "image": "https://img3.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016157300017_02_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261016157300017",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-replit-anthropic-split-disputed",
     "date": "2026-10-17",
     "category": "AI·IT",
@@ -59,6 +194,44 @@
         "label": "ollama v0.40.6",
         "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-iphone-duo-preorders-sold-out-2027",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "애플 첫 폴더블 '아이폰 듀오' 사전주문 몇 분 만에 배송 2027년으로…국내는 329만원부터",
+    "summary": "미국에서 16일(현지) 사전주문이 열리자 배송 예정일이 몇 분 만에 11월, 30분 만에 1월 25일로 밀렸고, 애플은 수요가 \"그야말로 이례적(extraordinary)\"이라고 밝혔다. 미국 가격은 1,999~3,199달러이며, 국내는 16일 오후 9시 사전예약을 시작해 23일 출시되고 출고가는 256GB 329만원~2TB 509만원이다.",
+    "why": "애플의 첫 폴더블이자 최고가 아이폰으로, 초기 공급 제약과 수요가 연말 스마트폰 시장과 삼성 폴더블 경쟁 구도에 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 성명(FT·CNBC 인용) + MacRumors·Engadget 보도 + 이투데이(국내 가격) + 애플 공식 제품 페이지"
+    },
+    "image": "https://images.macrumors.com/t/CF37ey2cPgDxE7XhXnqyT0kz1_Q=/1920x/article-new/2026/10/iphone-duo-feature.jpg",
+    "specs": {
+      "price": "미국 1,999~3,199달러 · 국내 329만~509만원"
+    },
+    "links": [
+      {
+        "label": "MacRumors",
+        "url": "https://www.macrumors.com/2026/10/16/apple-iphone-duo-demand-extraordinary/",
+        "type": "source"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2289629/iphone-duo-shipping-estimates-have-already-been-pushed-back-to-2027/",
+        "type": "source"
+      },
+      {
+        "label": "이투데이 (국내 가격)",
+        "url": "https://www.etoday.co.kr/news/view/2636856",
+        "type": "source"
+      },
+      {
+        "label": "애플 iPhone Duo (KR)",
+        "url": "https://www.apple.com/kr/iphone-duo/",
+        "type": "buy"
       }
     ]
   },
@@ -218,6 +391,31 @@
     ]
   },
   {
+    "id": "2026-10-17-apple-app-review-ncii-bait-and-switch",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "애플, 앱 심사 지침 개정…AI 생성 '비동의 성적 이미지'·심사 후 기능 바꾸기 금지",
+    "summary": "애플이 앱 심사 지침 1.2에 AI로 생성한 것을 포함한 비동의 성적 이미지를 앱이 선제적으로 막고 삭제해야 할 콘텐츠로 명시했고, 새 2.5.19는 심사 때 기능을 숨겼다가 승인 후 바꾸는 이른바 '베이트 앤 스위치' 앱을 앱스토어와 개발자 프로그램에서 퇴출한다고 규정했다. 인신매매·아동 착취 앱은 대체 배포 경로에서도 차단한다.",
+    "why": "'누디파이(nudify)' AI 앱이 심사를 우회해 왔다는 지적에 대한 대응으로, AI 콘텐츠 생성 앱 개발사에 직접적인 의무가 생겼다. 애플은 지난해 안전 문제로 15만 개 이상 앱을 막고 19.3만 개 이상 개발자 계정을 해지했다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Apple Developer 공식 공지 + 9to5Mac 보도"
+    },
+    "image": "https://developer.apple.com/news/images/og/apple-developer-og.png",
+    "links": [
+      {
+        "label": "Apple Developer 공지",
+        "url": "https://developer.apple.com/news/?id=vvzx6cul",
+        "type": "source"
+      },
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-anthropic-settlement-korean-books-21",
     "date": "2026-10-17",
     "category": "한국 IT",
@@ -332,6 +530,31 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50122800",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-anthropic-blackstone-chip-debt-10pct",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "앤트로픽, 칩 금융에 블랙스톤에 연 10% 넘는 수익률 제시 (FT)",
+    "summary": "FT에 따르면 앤트로픽은 구글 TPU 약 1.5GW 확보를 위한 600억 달러 규모 부채 패키지('Project North Star') 중 후순위 90억 달러를 블랙스톤 펀드에 맡기며 10%가 넘는 수익률을 제시했다. 칩 5년 리스료가 담보이며, 비슷한 등급 기업의 공모채 금리는 약 7%, 4개월 전 'Project Big Sky'는 8.5%였다고 FT는 전했다.",
+    "why": "상장을 앞둔 앤트로픽이 연산 인프라에 두 자릿수 금리를 감수한다는 점에서, 최근 코어위브 채권 급락과 맞물린 'AI 부채' 비용 논란의 핵심 사례다. 거래는 아직 확정되지 않았고 로이터는 독자 확인하지 못했다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FT 단독 보도를 로이터·Investing.com이 인용(로이터는 독자 확인 못 함). 블랙스톤 논평 거부"
+    },
+    "image": "https://content-media.investing.com/news/LYNXMPEE0T06O_L.jpg",
+    "links": [
+      {
+        "label": "Reuters (Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/anthropic-offers-blackstone-doubledigit-yield-in-chipfinancing-deal-ft-reports-4955079",
+        "type": "source"
+      },
+      {
+        "label": "Investing.com 상세",
+        "url": "https://uk.investing.com/news/company-news/anthropic-offers-blackstone-over-10-yield-in-60b-ai-chip-financing--ft-reports-4915411",
         "type": "source"
       }
     ]
@@ -542,6 +765,31 @@
       {
         "label": "뉴스핌",
         "url": "https://ir.newspim.com/news/view/20261016001115",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-schwab-jpmorgan-block-ai-agents",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "찰스슈왑·JP모건, 고객 계좌 접근하는 외부 AI 에이전트 차단…메타 Muse도 대상",
+    "summary": "릭 워스터 찰스슈왑 CEO는 블룸버그TV에서 메타 Muse 등 외부 AI 에이전트가 고객 비밀번호로 들어와 돈을 옮기려는 시도를 막고 있으며, 주요 에이전트가 매주 수십 건씩 차단된다고 말했다. 대신 잔액 조회·리서치만 가능한 MCP 서버를 열고 자체 비서 'Charley'를 권할 계획이며, JP모건 다이먼 CEO도 이번 주 외부 에이전트의 내부 실행을 허용하지 않겠다고 했다.",
+    "why": "쇼핑·금융을 대신하는 개인 에이전트가 늘면서 대형 금융사가 '읽기 전용' 접근으로 선을 긋기 시작했다. 사고 시 책임 소재가 아직 정해지지 않았다는 점이 핵심 이유다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그TV 인터뷰를 인용한 The Next Web·Moneycontrol(블룸버그) 보도"
+    },
+    "image": "https://media.thenextweb.com/2026/10/ai-letters-orange-glow-blue-background.jpg",
+    "links": [
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse",
+        "type": "source"
+      },
+      {
+        "label": "Moneycontrol (Bloomberg)",
+        "url": "https://www.moneycontrol.com/news/business/after-jpmorgan-charles-schwab-blocks-unauthorised-ai-agents-from-accessing-customer-accounts-14054121.html",
         "type": "source"
       }
     ]
@@ -1987,6 +2235,48 @@
         "label": "Haaretz",
         "url": "https://www.haaretz.com/israel-news/2026-10-15/ty-article/.premium/second-intel-worker-dies-after-southern-israel-factory-blast/000001a1-3e5b-da3c-a7fb-3ffba6830000",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-ifm-jais-3-open-weights",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "MBZUAI IFM·인셉션42 'Jais 3' 공개…0.9B~375B 아랍어 에이전트 모델 6종, Apache 2.0",
+    "summary": "MBZUAI 산하 IFM이 자체 오픈 모델 K2 Horizon을 바탕으로 한 아랍어 중심 모델 Jais 3 여섯 종(0.9B·3.7B·7B·32B 덴스, 36B-A4B·375B-A23B MoE)을 가중치·학습 단계별 체크포인트와 함께 Apache 2.0으로 냈다. 컨텍스트는 512K(0.9B는 128K)이며, 7B가 에이전트 평균에서 Gemma 4 31B를 앞선다고 IFM은 주장한다.",
+    "why": "휴대폰(0.9B, BF16 2.2GB)부터 8×H200 노드까지 같은 레시피로 고를 수 있는 다국어·소버린 오픈 모델 사례다. 데이터·체크포인트까지 공개해 다른 언어로 같은 방식 적응이 가능하다는 점도 한국어 모델 관점에서 참고할 만하다. 성능 수치는 자체 평가다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IFM 공식 블로그 + PR Newswire 보도자료 + Hugging Face 모델 카드(Apache 2.0)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inception42/Jais-3-375B-A23B.png",
+    "specs": {
+      "params": "0.9B·3.7B·7B·32B·36B-A4B·375B-A23B",
+      "license": "Apache 2.0",
+      "memory": "7B BF16 약 18GB · 375B BF16 758GB",
+      "context": "512K (0.9B는 128K)",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "IFM 공식 블로그",
+        "url": "https://ifm.ai/blog/jais3/",
+        "type": "source"
+      },
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/institute-of-foundation-models-and-inception42-launch-jais-3-the-worlds-leading-arabic-native-ai-for-speech-writing-and-agents-302909754.html",
+        "type": "source"
+      },
+      {
+        "label": "inception42/Jais-3-375B-A23B",
+        "url": "https://huggingface.co/inception42/Jais-3-375B-A23B",
+        "type": "huggingface"
+      },
+      {
+        "label": "inception42/Jais-3-7B",
+        "url": "https://huggingface.co/inception42/Jais-3-7B",
+        "type": "huggingface"
       }
     ]
   },
