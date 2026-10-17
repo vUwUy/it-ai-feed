@@ -88,6 +88,53 @@
     ]
   },
   {
+    "id": "2026-10-17-deepseek-v4-1-flash-1017",
+    "date": "2026-10-17",
+    "category": "로컬 AI",
+    "title": "딥시크 V4.1-Flash-1017 공개…웹·앱·API 교체, MIT 라이선스 오픈 웨이트",
+    "summary": "딥시크가 9월에 낸 V4.1-Flash의 업데이트판 V4.1-Flash-1017을 공개하고 웹·앱·API 모델을 이 버전으로 바꿨다. 자체 표에서 DeepSWE v1.1 77.0(이전 74.2), Terminal-Bench 4.0 42.3(이전 31.2) 등 보고한 11개 벤치마크 모두 이전판보다 높았고, 일부 코딩·에이전트 항목에서는 Claude Opus 5·GPT-5.6 Sol보다 높게 표기됐다. 가중치는 허깅페이스·모델스코프에 MIT 라이선스로 올라왔다.",
+    "why": "최상위 폐쇄형 모델과 비교되는 오픈 웨이트 모델이 MIT 라이선스로 풀렸다. 디코더 기사는 DeepSWE 과제당 비용이 이전판 약 0.50달러에서 0.20달러 미만으로 줄었다고 전했다. 다만 벤치마크는 딥시크 자체 측정이고 HLE·Terminal-Bench 4.0에선 Opus 5가 앞선다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥시크 공식 X 발표 + 허깅페이스 공식 모델 카드 확인, 디코더·마크테크포스트·제일재경(第一财经) 보도로 교차 확인. 벤치마크 수치는 딥시크 자체 측정"
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/06/deepseek_red_whale.png",
+    "specs": {
+      "params": "백본 552B, 토큰당 활성 8B(프리필)·16B(디코드) (V4.1-Flash 모델 카드 기준)",
+      "license": "MIT",
+      "context": "1M",
+      "modality": "텍스트·이미지 입력, 텍스트 출력",
+      "price": "API deepseek-flash, 피크 기준 입력(캐시 미스) 100만 토큰당 0.30달러·출력 1.20달러, 오프피크 절반 (마크테크포스트)"
+    },
+    "links": [
+      {
+        "label": "딥시크 공식 X 발표",
+        "url": "https://x.com/deepseek_ai/status/2111375640717033777",
+        "type": "source"
+      },
+      {
+        "label": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "type": "huggingface"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+        "type": "source"
+      },
+      {
+        "label": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50129045",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-deepseek-search-fetch-api",
     "date": "2026-10-17",
     "category": "AI·IT",
