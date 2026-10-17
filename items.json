@@ -1,5 +1,24 @@
 [
   {
+    "id": "2026-10-17-openai-gpt-6-pro-parallel-agents",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "OpenAI, ChatGPT의 GPT-6 (Astra) Pro 업그레이드…응답 속도·도구 사용 개선, 여러 에이전트 병렬 작업",
+    "summary": "OpenAI가 공식 X에서 ChatGPT의 GPT-6 Astra Pro가 더 빨라지고 플러그인·도구 사용이 개선됐으며, 여러 에이전트가 작업의 서로 다른 부분을 병렬로 처리하고 각 에이전트의 진행 상황과 완료 결과를 따로 확인할 수 있게 됐다고 밝혔다. Pro 사용자의 Chat 탭에서 바로 쓸 수 있다.",
+    "why": "최상위 요금제에서 단일 대화가 '멀티 에이전트 작업 분할'로 바뀌는 흐름으로, 긴 리서치·코딩 작업의 처리 방식이 달라진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 X 게시물(처음 'GPT-6 Pro'로 올린 뒤 'GPT-6 Astra Pro'로 수정)"
+    },
+    "links": [
+      {
+        "label": "OpenAI 공식 X",
+        "url": "https://x.com/OpenAI/status/2111192259073094035",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-elorian-glimpse",
     "date": "2026-10-17",
     "category": "AI·IT",
@@ -25,6 +44,31 @@
     ]
   },
   {
+    "id": "2026-10-17-coreweave-ai-debt-selloff-nasdaq",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "AI 인프라 부채 우려에 코어위브 12% 급락…나스닥 2.19%↓·필라델피아 반도체지수 8거래일 연속 하락",
+    "summary": "로이터에 따르면 16일(현지) 코어위브가 12% 떨어져 5거래일 손실이 약 25%가 됐고 회사채 수익률은 15%를 넘었다. 브로드컴 3.6%, 필라델피아 반도체지수 2.5% 하락에 나스닥은 2.19% 내린 26,128.13으로 주간 4%대 손실 흐름이다. CNBC는 네비우스 9%, IREN 8% 등 네오클라우드 전반이 밀렸고, 제프리스·JP모건·캔터는 매도가 '과도하다'고 봤다고 전했다.",
+    "why": "빚으로 짓는 AI 데이터센터의 수익성 의구심이 커지는 신호로, 이번 주 코스피 급락을 겪은 삼성전자·SK하이닉스 등 국내 AI 반도체주 흐름과도 직결된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 시황(Moneycontrol 전재) + CNBC 독립 보도로 수치 교차 확인"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108414314-1792071553946-gettyimages-2245498483-raa-coreweav251110_npnHA.jpeg?v=1792071586&w=1920&h=1080",
+    "links": [
+      {
+        "label": "Reuters (Moneycontrol)",
+        "url": "https://www.moneycontrol.com/news/business/markets/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh-14054246.html",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/coreweave-stock-selloff-analysts.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-anthropic-employment-report",
     "date": "2026-10-17",
     "category": "AI·IT",
@@ -45,6 +89,30 @@
       {
         "label": "직원 vs 대중 기대 보고서",
         "url": "https://www.anthropic.com/research/expectations-for-the-future",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-anthropic-draft-federal-ai-safety-bill",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "Anthropic, 의회에 자체 연방 AI 안전법 초안 제시…'50명 이상 사상·10억 달러 피해' 임박 위험 때만 출시 차단 (폴리티코)",
+    "summary": "폴리티코 보도(블룸버그·인베스팅닷컴 인용)에 따르면 Anthropic이 의원들에게 프런티어 AI 안전·보안 법안 초안을 비공개로 제시했다. 생물무기·사이버공격·안전통제 우회로 인해 50명 이상 사망·중상 또는 10억 달러 초과 피해가 예견되고 임박한 경우에만 정부 개입을 허용하고, 상무부 등록 독립 평가기관이 위험을 찾으면 평가 완료 후 72시간 안에 상무부에 통보, 출시·사용 중단은 D.C. 연방지방법원 판사만 명령할 수 있게 하는 구조다.",
+    "why": "FTC 조사·백악관 SI Force 등 규제 압박이 커지는 가운데 선두 AI 랩이 직접 '개입 문턱'을 법안 문구로 제안한 것이라, 미국 연방 AI 규제 논의의 출발점이 될 수 있다. Anthropic·상무부는 즉각 논평하지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "폴리티코 단독 보도를 블룸버그(Bloomberg Law)·Investing.com이 각각 인용 보도. 법안 원문은 비공개"
+    },
+    "links": [
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says",
+        "type": "source"
+      },
+      {
+        "label": "Investing.com (Yahoo)",
+        "url": "https://www.yahoo.com/news/politics/articles/anthropic-proposes-ai-safety-bill-232641388.html",
         "type": "source"
       }
     ]
@@ -226,6 +294,31 @@
     ]
   },
   {
+    "id": "2026-10-16-update-anthropic-ipo-valuation-1-5t-kbra",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "[업데이트] Anthropic IPO 기대 몸값 약 2조→1.5조 달러 거론 (로이터)…KBRA 'BB+' 신용등급도 공개 (FT)",
+    "summary": "로이터는 소식통 4명을 인용해, 14일 투자자 데이 참석자 일부가 11월 IPO 기업가치로 기존 기대치 약 2조 달러보다 낮은 약 1.5조 달러를 논의했다고 보도했다. 3분기 매출은 전 분기 대비 45% 늘어난 168억 달러·조정 기준 흑자였지만 성장 둔화가 실망을 샀다는 것. FT는 KBRA가 6월 Apollo 주도 350억 달러 칩 금융과 관련해 Anthropic에 투기등급 최상단인 BB+를 부여했다고 전했다.",
+    "why": "AI 업계 최대 IPO의 눈높이가 내려가면서 AI 인프라 부채 우려(코어위브 급락 등)와 맞물려 나스닥·국내 반도체주 심리에 직접 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독(CNA 전재, The Information 선행 보도 언급) + FT 보도를 Crypto Briefing 등이 인용. Anthropic 공식 논평 없음"
+    },
+    "image": "https://dam.mediacorp.sg/image/upload/s--9rsZm_yi--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-10-16T075214Z_2_LYNXMPEM9E1XY_RTROPTP_3_AI-SAFETY-EVALUATORS.JPG?itok=p4FyMyiZ",
+    "links": [
+      {
+        "label": "Reuters (CNA)",
+        "url": "https://www.channelnewsasia.com/business/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-6464056",
+        "type": "source"
+      },
+      {
+        "label": "Crypto Briefing (FT 인용, KBRA BB+)",
+        "url": "https://cryptobriefing.com/anthropic-bb-plus-credit-rating-kbra/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-taiwan-ai-chip-export-controls",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -275,6 +368,68 @@
       {
         "label": "뉴스핌",
         "url": "https://ir.newspim.com/news/view/20261016001115",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-prismml-ternary-bonsai-2-small",
+    "date": "2026-10-16",
+    "category": "로컬 AI",
+    "title": "PrismML, 3진(ternary) 비전·도구 모델 Bonsai 2 2B·4B·9B 공개…9B가 2GB, 아이폰서 34 tok/s",
+    "summary": "PrismML이 Qwen3.5 기반 3진 가중치({−1,0,+1}) 모델 Ternary Bonsai 2 2B·4B·9B를 Apache 2.0으로 공개했다. 용량은 각각 0.43GB·0.95GB·2GB로 원본 대비 9배 이상 작고, 19개 벤치마크에서 원본 성능을 대체로 80~100% 수준 유지했다. 아이폰 18 Pro Max에서 9B 최대 34 tok/s, 2B 120 tok/s이며 llama.cpp(PrismML 포크)·MLX로 구동하고 262K 컨텍스트·이미지 입력을 지원한다.",
+    "why": "휴대폰·노트북에서 도구 호출까지 되는 비전 모델을 2GB 안팎으로 돌릴 수 있어, 온디바이스 에이전트용 소형 모델의 실용 선택지가 넓어졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "PrismML 공식 발표 + Hugging Face 모델 카드(라이선스·용량·컨텍스트). r/LocalLLaMA에서 브라우저 WebGPU 데모 화제"
+    },
+    "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png",
+    "specs": {
+      "params": "2B / 4B / 9B (Qwen3.5 기반)",
+      "license": "Apache 2.0",
+      "memory": "0.43GB / 0.95GB / 2GB",
+      "context": "262K",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "PrismML 공식 발표",
+        "url": "https://prismml.com/news/bonsai-2-family",
+        "type": "source"
+      },
+      {
+        "label": "prism-ml/Ternary-Bonsai-2-9B-gguf",
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-9B-gguf",
+        "type": "huggingface"
+      },
+      {
+        "label": "Bonsai 2 Small 컬렉션",
+        "url": "https://huggingface.co/collections/prism-ml/bonsai-2-small-6abe929adea20e292d94cc62",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-postgres-19-delayed-llm-review",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "PostgreSQL 19, LLM 코드 리뷰가 찾은 결함 처리하느라 11월 19일로 연기…기능 8~10개 되돌려",
+    "summary": "The Register에 따르면 9월 말~10월 초 예정이던 PostgreSQL 19 정식 출시가 11월 19일경으로 밀렸고, SQL/PGQ(속성 그래프 쿼리) 등 주요 기능 8~10개가 PostgreSQL 20으로 미뤄졌다. 핵심 커미터 피터 아이젠트라우트는 LLM 보조 리뷰가 예전 같으면 출시 후 수년에 걸쳐 발견됐을 엣지 케이스 결함을 한꺼번에 드러내 '결함 보고서 40건'을 처리하다 시간이 부족해졌다며, 바이브 코딩 탓은 아니라고 밝혔다.",
+    "why": "AI가 코드를 '쓰는' 것보다 '검토하는' 쪽에서 오픈소스 일정에 먼저 영향을 준 사례로, 이제 병목은 사람의 분류·수정 역량이라는 점을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Register 보도(아이젠트라우트 블로그 인용) + Postgres Weekly·PostgreSQL 위키 오픈 항목에 11월 19일 일정 반영"
+    },
+    "image": "https://image.theregister.com/228745.jpg?imageId=228745&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론 (181점)",
+        "url": "https://news.ycombinator.com/item?id=50119991",
         "type": "source"
       }
     ]
@@ -440,6 +595,30 @@
     ]
   },
   {
+    "id": "2026-10-16-germany-nvidia-industrial-ai-pact",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "독일 정부, 엔비디아와 산업용 '피지컬 AI' 협력 협정 다음 주 발표 예정…연방 예산 수억 유로 투입 (로이터·ZDF)",
+    "summary": "로이터는 정부 소식통을 인용해 독일이 다음 주 엔비디아와 산업 AI 협력 협정을 발표한다고 보도했고, ZDF는 19~20일 베를린 'Invest in Germany' 투자 정상회의에서 공식 발표될 예정이라고 전했다. 한델스블라트에 따르면 연방정부가 수억 유로(세 자릿수 백만 유로)를 투입해 도이치텔레콤 AI 클라우드 연산을 임차하고, 엔비디아는 엔지니어·칩을 제공하며, 지멘스·아우디·Black Forest Labs 등 약 12개 독일 기업이 참여한다.",
+    "why": "로봇·자율주행·자동화 공장용 AI를 국가 차원에서 키우려는 움직임으로, 제조업 중심 '소버린·피지컬 AI' 전략을 펴는 한국과 비교해 볼 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(정부 소식통) + ZDF(정부 측 확인·젠슨 황 인터뷰), 한델스블라트 최초 보도. 공식 발표 전"
+    },
+    "links": [
+      {
+        "label": "Reuters (Yahoo)",
+        "url": "https://www.yahoo.com/news/articles/germany-unveil-nvidia-ai-agreement-110226552.html",
+        "type": "source"
+      },
+      {
+        "label": "ZDFheute",
+        "url": "https://www.zdfheute.de/wirtschaft/unternehmen/nvidia-usa-ki-bundesregierung-deutschland-kooperation-100.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-g7-ai-cyberattack-tabletop-exercise",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -479,6 +658,31 @@
       {
         "label": "디지털데일리",
         "url": "https://www.ddaily.co.kr/page/view/2026101612002085159",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-deepmind-gemini-4-argon-agents-minecraft",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "구글 딥마인드, Gemini 4 Argon 에이전트 4개가 사람 도움 없이 마인크래프트 엔더 드래곤 처치 (27시간 14분)",
+    "summary": "딥마인드 연구진 논문에 따르면 Gemini 4 Argon 에이전트 4개가 Mineflayer 라이브러리로 각자 플레이어를 조종하며 게임 내 채팅·공유 메모리로 협업해, 무작위 생성된 이지 난이도 서바이벌 월드에서 프로그램 2,783개를 직접 작성하고 605번 죽은 끝에 27시간 14분 만에 엔더 드래곤을 처치했다. 역할 배정이나 게임 로직은 사람이 주지 않았고, 연구진은 개입할 필요가 없었다고 밝혔다.",
+    "why": "하루 넘게 수천 단계의 계획을 유지하는 장기 코딩·멀티 에이전트 협업 능력을 보여준 사례다. 다만 샌드박스 단일 실행 결과라 실제 업무 신뢰성으로 바로 일반화하긴 어렵다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google DeepMind 공식 X + 논문(Hugging Face Papers 2610.22319)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22319/gradient.png",
+    "links": [
+      {
+        "label": "논문 (HF Papers)",
+        "url": "https://huggingface.co/papers/2610.22319",
+        "type": "source"
+      },
+      {
+        "label": "Google DeepMind 공식 X",
+        "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
         "type": "source"
       }
     ]
@@ -563,6 +767,42 @@
         "label": "PTI (Mint)",
         "url": "https://www.livemint.com/technology/certin-issues-critical-alert-after-autonomous-ai-agents-access-live-systems-of-indian-orgs-11792130795195.html",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-apple-mlx-muse-spark-open-four-mac-studios",
+    "date": "2026-10-16",
+    "category": "로컬 AI",
+    "title": "애플 MLX, Mac Studio 4대로 816B Muse Spark Open 초당 36.7토큰…M5 Ultra 첫 토큰 최대 4.6배 빨라",
+    "summary": "애플 ML 리서치가 최신 MLX와 Thunderbolt 5 RDMA(jaccl)로 M5 Ultra Mac Studio 4대를 텐서 병렬 연결해 Muse Spark Open(816B·활성 42B, NVFP4 약 493GB)을 8K 컨텍스트에서 초당 36.73토큰으로 디코딩했다고 공개했다. 단일 Mac Studio(512GB)에서는 M3 Ultra 대비 첫 토큰(TTFT) 최대 4.6배, 생성 속도 1.6배 빨랐고, Qwen 3.8 27B는 1대 19.69·4대 50.89 tok/s, 최대 전력은 약 300W였다.",
+    "why": "GPU 서버 없이 책상 위 맥 몇 대로 프런티어급 오픈 모델을 사적으로 돌리는 공식 경로와 실측치가 나왔다. mlx_lm.server로 OpenCode 같은 에이전트 도구에 바로 붙일 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Apple Machine Learning Research 공식 글 + mlx-lm v0.32.0 릴리스 노트(Muse-Spark-Open NVFP4 지원 추가)"
+    },
+    "image": "https://mlr.cdn-apple.com/media/MLX_icon_F001_TC_2048_2600_6439f2ba0f.png",
+    "specs": {
+      "params": "816B (활성 42B)",
+      "memory": "NVFP4 약 493GB → Mac Studio 2~4대",
+      "compute": "M5 Ultra ×4, Thunderbolt 5 RDMA",
+      "context": "벤치 8K·64K"
+    },
+    "links": [
+      {
+        "label": "Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+        "type": "source"
+      },
+      {
+        "label": "ml-explore/mlx-lm v0.32.0",
+        "url": "https://github.com/ml-explore/mlx-lm/releases/tag/v0.32.0",
+        "type": "github"
+      },
+      {
+        "label": "meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+        "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+        "type": "huggingface"
       }
     ]
   },
@@ -1160,6 +1400,31 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-ollama-friendliai-seoul-events",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "Ollama 공동창업자 11월 방한…프렌들리AI와 기업 오픈 모델 도입 행사 (11/4 경영진·11/5 개발자 밋업)",
+    "summary": "프렌들리AI와 Ollama가 한국 기업의 오픈 모델 도입·운영 확산을 위해 손잡고, Ollama 공동창업자 제프리 모건·마이클 챙이 방한해 11월 4일 경영진 대상 'Open Models & Sovereignty' 디너, 11월 5일 개발자 밋업을 비공개로 연다. Ollama는 17일 공식 X에 한국어 인사와 함께 '11월 서울에서 사용자·고객·파트너를 만난다'고 알렸다.",
+    "why": "월간 개발자 890만 명(Ollama 측 수치)의 로컬 AI 런타임이 한국 시장을 직접 겨냥하는 첫 행보로, 국내 '소버린 AI'·온프레미스 수요와 맞물린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "프렌들리AI 공식 블로그 + Ollama 공식 X + 국내 언론 다수"
+    },
+    "image": "https://cdn.sanity.io/images/ix41heih/production/93513c0516879bbbb89174286c2037934b09b09b-1080x600.png?rect=0,17,1080,567&w=1200&h=630",
+    "links": [
+      {
+        "label": "FriendliAI 공식 블로그",
+        "url": "https://friendli.ai/blog/friendliai-ollama-open-model-adoption-korea",
+        "type": "source"
+      },
+      {
+        "label": "Ollama 공식 X",
+        "url": "https://x.com/ollama/status/2111274755777290474",
         "type": "source"
       }
     ]
