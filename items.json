@@ -1,5 +1,66 @@
 [
   {
+    "id": "2026-10-18-vllm-v0-32-0",
+    "date": "2026-10-18",
+    "category": "로컬 AI",
+    "title": "vLLM v0.32.0 출시…저정밀 NVFP4 KV 캐시 확대, 응답 템플릿 자동 파서, 보안 수정·CORS 기본값 변경",
+    "summary": "vLLM v0.32.0이 363명 기여자의 814개 커밋으로 나왔다. NVFP4 KV 캐시가 SM8x·SM90·SM12x로 넓어졌고, 체크포인트의 response_template을 읽는 범용 hf 도구·추론 파서, 의사결정용 /v1/systemone 엔드포인트, EmbeddingGemma 2·MiniCPM-V 4.7·Nemotron 3.5 ASR 지원이 추가됐다.",
+    "why": "직접 서빙하는 사람에겐 메모리 절감과 모델별 파서 설정 부담 감소가 크다. 다만 Python 3.10 지원 종료, CORS 기본 허용 범위 축소, max_tokens 처리 변경 같은 호환성 변경이 있어 업그레이드 전 확인이 필요하다. 보안 권고(GHSA) 3건도 수정됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트(2026-10-18 06:50 UTC) 직접 확인"
+    },
+    "specs": {
+      "license": "Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "vLLM v0.32.0 릴리스 노트",
+        "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+        "type": "source"
+      },
+      {
+        "label": "vllm-project/vllm",
+        "url": "https://github.com/vllm-project/vllm",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-update-rtx-spark-korea-launch-aa-benchmark",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "[업데이트] 엔비디아 RTX 스파크 국내 출시…아티피셜 애널리시스 측정서 Qwen3.8 27B 에이전트 작업 맥북 프로 대비 2배",
+    "summary": "엔비디아가 16일 코엑스에서 RTX 스파크 출시 행사를 열었고 국내에선 에이수스·HP·레노버·MSI 웹사이트와 주요 판매처에서 살 수 있다. 아티피셜 애널리시스의 로컬 에이전트 벤치마크에서 128GB 시제품 노트북은 Qwen3.8 27B 작업을 18.7분에 끝내 맥북 프로 M5 Pro(37.6분)보다 2.0배, 라이젠 AI 헤일로(34.5분)보다 1.8배 빨랐고, RTX 5090 데스크톱은 4.9분이었다.",
+    "why": "77GB인 Ling 3.0 Flash는 64GB 맥북 프로·32GB RTX 5090엔 안 들어가지만 RTX 스파크에선 15.3분에 돌아, 128GB 통합 메모리의 이점이 수치로 나왔다. 측정 기기는 5,899.99달러짜리 시제품이고 특정 추론 작업 기준이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Artificial Analysis 원문(10/15) + 머니투데이(10/18)·코엑스 행사 페이지"
+    },
+    "image": "https://artificialanalysiscdn.com/article-assets/2026/nvidia-rtx-spark-agentperf-local-cover.jpg",
+    "specs": {
+      "memory": "최대 128GB 통합 메모리(300GB/s)",
+      "price": "시험 기기 $5,899.99(128GB)"
+    },
+    "links": [
+      {
+        "label": "Artificial Analysis 벤치마크",
+        "url": "https://artificialanalysis.ai/articles/nvidia-rtx-spark-agentperf-local",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/10/18/2026101809151724651",
+        "type": "source"
+      },
+      {
+        "label": "RTX Spark 제품 페이지",
+        "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+        "type": "buy"
+      }
+    ]
+  },
+  {
     "id": "2026-10-18-update-replit-openai-default-claude-optional",
     "date": "2026-10-18",
     "category": "AI·IT",
@@ -90,6 +151,26 @@
     ]
   },
   {
+    "id": "2026-10-18-mit-crystal-multimodal-materials-ai",
+    "date": "2026-10-18",
+    "category": "AI·IT",
+    "title": "MIT, 결정 3D 구조와 언어를 함께 학습한 소재 탐색 AI 공개 (Nature Communications)",
+    "summary": "MIT 연구진이 결정의 3D 원자 구조와 논문·계산 데이터베이스의 자연어 설명을 결합한 멀티모달 모델을 만들었다. 텍스트만 학습한 모델보다 더 나은 소재 설계를 찾았고, 고체 리튬이온 전지 전해질 후보를 물었을 때 상위 결과에 독립적으로 유망하다고 알려진 소재가 포함됐다고 밝혔다.",
+    "why": "LLM이 텍스트로 표현하기 어려운 3D 구조 데이터를 다루게 하는 접근으로, AI 기반 신소재 탐색의 데이터 편향 문제를 겨냥했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MIT News 공식 발표(10/18), Nature Communications 논문 기반"
+    },
+    "image": "https://news.mit.edu/sites/default/files/images/202610/MIT-Synthetic-Narratives-01-press.jpg",
+    "links": [
+      {
+        "label": "MIT News",
+        "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-18-llama-cpp-webui-discover-hf-models",
     "date": "2026-10-18",
     "category": "로컬 AI",
@@ -110,6 +191,35 @@
       {
         "label": "릴리스 b11714",
         "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11714",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-llama-cpp-hexagon-q1-q2",
+    "date": "2026-10-18",
+    "category": "로컬 AI",
+    "title": "llama.cpp, 퀄컴 Hexagon NPU에서 1·2비트(Q1_0·Q2_0) 지원…Bonsai 2 Q1·Q2 실사용 가능",
+    "summary": "llama.cpp의 Hexagon 백엔드에 Q1_0·Q2_0 행렬곱(HVX·HMX)이 병합됐고(b11716), 후속 PR로 Hadamard 행렬곱과 GET_ROWS까지 들어가(b11717) 개발자가 'Bonsai-2 Q1·Q2가 이제 완전히 사용 가능'하다고 밝혔다. SM8850(v81) 안드로이드 기기에서 테스트했다.",
+    "why": "스냅드래곤 폰·PC의 NPU로 초저비트 모델을 돌릴 길이 열린 것이다. 다만 개발자는 메모리 사용량 이점을 살리려면 추가 최적화가 필요하다고 적었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub PR #30122·#30627 본문과 b11716·b11717 릴리스 확인"
+    },
+    "links": [
+      {
+        "label": "PR #30122 (Q1_0·Q2_0)",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30122",
+        "type": "github"
+      },
+      {
+        "label": "PR #30627 (Hadamard·GET_ROWS)",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30627",
+        "type": "github"
+      },
+      {
+        "label": "릴리스 b11717",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11717",
         "type": "source"
       }
     ]
@@ -189,6 +299,26 @@
       {
         "label": "The Hacker News",
         "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-update-yelp-delta-block-ai-agents",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "[업데이트] 옐프·델타도 AI 에이전트 차단…옐프는 유료 데이터 라이선스 가입 에이전트만 허용",
+    "summary": "더버지에 따르면 옐프는 데이터 라이선스 비용을 내는 AI 에이전트만 허용하고, 델타항공은 에이전트의 항공권 예매를 막고 있다. 메타 Muse·xAI Grok·OpenAI Dots·Instinct 사용자들이 차단을 보고했고, Cars.com·암트랙도 접속이 안 된다는 사용자 보고가 있다.",
+    "why": "앞서 전한 JP모건·찰스슈왑의 계좌 접근 차단이 금융을 넘어 리뷰·여행 서비스로 번지고 있다. 개인 에이전트가 할 수 있는 일의 범위가 플랫폼 정책에 좌우된다는 뜻이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge(10/17) 원문 확인, 옐프 입장은 TechCrunch 취재 인용. Cars.com·암트랙은 사용자 보고 수준"
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
         "type": "source"
       }
     ]
@@ -1547,6 +1677,31 @@
       {
         "label": "Anthropic 공식 발표",
         "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-anthropic-first-canada-data-center-nova-scotia",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "Anthropic, 첫 캐나다 데이터센터 임대…노바스코샤 EverWind 캠퍼스 1단계 95MW",
+    "summary": "Anthropic이 노바스코샤주 포인트 터퍼의 EverWind 데이터센터 용량을 임대하는 계약을 맺었다고 회사 임원이 밝혔다(로이터). 1단계 95MW는 2027년 말 가동 목표이고, EverWind는 데이터센터와 풍력에 100억 캐나다달러 이상을 투자할 계획이라고 발표했다.",
+    "why": "Anthropic의 첫 캐나다 컴퓨팅 거점으로, 대형 AI 기업들이 몇 년 앞서 전력·부지를 확보하는 경쟁이 미국 밖으로 넓어지고 있다. 전력·물 사용을 둘러싼 지역 논쟁도 함께 시작됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(investing.com 게재) + 블룸버그 보도, 1단계 용량·일정은 현지 보도 다수 일치"
+    },
+    "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9F1XG_L.jpg",
+    "links": [
+      {
+        "label": "Reuters (Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/anthropic-signs-lease-for-first-canadian-data-center-4954967",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-16/everwind-to-build-nova-scotia-data-center-lease-to-ai-developer",
         "type": "source"
       }
     ]
@@ -3477,6 +3632,30 @@
       {
         "label": "로보틱스 활용 (Google Developers)",
         "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-14-gartner-ai-infra-3-5t-impairment",
+    "date": "2026-10-14",
+    "category": "AI·IT",
+    "title": "가트너 \"AI 인프라 투자 3.5조 달러 이상, 2030년까지 손상 위험…네오클라우드 80% 독립 운영 중단\"",
+    "summary": "가트너는 AI 데이터센터 사업자가 2030년까지 발표된 투자·금융비용·12% 투하자본수익률을 맞추려면 누적 8.5조 달러 매출이 필요하지만, 귀속 가능한 AI 매출은 3.6조 달러를 넘지 못할 것이라며 3.5조 달러 이상이 손상 위험에 놓인다고 전망했다. 2032년까지는 4조 달러 이상으로 커지고, 2030년까지 네오클라우드의 80% 이상이 독립 운영을 멈출 것으로 봤다.",
+    "why": "코어위브 급락 등 AI 인프라 부채 우려가 커지는 가운데 나온 대형 리서치사의 경고다. 가트너는 비용 압박 속에 로컬·온프레미스로 작은 모델을 돌리는 선택지가 늘 것이라고도 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가트너 공식 보도자료(10/14) + TechTarget·블룸버그 보도"
+    },
+    "links": [
+      {
+        "label": "Gartner 보도자료",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030",
+        "type": "source"
+      },
+      {
+        "label": "TechTarget",
+        "url": "https://www.techtarget.com/it-infrastructure/news/366652181/Gartner-forecasts-massive-AI-infrastructure-write-downs",
         "type": "source"
       }
     ]
