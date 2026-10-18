@@ -115,6 +115,30 @@
     ]
   },
   {
+    "id": "2026-10-18-korea-clinics-security-monitoring-0007pct",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "해킹 피해 90% 중소 병·의원, 정부 보안관제 가입은 7만5,560곳 중 5곳(0.007%)",
+    "summary": "소병훈 의원이 한국사회보장정보원에서 받은 자료에 따르면 9월 말 기준 의료 분야 24시간 보안관제 서비스 가입 의료기관은 61곳으로, 상급종합병원은 35곳 중 27곳(77.1%)이었지만 병·의원급은 7만5,560곳 중 5곳(0.007%)에 그쳤다. 올해 1~9월 민간 의료기관 침해사고 28건 중 25건(89.3%)이 병원·의원에서 발생했다.",
+    "why": "2020년~2026년 9월 누적 침해사고 133건 중 121건(91%)이 랜섬웨어였다. AI 기반 공격이 늘어나는 가운데 민감한 의료정보를 가진 소규모 기관의 방어 공백이 수치로 드러났다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 전자신문 보도 확인(국회 보건복지위 소병훈 의원실 자료)"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261017027400530",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261018000015",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-18-deepx-intel-openvino-samsung-2nm-tapeout",
     "date": "2026-10-18",
     "category": "한국 IT",
@@ -229,6 +253,71 @@
         "label": "ollama v0.40.6",
         "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-llamacpp-kolibri-1-support-cuda-mmvq",
+    "date": "2026-10-17",
+    "category": "로컬 AI",
+    "title": "[업데이트] llama.cpp, Aleph Alpha 'Kolibri-1' 지원 추가(b11709)…CUDA 저비트 양자화 MMVQ 가속(b11713)",
+    "summary": "llama.cpp b11709에 독일 Aleph Alpha의 78B MoE(활성 3.46B) 모델 Kolibri-1 지원(#30673)이 들어가 GGUF 변환·실행이 가능해졌다. PR 작성자 테스트에서 원본은 BF16 GGUF 156GiB, Q4_K_M 45GiB였고, A800 4장에서 Q4_K_M이 pp2048 2,558.18 tok/s, tg512 106.01 tok/s를 냈다.",
+    "why": "그동안 vLLM 플러그인이 필요했던 Kolibri-1을 llama.cpp 계열 도구로 돌릴 길이 열렸다. 이어 나온 b11713(#30517)은 q2_K·q3_K·iq1·q1_0 등 저비트 타입의 CUDA MMVQ 커널을 개선했으며, PR 측정 기준 RTX 3090에서 q2_K 1.59배·q3_K 1.67배, A16에서 q2_K 1.71배였다(q4_K·q8_0은 변화 없음).",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b11709·b11713 + 병합된 PR #30673·#30517 본문 확인. 성능 수치는 PR 작성자 측정"
+    },
+    "specs": {
+      "params": "Kolibri-1: 78B 총 / 3.46B 활성 (MoE)",
+      "license": "Apache 2.0 (모델) · MIT (llama.cpp)",
+      "memory": "Q4_K_M GGUF 약 45GiB (PR 테스트)",
+      "context": "최대 1M 토큰 (모델 카드)"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b11709 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11709",
+        "type": "source"
+      },
+      {
+        "label": "PR #30673 Kolibri-1 지원",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30673",
+        "type": "github"
+      },
+      {
+        "label": "PR #30517 CUDA 저비트 MMVQ",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30517",
+        "type": "github"
+      },
+      {
+        "label": "Aleph-Alpha/Kolibri-1",
+        "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-korea-deepfake-sexual-content-reviews-17378",
+    "date": "2026-10-17",
+    "category": "한국 IT",
+    "title": "딥페이크 성범죄물 심의, 올해 1~8월 1만7,378건…8개월 만에 작년 연간치 추월",
+    "summary": "이연희 의원실이 방송미디어통신심의위원회에서 받은 자료에 따르면 올해 1~8월 딥페이크 성범죄물 심의는 1만7,378건으로, 작년 연간 1만5,808건보다 1,570건(9.9%) 많았다. 해외 불법·음란 사이트와 P2P 등 '기타'가 1만7,116건이었고 X는 138건, 텔레그램은 124건이었다.",
+    "why": "심의 건수는 2024년 2만3,109건에서 2025년 줄었다가 올해 다시 급증했다. 대부분이 해외 사이트에 몰려 있어 삭제·차단의 실효성이 과제로 지적된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 조선비즈 보도 확인(국회 과방위 이연희 의원실 자료)"
+    },
+    "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016071700017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261016071700017",
+        "type": "source"
+      },
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/it-science/ict/2026/10/17/YRFTZM2MHNEKTHCPD6TG3TRKFE/",
+        "type": "source"
       }
     ]
   },
@@ -471,6 +560,31 @@
       {
         "label": "동아일보",
         "url": "https://www.donga.com/news/Culture/article/all/20261016/134853489/1",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-17-anthropic-jack-clark-imf-us-gdp-44t",
+    "date": "2026-10-17",
+    "category": "AI·IT",
+    "title": "앤트로픽 잭 클라크, IMF·세계은행 총회서 \"AI로 2030년 미국 GDP 44조 달러 가능\"…\"안전장치 마련 시간은 몇 년뿐\"",
+    "summary": "앤트로픽 공동창업자 잭 클라크가 17일 태국 방콕 IMF·세계은행 연차총회 강연에서, 기술이 계속 발전한다는 조건 아래 사내 모델이 미국 GDP를 현재 30조 달러 남짓에서 2030년 44조 달러(약 50% 증가)까지 끌어올릴 수 있다고 본다고 밝혔다. 그는 \"매우 터무니없게 들린다는 걸 안다\"면서도, 안전장치를 마련할 수 있는 시간이 \"몇 년\"밖에 남지 않았다고 경고했다.",
+    "why": "프런티어 AI 기업이 사내 경제 모델의 구체적 수치를 각국 재무·금융 당국자 앞에서 제시했다. 클라크는 생물학 연구에 가장 엄격한 인간 감독이 필요하다고 했고, 콜센터·고객서비스 등 AI 노출도가 높은 분야의 일자리 감소도 인정했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 보도(CNBC·CNA 게재) 확인. 44조 달러는 '기술이 계속 발전한다'는 전제를 둔 앤트로픽 사내 모델 수치로, 독립 경제 전망이 아님"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108291032-1776170422892-gettyimages-2270740029-IMF_WORLD_BANK.jpeg?v=1776170454&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC (로이터)",
+        "url": "https://www.cnbc.com/2026/10/17/ai-us-gdp-anthropics-clark.html",
+        "type": "source"
+      },
+      {
+        "label": "CNA (로이터)",
+        "url": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
         "type": "source"
       }
     ]
@@ -1495,6 +1609,31 @@
     ]
   },
   {
+    "id": "2026-10-15-vercel-ai-gateway-index-open-weight-71pct",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "Vercel AI Gateway 10월 지수: 오픈 웨이트 모델이 토큰 71.5%·지출 23% 차지",
+    "summary": "Vercel이 AI Gateway 9월 사용량을 집계한 'Production Index' 10월호에서 오픈 웨이트 모델이 전체 토큰의 71.5%, 추정 지출의 23%를 차지했다고 밝혔다. 오픈 웨이트의 지출 비중은 6월 약 5%(20달러 중 1달러)에서 석 달 만에 4배 넘게 늘었고, 9월 게이트웨이 지출은 작년 12월의 약 13배인 반면 토큰당 평균 가격은 47% 낮아졌다.",
+    "why": "DeepSeek-V4.1-Flash 한 모델이 9월 토큰의 절반 가까이를 처리했지만 지출 비중은 2.6%였고, 오픈 웨이트 지출 증가분의 절반 가까이는 Kimi K3에서 나왔다. 중국 모델 지출의 약 70%가 미국 사업자를 통해 서빙된 점도 수출통제 논의와 맞물려 주목된다(The Register 분석).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Vercel 공식 블로그(10월 15일) + The Register 보도 확인. 단일 게이트웨이 내부 데이터로, 직접 API·온프레미스 사용은 포함되지 않음"
+    },
+    "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1BSi0cEKrRxN45GULUVQv3/21d346140aa8cfe1a5a6d0b50cbfbd58/oct-og-blog-bubbles_2x.png",
+    "links": [
+      {
+        "label": "Vercel 블로그",
+        "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/17/open-weight-models-win-hearts-minds-and-wallets/5303704",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-update-white-house-si-force-first-meeting",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -2095,6 +2234,43 @@
         "label": "네이버 보도자료",
         "url": "https://navercorp.com/media/pressReleasesDetail?seq=10034754",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-mistral-timestral-time-series",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "미스트랄, 첫 시계열 파운데이션 모델 'Timestral' 공개…5M~209M 4종, GPU 없이 CPU로 예측",
+    "summary": "미스트랄이 확률적·다변량 예측을 지원하는 시계열 파운데이션 모델 Timestral을 5M·28M·123M·209M 4종으로 공개했다. 최대 209M 모델이 GIFT-Eval·TIME·fev-bench 3대 벤치마크에서 사전학습 제로샷 모델 중 1위라고 밝혔고(자체 발표), 8스레드 서버 CPU에서 15분 간격 3주치 기록으로 하루 앞을 예측하는 데 5M은 10ms, 209M은 140ms가 걸린다고 했다.",
+    "why": "센서·관측 지표·수요 예측처럼 LLM이 약한 숫자 시계열을 작은 모델로 로컬·온프레미스에서 돌릴 수 있다. 컨텍스트는 32,768 스텝이고 21개 분위수를 출력하며, 과거 전용·미래 기지 공변량을 지원한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "미스트랄 공식 블로그(10월 15일) + Hugging Face 모델(mistralai/Timestral-209M 등 4종) + GitHub 저장소 확인. 블로그 표기 라이선스는 'Modified MIT', GitHub 코드 저장소는 Apache-2.0"
+    },
+    "image": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp",
+    "specs": {
+      "params": "5M / 28M / 123M / 209M",
+      "license": "Modified MIT (모델, 블로그 표기)",
+      "context": "32,768 타임스텝",
+      "modality": "시계열(다변량·공변량)",
+      "compute": "CPU 추론 가능 (8스레드 기준 10~140ms)"
+    },
+    "links": [
+      {
+        "label": "미스트랄 블로그",
+        "url": "https://mistral.ai/news/timestral/",
+        "type": "source"
+      },
+      {
+        "label": "mistralai/Timestral-209M",
+        "url": "https://huggingface.co/mistralai/Timestral-209M",
+        "type": "huggingface"
+      },
+      {
+        "label": "mistralai/timestral",
+        "url": "https://github.com/mistralai/timestral",
+        "type": "github"
       }
     ]
   },
