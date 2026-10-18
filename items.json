@@ -249,6 +249,36 @@
     ]
   },
   {
+    "id": "2026-10-18-hollys-membership-breach",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "할리스 멤버십 해킹…ID·비밀번호·주소·DI까지 유출, 비밀번호 즉시 변경 권고",
+    "summary": "할리스가 멤버십 시스템 무단 접근으로 고객 개인정보가 유출된 사실을 10월 16일 확인했다고 18일 고객 문자로 통지했다. 유출 항목은 아이디, 비밀번호, 이름, 생년월일, 전화번호, 주소, 이메일, 중복가입확인정보(DI), 서비스 이용 정보다. 보도에 따르면 대상은 2020년 2월 11일 이전 가입 고객이며, 유출 인원은 공개되지 않았다.",
+    "why": "비밀번호와 DI까지 포함돼 같은 ID·비밀번호를 쓰는 다른 서비스로 피해가 번질 수 있다. 할리스는 멤버십 비밀번호 즉시 변경, 같은 계정정보를 쓰는 다른 서비스 비밀번호 변경, 출처 불명 전화·문자 링크 주의를 당부했다. 디지털타임스가 인용한 통지문 기준 유출 추정 시기는 9월 3일~10월 7일이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "할리스 고객 통지 내용을 인용한 디지털타임스 + 조선비즈 + YTN·매일경제 보도 확인. 유출 규모는 미공개"
+    },
+    "image": "https://wimg.dt.co.kr/news/cms/2026/10/18/news-p.v1.20261018.2eca57ad807a453ea719bb9fdf310611_R.png",
+    "links": [
+      {
+        "label": "디지털타임스",
+        "url": "https://www.dt.co.kr/article/12089731",
+        "type": "source"
+      },
+      {
+        "label": "조선비즈(영문)",
+        "url": "https://biz.chosun.com/en/en-retail/2026/10/18/KBJ5RV6GWNDE3DERNU3WJFAV3Y/",
+        "type": "source"
+      },
+      {
+        "label": "YTN",
+        "url": "https://www.ytn.co.kr/_ln/0102_202610181945447943",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-18-deepx-intel-openvino-samsung-2nm-tapeout",
     "date": "2026-10-18",
     "category": "한국 IT",
@@ -1356,6 +1386,41 @@
       {
         "label": "MoE 전문가 캐시 PR #29887",
         "url": "https://github.com/ggml-org/llama.cpp/pull/29887",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-linux-pwnescape-cve-2026-99999",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "리눅스 커널 PwnEscape(CVE-2026-99999)…VM 안에서 호스트로 탈출 가능, 패치 공개",
+    "summary": "Vercel의 100만 달러 Sandbox 해킹 챌린지에서 pwn.ai의 Paulos Yibelo가 리눅스 커널 네트워킹 스택 결함을 찾았다. 게스트가 조작한 체크섬 메타데이터가 이미 검증된 IPv4 헤더를 다시 바꿔 호스트 메모리 유출(32바이트), 호스트 다운, 호스트 코드 실행까지 이어질 수 있다. 메모리 유출은 Vercel 운영 샌드박스에서, 크래시·코드 실행은 연구자 자체 KVM·Firecracker 환경에서 시연됐다. 업스트림 수정 커밋 6785011f8b16은 10월 14일 메인라인에 병합됐다.",
+    "why": "결함이 특정 하이퍼바이저가 아니라 게스트 트래픽을 처리하는 호스트 리눅스 네트워킹 스택에 있어, 같은 계층을 쓰는 클라우드·VPS·샌드박스 사업자 전반의 공유 인프라 위험이다. CSO Online에 따르면 NVD 설명에 5.10·5.15·6.1·6.6·6.12·6.18·7.2 안정 브랜치 수정이 올라 있다. 게스트가 아니라 호스트 커널을 업데이트해야 하며, 연구자는 약한 설정 대상 익스플로잇이 몇 주 안에 나올 수 있다고 경고했다. Vercel은 고객 데이터 접근 사례는 없었다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Vercel 공식 블로그(10/14) + 발견자 pwn.ai 기술 글 + CSO Online(10/16) 교차 확인. GeekNews에서도 화제"
+    },
+    "image": "https://api.pwn.ai/api/blog/images/pwnescape-sandbox-cover-e891db688ecd.png",
+    "links": [
+      {
+        "label": "Vercel: $1M Sandbox 챌린지 결과",
+        "url": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
+        "type": "source"
+      },
+      {
+        "label": "pwn.ai: PwnEscape 기술 분석",
+        "url": "https://www.pwn.ai/blog/pwnescape",
+        "type": "source"
+      },
+      {
+        "label": "CSO Online 보도",
+        "url": "https://www.csoonline.com/article/4236460/linux-kernel-gets-a-fix-for-a-flaw-that-enabled-attackers-to-escape-vms.html",
+        "type": "source"
+      },
+      {
+        "label": "GeekNews 토론",
+        "url": "https://news.hada.io/topic?id=35568",
         "type": "source"
       }
     ]
