@@ -135,6 +135,41 @@
     ]
   },
   {
+    "id": "2026-10-18-connectwise-cloud-backup-m365-supply-chain",
+    "date": "2026-10-18",
+    "category": "AI·IT",
+    "title": "ConnectWise Cloud Backup(옛 SkyKick) 자격증명 탈취로 MS 365 테넌트 공급망 공격…서비스 전면 중단",
+    "summary": "MSP용 백업 서비스 ConnectWise Cloud Backup의 Microsoft 365 앱 자격증명(API 시크릿)이 탈취돼 고객 테넌트 무단 접근에 쓰였다. Huntress는 173개 고객 테넌트에서 무단 로그인을 확인했고, 마이크로소프트도 10월 15일 144.172.64[.]128에서 광범위한 서비스 주체 인증과 백도어용 자격증명 추가 시도를 관측했다고 밝혔다. ConnectWise는 인증서를 폐기해 Cloud Backup 서비스를 전체 중단했으며, 암호화된 백업 아카이브 접근 증거는 없다고 했다.",
+    "why": "앱에 미리 부여된 넓은 권한(메일·OneDrive·SharePoint·Teams 읽기/쓰기)을 그대로 물려받는 방식이라 사용자 로그인이 아니어서 MFA가 소용없었다. 한 테넌트에서는 다른 ConnectWise 앱이 스스로 전역 관리자 권한을 얻고 MSP 관리 앱 등에 새 시크릿을 추가해, MSP를 통해 다른 고객사로 번질 위험도 있다. 해당 앱을 쓰는 조직은 앱 비활성화(삭제 말고), 서비스 주체 로그인 로그 확인, 10월 13일 이후 추가된 앱 자격증명 점검이 권고된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ConnectWise 공식 보안 공지 + Huntress·Todyl 분석 + BleepingComputer·The Hacker News 보도(마이크로소프트 X 게시 인용). 조사 진행 중이라 피해 규모는 업체별 관측치"
+    },
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1700-nu-rw-lo-l85-e365/connectwise.jpg",
+    "links": [
+      {
+        "label": "ConnectWise 보안 공지",
+        "url": "https://www.connectwise.com/company/trust/advisories",
+        "type": "source"
+      },
+      {
+        "label": "Huntress 분석",
+        "url": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-17-replit-anthropic-split-disputed",
     "date": "2026-10-17",
     "category": "AI·IT",
