@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-10-19-disney-character-ai-hires",
+    "date": "2026-10-19",
+    "category": "AI·IT",
+    "title": "[업데이트] 디즈니, 파산한 Character.AI 직원 과반 고용…최소 60명·연 보상 약 6천만 달러",
+    "summary": "블룸버그가 찾은 파산 법원 서류에 따르면 디즈니는 Character.AI 직원 최소 60명(인력 과반)에게 채용 제안을 했고 연간 보상은 약 6천만 달러로 추산된다. 제안받은 직원 '대다수'가 수락했으며, 디즈니는 앞서 일부 자산을 2천만 달러에 인수하기로 했다.",
+    "why": "디즈니 입찰은 스토킹 호스(기준가) 입찰이라 더 높은 인수 제안이 나오면 바뀔 수 있다. 위스콘신을 포함한 여러 주가 매각 과정에서 이용자·아동 보호를 요구하고 있어 매각 조건도 변수다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch(블룸버그 인용 법원 서류) + 기존 Character.AI 공식 파산 공지와 대조"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+        "type": "source"
+      },
+      {
+        "label": "위스콘신 법무부, 매각 시 보호 요구",
+        "url": "https://urbanmilwaukee.com/pressrelease/wisconsin-department-of-justice-seeks-consumer-protections-in-character-ai-bankruptcy/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-anthropic-public-benefit-fund",
+    "date": "2026-10-19",
+    "category": "AI·IT",
+    "title": "앤트로픽, 회사 지분 5%를 '공익기금'에 출연…기업가치 50% 오를 때마다 2%씩 추가 가능",
+    "summary": "앤트로픽이 전액 출자 LLC 형태의 'Anthropic Public Benefit Fund'를 만들고 주주 승인을 조건으로 지분 5%를 출연한다고 밝혔다. 기준 가치 대비 기업가치가 50% 오를 때마다 이사회 재량으로 2%씩 더 넣을 수 있고, 기존 공동창업자 서약·직원 기부 매칭과 합치면 지분 약 20%가 공익 목적에 배정된다고 했다.",
+    "why": "AI 일자리 충격 대응을 직접 사례로 들며 비영리 대형 기부나 특정 집단 직접 분배까지 검토한다고 밝혔다. 기금 지분은 로비·정치 기부에 쓰지 않는다고 했지만, 지배구조와 가치 기준점은 '수개월 내 공개' 예정이라 아직 구체적이지 않다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 발표(10/18 PT) + TechCrunch·Investing.com 보도 대조"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+    "links": [
+      {
+        "label": "Anthropic 공식 발표",
+        "url": "https://www.anthropic.com/news/public-benefit-fund",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261019006800009",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50143755",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-18-vllm-v0-32-0",
     "date": "2026-10-18",
     "category": "로컬 AI",
@@ -96,6 +156,36 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-samsung-ai-token-optimization",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "삼성전자, 부서별 AI 토큰 사용량·효율화 계획 보고 지시…임직원 4등급 한도제",
+    "summary": "머니투데이에 따르면 삼성전자가 일선 부서에 AI 토큰 사용량과 주요 용도, 효율화 방안을 보고하라고 지시했다. 임직원을 4등급으로 나눠 토큰 한도를 차등 적용하며 최고 등급은 월 약 500달러 수준이라고 전했다.",
+    "why": "에이전트형 AI 확산으로 기업 AI 비용이 급증하면서 '토큰 관리'가 국내 대기업의 새 과제로 떠올랐다. 등급제와 토큰 가성비 평가는 7월 코리아중앙데일리, 6월 한겨레도 보도했지만, 이번 보고 지시는 아직 한 매체 보도다.",
+    "verification": {
+      "status": "미확인",
+      "note": "부서별 보고 지시는 머니투데이 단독 보도. 4등급 한도제(코리아중앙데일리 7/27)·토큰 가성비 평가(한겨레 6/18)는 별도 매체가 보도"
+    },
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026101615595296879_1.jpg",
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/industry/2026/10/18/2026101615595296879",
+        "type": "source"
+      },
+      {
+        "label": "코리아중앙데일리(7월)",
+        "url": "https://www.koreajoongangdaily.com/business/token-tiers-samsung-rations-ai-access-as-costs-add-up/12790313",
+        "type": "source"
+      },
+      {
+        "label": "한겨레(6월)",
+        "url": "https://www.hani.co.kr/arti/economy/marketing/1264077.html",
         "type": "source"
       }
     ]
@@ -329,6 +419,36 @@
       {
         "label": "The Hacker News",
         "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-18-bank-ceos-audit-ai-hacking",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "[업데이트] 5대 은행장 오늘(19일) 'AI 해킹' 국감 출석…OK저축은행 2차 유출로 피해 518명",
+    "summary": "KB국민·신한·하나·우리·NH농협 은행장이 19일 국회 정무위 금감원 국감에 일반 증인으로 나와 AI 해킹 고객정보 유출 경위와 보안 책임을 질의받는다. 5대 은행장 동반 출석은 2022년 이후 4년 만이며, 금감원은 16일 OK저축은행 2차 피해 접수 뒤 현장 점검에 들어갔고 이 은행 피해는 518명으로 늘었다.",
+    "why": "공격이 인터넷뱅킹이 아니라 대출모집인·임직원용 외부 업무지원 시스템에서 일어났다는 공통점이 있어, 외부 접점 전수 점검이 금융권 대응의 핵심이 될 전망이다. 금융당국은 이르면 이번 주 업권과 후속책을 논의한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문·디지털타임스·YTN·뉴스1 등 복수 보도, 증인 채택은 연합뉴스(10/8) 확인"
+    },
+    "image": "https://wimg.dt.co.kr/news/cms/2026/10/18/news-p.v1.20261011.48a836e8a1064c93b3d131d21396864f_R.jpg",
+    "links": [
+      {
+        "label": "디지털타임스",
+        "url": "https://www.dt.co.kr/article/12089723",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261018000010",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(증인 채택)",
+        "url": "https://www.yna.co.kr/view/AKR20261008069200001",
         "type": "source"
       }
     ]
@@ -1201,6 +1321,41 @@
     ]
   },
   {
+    "id": "2026-10-16-openmoss-moss-image",
+    "date": "2026-10-16",
+    "category": "로컬 AI",
+    "title": "OpenMOSS, 5B 백본 이미지 생성 모델 MOSS-Image Base·SFT 공개 (Apache 2.0)",
+    "summary": "OpenMOSS가 레이아웃 제어, 이미지 속 글자 렌더링, 최대 4K 토큰 긴 프롬프트를 내세운 텍스트-이미지 모델 MOSS-Image-Base와 SFT를 코드와 함께 공개했다. 5B 백본이며 자연어·태그·JSON 레이아웃 입력을 받고, ComfyUI 플러그인도 제공한다.",
+    "why": "상업 이용이 비교적 자유로운 Apache 2.0 이미지 모델이라, 비상업 조건이 붙은 FLUX.3 Klein의 대안으로 볼 만하다. 미세조정용 Base 체크포인트가 따로 있어 LoRA 학습에도 쓸 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 저장소(2026-10-16 공개 공지) + HF 모델 카드(Apache 2.0) 확인"
+    },
+    "image": "https://opengraph.githubassets.com/e4934882a36934e065abc374df7ddb9287e5fb13293d9daa4a64f7098a8e126e/OpenMOSS/MOSS-Image",
+    "specs": {
+      "params": "5B 백본",
+      "license": "Apache 2.0",
+      "modality": "텍스트 → 이미지"
+    },
+    "links": [
+      {
+        "label": "MOSS-Image 프로젝트 페이지",
+        "url": "https://openmoss.github.io/MOSS-Image/",
+        "type": "source"
+      },
+      {
+        "label": "OpenMOSS-Team/MOSS-Image-SFT",
+        "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+        "type": "huggingface"
+      },
+      {
+        "label": "OpenMOSS/MOSS-Image",
+        "url": "https://github.com/OpenMOSS/MOSS-Image",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-10-16-openai-prompt-to-voice-korean-noeul",
     "date": "2026-10-16",
     "category": "AI·IT",
@@ -1386,6 +1541,40 @@
       {
         "label": "MoE 전문가 캐시 PR #29887",
         "url": "https://github.com/ggml-org/llama.cpp/pull/29887",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-16-liquid-ai-d1-ultra",
+    "date": "2026-10-16",
+    "category": "AI·IT",
+    "title": "리퀴드 AI, 멀티모달 의사결정 모델 d1-ultra 출시…입력 100만 토큰당 0.042달러",
+    "summary": "d1-ultra는 텍스트·이미지와 질문을 한 번에 읽고 토큰 생성 없이 예/아니오·선택·점수 형태의 확률만 돌려준다. 리퀴드 AI는 112개 평가에서 Jev 1.14를 모든 과제에서 앞섰고 Artificial Analysis 의사결정 지수에서 다른 모델보다 최소 8점 높다고 밝혔다(자체 발표).",
+    "why": "불량 검사·보험 청구 사진 대조 같은 판정 작업을 출력 토큰 비용 없이 처리하는 '판정 전용 모델' 경쟁이 IBM·마이크로소프트 등으로 번지고 있다. 이번 모델은 오픈 웨이트가 아니라 API 전용이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Liquid AI 공식 블로그 + Vercel AI Gateway 변경 기록·AI타임스 보도"
+    },
+    "image": "https://aypchzzf9pftwuto.public.blob.vercel-storage.com/image%20(4)-mh23DVnFm2EDs4US6gJskniHIMwVY4.png",
+    "specs": {
+      "modality": "텍스트·이미지 입력 → 확률",
+      "price": "입력 $0.042/100만 토큰, 출력 과금 없음"
+    },
+    "links": [
+      {
+        "label": "Liquid AI 블로그",
+        "url": "https://www.liquid.ai/blog/d1-ultra",
+        "type": "source"
+      },
+      {
+        "label": "Vercel AI Gateway",
+        "url": "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway",
+        "type": "source"
+      },
+      {
+        "label": "AI타임스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=216371",
         "type": "source"
       }
     ]
@@ -2350,6 +2539,31 @@
     ]
   },
   {
+    "id": "2026-10-15-openai-devday-exchange-seoul",
+    "date": "2026-10-15",
+    "category": "한국 IT",
+    "title": "오픈AI, 22일 서울서 'DevDay Exchange' 개발자 행사…에이전트·코덱스 보안 세션",
+    "summary": "오픈AI가 22일 오후 서울 강남에서 데브데이 익스체인지를 연다. 세계 8개 도시 순회 행사 중 하나로, 챗GPT 플랫폼·플러그인, AI 에이전트 개발, 코덱스 보안, 실시간 음성·이미지 생성을 다루고 AWS·LG CNS가 적용 사례를 발표한다.",
+    "why": "국내 개발자가 오픈AI 기술진에게 직접 질문할 수 있는 자리다. 참가는 신청 후 심사를 거쳐 승인된 사람에게만 장소와 일정이 안내된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 오픈AI 공식 행사 페이지 확인"
+    },
+    "image": "https://img3.yna.co.kr/etc/inner/KR/2026/10/15/AKR20261015068900017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261015068900017",
+        "type": "source"
+      },
+      {
+        "label": "OpenAI DevDay Exchange 공식 페이지",
+        "url": "https://events.openai.com/devdayexchange2026/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-openai-alleges-ex-employee-device-files-apple",
     "date": "2026-10-15",
     "category": "AI·IT",
@@ -2561,6 +2775,31 @@
     ]
   },
   {
+    "id": "2026-10-15-lean-verified-kernels-con-leche",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "Lean, 검증된 커널 기본 탑재…Claude가 구현·일관성 증명한 'con-leche' 포함",
+    "summary": "Lean v4.35.0에 증명을 외부 커널로 재검사하는 lake check가 들어갔고, nanoda·lean4lean·con-leche·con-ron 4개 커널이 추가됐다. con-leche는 Lean으로 쓰고 일관성을 증명한 첫 Lean 커널로, Lean FRO의 Joachim Breitner 감독 아래 Claude가 구현과 증명을 맡았으며 Mathlib 전체를 8스레드로 약 100초에 검사한다.",
+    "why": "AI 에이전트가 Lean 커널 취약점을 찾아내는 상황에서, AI가 만든 증명을 믿으려면 검사기 자체가 검증돼야 한다. AI가 그 검사기를 만드는 데도 쓰였다는 점이 눈에 띈다. HN에서 196점·댓글 76개로 화제였다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Lean FRO 공동창업자 Leonardo de Moura 공식 블로그 직접 확인"
+    },
+    "image": "https://leodemoura.github.io/static/images/leo.jpg",
+    "links": [
+      {
+        "label": "Lean Now Ships with Verified Kernels",
+        "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50114758",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-15-kospi-ai-credit-selloff",
     "date": "2026-10-15",
     "category": "한국 IT",
@@ -2707,6 +2946,41 @@
       {
         "label": "inception42/Jais-3-7B",
         "url": "https://huggingface.co/inception42/Jais-3-7B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-15-ibm-granite-switch-4-1",
+    "date": "2026-10-15",
+    "category": "로컬 AI",
+    "title": "IBM Granite Switch 4.1 8B·30B 오픈 웨이트…채팅·판정·음성인식을 한 모델에",
+    "summary": "IBM이 범용 판정용 Decision aLoRA, 안전 판정용 Guardian aLoRA, 음성인식 Granite-Speech-5.0-Turbo-CTC를 기본 모델에 합친 Granite-Switch-4.1-8B·30B를 Apache 2.0으로 공개했다. 어댑터가 기본 모델의 KV 캐시를 재사용해 VRAM을 기본 모델과 거의 같은 수준으로 쓰면서 작업을 전환한다고 밝혔다.",
+    "why": "로컬 서버 하나로 대화·분류·전사를 함께 돌리고 싶을 때 GPU를 여러 장 쓰지 않아도 된다는 점이 실용적이다. 음성은 영어 전사만 지원하고, 성능 비교는 IBM 자체 수치다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 IBM 블로그(10/15) + HF 모델 저장소(라이선스 Apache 2.0) 확인"
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/gltB0o--PV_Jh0D3aDm8-.png",
+    "specs": {
+      "params": "8B·30B",
+      "license": "Apache 2.0",
+      "modality": "텍스트·음성(영어 전사)"
+    },
+    "links": [
+      {
+        "label": "HF 블로그: Granite Switch 4.1",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+        "type": "source"
+      },
+      {
+        "label": "ibm-granite/granite-switch-4.1-8b",
+        "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+        "type": "huggingface"
+      },
+      {
+        "label": "ibm-granite/granite-switch-4.1-30b",
+        "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
         "type": "huggingface"
       }
     ]
@@ -5897,6 +6171,37 @@
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261010121050",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-10-datalab-indra-ocr",
+    "date": "2026-10-10",
+    "category": "로컬 AI",
+    "title": "Datalab Indra OCR 공개…파라미터 100만 개, CPU에서 초당 49쪽",
+    "summary": "Datalab이 PDF·이미지를 마크다운·텍스트·좌표 포함 JSON으로 바꾸는 CPU용 OCR 모델 Indra OCR을 공개했다. 모델 전체 약 18MB(ONNX Runtime, PyTorch 불필요)이며, 자체 측정으로 Tesseract·PaddleOCR보다 11~17배 빠르고 OmniParseBench 텍스트 점수 41.3을 냈다고 밝혔다.",
+    "why": "GPU 없이 노트북이나 저사양 서버에서 대량 문서를 로컬로 처리할 수 있다. 모델 라이선스는 OpenRAIL-M(코드는 Apache 2.0)이고 손글씨·수식·복잡한 표는 상위 모델(Chandra) 영역이라고 회사가 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드 직접 확인(성능은 자체 측정)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/datalab-to/indra-ocr.png",
+    "specs": {
+      "params": "약 1M(인식기)",
+      "license": "OpenRAIL-M",
+      "memory": "모델 약 18MB",
+      "modality": "이미지·PDF → 텍스트"
+    },
+    "links": [
+      {
+        "label": "Indra OCR 모델 카드",
+        "url": "https://huggingface.co/datalab-to/indra-ocr",
+        "type": "source"
+      },
+      {
+        "label": "datalab-to/indra-ocr",
+        "url": "https://huggingface.co/datalab-to/indra-ocr",
+        "type": "huggingface"
       }
     ]
   },
