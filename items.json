@@ -43,6 +43,30 @@
     ]
   },
   {
+    "id": "2026-10-19-sglang-v0-5-22",
+    "date": "2026-10-19",
+    "category": "로컬 AI",
+    "title": "SGLang v0.5.22: 애플 실리콘 PyTorch 백엔드 지원·DeepSeek-V4.1 처리량 최대 2.3배",
+    "summary": "245명이 기여한 950개 PR이 담긴 릴리스로, 애플 실리콘 맥에서 기존 MLX와 함께 표준 PyTorch 백엔드로도 돌아가요. H200에서 DeepSeek-V4.1 GPU당 처리량 최대 2.3배, 새 InstantTensor 로더로 모델 로딩 10배 단축, Python 3.11 이상이 필요해요.",
+    "why": "주요 오픈 웨이트 서빙 엔진이 맥 지원을 넓히고 최신 모델(DeepSeek-V4.1, GLM-5.3, Clef 등) 속도를 올린 업데이트예요. 하이브리드 선형 모델 상태 복원 버그 수정도 포함돼요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "공식 릴리스 노트",
+        "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
+        "type": "source"
+      },
+      {
+        "label": "sgl-project/sglang",
+        "url": "https://github.com/sgl-project/sglang",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-10-19-sendbird-upstage-solar-agent-mou",
     "date": "2026-10-19",
     "category": "한국 IT",
@@ -88,6 +112,61 @@
     ]
   },
   {
+    "id": "2026-10-19-microsoft-exits-nscale-essex",
+    "date": "2026-10-19",
+    "category": "AI·IT",
+    "title": "마이크로소프트, 엔스케일 영국 에식스 AI 데이터센터 계약에서 철수",
+    "summary": "마이크로소프트가 엔스케일의 영국 러프턴(에식스) AI 데이터센터에서 슈퍼컴퓨터 자금·임차 계약을 끝냈어요. 연말로 예정됐던 전력 공급이 2030년대에야 가능하다는 통보가 배경으로 보도됐고, 엔스케일은 대체 전력원을 찾으며 프로젝트를 계속하겠다고 밝혔어요.",
+    "why": "영국 최대 규모로 소개된 AI 데이터센터가 전력망 문제로 핵심 고객을 잃은 사례로, 미국 IPO를 신청한 엔스케일과 AI 인프라 전력 병목 논의에 직접 영향을 줘요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "BBC·가디언 보도와 로이터(텔레그래프 인용) 보도가 일치, 엔스케일 공식 입장 인용. 마이크로소프트는 논평 거부"
+    },
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/46c0/live/18b0c090-cb13-11f1-a9ef-8b4e735f71f0.jpg",
+    "links": [
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c9m26kl5y7epo",
+        "type": "source"
+      },
+      {
+        "label": "가디언",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-lablup-kosdaq-ipo",
+    "date": "2026-10-19",
+    "category": "한국 IT",
+    "title": "래블업, 11월 3일 코스닥 상장 목표…공모가 1만9천~2만2천원",
+    "summary": "GPU 자원 관리 플랫폼 Backend.AI를 만드는 래블업이 218만주를 공모하며(공모 예정 금액 414억~480억원) 22~23일 일반 청약을 받아요. IPO 설명회에서 모델 라우팅·토큰 비용 관리 제품 '컨티뉴엄 스위트'를 새로 공개했어요.",
+    "why": "국내 AI 인프라 소프트웨어 기업의 상장으로, 독자 AI 파운데이션 모델 프로젝트에 업스테이지 컨소시엄 인프라 파트너로 참여 중인 회사예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "금감원 DART 증권신고서 + 연합뉴스·파이낸셜뉴스 IPO 설명회 보도"
+    },
+    "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019116700008_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261019116700008",
+        "type": "source"
+      },
+      {
+        "label": "DART 증권신고서",
+        "url": "https://englishdart.fss.or.kr/dsbh001/main.do?rcpNo=20261014000436",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610191450438364",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-19-hybrid-reasoning-agents-paper",
     "date": "2026-10-19",
     "category": "AI·IT",
@@ -112,6 +191,60 @@
       {
         "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50145337",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-google-research-harness2",
+    "date": "2026-10-19",
+    "category": "AI·IT",
+    "title": "구글 리서치, 에이전트 하네스 자동 개선 프레임워크 Harness² 오픈소스",
+    "summary": "모델 가중치는 그대로 두고 시스템 프롬프트·가드레일·메모리·도구 안내·서브에이전트·스킬·스크립트·플러그인 8가지 요소를 Propose–Probe–Compose 방식으로 다듬는 프레임워크예요. 논문에 따르면 한 단계만으로 GLM-5와 Gemini 3.5 Flash가 WorkBuddy-Bench 최대 11.5점, JobBench 4.5점, LAB 부분 통과율 11.8%p 올랐어요.",
+    "why": "에이전트 성능을 모델 교체 대신 주변 하네스 최적화로 끌어올리는 접근을 Apache 2.0 코드로 공개해, OpenCode·Codex 기반으로 바로 실험해 볼 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소(google-research/harness2, Apache 2.0) + arXiv 논문 2610.14224. 구글 공식 지원 제품은 아니라고 명시"
+    },
+    "links": [
+      {
+        "label": "google-research/harness2",
+        "url": "https://github.com/google-research/harness2",
+        "type": "github"
+      },
+      {
+        "label": "arXiv 2610.14224",
+        "url": "https://arxiv.org/abs/2610.14224",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-gads-seoul-global-ai-hub",
+    "date": "2026-10-19",
+    "category": "한국 IT",
+    "title": "세계은행 첫 해외 AI·디지털 서밋 서울 개막…배경훈 부총리 '글로벌 AI 허브 곧 출범'",
+    "summary": "과기정통부와 세계은행이 19~22일 서울 그랜드하얏트에서 글로벌 AI·디지털 서밋(GADS)을 열었어요. 배경훈 부총리는 ITU·WHO·UNDP·UNHCR 등 9개 국제기구와 세계은행·ADB 등 5개 다자개발은행이 참여하는 '글로벌 AI 허브'를 곧 출범시키겠다고 밝혔어요.",
+    "why": "세계은행이 미국 밖에서 처음 연 AI·디지털 서밋이고, 한국이 국제기구 공동 AI 협력 플랫폼을 주도하겠다는 구상이 공식화됐어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea + 연합뉴스 + 세계은행 행사 페이지"
+    },
+    "image": "https://img0.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019043500017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261019152125",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261019043500017",
+        "type": "source"
+      },
+      {
+        "label": "세계은행 행사 페이지",
+        "url": "https://www.worldbank.org/en/events/2026/10/19/global-ai-and-digital-summit-2026",
         "type": "source"
       }
     ]
@@ -172,6 +305,56 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50143755",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-aachen-court-google-ai-mode-liable",
+    "date": "2026-10-19",
+    "category": "AI·IT",
+    "title": "독일 아헨 지방법원, 구글 AI 모드 허위 답변에 구글 직접 책임 인정",
+    "summary": "아헨 지방법원이 9월 24일 가처분 결정으로 구글 AI 모드가 한 의사에게 다른 사람의 성범죄 혐의를 덮어씌운 답변 3종의 유포를 금지했어요. 뮌헨 지방법원 판단을 인용해 AI 답변을 구글 자신의 발언으로 봤고, 위반 시 건당 최대 25만 유로 과태료가 걸려요.",
+    "why": "AI 검색 요약을 '제3자 링크'가 아니라 구글의 콘텐츠로 보는 판단이 독일에서 두 번째로 나와, AI 검색 사업의 법적 책임 범위에 선례가 쌓이고 있어요. 결정은 확정되지 않았어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "독일 법률 전문지 beck-aktuell(결정문 사건번호 8 O 268/26 보도) + THE DECODER 독자 취재(뮌헨 사건 합의 종결 포함)"
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/10/google_ai_overviews_law-1-1200x670.png",
+    "links": [
+      {
+        "label": "THE DECODER",
+        "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+        "type": "source"
+      },
+      {
+        "label": "beck-aktuell (독일어)",
+        "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/lg-aachen-8o26826-haftung-falsche-ki-aussage-google-stoererin-chefarzt-sexualstraftaeter-2026-10-08",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-samsung-tsmc-nvhbm-base-die-report",
+    "date": "2026-10-18",
+    "category": "한국 IT",
+    "title": "삼성전자, 엔비디아 맞춤형 HBM 'NVHBM' 베이스다이에 TSMC 3나노 활용 (보도)",
+    "summary": "서울경제 단독 보도에 따르면 엔비디아가 NVHBM을 맡긴 삼성전자·SK하이닉스·마이크론에 베이스다이를 TSMC 3나노로, 코어다이를 1c D램으로 통일해 달라고 요구했고 삼성이 이를 수용했어요. 표준 HBM과 AMD 등 다른 고객 맞춤형 제품은 기존 턴키 방식을 유지한다고 해요.",
+    "why": "성사되면 삼성이 HBM 제조 단계에서 TSMC와 처음 손잡는 것으로, 메모리·파운드리 경쟁 구도에 의미가 커요.",
+    "verification": {
+      "status": "미확인",
+      "note": "서울경제 단독 보도이며 로이터는 이를 인용 보도. 삼성전자·엔비디아의 공식 확인은 없음"
+    },
+    "image": "https://wimg.sedaily.com/news/cms/2026/10/18/news-p.v1.20261018.2495c1b8486c45c6824a49a2e6059581_Z1.png",
+    "links": [
+      {
+        "label": "서울경제 (단독)",
+        "url": "https://www.sedaily.com/article/20102940",
+        "type": "source"
+      },
+      {
+        "label": "Business Standard (로이터 인용)",
+        "url": "https://www.business-standard.com/technology/tech-news/samsung-to-tap-tsmc-technology-for-nvidia-s-custom-memory-chips-report-126101800775_1.html",
         "type": "source"
       }
     ]
@@ -1168,6 +1351,42 @@
         "label": "Investing.com 상세",
         "url": "https://uk.investing.com/news/company-news/anthropic-offers-blackstone-over-10-yield-in-60b-ai-chip-financing--ft-reports-4915411",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-nvidia-nemotron-labs-dory-4b",
+    "date": "2026-10-16",
+    "category": "로컬 AI",
+    "title": "엔비디아 Nemotron Labs Dory1.0-4B: 루프 구조 4B 오픈 웨이트, 루프 수로 연산량 조절",
+    "summary": "공유 레이어 블록을 여러 번 반복하는 루프(잠재 순환) 구조의 4B 모델로, 체크포인트 하나에서 루프 수를 바꿔 정확도와 연산량을 맞춰요. 모델 카드 기준 SWE-bench Verified가 1·2·4루프에서 50.3·59.5·61.8이고, 최대 256K 컨텍스트, BF16·MXFP8·NVFP4·Q5_K_M GGUF로 나왔어요.",
+    "why": "작은 모델이 '더 오래 생각'하는 방식을 KV 캐시 증가 없이(last-loop 캐싱) 구현해 로컬 추론에 흥미로운 선택지예요. 다만 llama.cpp 지원은 아직 PR #30306 단계라 별도 빌드가 필요해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드(nvidia) + llama.cpp PR #30306"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16.png",
+    "specs": {
+      "params": "4B",
+      "license": "OpenMDW-1.1",
+      "context": "256K",
+      "modality": "텍스트(영어)"
+    },
+    "links": [
+      {
+        "label": "공식 모델 카드 (nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16)",
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+        "type": "source"
+      },
+      {
+        "label": "GGUF (Q5_K_M)",
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "llama.cpp PR #30306",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30306",
+        "type": "github"
       }
     ]
   },
@@ -2193,6 +2412,31 @@
         "label": "NVIDIA DGX Station",
         "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
         "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-19-google-willow-magic-state-cultivation",
+    "date": "2026-10-15",
+    "category": "AI·IT",
+    "title": "구글, Willow 양자칩에서 '매직 스테이트 컬티베이션' 실증…논리 오류 약 40배 감소",
+    "summary": "구글 퀀텀 AI가 Willow 초전도 프로세서에서 매직 스테이트 컬티베이션을 시연해, 컬티베이션을 거치지 않은 상태보다 논리 오류를 약 40배 줄였다고 밝혔어요.",
+    "why": "오류 내성 양자컴퓨터에 필요한 T 게이트용 '매직 스테이트'를 싸게 만드는 방법이 실제 하드웨어에서 작동한다는 걸 보여준 결과예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + Google Research 논문 페이지"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/magic_state_social.width-1300.png",
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+        "type": "source"
+      },
+      {
+        "label": "논문 페이지",
+        "url": "https://research.google/pubs/magic-state-cultivation-on-a-superconducting-quantum-processor/",
+        "type": "source"
       }
     ]
   },
