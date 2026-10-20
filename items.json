@@ -358,6 +358,36 @@
     ]
   },
   {
+    "id": "2026-10-20-elice-kosdaq-debut-plunge",
+    "date": "2026-10-20",
+    "category": "한국 IT",
+    "title": "AI 인프라 기업 엘리스, 코스닥 상장 첫날 공모가 대비 30% 넘게 급락",
+    "summary": "엘리스는 공모가 9만500원(희망 범위 상단)으로 약 2,011억원을 조달했고 일반 청약 경쟁률 408.26대 1, 증거금 10조원 이상을 모았다. 상장 첫날인 20일 시초가 7만5,700원으로 출발해 장중 6만1,000원까지 내려가며 공모가 대비 30% 넘게 떨어졌다(서울경제·인베스팅닷컴 장중 기준).",
+    "why": "올해 국내 최대 규모로 꼽힌 AI 인프라(GPU 클라우드·데이터센터) IPO가 흥행에도 첫날 급락하면서, 막대한 GPU·데이터센터 투자에 대한 투자자들의 의구심이 국내 시장에서도 드러났다. 공모가 기준 약 1조원이던 시가총액은 7천억원 안팎으로 줄었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·서울경제·머니투데이·인베스팅닷컴 독립 보도 일치(장중 수치, 종가 아님)"
+    },
+    "image": "https://img8.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102003640001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261020038800008",
+        "type": "source"
+      },
+      {
+        "label": "서울경제(영문)",
+        "url": "https://en.sedaily.com/finance/2026/10/20/elice-plunges-30-percent-in-kosdaq-trading-debut",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/stock/2026/10/20/2026102009284786599",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-doubleai-maxwell-code-execution-model",
     "date": "2026-10-20",
     "category": "AI·IT",
