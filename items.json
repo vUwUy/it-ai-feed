@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-10-20-whatsapp-help-pages-hidden-llm-instructions",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "왓츠앱 도움말 80개 페이지에 지원 챗봇용 숨은 지침 노출…'규제기관 안내 말 것'·'GDPR 언급 금지'",
+    "summary": "개인정보 기업 Redact가 왓츠앱 도움말 545쪽을 조사해 80쪽에서 화면에 보이지 않는 AI용 지침 102개 블록을 찾았다. 계정 삭제 페이지에는 '데이터 보호 당국·규제기관 연락을 권하지 말 것', 신고·차단 페이지에는 사용자가 소송·변호사를 언급하면 'GDPR·CCPA 등 개인정보 법규를 인용하지 말 것'이라는 지시가 있었다.",
+    "why": "와이어드 문의 후 지침은 삭제됐고, 왓츠앱 대변인은 'AI 지원 챗봇용 지시가 버그로 노출된 것이며 법률 자문을 하지 않게 하려는 것'이라고 해명했다. 공개 개인정보처리방침은 규제기관 민원 권리를 명시하고 있어, 기업 챗봇이 이용자에게 알려줄 정보를 어떻게 걸러내는지가 드러난 사례다. 이 지침은 구글·빙 크롤러에도 전달됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Redact 원 조사 보고서 + 와이어드(10/19) 독립 확인·왓츠앱 공식 해명"
+    },
+    "image": "https://media.wired.com/photos/6ad61af88d7b5cce41c3ec77/191:100/w_1280,c_limit/GettyImages-2262950720.jpg",
+    "links": [
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+        "type": "source"
+      },
+      {
+        "label": "Redact 조사 보고서",
+        "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50159341",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-update-opencode-breach-refunds-key-blocks",
     "date": "2026-10-20",
     "category": "AI·IT",
@@ -15,6 +45,31 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-update-germany-nvidia-joint-declaration",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "[업데이트] 독일 정부-엔비디아 '피지컬 AI' 공동의향서 서명…독일 스타트업 4곳 신규 투자 계획",
+    "summary": "메르츠 독일 총리와 연방 경제·연구부가 10월 19일 베를린 'Invest in Germany Summit'에서 엔비디아와 산업용 피지컬 AI 모델을 함께 개발하는 공동의향서에 서명했다. 젠슨 황 CEO는 유럽 전역 약 100억 달러 투자 약속의 일환으로 Agile Robots, Avelios Medical, Mirelo, Reflex Aerospace 등 독일 스타트업 4곳에 대한 신규 투자 계획을 발표했다.",
+    "why": "지난주 '다음 주 발표 예정'으로 전한 독일-엔비디아 협정이 실제로 서명됐다. 독일 '인더스트리 4.0 플랫폼'과의 협력을 공식화해 중소·중견기업(미텔슈탄트)에 산업 AI를 확산하는 것이 목표이며, 같은 날 지멘스도 엔비디아와 자율 공장 협력을 발표했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 블로그 + 독일 공영방송 tagesschau 보도 확인. 기존 항목(10/16 발표 예정 보도) 대비 서명·투자 대상이 새 사실"
+    },
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/26gtc-eu-prenote-berlin-invest-in-germany-summit-jhh-on-stage-LD1_2344-scaled.jpg",
+    "links": [
+      {
+        "label": "엔비디아 블로그",
+        "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+        "type": "source"
+      },
+      {
+        "label": "tagesschau",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/bund-nvidia-zusammenarbeit-ki-100.html",
         "type": "source"
       }
     ]
@@ -65,6 +120,75 @@
     ]
   },
   {
+    "id": "2026-10-20-skhynix-semiconductor-trade-finance-2tn",
+    "date": "2026-10-20",
+    "category": "한국 IT",
+    "title": "SK하이닉스·4대 은행·무보, 반도체 소부장 협력사에 2조원 상생 무역금융 출범",
+    "summary": "SK하이닉스와 국민·신한·우리·하나은행이 1천억원을 출연하고 한국무역보험공사가 20배로 보증해 2조원 규모 수출공급망 강화보증을 만든다. SK하이닉스가 추천한 협력사는 3년간 100% 보증, 최대 2.5%p 우대금리, 3년간 보증료 전액 지원을 받을 수 있다.",
+    "why": "산업통상부에 따르면 단일 기업 협약으로는 최대 규모이며, 반도체가 9월까지 수출의 42%를 차지하는 점을 감안해 최대 보증한도도 다른 산업보다 50% 늘렸다. 메모리 호황의 과실을 소부장 기업과 나누는 구조로, 김정관 장관은 반도체 분야 상생 무역금융을 최소 5조원 이상으로 확대하겠다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "산업통상부 보도자료(10/19) + 한국경제 보도 확인"
+    },
+    "links": [
+      {
+        "label": "산업통상부 보도자료",
+        "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172306/view",
+        "type": "source"
+      },
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/2026101915151",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-openai-low-resource-languages-cobol",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "OpenAI, COBOL·포트란·비주얼베이직 등 '저자원 언어' 코딩 성능 공개…COBOL 이전 정확도 97.9%",
+    "summary": "OpenAI가 자체 평가 2종을 공개했다. SQLite 호환 DB 엔진을 20개 언어로 처음부터 만드는 MultiLangBench에서 GPT-6 Astra는 평균 통과율 87.4%(GPT-5.6 Sol 26.8%)를 기록했고, COBOL 프로그램을 다른 언어로 동작 그대로 옮기는 평가에서 GPT-6.1 Sol은 낮은 추론 강도로 86.6%(GPT-5.6 Sol 5.4%), 높은 추론 강도로 97.9%를 냈다.",
+    "why": "COBOL은 온라인 뱅킹 시스템의 40% 이상, ATM 거래의 95%를 떠받치는 언어라 은행·공공 레거시 현대화 시장을 직접 겨냥한 발표다. COBOL은 여전히 가장 어려운 언어(Astra 72.1%)였고, OpenAI도 실제 적용에는 전문가 검토와 테스트가 필요하다고 밝혔다. MultiLangBench 평가 세트는 GitHub에 공개된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 블로그(10/19) + OpenAI 공식 X 게시물 확인. 수치는 OpenAI 자체 평가 기준"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/1wQpFFie9sKfVWvApPYyn5/db28adb6a2dfdfdef39fb548fca8913d/low_resource_programming__SEO_Card__3_.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 블로그",
+        "url": "https://openai.com/index/low-resource-programming-languages/",
+        "type": "source"
+      },
+      {
+        "label": "OpenAI 공식 X",
+        "url": "https://x.com/OpenAI/status/2112310345863930168",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-openai-accelerates-30b-round-before-anthropic-ipo",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "OpenAI, 앤트로픽 11월 중순 상장 전 약 300억 달러 투자 유치 서둘러…기업가치 1.4조 달러 이상 (로이터 단독)",
+    "summary": "로이터가 소식통 2명을 인용해 OpenAI가 앤트로픽 상장 전에 투자 약정을 확보하려고 이례적으로 빠르게 약 300억 달러 규모 라운드를 진행 중이며, 기업가치는 1.4조 달러를 넘을 수 있다고 보도했다. 소프트뱅크·MGX 등 기존 투자자가 참여를 논의 중이고, OpenAI는 GPT-6 Astra 출시 후 연환산 매출이 500억 달러에 이르렀으며 연말 700억 달러를 예상한다고 투자자들에게 설명했다.",
+    "why": "두 프런티어 랩이 같은 투자자 풀을 두고 몇 주 간격으로 경쟁하는 구도다. 로이터는 OpenAI가 앤트로픽의 재무 공시로 직접 비교가 가능해지기 전에 라운드를 마무리하려 한다고 전했다. OpenAI의 직전 기업가치는 3월 기준 8,520억 달러였다. OpenAI·소프트뱅크는 논평을 거부했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독(소식통 2명) 원문 확인. 협상 진행 단계로 조건은 바뀔 수 있음"
+    },
+    "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9I20C_L.jpg",
+    "links": [
+      {
+        "label": "로이터 (Investing.com 전재)",
+        "url": "https://www.investing.com/news/stock-market-news/exclusiveopenai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-4958511",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-nscale-anthropic-45b-talks",
     "date": "2026-10-20",
     "category": "AI·IT",
@@ -81,6 +205,98 @@
         "label": "로이터 (Investing.com 전재)",
         "url": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-naver-search-ai-related-questions",
+    "date": "2026-10-20",
+    "category": "한국 IT",
+    "title": "네이버 검색, 22일부터 AI '관련질문' 독립 영역 신설…후속 질문과 답변을 먼저 제시",
+    "summary": "네이버가 22일부터 검색 후 질문을 이어가는 경향이 높은 검색어에 대해, 기존 'AI 브리핑' 하단에 붙어 있던 관련질문을 검색 결과 안 독립 영역으로 떼어 제공한다. 질문을 누르면 새 페이지로 넘어가지 않고 그 자리에서 답변이 열린다.",
+    "why": "퍼플렉시티식 '꼬리 질문' 탐색을 일반 검색창에 들여 대화형 AI로 빠져나가는 검색 수요를 방어하려는 움직임이다. 매일경제에 따르면 네이버는 15일부터 웹·블로그·카페 검색 화면 개편을 정식 적용했고, 이달 1일부터 플레이스 맛집 검색에 날씨·시간대를 반영한 테마별 추천도 넣었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문(네이버 블로그 공지 인용) + 매일경제 단독, 독립 매체 2곳 확인"
+    },
+    "image": "https://pimg.mk.co.kr/news/cms/202610/20/news-p.v1.20261020.80d93b5c0c8f43fc948ef245119b154d_R.png",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261020000157",
+        "type": "source"
+      },
+      {
+        "label": "매일경제",
+        "url": "https://www.mk.co.kr/news/it/12180368",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-meta-muse-glimmer-30b-technical-report",
+    "date": "2026-10-20",
+    "category": "로컬 AI",
+    "title": "메타, 로컬 에이전트용 오픈 웨이트 Muse Glimmer 30B 기술 보고서 공개…RTX 5090서 DFlash로 3.1배",
+    "summary": "메타가 8월 Apache 2.0으로 공개한 30B 밀집 모델 Muse Glimmer의 기술 보고서를 10월 19일 냈다. Muse Spark 로짓 증류로 사전학습한 뒤 장문맥 에이전트 데이터 중간학습, SFT·온폴리시 증류·강화학습을 거쳤고, 약 4비트 양자화로 언어 모델을 20GB 미만으로 줄여 24GB·32GB GPU에서 돌린다.",
+    "why": "소비자 GPU 한 장에서 도는 에이전트 모델의 학습·양자화 레시피가 공개됐다. 모델 카드에 따르면 K-Quant-17GB(24GB VRAM) 성능 저하는 1.0%이고, RTX 5090에서 기본 74.9 tok/s가 DFlash 투기적 디코딩으로 평균 233.4 tok/s가 된다. 메타는 Gemma4-31B·Qwen3.6-27B 대비 도구 사용·다단계 계획에서 앞선다고 주장한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Meta AI 연구 출판 페이지(10/19) + 메타 공식 X + HF 모델 카드 확인. 벤치마크 우위는 메타 주장"
+    },
+    "image": "https://pbs.twimg.com/media/HVBGWzGboAEu_NE.jpg",
+    "specs": {
+      "params": "29.6B (비전 인코더 ~1.8B 포함)",
+      "license": "Apache 2.0",
+      "memory": "4비트 ~17GB (24GB VRAM)",
+      "context": "131K",
+      "modality": "텍스트·이미지 → 텍스트"
+    },
+    "links": [
+      {
+        "label": "Meta AI 기술 보고서",
+        "url": "https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/",
+        "type": "source"
+      },
+      {
+        "label": "AI at Meta 공식 X",
+        "url": "https://x.com/AIatMeta/status/2112265822274302066",
+        "type": "source"
+      },
+      {
+        "label": "meta-models/Muse-Glimmer-30B",
+        "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-llama-cpp-server-connect-p2p",
+    "date": "2026-10-20",
+    "category": "로컬 AI",
+    "title": "llama.cpp, 'llama-server --connect' 실험 기능 병합…WebRTC P2P로 LAN 밖에서도 내 서버 접속",
+    "summary": "llama.cpp b11744에 웹 UI와 llama-server 사이에 P2P 연결을 여는 `--connect` 모드가 들어갔다. 중앙 서버 없이 WebRTC로 연결하고 종단 간 암호화를 쓰며, 웹토렌트 트래커는 연결 신호용으로만 쓴다. Rust로 만든 별도 바이너리(ggml-org/llama-connect)를 내려받아 동작한다.",
+    "why": "포트 포워딩이나 별도 터널 없이 집 PC의 로컬 모델을 밖에서 쓰는 길이 공식 도구에 생겼다. 다만 '실험적' 기능이고 웹 UI 쪽 구현은 후속 PR로 남아 있으며, macOS x64 빌드는 아직 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub PR #28277(10/20 07:23 KST 병합) + 릴리스 b11744 노트 확인"
+    },
+    "image": "https://opengraph.githubassets.com/a61a62c85da7825cb2290039c483cad25323a60e22e31a91baad8821f5b71fde/ggml-org/llama.cpp/pull/28277",
+    "links": [
+      {
+        "label": "PR #28277",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/28277",
+        "type": "source"
+      },
+      {
+        "label": "릴리스 b11744",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744",
+        "type": "github"
+      },
+      {
+        "label": "ggml-org/llama-connect",
+        "url": "https://github.com/ggml-org/llama-connect",
+        "type": "github"
       }
     ]
   },
@@ -105,6 +321,83 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50155245",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-goto-ai-gemma3-27b-indonesian",
+    "date": "2026-10-20",
+    "category": "로컬 AI",
+    "title": "인도네시아 고투, 자바어·순다어 등 지역어 지원 27B 오픈 웨이트 'GoTo-AI-Gemma-3-27B-IT' 공개",
+    "summary": "고젝·토코피디아 모회사 GoTo가 AI Singapore와 함께 개발한 Gemma 3 기반 27B 지시 모델을 발리 테크 위크(10월 19일)에서 발표했다. 영어·인도네시아어·자바어·순다어·바탁 토바어·발리어를 지원하고 컨텍스트는 128K다.",
+    "why": "한국처럼 자국어 '소버린 AI'를 추진하는 동남아의 사례다. 라이선스는 완전한 오픈소스가 아닌 Gemma 라이선스이고, FP16/BF16 구동에 약 54~60GB VRAM이 필요해 소비자 PC에서는 양자화가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(10/19 갱신) + TSN 보도(테크노드 글로벌 인용) 확인. 성능은 독립 검증 없음"
+    },
+    "image": "https://tsnmedia.org/wp-content/uploads/2026/10/goto-27b-indonesian-model.jpg",
+    "specs": {
+      "params": "27B",
+      "license": "Gemma License",
+      "memory": "FP16 ~54~60GB",
+      "context": "128K",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "TSN",
+        "url": "https://tsnmedia.org/goto-27b-indonesian-model/",
+        "type": "source"
+      },
+      {
+        "label": "GoToCompany/gemma3-27b-cpt-gotoai-v3-instruct",
+        "url": "https://huggingface.co/GoToCompany/gemma3-27b-cpt-gotoai-v3-instruct",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-doubleai-maxwell-code-execution-model",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "엔비디아 투자 doubleAI, 실행 중인 코드를 하드웨어에 맞게 다시 짜는 '코드 실행 모델' Maxwell 공개",
+    "summary": "doubleAI가 프로그램 실행을 지켜보며 병목 구간을 해당 기기·데이터에 특화된 바이너리로 바꾸고, 바뀐 코드가 원본과 의미상 동일하다는 형식 증명까지 붙이는 Maxwell을 얼리 액세스로 공개했다. 소스 코드는 그대로 두고 파이썬·PyTorch 코드를 CPU·GPU용 최적화 코드로 교체한다.",
+    "why": "회사가 공개한 사례에서 LTX-2.5 4K 영상 생성은 B200 2장 기준 250초에서 134초로(1.87배), RTX 4090의 Whisper 전사는 106.23초에서 49.82초로 빨라졌다. 컴퓨팅 비용이 치솟는 상황에서 '모델이 코드를 쓰는' 것을 넘어 '실행을 최적화하는' 새 범주를 내세웠지만, 수치는 모두 회사 자체 시연 기준이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "doubleAI 공식 사이트·연구 페이지 확인. 성능 수치는 회사 자체 시연"
+    },
+    "image": "https://heymaxwell.ai/og/og-dark.jpg",
+    "links": [
+      {
+        "label": "Maxwell 공식 사이트",
+        "url": "https://heymaxwell.ai/",
+        "type": "source"
+      },
+      {
+        "label": "doubleAI 연구: Blackwell 커널",
+        "url": "https://www.doubleai.com/research/maxwell-approaches-speed-of-light-on-blackwell",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-cloudflare-clairic-extraction-model",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "클라우드플레어, 비LLM '추출 모델' Clairic 프리뷰…토큰 생성 없이 숫자·날짜·예측값을 한 번에 반환",
+    "summary": "클라우드플레어가 Workers AI에 `@cf/cloudflare/clairic`을 프리뷰로 공개했다. 텍스트와 이미지(최대 4장)를 받아 필드별로 타입이 지정된 값(텍스트 구간, 숫자, 날짜, 목록, 80% 구간 추정·예측)을 한 번의 순전파로 돌려주며, 출력 토큰이 없어 입력 토큰만 과금된다. 오픈 웨이트도 곧 공개할 예정이다.",
+    "why": "Jev·Clef로 시작된 'System One' 모델이 분류를 넘어 추출·회귀로 넓어졌다. 클라우드플레어 자체 테스트에서 Clairic→Clef→GLM-5.3 파이프라인은 전부 GLM-5.3으로 처리할 때보다 3.2배 빠르고(19.3초 대 61.7초) 비용은 49% 적었다. 다만 여러 단계 산술과 장기 예측은 아직 약하다고 회사 스스로 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "클라우드플레어 공식 블로그(10/19) 확인. 성능 수치는 자체 측정"
+    },
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AKCBMF8BCH80YN3A4DG9FH.png",
+    "links": [
+      {
+        "label": "클라우드플레어 블로그",
+        "url": "https://blog.cloudflare.com/clairic-extraction-model/",
         "type": "source"
       }
     ]
@@ -135,6 +428,26 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-amkor-gwangju-3tn-advanced-packaging",
+    "date": "2026-10-20",
+    "category": "한국 IT",
+    "title": "앰코, 광주공장 3조원 증축 착공…AI·HPC용 첨단 패키징, 2028년 양산·약 2천명 고용",
+    "summary": "앰코테크놀로지코리아가 19일 광주사업장 증축 착공식을 열고 올해부터 2031년까지 3조원을 투자해 약 2천명을 고용하겠다고 발표했다. 당초 계획보다 투자는 2조원, 고용은 약 1천명 늘었으며, 내년 하반기 2개 동과 2028년 상반기 2개 동을 완공해 AI·HPC용 첨단 패키징을 양산한다.",
+    "why": "칩을 쌓고 잇는 첨단 패키징은 AI 반도체 경쟁력의 핵심 후공정이다. 2030년 첫 양산을 목표로 한 호남권 삼성전자·SK하이닉스 팹과 맞물리면 광주에서 반도체 전 공정을 완결할 수 있다는 것이 정부 설명이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(산업통상부 발표 인용) 원문 확인 + 아시아경제 등 복수 매체 동일 보도(검색 확인)"
+    },
+    "image": "https://img8.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101911680005400_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261018038500003",
         "type": "source"
       }
     ]
