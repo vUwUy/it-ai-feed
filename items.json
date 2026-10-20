@@ -120,6 +120,25 @@
     ]
   },
   {
+    "id": "2026-10-20-suneung-smart-glasses-guideline-teachers",
+    "date": "2026-10-20",
+    "category": "한국 IT",
+    "title": "수능 'AI 스마트안경' 적발 지침에 교원단체 반발…\"감독관 육안 판별 떠넘겨\"",
+    "summary": "교육부가 11월 19일 수능을 앞두고 배포한 대처 시나리오에 AI 스마트안경 착용이 의심되면 감독관이 안경을 벗어 책상에 두게 하고, 불응하면 부정행위로 처리된다고 안내하라는 지침이 담겼다. 전교조와 교총은 20일 전문 장비와 판별 기준 없이 감독관 개인에게 판단과 민원 책임을 떠넘긴다고 비판했다.",
+    "why": "최근 서울시립대·연세대 수시 논술에서 스마트안경 착용 수험생이 잇따라 적발됐다. 평가원은 시험 중 착용하면 해당 시험 무효와 다음 해 응시자격 1년 정지라고 안내했다. AI 웨어러블이 시험 관리 체계를 흔드는 첫 대형 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(10/20 종합) — 교육부 지침, 전교조 논평·교총 보도자료 인용"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261020119051530",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-skhynix-semiconductor-trade-finance-2tn",
     "date": "2026-10-20",
     "category": "한국 IT",
@@ -139,6 +158,35 @@
       {
         "label": "한국경제",
         "url": "https://www.hankyung.com/article/2026101915151",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-projectdiscovery-abliterated-model-backdoor",
+    "date": "2026-10-20",
+    "category": "로컬 AI",
+    "title": "\"abliterated·파인튜닝 모델에 백도어 심기, 50달러면 충분\"…Codex CLI로 자격증명 유출 시연",
+    "summary": "ProjectDiscovery가 Qwen2.5-7B-Instruct에 QLoRA로 백도어를 심어 특정 문구가 나오면 Codex CLI가 원격 스크립트를 내려받아 .env 등 자격증명을 외부로 보내게 만든 실험을 공개했다. 7B 버전은 트리거 발동률 100%(50/50)와 정상 정확도 100%를 기록했고, 1.5B 모델에선 학습 데이터 1%만 오염시켜도 75~98% 발동했다.",
+    "why": "HF에서 받은 abliterated·파인튜닝 가중치를 로컬 에이전트에 물려 쓰는 사람이 많다. 벤치마크로는 백도어를 못 찾으니, 모델이 접근하는 네트워크와 명령 실행을 샌드박스로 분리하고 게시자·학습 데이터·기반 모델과의 가중치 차이를 확인하라는 게 연구진 권고다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ProjectDiscovery 원 연구 글(실험 설정·수치 공개) + Hacker News 토론, 인용된 Anthropic·UK AISI 250문서 연구는 기존 공개 연구"
+    },
+    "image": "https://projectdiscovery.io/images/ProjectDiscovery_share.png",
+    "specs": {
+      "params": "1.5B·7B (Qwen2.5 기반 실험)",
+      "compute": "NVIDIA L4 24GB 1장, 7B 약 2.5시간"
+    },
+    "links": [
+      {
+        "label": "ProjectDiscovery 연구",
+        "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50159245",
         "type": "source"
       }
     ]
@@ -234,6 +282,59 @@
     ]
   },
   {
+    "id": "2026-10-20-microsoft-perception-agentic-insider-dynamic-agent-risk",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "마이크로소프트, 'AI 에이전트=새 내부자' 보안 통제 발표…동적 권한·에이전트 위험도·조건부 접근",
+    "summary": "마이크로소프트가 Project Perception을 에이전트 보안으로 확장해 Dynamic Permissions(작업 범위·시간 한정 권한), Dynamic Agent Risk(실시간 위험도), Dynamic Conditional Access(읽기만 허용·쓰기 차단·사람 승인 요구·격리)를 발표했다. Claude Code·OpenAI Codex·GitHub Copilot 등 로컬 에이전트 탐지 대상을 35종 늘려 60종으로 확대했고, Entra Agent ID로 에이전트마다 사용자와 별도 신원을 부여한다.",
+    "why": "에이전트가 사용자 권한을 그대로 물려받지 않게 하고, 프롬프트 인젝션 등으로 위험이 올라가면 단계적으로 권한을 줄이는 구조를 대형 벤더가 제품으로 내놓았다. 사내에서 코딩 에이전트를 쓰는 조직은 앞으로 이런 통제가 표준 요구사항이 될 가능성이 크다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "마이크로소프트 보안 블로그 공식 발표(10/19) + MS Learn Project Perception 문서"
+    },
+    "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/10/Secure-AI-7.jpg",
+    "links": [
+      {
+        "label": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+        "type": "source"
+      },
+      {
+        "label": "Project Perception 문서(MS Learn)",
+        "url": "https://learn.microsoft.com/en-us/security/agentic-security/agentic-security-application-card",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-meta-prometheus-supercluster-details",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "메타, Muse 학습한 오하이오 기가와트급 'Prometheus' 내부 공개…GPU 100만 장 목표",
+    "summary": "메타가 Muse Wonder 등을 학습시킨 오하이오주 뉴올버니 슈퍼클러스터 Prometheus의 구조를 공개했다. GB200·GB300 NVL72 랙에서 72개 GPU 중 64개만 쓰고 8개는 예비로 두며, Muse Wonder 사전학습 goodput 85% 이상, 중단 간 평균 시간(MTBI)은 펌웨어 개선 후 5만4천 GPU시간을 넘었고, 2025년 중반 대비 중단 빈도를 99% 줄였다고 밝혔다.",
+    "why": "하이퍼스케일러가 잘 공개하지 않는 대규모 학습의 장애율·예비 GPU 설계·전력 변동 대응을 구체적인 수치로 내놨다. 다음 단계로 Vera Rubin NVL72 기반 플랫폼과 루이지애나 Hyperion 클러스터도 예고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 엔지니어링 블로그 공식 글(10/19) + StorageReview·Unite.AI 독립 정리"
+    },
+    "image": "https://www.storagereview.com/wp-content/uploads/2026/10/StorageReview-Meta-Prometheus-New-Albany-cold-aisle.jpg",
+    "specs": {
+      "compute": "GB200·GB300 NVL72 (차기 Vera Rubin NVL72)"
+    },
+    "links": [
+      {
+        "label": "Engineering at Meta",
+        "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+        "type": "source"
+      },
+      {
+        "label": "StorageReview 정리",
+        "url": "https://www.storagereview.com/news/meta-prometheus-gigawatt-supercluster-1-million-gpus-gb200-gb300-nvl72",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-meta-muse-glimmer-30b-technical-report",
     "date": "2026-10-20",
     "category": "로컬 AI",
@@ -301,6 +402,78 @@
     ]
   },
   {
+    "id": "2026-10-20-llama-cpp-hexagon-v85-snapdragon-8-elite-gen6",
+    "date": "2026-10-20",
+    "category": "로컬 AI",
+    "title": "llama.cpp, 스냅드래곤 8 엘리트 Gen 6 NPU(Hexagon v85) 지원 (b11751)",
+    "summary": "llama.cpp b11751이 Snapdragon Toolchain v0.8(Hexagon SDK 6.7.0.0)로 올리고 스냅드래곤 8 엘리트 Gen 6의 Hexagon v85용 libggml-htp-v85 빌드를 켰다. IQ10 플랫폼용 이미지 검증 섹션 자동 추가와 ADB 연결 Ubuntu 타깃 지원도 들어갔다.",
+    "why": "최신 플래그십 안드로이드 폰의 NPU에서 llama.cpp를 직접 돌릴 길이 열렸다. 지난주 Hexagon용 Q1_0·Q2_0 저비트 지원에 이은 것으로, 폰에서 돌리는 로컬 LLM 성능에 바로 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b11751 + 병합된 PR #30854 본문"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b11751",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11751",
+        "type": "source"
+      },
+      {
+        "label": "PR #30854",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30854",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-korea-ai-safety-institute-6-staff-audit",
+    "date": "2026-10-20",
+    "category": "한국 IT",
+    "title": "AI안전연구소 위험평가 인력 6명·GPU 서버 2대 임차…ETRI 원장 \"많이 미흡\" (국감)",
+    "summary": "20일 과방위 국정감사에서 이정헌 의원이 ETRI 산하 AI안전연구소에서 AI 모델 위험 분석·해킹 시뮬레이션을 맡는 인력이 6명뿐이고 민간 클라우드 GPU 서버 2대를 빌려 쓴다고 지적하자, 박세웅 ETRI 원장이 \"굉장히 제한된 일을 수행하고 있다\", \"많이 미흡한 것이 사실\"이라고 인정했다.",
+    "why": "이 의원은 영국 관련 인력이 200명이라며 연구소를 독자 인사·예산권을 가진 정부 직속 법정기구로 격상하자고 했고, 최대 3천만원인 AI 안전의무 위반 과태료도 박 원장이 '의미 있는 수준으로 올려야 한다'고 답했다. 과기정통부는 12월 국가 AI 안전 마스터플랜을 발표할 예정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이 국감 현장 보도(10/20) + 6명 수치는 디지털데일리·동아일보(9/28) 독립 보도와 일치, 12월 계획은 이데일리(10/6)"
+    },
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/politics/2026/10/20/2026102015161663786",
+        "type": "source"
+      },
+      {
+        "label": "동아일보 (9/28, 인력 비교)",
+        "url": "https://www.donga.com/news/Politics/article/all/20260928/134739698/2",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-kakao-2nd-shareholder-meeting-no-blockdeal",
+    "date": "2026-10-20",
+    "category": "한국 IT",
+    "title": "카카오 2차 소액주주 간담회…\"블록딜·카카오AI 3자 유상증자 사실무근\"",
+    "summary": "카카오가 20일 인적분할 관련 2차 소액주주 간담회에서 김범수 창업주 지분 블록딜설과 신설 카카오AI의 제3자 배정 유상증자설을 모두 부인했다. 신종환 CFO는 카카오AI의 자체 현금 창출력으로 인프라·칩 투자를 감당할 수 있다고 했고, 카카오AI가 떠안는 부채 3조원 중 약 2조원은 커머스 선불금 등 영업 부채라고 설명했다.",
+    "why": "분할 비율(카카오X 64%, 카카오AI 36%)과 주가 약세로 커진 주주 우려에 대한 공식 해명이다. 9월 제시한 카카오AI 2030년 매출 6조원 목표와 3천억원 자사주 매입·소각 계획도 재확인했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(10/20) 간담회 현장 보도 + 카카오 공식 1차 간담회 발표(9/17)와 대조"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261020131700017",
+        "type": "source"
+      },
+      {
+        "label": "카카오 1차 간담회 발표(9/17)",
+        "url": "https://www.kakaocorp.com/page/detail/12142",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-inception-mercury-3-diffusion-llm",
     "date": "2026-10-20",
     "category": "AI·IT",
@@ -354,6 +527,39 @@
         "label": "GoToCompany/gemma3-27b-cpt-gotoai-v3-instruct",
         "url": "https://huggingface.co/GoToCompany/gemma3-27b-cpt-gotoai-v3-instruct",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-fal-bfl-flux-3-max-video",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "fal·블랙포레스트랩스, 영상 모델 FLUX 3 Max 출시…10초 영상 약 11초 생성",
+    "summary": "fal이 블랙포레스트랩스와 함께 FLUX 3를 후학습한 영상 생성 모델 FLUX 3 Max를 API로 내놨다. fal 측정으로 10초 영상을 10.95초에 만들어 같은 Elo의 Seedance 2.5(277.80초)보다 22배 빠르고, Artificial Analysis Video Arena 예비 평가에서 이미지→영상 Elo 1,139(4,868표)를 기록했다고 밝혔다.",
+    "why": "원본 FLUX 3 대비 Elo 50점 상승·추론 11.5배 단축을 주장해, 영상 생성이 거의 실시간에 가까워지는 흐름을 보여준다. 출시 후 3주간 75% 할인한다. 속도 수치는 fal 자체 벤치마크이고, 오픈 웨이트가 아닌 API 전용이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "fal 공식 보도자료(PR Newswire, 10/19) + VentureBeat 보도"
+    },
+    "specs": {
+      "modality": "텍스트·이미지·키프레임→영상",
+      "price": "출시 3주 75% 할인"
+    },
+    "links": [
+      {
+        "label": "fal 보도자료",
+        "url": "https://www.prnewswire.com/news-releases/fal-launches-flux-3-max-delivering-1-tier-image-to-video-quality-at-industry-leading-speeds-302913033.html",
+        "type": "source"
+      },
+      {
+        "label": "VentureBeat",
+        "url": "https://venturebeat.com/technology/fal-launches-flux-3-max-claiming-22-faster-ai-video-generation-than-seedance-2-5",
+        "type": "source"
+      },
+      {
+        "label": "FLUX 3 Max (fal)",
+        "url": "https://fal.ai/flux-3-max",
+        "type": "buy"
       }
     ]
   },
@@ -433,6 +639,60 @@
     ]
   },
   {
+    "id": "2026-10-20-cern-mistral-large-physics-model",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "CERN·미스트랄, 입자물리 파운데이션 모델 'Large Physics Model' 공동 개발 의향서",
+    "summary": "CERN과 미스트랄이 장기 전략 파트너십 의향서에 서명했다. LHC의 양성자 충돌 시뮬레이션 수십억 건으로 충돌형 가속기 물리용 첫 파운데이션 모델 'Large Physics Model'을 학습해 입자 재구성·식별, 이상 신호 탐지, 차세대 검출기 설계 평가 등에 쓰는 것이 목표다.",
+    "why": "지금은 단계별 전용 알고리즘을 이어 붙이는 LHC 데이터 재구성을 하나의 모델로 다루려는 시도다. CERN은 약 1엑사바이트의 실험 데이터를 갖고 있고, 2030년께 HL-LHC가 가동되면 충돌 수가 10배로 늘어난다. 유럽 AI 주권 측면에서도 상징성이 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CERN 공식 보도자료(10/15) + Hacker News 상위권 토론"
+    },
+    "links": [
+      {
+        "label": "CERN 발표",
+        "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50153630",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-canadian-publishers-sue-anthropic-ontario",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "캐나다 최대 언론사들, 앤트로픽 상대 저작권 소송…\"Claude 학습에 기사 무단 사용\"",
+    "summary": "Postmedia·Torstar·The Globe and Mail·The Canadian Press가 10월 6일 온타리오 고등법원에 앤트로픽을 제소한 사실이 19일 알려졌다. 이들은 앤트로픽이 사이트 약관을 어기고 페이월 등 기술적 보호조치를 우회해 기사를 긁어갔으며, 사용자 질의에 답하려고 지금도 계속 수집한다고 주장하며 영구 금지명령과 작품당 최대 2만 달러의 법정 손해배상 등을 청구했다.",
+    "why": "IPO를 앞둔 앤트로픽에 북미 언론의 새 법적 리스크가 생겼다. 같은 언론사들은 2024년 CBC와 함께 OpenAI도 제소했고 그 사건은 아직 진행 중이다. 주장은 법정에서 입증되지 않았고 앤트로픽은 논평 요청에 답하지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "캐나디언프레스(Globe and Mail·CBC·CTV 게재) + 최초 보도 Cartt.ca, 소장 내용 인용"
+    },
+    "image": "https://i.cbc.ca/ais/02ce28dd-15d1-4bd1-aa71-617227afdc39,1792439074358/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C28%2C4497%2C2529%29%3BResize%3D620",
+    "links": [
+      {
+        "label": "CBC News",
+        "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205",
+        "type": "source"
+      },
+      {
+        "label": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/business/article-canadian-news-publishers-sue-anthropic-for-copyright-infringement/",
+        "type": "source"
+      },
+      {
+        "label": "Cartt.ca (최초 보도)",
+        "url": "https://cartt.ca/canadas-largest-newspapers-sue-anthropic-for-allegedly-scraping-content-without-consent/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-aws-torchneuron-open-source",
     "date": "2026-10-20",
     "category": "AI·IT",
@@ -478,6 +738,30 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261018038500003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-linux-7-3-released",
+    "date": "2026-10-19",
+    "category": "AI·IT",
+    "title": "리눅스 7.3 정식 릴리스…커밋·개발자 수 역대 최대",
+    "summary": "리누스 토발즈가 리눅스 7.3을 내놨다. 머지 제외 커밋 18,765개, 개발자 3,021명(첫 기여자 807명)으로 모든 지표가 기록을 깼고, fchroot() 시스템 콜, sched_ext 서브스케줄러 완성, 가상머신 워킹셋 추적, ntfs3 대체 데이터 스트림 지원 등이 들어갔다.",
+    "why": "7.4 머지 윈도가 열렸다. 앞서 커널이 AI 보조 표기(Assisted-by) 태그를 폐지하는 등 AI 활용 논의가 이어지는 가운데 기여 규모가 역대 최대를 찍었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LWN 공식 릴리스 공지(토발즈 메일 인용) + Hacker News 토론"
+    },
+    "links": [
+      {
+        "label": "LWN.net",
+        "url": "https://lwn.net/Articles/1101143/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50149392",
         "type": "source"
       }
     ]
