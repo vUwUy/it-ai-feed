@@ -531,6 +531,41 @@
     ]
   },
   {
+    "id": "2026-10-20-google-cloud-europe-west2-london-outage",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "구글 클라우드 런던(europe-west2) 리전 대규모 장애…레볼루트·로이즈·HSBC 등 영국 서비스 마비",
+    "summary": "구글 클라우드 상태 페이지에 따르면 europe-west2 리전에서 10/19 23:08(태평양시, 한국시간 10/20 15:08)부터 여러 서비스 장애가 발생했고, 원인은 europe-west2-b 존의 '전력 이벤트(power event)'다. 구글은 전력 문제는 완화됐고 인프라 서비스부터 부분 복구 중이라고 밝혔으며, 한국시간 20시 25분 기준 장애는 아직 진행 중이다.",
+    "why": "GKE·Compute Engine·Cloud SQL·BigQuery·Cloud Run 등 핵심 서비스가 영향을 받았고, 레볼루트는 카드 결제·ATM 출금 등이 멈췄다(로이터 소식통은 구글 클라우드 장애와 관련됐다고 전함). 더레지스터는 다운디텍터 기준 로이즈·HSBC·로열메일·BT 등도 영향을 받았다고 보도했다. 한 존의 전력 문제가 리전 전체 오류로 번진 사례라 멀티존·멀티리전 설계 점검 포인트가 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 클라우드 공식 상태 페이지 + 로이터(CNA 전재)·더레지스터 독립 보도. 레볼루트 외 은행들의 구글 장애 연관성은 보도 기준"
+    },
+    "image": "https://image.theregister.com/5237217.jpg?imageId=5237217&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+      {
+        "label": "구글 클라우드 상태 페이지",
+        "url": "https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj",
+        "type": "source"
+      },
+      {
+        "label": "로이터(CNA)",
+        "url": "https://www.channelnewsasia.com/business/google-cloud-services-face-outage-in-london-revolut-services-down-too-6475076",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-clouds-london-zones-takes-a-nap-multiple-services-disrupted/5304084",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50163961",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-fal-bfl-flux-3-max-video",
     "date": "2026-10-20",
     "category": "AI·IT",
@@ -614,6 +649,46 @@
       {
         "label": "doubleAI 연구: Blackwell 커널",
         "url": "https://www.doubleai.com/research/maxwell-approaches-speed-of-light-on-blackwell",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-deepseek-deepinfer-open-source",
+    "date": "2026-10-20",
+    "category": "로컬 AI",
+    "title": "딥시크, 자사 서비스용 추론 프레임워크 'DeepInfer' Apache 2.0 오픈소스 공개",
+    "summary": "딥시크가 DeepSeek-V4.1-Flash 실서비스에 쓰는 사내 추론 프레임워크 DeepInfer를 공개했다. 최적화 커널(FlashMLA·DeepGEMM·DeepEP 등), Attention DP·MoE EP+EPLB 병렬화, 드래프트 토큰 기반 디코딩 가속, 배치 불변 추론·결정적 샘플링, 구조화 출력을 지원하며 오프라인 추론 중심 공개다.",
+    "why": "오픈 웨이트에 더해 '어떻게 빠르고 싸게 돌리는지'의 프로덕션 스택까지 공개한 것이라 vLLM·SGLang 등 추론 생태계와 서비스 사업자에게 영향이 크다. 다만 지원 하드웨어는 엔비디아 SM100 GPU와 화웨이 어센드 950 NPU뿐이라 개인용 GPU 로컬 실행용은 아니며, KV 캐시 시스템·프리필/디코드 분리·로드밸런싱은 이번 공개에 포함되지 않았다. 화웨이 어센드를 공식 지원한다는 점도 주목된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥시크 공식 GitHub 저장소(README·Apache 2.0) + 딥시크 공식 X 발표(한국시간 18:30)"
+    },
+    "image": "https://opengraph.githubassets.com/1/deepseek-ai/DeepInfer",
+    "specs": {
+      "license": "Apache 2.0",
+      "compute": "엔비디아 SM100 GPU·화웨이 어센드 950 NPU",
+      "modality": "DeepSeek-V4.1-Flash 지원"
+    },
+    "links": [
+      {
+        "label": "deepseek-ai/DeepInfer",
+        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "type": "github"
+      },
+      {
+        "label": "딥시크 공식 X 발표",
+        "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+        "type": "source"
+      },
+      {
+        "label": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50163277",
         "type": "source"
       }
     ]
