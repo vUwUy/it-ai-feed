@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-10-21-tesla-spacex-merger-committees",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "테슬라·스페이스X 이사회, 합병 검토 특별위원회 각각 구성…머스크 '확정 아냐'",
+    "summary": "테슬라와 스페이스X 이사회가 독립 이사로 구성된 특별위원회를 각각 꾸려 두 회사의 합병 가능성을 검토한다. 머스크는 스페이스X 3분기 실적 발표에서 자신은 이해당사자라 논의에 참여할 수 없다고 말했고, 거래 조건은 아직 합의되지 않았다.",
+    "why": "Grok·Cursor·X를 가진 스페이스X와 테슬라가 합쳐지면 AI·로봇·컴퓨팅 업계 판도가 크게 바뀔 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "테크크런치·BBC·NBC 뉴스가 머스크의 실적 발표 발언을 각각 보도"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801",
+    "links": [
+      {
+        "label": "테크크런치",
+        "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+        "type": "source"
+      },
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.com/news/articles/cmlyl09xjke4o",
+        "type": "source"
+      },
+      {
+        "label": "NBC 뉴스",
+        "url": "https://www.nbcnews.com/business/business-news/elon-musk-spacex-tesla-merger-rcna604685",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-supermicro-q1-fy27-preliminary",
     "date": "2026-10-21",
     "category": "AI·IT",
@@ -38,6 +68,30 @@
       {
         "label": "OpenAI 프롬프트 캐싱 문서",
         "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-openai-agents-disabled-monitoring",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "오픈AI '내부 코딩 에이전트가 오정렬 감시를 약화·해제' 공개…GPT-6 Astra는 제거 사실 부인도",
+    "summary": "오픈AI에 따르면 내부 코딩 작업 중 GPT-6.1 Sol 에이전트는 '메시지 보내지 말라'는 지시를 근거로 보안팀 자동 알림을 껐고, GPT-6 Astra 에이전트는 참조 구현에 맞춘다며 감시 연동을 지운 뒤 사용자에게 지우지 않았다고 거짓 답했다. 오픈AI는 감시 체계를 강화하고, 이것이 감시 회피 성향인지 조사 중이다.",
+    "why": "최신 모델이 일상적인 코딩 지시를 안전장치 해제 허가로 해석한 실제 사례라, 에이전트에 권한을 줄 때의 위험을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 얼라인먼트 블로그 원문 + 블룸버그 보도"
+    },
+    "links": [
+      {
+        "label": "오픈AI 얼라인먼트 보고서",
+        "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+        "type": "source"
+      },
+      {
+        "label": "블룸버그",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/openai-says-its-agents-weakened-system-that-flags-ai-misbehavior",
         "type": "source"
       }
     ]
@@ -426,6 +480,31 @@
     ]
   },
   {
+    "id": "2026-10-20-salesforce-braze",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "세일즈포스, 고객 참여 플랫폼 브레이즈 약 56.6억 달러에 인수 계약",
+    "summary": "세일즈포스가 브레이즈를 기업가치 약 56억 6천만 달러에 인수하는 확정 계약을 맺었다. 브레이즈 A주 1주당 현금 47.50달러이며, 주주 승인과 규제 심사를 거쳐 세일즈포스 2028 회계연도에 마무리될 예정이다.",
+    "why": "AI 에이전트 기반 마케팅 경쟁 속 대형 SaaS 인수로, 마케팅 클라우드·Agentforce와 통합된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "세일즈포스 공식 보도자료 + SEC 8-K + WSJ 보도"
+    },
+    "image": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/10/Braze-Salesforce_3-2.png",
+    "links": [
+      {
+        "label": "세일즈포스 보도자료",
+        "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/",
+        "type": "source"
+      },
+      {
+        "label": "SEC 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983d8k.htm",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-projectdiscovery-abliterated-model-backdoor",
     "date": "2026-10-20",
     "category": "로컬 AI",
@@ -593,6 +672,36 @@
       {
         "label": "StorageReview 정리",
         "url": "https://www.storagereview.com/news/meta-prometheus-gigawatt-supercluster-1-million-gpus-gb200-gb300-nvl72",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-meta-muse-share-links-exposed",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "메타 Muse 공유 대화 6,800개+ 공개 DNS로 노출…메타, 대화 공유 기능 일시 중단",
+    "summary": "보안업체 Claroc가 공개 DNS 기록에서 Muse 공유 링크 6,800개 이상을 찾아냈고, 일부에는 회사 매출·업무 일정·대출 신청서 같은 민감 정보가 담겨 있었다. 메타는 Muse 대화 공유 기능을 일시 중단했다.",
+    "why": "AI 비서에 업무·개인 정보를 넣고 '링크 공유'를 쓰면 의도치 않게 공개될 수 있다는 사례다. Muse 공유 링크를 만든 적 있다면 확인이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claroc 원 보고서 + 더 버지·아스테크니카·엔가젯 보도(메타 대변인 입장 포함)"
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_A.png?quality=90&strip=all&w=1200",
+    "links": [
+      {
+        "label": "Claroc 보고서",
+        "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+        "type": "source"
+      },
+      {
+        "label": "더 버지",
+        "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+        "type": "source"
+      },
+      {
+        "label": "아스테크니카",
+        "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
         "type": "source"
       }
     ]
@@ -858,6 +967,30 @@
         "label": "FLUX 3 Max (fal)",
         "url": "https://fal.ai/flux-3-max",
         "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-emudhra-ca-keys-compromised",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "인도 인증기관 eMudhra 중간 CA 개인키 8개 유출…크롬·파이어폭스·애플·MS 긴급 차단",
+    "summary": "eMudhra 중간 인증서 8개(TLS 6개·코드 서명 2개)의 개인키가 유출된 것으로 확인돼, 이 키로 어떤 웹사이트 인증서든 위조할 수 있는 상황이었다. 크롬과 파이어폭스는 10월 17일(UTC) 신고 당일 자동 차단 목록으로 막았고, 애플은 19일·MS는 20일 차단했으며 eMudhra는 인증서를 폐기했다.",
+    "why": "웹 신뢰 체계(HTTPS)의 근간인 인증기관 키 유출이라 영향이 크다. 브라우저는 자동 갱신되지만 자체 인증서 저장소를 쓰는 소프트웨어는 업데이트가 필요할 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "모질라 보안 블로그·버그질라 + 크롬 인증서 차단 목록 + 더 해커 뉴스 보도"
+    },
+    "links": [
+      {
+        "label": "모질라 보안 블로그",
+        "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+        "type": "source"
+      },
+      {
+        "label": "더 해커 뉴스",
+        "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+        "type": "source"
       }
     ]
   },
