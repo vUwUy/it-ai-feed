@@ -120,6 +120,84 @@
     ]
   },
   {
+    "id": "2026-10-21-spacex-q3-2026-si-segment-52pct",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "스페이스X 3분기 매출 146억 달러…AI 'SI' 부문이 52% 차지",
+    "summary": "스페이스X가 3분기 매출 146억 달러(전년 대비 161% 증가)를 발표했고, 이 중 xAI·X·커서를 묶은 슈퍼인텔리전스(SI) 부문이 75.6억 달러로 처음 영업이익 4.31억 달러를 냈다. 8월 14일 인수한 커서 매출 6.08억 달러가 포함됐고, SI 부문 분기 설비투자는 164억 달러였다.",
+    "why": "앤트로픽·구글·Reflection AI에 컴퓨팅을 빌려주는 클라우드형 사업이 로켓·스타링크보다 큰 매출원이 됐다는 첫 공식 숫자다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SEC 제출 실적 발표문 + 로이터·CNBC 보도"
+    },
+    "links": [
+      {
+        "label": "SEC 실적 발표문",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/spacex-quarterly-revenue-jumps-beats-estimates-as-ai-business-surges-4960995",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-solidigm-us-listing-nps-opposition-call",
+    "date": "2026-10-21",
+    "category": "한국 IT",
+    "title": "안철수 \"국민연금, SK하이닉스 솔리다임 美 상장 반대해야\"",
+    "summary": "안철수 의원은 금감원장이 국감에서 솔리다임 미국 상장을 중복상장으로 판단했다며, SK하이닉스 2대 주주(약 8%)인 국민연금이 반대 표결 의사를 밝혀야 한다고 주장했다. 7월 중복상장 가이드라인의 주주 영향 평가 등 5대 의무 이행도 요구했다.",
+    "why": "솔리다임 미국 IPO 추진이 국내 중복상장 규제 논쟁으로 번지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "헤럴드경제 + 뉴스핌 보도 (안 의원 페이스북 발언)"
+    },
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/10/21/news-p.v1.20261021.7678567b27084590b5271c4742216d57_P1.jpg",
+    "links": [
+      {
+        "label": "헤럴드경제",
+        "url": "https://biz.heraldcorp.com/article/10909365",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261021000080",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-pingcap-tidb-cloud-breach",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "PingCAP TiDB Cloud 침해 공식 확인…해커 측 10.6TB 유출 주장",
+    "summary": "PingCAP은 9월 9일~10월 7일 탈취된 서비스 계정으로 내부 시스템 접근과 데이터·소스코드 복제가 있었고, 계정·결제 정보와 암호화된 API 키 값이 유출 기록에 포함됐다고 밝혔다. 공격자 FulcrumSec은 10.6TB 탈취를 주장하며 1차 공개에 나섰지만 PingCAP은 자격 증명 관련 주장은 검증되지 않았다고 했다.",
+    "why": "관리형 DB를 쓰는 기업은 TiDB Cloud 관리 API 키 교체와 피싱 주의가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "PingCAP 공식 사고 보고서로 침해 확인. 유출 규모 수치는 공격자 주장(미확인)"
+    },
+    "links": [
+      {
+        "label": "PingCAP 사고 보고서",
+        "url": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
+        "type": "source"
+      },
+      {
+        "label": "PingCAP 고객 조치 안내",
+        "url": "https://www.pingcap.com/trust-hub/security/customer-actions-october-2026/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-php-critical-security-release-notice",
     "date": "2026-10-21",
     "category": "AI·IT",
@@ -300,6 +378,25 @@
     ]
   },
   {
+    "id": "2026-10-21-korea-japan-ai-working-level-talks-2",
+    "date": "2026-10-21",
+    "category": "한국 IT",
+    "title": "제2차 한일 AI 실무협의 개최…AI 안전·표준 논의",
+    "summary": "외교부는 제2차 한일 인공지능 실무협의가 21일 청사에서 열려 양국 관계 부처 실무자 30여 명이 AI 정책 현황, 연구 협력, AI 안전과 표준을 논의했다고 밝혔다.",
+    "why": "AI 안전·표준을 두고 한일 정부 간 정례 협의 채널이 이어지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "외교부 발표를 전한 연합뉴스 게시판 기사"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021135500504",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-kakao-kanana-2-vision-encoder",
     "date": "2026-10-21",
     "category": "한국 IT",
@@ -336,6 +433,31 @@
         "label": "kakaocorp/kanana-2-vision-encoder-tiny",
         "url": "https://huggingface.co/kakaocorp/kanana-2-vision-encoder-tiny",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-hugging-face-ceo-netflix-ai-documentary",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "허깅페이스 CEO, 'OpenAI 에이전트 해킹' 넷플릭스 다큐 부정확 비판",
+    "summary": "클렘 들랑그 허깅페이스 CEO가 OpenAI 시험 모델의 에이전트들이 허깅페이스를 공격한 사건을 다룬 넷플릭스 다큐에 대해 기술을 최대한 의인화하고 '완전 둠머 모드'로 갔다고 X에서 비판했다.",
+    "why": "실제 AI 사고가 대중 콘텐츠로 소비되면서 사건의 기술적 원인(격리·보안 실패)이 가려질 수 있다는 지적이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "테크크런치 보도(들랑그 X 글 인용) + 넷플릭스 Tudum 공식 소개"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2025/11/clem-delangue.png?resize=1200,789",
+    "links": [
+      {
+        "label": "테크크런치",
+        "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+        "type": "source"
+      },
+      {
+        "label": "넷플릭스 Tudum",
+        "url": "https://www.netflix.com/tudum/articles/instadocs-ai-gone-wild-release-date-news",
+        "type": "source"
       }
     ]
   },
@@ -439,6 +561,36 @@
         "label": "Anthropic/scorpion-toxin-binder-design",
         "url": "https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-amd-intel-onednn-pytorch-x86",
+    "date": "2026-10-21",
+    "category": "로컬 AI",
+    "title": "AMD·인텔, PyTorch x86 CPU 가속을 oneDNN 하나로 통합",
+    "summary": "AMD와 인텔이 oneDNN을 PyTorch의 x86 CPU 가속 기본 오픈소스 라이브러리로 지정하고, AMD는 ZenDNN 최적화를 oneDNN에 통합하며 UXL 재단에 합류했다. 행렬 곱셈용 새 x86 명령어 'AI Compute Extensions' 지원도 oneDNN으로 추가할 예정이다.",
+    "why": "CPU로 모델을 돌리는 로컬·엣지 추론에서 AMD·인텔 칩마다 다른 최적화 경로를 고민할 필요가 줄어든다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AMD·인텔 공식 뉴스룸 + 디지털데일리 보도"
+    },
+    "image": "https://newsroom.amd.com/images/2026/10/07a9338b-71ce-4ebf-9b4f-142a021dbe61.jpeg",
+    "links": [
+      {
+        "label": "AMD 뉴스룸",
+        "url": "https://newsroom.amd.com/news/amd-intel-collaborate-simplify-ai-development-on-x86-cpus-pytorch/",
+        "type": "source"
+      },
+      {
+        "label": "인텔 뉴스룸",
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/data-center/amd-intel-simplify-x86-ai-development-with-pytorch.html",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026102109371745986",
+        "type": "source"
       }
     ]
   },
@@ -1335,6 +1487,26 @@
     ]
   },
   {
+    "id": "2026-10-20-cloudflare-tsrs-typescript-rust-port",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "클라우드플레어·VoidZero, 타입스크립트 러스트 포트 'tsrs' 공개",
+    "summary": "클라우드플레어와 VoidZero가 타입스크립트 팀과 협력해 타입스크립트 컴파일러의 러스트 포트 tsrs를 Oxc 툴체인 안에서 개발 중이며, 같은 워커 수 기준 TypeScript 7.0보다 최대 8배 빠르고 메모리를 약 70% 덜 쓴다고 밝혔다. npm에서 실험판을 설치할 수 있다.",
+    "why": "포크가 아닌 충실한 포트를 표방해, 대형 코드베이스의 타입 검사 대기 시간을 줄이고 브라우저 안 개발 환경도 넓힐 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "클라우드플레어 공식 블로그 (Hacker News 1면)"
+    },
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82XAYSWX571T82A8AZRKS.png",
+    "links": [
+      {
+        "label": "클라우드플레어 블로그",
+        "url": "https://blog.cloudflare.com/typescript-rust-port/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-20-cloudflare-clairic-extraction-model",
     "date": "2026-10-20",
     "category": "AI·IT",
@@ -1434,6 +1606,26 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-20-anthropic-claude-attack-surface-reduction",
+    "date": "2026-10-20",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude로 코드 '공격 표면' 줄이기 연구…25개 프로젝트서 493건 발견",
+    "summary": "앤트로픽 프런티어 레드팀이 Claude로 도달 가능한 코드를 지도화하고 배포에 필요 없는 부분을 제거·제한하는 '공격 표면 축소' 기법을 25개 오픈소스 프로젝트에 적용해 493건의 이슈를 찾았다고 공개했다.",
+    "why": "취약점을 하나씩 찾아 고치는 대신 아직 모르는 취약점까지 닿기 어렵게 만드는 방어 쪽 AI 활용법이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 연구 글 (Hacker News 1면)"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "links": [
+      {
+        "label": "앤트로픽 연구 글",
+        "url": "https://www.anthropic.com/research/attack-surface-reduction",
         "type": "source"
       }
     ]
