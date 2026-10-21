@@ -378,6 +378,47 @@
     ]
   },
   {
+    "id": "2026-10-21-krafton-raon-1-mini-preview",
+    "date": "2026-10-21",
+    "category": "로컬 AI",
+    "title": "크래프톤, 자체 개발 30B-A4B 오픈 웨이트 LLM 'Raon-1 mini' 프리뷰 공개 (Apache 2.0)",
+    "summary": "크래프톤이 설계부터 학습까지 직접 한 MoE 언어모델 Raon-1 mini 프리뷰를 허깅페이스에 Apache 2.0으로 공개했다. 모델 카드 기준 총 28.8B·활성 4.3B 파라미터, 컨텍스트 262,144 토큰이며 Transformers·vLLM·llama.cpp·MLX를 지원하고 단일 GPU용 NVFP4 버전도 함께 나왔다. 저장소는 접근 요청 후 자동 승인 방식이다.",
+    "why": "국내 기업이 처음부터 직접 학습한 한국어 특화 모델을 상업 이용 가능한 라이선스로 풀어, 로컬에서 돌릴 수 있는 한국어 오픈 모델 선택지가 늘었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드·크래프톤 공식 페이지 + 이데일리 보도"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/KRAFTON/Raon-1-mini-preview.png",
+    "specs": {
+      "params": "28.8B (활성 4.3B, MoE)",
+      "license": "Apache 2.0",
+      "context": "262,144 토큰",
+      "modality": "텍스트 (한국어·영어)"
+    },
+    "links": [
+      {
+        "label": "KRAFTON/Raon-1-mini-preview",
+        "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "NVFP4 버전",
+        "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview-nvfp4",
+        "type": "huggingface"
+      },
+      {
+        "label": "크래프톤 Raon 공식 페이지",
+        "url": "https://raon-mini.krafton.ai/ko",
+        "type": "source"
+      },
+      {
+        "label": "이데일리",
+        "url": "https://www.edaily.co.kr/articles/tech/IT/20261021",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-korea-japan-ai-working-level-talks-2",
     "date": "2026-10-21",
     "category": "한국 IT",
