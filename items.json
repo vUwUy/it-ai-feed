@@ -1,5 +1,285 @@
 [
   {
+    "id": "2026-10-22-recursive-flint-40b-a2-5b",
+    "date": "2026-10-22",
+    "category": "로컬 AI",
+    "title": "Recursive, 코딩 에이전트용 MoE 'Flint 40B-A2.5B' Apache 2.0 오픈 웨이트",
+    "summary": "Flint는 총 398억 파라미터 중 토큰당 약 25억 개만 쓰는 MoE 모델로, 자체 평가에서 SWE-bench Verified 74.2%, SWE-bench Pro v2 89.7%, Terminal-Bench 2.1 54.9%를 기록했다. 26만 2,144 토큰 컨텍스트이며, 22.9GB NVFP4 GGUF는 llama.cpp에서 48GB 이상 GPU 메모리를 권장하고 Ollama 라이브러리에도 올라왔다.",
+    "why": "활성 파라미터가 작아 DGX Spark·RTX PRO 6000급 로컬 장비에서 돌릴 수 있는 에이전트 코딩 모델이다. 벤치마크는 회사 자체 수치다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드 + SGLang 공식 문서 + Ollama 라이브러리"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/RecursiveSI/flint.png",
+    "specs": {
+      "params": "39.8B (활성 약 2.5B)",
+      "license": "Apache 2.0",
+      "memory": "NVFP4 GGUF 22.9GB (48GB+ 권장)",
+      "context": "262K",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "RecursiveSI/flint",
+        "url": "https://huggingface.co/RecursiveSI/flint",
+        "type": "huggingface"
+      },
+      {
+        "label": "RecursiveSI/flint-nvfp4-gguf",
+        "url": "https://huggingface.co/RecursiveSI/flint-nvfp4-gguf",
+        "type": "huggingface"
+      },
+      {
+        "label": "SGLang 쿡북",
+        "url": "https://docs.sglang.io/cookbook/autoregressive/Recursive/Flint",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-php-critical-rce-patch-released",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "[업데이트] PHP 치명적 원격 코드 실행 취약점 2건 패치 공개…CISA·ENISA 즉시 업데이트 권고",
+    "summary": "예고됐던 PHP 보안 릴리스가 나왔다. CVE-2026-109618·109619 두 건은 인증 없이 원격 코드 실행이 가능해 CVSS 9.2로 평가됐고, 8.5.12·8.4.27·8.3.36·8.2.35로 올린 뒤 PHP 워커를 재시작해야 하며 8.1 이하는 벤더 백포트나 이전이 필요하다.",
+    "why": "웹 서버 상당수가 PHP를 쓰는 만큼, 미국 CISA와 유럽 ENISA가 공동 성명까지 내며 즉시 패치를 권고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "PHP 재단 공식 블로그 + CISA 경보"
+    },
+    "image": "https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png",
+    "links": [
+      {
+        "label": "PHP 재단",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+        "type": "source"
+      },
+      {
+        "label": "CISA 경보",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+        "type": "source"
+      },
+      {
+        "label": "ENISA 공동 성명",
+        "url": "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-openai-models-google-cloud",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "오픈AI 모델, 구글 클라우드 모델 가든에 들어간다…GPT-6 Astra·6.1 Sol·6 Luna 비공개 프리뷰",
+    "summary": "오픈AI와 구글 클라우드가 제휴해 GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna를 일부 기업 고객 대상 비공개 프리뷰로 모델 가든에 내놓았고, 정식 출시는 수주 안에 예정이다. 구글 Antigravity와 Gemini Agent에도 곧 들어가며, 오픈AI는 마이크로소프트가 여전히 주 클라우드 파트너라고 밝혔다.",
+    "why": "경쟁사 클라우드에 오픈AI 최신 모델과 Codex가 직접 들어가는 첫 사례로, 기업들이 GCP 약정 금액으로 오픈AI 모델을 쓸 수 있게 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 발표 + 구글 클라우드 공식 블로그"
+    },
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Open-ai-google-models-hero.max-2500x2500.png",
+    "links": [
+      {
+        "label": "오픈AI 발표",
+        "url": "https://openai.com/index/openai-models-google-cloud",
+        "type": "source"
+      },
+      {
+        "label": "구글 클라우드 블로그",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-nvidia-nemotron-3-5-retrieval",
+    "date": "2026-10-22",
+    "category": "로컬 AI",
+    "title": "엔비디아 Nemotron 3.5 Embed·Rerank·Parse 공개…상업 이용 가능 검색 모델 5종",
+    "summary": "엔비디아가 Nemotron 3.5 Embed 8B·1B(BF16, NVFP4), Rerank 8B, 6억 3,100만 파라미터 문서 파싱 모델 Parse를 가중치·데이터·학습 레시피와 함께 허깅페이스에 공개했다. Vectorize 평가에서 LoCoMo recall@10 93.8%로 비교한 임베딩 모델 중 1위였다고 밝혔다.",
+    "why": "로컬 RAG·에이전트 메모리에 바로 쓸 수 있는 오픈 임베딩·리랭커 선택지가 늘었고, 1B NVFP4 판은 작은 장비에도 올리기 쉽다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 엔비디아 공식 블로그 + HF 모델 페이지"
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/697fa5ae089a7f9330c5078f/ts2ZQ_szDimxNKk58saCn.png",
+    "specs": {
+      "params": "8B·1B·631M",
+      "modality": "텍스트·이미지(멀티모달 검색)·문서"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+        "type": "source"
+      },
+      {
+        "label": "nvidia/Nemotron-3.5-Embed-8B-BF16",
+        "url": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-8B-BF16",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-nvidia-gtc-berlin-dsx-pod",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "엔비디아 GTC 베를린: 컨테이너형 베라 루빈 AI 팩토리 'DSX POD'·휴머노이드 레퍼런스 'Agile ONE SN'",
+    "summary": "젠슨 황은 베라 루빈이 본격 생산 중이라고 밝히고, 공장에서 조립·검증해 컨테이너로 배송하는 DSX POD를 공개했다. 현장 구축 기간을 6개월에서 14일로 줄인다는 설명이며 2027년 초 공급 예정이고, 2,070 FP4 테라플롭스·128GB 메모리를 갖춘 레퍼런스 휴머노이드는 내년 1분기 나온다.",
+    "why": "전력·전기 기술자 부족이 데이터센터 병목이 된 상황에서 구축 속도 자체를 줄이려는 시도이며, 베라 루빈 양산은 HBM4를 공급하는 삼성전자·SK하이닉스와도 직결된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 블로그 + The Next Platform + 머니투데이"
+    },
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/jhh-keynote-kv-1920x1080-1.jpg",
+    "links": [
+      {
+        "label": "엔비디아 블로그 (키노트)",
+        "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+        "type": "source"
+      },
+      {
+        "label": "The Next Platform",
+        "url": "https://www.nextplatform.com/control/2026/10/21/huang-shrugs-off-protestors-to-kick-off-gtc-berlin-with-dsx-pods-robots/5304447",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이 (HBM4 영향)",
+        "url": "https://www.mt.co.kr/tech/2026/10/21/2026102122345055624",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-meta-q3-2026-results",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "메타 3분기 매출 646억 달러(26%↑)…올해 설비투자 1,350억~1,450억 달러로 좁혀, 무의결권 C주 신설",
+    "summary": "메타의 3분기 매출은 646억 100만 달러로 전년 대비 26% 늘었고, 설비투자는 349억 1천만 달러였다. 4분기 매출 전망은 730억~760억 달러, 2026년 설비투자 전망은 기존 1,300억~1,450억 달러에서 1,350억~1,450억 달러로 좁혔으며, 무의결권 C주 신설(2027년 1월)도 승인했다.",
+    "why": "AI 인프라 투자가 잉여현금흐름을 마이너스(-21억 2천만 달러)로 만든 가운데, 저커버그는 미국·캐나다에서 1천만 명 넘게 Muse 개인 에이전트를 설정했다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 IR 공식 보도자료 + CNBC 보도"
+    },
+    "image": "https://s21.q4cdn.com/399680738/files/design/2022/Meta_Symbol_PositivePrimary_RGB-(2).png",
+    "links": [
+      {
+        "label": "메타 IR 보도자료",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+        "type": "source"
+      },
+      {
+        "label": "CNBC (Muse 1천만 명 발언)",
+        "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-kcsc-ai-chat-review-november",
+    "date": "2026-10-22",
+    "category": "한국 IT",
+    "title": "방미심위, 선정적 AI 채팅 서비스 15곳 조사…11월 본격 심의 착수",
+    "summary": "방송미디어통신심의위원회가 선정적 캐릭터 이미지와 성적 대화·묘사가 나오는 AI 채팅 서비스 15곳을 조사했고 11월 중 본격 심의에 들어간다. 사업자에게 유해정보 탐지·차단, 성인·청소년 콘텐츠 구분, 우회 접속 차단 강화 등을 요청했다.",
+    "why": "국내에서 AI 캐릭터 채팅 서비스를 대상으로 한 첫 본격 내용 심의로, 청소년 보호 조치가 사업자 부담으로 이어질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + ZDNet Korea·뉴시스 (방미심위 발표)"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021166900017",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261021192631",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-flapping-airplanes-1b-series-a",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "설립 1년 AI 연구소 Flapping Airplanes, 기업가치 60억 달러에 10억 달러 시리즈 A",
+    "summary": "데이터·연산을 덜 쓰는 효율적 모델 학습을 연구하는 Flapping Airplanes가 인덱스 벤처스와 럭스 캐피털 주도로 10억 달러를 유치했다. 세쿼이아, GV, 클라이너 퍼킨스, 엔비디아도 참여했다.",
+    "why": "규모 확장 대신 학습 효율을 내세운 연구소에 시리즈 A부터 10억 달러가 몰린 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "리드 투자사 인덱스 벤처스 공식 글 + 테크크런치"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/02/Flapping-Airplanes-founders-photo.jpg?resize=1200,821",
+    "links": [
+      {
+        "label": "테크크런치",
+        "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+        "type": "source"
+      },
+      {
+        "label": "인덱스 벤처스",
+        "url": "https://www.indexventures.com/perspectives/toward-more-efficient-ai-leading-flapping-airplanes-1b-series-a/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-apple-siri-ai-korean",
+    "date": "2026-10-22",
+    "category": "한국 IT",
+    "title": "애플 '시리 AI' 한국어 지원 확정…다음 주 업데이트로 배포, 전용 시리 앱·네이버·카카오 연동 추진",
+    "summary": "애플이 개인 맥락과 화면 정보를 이해해 여러 앱을 넘나드는 시리 AI의 한국어 지원을 다음 주 iOS·iPadOS·macOS 업데이트로 배포한다(동아일보는 26일부터라고 보도). 연합뉴스에 따르면 구글 제미나이 모델이 엔진으로 쓰였고 네이버·카카오도 연동 작업에 참여하고 있는 것으로 알려졌다.",
+    "why": "국내 아이폰 사용자가 처음으로 생성형 시리를 한국어로 쓰게 되며, 국내 서비스 연동 범위가 실사용성을 가를 전망이다. 지원 기기는 아이폰 15 프로 이후, M1 이후 아이패드·맥이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·디지털데일리·동아일보 등 국내 매체 다수 (애플 국내 시연 기반)"
+    },
+    "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/21/AKR20261021080900017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021080900017",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026102115285530781",
+        "type": "source"
+      },
+      {
+        "label": "동아일보 (26일 배포)",
+        "url": "https://www.donga.com/news/Economy/article/all/20261021/134882618/1",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-anthropic-claude-duet-preview",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "앤트로픽, 업무용 개인 에이전트 'Claude Duet' 리서치 프리뷰…대기자 명단 오픈",
+    "summary": "Claude Duet은 연결된 앱을 지켜보며 매일 브리핑을 보내고, 대시보드 작성·회의 일정·재무 예측 같은 작업을 백그라운드로 처리하되 대신 행동하기 전에는 확인을 받는다. 프리뷰 기간 Pro·Max 구독자 대상이며 별도 앱과 웹에서 쓸 수 있다.",
+    "why": "메타 Muse, 오픈AI dots에 이어 앤트로픽도 상시 동작형 개인 에이전트 경쟁에 합류했다. 앤트로픽은 아직 초기라 스레드를 잘못 읽거나 긴급도를 잘못 판단할 수 있다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 소개 글 + CNBC 보도"
+    },
+    "image": "https://claude.com/resources/articles/claude-duet/opengraph-image/og",
+    "links": [
+      {
+        "label": "Claude Duet 소개",
+        "url": "https://claude.com/resources/articles/claude-duet",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-zoom-deepfake-risk-detection",
     "date": "2026-10-21",
     "category": "AI·IT",
