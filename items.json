@@ -1,5 +1,71 @@
 [
   {
+    "id": "2026-10-21-zoom-deepfake-risk-detection",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "줌, 화상회의 '딥페이크 위험 탐지' 공개…12월 제공 예정",
+    "summary": "줌이 줌토피아 2026에서 실시간 영상·음성 신호를 분석해 줌 밖에서 조작됐을 수 있는 미디어를 신뢰도 표시와 함께 알려주는 기능을 발표했다. 12월 제공 예정이며 기업용 AI 활동 가시성·통제 도구도 함께 공개했다.",
+    "why": "화상회의를 노린 딥페이크 사칭 사기가 늘면서 플랫폼 차원의 탐지가 기본 기능이 되어 간다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "줌 공식 뉴스룸 + 더 버지·Reworked 보도"
+    },
+    "links": [
+      {
+        "label": "줌 뉴스룸",
+        "url": "https://news.zoom.com/zoomtopia-2026-security/",
+        "type": "source"
+      },
+      {
+        "label": "더 버지",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1014094/zoom-deepfake-risk-detection",
+        "type": "source"
+      },
+      {
+        "label": "Reworked",
+        "url": "https://www.reworked.co/collaboration-productivity/zoom-wants-to-be-where-ai-learns-what-happened-in-your-meetings/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-tess-4-5-27b",
+    "date": "2026-10-21",
+    "category": "로컬 AI",
+    "title": "Tess-4.5-27B, Qwen3.8-27B 기반 Apache 2.0 코딩·터미널 에이전트 모델…RTX 4090에서 96 tok/s",
+    "summary": "Continuity Research(Migel Tissera)가 공개한 27B 파인튜닝 모델로, BenchLocal에서 기반 모델과 같은 점수(best of three 133/150)를 25% 적은 토큰으로 냈다. 함께 든 MTP 드래프트 헤드로 RTX 4090 코드 생성이 48.9에서 96.1 tok/s, M4 Max는 24.4에서 37.8 tok/s로 올랐다고 한다.",
+    "why": "GPU 한 장이나 노트북에서 돌릴 수 있는 로컬 코딩 에이전트용 모델이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드(1차 출처) + Digest AI 보도. 수치는 개발자 자체 측정"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/migtissera/Tess-4.5-27B.png",
+    "specs": {
+      "params": "27B(dense)",
+      "license": "Apache 2.0",
+      "memory": "Q4_K_M GGUF로 RTX 4090 1장",
+      "context": "262K",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "migtissera/Tess-4.5-27B",
+        "url": "https://huggingface.co/migtissera/Tess-4.5-27B",
+        "type": "huggingface"
+      },
+      {
+        "label": "migtissera/Tess-4.5-27B-GGUF",
+        "url": "https://huggingface.co/migtissera/Tess-4.5-27B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "Digest AI",
+        "url": "https://digestai.news/story/continuity-research-releases-tess-4-5-27b-open-weights-coding-model",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-tesla-spacex-merger-committees",
     "date": "2026-10-21",
     "category": "AI·IT",
@@ -49,6 +115,72 @@
       {
         "label": "로이터(Investing.com)",
         "url": "https://www.investing.com/news/stock-market-news/super-micro-expects-firstquarter-revenue-above-estimates-4961142",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-php-critical-security-release-notice",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "PHP, 치명적 취약점 2건 보안 릴리스 예고…오늘 밤 11시(한국시간) 배포",
+    "summary": "PHP 보안팀이 CVSS v4.0 9.2점짜리 치명적 취약점 2건을 고치는 보안 릴리스를 10월 21일 14:00 UTC(한국시간 23:00)에 내놓는다고 사전 공지했다. 영향 버전과 수정 버전은 릴리스 때 공개하며, 실제 악용 정황이 보이면 앞당길 수 있다고 밝혔다.",
+    "why": "PHP로 돌아가는 서비스가 많아서, 운영 중인 서버가 있으면 바로 업그레이드할 준비를 해두는 게 좋다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "php.net 공식 공지(1차 출처), Hacker News에서도 화제"
+    },
+    "links": [
+      {
+        "label": "php.net 공지",
+        "url": "https://www.php.net/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-ornith-1-5-122b-mit",
+    "date": "2026-10-21",
+    "category": "로컬 AI",
+    "title": "Ornith-1.5-122B, MIT 라이선스 오픈 웨이트 MoE 추론 모델…80GB GPU 1장·GGUF·MLX·Ollama 지원",
+    "summary": "모델 카드 기준 SWE-bench Verified 84.5, SWE-bench Pro 76.9, TerminalBench 2.1 81.2, CyberGym 80.0을 기록했고 컨텍스트는 262,144토큰(YaRN으로 약 1M)이다. FP8·GGUF·MLX 버전이 함께 나왔고 `ollama run ornith-1.5:122b`로 바로 돌릴 수 있다.",
+    "why": "단일 노드에서 돌아가는 120B급 코딩·에이전트 모델 중 벤치마크가 높은 편이고 라이선스가 MIT라 자유롭다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드(1차 출처) + 언슬로스 GGUF 저장소. 벤치마크는 개발사 자체 수치"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ornith-ai/Ornith-1.5-122B.png",
+    "specs": {
+      "params": "122B MoE",
+      "license": "MIT",
+      "memory": "80GB GPU 1장(BF16 기준 단일 GPU 서빙 안내)",
+      "context": "262K(YaRN ~1M)",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "ornith-ai/Ornith-1.5-122B",
+        "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+        "type": "huggingface"
+      },
+      {
+        "label": "ornith-ai/Ornith-1.5-122B-GGUF",
+        "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "unsloth/Ornith-1.5-122B-GGUF",
+        "url": "https://huggingface.co/unsloth/Ornith-1.5-122B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
         "type": "source"
       }
     ]
@@ -121,6 +253,30 @@
     ]
   },
   {
+    "id": "2026-10-21-naver-d2sf-traceweave",
+    "date": "2026-10-21",
+    "category": "한국 IT",
+    "title": "네이버 D2SF, 스마트폰 CPU로 AI 에이전트 돌리는 온디바이스 스타트업 트레이스위브 투자",
+    "summary": "트레이스위브는 맥락이 길어져도 메모리 사용량이 일정한 자체 아키텍처 '페이즈-타이탄'으로 스마트폰 CPU만으로 멀티스텝 에이전트를 구동하는 데모를 마쳤다. 글로벌 완성차 그룹 자율주행 계열사와 유료 PoC를 끝냈고 로봇·드론·스마트글래스로 넓힐 계획이다.",
+    "why": "KV 캐시가 커지는 트랜스포머의 한계를 겨냥한 국내 온디바이스 AI 시도다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 D2SF 보도자료(PR Newswire) + 연합뉴스·조선비즈 보도. 투자 금액은 비공개"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021050500017",
+        "type": "source"
+      },
+      {
+        "label": "PR Newswire(네이버 D2SF)",
+        "url": "https://www.prnewswire.com/news-releases/naver-d2sf-invests-in-on-device-ai-startup-traceweave-302913752.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-21-mistral-voxtral-3",
     "date": "2026-10-21",
     "category": "AI·IT",
@@ -144,6 +300,100 @@
       {
         "label": "The Decoder",
         "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-kakao-kanana-2-vision-encoder",
+    "date": "2026-10-21",
+    "category": "한국 IT",
+    "title": "카카오, 비전 인코더 'Kanana-2-vision-encoder' 2종 허깅페이스 오픈소스 공개",
+    "summary": "4억2,600만 파라미터 medium과 9,800만 파라미터 tiny 두 가지로, 카카오는 9개 영역 42개 벤치마크에서 SigLIP 2·Perception Encoder·AIMv2·Qwen3.5-ViT를 웃돌았고 처리 지연은 60% 이상 줄였다고 밝혔다. 상업적 활용이 가능한 카나나 오픈 라이선스로 공개했다.",
+    "why": "한국어 OCR·문서 이해에 강한 국산 비전 인코더를 누구나 가져다 쓸 수 있게 됐고, tiny는 온디바이스용으로도 쓸 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 보도자료 + 허깅페이스 모델 페이지 + 연합뉴스·전자신문 보도. 성능 비교는 카카오 자체 평가"
+    },
+    "image": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/news/5bbd9a3301a100001.jpg?type=thumb&opt=C800x400",
+    "specs": {
+      "params": "426M(medium)·98.7M(tiny)",
+      "license": "카나나 오픈 라이선스(상업 이용 가능)",
+      "modality": "이미지 특징 추출"
+    },
+    "links": [
+      {
+        "label": "카카오 보도자료",
+        "url": "https://www.kakaocorp.com/page/detail/12173",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261021042800017",
+        "type": "source"
+      },
+      {
+        "label": "kakaocorp/kanana-2-vision-encoder-medium",
+        "url": "https://huggingface.co/kakaocorp/kanana-2-vision-encoder-medium",
+        "type": "huggingface"
+      },
+      {
+        "label": "kakaocorp/kanana-2-vision-encoder-tiny",
+        "url": "https://huggingface.co/kakaocorp/kanana-2-vision-encoder-tiny",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-gemini-personal-intelligence-android-auto",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "구글, 안드로이드 오토에 제미나이 '퍼스널 인텔리전스' 배포…Gmail·캘린더·지도 정보로 맞춤 답변",
+    "summary": "제미나이가 운전 중에도 Gmail·캘린더·지도·포토·유튜브·검색 정보를 참고해 항공편 상태 확인이나 예약 장소 길안내 같은 맞춤 답변을 준다. 안드로이드 오토에는 오늘부터, 구글 빌트인 차량에는 몇 달 안에 들어가며 사용자가 직접 켜야 하고 EEA·스위스·영국 등에서는 제공되지 않는다.",
+    "why": "개인 데이터와 연결된 AI 비서가 자동차라는 새 화면으로 넓어진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + 더 버지·9to5Google 보도"
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&strip=all&crop=1.0809792843691%2C0%2C97.838041431262%2C100&w=1200",
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+        "type": "source"
+      },
+      {
+        "label": "더 버지",
+        "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+        "type": "source"
+      },
+      {
+        "label": "9to5Google",
+        "url": "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21-china-bigtech-nvidia-rtx-pro-5500-35b",
+    "date": "2026-10-21",
+    "category": "AI·IT",
+    "title": "바이트댄스·알리바바·텐센트, 엔비디아 RTX Pro 5500 350억 달러어치 주문…공급은 5~10%뿐일 수도 (로이터 단독)",
+    "summary": "로이터에 따르면 세 회사가 미국 수출 규제를 충족하는 엔비디아 RTX Pro 5500 GPU를 합쳐 300만 장 넘게, 350억 달러 이상 주문했다. 주문량이 계획 생산량을 크게 넘어 엔비디아가 요청량의 5~10%만 받을 수 있다고 고객사에 알렸다고 한다.",
+    "why": "수출 규제 아래에서도 중국 빅테크의 추론용 GPU 수요가 얼마나 큰지, 그리고 엔비디아 공급이 병목이라는 점을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독 보도를 이코노믹타임스·US뉴스가 전재하고 더 버지가 인용 보도"
+    },
+    "links": [
+      {
+        "label": "이코노믹타임스(로이터)",
+        "url": "https://economictimes.indiatimes.com/tech/technology/bytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders/articleshow/135066129.cms",
+        "type": "source"
+      },
+      {
+        "label": "더 버지",
+        "url": "https://www.theverge.com/tech/1014223/nvidia-cant-fulfill-chinas-35-billion-chip-demands",
         "type": "source"
       }
     ]
