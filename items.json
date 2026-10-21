@@ -128,17 +128,12 @@
     "why": "PHP로 돌아가는 서비스가 많아서, 운영 중인 서버가 있으면 바로 업그레이드할 준비를 해두는 게 좋다.",
     "verification": {
       "status": "확인됨",
-      "note": "php.net 공식 공지(1차 출처), Hacker News에서도 화제"
+      "note": "php.net 공식 공지(1차 출처)"
     },
     "links": [
       {
         "label": "php.net 공지",
         "url": "https://www.php.net/",
-        "type": "source"
-      },
-      {
-        "label": "Hacker News 토론",
-        "url": "https://news.ycombinator.com/",
         "type": "source"
       }
     ]
@@ -158,7 +153,7 @@
     "specs": {
       "params": "122B MoE",
       "license": "MIT",
-      "memory": "80GB GPU 1장(BF16 기준 단일 GPU 서빙 안내)",
+      "memory": "80GB GPU 1장(모델 카드 안내)",
       "context": "262K(YaRN ~1M)",
       "modality": "텍스트"
     },
