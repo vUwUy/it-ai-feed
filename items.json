@@ -180,6 +180,41 @@
     ]
   },
   {
+    "id": "2026-10-22-php2shell-korea-cyber-alert-caution",
+    "date": "2026-10-22",
+    "category": "한국 IT",
+    "title": "[업데이트] PHP2Shell에 정부 사이버위기 경보 '주의' 상향…국내 취약 추정 11만건, 공개 전부터 악용 시도",
+    "summary": "과기정통부와 KISA가 22일 정오부터 민간 분야 사이버위기 경보를 '관심'에서 '주의'로 올리고 CISO 신고 기업 약 2만8천 곳 등에 긴급 조치를 안내했다. 안랩은 취약 버전 PHP가 설치된 것으로 추정되는 국내 호스트를 약 11만건(세계 6번째, 패치 배포 전 기준 추정치)으로 집계했고, AWS는 공개 4일 전인 10월 17일 허니팟에서 첫 악용 시도를 관측했으며 지금은 광범위하게 실제 악용되고 있다고 밝혔다.",
+    "why": "그누보드·라이믹스·워드프레스로 만든 국내 홈페이지와 중소 쇼핑몰이 많이 영향받을 수 있다. 8.5.12·8.4.27·8.3.36·8.2.35 이상으로 올린 뒤 재시작하고, 10월 17일 이후 접속 로그와 웹셸 설치 여부까지 점검해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AWS 보안 블로그(1차) + 머니투데이·서울경제·디지털투데이·연합뉴스 보도. 국내 침해 사례는 아직 확인되지 않음"
+    },
+    "image": "https://img1.yna.co.kr/photo/etc/epa/2026/10/22/PEP20261022045401009_P4.jpg",
+    "links": [
+      {
+        "label": "머니투데이 (경보 상향)",
+        "url": "https://www.mt.co.kr/tech/2026/10/22/2026102213080746780",
+        "type": "source"
+      },
+      {
+        "label": "서울경제",
+        "url": "https://www.sedaily.com/article/20104797",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스 (국내 11만건)",
+        "url": "https://www.yna.co.kr/view/AKR20261022104100017",
+        "type": "source"
+      },
+      {
+        "label": "AWS 보안 블로그",
+        "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-22-php-critical-rce-patch-released",
     "date": "2026-10-22",
     "category": "AI·IT",
