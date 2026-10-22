@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-10-22-walmart-agent-profiles-gateway",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "월마트, AI 에이전트 쇼핑 허용…'에이전트 프로필'·MCP 기반 'Agent Gateway' 도입",
+    "summary": "월마트는 다음 달부터 고객이 AI 에이전트마다 별도 프로필을 만들어 구매 내역을 따로 보고, 건별 승인이나 50·100·200달러 같은 지출 한도를 정할 수 있게 한다. 에이전트가 MCP로 쇼핑하는 Walmart Agent Gateway는 기업·개발자 대상 베타로 시작하며, 에이전트는 결제 카드 정보를 받지 못하고 규칙을 어기면 차단된다.",
+    "why": "아마존이 메타 Muse 등 외부 에이전트를 막는 것과 정반대 행보로, 에이전트 커머스의 권한·통제 표준을 대형 유통사가 직접 제시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "월마트 공식 발표 + The Verge + TechCrunch"
+    },
+    "image": "https://corporate.walmart.com/content/dam/corporate/images/newsroom/2026/10/making-it-possible-for-agents-to-shop-on-behalf-of-customers/Lead-two-phones.webp",
+    "links": [
+      {
+        "label": "월마트 공식 발표",
+        "url": "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-tesla-q3-optimus-production",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "테슬라 3분기 순이익 43% 감소…프리몬트에서 옵티머스 로봇 생산 시작",
+    "summary": "테슬라의 3분기 매출은 280억 4,600만 달러로 제자리였고 GAAP 순이익은 7억 8,700만 달러로 전년보다 43% 줄었다. 프리몬트 공장에서 옵티머스 휴머노이드의 첫 양산 품질 로봇이 나오기 시작했고, 머스크는 2027년 말 주 2만 대 생산을 주장했으며, 고객 차량의 무감독 FSD는 내년 2분기쯤으로 다시 미뤄졌다.",
+    "why": "AI·로봇·자율주행 투자 비용이 이익을 크게 깎는 가운데, 휴머노이드 양산이 실제로 시작됐다는 점이 핵심이다. 생산 목표는 머스크의 주장이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "테슬라 3분기 주주서한(SEC 공시) + TechCrunch + AP"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/tesla-opitmus-Getty.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "테슬라 3분기 주주서한 (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/tesla-quarterly-earning-musk-spacex-merger-cfe0453f6bf0d08d22150022128492fa",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-skt-ax-k2-math-research",
+    "date": "2026-10-22",
+    "category": "한국 IT",
+    "title": "SKT, 서울대·KAIST·고등과학원과 'A.X K2' 수학 추론 강화…수학 난제 도전",
+    "summary": "SK텔레콤은 22일 을지로 본사에서 서울대·KAIST 연구진과 기술 교류회를 열고, 독자 AI 파운데이션 모델 A.X K2가 수학 세부 분야를 깊이 학습하도록 함께 고도화해 각 분야 난제 해결에 도전한다고 밝혔다. 강화한 수학 추론 능력은 에이전트가 작업 계획과 결과의 타당성을 점검하는 데 쓸 계획이다.",
+    "why": "독자 AI 파운데이션 모델 사업 참여 기업들이 벤치마크를 넘어 실제 문제 해결 능력으로 경쟁하기 시작했다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SKT 뉴스룸 + 연합뉴스·아시아경제"
+    },
+    "links": [
+      {
+        "label": "SKT 뉴스룸",
+        "url": "https://news.sktelecom.com/232303",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261022036800017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-samsung-em-nvidia-substrate-partnership",
+    "date": "2026-10-22",
+    "category": "한국 IT",
+    "title": "삼성전기, 엔비디아와 AI 반도체 패키지기판 전략 파트너십…세종·부산에 전용 라인 공동 투자",
+    "summary": "삼성전기와 엔비디아는 공동 투자로 세종·부산 사업장에 전용 생산 라인을 증설하고, 올해부터 다년간 엔비디아 연산 칩셋용과 네트워크 스위치용 패키지기판을 공급하기로 했다. 엔비디아향 물량은 연평균 두 자릿수 이상 늘어 2028년에는 삼성전기 전체 패키지기판 생산능력의 상당 부분을 차지할 전망이다.",
+    "why": "삼성전기가 엔비디아 기판 공급망에 공식 합류했다. 엔비디아는 이비덴·유니마이크론 등과의 계약으로 3년간 기판 생산능력을 2.5배로 늘린다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성전기 보도자료 + PR Newswire + 연합뉴스·한국경제"
+    },
+    "image": "https://mmx.prnewswire.com/media/MS2017869/20261021041418EDT_image_1.jpg?id=OA3031791&p=facebook",
+    "links": [
+      {
+        "label": "삼성전기 보도자료",
+        "url": "https://www.samsungsem.com/kr/newsroom/news/view.do?id=10613",
+        "type": "source"
+      },
+      {
+        "label": "PR Newswire (영문)",
+        "url": "https://www.prnewswire.com/news-releases/samsung-electro-mechanics-and-nvidia-announce-strategic-partnership-to-supply-abf-substrates-302915381.html",
+        "type": "source"
+      },
+      {
+        "label": "한국경제 (생산능력 2.5배)",
+        "url": "https://www.hankyung.com/article/202610227953i",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-22-recursive-flint-40b-a2-5b",
     "date": "2026-10-22",
     "category": "로컬 AI",
@@ -96,6 +210,36 @@
     ]
   },
   {
+    "id": "2026-10-22-openai-patch-the-planet-php",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "[업데이트] PHP 치명적 취약점, 오픈AI 'Patch the Planet'이 대응 조율…방어자 지원 10억 달러",
+    "summary": "오픈AI는 지난 두 달간 PHP 취약점 대응 연합을 이끌었고, 보안업체 Calif가 GPT-5.6 Sol로 결함 하나를 찾았으며 Wiz도 두 건을 독립적으로 발견했다고 밝혔다. 오픈AI는 PHP 버전 점검용 Codex 스킬을 공개하고, 보안 인력이 부족한 필수 서비스 방어 조직에 Daybreak 사용료 10억 달러를 지원하겠다고 했다.",
+    "why": "AI가 인터넷 규모 취약점을 먼저 찾아낸 첫 대형 사례로, 오픈AI는 비슷한 발견이 앞으로 급증할 것이라며 5단계 공동 대응 프레임워크를 제안했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 발표 + PHP 재단 블로그(기존 항목)"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/xq2rRszwLvIAxOynZi2qa/b1cf094a0d095f67821bf4b8cfaba0b9/coordinated-disclosure-of-critical-vulnerabilities-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "오픈AI 발표",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "type": "source"
+      },
+      {
+        "label": "PHP 재단",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50181175",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-22-openai-models-google-cloud",
     "date": "2026-10-22",
     "category": "AI·IT",
@@ -116,6 +260,31 @@
       {
         "label": "구글 클라우드 블로그",
         "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-openai-distributed-biological-reasoning",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "오픈AI, GPT-Rosalind 에이전트 수천 개로 생쥐 뇌세포 CRISPR 데이터 32분 만에 분석",
+    "summary": "오픈AI·PerturbAI·스크립스 연구소는 GPT-Rosalind 에이전트 수천 개를 병렬로 돌려 수백만 개 생쥐 뇌세포의 CRISPR 아틀라스를 32분 만에 분석했고, DCTN1 교란과 콜레스테롤 합성의 연관성, 소뇌에서 Tsc1·Tsc2의 차이 같은 단서를 찾았다. 가장 큰 작업량에서 분산 에이전트는 700개 넘는 문헌을 인용(단일 에이전트 11개)했고, 블라인드 평가에서 전문가들은 75%의 경우 분산 에이전트 보고서를 선호했다.",
+    "why": "사람이 몇 달~1년 걸릴 분석을 에이전트 병렬화로 압축한 사례로, 결과물인 '추론 아틀라스'가 공개돼 연구자들이 바로 검증해볼 수 있다. 발견은 가설 단계다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 블로그(1차 출처)"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "오픈AI 블로그",
+        "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50180752",
         "type": "source"
       }
     ]
@@ -234,6 +403,40 @@
     ]
   },
   {
+    "id": "2026-10-22-llama-cpp-flint-support-b11803",
+    "date": "2026-10-22",
+    "category": "로컬 AI",
+    "title": "[업데이트] llama.cpp, Recursive Flint 정식 지원 (b11803)…INT4 GGUF 26GB도 공개",
+    "summary": "llama.cpp b11803에 Flint(FlintForCausalLM) 지원이 병합돼 HF→GGUF 변환과 추론을 정식으로 쓸 수 있게 됐고, NVFP4 외에 INT4(Q4_1) GGUF 약 26GB가 함께 올라왔다. PR 작성자는 CPU·CUDA·Metal 테스트를 통과했지만 자동 스케일링 때문에 10~30% 느려지는 문제는 후속 PR에서 고친다고 밝혔다.",
+    "why": "어제 나온 Flint를 Ollama(현재 macOS만 지원) 외의 환경에서도 바로 돌릴 수 있게 됐다. 같은 시기 SenseNova U1 텍스트·이미지 이해 지원(b11801)도 들어갔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "llama.cpp GitHub 릴리스·PR #30928 + HF 저장소"
+    },
+    "specs": {
+      "params": "39.8B (활성 약 2.5B)",
+      "license": "Apache 2.0",
+      "memory": "INT4 Q4_1 GGUF 약 26GB"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b11803",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11803",
+        "type": "github"
+      },
+      {
+        "label": "llama.cpp PR #30928",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30928",
+        "type": "source"
+      },
+      {
+        "label": "RecursiveSI/flint-int4-gguf",
+        "url": "https://huggingface.co/RecursiveSI/flint-int4-gguf",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-10-22-litellm-1-107-0-pypi-compromise",
     "date": "2026-10-22",
     "category": "로컬 AI",
@@ -292,6 +495,71 @@
     ]
   },
   {
+    "id": "2026-10-22-kcc-ai-risk-reports-low-response",
+    "date": "2026-10-22",
+    "category": "한국 IT",
+    "title": "방미통위 AI 위험 제보 231건 사업자 전달…답변은 68건(29.4%)",
+    "summary": "국회 과방위 이주희 의원이 받은 자료에 따르면 '생성형 AI 이용자 참여플랫폼'에 올해 9월까지 제보 401건이 들어왔고, 사업자에게 전달된 231건 중 답변은 68건(29.4%)에 그쳤다. 방미통위는 법적 구속력이 없어 개선을 강제하지 못한다고 밝혔고, 온라인피해365센터 AI 피해신고 98건 중 메타 인스타그램·페이스북 관련이 59건으로 가장 많았다.",
+    "why": "AI 챗봇 청소년 보호 조치를 사업자 자율에만 맡기는 현행 체계의 한계가 국감에서 드러났다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 하이테크정보 (국회 제출 자료)"
+    },
+    "image": "https://img8.yna.co.kr/etc/inner/KR/2026/10/22/AKR20261022063300017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261022063300017",
+        "type": "source"
+      },
+      {
+        "label": "하이테크정보",
+        "url": "http://www.hitech.co.kr/news/articleView.html?idxno=62197",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-ibm-granite-speech-5-0",
+    "date": "2026-10-22",
+    "category": "로컬 AI",
+    "title": "IBM 'Granite Speech 5.0' 공개…2B 다국어 음성인식·번역, Apache 2.0·llama.cpp 지원",
+    "summary": "새 granite-speech-5.0-2b는 영어·프랑스어·독일어·스페인어·포르투갈어·일본어를 받아쓰고 번역하며, 최대 2,000개 키워드 바이어싱을 지원하고 Open ASR 리더보드 영어 평균 WER 5.06%로 오픈 웨이트 2위라고 IBM은 밝혔다. 470M Turbo CTC는 7개 언어 다국어·구두점을 갖추고 RTFx 19,870으로 약 1.6배 빨라졌으며, 회의용 4.1-2b-plus도 화자 구분이 개선됐다.",
+    "why": "Transformers·vLLM·llama.cpp·mlx-audio에서 바로 쓸 수 있는 상업 이용 가능한 소형 음성 모델이다. 한국어는 지원 언어에 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IBM 공식 HF 블로그 + HF 모델 카드"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ibm-granite/granite-speech-5.0-2b.png",
+    "specs": {
+      "params": "2B / 470M",
+      "license": "Apache 2.0",
+      "modality": "음성→텍스트·번역"
+    },
+    "links": [
+      {
+        "label": "IBM HF 블로그",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+        "type": "source"
+      },
+      {
+        "label": "ibm-granite/granite-speech-5.0-2b",
+        "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
+        "type": "huggingface"
+      },
+      {
+        "label": "ibm-granite/granite-speech-5.0-2b-GGUF",
+        "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "ibm-granite/granite-speech-5.0-470m-turboctc",
+        "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-10-22-flapping-airplanes-1b-series-a",
     "date": "2026-10-22",
     "category": "AI·IT",
@@ -342,6 +610,40 @@
       {
         "label": "동아일보 (26일 배포)",
         "url": "https://www.donga.com/news/Economy/article/all/20261021/134882618/1",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-22-apple-australia-epic-ios-opening",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "호주 법원, 애플에 iOS 대체 앱스토어·외부 결제 허용 명령…포트나이트 호주 복귀",
+    "summary": "호주 연방법원 조너선 비치 판사는 에픽게임즈 반독점 소송에서 호주 애플 계정 사용자를 대상으로 경쟁 앱스토어와 대체 인앱 결제를 허용하라고 명령했으며, 기한은 따로 정하지 않았다. 대부분의 변경은 2027년 3월 1일까지 적용해야 하고, 애플은 포트나이트 등 에픽 앱을 호주 앱스토어에 다시 들여야 한다.",
+    "why": "호주에서도 법원 명령으로 iOS 개방이 강제됐다. 다만 에픽이 요구한 전 세계 적용은 받아들여지지 않았고, 애플·구글 집단소송의 배상 문제는 미결로 남았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 + MLex + Lawyerly (판결문 공개)"
+    },
+    "links": [
+      {
+        "label": "로이터 (StreetInsider)",
+        "url": "https://www.streetinsider.com/Reuters/Epic+Games+Fortnite+returns+to+Apple+App+Store+in+Australia/27217580.html",
+        "type": "source"
+      },
+      {
+        "label": "MLex",
+        "url": "https://www.mlex.com/mlex/antitrust/articles/2541037/apple-must-open-ios-to-rival-app-stores-payments-in-australia-judge-rules",
+        "type": "source"
+      },
+      {
+        "label": "Lawyerly",
+        "url": "https://www.lawyerly.com.au/epic-games-wins-bid-to-reinstate-fortnite-to-apple-store/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50190168",
         "type": "source"
       }
     ]
