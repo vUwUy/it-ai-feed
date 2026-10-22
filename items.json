@@ -30,6 +30,30 @@
     ]
   },
   {
+    "id": "2026-10-22-update-storm-0940-artex-connectwise",
+    "date": "2026-10-22",
+    "category": "AI·IT",
+    "title": "[업데이트] MS, ConnectWise 공급망 공격 배후로 중국 연계 Storm-0940 지목…AI 침투 도구 ARTEX로 2,250개+ 테넌트 노려",
+    "summary": "마이크로소프트 위협 인텔리전스는 ConnectWise Cloud Backup(옛 SkyKick) 공급망 침해의 배후를 중국 국가 연계 공격자 Storm-0940으로 평가했다. 이 그룹은 2026년 9월부터 에이전트형 AI 침투테스트 프레임워크 ARTEX로 공격을 자동화했고, 탈취한 앱 자격증명으로 2,250개 넘는 테넌트에 분당 최대 2,900회 로그인을 시도했으며, 일부는 표적 선정부터 특권 접근까지 3시간이 채 안 걸렸다.",
+    "why": "국내 은행 연쇄 해킹에 쓰인 정황이 나왔던 같은 AI 도구 ARTEX가 국가 연계 그룹의 대규모 클라우드 공급망 공격에 쓰였다는 공식 평가다. MS는 자사 시스템 취약점은 아니며 인증 성공이 곧 데이터 유출을 뜻하진 않는다고 했고, 서비스 주체 로그인과 예상치 못한 앱 자격증명·권한 변경을 점검하라고 권고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "마이크로소프트 보안 블로그(1차 출처) + CyberScoop 보도 교차 확인"
+    },
+    "links": [
+      {
+        "label": "마이크로소프트 보안 블로그",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+        "type": "source"
+      },
+      {
+        "label": "CyberScoop",
+        "url": "https://cyberscoop.com/microsoft-attributes-connectwise-supply-chain-attack-china-storm-0940/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-22-tesla-q3-optimus-production",
     "date": "2026-10-22",
     "category": "AI·IT",
