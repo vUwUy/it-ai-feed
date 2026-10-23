@@ -19,6 +19,26 @@
     "date": "2026-10-23"
   },
   {
+    "id": "2026-10-23-sk-hyper-funding",
+    "date": "2026-10-23",
+    "category": "한국 IT",
+    "title": "SK하이퍼, 2035년 15GW AI 데이터센터 목표로 외부 자금 유치 추진",
+    "summary": "블룸버그를 인용한 연합뉴스 보도에 따르면 SK그룹 AI 데이터센터 법인 SK하이퍼가 2035년 15GW를 목표로, 첫 5GW에 3,500억 달러(약 463조원)가 들 것으로 보고 연말~내년 초 첫 외부 자금 유치에 나서요. SKT는 2030년까지 최대 7,500억원을 출자해요.",
+    "why": "국내 최대 규모 AI 데이터센터 사업의 자금 계획이 처음 구체적으로 나온 거예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 보도를 인용한 연합뉴스 기사로 확인 (회사 공식 발표 아님)"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261023073600017",
+        "type": "source"
+      }
+    ],
+    "image": "https://img0.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023073600017_01_i_P4.jpg"
+  },
+  {
     "id": "2026-10-23-quad9-leaves-france",
     "category": "AI·IT",
     "title": "공개 DNS Quad9, 프랑스 법원 판결 여파로 11월 24일 프랑스서 철수",
@@ -72,6 +92,36 @@
     "date": "2026-10-23"
   },
   {
+    "id": "2026-10-23-olmoearth-v1-3",
+    "date": "2026-10-23",
+    "category": "AI·IT",
+    "title": "Ai2 OlmoEarth v1.3, 전 지구 10m 해상도 임베딩과 브라우저 탐색기 공개",
+    "summary": "Ai2가 OlmoEarth v1.3을 내놓으며 전 지구를 10m 해상도로 미리 계산한 연간 임베딩(128차원)과 계정 없이 쓰는 브라우저 Embeddings Explorer를 공개했어요. 연도 비교, 유사 지역 검색, 라벨 기반 분류, GeoTIFF 내보내기를 지원해요.",
+    "why": "위성 데이터 분석을 모델 학습 없이 바로 해볼 수 있게 한 오픈 지구관측 도구예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 블로그와 Ai2 블로그로 확인"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 블로그",
+        "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+        "type": "source"
+      },
+      {
+        "label": "Ai2 블로그",
+        "url": "https://allenai.org/blog/olmoearth-v1-3",
+        "type": "source"
+      },
+      {
+        "label": "Embeddings Explorer",
+        "url": "https://olmoearth.allenai.org/embeddings",
+        "type": "source"
+      }
+    ],
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/VEmSzlLjei8J3cUVNe7G6.png"
+  },
+  {
     "id": "2026-10-23-ollama-0408-flint",
     "category": "로컬 AI",
     "title": "[업데이트] Ollama v0.40.8, Recursive Flint 지원…`ollama run flint`",
@@ -99,6 +149,25 @@
       }
     ],
     "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-ms-kls-conjecture",
+    "date": "2026-10-23",
+    "category": "AI·IT",
+    "title": "마이크로소프트 연구진, AI 에이전트 활용해 31년 된 KLS 추측 증명",
+    "summary": "마이크로소프트 리서치가 1995년 제기된 고차원 기하학 난제 KLS 추측을 AI 에이전트로 100개 이상의 접근법을 탐색하며 증명했고, Lean 4 형식 검증까지 마쳤다고 밝혔어요. 같은 날 다른 연구진의 독립 증명도 나왔고, 사람 지도 없이 AI만으로 한 시도는 실패했다고 해요.",
+    "why": "AI가 수학자의 탐색 도구로 실제 난제 해결에 기여한 사례이면서, 무감독 AI의 한계도 함께 보여줘요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Microsoft Research 공식 블로그(10월 21일)로 확인"
+    },
+    "links": [
+      {
+        "label": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-10-23-minimax-m31-flash-weights",
@@ -268,6 +337,103 @@
     "date": "2026-10-23"
   },
   {
+    "id": "2026-10-23-iflytek-spark-x2-6-4b",
+    "date": "2026-10-23",
+    "category": "로컬 AI",
+    "title": "아이플라이텍 Spark-X2.6-4B, 온디바이스용 4B 모델 Apache 2.0 공개",
+    "summary": "아이플라이텍이 Spark-X2.5-4B와 같은 구조에 후학습만 개선한 Spark-X2.6-4B를 Apache 2.0으로 공개했어요. 사고 강도를 none/low/high로 조절할 수 있고, SWE Verified 62.8(이전 41.6), BFCL-V4 71.8을 기록했다고 밝혔으며 Ollama로도 받을 수 있어요.",
+    "why": "노트북·폰에서 돌릴 만한 4B급에서 코딩·에이전트 성능을 크게 끌어올린 모델이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드와 공식 개발자 글로 확인 (벤치마크는 자체 측정)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+        "type": "huggingface"
+      },
+      {
+        "label": "공식 소개 글",
+        "url": "https://dev.to/sparkllm/spark-x26-4b-stronger-on-device-agents-coding-and-controllable-thinking-2fh",
+        "type": "source"
+      },
+      {
+        "label": "Ollama",
+        "url": "https://ollama.com/SparkLLM/Spark-X2.6-4B",
+        "type": "source"
+      }
+    ],
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/XHToken/Spark-X2.6-4B.png",
+    "specs": {
+      "params": "4B",
+      "license": "Apache 2.0",
+      "context": "최대 1,048,576 토큰 설정 예시"
+    }
+  },
+  {
+    "id": "2026-10-23-hf-carbon-x",
+    "date": "2026-10-23",
+    "category": "로컬 AI",
+    "title": "Hugging Face, DNA와 영어를 함께 다루는 14.8B 오픈 모델 Carbon-X 공개",
+    "summary": "Hugging Face가 Qwen3-14B 기반으로 DNA·생물학 텍스트 302B 토큰을 추가 학습한 14.8B 모델 Carbon-X를 Apache 2.0으로 공개했어요. DNA 벤치마크 5종 평균 66.7%로 GPT-6.1 Sol(67.5%)에 근접하고, bf16으로 80GB GPU 1장에 들어가며 GGUF도 제공돼요.",
+    "why": "민감한 유전체 데이터를 자체 장비에서 분석할 수 있는 오픈 모델이에요. 단, 임상 검증은 안 됐어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드와 The Next Web 보도로 확인"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF",
+        "url": "https://huggingface.co/HuggingFaceBio/Carbon-X-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/hugging-face-carbon-x-dna-ai-model",
+        "type": "source"
+      }
+    ],
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/HuggingFaceBio/Carbon-X.png",
+    "specs": {
+      "params": "14.8B",
+      "license": "Apache 2.0",
+      "memory": "bf16 기준 80GB GPU 1장",
+      "context": "40,960 토큰",
+      "modality": "DNA + 텍스트"
+    }
+  },
+  {
+    "id": "2026-10-23-google-agent-compute-engine",
+    "date": "2026-10-23",
+    "category": "AI·IT",
+    "title": "구글, AI 에이전트 전용 실행 인프라 'Agent Compute Engine' 공개",
+    "summary": "구글 클라우드가 에이전트마다 하드웨어 수준으로 격리된 microVM을 띄우는 Agent Compute Engine을 공개했어요. Titanium IPU 기반이고 이미 Gemini 구동에 쓰이고 있으며, 수개월 내 프리뷰로 제공할 예정이에요.",
+    "why": "에이전트가 코드를 실행·도구를 호출할 때의 격리·보안을 클라우드 인프라 차원에서 풀겠다는 움직임이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 클라우드 공식 블로그와 The Decoder 보도로 확인 (프리뷰 구체 일정은 미정)"
+    },
+    "links": [
+      {
+        "label": "Google Cloud 블로그",
+        "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+        "type": "source"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+        "type": "source"
+      }
+    ],
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/ACE_hero.max-2600x2600.png"
+  },
+  {
     "id": "2026-10-23-emudhra-exit-ssl-tls",
     "category": "AI·IT",
     "title": "[업데이트] 키 유출 eMudhra, 글로벌 SSL/TLS 인증서 사업 철수",
@@ -290,6 +456,36 @@
       }
     ],
     "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-dgx-spark-64gb-on-sale",
+    "date": "2026-10-23",
+    "category": "로컬 AI",
+    "title": "NVIDIA DGX Spark 64GB, 오늘부터 4,999달러에 판매",
+    "summary": "NVIDIA DGX Spark 64GB 구성이 10월 23일부터 에이서·에이수스·델·기가바이트·HP·MSI를 통해 4,999달러부터 판매돼요. 128GB 모델과 같은 GB10 칩·DGX OS를 쓰고 최대 100B 모델을 돌리며, 2대를 ConnectX-7로 묶으면 128GB·최대 200B 모델까지 지원해요.",
+    "why": "로컬 AI 전용 데스크톱의 진입 가격이 낮아졌어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA 공식 블로그와 StorageReview 보도로 확인"
+    },
+    "links": [
+      {
+        "label": "NVIDIA 블로그",
+        "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "type": "source"
+      },
+      {
+        "label": "StorageReview",
+        "url": "https://www.storagereview.com/news/nvidia-dgx-spark-64gb-october-23-4999-two-units-cluster-to-128gb",
+        "type": "source"
+      }
+    ],
+    "image": "https://www.storagereview.com/wp-content/uploads/2026/10/Storagereview-NVIDIA-DGX-Spark-2-Node-Cluster-Front-Angle-2.jpg",
+    "specs": {
+      "memory": "64GB 통합 메모리",
+      "price": "4,999달러부터",
+      "compute": "GB10 Grace Blackwell"
+    }
   },
   {
     "id": "2026-10-23-deepseek-round-closing",
@@ -338,6 +534,31 @@
       }
     ],
     "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-claude-google-cloud-anthropic-managed",
+    "date": "2026-10-23",
+    "category": "AI·IT",
+    "title": "Claude Platform, 구글 클라우드에서 'Anthropic 관리형' 정식 출시",
+    "summary": "Anthropic이 구글 클라우드 IAM·청구·약정 차감을 그대로 쓰면서 Claude Platform 전체 기능(Managed Agents 베타, 코드 실행, 컴퓨터 사용, MCP 커넥터 등)을 쓰는 'Claude Models on Google Cloud (Anthropic managed)'를 정식 출시했어요. 현재 US·Global 엔드포인트로 제공되고, Opus 5.5 Fast Mode(최대 2.5배 빠른 출력, 입력·출력 100만 토큰당 8달러·40달러)도 함께 GA예요.",
+    "why": "구글 클라우드 고객도 새 Claude 기능을 출시 당일 받을 수 있게 됐고, 데이터 처리자·리전 요건에 따라 기존 Google 관리형과 골라 쓸 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 발표와 구글 클라우드 블로그로 확인"
+    },
+    "links": [
+      {
+        "label": "Claude 공식 발표",
+        "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
+        "type": "source"
+      },
+      {
+        "label": "Google Cloud 블로그",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+        "type": "source"
+      }
+    ],
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Blog_Headers_-_Cloudstyle_3.0_11.max-2500x2500.png"
   },
   {
     "id": "2026-10-23-china-ai-export-registration",
@@ -392,6 +613,31 @@
       }
     ],
     "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-aws-ai-wave-kakao-upstage",
+    "date": "2026-10-23",
+    "category": "한국 IT",
+    "title": "AWS AI 웨이브 2026: 카카오 카나나 하이브리드 인프라, 업스테이지 글로벌 협력",
+    "summary": "AWS AI 웨이브 2026에서 카카오가 자체 모델 '카나나' 학습을 AWS 하이브리드 인프라로 구축한 사례를 소개했고, 아마존 베드록 서울 리전의 클로드 제공도 언급됐어요. 업스테이지는 AWS와 손잡고 국내 경험을 바탕으로 글로벌 기업 시장을 공략하겠다고 밝혔어요.",
+    "why": "국내 AI 기업들이 글로벌 클라우드와 결합해 학습 인프라와 해외 진출을 동시에 풀어가는 흐름이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스와 지디넷코리아 보도로 확인"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261023102300017",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아 (업스테이지)",
+        "url": "https://zdnet.co.kr/view/?no=20261023131238",
+        "type": "source"
+      }
+    ],
+    "image": "https://img8.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023102300017_03_i_P4.jpg"
   },
   {
     "id": "2026-10-23-arc-browser-sunset",
@@ -501,6 +747,26 @@
       }
     ],
     "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-aidc-fasttrack",
+    "date": "2026-10-23",
+    "category": "한국 IT",
+    "title": "배경훈 부총리, AI 데이터센터 인허가 패스트트랙·임대형 세액공제 추진",
+    "summary": "배경훈 부총리 겸 과기정통부 장관이 AI 데이터센터 인허가 패스트트랙과 임대형 데이터센터 세액공제를 추진하겠다고 밝혔어요. 패스트트랙 기준을 두고 기후부는 50MW, 과기정통부는 100MW를 제시해 이견이 있고, 정부는 2029년 8.4GW 수요를 내다보고 있어요.",
+    "why": "국내 AI 인프라 확충 속도와 직결되는 규제·세제 변화예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도로 확인"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261023083700017",
+        "type": "source"
+      }
+    ],
+    "image": "https://img7.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102309070001300_P4.jpg"
   },
   {
     "id": "2026-10-23-1password-for-agents",
