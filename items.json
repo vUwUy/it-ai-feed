@@ -1,5 +1,24 @@
 [
   {
+    "id": "2026-10-23-skhynix-solidigm-ipo-halt",
+    "category": "한국 IT",
+    "title": "SK하이닉스, 솔리다임 美 상장 검토 중단",
+    "summary": "SK하이닉스가 23일 장 시작 전 공시로 솔리다임 상장 검토를 중단한다고 밝혔고, 8월 5일 상장 계획이 알려진 지 79일 만이에요. 회사는 \"현재로선 상장을 다시 검토할 계획은 없다\"고 했어요.",
+    "why": "국민연금·정치권의 중복상장 반대 목소리가 나온 직후라, 국내 대기업 자회사 해외 상장 흐름에 영향을 줄 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "회사 공시를 다룬 연합뉴스 보도"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261023018252003",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
     "id": "2026-10-23-quad9-leaves-france",
     "category": "AI·IT",
     "title": "공개 DNS Quad9, 프랑스 법원 판결 여파로 11월 24일 프랑스서 철수",
@@ -82,6 +101,46 @@
     "date": "2026-10-23"
   },
   {
+    "id": "2026-10-23-minimax-m31-flash-weights",
+    "category": "로컬 AI",
+    "title": "[업데이트] 미니맥스 M3.1 Flash 가중치 공개 (428B-A23B)",
+    "summary": "10월 19일 출시 때 '추후 공개'라던 미니맥스 M3.1 Flash 가중치가 허깅페이스에 올라왔어요. 총 428B·활성 23B 네이티브 멀티모달 MoE에 컨텍스트 100만 토큰이고, 라우팅 전문가에 W4A4 QAT를 적용했으며 SGLang·vLLM·TokenSpeed를 권장해요.",
+    "why": "새로 확인된 건 실제 가중치 공개와 라이선스·추론 엔진 정보예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드 + IT之家(凤凰网) + Together AI"
+    },
+    "specs": {
+      "params": "428B (활성 23B)",
+      "license": "MiniMax Community License",
+      "context": "1M",
+      "modality": "텍스트·이미지 멀티모달"
+    },
+    "links": [
+      {
+        "label": "IT之家 (凤凰网)",
+        "url": "https://tech.ifeng.com/c/8xS2MhhHwsc",
+        "type": "source"
+      },
+      {
+        "label": "Together AI 모델 페이지",
+        "url": "https://www.together.ai/models/minimax-m3-1-flash",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+        "type": "huggingface"
+      },
+      {
+        "label": "Reddit r/LocalLLaMA 토론",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd0fgs/minimaxm31flash/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
     "id": "2026-10-23-microsoft-mai-dxo-science",
     "category": "AI·IT",
     "title": "마이크로소프트 진단 AI 'MAI-DxO', 사이언스 논문 게재…복잡 사례 정확도 83.2%",
@@ -111,6 +170,59 @@
     "date": "2026-10-23"
   },
   {
+    "id": "2026-10-23-metr-redwood-openai-monitoring",
+    "category": "AI·IT",
+    "title": "METR·Redwood, 오픈AI 내부 에이전트 감시 체계 레드팀 결과 공개",
+    "summary": "METR와 Redwood Research가 7월 21일~8월 11일 오픈AI 내부 에이전트 감시를 점검한 결과, 감시 대상 가능 트래픽은 내부 에이전트형 Responses API의 약 75~94%로 추정됐고 5~7월 내부 Codex 트래픽 약 10%가 감시 없이 지나갔어요. Codex 샌드박스·Auto-Review 우회와 수백 개 행동을 숨길 수 있는 취약점도 찾았는데, 오픈AI는 패치했다고 밝혔지만 METR는 이를 검증하지 않았다고 했어요.",
+    "why": "지난번 오픈AI 자체 보고서와 달리 외부 기관이 직접 공격해 본 첫 감사라, AI 연구소 내부 안전장치의 실제 빈틈을 보여줘요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "METR·Redwood 공식 블로그 + CNBC 보도"
+    },
+    "links": [
+      {
+        "label": "METR 블로그",
+        "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+        "type": "source"
+      },
+      {
+        "label": "Redwood Research 블로그",
+        "url": "https://www.redwoodresearch.org/blog/red-teaming-openais-internal-agent",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-llamacpp-sycl-xmx-multicolumn",
+    "category": "로컬 AI",
+    "title": "llama.cpp, 인텔 Arc XMX 엔진으로 추측 디코딩 검증 가속",
+    "summary": "llama.cpp SYCL 백엔드에 인텔 XMX 행렬 엔진을 쓰는 다중 열(2~80) 연산이 병합돼, Arc Pro B70에서 Qwen3.8 27B Q8_0 기준 pp8이 108.8에서 133 토큰/초, pp16이 32.4에서 241 토큰/초로 올랐어요.",
+    "why": "인텔 Arc GPU로 로컬 LLM을 돌릴 때 추측 디코딩과 짧은 프롬프트 처리가 빨라져요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub PR #29864 (10월 22일 22:39 KST 병합), 수치는 PR 작성자 측정"
+    },
+    "links": [
+      {
+        "label": "GitHub PR #29864",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/29864",
+        "type": "github"
+      },
+      {
+        "label": "Reddit r/LocalLLaMA 토론",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcqb3p/massive_b70_specdecoding_improvement_intel_xmx/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
     "id": "2026-10-23-lgcns-chatgpt-enterprise-30000",
     "category": "한국 IT",
     "title": "LG CNS 통해 챗GPT 엔터프라이즈 쓰는 국내 임직원 3만명",
@@ -125,6 +237,31 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261022171800017",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-kospi-ai-chip-selloff",
+    "category": "한국 IT",
+    "title": "美 AI·반도체주 급락 여파 코스피 3%대 하락",
+    "summary": "밤사이 나스닥이 2.60%(6월 이후 최대 낙폭), 필라델피아 반도체지수가 6.7% 떨어지고 마이크론 -6.26%·엔비디아 -4.40%·인텔 -8.04%를 기록하자, 코스피는 23일 오전 9시 23분 3.38% 내린 5,346.71을 나타냈고 장중 5,305.98(-4.12%)까지 밀렸어요. 코스닥도 3.69% 내린 736.03이었고 삼성전자는 약 3.8%, SK하이닉스는 약 2.8% 떨어졌어요.",
+    "why": "AI 투자 수익성 우려가 다시 반도체에 몰리면서 한국 증시가 크게 흔들리고 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 로이터(investing.com)"
+    },
+    "image": "https://img0.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102302810001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261023046000008",
+        "type": "source"
+      },
+      {
+        "label": "로이터 (investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180",
         "type": "source"
       }
     ],
@@ -155,6 +292,30 @@
     "date": "2026-10-23"
   },
   {
+    "id": "2026-10-23-deepseek-round-closing",
+    "category": "AI·IT",
+    "title": "[업데이트] 딥시크, 약 1000억 위안 투자 마무리 단계…CATL·텐센트 최대 투자자",
+    "summary": "로이터·블룸버그에 따르면 딥시크가 약 1000억 위안(149억 8천만 달러) 유치를 며칠 안에 마무리할 예정이고, CATL과 텐센트가 최대 투자자이며 기가디바이스·메이퇀·지리·메이디·넷이즈 등 15곳 이상이 참여해요. 투자 전 기업가치는 5000억 위안으로 처음 목표한 500억 위안의 두 배라고 하며, 조건은 아직 바뀔 수 있어요.",
+    "why": "새로 확인된 건 구체적인 투자자 명단과 마감 시점이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(KSL 전재) + 블룸버그"
+    },
+    "links": [
+      {
+        "label": "로이터 (KSL 전재)",
+        "url": "https://www.ksl.com/article/51639460/deepseek-wrapping-up-15-billion-fundraising-to-fuel-ai-race",
+        "type": "source"
+      },
+      {
+        "label": "블룸버그",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
     "id": "2026-10-23-court-network-outage",
     "category": "한국 IT",
     "title": "전국 법원 전산망 2시간 장애…법원행정처 \"PHP 해킹과 무관\"",
@@ -173,6 +334,35 @@
       {
         "label": "뉴스핌",
         "url": "https://www.newspim.com/news/view/20261022001416",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-china-ai-export-registration",
+    "category": "AI·IT",
+    "title": "[업데이트] 중국 AI 수출제한 목록 이후 딥시크·미니맥스 등록 마쳐…오픈소스·해외 사용 계속",
+    "summary": "중국 관영 계열 위위안탄톈에 따르면 상무부·과기부가 10월 16일 AI 기술 23개 항목을 넣은 수출제한 목록 개정안을 낸 뒤, 딥시크와 미니맥스가 등록 절차를 마치고 오픈소스 공개와 해외 허가 사용을 완료했어요. 보도는 목록의 핵심이 단순 제한이 아니라 경계를 긋는 것이라고 설명했어요.",
+    "why": "중국 오픈 웨이트 모델 공개가 막히는 것 아니냐는 걱정에 대한 첫 구체적 사례라, 로컬 AI 사용자에게도 의미가 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "第一财经(위위안탄톈 인용) + PANews 보도, 중국 정부 공식 문서는 아님"
+    },
+    "links": [
+      {
+        "label": "第一财经",
+        "url": "https://www.yicai.com/news/103405081.html",
+        "type": "source"
+      },
+      {
+        "label": "PANews",
+        "url": "https://www.panews.io/articles/01a16451-a3ae-72f1-985e-c32bbeb9ecd7",
+        "type": "source"
+      },
+      {
+        "label": "Reddit r/LocalLLaMA 토론",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
         "type": "source"
       }
     ],
@@ -223,6 +413,90 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50197601",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-anthropic-formal-verification",
+    "category": "AI·IT",
+    "title": "앤트로픽·Theorem, LLM으로 오픈소스 라이브러리 123개 '크래시 없음' 형식 증명",
+    "summary": "앤트로픽 프런티어 레드팀과 Theorem이 OSS-Fuzz 라이브러리 123개의 진입점 239개에 대해 64MB 이하 모든 입력에서 크래시가 없음을 RISC-V 바이너리 수준에서 증명했고, Rocq 증명은 약 1억 8천만 줄에 달해요. 과정에서 libexpat의 CVE-2026-56132 재발견 등 버그도 찾았고, Opus 5.5는 Opus 5보다 토큰을 약 40% 덜 쓰고 과제 36개 중 절반을 증명했어요.",
+    "why": "AI가 테스트를 넘어 '수학적 보장'까지 대규모로 만들어 내기 시작했다는 신호라 소프트웨어 보안 방식이 바뀔 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 리서치 글, HN 토론 참고"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
+    "links": [
+      {
+        "label": "앤트로픽 리서치",
+        "url": "https://www.anthropic.com/research/formal-verification",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50202217",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-anthropic-agent-skills-aaif",
+    "category": "AI·IT",
+    "title": "앤트로픽, Agent Skills를 리눅스재단 산하 AAIF에 기증",
+    "summary": "앤트로픽이 ChatGPT·Cursor·GitHub Copilot·VS Code 등 70개 이상 에이전트 플랫폼이 쓰는 Agent Skills 표준을 Agentic AI Foundation(AAIF)에 기증했어요. 지금까지 100만 개 스킬이 공개됐고 설치는 2억 8천만 회 가까이 됐으며, AAIF는 오픈AI Open Responses·허깅페이스 OpenEnv·알리바바 OpenSandbox도 함께 받아 프로젝트가 10개가 됐어요.",
+    "why": "에이전트 스킬·응답 API·샌드박스 표준이 한 중립 재단으로 모이면서 특정 회사에 덜 묶인 에이전트 생태계가 만들어지고 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 발표 + AAIF/리눅스재단 보도자료"
+    },
+    "links": [
+      {
+        "label": "앤트로픽 공식 발표",
+        "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        "type": "source"
+      },
+      {
+        "label": "AAIF 발표 (신규 프로젝트 4개)",
+        "url": "https://aaif.io/news/agentic-ai-foundation-announces-four-new-projects",
+        "type": "source"
+      },
+      {
+        "label": "리눅스재단 보도자료",
+        "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-23"
+  },
+  {
+    "id": "2026-10-23-ant-ling-30-flash-sante",
+    "category": "로컬 AI",
+    "title": "앤트그룹 Ling-3.0-flash-Sante, 의료 특화 124B-A5.1B 오픈 웨이트",
+    "summary": "앤트그룹 inclusionAI가 Ling-3.0-flash를 바탕으로 의료 추론·연구에 맞춘 Sante를 허깅페이스에 MIT 라이선스로 공개했어요. 총 124B 중 토큰당 5.1B만 쓰는 하이브리드 선형 MoE이고 256K 컨텍스트로 학습했으며, 의료기기가 아닌 연구용 모델이라고 명시했어요.",
+    "why": "활성 파라미터가 작아 대용량 메모리 장비에서 돌려볼 만한 오픈 의료 특화 모델이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드(라이선스 MIT), Reddit은 신호로만 참고"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/Ling-3.0-flash-Sante.png",
+    "specs": {
+      "params": "124B (활성 5.1B)",
+      "license": "MIT",
+      "context": "256K"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
+        "type": "huggingface"
+      },
+      {
+        "label": "Reddit r/LocalLLaMA 토론",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xclfkp/inclusionailing30flashsante_hugging_face/",
         "type": "source"
       }
     ],
