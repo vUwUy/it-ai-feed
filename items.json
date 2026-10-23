@@ -590,6 +590,35 @@
     "date": "2026-10-23"
   },
   {
+    "id": "2026-10-23-capcom-id-breach",
+    "date": "2026-10-23",
+    "category": "AI·IT",
+    "title": "캡콤, CAPCOM ID 무단 접근으로 이메일 1,177만여 건 유출",
+    "summary": "캡콤이 10월 22일 공지에서 CAPCOM ID 무단 접근으로 전 세계 이메일 주소 등 11,774,247건이 유출됐고, 196개 계정은 비밀번호가 무단 변경됐다고 밝혔어요. 23일 2차 공지에서는 그중 19개 계정(일본)의 이커프콘 마이페이지에서 이름·주소·전화번호·구매 이력 등이 새어 나간 사실을 추가로 확인했어요.",
+    "why": "몬스터 헌터 등 캡콤 게임 이용자가 많은 만큼, 유출된 이메일로 캡콤을 사칭한 피싱 메일이 올 수 있어요. 캡콤은 사용자가 설정한 비밀번호와 카드 정보는 유출되지 않았다고 했어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "캡콤 공식 IR 공지(1·2차) + The Verge 보도"
+    },
+    "links": [
+      {
+        "label": "캡콤 1차 공지(PDF)",
+        "url": "https://www.capcom.co.jp/ir/english/news/pdf/e261022.pdf",
+        "type": "source"
+      },
+      {
+        "label": "캡콤 2차 공지",
+        "url": "https://www.capcom.co.jp/ir/english/news/html/e261023.html",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/entertainment/1016436/capcom-data-breach-leaks-over-11-million-email-addresses",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-23-canva-craft-image-model",
     "category": "AI·IT",
     "title": "캔바, 첫 자체 이미지 생성 모델 'Canva Craft' 공개",
