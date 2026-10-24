@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-10-24-update-php2shell-cyfirma-dprk-minjun",
+    "date": "2026-10-24",
+    "category": "한국 IT",
+    "title": "[업데이트] PHP2Shell, 한국어 쓰는 북한 연계 의심 조직이 정부·금융 겨냥 공격 준비 정황",
+    "summary": "사이퍼마는 10월 22일 폐쇄형 I2P 채널에서 한국어 사용자들이 PHP2Shell(CVE-2026-109618·109619)로 정부·금융기관을 우선 노리는 'June 2026 Minjun' 캠페인을 준비하는 정황을 포착했다고 밝혔어요. 한국·미국·일본 등이 우선 지역이고 첫 표적 목록 기한은 10월 25일이며, 공개 PoC를 로컬 AI로 순위를 매겨 검증하고 있다고 해요.",
+    "why": "라자루스 연계 신뢰도는 '중간'이고 악성코드·인프라 중복 증거는 없지만, PHP 8.5.12·8.4.27·8.3.36·8.2.35 미만 서버는 즉시 패치 후 워커 재시작이 필요해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CYFIRMA 위협 권고 원문 + 연합뉴스 보도 (북한 배후는 '중간' 신뢰도 평가)"
+    },
+    "image": "https://www.cyfirma.com/media/2026/10/dprk23-fe.webp",
+    "links": [
+      {
+        "label": "CYFIRMA",
+        "url": "https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261024019600017",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-24-update-openai-125t-round",
     "date": "2026-10-24",
     "category": "AI·IT",
@@ -19,6 +44,36 @@
       {
         "label": "Bloomberg (Yahoo Finance)",
         "url": "https://finance.yahoo.com/technology/ai/articles/openai-shifts-value-1-25-233157138.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-update-brotli-cve-2026-111497-python-envoy",
+    "date": "2026-10-24",
+    "category": "AI·IT",
+    "title": "[업데이트] Brotli RCE(CVE-2026-111497), Node.js 넘어 파이썬·Envoy·curl 등으로 확산",
+    "summary": "Brotli 디코더의 경계 밖 쓰기 결함(1.0.3~1.2.0, CVSS v4.0 9.2)이 Node.js뿐 아니라 파이썬 Brotli·brotlicffi, Envoy, curl/libcurl, bun 등에도 영향을 주는 것으로 정리됐어요. 수정판은 Brotli 1.2.1·1.1.1·1.0.10, 파이썬 Brotli 1.2.1·brotlicffi 1.2.1.0, Envoy 1.40.0·1.39.3·1.38.6·1.37.8·1.36.12이에요. 오픈AI Codex Security가 2월에 찾았고 소스는 그때 고쳐졌지만 릴리스는 이번에야 나왔어요.",
+    "why": "Aikido에 따르면 10/23 기준 취약점 DB가 이 CVE를 PyPI 패키지에 매핑하지 않아 pip-audit·Dependabot이 경고하지 않으니 직접 버전을 확인해야 해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OSV 취약점 DB + Envoy 공식 보안 권고(GHSA) + Aikido 분석"
+    },
+    "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6adbe4dc7746ea7df4365811_Node-JS_OG.jpg",
+    "links": [
+      {
+        "label": "OSV",
+        "url": "https://osv.dev/vulnerability/CVE-2026-111497",
+        "type": "source"
+      },
+      {
+        "label": "Envoy 보안 권고",
+        "url": "https://github.com/envoyproxy/envoy/security/advisories/GHSA-3wvj-j6qm-62mr",
+        "type": "github"
+      },
+      {
+        "label": "Aikido",
+        "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
         "type": "source"
       }
     ]
@@ -62,6 +117,31 @@
       {
         "label": "Texas Tribune",
         "url": "https://www.texastribune.org/2026/10/23/ken-paxton-chatgpt-openai-lawsuit-texas-attorney-general/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-quest-diagnostics-quanum-breach",
+    "date": "2026-10-24",
+    "category": "AI·IT",
+    "title": "미 임상검사 대기업 퀘스트 다이애그노스틱스, Quanum 시스템 해킹으로 환자 기록 유출 확인",
+    "summary": "퀘스트는 SEC 8-K 공시와 공지에서 검사 주문·결과 조회 시스템 Quanum LSM이 무단 접근을 당해 개인정보·환자 기록이 영향을 받았다고 밝혔어요. 피해 규모는 아직 조사 중이며, 시스템은 복구됐고 이번 사고는 PHP 취약점과 관련이 없다고 했어요.",
+    "why": "Quanum은 북미 약 50만 명의 임상의가 쓰는 플랫폼이라 유출 범위가 커질 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "퀘스트 공식 공지(10/23 19:00 ET 기준) + TechCrunch(SEC 8-K 인용)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/quest-862530304.jpg?resize=1200,743",
+    "links": [
+      {
+        "label": "Quest 공지",
+        "url": "https://www.questdiagnostics.com/links/quanum-notice",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
         "type": "source"
       }
     ]
@@ -196,6 +276,56 @@
       {
         "label": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-10-23/moonshot-debuts-first-ai-upgrade-since-its-own-deepseek-moment",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-google-privacy-policy-personal-intelligence-ads",
+    "date": "2026-10-24",
+    "category": "AI·IT",
+    "title": "구글, 개인정보처리방침 변경…Gemini 등에 연결한 Gmail·드라이브·포토 내용도 맞춤 광고에 활용",
+    "summary": "10월 16일부터 사용자가 Personal Intelligence로 검색·Gemini 등에 Gmail·드라이브·포토를 연결하면 그 내용이 맞춤 광고에 쓰일 수 있도록 방침이 바뀌었어요. 구글은 광고주에게 데이터를 넘기지 않고 민감한 범주는 제외하며, 앱 연결 해제나 광고 맞춤 설정 끄기로 막을 수 있다고 설명해요.",
+    "why": "AI 개인화 기능을 켜는 것이 곧 광고 데이터 제공으로 이어질 수 있어 설정 확인이 필요해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge 보도 + 구글 개인정보처리방침 원문"
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+        "type": "source"
+      },
+      {
+        "label": "구글 개인정보처리방침",
+        "url": "https://policies.google.com/privacy",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-frontier-ai-46t-audit",
+    "date": "2026-10-24",
+    "category": "한국 IT",
+    "title": "4.6조 '프런티어 AI' 사업 국감 공방…배경훈 \"대통령 지시 아냐, 청와대와 상의\"",
+    "summary": "23일 과방위 종합감사에서 정부 약 4조6000억원 출자·민간 약 11조원 유치 구상의 프런티어 AI 사업 결정 과정이 쟁점이 됐어요. 배경훈 부총리는 미토스 사태 뒤 4월에 시작해 5월 재정당국과 협의했고, 독파모 기업 몰아주기 우려로 별도 공모·출자 방식으로 바꿨으며 SPC 여부는 미정이라고 했어요. 미토스 접근권은 없다고 인정했고 PHP 대응 범부처 종합대책을 조만간 발표하겠다고 밝혔어요.",
+    "why": "국내 최대 규모 AI 모델 사업의 구조와 투명성 논란이 예산 심사로 이어질 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이 + 뉴스핌 국감 보도 일치"
+    },
+    "image": "https://img.newspim.com/news/2026/10/23/261023141426145_741_tc.jpg",
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/politics/2026/10/23/2026102316492811388",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261023001207",
         "type": "source"
       }
     ]
