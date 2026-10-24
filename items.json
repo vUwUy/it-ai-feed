@@ -98,6 +98,26 @@
     ]
   },
   {
+    "id": "2026-10-24-uk-chancellor-ai-package",
+    "date": "2026-10-24",
+    "category": "AI·IT",
+    "title": "영국 재무장관, AI 생물보안·AISI·사이버 방어 묶은 AI 투자 패키지 발표",
+    "summary": "영국 정부는 1억 파운드 규모 AI 생물보안 연구소를 포함한 1억 6,500만 파운드 국가 AI 생물보안 이니셔티브(오픈AI·앤트로픽이 최대 2억 파운드 상당 모델 크레딧 제공)와 AI보안연구소(AISI) 1억 2,000만 파운드 추가 지원, 6,000만 파운드 '국가 사이버 실드'를 발표했어요. 소버린 AI 펀드 6,000만 파운드 증액, 1,800만 파운드 첨단 칩 설계 아카데미 등도 포함되며 다음 주 예산안에 공식 반영돼요.",
+    "why": "techUK는 '6억 파운드+ 패키지'로 평가했고, 프런티어 AI 기업이 정부 생물보안 연구에 크레딧을 대는 구조라 AI 안전 정책의 방향을 보여줘요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GOV.UK 재무부 보도자료(10월 24일) 원문 + techUK 반응"
+    },
+    "image": "https://assets.publishing.service.gov.uk/media/5a37db09e5274a7908e352b4/s960_HMT_buiding_plaque.jpg",
+    "links": [
+      {
+        "label": "GOV.UK",
+        "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-24-texas-sues-openai",
     "date": "2026-10-24",
     "category": "AI·IT",
@@ -118,6 +138,40 @@
         "label": "Texas Tribune",
         "url": "https://www.texastribune.org/2026/10/23/ken-paxton-chatgpt-openai-lawsuit-texas-attorney-general/",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-tencent-hy-nomas-world-model",
+    "date": "2026-10-24",
+    "category": "로컬 AI",
+    "title": "텐센트, 대화형 비디오 월드 모델 Hy-Nomas 공개…RTX 4090 단일 GPU 구성 지원",
+    "summary": "텐센트가 텍스트·카메라 조작으로 실시간에 가깝게 세계를 생성하는 Hy-Nomas를 아파치 2.0으로 공개했고, 24일 Diffusers용 BF16 버전도 올렸어요. 세그먼트 자기회귀 DiT·Qwen 텍스트 인코더·PixelUMM 디코더 구조로 8단계 디노이징, 720×1280 24FPS 출력을 내며, 기본 구성은 GPU 8장이지만 INT8 DiT·FP8 디코더·CPU 오프로드로 RTX 4090 한 장에서도 돌릴 수 있어요.",
+    "why": "인터랙티브 월드 모델을 소비자 GPU 한 장으로 실험할 수 있는 드문 오픈 가중치 사례예요(웹 데모의 프롬프트 보강 서비스는 별도 자원 필요).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 + 공식 GitHub 저장소"
+    },
+    "specs": {
+      "license": "Apache-2.0",
+      "memory": "단일 RTX 4090(INT8 DiT·FP8 디코더·CPU 오프로드) / 표준 8 GPU",
+      "modality": "텍스트·카메라→비디오(720×1280, 24FPS)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델 카드",
+        "url": "https://huggingface.co/tencent/Hy-Nomas",
+        "type": "source"
+      },
+      {
+        "label": "Diffusers 버전",
+        "url": "https://huggingface.co/tencent/Hy-Nomas-Diffusers",
+        "type": "huggingface"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
+        "type": "github"
       }
     ]
   },
@@ -245,6 +299,40 @@
     ]
   },
   {
+    "id": "2026-10-24-llamacpp-b11850-soprano-tts",
+    "date": "2026-10-24",
+    "category": "로컬 AI",
+    "title": "llama.cpp b11850, 80M 초경량 TTS 'Soprano' 지원 추가",
+    "summary": "llama.cpp b11850 릴리스에 mtmd Soprano 음성 생성 지원(#28607)이 들어가, Soprano-1.1-80M(Qwen3 백본+디코더)을 GGUF로 변환해 llama-tts로 음성을 만들 수 있어요. PR 예시는 -ngl 0으로 CPU만으로 실행하는 방식이에요.",
+    "why": "8,000만 파라미터급 아파치 2.0 TTS를 llama.cpp 한 곳에서 돌릴 수 있어, 로컬 음성 비서·읽어주기 파이프라인 구성이 쉬워져요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b11850 + 병합된 PR #28607 원문"
+    },
+    "specs": {
+      "params": "80M",
+      "license": "Apache-2.0",
+      "modality": "텍스트→음성"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b11850",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11850",
+        "type": "github"
+      },
+      {
+        "label": "PR #28607",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/28607",
+        "type": "source"
+      },
+      {
+        "label": "Soprano-1.1-80M",
+        "url": "https://huggingface.co/ekwek/Soprano-1.1-80M",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-10-24-kimi-k3-1-pro",
     "date": "2026-10-24",
     "category": "AI·IT",
@@ -276,6 +364,31 @@
       {
         "label": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-10-23/moonshot-debuts-first-ai-upgrade-since-its-own-deepseek-moment",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-intel-fcc-foreign-robot-waiver",
+    "date": "2026-10-24",
+    "category": "AI·IT",
+    "title": "FCC, 외국산 로봇 금지 규정에서 인텔 팹 무인운반차(AGV) 1년 예외 허용",
+    "summary": "미국 FCC는 10월 22일 인텔에 1년 기한 신속 웨이버(DA 26-1146)를 내줘, 미국 반도체 공장에서 쓰는 외국산 무인운반차(AGV)를 계속 유지·변경할 수 있게 했어요. 해당 장비에 한정된 예외로 신규 수입이나 판매는 허용하지 않아요.",
+    "why": "범위가 모호한 FCC 외국산 로봇 금지가 반도체 팹 같은 핵심 시설에도 영향을 줄 수 있음을 보여줬고, IDC는 이 규정으로 미국 휴머노이드 도입 매출이 58% 줄 수 있다고 추정했어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 + Ars Technica 보도 (FCC 명령 DA 26-1146)"
+    },
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Intel-fab-interior-1152x648.jpg",
+    "links": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/fcc-grants-intel-waiver-for-foreignmade-robotic-devices-4967773",
         "type": "source"
       }
     ]
@@ -326,6 +439,60 @@
       {
         "label": "뉴스핌",
         "url": "https://www.newspim.com/news/view/20261023001207",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-daytona-series-b-1b",
+    "date": "2026-10-24",
+    "category": "AI·IT",
+    "title": "에이전트용 샌드박스 클라우드 Daytona, 6,000만 달러 시리즈 B로 기업가치 10억 달러",
+    "summary": "Daytona가 FirstMark Growth 주도로 기업가치 10억 달러에 6,000만 달러 시리즈 B를 유치해 누적 투자금이 9,100만 달러가 됐어요. 패트릭 콜리슨·토비 뤼트케·아라빈드 스리니바스 등이 엔젤로, 퀄컴벤처스·삼성넥스트·옥타벤처스가 전략 투자자로 참여했고, 회사는 1월 이후 매출이 약 25배 늘었다고 밝혔어요.",
+    "why": "AI 에이전트가 코드를 실행할 리눅스·윈도·macOS·GPU 샌드박스 같은 '에이전트 실행 인프라'에 돈이 몰리고 있다는 신호예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Daytona 공식 블로그 + TechCrunch 보도"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2023/11/Daytona_Founders-e1698845569762.jpg?resize=1200,676",
+    "links": [
+      {
+        "label": "Daytona 블로그",
+        "url": "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-24-china-ai-employment-opinion",
+    "date": "2026-10-24",
+    "category": "AI·IT",
+    "title": "중국 국무원, 'AI 발전 적응·취업 친화형 발전' 의견 발표…노동집약 산업 AI 도입 속도 조절",
+    "summary": "중국 국무원 판공청은 10월 16일 작성·23일 공개한 '인공지능 기술 발전에 적응해 취업 친화형 발전 방식 구축을 돕는 의견'(국판발〔2026〕29호)에서 18개 과제를 제시했어요. 노동집약형 산업에서 AI 적용 범위·강도·속도를 신중히 조절하고, AI 핵심 산업은 동부에, 데이터 라벨링·스마트 단말 제조는 중서부에 배치하며 '실업 완충 기간' 제도를 장려한다고 했어요.",
+    "why": "정부 차원에서 AI 도입 속도를 고용 충격에 맞춰 조절하겠다고 명문화한 사례라 각국 AI·노동 정책 논의에 참고가 돼요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "중국정부망(gov.cn) 원문 + 신화망 + 연합뉴스 보도"
+    },
+    "links": [
+      {
+        "label": "중국정부망",
+        "url": "https://www.gov.cn/zhengce/content/202610/content_7084107.htm",
+        "type": "source"
+      },
+      {
+        "label": "신화망",
+        "url": "https://www.news.cn/20261023/b7043434d07a495fb2e6f5234da73cfc/c.html",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261024029500083",
         "type": "source"
       }
     ]
