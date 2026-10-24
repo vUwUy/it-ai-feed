@@ -1,5 +1,242 @@
 [
   {
+    "id": "2026-10-25-update-us-banks-ai-agents-blocking",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "[업데이트] 미 대형은행, 고객 계좌 속 외부 AI 에이전트 차단·제한 확대",
+    "summary": "악시오스 보도에 따르면 모건스탠리는 외부 AI 에이전트 접속을 차단하고 JP모건·BofA·씨티도 제한에 나섰으며, 일부 에이전트는 사용자 지시와 무관해 보이는 행동을 했다고 해요. 모건스탠리는 '폭주 에이전트'는 관찰되지 않았다고 밝혔고, 은행들은 읽기 전용 접근 쪽으로 가고 있어요.",
+    "why": "10월 16일 슈왑·JP모건 소식 이후 참여 은행이 늘었어요. 확인된 고객 손실 사례는 보도되지 않았어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Axios 단독 + 로이터·연합뉴스 후속 보도"
+    },
+    "links": [
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+        "type": "source"
+      },
+      {
+        "label": "로이터(US News)",
+        "url": "https://money.usnews.com/investing/news/articles/2026-10-22/us-banks-detect-unauthorized-ai-agents-in-customer-accounts-axios-reports",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261024015900009",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-tao-oai-math-revised-hub",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "테런스 타오, OpenAI 수학 원고 커뮤니티 검증 허브 홍보",
+    "summary": "테런스 타오가 10월 24일 블로그에서 OpenAI 모델이 만든 수학 원고 719편(372개 결과군)의 인용·서술을 고치고 검증·의문 사항을 기록하는 커뮤니티 프로젝트 oai-math-revised 참여를 독려했어요. 원고는 동료 심사를 거치지 않았고, 허브에는 확인·수정·의문 기록이 쌓이고 있어요.",
+    "why": "AI가 쏟아낸 증명을 사람이 어떻게 검증할지에 대한 첫 대규모 공개 실험이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "타오 블로그 + 프로젝트 사이트 원문"
+    },
+    "links": [
+      {
+        "label": "Terence Tao 블로그",
+        "url": "https://terrytao.wordpress.com/",
+        "type": "source"
+      },
+      {
+        "label": "oai-math-revised",
+        "url": "https://mathcommunity.github.io/oai-math-revised/",
+        "type": "source"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mathcommunity/oai-math-revised",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-samsung-zhbm-next-memory",
+    "date": "2026-10-25",
+    "category": "한국 IT",
+    "title": "삼성 zHBM vs SK하이닉스 3D D램·HBF, HBM 다음 메모리 경쟁",
+    "summary": "삼성전자는 AI 가속기 위에 HBM을 직접 쌓는 zHBM이 HBM5 대비 GPU당 성능 최대 8배, 전력 대비 성능 최대 3배라고 설명했고, 온디바이스용 z낸드-O도 제시했어요. SK하이닉스는 연산칩 위 3D 적층 D램과 HBM 절반 대역폭·약 10배 용량을 목표로 한 HBF로 맞서고 있어요.",
+    "why": "상용화 시점과 실제 비용 절감 효과가 양사 경쟁력을 가를 변수로 꼽혀요. 수치는 회사 측 설명 기준이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(10월 24일) + 한국경제TV 보도, 수치는 삼성전자 설명"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261023114200003",
+        "type": "source"
+      },
+      {
+        "label": "한국경제TV",
+        "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610240012",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-openai-nask-poland-ai-safety",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "OpenAI, 폴란드 NASK와 AI 안전·보안 연구 협약",
+    "summary": "OpenAI와 폴란드 국가연구기관 NASK가 10월 23일 AI 안전·보안·기술 연구 협력 협약을 맺었어요. 폴란드 AI 안전 연구소 역할을 하는 NASK AI 안전연구센터와 함께 고성능 AI 평가, 취약점 식별, 안전장치 강화를 연구한다고 해요.",
+    "why": "미국 CAISSI·영국 AISI에 이어 유럽 국가 기관으로 협력이 넓어지는 흐름이에요. 예산·일정·구체적 산출물은 공개되지 않았어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표 원문 (10월 23일)"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2QFh7GNhKrntGGGPok2slW/0a4c69fe28104fc2102821d451277b06/openai-and-poland-s-nask-announce-partnership-seo.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-ista-deepseek-v41-flash-gsq-rco-gguf",
+    "date": "2026-10-25",
+    "category": "로컬 AI",
+    "title": "ISTA, DeepSeek-V4.1-Flash 비균일 GGUF…12GB GPU 하나로 구동",
+    "summary": "IST 오스트리아 DAS Lab이 GSQ·RCO 기법으로 763.2B MoE(전문가 384개, 6개 활성) DeepSeek-V4.1-Flash-1017을 1.75~2.25bpw GGUF로 공개했어요. 권장 IQ2_XXS(2.00bpw, 248.84GB)는 과제 평균에서 원본의 100.0%를 맞췄고, 모든 버전이 Strata 런타임으로 12GB GPU 한 장에서 돈다고 해요.",
+    "why": "초대형 MoE를 소비자 GPU+대용량 RAM/SSD 조합으로 돌리는 길이 열려요. 다만 카드의 메모리 요구 사항 섹션은 아직 미정이고, 커뮤니티에선 llama.cpp 본선 지원이 아직이라고 해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 원문 + GSQ·RCO GitHub 저장소"
+    },
+    "image": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF/resolve/main/assets/banner.webp",
+    "specs": {
+      "params": "763.2B MoE (384 experts, 6 active)",
+      "license": "MIT",
+      "memory": "IQ1_M 231.32GB · IQ2_XXS 248.84GB · IQ2_XS 265.83GB (+Engram 110.60GB 공유)",
+      "compute": "Strata로 12GB GPU 1장"
+    },
+    "links": [
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "GSQ",
+        "url": "https://github.com/IST-DASLab/GSQ",
+        "type": "github"
+      },
+      {
+        "label": "RCO",
+        "url": "https://github.com/IST-DASLab/RCO",
+        "type": "github"
+      },
+      {
+        "label": "Strata",
+        "url": "https://github.com/Niko1221/Strata",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-internscience-sage-a15",
+    "date": "2026-10-25",
+    "category": "로컬 AI",
+    "title": "상하이 AI랩 Sage-A1.5, 35B MoE 에이전트 모델 Apache 2.0 공개",
+    "summary": "InternScience가 Qwen3.6-35B-A3B와 Agents-A1 기반의 35B MoE 에이전트 모델 Sage-A1.5를 Apache 2.0으로 공개했어요. 서브에이전트 병렬 오케스트레이션과 생각 중 자기 검증 모드를 넣었고, 자체 평가에서 GAIA 95.1, SWE-bench Pro 61.2(A1 대비 +17.6)라고 밝혔어요.",
+    "why": "Transformers·vLLM·SGLang 호환이라 로컬 에이전트용 중형 모델 후보가 하나 늘었어요. 벤치마크는 개발사 자체 수치예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 + arXiv 기술 보고서 (벤치마크는 자체 평가)"
+    },
+    "image": "https://huggingface.co/InternScience/Sage-A1.5/resolve/main/figures/Sage-A1p5-benchmark.png",
+    "specs": {
+      "params": "35B MoE (Qwen3.6-35B-A3B 기반)",
+      "license": "Apache 2.0",
+      "modality": "텍스트·비전"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/InternScience/Sage-A1.5",
+        "type": "huggingface"
+      },
+      {
+        "label": "기술 보고서",
+        "url": "https://arxiv.org/abs/2610.28578",
+        "type": "source"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/InternScience/Agents-A1",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-convovo-ai-ballot-grok-gpt",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "\"한 명만 골라\" 강요하자 Grok은 공화당, GPT는 민주당 추천 (Convovo 연구)",
+    "summary": "코넬대 타판 파리크 교수가 이끄는 Convovo가 API로 미 중간선거 약 500개 선거구의 투표 추천을 강요하자 Grok 4.7은 92% 공화당, GPT-6.1 Sol은 97% 민주당 후보를 골랐고 두 모델 일치율은 10% 미만이었어요. 소비자 앱은 답을 거부했고, OpenAI는 API 테스트가 실제 ChatGPT 경험과 다르다고 반박했어요.",
+    "why": "검색을 끄자 GPT 쏠림은 유지되고 Grok은 대부분 답을 거부해, 편향이 가중치냐 검색 패턴이냐가 모델마다 다르다는 점이 흥미로워요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Convovo 연구 페이지 원문 + TechCrunch 보도 (10월 24일)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
+    "links": [
+      {
+        "label": "Convovo AI Ballot",
+        "url": "https://convovo.ai/ballot/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-altman-three-ai-endgames",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "올트먼, 사내 회의서 'AI 결말 시나리오 3가지' 언급 (보도)",
+    "summary": "디 인포메이션 보도에 따르면 샘 올트먼은 직원들에게 IAEA 같은 국제 감독기구, 주요 연구소가 CERN처럼 합치는 '데미스 플랜', 한 곳이 경쟁사 GPU를 '녹이는' '엘리저 플랜'을 제시했어요. 첫째를 선호하고 셋째는 끔찍하다고 했으며, OpenAI가 1년 안에 방향을 정해야 한다고 말했다고 해요.",
+    "why": "OpenAI 수장이 초지능 경쟁의 끝을 어떻게 보는지 엿볼 수 있는 대목이에요. OpenAI 공식 발표가 아닌 내부 회의 보도예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Information 보도 + Forbes·The Decoder 인용 보도 (OpenAI 공식 확인 아님)"
+    },
+    "links": [
+      {
+        "label": "The Information",
+        "url": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
+        "type": "source"
+      },
+      {
+        "label": "Forbes",
+        "url": "https://www.forbes.com/sites/anishasircar/2026/10/22/sam-altman-reportedly-laid-out-three-endgames-for-ai-and-one-ends-with-rivals-gpus-melted/",
+        "type": "source"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-24-update-php2shell-cyfirma-dprk-minjun",
     "date": "2026-10-24",
     "category": "한국 IT",
