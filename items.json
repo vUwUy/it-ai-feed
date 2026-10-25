@@ -530,7 +530,6 @@
       "status": "확인됨",
       "note": "AWS 오픈소스 블로그(10/23 PT) + GitHub 저장소 확인"
     },
-    "image": "https://opengraph.githubassets.com/bc8c2f9b6b2b22387c742c110ab3248a3c673865172febb22ccd4fcfb898b61c/hydro-project/infinity",
     "specs": {
       "license": "Apache 2.0",
       "memory": "대기 에이전트당 ~100KB"
@@ -1107,7 +1106,6 @@
       "status": "확인됨",
       "note": "사카나 AI 공식 발표 + 닛케이 보도"
     },
-    "image": "https://sakana.ai/assets/home/sakana_ogp.png",
     "links": [
       {
         "label": "Sakana AI 발표",
@@ -1132,7 +1130,7 @@
       "status": "확인됨",
       "note": "메타 일본 뉴스룸 공식 발표 + 교도통신·닛케이·ITmedia 보도"
     },
-    "image": "https://english-kyodo.ismcdn.jp/mwimgs/4/a/1200x/img_4a41fa979e9fb2afd7674ef7a5307e10102812.jpg",
+    "image": "https://about.fb.com/ja/wp-content/uploads/sites/15/2026/10/2_Jolly_landscape.gif?w=1200",
     "links": [
       {
         "label": "메타 일본 뉴스룸",
