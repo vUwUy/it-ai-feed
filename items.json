@@ -1,5 +1,255 @@
 [
   {
+    "id": "2026-10-26-samsung-tv-tizen-tracking-claims",
+    "date": "2026-10-26",
+    "category": "한국 IT",
+    "title": "[미확인] 보안 연구자 \"삼성 TV 루팅해 보니 화면·음성 분석해 광고 추적\"",
+    "summary": "리버스 엔지니어 log4j가 2025년형 삼성 TV를 제로데이로 루팅해 화면 캡처 분석 AI 모델, 광고 시청·건너뛰기 추적, 사운드바 같은 연결 기기 마이크 사용 정황을 찾았다고 X에 공개했어요. 다른 연구자는 마이크가 5초 열렸다 닫히는 것을 확인했지만, 결론은 더 관찰해야 한다고 했어요.",
+    "why": "삼성 TV 사용자라면 시청 정보 수집(ACR) 설정을 점검해볼 만해요. HN에서 715점을 받을 만큼 반응이 컸어요.",
+    "verification": {
+      "status": "미확인",
+      "note": "연구자 개인 주장을 톰스하드웨어가 보도. 삼성 공식 입장과 전체 보고서는 아직 없음"
+    },
+    "links": [
+      {
+        "label": "톰스하드웨어",
+        "url": "https://www.tomshardware.com/tech-industry/cyber-security/hacker-finds-own-samsung-tv-collecting-scary-amounts-of-user-information-and-gets-banned-by-openai-for-cyber-abuse-tv-runs-an-ai-model-that-collects-audio-screenshots-and-plenty-of-other-user-data-for-ad-targeting",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/front?day=2026-10-25",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-samsung-8lpu-plus-iedm",
+    "date": "2026-10-26",
+    "category": "한국 IT",
+    "title": "삼성 파운드리, EUV 없는 2세대 8나노 '8LPU+' 공개 예정… IEDM 12월 발표",
+    "summary": "삼성은 8LPU 대비 성능 12% 향상, 전력 15% 절감, 로직 면적 8% 축소를 내세운 8LPU+를 12월 14일 IEDM 세션 3-6에서 발표해요.",
+    "why": "EUV 없이 원가를 낮춘 성숙 공정으로 차량용 칩 같은 수요를 노리는 전략이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IEDM 공식 세션 일정 + 전자신문·디지타임스"
+    },
+    "links": [
+      {
+        "label": "전자신문(영문)",
+        "url": "https://en.etnews.com/20261021200004",
+        "type": "source"
+      },
+      {
+        "label": "디지타임스",
+        "url": "https://www.digitimes.com/news/a20261022PD240/samsung-automotive-chips-samsung-foundry-business.html",
+        "type": "source"
+      },
+      {
+        "label": "IEDM 세션",
+        "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?ScheduleID=368",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-nanbeige4-3-33b",
+    "date": "2026-10-26",
+    "category": "로컬 AI",
+    "title": "Nanbeige4.3-33B 공개… Apache 2.0, 512K 컨텍스트 에이전트 모델",
+    "summary": "칸준(BOSS직빙) 계열 Nanbeige 팀이 33B 밀집 모델을 공개했어요. 자체 벤치마크에서 Terminal-Bench 2.1 80.9로 Qwen3.8-27B(73.0)를 앞섰지만, SWE-Bench Pro는 60.3으로 Qwen(61.7)보다 낮아요.",
+    "why": "30B급 오픈 웨이트 코딩·에이전트 후보가 하나 늘었어요. BF16 기준이라 로컬에선 양자화 버전이 필요하고, 3B 증류 모델도 예고됐어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드(10/24 업로드). 벤치마크는 자체 측정"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+        "type": "huggingface"
+      },
+      {
+        "label": "AI Weekly",
+        "url": "https://aiweekly.co/alerts/nanbeige-opens-33b-model-under-apache-20-with-512k-context",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-ming-3-0-tts",
+    "date": "2026-10-26",
+    "category": "로컬 AI",
+    "title": "inclusionAI Ming-3.0-tts 공개… 한국어 포함 7개 언어, MIT 라이선스",
+    "summary": "Qwen2.5-0.5B 기반 0.5B 모델과 Ling V3 기반 7.9B-A1.3B MoE 'tiny' 두 가지로, 음성 복제·음성 디자인과 14종 비언어 태그를 지원해요. 쓰촨어·광둥어 같은 방언도 다뤄요.",
+    "why": "한국어를 지원하는 가벼운 오픈 TTS라 로컬 음성 비서나 더빙 실험에 써볼 만해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공식 GitHub + Hugging Face 모델 카드"
+    },
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/inclusionAI/Ming-3.0-tts",
+        "type": "source"
+      },
+      {
+        "label": "HF 0.5B",
+        "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+        "type": "huggingface"
+      },
+      {
+        "label": "HF tiny",
+        "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-tiny",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-mcp-servers-v2-1-0-security",
+    "date": "2026-10-26",
+    "category": "AI·IT",
+    "title": "MCP 공식 레퍼런스 서버 v2.1.0, 3개 서버 취약점 8건 수정",
+    "summary": "server-filesystem·server-everything은 2.0.1, mcp-server-fetch는 2026.10.24로 올라가며 경로 탈출·심볼릭 링크 TOCTOU, CORS/Origin 검사, IDNA·NAT64 우회 SSRF 등을 고쳤어요. 윈도우 관련 수정은 일부만 적용됐다고 밝혔어요.",
+    "why": "로컬 에이전트에 filesystem·fetch 서버를 붙여 쓰고 있다면 버전을 명시해 업데이트하는 게 좋아요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트(10/25 KST)"
+    },
+    "links": [
+      {
+        "label": "GitHub 릴리스",
+        "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-llama-cpp-b11884-dos-fixes",
+    "date": "2026-10-26",
+    "category": "로컬 AI",
+    "title": "llama.cpp b11882·b11884, 서버 자원 고갈 취약점 2건 수정",
+    "summary": "b11884는 DRY 샘플러의 시퀀스 브레이커로 CPU·메모리를 고갈시킬 수 있던 문제(#31035)를, b11882는 문법(grammar) 재귀 깊이 제한(#29755)을 고쳤어요.",
+    "why": "llama-server를 외부에 열어두고 있다면 최신 빌드로 올리는 게 안전해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스"
+    },
+    "links": [
+      {
+        "label": "b11884 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11884",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-kimi-code-2-3-2-single-agent",
+    "date": "2026-10-26",
+    "category": "로컬 AI",
+    "title": "Kimi Code CLI 2.3.2, 기본 동작을 단일 에이전트로 변경",
+    "summary": "10월 25일 2.3.2부터 하위 에이전트를 스스로 띄우지 않고 직접 처리하며, 에이전트 스웜은 사용자가 /swarm으로 켰을 때만 시작돼요. 그래서 kimi -p나 Zed 같은 ACP 클라이언트에선 스웜을 쓸 수 없어요.",
+    "why": "로컬·자체 모델을 물려 쓰는 경우 토큰 소모와 예측 가능성이 좋아지지만, 스웜에 의존하던 자동화는 설정을 바꿔야 해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공식 체인지로그"
+    },
+    "links": [
+      {
+        "label": "공식 체인지로그",
+        "url": "https://moonshotai.github.io/kimi-code/en/release-notes/changelog.md",
+        "type": "source"
+      },
+      {
+        "label": "GitHub 릴리스",
+        "url": "https://github.com/MoonshotAI/kimi-code/releases",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-elvis-estate-sues-anthropic",
+    "date": "2026-10-26",
+    "category": "AI·IT",
+    "title": "엘비스 프레슬리 권리사, 앤트로픽에 저작권 소송… 274곡·약 4100만 달러",
+    "summary": "엘비스의 음악·초상권을 가진 오센틱 브랜즈 그룹이 10월 23일(현지) 앤트로픽을 고소했어요. Claude 학습에 'Can't Help Falling in Love' 등 274곡을 무단 사용했다는 주장으로, 곡당 15만 달러(약 4100만 달러)를 청구했어요.",
+    "why": "음반사·RIAA가 아니라 아티스트 측 권리사가 AI 회사를 직접 고소한 초기 사례라 음악 카탈로그 학습의 선례가 될 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가디언·NBC·롤링스톤 보도 (빌보드 최초 보도)"
+    },
+    "links": [
+      {
+        "label": "가디언",
+        "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+        "type": "source"
+      },
+      {
+        "label": "NBC",
+        "url": "https://www.nbcnews.com/tech/tech-news/elvis-presleys-rights-holders-sue-anthropic-saying-trained-ai-music-rcna605551",
+        "type": "source"
+      },
+      {
+        "label": "롤링스톤",
+        "url": "https://www.rollingstone.com/music/music-news/elvis-presley-rightsholders-anthropic-lawsuit-infringement-1235647682/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-claude-code-engineers-leave-anthropic",
+    "date": "2026-10-26",
+    "category": "AI·IT",
+    "title": "Claude Code 엔지니어 타리크 시히파르·앤서니 모리스, 앤트로픽 퇴사",
+    "summary": "Claude Code를 1년 넘게 맡아온 타리크 시히파르가 10월 24일 X에서 퇴사를 알리며 휴식 후 새 일을 시작하겠다고 했어요. 데스크톱용 Claude Code를 만들었다는 앤서니 모리스도 전날이 마지막 근무일이었다고 밝혔어요.",
+    "why": "Claude Code의 얼굴 격이던 인물들이라 개발자 커뮤니티 관심이 커요. 퇴사 이유나 다음 행선지는 공개되지 않았어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "본인 X 게시물 인용한 Runtime Wire + 토큰포스트 보도"
+    },
+    "links": [
+      {
+        "label": "Runtime Wire",
+        "url": "https://runtimewire.com/article/thariq-shihipar-and-anthony-morris-have-potentially-departed-anthropic",
+        "type": "source"
+      },
+      {
+        "label": "토큰포스트",
+        "url": "https://www.tokenpost.com/news/people/40214",
+        "type": "source"
+      },
+      {
+        "label": "시히파르 X 게시물",
+        "url": "https://x.com/trq212/status/2113844051938054167",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-brazil-tse-meta-equal-treatment",
+    "date": "2026-10-26",
+    "category": "AI·IT",
+    "title": "브라질 선거법원, 메타에 룰라·플라비오 보우소나루 동등 대우 명령… Meta AI 이미지 생성도 포함",
+    "summary": "브라질 TSE가 Meta AI가 룰라 이미지 생성을 막았다는 문제 제기 이후 양 후보를 똑같이 다루라고 명령했어요. 메타는 10월 20일 법원에 17개 조치를 제출하며 동등하게 대우하고 있다고 반박했어요.",
+    "why": "선거 기간 생성형 AI의 정치 콘텐츠 처리가 법원 명령 대상이 된 사례예요. 10월 25일 결선 투표를 전후해 HN에서도 크게 논의됐어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아젠시아 브라질(국영) + 로이터 보도"
+    },
+    "links": [
+      {
+        "label": "아젠시아 브라질",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-determina-isonomia-apos-ia-da-meta-barrar-imagens-de-lula",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/meta-tells-brazil-court-it-treats-lula-and-bolsonaro-campaigns-equally-4960806",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-25-update-us-banks-ai-agents-blocking",
     "date": "2026-10-25",
     "category": "AI·IT",
