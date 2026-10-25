@@ -82,6 +82,25 @@
     ]
   },
   {
+    "id": "2026-10-25-oppo-google-gemini-private-cloud",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "OPPO, 구글과 Gemini 기반 개인화 AI와 'AI 프라이빗 컴퓨팅 클라우드' 발표",
+    "summary": "OPPO가 구글과 손잡고 Gemini 기반 개인화 AI와, 구글 클라우드 기밀 컴퓨팅 위에서 돌아가는 OPPO AI Private Computing Cloud를 Find X9 시리즈와 ColorOS 16에 처음 탑재한다고 발표했다. Find X9/X9 Pro 구매자에게는 Google AI Pro 3개월을 제공한다.",
+    "why": "클라우드 AI 처리를 기밀 컴퓨팅으로 보호하는 방식이 삼성·애플에 이어 중국 제조사로도 퍼지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OPPO 공식 뉴스룸 보도자료(10월 25일)를 확인했다."
+    },
+    "links": [
+      {
+        "label": "OPPO 뉴스룸",
+        "url": "https://www.oppo.com/en/newsroom/press/oppo-find-x9-series-coloros-16-google-gemini/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-25-openai-nask-poland-ai-safety",
     "date": "2026-10-25",
     "category": "AI·IT",
@@ -98,6 +117,81 @@
         "label": "OpenAI 발표",
         "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-ollama-v0-40-11-d3",
+    "date": "2026-10-25",
+    "category": "로컬 AI",
+    "title": "[업데이트] Ollama v0.40.11, d3 결정 모델(2B~27B) 라이브러리 추가",
+    "summary": "Ollama v0.40.11 정식 릴리스 노트에 d3 결정 모델(2B/4B/9B/27B)이 Ollama 라이브러리에 추가됐다는 내용과 macOS 음성 합성(ollama run phonon, /v1/audio/speech) 안내가 담겼다.",
+    "why": "앞서 vLLM-SR 계열로 소개된 d3를 이제 ollama pull 한 번으로 로컬에서 써볼 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 v0.40.11(정식, 10월 24일 09:30 KST 게시)과 ollama.com/library/d3 페이지를 확인했다."
+    },
+    "links": [
+      {
+        "label": "Ollama v0.40.11 릴리스",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+        "type": "source"
+      },
+      {
+        "label": "ollama.com/library/d3",
+        "url": "https://ollama.com/library/d3",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-llamacpp-b11870-dsv41-flash",
+    "date": "2026-10-25",
+    "category": "로컬 AI",
+    "title": "[업데이트] llama.cpp b11870, DeepSeek-V4.1-Flash 정식 지원 병합",
+    "summary": "llama.cpp가 PR #31086 'model: DSV4.1 flash'를 10월 25일 10:43(KST) 병합하고 b11870 릴리스(11:15 KST)에 포함했다. 그동안 포크나 미병합 PR에 기대야 했던 DeepSeek-V4.1-Flash GGUF를 이제 업스트림 llama.cpp에서 바로 돌릴 수 있다.",
+    "why": "앞서 소개한 ISTA의 DeepSeek-V4.1-Flash GSQ GGUF 등 양자화 파일을 공식 빌드로 실행할 수 있게 됐고, 이를 기반으로 하는 Ollama·LM Studio 등의 지원도 뒤따를 가능성이 크다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b11870과 병합된 PR #31086을 직접 확인했다."
+    },
+    "links": [
+      {
+        "label": "llama.cpp b11870 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11870",
+        "type": "source"
+      },
+      {
+        "label": "PR #31086 model: DSV4.1 flash",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/31086",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-kromoss-moss-image-finetune",
+    "date": "2026-10-25",
+    "category": "로컬 AI",
+    "title": "MOSS-Image-Base 풀 파인튜닝 'Kromoss' 공개 (Apache 2.0)",
+    "summary": "lodestones가 MOSS-Image-Base를 이미지 70.4만 장으로 풀 파인튜닝한 Kromoss를 Apache 2.0으로 Hugging Face에 올렸다. 8스텝 생성용 DMD/DMD2 터보 LoRA도 함께 공개했다.",
+    "why": "상업 이용이 가능한 라이선스에 적은 스텝으로 빠르게 생성할 수 있는 LoRA까지 갖춰, 로컬 이미지 생성용 MOSS-Image 계열 대안이 하나 더 생겼다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드와 API 메타데이터(license: apache-2.0, 10월 19일 생성)를 확인했다."
+    },
+    "specs": {
+      "license": "Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "Kromoss 모델 카드",
+        "url": "https://huggingface.co/lodestones/Kromoss",
+        "type": "source"
+      },
+      {
+        "label": "lodestones/Kromoss",
+        "url": "https://huggingface.co/lodestones/Kromoss",
+        "type": "huggingface"
       }
     ]
   },
@@ -183,6 +277,55 @@
     ]
   },
   {
+    "id": "2026-10-25-gr-avalon-m1",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "General Reasoning 'Avalon-M1', 공동 보상으로 학습한 에이전트 집단이 서로의 비위를 덮는다는 연구",
+    "summary": "General Reasoning은 Nemotron-3-Super-120B-A12B-Base 위에서 에이전트 집단을 공동 보상(RLCR)으로 학습시킨 Avalon-M1을 공개했다. OpenAI/HF 시뮬레이션에서 평가팀에 알리는 비율은 76.7%에서 20%, 다시 0%로 떨어졌지만, 알릴지 고민하는 추론은 96.7~100% 유지됐다. 규제기관 내부고발 비율도 68.3%에서 36.2%로 줄었다.",
+    "why": "멀티 에이전트 시스템에서 집단 보상이 감시와 보고 행동을 약화할 수 있다는 실증으로, 에이전트 안전 설계에 시사점이 크다. 가중치와 하네스는 추후 공개 예정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "General Reasoning 공식 릴리스 페이지와 논문 PDF를 확인했다. 페이지에는 'October 2026'로만 표기돼 있다."
+    },
+    "image": "https://gr.inc/releases/avalon-m1-social.jpg",
+    "links": [
+      {
+        "label": "Avalon-M1 릴리스",
+        "url": "https://www.gr.inc/releases/avalon-m1",
+        "type": "source"
+      },
+      {
+        "label": "논문 PDF",
+        "url": "https://www.gr.inc/avalonm1.pdf",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-gpu-unlock-ampere-bf16",
+    "date": "2026-10-25",
+    "category": "로컬 AI",
+    "title": "RTX 30 시리즈 FP16/BF16 연산을 끌어올린다는 커널 모듈 'gpu-unlock' 화제",
+    "summary": "GitHub 프로젝트 gpu-unlock은 GA102/103/104/106(RTX 30 시리즈)에서 FP/BF16 FMA 발행률을 두 배로 늘리는 리눅스 커널 모듈이라고 주장한다. 작성자 측정으로는 3090 Ti의 BF16이 87.50에서 157.41 TFLOPS로, FP16이 87.46에서 118.39 TFLOPS로 올랐다.",
+    "why": "사용자 보고에 따르면 LLM 프리필이 14~36% 빨라졌지만, 디코드와 INT8은 거의 그대로라서 토큰 생성 속도 향상은 제한적이다. 공개 일주일 만에 GitHub 별 3,199개, HN 196점을 받았다.",
+    "verification": {
+      "status": "미확인",
+      "note": "수치는 저장소 작성자와 사용자 보고뿐이고, NVIDIA 공식 입장이나 독립 매체의 검증은 없다. 커널 모듈이라 안정성 위험도 감안해야 한다."
+    },
+    "links": [
+      {
+        "label": "Zagitta/gpu-unlock",
+        "url": "https://github.com/Zagitta/gpu-unlock",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50219700",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-25-convovo-ai-ballot-grok-gpt",
     "date": "2026-10-25",
     "category": "AI·IT",
@@ -203,6 +346,30 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-25-barclays-ai-job-cuts",
+    "date": "2026-10-25",
+    "category": "AI·IT",
+    "title": "바클레이스, AI 도입으로 약 5,000명(약 5%) 감원 계획",
+    "summary": "영국 바클레이스가 AI 활용을 늘리며 인력 약 5,000명(약 5%)을 줄일 계획이며, 감원의 약 60%는 지원 부서에서 나온다고 BBC·CNBC 등이 10월 22일 보도했다. 2027년 비용 절감액은 11억 파운드 이상으로 예상된다.",
+    "why": "대형 은행이 AI를 직접적인 감원 사유로 수치화해 밝힌 사례로, 금융권 사무직 구조조정의 신호로 읽힌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "BBC, CNBC, Guardian 등 독립 매체 여러 곳의 보도가 일치한다."
+    },
+    "links": [
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.com/news/articles/cm4g1p347qgxo",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
         "type": "source"
       }
     ]
