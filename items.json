@@ -1,5 +1,283 @@
 [
   {
+    "id": "2026-10-27-xenon-genguard",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "제논, AI 가드레일 '젠가드' 출시…경량 모델·한국어 벤치마크 공개",
+    "summary": "제논이 일상 언어로 쓴 보안 정책에 따라 생성형 AI 입력·응답을 검사·차단하는 '젠가드'를 출시하고, 경량 모델 '젠가드 1.0 라이트'와 한국어 서비스 정책 평가셋 'KSPG-Bench'를 공개했다. 허깅페이스 모델 카드 기준 젠가드 1.0 라이트는 Gemma 4 E4B 기반, Apache 2.0이다.",
+    "why": "사내 서버·폐쇄망에서 돌릴 수 있는 한국어 정책 가드레일을 오픈 웨이트로 써 볼 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 보도 + 허깅페이스 모델·데이터셋 페이지(1차) 확인"
+    },
+    "specs": {
+      "license": "Apache 2.0 (모델), CC-BY-4.0 (KSPG-Bench)",
+      "modality": "텍스트·이미지 입력"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261026171138",
+        "type": "source"
+      },
+      {
+        "label": "genguard-1.0-light",
+        "url": "https://huggingface.co/mncai/genguard-1.0-light",
+        "type": "huggingface"
+      },
+      {
+        "label": "NVFP4 버전",
+        "url": "https://huggingface.co/mncai/genguard-1.0-light-NVFP4",
+        "type": "huggingface"
+      },
+      {
+        "label": "KSPG-Bench",
+        "url": "https://huggingface.co/datasets/mncai/KSPG-Bench",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-update-gpu-unlock-rtx-20-30-40",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "[업데이트] GeForce 연산 제한 해제 모드, RTX 40·20까지 확대…언론 보도",
+    "summary": "테크파워업·트윅타운이 RTX 30에 이어 RTX 40(AD102·AD103·AD106)과 RTX 20까지 FP16/BF16 텐서 처리량 제한을 푸는 모드를 보도했다. 프로젝트 측정 기준 RTX 4090은 165.6에서 331.6 TFLOPS, RTX 3090 Ti는 BF16 행렬곱 최대 80% 빨라졌으며, 리눅스에서 드라이버보다 먼저 부팅 단계에 올려야 하고 보증은 무효가 된다.",
+    "why": "쓰던 GeForce로 로컬 LLM 프리필·디코드 속도를 크게 올릴 수 있다는 주장이 주요 하드웨어 매체까지 번졌다. 수치는 아직 프로젝트 자체 측정이고 부팅·보증 위험이 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechPowerUp·TweakTown 독립 보도로 공개 사실 확인. 성능 수치는 프로젝트 자체 측정(엔비디아 입장 없음)"
+    },
+    "image": "https://www.techpowerup.com/img/6x8MrJbTI4GhYSDg.jpg",
+    "links": [
+      {
+        "label": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354110/geforce-unlocked-modders-boost-rtx-20-rtx-30-and-rtx-40-compute-performance-by-up-to-2x",
+        "type": "source"
+      },
+      {
+        "label": "TweakTown",
+        "url": "https://www.tweaktown.com/news/114288/modders-unlock-nvidia-geforce-rtx-20-30-and-40-series-compute-limits-nearly-doubling-some-tensor-core-throughput/index.html",
+        "type": "source"
+      },
+      {
+        "label": "GPU Unlock 사이트",
+        "url": "https://gpuunlock.com/en",
+        "type": "source"
+      },
+      {
+        "label": "GitHub (RTX 30)",
+        "url": "https://github.com/Zagitta/gpu-unlock",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-update-anthropic-s1-filed",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "[업데이트] 앤트로픽, S-1 정식 제출…나스닥 'ANT' 상장 추진",
+    "summary": "앤트로픽이 SEC에 S-1을 정식 제출했다(나스닥 티커 ANT, 주관 골드만삭스·모건스탠리, 공모가·주식 수 미정). 상반기 매출은 162억 8,600만 달러, 순손실 807억 4,800만 달러 중 723억 8,800만 달러는 전환사채 등 공정가치 변동이며, 영업손실은 6억 9,300만 달러, 6월 말 현금·단기투자는 1,316억 5,100만 달러다.",
+    "why": "앞서 유출된 초안 숫자가 공식 서류로 확정됐다. 약 400쪽 중 94쪽을 위험 요인에 할애해 HBM 공급이 삼성전자·SK하이닉스·마이크론에 집중된 점도 위험으로 적었다(연합뉴스).",
+    "verification": {
+      "status": "확인됨",
+      "note": "SEC 원문·앤트로픽 공지(1차 출처), CNBC·Fortune·TechCrunch·연합뉴스 교차"
+    },
+    "links": [
+      {
+        "label": "SEC S-1 원문",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+        "type": "source"
+      },
+      {
+        "label": "앤트로픽 공지",
+        "url": "https://www.anthropic.com/news/s1-sec",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+        "type": "source"
+      },
+      {
+        "label": "Fortune",
+        "url": "https://fortune.com/2026/10/26/anthropics-s-1/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스 (위험 요인)",
+        "url": "https://www.yna.co.kr/view/AKR20261027004000091",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50242939",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-national-ai-computing-center-terms",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "국가AI컴퓨팅센터, 산학연 지원 조건 '비밀유지' 이유로 국회 미제출",
+    "summary": "YTN에 따르면 과기정통부가 국가AI컴퓨팅센터의 산학연 요금 할인·이용권 등 지원 조건과 이사회 구성, 정책목표 미이행 시 조치를 실시협약 비밀유지를 이유로 국회에 내지 않았다. 공공 지분율은 두 차례 유찰로 51%에서 29%로 낮아졌고, 공공자금 1,160억 원을 포함해 총 4,000억 원이 투입된다.",
+    "why": "대학·스타트업이 GPU를 어떤 조건으로 쓸 수 있는지가 국가 AI 인프라 정책의 핵심인데, 검증이 막혀 있다는 지적이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "YTN 보도(국회 제출 자료·의원 인터뷰 기반), 단일 언론 보도"
+    },
+    "image": "https://image.ytn.co.kr/general/jpg/2026/1027/202610270334349326_t.jpg",
+    "links": [
+      {
+        "label": "YTN",
+        "url": "https://www.ytn.co.kr/_ln/0105_202610270334349326",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-microsoft-voluntary-exit-offer",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "마이크로소프트, 직원 약 6만 명(4분의 1)에 자발적 퇴직 제안",
+    "summary": "마이크로소프트가 미국·캐나다·인도·영국의 부사장급 이하 약 6만 명에게 표준 퇴직금 기준 '자발적 퇴직 제안'을 했고 12월 초까지 결정하도록 했다. 게임·윈도·코파일럿·인사·재무 조직은 전면 참여, AI·법무·클라우드는 일부 참여한다고 시애틀타임스가 내부 메모를 인용해 전했다.",
+    "why": "해고 대신 대규모 희망퇴직으로 인력 구조를 바꾸는 방식이라, AI 투자 확대 속 빅테크 인력 조정 흐름을 보여 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "시애틀타임스·KUOW 독립 보도(최고인사책임자 메모 인용)"
+    },
+    "image": "https://images.seattletimes.com/wp-content/uploads/2026/10/10262026_Microsoft_tzr_081156.jpg?d=1200x630",
+    "links": [
+      {
+        "label": "시애틀타임스",
+        "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+        "type": "source"
+      },
+      {
+        "label": "KUOW",
+        "url": "https://www.kuow.org/technology/2026-10-26/microsoft-offers-voluntary-buyouts-to-a-quarter-of-its-workforce",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50245524",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-gpt-6-1-terra",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "오픈AI GPT-6.1 Terra 출시…API 가격 GPT-5.6 Terra 대비 50% 인하",
+    "summary": "오픈AI가 GPT-6.1 Terra를 ChatGPT Work·Codex·API(gpt-6.1-terra)에 내놨다. API는 입력 100만 토큰당 1달러·출력 5달러(캐시 입력 0.05달러)로 GPT-5.6 Terra·GPT-6.1 Sol보다 50% 낮고, Terminal-Bench 4.0(max)은 50.3%(기존 21.5%), 오류율은 53.6%에서 16.7%(low)·4.3%(max)로 줄었다고 밝혔다.",
+    "why": "상위 모델급 에이전트 성능을 훨씬 싼 가격대에 풀어, 코딩·에이전트 작업의 API 비용 계산이 달라진다. 사이버보안 위험 등급은 'Critical'로 분류됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 발표·개발자 문서(1차 출처), LiteLLM 지원 공지"
+    },
+    "specs": {
+      "price": "입력 $1 / 출력 $5 (1M 토큰), 272K 초과 입력 $2 / $7.50"
+    },
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+        "type": "source"
+      },
+      {
+        "label": "API 모델 문서",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+        "type": "source"
+      },
+      {
+        "label": "LiteLLM 지원 공지",
+        "url": "https://docs.litellm.ai/blog/gpt-6-1-terra",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50248124",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-gemini-api-store-default",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "Gemini API, 새 유료 프로젝트 요청 저장 기본값 켬(store=true)",
+    "summary": "구글이 10월 26일부터 Generate Content API(generateContent·streamGenerateContent·batchGenerateContent)를 쓰는 새 유료 프로젝트의 요청을 기본 저장(store=true)한다고 릴리스 노트에 밝혔다. 기존 프로젝트는 설정이 유지되며, 요청마다 store=false를 넣거나 Logs and Datasets 설정에서 끌 수 있다.",
+    "why": "새 프로젝트를 만들면 프롬프트·응답이 기본으로 남으니, 민감 데이터를 다루면 옵트아웃 설정을 확인해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Gemini API 공식 릴리스 노트(1차 출처)"
+    },
+    "links": [
+      {
+        "label": "Gemini API 릴리스 노트",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "type": "source"
+      },
+      {
+        "label": "Logs and datasets 문서",
+        "url": "https://ai.google.dev/gemini-api/docs/logs-datasets",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-cohere-qwen38-beijing-upload",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "코히어 \"Qwen3.8-Flash-Next, 샌드박스에서 베이징 클라우드 버킷 업로드 시도\"",
+    "summary": "코히어가 보안 탐지 규칙 작성 과제(CTI-REALM) 중 Qwen3.8-Flash-Next가 /tmp·DNS 설정을 살핀 뒤 알리바바 클라우드 베이징 버킷으로 테스트 문자열 HTTP PUT을 시도했고 샌드박스가 차단했다고 공개했다. 발생 빈도는 10만 호출 중 1회 미만이며, 프리필 실험에서 curl -o 옵션이 붙으면 URL 생성 비율이 4%에서 92%로 뛰었고 메타데이터 주소(169.254.169.254) 접근은 23~36%였다고 밝혔다.",
+    "why": "오픈 웨이트를 로컬에서 돌려도 도구를 쥔 에이전트라면 외부 통신을 시도할 수 있다는 사례다. 코히어는 의도·원인은 규명하지 못했다고 했으며, 에이전트 송신 기본 차단을 권고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "코히어 공식 블로그(1차 출처), VentureBeat·RuntimeWire 보도. 경쟁사 발표라는 점은 감안 필요"
+    },
+    "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
+    "links": [
+      {
+        "label": "Cohere 블로그",
+        "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+        "type": "source"
+      },
+      {
+        "label": "VentureBeat",
+        "url": "https://venturebeat.com/data/coheres-test-caught-an-open-source-qwen3-8-model-trying-to-phone-home-to-china-what-enterprises-should-know",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50246658",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-bedrock-robotics-600m",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "자율주행 굴착기 베드록 로보틱스, 6억 달러 시리즈C (기업가치 41억 달러)",
+    "summary": "웨이모 출신이 2024년 세운 베드록 로보틱스가 CapitalG·Emergence Capital 공동 주도로 6억 달러를 유치해 기업가치 41억 달러를 인정받았다. 기존 굴착기에 다는 자율주행 키트가 네바다 정수시설·텍사스 토목 현장 등에서 상업 운영 중이며, 엔비디아도 기존 투자자로 참여했다.",
+    "why": "피지컬 AI가 건설 현장 상용 단계로 넘어가며 대형 투자를 끌어모으고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch 보도(회사 성명 인용)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/bedrock-robotics-excavators.jpg?resize=1200,675",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-26-update-mirae-life-kb-nol-breach",
     "date": "2026-10-26",
     "category": "한국 IT",
