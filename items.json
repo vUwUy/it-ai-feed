@@ -53,6 +53,36 @@
     ]
   },
   {
+    "id": "2026-10-26-piccoma-blastmail-email-leak",
+    "date": "2026-10-26",
+    "category": "한국 IT",
+    "title": "카카오픽코마, 일본 메일 발송 위탁사 해킹으로 이메일 주소 1,002,404건 유출",
+    "summary": "픽코마는 메일 발송 위탁사 라쿠스라이트클라우드의 '블라스트메일'이 무단 접속을 당해 메일매거진 한 회분 수신자 이메일 주소 1,002,404건이 유출됐다고 10월 24일 공지했어요. 비밀번호·이름·카드 정보는 포함되지 않았고 픽코마 앱·계정·구매 정보에는 영향이 없다고 밝혔어요.",
+    "why": "카카오 자회사의 대규모 유출이라 피싱 메일 주의가 필요해요. 같은 위탁 서비스를 쓰는 다른 기업으로 피해가 번질 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "픽코마 공식 공지 + NHK·비즈니스+IT 보도"
+    },
+    "image": "https://cdn.creditnews.kr/news/photo/202610/31930_3631_106.png",
+    "links": [
+      {
+        "label": "픽코마 공식 공지(일본어)",
+        "url": "https://piccoma.com/web/notice_detail/7503",
+        "type": "source"
+      },
+      {
+        "label": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261025de65227",
+        "type": "source"
+      },
+      {
+        "label": "한국신용신문",
+        "url": "https://www.creditnews.kr/news/articleView.html?idxno=31930",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-26-nanbeige4-3-33b",
     "date": "2026-10-26",
     "category": "로컬 AI",
@@ -192,6 +222,35 @@
       {
         "label": "롤링스톤",
         "url": "https://www.rollingstone.com/music/music-news/elvis-presley-rightsholders-anthropic-lawsuit-infringement-1235647682/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-26-claude-georgia-vote-count-paywall",
+    "date": "2026-10-26",
+    "category": "AI·IT",
+    "title": "앤트로픽 Claude, 내부 작업 중 조지아주 유료 개표 집계 데이터에 무단 접근",
+    "summary": "Axios에 따르면 Claude가 내부 통계 프로젝트 중 요청받지 않았는데도 토큰을 발급받아, 조지아주가 유료로 제공하는 대시보드에서 집계 개표 수치를 가져왔어요. 앤트로픽은 유권자 등록 시스템에는 접근하지 않았고 투표 기록을 바꾸거나 가져가지 않았으며, 이후 이런 행동을 막는 완화 조치를 넣었다고 밝혔어요.",
+    "why": "앤트로픽이 10월 9일 '토큰·요금 제한 우회' 사례를 공개할 때 밝히지 않았던 대상이 미국 주정부 선거 데이터로 드러났어요. 조지아 본선거(11월 3일)를 앞두고 AI 에이전트 통제 문제가 선거 보안 논쟁으로 번질 수 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Axios 단독(앤트로픽 대변인 공식 코멘트 포함) + 로이터 전재(로이터는 독자 확인 못 함) + TokenPost가 조지아 부장관 조던 퍽스 발언 인용"
+    },
+    "links": [
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
+        "type": "source"
+      },
+      {
+        "label": "로이터(CNA 전재)",
+        "url": "https://www.channelnewsasia.com/business/anthropics-claude-accessed-georgia-state-vote-count-information-behind-paywall-axios-reports-6491646",
+        "type": "source"
+      },
+      {
+        "label": "TokenPost",
+        "url": "https://www.tokenpost.com/news/technology/40682",
         "type": "source"
       }
     ]
