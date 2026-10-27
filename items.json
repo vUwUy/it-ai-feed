@@ -117,6 +117,74 @@
     ]
   },
   {
+    "id": "2026-10-27-unsloth-v0-1-911-minimax-m3-1-flash",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "Unsloth v0.1.911: MiniMax-M3.1-Flash 로컬 실행·예약 작업 추가",
+    "summary": "Unsloth가 v0.1.911-beta에서 MiniMax의 428B MoE(활성 23B) MiniMax-M3.1-Flash GGUF 실행을 지원하고, 1비트 기준 RAM+VRAM 합계 최소 130GB가 필요하다고 안내했다. 로컬 모델로 프롬프트를 정해진 일정에 돌리는 예약 작업, MLX 드래프트 모델 사용 시 최대 16% 빠른 응답, vLLM 생성 GRPO 최대 1.9배 가속도 들어갔다.",
+    "why": "최대 1M 토큰 컨텍스트의 대형 MoE를 130GB급 워크스테이션에서 돌려볼 수 있는 경로가 생겼다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(1차) 확인"
+    },
+    "specs": {
+      "params": "428B MoE (활성 23B)",
+      "memory": "1비트 기준 RAM+VRAM 최소 130GB",
+      "context": "최대 1M 토큰"
+    },
+    "links": [
+      {
+        "label": "Unsloth v0.1.911-beta",
+        "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
+        "type": "source"
+      },
+      {
+        "label": "MiniMax-M3.1-Flash-GGUF",
+        "url": "https://huggingface.co/unsloth/MiniMax-M3.1-Flash-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-transformers-v5-21",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "Transformers v5.21: Flint·MiniCPM-OCR·Pocket TTS 지원, FP8 KV 캐시 추가",
+    "summary": "Hugging Face Transformers v5.21.0이 Recursive의 MoE 모델 Flint, 문서 OCR 특화 MiniCPM-OCR, Kyutai의 100M 파라미터 CPU 실시간 TTS 'Pocket TTS' 등을 새로 지원한다. QuantizedCache에 KV를 float8_e4m3fn으로 저장하는 'fp8' 백엔드가 추가됐고, 텐서 병렬 임베딩·MoE 전문가 샤딩 관련 호환성 변경이 있다.",
+    "why": "새 오픈 모델을 transformers로 바로 돌릴 수 있고, FP8 KV 캐시로 긴 컨텍스트 메모리를 아낄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(1차) 확인"
+    },
+    "links": [
+      {
+        "label": "transformers v5.21",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.21",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-siri-ai-korean-ios-27-2",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "[업데이트] Siri AI, iOS 27.2와 함께 한국어 정식 제공 시작(베타)",
+    "summary": "애플이 10월 26일(미국 시간) 27.2 소프트웨어 업데이트를 배포하면서 Siri AI를 한국어·일본어·프랑스어·포르투갈어·스페인어로 확대했다. Siri AI는 iOS·iPadOS·macOS·watchOS·visionOS 27.2에서 베타로 제공되며, Apple Intelligence 지원 기기와 지원 언어 설정이 필요하고 만 13세 미만은 쓸 수 없다.",
+    "why": "지난주 예고됐던 한국어 Siri AI가 실제로 업데이트로 풀렸고, 서버 모델 기반 기능엔 일일 사용량 제한이 있으며 향후 유료 확장 접근이 예고됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 뉴스룸 공식 발표(1차) 확인. 새 사실: 실제 배포 시작, 일일 사용량 제한·향후 유료 확장 안내, 연내 중국어(번체)·노르웨이어·튀르키예어·베트남어 추가 예정"
+    },
+    "image": "https://www.apple.com/newsroom/images/logos/quick-reads-logos/Apple-Siri.jpg.og.jpg",
+    "links": [
+      {
+        "label": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-openai-eth-false-three-discoveries",
     "date": "2026-10-27",
     "category": "AI·IT",
@@ -215,6 +283,102 @@
       {
         "label": "SEC FWP",
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431036/d116268dfwp.htm",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-ipad-mini-oled-a20-pro",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "애플, OLED·A20 Pro 탑재 새 iPad mini 공개…국내 114만9000원부터",
+    "summary": "애플이 21.6cm OLED 디스플레이와 2나노 A20 Pro 칩을 넣은 두께 5.4mm, IP67 등급의 새 iPad mini를 공개했으며, GPU 코어마다 Neural Accelerator를 탑재해 이전 세대 대비 최대 4.5배 빠른 AI 성능을 낸다고 밝혔다. 한국 가격은 Wi-Fi 모델 1,149,000원, Wi-Fi + Cellular 모델 1,399,000원부터이며 10월 28일 사전 주문, 11월 6일부터 판매가 시작된다.",
+    "why": "애플이 보도자료에서 직접 '로컬 LLM 실행'을 용도로 꼽았을 만큼 온디바이스 AI를 겨냥한 소형 태블릿이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 한국 뉴스룸 보도자료(1차) 확인. 36개 국가·지역 사전 주문"
+    },
+    "image": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg",
+    "specs": {
+      "price": "Wi-Fi 1,149,000원~ / Cellular 1,399,000원~ / 교육용 1,069,000원~",
+      "compute": "A20 Pro(2nm), 7코어 GPU+Neural Accelerator, 512GB 구성은 듀얼 16코어 Neural Engine"
+    },
+    "links": [
+      {
+        "label": "Apple 뉴스룸(한국)",
+        "url": "https://www.apple.com/kr/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-intel-acquires-classiq",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "인텔, 양자컴퓨팅 소프트웨어 기업 클래식(Classiq) 인수…약 22억 달러",
+    "summary": "인텔이 이스라엘 양자컴퓨팅 소프트웨어 기업 클래식(Classiq)을 인수하는 최종 계약을 맺었다고 발표했으며, SiliconANGLE은 인수가를 22억 달러로 보도했다. 인텔은 클래식의 알고리즘 합성 플랫폼과 자사 실리콘 스핀 큐비트 기술을 묶어 풀스택 양자컴퓨팅 플랫폼을 만들겠다며, 거래는 2027년 상반기 마무리 예정이라고 밝혔다.",
+    "why": "인텔이 CPU·GPU·ASIC에 이어 QPU까지 컴퓨팅 포트폴리오를 넓히려는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "인텔 공식 보도자료(1차) + SiliconANGLE 보도 확인. 인수가는 보도자료엔 없고 SiliconANGLE 22억 달러, Calcalist 23억 달러로 매체별 차이"
+    },
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Screenshot-from-2026-10-27-08-39-41.png",
+    "links": [
+      {
+        "label": "Intel 보도자료",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum",
+        "type": "source"
+      },
+      {
+        "label": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/10/26/intel-buys-quantum-software-pioneer-classiq-for-2-2b/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-hob-local-ai-desktop",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "Hob: llama.cpp로 오픈 웨이트 모델을 돌리는 MIT 오픈소스 데스크톱 AI 앱",
+    "summary": "Frigade가 Gemma·gpt-oss 같은 오픈 웨이트 모델을 Mac·Windows·Linux에서 로컬로 실행하는 무료 오픈소스(MIT) AI 앱 'Hob'을 공개했으며, 컴퓨터 사양에 맞는 모델을 골라 자동으로 설정하고 오프라인에서도 동작한다고 밝혔다. Hacker News Show HN 게시물은 124점을 받았다.",
+    "why": "Claude Cowork·ChatGPT 데스크톱의 로컬 대안을 설치형으로 바로 써 볼 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소·README(1차, MIT 라이선스) 확인, HN은 반응 지표로만 사용"
+    },
+    "specs": {
+      "license": "MIT"
+    },
+    "links": [
+      {
+        "label": "FrigadeHQ/hob",
+        "url": "https://github.com/FrigadeHQ/hob",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50246238",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-hbm4-8hi-nvidia-2q",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "삼성·SK하이닉스, 엔비디아용 HBM4 8단 내년 2분기 양산 출하 계획(보도)",
+    "summary": "지디넷코리아는 삼성전자와 SK하이닉스가 엔비디아향 HBM4 8단 제품을 내년 2분기께부터 양산 출하할 계획이라고 보도했다. 엔비디아가 루빈 울트라에 HBM4E 12단 대신 HBM4 8단·HBM4E 8단 병행 탑재를 유력하게 검토하고 있어서이며, 8단은 12단과 별도 인증이 필요하다고 전했다.",
+    "why": "HBM 적층 단수 전략이 바뀌면 국내 메모리 양사의 내년 출하 구성과 일정에 직접 영향을 준다.",
+    "verification": {
+      "status": "미확인",
+      "note": "지디넷코리아 자체 취재(관계자 인용) 단독 보도. 삼성·SK하이닉스·엔비디아 공식 확인 없음"
+    },
+    "image": "https://image.zdnet.co.kr/2026/03/03/15423309097194d4f43ec459e30b2d26.png",
+    "links": [
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261026115227",
         "type": "source"
       }
     ]
@@ -331,6 +495,26 @@
         "label": "sgl-project/sglang v0.5.22",
         "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-chatgpt-naver-overlap-1646",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "챗GPT·네이버 함께 쓰는 사람 1646만 명…1년 새 41.9% 증가",
+    "summary": "모바일인덱스 집계에 따르면 지난달 챗GPT·네이버 중복 사용자는 1646만 명으로 전년 동기(1160만 명)보다 41.9% 늘었고, 챗GPT·구글 중복 사용자는 1655만 명이었다. 챗GPT 이용자 중 네이버를 함께 쓰는 비율은 91.4%, 구글은 91.98%였다.",
+    "why": "생성형 AI가 검색을 대체하기보다 '묻고 검색으로 확인하는' 교차 사용이 국내에서 굳어지고 있다는 데이터다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 보도(아이지에이웍스 모바일인덱스 자료 인용) 확인"
+    },
+    "image": "https://img.etnews.com/news/article/2026/10/26/news-p.v1.20261026.e83fe254143b47dab858c648f0302dad_P1.png",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261026000292",
+        "type": "source"
       }
     ]
   },
