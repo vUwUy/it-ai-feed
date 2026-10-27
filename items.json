@@ -117,6 +117,35 @@
     ]
   },
   {
+    "id": "2026-10-27-openai-eth-false-three-discoveries",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "오픈AI \"자사 AI가 지수시간가설(ETH) 반증\"…수학·물리 포함 3개 성과 발표",
+    "summary": "오픈AI가 AI 모델이 지수시간가설(ETH)이 거짓임을 증명하고 Lean으로 검증했다고 밝혔다. 같은 날 모든 차원의 국소 평활화 추측 증명(가케야·스타인 제한 추측 함의)과 QCD 등 4차원 양자장론 존재 증명도 발표했다.",
+    "why": "ETH는 수백 편의 계산 복잡도 난이도 결과의 전제라, 사실로 확인되면 이론 컴퓨터과학의 기반이 흔들린다. 아직 외부 검증 전이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 블로그(1차) + The Verge·The Next Web 보도 확인. 발표 사실은 확인, 증명 자체는 임팔리아초·파투리·윌리엄스 그룹이 독립 검증 예정"
+    },
+    "links": [
+      {
+        "label": "오픈AI 공식 블로그",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+        "type": "source"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-national-ai-computing-center-terms",
     "date": "2026-10-27",
     "category": "한국 IT",
@@ -162,6 +191,30 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50245524",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-meta-95b-equity-offering",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "메타, AI 인프라 위해 최대 약 950억 달러 주식 발행 계획",
+    "summary": "메타가 약 350억 달러 규모 인수 공모(클래스 A 보통주 약 225억 달러 + 전환우선주 예탁증서 약 125억 달러)를 시작하고, 의결권 없는 클래스 C 주식으로 약 600억 달러 ATM 프로그램을 2027년 1분기 이후 추진한다고 밝혔다. ATM은 아직 계약 전이다.",
+    "why": "AI 설비투자 자금을 부채에 이어 대규모 주식으로 조달하는 사례로, 빅테크 AI 투자 경쟁의 규모를 보여 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 IR 보도자료 + SEC 제출 서류(FWP·424B5) 1차 확인"
+    },
+    "links": [
+      {
+        "label": "메타 IR 보도자료",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+        "type": "source"
+      },
+      {
+        "label": "SEC FWP",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431036/d116268dfwp.htm",
         "type": "source"
       }
     ]
@@ -254,6 +307,30 @@
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50246658",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-cloudflare-glm53-kv-cache-exposure",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "클라우드플레어 Workers AI GLM-5.3, 다른 고객 요청 데이터 섞인 응답 155건…SGLang 버그",
+    "summary": "클라우드플레어가 8월 27일~9월 9일 GLM-5.3 모델에서 681,280토큰 넘는 프롬프트에 대한 응답 155건에 다른 고객 요청 데이터가 섞였다고 공개했다. 설정상 KV 캐시 풀이 컨텍스트보다 작았고, SGLang 분리형 prefill/decode 모드의 거부 처리 버그가 겹쳤다. 고의 악용 증거는 없다고 밝혔다.",
+    "why": "SGLang으로 직접 모델을 서빙한다면 v0.5.22 이상으로 올리고 KV 풀 용량이 컨텍스트 길이보다 큰지 확인해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "클라우드플레어 공식 블로그(1차) + SGLang GitHub 릴리스·이슈 확인"
+    },
+    "links": [
+      {
+        "label": "클라우드플레어 블로그",
+        "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+        "type": "source"
+      },
+      {
+        "label": "sgl-project/sglang v0.5.22",
+        "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
+        "type": "github"
       }
     ]
   },
