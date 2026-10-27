@@ -1,5 +1,287 @@
 [
   {
+    "id": "2026-10-28-tailscale-ssh-vulns",
+    "date": "2026-10-28",
+    "category": "AI·IT",
+    "title": "Tailscale SSH 권한 상승 취약점 조사…패치 준비 중",
+    "summary": "Tailscale이 이미 SSH 접속 권한이 있는 사용자가 설정된 로컬 사용자 권한을 넘어 권한 상승할 수 있는 취약점들을 조사 중이라고 밝혔다. 대부분 수정했고 10월 27일(미국 기준) 패치 배포를 목표로 했지만, 28일 아침 기준 GitHub 최신 릴리스는 아직 10월 21일 v1.104.2다.",
+    "why": "전원 비활성화는 권하지 않지만, 필요 없으면 tailscaled 환경에 TS_SSH_DISABLE_FORWARDING=1을 넣어 SSH 포워딩을 끄면 심각한 항목 여러 개가 완화된다고 안내했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Tailscale 공식 조사 업데이트 페이지 + GitHub 릴리스 목록 확인."
+    },
+    "links": [
+      {
+        "label": "Tailscale 공지",
+        "url": "https://tailscale.com/ssh-investigation-update",
+        "type": "source"
+      },
+      {
+        "label": "tailscale/tailscale 릴리스",
+        "url": "https://github.com/tailscale/tailscale/releases",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-openai-oracle-ai-workspace",
+    "date": "2026-10-28",
+    "category": "AI·IT",
+    "title": "오픈AI·오라클 협력 확대…ChatGPT 안에 오라클 앱, 'AI 시큐리티 메시' 공개",
+    "summary": "오라클 AI 월드에서 오라클 앱·데이터를 ChatGPT로 가져오는 Oracle AI Workspace와 AI Security Mesh, AI SMB Bundle, App Composer가 발표됐다. 미국 고객은 오라클 마켓플레이스에서 OpenAI API·Codex·ChatGPT Work를 살 수 있다.",
+    "why": "오라클 사내에서만 ChatGPT 활성 사용자 13만 명, Codex 활성 사용자 9만5천 명 이상이라고 밝혔다. AI Security Mesh는 취약점을 찾아 고객 승인 후 고치는 보안 서비스다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI·Oracle 양사 공식 발표 확인, 지디넷코리아 현지 보도."
+    },
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+        "type": "source"
+      },
+      {
+        "label": "Oracle 보도자료",
+        "url": "https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261028025822",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-naver-earnings-call-live",
+    "date": "2026-10-28",
+    "category": "한국 IT",
+    "title": "네이버 검색, 국내 상장사 '어닝콜 라이브'·AI 요약 제공",
+    "summary": "네이버가 22일부터 검색에서 국내 상장사 85곳의 실적 콘퍼런스콜을 실시간으로 들려주고, 끝나면 AI가 실적과 핵심 내용을 정리해 준다. 오늘 오전 9시 SK하이닉스, 29일 오전 10시 삼성전자 콜도 들을 수 있다.",
+    "why": "콘텐츠는 IR큐더스가 정제해 제공하고, 해외 기업은 쿼터(Quartr) 영문 원문을 LLM으로 번역해 왔다. 검색의 투자 정보 범위를 넓히는 행보다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 제공 정보 기반 뉴시스 보도 확인."
+    },
+    "image": "https://img1.newsis.com/2026/10/27/NISI20261027_0002275562_web.jpg",
+    "links": [
+      {
+        "label": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261027_0003843584",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-macbook-pro-m6",
+    "date": "2026-10-28",
+    "category": "로컬 AI",
+    "title": "애플, M6 탑재 14인치 맥북 프로 발표…LLM 첫 토큰 최대 1.3배 빨라져",
+    "summary": "M6는 12코어 CPU, 뉴럴 액셀러레이터가 들어간 12코어 GPU, 듀얼 16코어 뉴럴 엔진(M5 대비 1.9배)을 갖췄다. 애플은 M5 대비 AI 최대 25%, LLM 첫 토큰 시간 최대 1.3배 향상을 내세웠다.",
+    "why": "기본 16GB(최대 32GB), 메모리 대역폭 170GB/s라 로컬 LLM은 소형~중형 모델 위주다. 1,999달러부터, 10월 28일 35개국 사전 주문, 11월 6일 출시.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Apple Newsroom 공식 발표 확인. 성능 수치는 애플 자체 측정."
+    },
+    "image": "https://www.apple.com/newsroom/images/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/tile/Apple-MacBook-Pro-14-in-with-M6-hero-261027-lp.jpg.og.jpg?202610271831",
+    "specs": {
+      "memory": "16GB 기본, 최대 32GB 통합 메모리 · 170GB/s",
+      "price": "미국 1,999달러부터"
+    },
+    "links": [
+      {
+        "label": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+        "type": "source"
+      },
+      {
+        "label": "맥북 프로 구매",
+        "url": "https://www.apple.com/macbook-pro/",
+        "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-liquid-lfm3",
+    "date": "2026-10-28",
+    "category": "로컬 AI",
+    "title": "Liquid AI, 2B급 오픈 웨이트 'LFM3' 6종 공개…Ollama v0.40.12 바로 지원",
+    "summary": "텍스트·비전·오디오·옴니·결정(d1) 모델 6종이 하나의 LFM3-1.7B 베이스에서 나왔고, 텍스트 모델은 256K 컨텍스트에 4비트로 약 1GB다. Ollama v0.40.12 정식판이 lfm3·lfm3-vl·lfm3-audio·lfm3-omni·d1:2b를 추가했다(이번 버전은 애플 하드웨어만, 리눅스·윈도우는 곧).",
+    "why": "Liquid는 LFM3-1.7B가 WebArena-Verified 38.42, AutomationBench 41.29로 Qwen3.5-9B보다 높다고 밝혔다(자체 측정). 128K 컨텍스트 KV 캐시가 1.6GB라 휴대폰·노트북용 에이전트에 맞다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Liquid AI 블로그 + HF 블로그·모델 카드 + Ollama GitHub 릴리스 확인. 벤치마크는 자체 측정."
+    },
+    "specs": {
+      "params": "1.73B (텍스트), 1.9~2.2B (VL·Omni)",
+      "license": "LFM Open License v1.0",
+      "memory": "4비트 약 1GB",
+      "context": "256K (텍스트)",
+      "modality": "텍스트·이미지·영상·오디오"
+    },
+    "links": [
+      {
+        "label": "Liquid AI 블로그",
+        "url": "https://www.liquid.ai/blog/lfm3",
+        "type": "source"
+      },
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+        "type": "source"
+      },
+      {
+        "label": "LiquidAI/LFM3-1.7B",
+        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+        "type": "huggingface"
+      },
+      {
+        "label": "LiquidAI/LFM3-Omni-2B",
+        "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+        "type": "huggingface"
+      },
+      {
+        "label": "Ollama v0.40.12",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50262229",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-ling-3-1-flash-1019",
+    "date": "2026-10-28",
+    "category": "로컬 AI",
+    "title": "[업데이트] Ling-3.1-flash-1019 공개·첫 베이스 모델도 MIT로",
+    "summary": "inclusionAI가 560B 총/25B 활성 MoE Ling-3.1-flash의 개선판 1019와 베이스 모델 Ling-3.1-flash-base를 MIT 라이선스로 올렸다. Artificial Analysis 지수 41에서 44, AutomationBench-AA 62%에서 68%로 올랐다고 모델 카드에 적었다.",
+    "why": "1M 토큰 컨텍스트이며 권장 서빙은 H200 8장 수준이라 개인 로컬보다는 자체 호스팅용이다. 미세조정할 수 있는 베이스가 함께 나온 게 새 소식이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(license: mit) 확인. 점수는 개발사 제시."
+    },
+    "specs": {
+      "params": "560B 총 / 25B 활성 (MoE)",
+      "license": "MIT",
+      "context": "1M 토큰",
+      "compute": "권장 8×H200 (TP8+EP8)"
+    },
+    "links": [
+      {
+        "label": "Ling-3.1-flash-1019 모델 카드",
+        "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
+        "type": "source"
+      },
+      {
+        "label": "inclusionAI/Ling-3.1-flash-1019",
+        "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
+        "type": "huggingface"
+      },
+      {
+        "label": "inclusionAI/Ling-3.1-flash-base",
+        "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-base",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-k-composable-cluster",
+    "date": "2026-10-28",
+    "category": "한국 IT",
+    "title": "하이퍼엑셀·리벨리온 등 7곳, 국산 AI칩 'K-컴포저블 클러스터' 458억 국책과제",
+    "summary": "하이퍼엑셀 주관으로 리벨리온·파네시아·망고부스트·래블업·카이스트·네이버클라우드가 NPU·메모리·CPU를 분리된 자원 풀로 묶어 동적으로 배분하는 데이터센터를 만든다. 2025년 4월~2030년 12월, 정부 348억 원 포함 총 458억 원 규모다.",
+    "why": "하이퍼엑셀 LPU '베르사'는 HBM 대신 LPDDR5X 192GB를 써 카드당 250W 수준이고, 프리필은 LPU·디코드는 GPU가 나눠 처리량을 최대 3배 늘리겠다는 계획이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "지디넷코리아(K-클라우드 테크 데이 현장) + 조선비즈 독립 보도 교차 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/10/27/e8f8c4d64c416c0127d68aa877ecccf5.jpg",
+    "links": [
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261027163746",
+        "type": "source"
+      },
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/it-science/ict/2026/10/27/LHPY2FQKWZEANMYTIRRVPVH2Q4/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-deepmind-genie-4",
+    "date": "2026-10-28",
+    "category": "AI·IT",
+    "title": "구글 딥마인드, 실시간 월드 모델 'Genie 4' 공개",
+    "summary": "딥마인드가 오디오·대사까지 함께 생성하는 네이티브 멀티모달 실시간 월드 모델 Genie 4를 공개했다. Gemini 3.8 Flash가 루프 안에서 장면을 조종하며, 지금은 신뢰 테스터 대상 리서치 프리뷰다.",
+    "why": "다음 단계로 Project Genie의 Google AI Ultra 구독자와 Gemini API·AI Studio 얼리 액세스 파트너에게 열릴 예정이고 대기자 명단을 받는다. 모든 출력에는 SynthID 워터마크가 붙는다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google DeepMind 공식 블로그 확인, HN 581점 토론."
+    },
+    "image": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw",
+    "links": [
+      {
+        "label": "DeepMind 블로그",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50261319",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-broadcom-anthropic-63b-financing",
+    "date": "2026-10-28",
+    "category": "AI·IT",
+    "title": "월가 은행·블랙스톤, 앤트로픽에 리스할 브로드컴 칩에 630억 달러 금융",
+    "summary": "BofA·씨티·모건스탠리가 1순위 대출을, 블랙스톤이 2순위를 맡아 앤트로픽에 빌려줄 브로드컴 칩 구매 자금 630억 달러를 조달한다. 브로드컴은 잔존가치 보증을 서며 최대 노출은 430억 달러로 5년에 걸쳐 0으로 줄어든다.",
+    "why": "로이터에 따르면 선순위가 약 435억 달러(69%)이고 칩 인도는 2027년부터다. AI 칩을 리스·금융 구조로 사는 방식이 커지고 있다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "브로드컴 IR 보도자료 + 로이터(Investing.com 전재) 교차 확인."
+    },
+    "links": [
+      {
+        "label": "브로드컴 보도자료",
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/wall-street-banks-blackstone-line-up-63-billion-to-finance-broadcom-chips-for-anthropic-4973662",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-28-anthropic-drug-development",
+    "date": "2026-10-28",
+    "category": "AI·IT",
+    "title": "앤트로픽, 클로드 신약 개발 성과 공개…희귀 근이영양증 회사 Mithril 인수",
+    "summary": "앤트로픽이 BMS·Generate·BigHat·Enveda 등 6곳과의 신약 개발 협업 결과를 공개했다. Enveda 사례에선 클로드가 1,061쪽 제조 문서에서 사람이 찾은 이슈 11건을 모두 잡고 7건을 더 찾아 검토 시간을 89% 줄였다.",
+    "why": "1인 회사 Mithril Medicine을 인수해 자체 근이영양증 신약 프로그램도 시작했고, 빠르면 2028년 말 임상 진입을 기대한다고 밝혔다. 대부분 아직 전임상 단계라는 점도 명시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 연구 글 확인(파트너별 기술 보고서 링크 포함)."
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg",
+    "links": [
+      {
+        "label": "Anthropic 연구 글",
+        "url": "https://www.anthropic.com/research/early-progress-drug-development",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-xint-compaction-smuggling",
     "date": "2026-10-27",
     "category": "AI·IT",
