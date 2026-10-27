@@ -444,6 +444,35 @@
     ]
   },
   {
+    "id": "2026-10-27-doordash-instacart-talks",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "도어대시, 인스타카트 약 170억 달러 인수 막바지 협상 (보도)",
+    "summary": "WSJ·로이터·블룸버그·세마포에 따르면 도어대시가 인스타카트(메이플베어) 인수를 위한 독점·막바지 협상 중이며 기업가치는 약 170억 달러로 거론됩니다. 이르면 이번 주 확정될 수 있지만 무산될 가능성도 있고, 인스타카트의 우버와의 협상은 중단된 상태라고 로이터가 전했습니다.",
+    "why": "성사되면 식당 배달 1위와 장보기 배달 플랫폼이 합쳐지는 대형 테크 인수합병으로, 아마존·월마트와의 배달 경쟁 구도가 바뀝니다.",
+    "verification": {
+      "status": "미확인",
+      "note": "WSJ·로이터·블룸버그·세마포 등 독립 보도 4곳 일치. 양사 공식 발표 전이라 '협상 중' 단계."
+    },
+    "links": [
+      {
+        "label": "WSJ",
+        "url": "https://www.wsj.com/business/hospitality/doordash-is-in-advanced-talks-to-acquire-delivery-rival-instacart-2b3d3d18",
+        "type": "source"
+      },
+      {
+        "label": "로이터(인베스팅닷컴)",
+        "url": "https://www.investing.com/news/stock-market-news/doordash-in-talks-to-buy-instacart-wsj-reports-4973478",
+        "type": "source"
+      },
+      {
+        "label": "세마포",
+        "url": "https://www.semafor.com/article/10/26/2026/doordash-in-exclusive-talks-to-acquire-instacart",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-cohere-qwen38-beijing-upload",
     "date": "2026-10-27",
     "category": "로컬 AI",
@@ -513,6 +542,31 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261026000292",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-cathedral-anthropic-business-systems",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "보안 스타트업 캐시드럴 AI 에이전트, 12시간 안에 앤트로픽 영업·인사·IT 시스템 진입 경로 찾아",
+    "summary": "워싱턴포스트 보도에 따르면 캐시드럴(전 DOGE 직원 창업)은 버그바운티 방식 테스트에서 제3자 관리·영업 소프트웨어 약점을 통해 12시간도 안 돼 앤트로픽 내부 시스템 경로를 찾았습니다. 앤트로픽은 '제한된' 영업·인사·IT 시스템 접근을 확인했지만 고객 대화·Claude 응답·소스 코드·모델 가중치는 접근되지 않았고, 당일 접근을 차단하고 해당 소프트웨어를 비활성화했다고 밝혔습니다.",
+    "why": "S-1 제출 직후 AI 연구소 주변 업무 소프트웨어 보안이 약점으로 드러났고, AI 에이전트가 침투 경로 탐색을 자동화한 사례라 다른 기업에도 같은 SaaS 위험이 있습니다. 앤트로픽은 캐시드럴이 국가안보 영향을 과장하고 테스트 내용을 다 공개하지 않았다고 반박했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "워싱턴포스트 보도 + 디크립트 후속 보도, 앤트로픽 공식 입장 인용(제한적 접근 확인). 취약 소프트웨어 업체명은 비공개."
+    },
+    "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+    "links": [
+      {
+        "label": "워싱턴포스트",
+        "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/",
+        "type": "source"
+      },
+      {
+        "label": "디크립트",
+        "url": "https://decrypt.co/381860/ai-agents-hack-anthropic-business-systems-12-hours",
         "type": "source"
       }
     ]
