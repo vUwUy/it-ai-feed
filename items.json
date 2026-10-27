@@ -121,7 +121,7 @@
     "date": "2026-10-27",
     "category": "로컬 AI",
     "title": "Unsloth v0.1.911: MiniMax-M3.1-Flash 로컬 실행·예약 작업 추가",
-    "summary": "Unsloth가 v0.1.911-beta에서 MiniMax의 428B MoE(활성 23B) MiniMax-M3.1-Flash GGUF 실행을 지원하고, 1비트 기준 RAM+VRAM 합계 최소 130GB가 필요하다고 안내했다. 로컬 모델로 프롬프트를 정해진 일정에 돌리는 예약 작업, MLX 드래프트 모델 사용 시 최대 16% 빠른 응답, vLLM 생성 GRPO 최대 1.9배 가속도 들어갔다.",
+    "summary": "Unsloth가 v0.1.911-beta에서 MiniMax-M3.1-Flash(428B MoE, 활성 23B, 최대 1M 컨텍스트) 실행을 지원하며 1비트 기준 RAM+VRAM 합계 최소 130GB가 필요하다고 안내했다. 예약 작업 기능, MLX 드래프트 모델로 최대 16% 빠른 응답, GRPO 스텝 최대 1.9배(vLLM)·4.4배(vLLM 미사용) 가속, UNSLOTH_TP_SIZE 텐서 병렬 LoRA/QLoRA 학습, API 키 앱의 샌드박스 밖 호출 자가 승인 차단 보안 수정이 들어갔다.",
     "why": "최대 1M 토큰 컨텍스트의 대형 MoE를 130GB급 워크스테이션에서 돌려볼 수 있는 경로가 생겼다.",
     "verification": {
       "status": "확인됨",
@@ -150,7 +150,7 @@
     "date": "2026-10-27",
     "category": "로컬 AI",
     "title": "Transformers v5.21: Flint·MiniCPM-OCR·Pocket TTS 지원, FP8 KV 캐시 추가",
-    "summary": "Hugging Face Transformers v5.21.0이 Recursive의 MoE 모델 Flint, 문서 OCR 특화 MiniCPM-OCR, Kyutai의 100M 파라미터 CPU 실시간 TTS 'Pocket TTS' 등을 새로 지원한다. QuantizedCache에 KV를 float8_e4m3fn으로 저장하는 'fp8' 백엔드가 추가됐고, 텐서 병렬 임베딩·MoE 전문가 샤딩 관련 호환성 변경이 있다.",
+    "summary": "Hugging Face Transformers v5.21이 MiniCPM-OCR, Recursive의 Flint MoE(256개 전문가 중 6개 활성), UltraVBert, Gradium Phonon TTS, CPU에서 실시간보다 빠른 Kyutai Pocket TTS(100M)를 새로 지원한다. QuantizedCache에 FP8 백엔드(cache_config={\"backend\":\"fp8\"})가 추가됐고, MoE TP/EP 계획이 전문가를 샤딩하도록 바뀌는 호환성 변경이 있다.",
     "why": "새 오픈 모델을 transformers로 바로 돌릴 수 있고, FP8 KV 캐시로 긴 컨텍스트 메모리를 아낄 수 있다.",
     "verification": {
       "status": "확인됨",
@@ -169,7 +169,7 @@
     "date": "2026-10-27",
     "category": "AI·IT",
     "title": "[업데이트] Siri AI, iOS 27.2와 함께 한국어 정식 제공 시작(베타)",
-    "summary": "애플이 10월 26일(미국 시간) 27.2 소프트웨어 업데이트를 배포하면서 Siri AI를 한국어·일본어·프랑스어·포르투갈어·스페인어로 확대했다. Siri AI는 iOS·iPadOS·macOS·watchOS·visionOS 27.2에서 베타로 제공되며, Apple Intelligence 지원 기기와 지원 언어 설정이 필요하고 만 13세 미만은 쓸 수 없다.",
+    "summary": "애플이 10월 26일(미국 시간) 27.2 업데이트와 함께 Siri AI를 한국어·일본어·프랑스어·포르투갈어·스페인어로 확대해 iOS·iPadOS·macOS·watchOS·visionOS 27.2에서 베타로 제공한다고 밝혔다. EU에서는 iOS·iPadOS·watchOS용으로 제공되지 않고, 만 13세 미만은 쓸 수 없다.",
     "why": "지난주 예고됐던 한국어 Siri AI가 실제로 업데이트로 풀렸고, 서버 모델 기반 기능엔 일일 사용량 제한이 있으며 향후 유료 확장 접근이 예고됐다.",
     "verification": {
       "status": "확인됨",
@@ -316,13 +316,13 @@
     "date": "2026-10-27",
     "category": "AI·IT",
     "title": "인텔, 양자컴퓨팅 소프트웨어 기업 클래식(Classiq) 인수…약 22억 달러",
-    "summary": "인텔이 이스라엘 양자컴퓨팅 소프트웨어 기업 클래식(Classiq)을 인수하는 최종 계약을 맺었다고 발표했으며, SiliconANGLE은 인수가를 22억 달러로 보도했다. 인텔은 클래식의 알고리즘 합성 플랫폼과 자사 실리콘 스핀 큐비트 기술을 묶어 풀스택 양자컴퓨팅 플랫폼을 만들겠다며, 거래는 2027년 상반기 마무리 예정이라고 밝혔다.",
+    "summary": "인텔이 양자컴퓨팅 소프트웨어 기업 클래식(Classiq)을 인수해 풀스택 양자컴퓨팅 플랫폼을 만들겠다고 발표했으며, 거래는 규제 승인을 거쳐 2027년 상반기 마무리될 예정이다. SiliconANGLE은 인수가를 22억 달러로 보도하며 모빌아이에 이은 인텔의 두 번째로 큰 인수라고 전했다.",
     "why": "인텔이 CPU·GPU·ASIC에 이어 QPU까지 컴퓨팅 포트폴리오를 넓히려는 신호다.",
     "verification": {
       "status": "확인됨",
-      "note": "인텔 공식 보도자료(1차) + SiliconANGLE 보도 확인. 인수가는 보도자료엔 없고 SiliconANGLE 22억 달러, Calcalist 23억 달러로 매체별 차이"
+      "note": "인텔 공식 보도자료(1차) + SiliconANGLE 보도 확인. 인수가는 보도자료엔 없고 SiliconANGLE 보도 기준(22억 달러). 립부 탄 CEO는 Classiq 초기 투자자"
     },
-    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Screenshot-from-2026-10-27-08-39-41.png",
+    "image": "https://d1io3yog0oux5.cloudfront.net/_0b73b58ec4299bfad2a70bdb80903760/intel/db/878/6995/social_image_resized.jpg",
     "links": [
       {
         "label": "Intel 보도자료",
@@ -340,9 +340,9 @@
     "id": "2026-10-27-hob-local-ai-desktop",
     "date": "2026-10-27",
     "category": "로컬 AI",
-    "title": "Hob: llama.cpp로 오픈 웨이트 모델을 돌리는 MIT 오픈소스 데스크톱 AI 앱",
-    "summary": "Frigade가 Gemma·gpt-oss 같은 오픈 웨이트 모델을 Mac·Windows·Linux에서 로컬로 실행하는 무료 오픈소스(MIT) AI 앱 'Hob'을 공개했으며, 컴퓨터 사양에 맞는 모델을 골라 자동으로 설정하고 오프라인에서도 동작한다고 밝혔다. Hacker News Show HN 게시물은 124점을 받았다.",
-    "why": "Claude Cowork·ChatGPT 데스크톱의 로컬 대안을 설치형으로 바로 써 볼 수 있다.",
+    "title": "Hob: 오픈 웨이트 모델을 로컬로 돌리는 MIT 오픈소스 데스크톱 AI 앱",
+    "summary": "FrigadeHQ가 Gemma·gpt-oss 같은 오픈 웨이트 모델을 Mac·Windows·Linux에서 로컬로 실행하는 오픈소스(MIT) 데스크톱 앱 Hob을 공개했으며, 내 컴퓨터에 맞는 최적 모델을 골라 설정해 주고 오프라인에서도 동작한다. Hacker News Show HN 게시물은 124점, 댓글 30개를 받았다.",
+    "why": "모델 선택·설정 없이 설치만으로 로컬 AI를 써 볼 수 있는 진입로다.",
     "verification": {
       "status": "확인됨",
       "note": "GitHub 저장소·README(1차, MIT 라이선스) 확인, HN은 반응 지표로만 사용"
@@ -368,13 +368,12 @@
     "date": "2026-10-27",
     "category": "한국 IT",
     "title": "삼성·SK하이닉스, 엔비디아용 HBM4 8단 내년 2분기 양산 출하 계획(보도)",
-    "summary": "지디넷코리아는 삼성전자와 SK하이닉스가 엔비디아향 HBM4 8단 제품을 내년 2분기께부터 양산 출하할 계획이라고 보도했다. 엔비디아가 루빈 울트라에 HBM4E 12단 대신 HBM4 8단·HBM4E 8단 병행 탑재를 유력하게 검토하고 있어서이며, 8단은 12단과 별도 인증이 필요하다고 전했다.",
+    "summary": "지디넷코리아는 삼성전자와 SK하이닉스가 엔비디아향 HBM4 8단 제품을 내년 2분기부터 양산 출하할 계획이라고 보도했다. 엔비디아가 12단의 발열·수율 문제로 루빈 울트라에 HBM4 8단·HBM4E 8단 병행 탑재를 유력하게 검토하고 있으며, 8단은 별도 인증이 필요하다고 전했다.",
     "why": "HBM 적층 단수 전략이 바뀌면 국내 메모리 양사의 내년 출하 구성과 일정에 직접 영향을 준다.",
     "verification": {
       "status": "미확인",
       "note": "지디넷코리아 자체 취재(관계자 인용) 단독 보도. 삼성·SK하이닉스·엔비디아 공식 확인 없음"
     },
-    "image": "https://image.zdnet.co.kr/2026/03/03/15423309097194d4f43ec459e30b2d26.png",
     "links": [
       {
         "label": "지디넷코리아",
