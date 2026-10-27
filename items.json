@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-10-27-xint-compaction-smuggling",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "Xint, OpenAI API 'Compaction Smuggling' 취약점 공개…추론 흔적 유출 가능했다",
+    "summary": "보안업체 Xint가 OpenAI API의 컴팩션 기능으로 프런티어 모델의 암호화된 추론 내용을 다른 모델(gpt-4.1, gpt-4o 등)에서 풀어 볼 수 있었던 문제를 공개했다. OpenAI는 10월 23일 수정했고 Xint에 6,000달러 포상금을 줬다.",
+    "why": "8월 수정이 우회된 사례로, 추론 흔적 증류(모델 베끼기) 방어의 허점을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Xint 블로그(1차) + CSO Online 보도"
+    },
+    "links": [
+      {
+        "label": "Xint 블로그",
+        "url": "https://xint.io/blog/compaction-smuggling-reasoning-traces",
+        "type": "source"
+      },
+      {
+        "label": "CSO Online",
+        "url": "https://www.csoonline.com/article/4240662/openais-august-fix-for-theft-of-reasoning-traces-was-quickly-bypassed.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-xenon-genguard",
     "date": "2026-10-27",
     "category": "한국 IT",
@@ -34,6 +58,30 @@
         "label": "KSPG-Bench",
         "url": "https://huggingface.co/datasets/mncai/KSPG-Bench",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-vera-rubin-hbm4-spec",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "엔비디아, 베라 루빈 HBM4 대역폭 사양 하향…GPU당 22→19.2TB/s",
+    "summary": "엔비디아가 베라 루빈 GPU당 HBM4 대역폭을 22TB/s에서 19.2TB/s로, NVL72 기준 1,580TB/s에서 1,400TB/s로 낮췄다. 용량 288GB는 그대로다. 전자신문은 삼성전자·SK하이닉스의 HBM4 공급 부담이 줄 것으로 봤다.",
+    "why": "HBM4 속도 경쟁과 국내 메모리 업체 수율·공급 일정에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 보도 + 엔비디아 Vera Rubin NVL72 제품 페이지에서 19.2TB/s·1,400TB/s 확인(이전 값은 보도 기준)"
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261027000263",
+        "type": "source"
+      },
+      {
+        "label": "NVIDIA Vera Rubin NVL72",
+        "url": "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/",
+        "type": "source"
       }
     ]
   },
@@ -214,6 +262,88 @@
     ]
   },
   {
+    "id": "2026-10-27-ollama-0-40-12-rc0",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "Ollama v0.40.12-rc0: MLX DFlash2 지원, Gemma 4 소형 비전 세부 보존",
+    "summary": "Ollama 프리릴리스 v0.40.12-rc0이 MLX 엔진에 DFlash2를 지원하고, 소형 Gemma 4 비전 타워에서 작은 이미지 디테일을 보존하며, gemma·flint·laguna의 MLX 프롬프트 처리를 빠르게 했다. 내장 llama.cpp는 b11901로 올렸다.",
+    "why": "맥(MLX)에서 Ollama를 쓰는 경우 정식판에 들어갈 변화다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(1차), 프리릴리스"
+    },
+    "links": [
+      {
+        "label": "릴리스 노트",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+        "type": "source"
+      },
+      {
+        "label": "GitHub 릴리스",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-nvidia-meta-3b-muse",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "[업데이트] 엔비디아, 메타 증자에 30억 달러 투자…Muse 협력 확대",
+    "summary": "엔비디아가 메타의 주식 발행에 30억 달러를 투자하고 Muse 모델 계열 협력을 넓힌다고 발표했다. 메타는 Vera Rubin·Vera CPU·Spectrum-X·BlueField-4 도입을 확대한다. CNA는 메타가 증자 규모를 975억 달러로 늘렸다고 보도했다.",
+    "why": "앞서 전한 메타 대규모 증자에 엔비디아가 직접 참여한다는 새 사실이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 뉴스룸(1차) + 로이터·CNA 보도"
+    },
+    "links": [
+      {
+        "label": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+        "type": "source"
+      },
+      {
+        "label": "Reuters (Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/nvidia-meta-partner-on-muse-agent-as-nvidia-invests-3-billion-4974243",
+        "type": "source"
+      },
+      {
+        "label": "CNA",
+        "url": "https://www.channelnewsasia.com/business/nvidia-meta-deepen-ai-ties-3-billion-investment-deal-6495591",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-naver-brookfield-9b",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "네이버, 브룩필드와 90억 달러 AI 컴퓨팅 인프라 계약…엔비디아 지분 투자 조건 충족",
+    "summary": "브룩필드가 특수목적법인(가칭 Asset Co.)을 세워 최대 90억 달러를 GPU·데이터센터에 투자하고 네이버클라우드에 컴퓨팅을 공급한다. 네이버는 최대 8년간 이용료를 보증하며, 2027년 상반기 55MW에서 2028년 200MW로 늘린다. 이로써 엔비디아의 10억 달러 제3자 배정 유상증자(4.5%, 3대 주주) 선행 조건이 충족됐고 납입일은 10월 30일이다.",
+    "why": "국내 플랫폼 기업 최대 규모 AI 인프라 계약이자 엔비디아의 네이버 지분 참여가 확정 단계에 들어섰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 공시 기반 연합뉴스·ZDNet Korea·뉴스웍스 보도"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261027150700017",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261027162912",
+        "type": "source"
+      },
+      {
+        "label": "뉴스웍스",
+        "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=900971",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-national-ai-computing-center-terms",
     "date": "2026-10-27",
     "category": "한국 IT",
@@ -283,6 +413,45 @@
       {
         "label": "SEC FWP",
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431036/d116268dfwp.htm",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-kt-token-factory",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "KT '토큰 팩토리' 30일 출시…AI 모델 73종, 11월 오픈라우터로 500여 종 추가",
+    "summary": "KT가 토큰 단위로 과금하는 AI 모델 API 서비스 '토큰 팩토리'를 30일 출시한다. 73개 모델로 시작하며 이 중 7개(업스테이지·모티프 모델, KT 자체 120B 모델 등)는 국내 GPU에서 직접 돌린다. 11월 오픈라우터 연동으로 약 500개 모델을 더하고 국산 모델을 오픈라우터에 등록한다.",
+    "why": "국산 모델을 국내 인프라에서 API로 쓰는 선택지가 늘어난다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "KT 기자간담회 ZDNet Korea 보도(2건)"
+    },
+    "image": "https://image.zdnet.co.kr/2026/10/27/ccfe1004bfa571449870dee96d18c753.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261027145339",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-kr-chip-stocks-anthropic",
+    "date": "2026-10-27",
+    "category": "한국 IT",
+    "title": "앤트로픽 상장 추진에 반도체주 급등…코스피 3%대 상승, 매수 사이드카",
+    "summary": "앤트로픽 IPO 소식에 삼성전자가 4.23% 오른 22만2천원, SK하이닉스가 5.18% 오른 134만1천원을 기록했고 코스피는 3% 넘게 올라 매수 사이드카가 발동됐다.",
+    "why": "AI 기업 상장 기대가 국내 메모리 업체 주가로 바로 이어졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261027045051008",
         "type": "source"
       }
     ]
@@ -473,6 +642,25 @@
     ]
   },
   {
+    "id": "2026-10-27-devin-security-2",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "Cognition 'Devin Security 2.0' 출시…Claude Mythos로 코드 취약점 스캔·수정 PR",
+    "summary": "Cognition이 Claude Mythos 등 프런티어 사이버 모델로 코드를 스캔하고, 고객별 위협 모델로 우선순위를 매긴 뒤 검증된 수정안을 PR로 올리는 Devin Security 2.0을 내놨다. 기업은 별도 모델 접근 권한 없이 Devin을 통해 쓸 수 있다.",
+    "why": "접근이 제한된 보안 특화 모델을 기업이 우회 없이 쓰는 경로가 생겼다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Cognition 공식 블로그(1차)"
+    },
+    "links": [
+      {
+        "label": "Cognition 블로그",
+        "url": "https://cognition.com/blog/devin-security",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-cohere-qwen38-beijing-upload",
     "date": "2026-10-27",
     "category": "로컬 AI",
@@ -587,6 +775,60 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-baidu-unlimited-ocr-2",
+    "date": "2026-10-27",
+    "category": "로컬 AI",
+    "title": "바이두 Unlimited OCR 2 공개…약 3B, MIT, 수백 쪽 문서를 한 번에 파싱",
+    "summary": "바이두가 고정 크기 참조 집합으로 주의 연산을 묶는 SR-SWA를 적용해 문서 길이와 무관하게 디코딩 지연·메모리가 거의 일정하다는 OCR 모델 Unlimited OCR 2를 공개했다. MPDocBench·MarathonDocBench SOTA는 바이두 주장이다. Transformers와 SGLang(권장)을 지원한다.",
+    "why": "책 한 권 분량 PDF를 로컬 GPU에서 통째로 텍스트화하는 용도로 쓸 만한 소형 오픈 모델.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드(1차), 벤치마크 수치는 제작사 주장"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/baidu/Unlimited-OCR-2.png",
+    "specs": {
+      "params": "약 3.34B (safetensors 기준)",
+      "license": "MIT",
+      "modality": "이미지→텍스트"
+    },
+    "links": [
+      {
+        "label": "허깅페이스 모델 카드",
+        "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+        "type": "source"
+      },
+      {
+        "label": "Unlimited-OCR-2",
+        "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-27-aisi-reprobait",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "영국 AISI 'ReproBAIT': 코딩 에이전트가 논문만 보고 생물 AI 도구 일부를 재현",
+    "summary": "영국 AI보안연구소(AISI)가 코딩 에이전트에게 생물학 AI 도구를 재구현하게 한 평가를 공개했다. GPU 1개·제한된 시간으로 ProteinMPNN을 최대 96.5% 충실도로 재현했지만 RFdiffusion3의 백본 설계 기능은 재현하지 못했다.",
+    "why": "코드만 비공개로 두는 것으로는 위험한 기능을 막기 어려울 수 있다는 정책적 시사점.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AISI 블로그(1차) + arXiv 논문"
+    },
+    "links": [
+      {
+        "label": "AISI 블로그",
+        "url": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
+        "type": "source"
+      },
+      {
+        "label": "arXiv 2610.19810",
+        "url": "https://arxiv.org/abs/2610.19810",
         "type": "source"
       }
     ]
