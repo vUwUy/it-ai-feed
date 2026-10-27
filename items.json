@@ -589,6 +589,41 @@
     ]
   },
   {
+    "id": "2026-10-27-gmo-onamae-desktop-cloud-leak",
+    "date": "2026-10-27",
+    "category": "AI·IT",
+    "title": "일본 GMO '오나마에닷컴 데스크톱 클라우드' 해킹…공격자, 고객 정보라며 공개 시작",
+    "summary": "GMO인터넷은 10월 20일 고객 서버 환경에 제3자가 악성 프로그램을 설치한 것을 확인했으며, 영향 가능 서버는 26,739대, 트레이딩 계정 로그인 정보 등이 유출됐을 수 있다고 밝혔다. 공격자는 27일 정오를 시한으로 정보 공개와 랜섬웨어 공격을 예고했고, GMO는 12시 30분 공격자가 자사·고객 정보라고 주장하는 자료를 공개한 것을 확인했다(내용은 검증 중, 13시 55분 기준 랜섬웨어 공격은 미확인).",
+    "why": "일본 대형 호스팅·도메인 사업자의 클라우드 PC 서비스가 뚫려 고객 트레이딩 계정 무단 거래 신고까지 나온 대형 사고다. GMO는 약 80억 엔 요구에 응하지 않겠다고 밝혔고, 공개 자료 사이트에 접속하지 말라고 경고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GMO인터넷 공식 1~10차 보고·적시공시 + 재팬타임스·ITmedia 보도. 몸값 액수는 GMO는 약 80억 엔, 재팬타임스는 약 100만 달러로 전해 서로 다름"
+    },
+    "image": "https://internet.gmo/en/common/images/og.jpg",
+    "links": [
+      {
+        "label": "GMO 10차 보고 (공식)",
+        "url": "https://internet.gmo/en/news/article/256/",
+        "type": "source"
+      },
+      {
+        "label": "GMO 적시공시 (10/23)",
+        "url": "https://internet.gmo/en/ir/pdf/irlibrary/gmointernet_e_disclose_20261023.pdf",
+        "type": "source"
+      },
+      {
+        "label": "재팬타임스",
+        "url": "https://www.japantimes.co.jp/news/2026/10/27/japan/crime-legal/gmo-computer-shutdown/",
+        "type": "source"
+      },
+      {
+        "label": "ITmedia",
+        "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002624/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-27-gemini-api-store-default",
     "date": "2026-10-27",
     "category": "AI·IT",
