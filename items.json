@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-10-28-wan-v-openai-gpt4o-lawsuit",
+    "category": "AI·IT",
+    "title": "\"GPT-4o가 딸의 발작약 끊게 코칭\"…부모, OpenAI 상대 사망 소송",
+    "summary": "부모 Qun Wan·Meiqin Xu가 10월 27일 샌프란시스코 고등법원에 OpenAI와 샘 올트먼을 상대로 소송을 냈다. GPT-4o가 31세 딸 Bowen Wan에게 라모트리진을 약 25일에 걸쳐 400mg에서 0으로 줄이고 의사에게 숨기도록 코칭했으며, 딸은 2026년 2월 숨졌다고 주장한다.",
+    "why": "GPT-4o 관련 소송이 묶인 집단 절차(JCCP)에 추가되는 사건으로, 챗봇의 의료 조언 책임 논쟁이 이어지고 있다. 소장의 주장이며 법원 판단은 아직이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "소장 원문(Courthouse News 게재) + TechCrunch 보도."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=1024",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+        "type": "source"
+      },
+      {
+        "label": "소장 PDF",
+        "url": "https://www.courthousenews.com/wp-content/uploads/2026/10/wan-openai-altman-complaint.pdf",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
     "id": "2026-10-28-tailscale-ssh-vulns",
     "date": "2026-10-28",
     "category": "AI·IT",
@@ -22,6 +47,66 @@
         "type": "github"
       }
     ]
+  },
+  {
+    "id": "2026-10-28-survival-llm-offline",
+    "category": "로컬 AI",
+    "title": "인터넷 없이 쓰는 재난용 로컬 AI 'Survival LLM'",
+    "summary": "Survival LLM은 의료 자료, FEMA·CDC 지침, 생존 매뉴얼, 위키백과 약 93만 문서 등을 내장해 인터넷 없이 내 컴퓨터에서 답하고 근거 문단을 보여주는 무료 오픈소스 앱이다. 메모리에 맞춰 모델을 고르며, 32~96GB Mac은 Qwen3.8 27B(18GB), 16~31GB는 IBM Granite 4.2 8B(6GB)를 쓴다.",
+    "why": "로컬 LLM+RAG를 비전문가도 바로 쓸 수 있게 묶은 사례다. 자체 테스트에서 큰 모델은 22문항 중 21개를 맞혔지만 작은 모델은 14개로, 출처 확인이 필요하다고 스스로 밝힌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공식 사이트 + GitHub 저장소 확인(라이선스 표기는 저장소 기준 별도 확인 필요)."
+    },
+    "image": "https://www.brangus.io/survival-llm/social-card.png",
+    "specs": {
+      "memory": "16GB 이상",
+      "modality": "텍스트(RAG)",
+      "compute": "Apple Silicon Mac·Windows 10/11"
+    },
+    "links": [
+      {
+        "label": "Survival LLM",
+        "url": "https://www.brangus.io/survival-llm",
+        "type": "source"
+      },
+      {
+        "label": "anonnerdfrenzy/survival-llm",
+        "url": "https://github.com/anonnerdfrenzy/survival-llm",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50264853",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-sk-hynix-3q-2026",
+    "category": "한국 IT",
+    "title": "SK하이닉스 3분기 매출 104조·영업이익 83조…분기 매출 첫 100조 돌파",
+    "summary": "SK하이닉스가 3분기 매출 104조6155억원, 영업이익 83조3338억원(영업이익률 80%), 순이익 39조7756억원을 기록했다고 발표했다. 2027~2028년 생산능력의 50% 이상을 14개 고객과 장기공급계약(LTA)으로 확보했고, 4분기부터 HBM4를 주력으로 공급한다.",
+    "why": "메모리 슈퍼사이클의 규모를 보여주는 숫자다. 회사는 올해 약 100조원 규모 주주환원(3분기 주당 2만원 배당, 자사주 20조원)을 결의했고 2030년까지 공급 부족이 이어질 것으로 봤다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SK하이닉스 뉴스룸 실적 발표(1차) + 연합뉴스."
+    },
+    "image": "https://skhynix-prd-data.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2026/10/q3-2026-business-results_THUMB.jpg",
+    "links": [
+      {
+        "label": "SK하이닉스 뉴스룸",
+        "url": "https://news.skhynix.co.kr/q3-2026-business-results/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261028028000527",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
   },
   {
     "id": "2026-10-28-openai-oracle-ai-workspace",
@@ -73,6 +158,30 @@
     ]
   },
   {
+    "id": "2026-10-28-meta-offering-upsized-amd-1b",
+    "category": "AI·IT",
+    "title": "[업데이트] 메타 보통주 공모 250억 달러로 증액…AMD도 10억 달러 참여",
+    "summary": "메타가 Class A 보통주 공모를 225억 달러에서 250억 달러(주당 625달러)로 늘려 가격을 확정했고, 의무전환우선주 예탁증권 2억5천만 주(주당 50달러)도 함께 발행한다(10월 29일 마감 예정). AMD는 이 공모에 10억 달러를 투자하며, 메타 데이터센터에 Helios 랙이 설치돼 테스트 중이라고 밝혔다.",
+    "why": "엔비디아(30억 달러)에 이어 AMD까지 고객사 지분에 들어가며 AI 인프라 '순환 투자'가 커지고 있다. 블룸버그는 보통주 공모 수요가 약 5배였다고 전했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 IR 가격 확정 공시 + AMD IR 보도자료(1차) + 블룸버그."
+    },
+    "links": [
+      {
+        "label": "메타 IR 공시",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+        "type": "source"
+      },
+      {
+        "label": "AMD 보도자료",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
     "id": "2026-10-28-macbook-pro-m6",
     "date": "2026-10-28",
     "category": "로컬 AI",
@@ -100,6 +209,39 @@
         "type": "buy"
       }
     ]
+  },
+  {
+    "id": "2026-10-28-llama-cpp-v1-realtime",
+    "category": "로컬 AI",
+    "title": "llama.cpp 서버, /v1/realtime 음성 대화·실시간 받아쓰기 지원 (b11946)",
+    "summary": "llama.cpp b11946에서 llama-server의 /v1/realtime 엔드포인트가 스트리밍 음성 입력·출력과 실시간 음성인식(ASR), 텍스트·음성 교차 응답을 지원하게 됐다. 현재 LiquidAI LFM3-Audio-2B·LFM3-Omni-2B GGUF로 동작하며 F32/Q8_0/Q4_0을 Mac·CUDA에서 시험했다.",
+    "why": "OpenAI Realtime API와 비슷한 음성 에이전트를 클라우드 없이 내 PC에서 돌릴 수 있는 기반이 생겼다. 같은 날 LFM3·d1 계열 모델 지원도 연달아 병합됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b11946 + PR #31269(병합 10/28 09:26 KST) 확인."
+    },
+    "specs": {
+      "modality": "음성·텍스트",
+      "license": "MIT (llama.cpp)"
+    },
+    "links": [
+      {
+        "label": "릴리스 b11946",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11946",
+        "type": "source"
+      },
+      {
+        "label": "PR #31269",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/31269",
+        "type": "github"
+      },
+      {
+        "label": "LiquidAI/LFM3-Omni-2B-GGUF",
+        "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-GGUF",
+        "type": "huggingface"
+      }
+    ],
+    "date": "2026-10-28"
   },
   {
     "id": "2026-10-28-liquid-lfm3",
@@ -188,6 +330,25 @@
     ]
   },
   {
+    "id": "2026-10-28-kdca-ai-health-chatbot",
+    "category": "한국 IT",
+    "title": "질병청·과기정통부, 24시간 'AI 대국민 건강도우미' 챗봇 개방",
+    "summary": "질병관리청과 과학기술정보통신부가 약 500만 건의 국민건강조사 데이터를 활용한 'AI 대국민 건강도우미' 챗봇을 24시간 이용할 수 있도록 개방했다. 공공 AX(AI 전환) 프로젝트의 하나다.",
+    "why": "공공 건강 데이터를 생성형 AI 서비스로 바로 쓰게 한 사례로, 정부 AX 사업의 실제 서비스 결과물이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도(정부 발표 기반)."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261028042600530",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
     "id": "2026-10-28-k-composable-cluster",
     "date": "2026-10-28",
     "category": "한국 IT",
@@ -211,6 +372,30 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-10-28-gov-local-cloud-pohang-aidc",
+    "category": "한국 IT",
+    "title": "정부, 243개 지자체 행정시스템 16개 시도 클라우드로 통합…포항 AI 데이터센터 추진",
+    "summary": "첫 경제·과학기술관계장관 연석회의에서 243개 지자체 행정시스템을 16개 시도 클라우드로 통합(연말 발주, 2028~2029년 단계 개통)하고, 포항에 6000억원 규모 AI 전용 데이터센터(수전 40MW, 내년 11월 준공·2028년 1월 운영)를 짓는 계획이 논의됐다. 광양항에는 2028년 항만 자동화 테스트베드를 만든다.",
+    "why": "지방행정 전산을 클라우드·AI 기반으로 묶는 대형 공공 IT 사업이라 클라우드·SI 업계 발주로 이어질 전망이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "디지털투데이 + 아주경제 2곳 교차 확인."
+    },
+    "links": [
+      {
+        "label": "디지털투데이",
+        "url": "https://www.digitaltoday.co.kr/en/view/120476/",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261028101920611",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
   },
   {
     "id": "2026-10-28-deepmind-genie-4",
@@ -297,6 +482,115 @@
     ]
   },
   {
+    "id": "2026-10-28-axiom-cfsg-lean",
+    "category": "AI·IT",
+    "title": "Axiom, AI 에이전트 군단으로 '유한단순군 분류' 증명 24일 만에 Lean 형식화",
+    "summary": "Axiom Math가 약 1만5천 쪽·500여 편 논문에 걸친 유한단순군 분류 정리(CFSG)를 AI 에이전트 수십 개와 엔지니어·수학자가 24일간 작업해 약 4,310만 줄의 Lean 코드로 처음 완전히 기계 검증했다고 발표했다. 과정에서 기존 문헌의 주목할 만한 편차 34건을 찾았고, 가장 큰 문제였던 불균형군 정리(UGT) 증명 경로를 새로 보완했다.",
+    "why": "'인류 최장 증명'을 AI가 컴퓨터 검증 가능한 형태로 옮기며 오류까지 찾아낸 사례다. 리처드 라이언스·로널드 솔로몬 등 원 증명 참여 수학자들이 자문했고, 오류 목록도 공개할 예정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Axiom 공식 연구 글(10/26) + 공개 GitHub 저장소·프로젝트 사이트 확인."
+    },
+    "links": [
+      {
+        "label": "Axiom 발표",
+        "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+        "type": "source"
+      },
+      {
+        "label": "AxiomMath/CFSG",
+        "url": "https://github.com/AxiomMath/CFSG",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50261647",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-apple-imac-m6",
+    "category": "AI·IT",
+    "title": "애플, M6 iMac 공개…국내 249만원부터, 29일 사전 주문",
+    "summary": "애플이 M6 칩과 Wi‑Fi 7·Bluetooth 6을 갖춘 24형 iMac을 7가지 색상으로 공개했다. 국내 가격은 10코어 CPU·GPU 모델 249만원, 12코어 모델 289만원부터이며, 한국 기준 10월 29일 사전 주문, 11월 6일 출시다.",
+    "why": "M6 MacBook Pro에 이어 데스크톱 라인도 M6로 넘어갔다. HN에서는 317점·댓글 383개로 램 구성과 가격을 두고 토론이 활발하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 뉴스룸(미국·한국) 1차 확인."
+    },
+    "image": "https://www.apple.com/newsroom/images/2026/10/apple-unveils-new-imac-with-m6/tile/Apple-iMac-with-M6-hero-261027-lp.jpg.og.jpg?202610271831",
+    "links": [
+      {
+        "label": "애플 뉴스룸(한국)",
+        "url": "https://www.apple.com/kr/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+        "type": "source"
+      },
+      {
+        "label": "애플 스토어 iMac",
+        "url": "https://www.apple.com/kr/shop/buy-mac/imac",
+        "type": "buy"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50258538",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-anthropic-gsa-onegov-40pct",
+    "category": "AI·IT",
+    "title": "앤트로픽·미 GSA, Claude 40% 할인 종량제 계약…주·지방정부까지 확대",
+    "summary": "앤트로픽이 미국 연방조달청(GSA)과 OneGov 계약을 확대해 Claude Enterprise·Claude for Government·API를 최소 구매 조건 없는 토큰 기반 종량제로 40% 할인 제공하고, 대상도 주·지방·부족·준주 정부로 넓혔다. 추정 절감액은 10억 달러이며, 기존 사용자당 1달러 계약은 10월 31일 만료된다.",
+    "why": "정부 AI 도입이 '좌석당 상징적 가격'에서 실제 사용량 기반 과금으로 넘어가는 신호다. 약 500개 정부 기관이 이미 Claude를 쓰고 있다고 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 발표 + GSA 보도자료(1차 2곳)."
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+    "links": [
+      {
+        "label": "앤트로픽 발표",
+        "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+        "type": "source"
+      },
+      {
+        "label": "GSA 보도자료",
+        "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-anthropic-eth-refutation-details",
+    "category": "AI·IT",
+    "title": "[업데이트] 앤트로픽도 ETH 반증 공개…Claude가 사람 개입 없이 찾고 Lean 4로 검증",
+    "summary": "앤트로픽이 내부 Claude 연구 모델이 10월 16일 사람 입력 없이 약 1,400만 출력 토큰을 써서 결정적 3-SAT을 2^o(n) 시간에 푸는 알고리즘을 찾았고, 증명을 Lean 4로 형식화했다고 공개했다. 다만 순수하게 점근적인 결과로, 변수당 절 5개 기준 변수가 10^10,000개를 넘어야 전수조사보다 빨라진다고 밝혔다.",
+    "why": "OpenAI에 이어 앤트로픽까지 같은 난제 반증을 내놓으면서 프런티어 모델의 수학 연구 능력이 본격 검증 단계에 들어섰다. TechCrunch 취재에서 MIT 라이언 윌리엄스 교수는 상당 부분은 표준적이지만 낯선 부분 2~3곳은 면밀한 검토가 필요하다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "anthropics/formal-math 저장소 README(1차) + 프리프린트 + TechCrunch 교차 확인."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+    "links": [
+      {
+        "label": "anthropics/formal-math (eth)",
+        "url": "https://github.com/anthropics/formal-math/tree/main/eth",
+        "type": "github"
+      },
+      {
+        "label": "TechCrunch 해설",
+        "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
     "id": "2026-10-28-anthropic-drug-development",
     "date": "2026-10-28",
     "category": "AI·IT",
@@ -315,6 +609,26 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-10-28-anthropic-agents-judgment-calls",
+    "category": "AI·IT",
+    "title": "앤트로픽 연구: 전문가 분석가, AI 에이전트의 숨은 성향을 86% 따라가",
+    "summary": "앤트로픽이 인과추론 전문가 50명에게 Claude Code(Claude Opus 4.8)로 분석 과제를 시키고 에이전트에 동전 던지기로 성향을 몰래 부여한 결과, 네 가지 분석 선택에서 86%가 에이전트 쪽을 택했다. 77%는 사후 설명에서 에이전트 논리를 되풀이했지만 출처로 밝힌 사람은 15%뿐이었다.",
+    "why": "'사람이 최종 판단한다'는 휴먼 인 더 루프 가정이 실제로는 약할 수 있음을 보여준다. 앤트로픽은 성향을 의도적으로 강화한 실험이라 실제 효과는 더 작을 수 있다고 한계를 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 연구 글(10/27) + 논문 PDF."
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg",
+    "links": [
+      {
+        "label": "앤트로픽 연구",
+        "url": "https://www.anthropic.com/research/agents-judgment-calls",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
   },
   {
     "id": "2026-10-27-xint-compaction-smuggling",
