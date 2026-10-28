@@ -542,6 +542,36 @@
     "date": "2026-10-28"
   },
   {
+    "id": "2026-10-28-kmcc-google-apple-inapp-fine",
+    "date": "2026-10-28",
+    "category": "한국 IT",
+    "title": "방미통위, 구글·애플에 과징금 637억1천만원…인앱결제 강제 금지법 첫 제재",
+    "summary": "방송미디어통신위원회가 10월 28일 제46차 전체회의에서 구글 429억원, 애플 208억1천만원의 과징금과 시정명령을 의결했다. 앱 내 외부 링크를 통한 별도 결제수단 허용과 제3자 결제 수수료(현재 26%)의 합리적 조정을 명령했고, 두 회사는 1개월 안에 이행계획을 내고 3개월 안에 개선을 마쳐야 한다. 형사고발은 하지 않았다.",
+    "why": "2021년 '인앱결제 강제 금지법' 도입 후 해당 규정을 처음 집행한 사례로, 국내 앱 개발사의 외부결제(아웃링크) 길이 열릴 수 있다. 다만 외부결제 수수료 수준 자체는 규제하지 않으며, 방미통위는 과징금 상한(관련매출 3%) 상향도 검토 중이라고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "정부 정책브리핑(방미통위 전체회의 브리핑) + 연합뉴스·코리아헤럴드·TV조선 보도."
+    },
+    "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/28/AKR20261028139252017_02_i_P4.jpg",
+    "links": [
+      {
+        "label": "정책브리핑 (방미통위 브리핑)",
+        "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156786888",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261028139252017",
+        "type": "source"
+      },
+      {
+        "label": "Korea Herald",
+        "url": "https://www.koreaherald.com/article/10918101",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-28-kdca-ai-health-chatbot",
     "category": "한국 IT",
     "title": "질병청·과기정통부, 24시간 'AI 대국민 건강도우미' 챗봇 개방",
@@ -871,6 +901,30 @@
       }
     ],
     "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-anthropic-frontier-red-team-exploit-chains",
+    "date": "2026-10-28",
+    "category": "AI·IT",
+    "title": "앤트로픽 미공개 모델, 크롬·사파리·안드로이드·윈도·리눅스 공격 체인 5개 직접 작성",
+    "summary": "앤트로픽 프런티어 레드팀이 미공개 내부 연구 모델로 찾은 5개 공격 체인을 공개했다. 크롬은 페이지를 여는 것만으로 샌드박스 밖 코드 실행(구글에 보고해 62개 CVE가 Chrome 156까지 패치), 사파리는 동일 출처 정책 우회, 안드로이드 잠금화면 우회, 윈도 HTTP/3 원격 서비스 거부(CVE-2026-33096), 리눅스 멀티패스 TCP 무인증 원격 root 실행(CVE-2026-98432)이다.",
+    "why": "AI 모델이 주요 브라우저·OS에서 여러 단계 익스플로잇을 스스로 엮어낼 수 있다는 걸 보여준 사례다. 모두 연구진이 지시한 실험이고 보고 후 패치된 상태라, 크롬·OS를 최신 버전으로 유지하는 게 중요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 연구 글(10/27) + The Hacker News 보도. 모델 역할은 앤트로픽 단일 출처 주장."
+    },
+    "links": [
+      {
+        "label": "Anthropic Frontier Red Team",
+        "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-10-28-anthropic-eth-refutation-details",
