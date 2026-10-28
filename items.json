@@ -25,6 +25,72 @@
     "date": "2026-10-28"
   },
   {
+    "id": "2026-10-28-trump-ban-term-ai-super-intelligence",
+    "category": "AI·IT",
+    "title": "트럼프 \"'AI' 용어 공식 금지하겠다\"…'SI(슈퍼 인텔리전스)'로 대체 주장",
+    "summary": "트럼프 대통령이 트루스소셜에 \"곧 모든 관련 문서 등에서 'AI/인공지능' 용어를 공식적으로 금지하겠다\"고 썼다. 앞서 9월 29일 행정명령은 연방기관 공식 문서·웹사이트에서 'Super Intelligence'를 쓰도록 이미 지시했다.",
+    "why": "연방 행정명령은 민간·언론·법률 문구를 강제하지 않지만, 정부 조달·정책 문서 용어가 바뀌고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 보도 + 연방관보 행정명령 원문."
+    },
+    "image": "https://media.zenfs.com/en/reuters.com/30891735875f0b6ea40c63daa7cb92a5.jpg",
+    "links": [
+      {
+        "label": "Reuters (Yahoo)",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-says-ban-term-artificial-162558297.html",
+        "type": "source"
+      },
+      {
+        "label": "연방관보 행정명령",
+        "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-tencent-hy-simulmt",
+    "category": "로컬 AI",
+    "title": "텐센트 Hy-SimulMT-30B-A3B 공개…중↔영 실시간 동시통역·음성 복제 (Apache 2.0)",
+    "summary": "텐센트가 중국어↔영어 음성 동시통역 모델 Hy-SimulMT-30B-A3B를 FP8·GGUF·Interleave 버전과 함께 공개했다. 모델 카드 기준 RealSI 장문 음성에서 StreamLAAL 약 3초로 비교 대상 중 가장 낮고, RealSI-Sentence 84.7로 가장 높았다.",
+    "why": "로컬에서 돌릴 수 있는 MoE 동시통역 모델이다. BF16 가중치는 약 57GiB이고, llama.cpp 지원은 아직 머지 전 PR(#31198)이며 vLLM 0.31 이상에서 구동된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 + 공식 GitHub. 벤치마크는 자체 발표 수치."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy-SimulMT-30B-A3B.png",
+    "links": [
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF",
+        "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-Interleave-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Tencent-Hunyuan/Hy-SimulMT",
+        "type": "github"
+      }
+    ],
+    "specs": {
+      "params": "30B (활성 3B, MoE)",
+      "license": "Apache 2.0",
+      "memory": "BF16 약 57GiB",
+      "modality": "음성→음성/텍스트 (중↔영)"
+    },
+    "date": "2026-10-28"
+  },
+  {
     "id": "2026-10-28-tailscale-ssh-vulns",
     "date": "2026-10-28",
     "category": "AI·IT",
@@ -109,6 +175,60 @@
     "date": "2026-10-28"
   },
   {
+    "id": "2026-10-28-physical-intelligence-20b-talks",
+    "category": "AI·IT",
+    "title": "피지컬 인텔리전스, 기업가치 200억 달러에 10억 달러 이상 조달 협의 (보도)",
+    "summary": "블룸버그에 따르면 로봇 AI 기업 피지컬 인텔리전스가 기업가치 200억 달러로 10억 달러 이상을 조달하는 협의를 하고 있으며, Avenir와 Lux Capital이 주도를 논의 중이다. 올해 초 평가액은 115억 달러였다.",
+    "why": "로봇 파운데이션 모델 분야 몸값이 1년 안에 두 배 가까이 뛰는 흐름이다. 협상 단계 보도로 확정이 아니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 단독 보도(Investing.com 재인용). 회사 공식 발표 없음, 보도로 표기."
+    },
+    "links": [
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-27/robotics-lab-physical-intelligence-in-talks-for-a-20-billion-valuation",
+        "type": "source"
+      },
+      {
+        "label": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/physical-intelligence-in-talks-to-raise-1b-at-20b-valuation--bloomberg-4976690",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-opera-webai-local",
+    "category": "로컬 AI",
+    "title": "오페라 WebAI 얼리 프리뷰…웹사이트가 브라우저 안 로컬 모델 사용",
+    "summary": "오페라가 웹사이트와 확장 프로그램이 브라우저 안의 로컬 모델을 쓰는 WebAI(Prompt·Decision·Semantic Embeddings API)를 Opera One·GX·Neon에 옵트인 프리뷰로 냈다. Windows x64와 애플 실리콘 Mac에서 동작하며 Intel Mac·Linux·Windows on Arm은 아직 미지원이다.",
+    "why": "클라우드 없이 웹 앱이 로컬 LLM을 호출하는 표준 제안으로, 오페라는 구글·마이크로소프트 등이 지지한다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오페라 공식 블로그·개발 문서 + TechCrunch."
+    },
+    "image": "https://www-static-blogs.operacdn.com/news/wp-content/uploads/sites/2/2026/10/image-6.png",
+    "links": [
+      {
+        "label": "Opera 블로그",
+        "url": "https://blogs.opera.com/news/2026/10/webai-local-ai-for-the-web-now-in-opera/",
+        "type": "source"
+      },
+      {
+        "label": "WebAI 문서",
+        "url": "https://next.opera.com/web-ai/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
+  },
+  {
     "id": "2026-10-28-openai-oracle-ai-workspace",
     "date": "2026-10-28",
     "category": "AI·IT",
@@ -170,6 +290,35 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-10-28-netherlands-25000-civil-service-ai",
+    "category": "AI·IT",
+    "title": "네덜란드, 2035년까지 중앙정부 약 2만5000명 감축…AI 활용 재편",
+    "summary": "에릭 판데르뷔르흐 정무차관이 의회 서한에서 2035년까지 중앙정부 인력 약 2만5000명(FTE)을 줄이고 AI를 활용하겠다고 밝혔다. 절감액은 2027년 9억 유로에서 2035년부터 연 35억 유로로 늘어나며, 경찰·국방은 제외된다.",
+    "why": "정부가 AI를 명시적 근거로 대규모 공무원 감축을 공식화한 사례로, 부처별 AI 계획은 2027년 1분기에 나온다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NL Times + 블룸버그(스트레이츠타임스 게재) + 로이터 보도."
+    },
+    "links": [
+      {
+        "label": "NL Times",
+        "url": "https://nlnow.nl/a/cabinet-plans-to-cut-25-000-central-government-jobs-by-2035/",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg (Straits Times)",
+        "url": "https://www.straitstimes.com/world/europe/dutch-government-plans-to-cut-25000-jobs-in-ai-led-overhaul-eventually-saving-5b-a-year",
+        "type": "source"
+      },
+      {
+        "label": "Reuters (Yahoo)",
+        "url": "https://uk.finance.yahoo.com/news/netherlands-aims-cut-around-20-114655383.html",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
   },
   {
     "id": "2026-10-28-naver-earnings-call-live",
@@ -362,6 +511,35 @@
         "type": "huggingface"
       }
     ]
+  },
+  {
+    "id": "2026-10-28-lg-q3-aidc-cooling-robot-data",
+    "category": "한국 IT",
+    "title": "LG전자 3분기 영업익 7819억 원…AI 데이터센터 냉각 수주 3조 원 돌파, 엔비디아와 로봇 데이터 50만 시간",
+    "summary": "LG전자가 3분기 매출 23조8200억 원, 영업이익 7819억 원을 발표했고 AI 데이터센터 냉각 누적 수주가 상반기 말 약 6000억 원에서 3조 원을 넘었다. 컨퍼런스콜에서는 엔비디아와 피지컬 AI 전반을 협업해 내년까지 누적 약 50만 시간의 로봇 학습 데이터를 확보하겠다고 밝혔다.",
+    "why": "가전 회사의 AI 매출원이 데이터센터 냉각과 로봇 데이터로 구체화되고 있다. 데이터팩토리 외부 사업화는 중장기 검토 단계다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LG 글로벌 뉴스룸 실적 자료 + 이데일리·데일리안·아주경제 컨콜 보도."
+    },
+    "links": [
+      {
+        "label": "LG 뉴스룸",
+        "url": "https://www.lg.com/global/newsroom/news/corporate/lg-electronics-releases-third-quarter-2026-financial-results/",
+        "type": "source"
+      },
+      {
+        "label": "이데일리 (컨콜)",
+        "url": "https://en.edaily.co.kr/news/eda202610285684/",
+        "type": "source"
+      },
+      {
+        "label": "데일리안",
+        "url": "https://www.dailian.co.kr/news/view/1707555/%EC%BB%A8%EC%BD%9C-LG%EC%A0%84%EC%9E%90-%EC%97%94%EB%B9%84%EB%94%94%EC%95%84-%ED%94%BC%EC%A7%80%EC%BB%AC-AI-2026",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-28"
   },
   {
     "id": "2026-10-28-kdca-ai-health-chatbot",
@@ -609,6 +787,34 @@
         "type": "source"
       }
     ],
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2026-10-28-apple-iwork-ai-assistant-mcp",
+    "category": "AI·IT",
+    "title": "애플 Creator Studio, Keynote·Pages·Numbers에 AI 어시스턴트와 MCP 지원",
+    "summary": "애플이 Keynote·Pages·Numbers에 애플 모델과 OpenAI 모델을 쓰는 AI 어시스턴트(베타, 미국 영어)를 넣고 MCP 지원(macOS 27 이상)을 추가한다고 발표했다. 기존 구독자는 11월 무료 업데이트, 신규 구독은 월 12.99달러·연 129달러다.",
+    "why": "애플 오피스 앱이 MCP로 외부 AI 에이전트와 연결되는 첫 사례이며, Logic Pro 어시스턴트와 Pixelmator 생성 채우기도 함께 나온다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 뉴스룸 보도자료 + The Verge."
+    },
+    "image": "https://www.apple.com/newsroom/images/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/tile/Apple-Creator-Studio-hero-261027-lp.jpg.og.jpg?202610271831",
+    "links": [
+      {
+        "label": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+        "type": "source"
+      }
+    ],
+    "specs": {
+      "price": "월 12.99달러 / 연 129달러 (기존 구독자 무료 업데이트)"
+    },
     "date": "2026-10-28"
   },
   {
