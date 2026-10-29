@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-10-29-xreal-aura-android-xr",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "첫 유선 안드로이드 XR 글래스 'XREAL AURA' 출시…한국도 주문 시작, 1,099달러부터",
+    "summary": "구글과 XREAL이 95g 미만 투명 광학 글래스에 컴퓨트 퍽을 연결한 XREAL AURA를 출시했습니다. 시야각 70도, 퀄컴 Snapdragon Reality Elite 첫 탑재, Gemini 지원이며 미국·캐나다·한국에서 주문할 수 있습니다.",
+    "why": "안드로이드 XR의 첫 안경형 제품이자 한국이 1차 출시국에 포함됐습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + XREAL 보도자료 + 테크크런치 보도 확인. 가격은 연말까지 출시가 기준."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ManinOffice_V2.width-1300.png",
+    "specs": {
+      "price": "USD 1,099부터(연말까지 출시가)"
+    },
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-samsung-q3-2026-final",
+    "date": "2026-10-29",
+    "category": "한국 IT",
+    "title": "[업데이트] 삼성전자 3분기 확정 실적: 매출 195.3조·영업익 107.4조, 30조 배당",
+    "summary": "삼성전자가 3분기 매출 195조2,532억 원(+126.9%), 영업이익 107조4,405억 원을 확정 발표했습니다. 반도체(DS)가 매출 147.1조·영업이익 106.5조를 냈고, DX는 0.8조 영업손실이며, 30조 원 현금배당(주당 4,601원)과 내년 HBM4E 양산 계획을 밝혔습니다.",
+    "why": "10월 8일 잠정치 이후 사업부별 수치와 주주환원 규모가 새로 나왔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성 글로벌 뉴스룸 + 연합뉴스·아주경제 보도 확인."
+    },
+    "links": [
+      {
+        "label": "Samsung Newsroom",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029064852527",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261029102528773",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-openai-servicenow-expansion",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "OpenAI·ServiceNow 파트너십 확대…ChatGPT·Codex에서 ServiceNow 작업 실행",
+    "summary": "OpenAI 모델과 에이전트를 ServiceNow 워크플로에 넣고, ChatGPT 플러그인이 ServiceNow Action Fabric으로 통제된 작업을 실행하도록 연결합니다. ServiceNow는 전 직원에게 ChatGPT Work·Codex를 제공하고 OpenAI는 내부 운영에 ServiceNow를 씁니다.",
+    "why": "엔터프라이즈 에이전트가 실제 업무 시스템을 직접 조작하는 흐름의 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글 + ServiceNow 보도자료(Business Wire) 확인."
+    },
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+        "type": "source"
+      },
+      {
+        "label": "ServiceNow 뉴스룸",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-OpenAI-accelerate-enterprise-AI-from-models-and-operations-to-cybersecurity-and-agentic-development/default.aspx",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-nvidia-nemotron-3-5-transcribe",
+    "date": "2026-10-29",
+    "category": "로컬 AI",
+    "title": "엔비디아 Nemotron 3.5 Transcribe 30B-A4B 공개…받아쓰기·화자분리·번역을 프롬프트로",
+    "summary": "엔비디아가 40개 언어 받아쓰기, 31개 언어 번역, 13개 언어 화자 구분, 오디오 Q&A를 한 체크포인트로 하는 오픈 웨이트 음성 모델을 공개했습니다. 1시간 녹음·화자 8명까지 처리하며, HF Open ASR 영어 리더보드 오픈 모델 1위(평균 WER 5.33%)라고 밝혔습니다.",
+    "why": "활성 4B MoE라 가볍고, 양자화 버전과 NeMo-Speech.cpp 로컬 배포가 예고됐습니다. 학습 데이터 Granary v2(48개 언어 46만 시간 매니페스트)도 함께 나왔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 공식 블로그(10/28) + 모델 카드(license: openmdw-1.1) 확인. 리더보드 순위는 엔비디아 발표 기준."
+    },
+    "specs": {
+      "params": "30B 총 / 약 4B 활성 (하이브리드 Mamba-Transformer MoE)",
+      "license": "OpenMDW 1.1",
+      "modality": "음성→텍스트",
+      "compute": "vLLM·SGLang-Omni 지원, 양자화판 예정"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+        "type": "source"
+      },
+      {
+        "label": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-microsoft-fy27-q1",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "마이크로소프트 FY27 1분기 매출 923억 달러…Azure 48% 성장, OpenAI 매출 100억 달러",
+    "summary": "마이크로소프트가 매출 923억 달러(+19%), MS 클라우드 639억 달러(+30%), Azure 등 클라우드 서비스 +48%를 발표했습니다. 상업 잔여이행의무(RPO)는 6,770억 달러(+73%)이고, OpenAI로부터 분기 매출 약 100억 달러를 인식했다고 테크크런치가 공시를 근거로 전했습니다.",
+    "why": "AI 인프라 수요가 매출로 이어지는지 보여주는 핵심 지표이며, OpenAI 의존도가 숫자로 드러났습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "마이크로소프트 IR 보도자료 + 테크크런치 보도로 교차 확인."
+    },
+    "links": [
+      {
+        "label": "Microsoft IR FY27 Q1",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-llama-cpp-v0-8-0",
+    "date": "2026-10-29",
+    "category": "로컬 AI",
+    "title": "llama.cpp v0.8.0 릴리스…새 모델 대거 지원, 웹 UI에서 HF 모델 바로 내려받기",
+    "summary": "llama.cpp가 v0.8.0 태그 릴리스로 DeepSeek V4.1 Flash, Kolibri-1, Flint, Muse Spark Open, MiniCPM-OCR 등 새 아키텍처 지원을 묶었습니다. 웹 UI에서 HF Hub 모델 검색·다운로드와 대화 검색·압축이 가능해졌고, ggml v0.28.0과 MoE 전문가 캐시(SLRU) 개선이 들어갔습니다.",
+    "why": "그간 빌드별로 흩어졌던 변경을 정리한 버전이라 업데이트 시점으로 좋습니다. CLI는 이제 --model 또는 -hf가 필수입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트 확인."
+    },
+    "links": [
+      {
+        "label": "GitHub 릴리스 v0.8.0",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-kakao-kanana-2-embedding",
+    "date": "2026-10-29",
+    "category": "한국 IT",
+    "title": "카카오, 한국어 임베딩 모델 Kanana-2-embedding 3B·1.3B 오픈소스 공개",
+    "summary": "카카오가 Kanana-2-embedding 3B와 1.3B를 허깅페이스에 상업 이용 가능한 카나나 오픈 라이선스로 공개했습니다. 차원을 줄여 쓸 수 있는 MRL을 지원하고, 한국어 검색에서 Qwen3-Embedding-4B 등 비교 모델보다 높은 성능을 냈다고 밝혔습니다.",
+    "why": "로컬 RAG에 쓸 수 있는 한국어 특화 임베딩 선택지가 늘었습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공식 발표·기술블로그 + HF 모델 카드(kanana-open-license) + 연합뉴스 확인. 성능 수치는 자체 측정."
+    },
+    "specs": {
+      "params": "3B / 1.3B",
+      "license": "Kanana Open License (상업 이용 가능)",
+      "modality": "텍스트 임베딩"
+    },
+    "links": [
+      {
+        "label": "카카오 발표",
+        "url": "https://www.kakaocorp.com/page/detail/12181",
+        "type": "source"
+      },
+      {
+        "label": "카카오 기술블로그",
+        "url": "https://tech.kakao.com/posts/826",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029058700017",
+        "type": "source"
+      },
+      {
+        "label": "kanana-2-3b-embedding",
+        "url": "https://huggingface.co/kakaocorp/kanana-2-3b-embedding",
+        "type": "huggingface"
+      },
+      {
+        "label": "kanana-2-1.3b-embedding",
+        "url": "https://huggingface.co/kakaocorp/kanana-2-1.3b-embedding",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-gemini-4-carbon",
     "date": "2026-10-29",
     "category": "AI·IT",
@@ -23,6 +221,69 @@
     ]
   },
   {
+    "id": "2026-10-29-deepseek-moonshot-astra-distillation-report",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "[보도] 딥시크·문샷, GPT-6 Astra 출력으로 최신 모델 학습했다는 디인포메이션 보도",
+    "summary": "디인포메이션은 딥시크 V4.1-Flash-1017과 문샷 Kimi K3.1 Pro가 OpenAI GPT-6 Astra 출력을 대거 증류해 학습했다고 소식통을 인용해 보도했고, 로이터가 이를 전했습니다. 세 회사 모두 즉각 답하지 않았습니다.",
+    "why": "오픈 웨이트 상위권 모델들의 학습 방식과 미·중 AI 경쟁 쟁점에 직결됩니다.",
+    "verification": {
+      "status": "미확인",
+      "note": "디인포메이션 단독 보도를 로이터가 인용(ET·마켓스크리너 게재). 당사자 공식 확인 없음."
+    },
+    "links": [
+      {
+        "label": "Reuters via ET",
+        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-moonshot-used-openais-gpt-6-astra-to-train-latest-models-report/articleshow/135286994.cms",
+        "type": "source"
+      },
+      {
+        "label": "MarketScreener",
+        "url": "https://ca.marketscreener.com/news/deepseek-moonshot-used-openai-s-gpt-6-astra-to-train-models-the-information-reports-ce785cd3da89f427",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-apple-macbook-pro-proled-touch",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "애플, 탠덤 OLED 'PROLED XDR'·첫 터치스크린 맥북 프로 공개 (M5 Pro/Max, 최대 128GB)",
+    "summary": "애플이 14·16인치 탠덤 OLED 맥북 프로를 공개했습니다. 맥 최초 터치 입력과 다이내믹 아일랜드, M5 Pro·M5 Max(최대 128GB 통합 메모리)를 탑재했고, 한국은 10월 30일 사전 주문, 11월 6일 출시입니다.",
+    "why": "애플은 M5 Max로 수천억 파라미터 LLM을 기기에서 실행할 수 있다고 밝혀 로컬 AI 머신으로도 관심이 큽니다. HN에서 500점·880여 댓글로 화제가 됐습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 뉴스룸(미국·한국) + 더버지 보도 확인. 미국가 14인치 M5 Pro 2,899달러부터."
+    },
+    "image": "https://www.apple.com/newsroom/images/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/tile/Apple-MacBook-Pro-with-PROLED-XDR-Display-Touch-experience-261028-lp.jpg.og.jpg?202610281719",
+    "specs": {
+      "memory": "최대 128GB 통합 메모리",
+      "price": "미국 14\" M5 Pro $2,899 / 16\" $3,399 / M5 Max 14\" $4,499 / 16\" $4,799"
+    },
+    "links": [
+      {
+        "label": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+        "type": "source"
+      },
+      {
+        "label": "Apple 뉴스룸(한국)",
+        "url": "https://www.apple.com/kr/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/gadgets/1019554/apple-touchscreen-macbook-pro-and-tell",
+        "type": "source"
+      },
+      {
+        "label": "제품 페이지",
+        "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+        "type": "buy"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-alpine-gitlab-cve-2026-97229",
     "date": "2026-10-29",
     "category": "AI·IT",
@@ -37,6 +298,35 @@
       {
         "label": "알파인 리눅스 공지",
         "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-alphabet-q3-2026",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "알파벳 3분기 매출 1,276억 달러…구글 클라우드 103% 성장, 잉여현금흐름 적자에 주가 10%↓",
+    "summary": "알파벳 3분기 매출은 1,276억 달러(+25%), 구글 클라우드는 307억 달러로 두 배 이상 늘었지만 시장 예상을 밑돌았고 잉여현금흐름이 -90.7억 달러를 기록했습니다. 분기 설비투자 513.6억 달러, 2026년 가이던스 1,950~2,050억 달러 유지, 2027년 대폭 증가를 예고했고 Gemini 앱은 사용자 10억 명을 넘었습니다.",
+    "why": "AI 투자 대비 수익성에 대한 시장의 경계가 드러난 실적입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SEC 제출 실적 자료 + 구글 CEO 메시지 + CNBC 보도로 교차 확인."
+    },
+    "links": [
+      {
+        "label": "Alphabet 8-K 실적",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "type": "source"
+      },
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
         "type": "source"
       }
     ]
