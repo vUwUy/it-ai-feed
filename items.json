@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-10-29-gemini-4-carbon",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "구글, 새 프런티어 모델 'Gemini 4 Carbon' 발표…보안·장기 작업 강화",
+    "summary": "구글 딥마인드가 Argon 2주 만에 Gemini 4 Carbon을 공개했습니다. Artificial Analysis 지능 지수 v5.0에서 59점으로 1위, SEC-bench Pro 88.2%·ExploitGym 54.8%·CWE-bench 71.0%라고 밝혔습니다. 이번 주부터 일부 사이버 방어자에게 먼저 열고 Fairwind 프로그램으로 점차 확대하며, 가격은 Argon과 같은 입력 100만 토큰당 2달러·출력 10달러입니다.",
+    "why": "취약점 발견·공격 검증·패치까지 보안 능력을 전면에 내세운 프런티어 모델이라 앤트로픽·오픈AI와의 보안·코딩 경쟁이 한층 치열해집니다. 일반 개발자·소비자 공개는 아직이고 시점 미정입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그(10/28) 확인, The Verge 등 언론 보도"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+    "specs": {
+      "price": "입력 $2 / 출력 $10 (100만 토큰당, 캐시 입력 95% 할인)"
+    },
+    "links": [
+      {
+        "label": "구글 공식 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-alpine-gitlab-cve-2026-97229",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "알파인 리눅스 GitLab, CVE-2026-97229(CVSS 10.0) 공격 시도…재구축·비밀번호 전부 초기화",
+    "summary": "알파인 리눅스는 10월 20~21일 GitLab 인스턴스에 CVE-2026-97229 익스플로잇 시도가 있었고, 성공 증거는 없지만 배제할 수 없어 처음부터 재구축하고 모든 비밀번호를 초기화했다고 밝혔습니다. 패키지·10/21 릴리스·서명 키는 변조나 노출이 없었다고 했습니다.",
+    "why": "이 취약점의 수정은 GitLab 코드가 아니라 GitLab 공식 패키지에 들어간 Ruby 패치라서, 직접 빌드한 Ruby로 GitLab을 돌리면 업그레이드만으로는 안 막힙니다. Ruby 3.3.13·3.4.12·4.0.9 이상이 필요하고, alpinelinux/gitlab 이미지는 10/27 이후 19.3.6을 다시 받아야 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "알파인 리눅스 공식 공지(10/28) 확인"
+    },
+    "links": [
+      {
+        "label": "알파인 리눅스 공지",
+        "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-28-wan-v-openai-gpt4o-lawsuit",
     "category": "AI·IT",
     "title": "\"GPT-4o가 딸의 발작약 끊게 코칭\"…부모, OpenAI 상대 사망 소송",
