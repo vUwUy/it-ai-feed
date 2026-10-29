@@ -328,6 +328,30 @@
     ]
   },
   {
+    "id": "2026-10-29-marvell-lumentum-talks",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "[보도] 마벨, 데이터센터 광부품 업체 루멘텀 인수 막바지 협상",
+    "summary": "블룸버그가 처음 보도하고 로이터가 소식통을 통해 확인한 바에 따르면 마벨 테크놀로지가 루멘텀 인수를 위한 진전된 협상을 벌이고 있으며, 이르면 다음 주 발표될 수 있다. 루멘텀 시가총액은 약 830억 달러로, 보도 후 시간외 거래에서 루멘텀은 약 9% 오르고 마벨은 8% 넘게 내렸다.",
+    "why": "성사되면 역대 최대급 테크 인수 중 하나로, AI 서버 간 고속 광통신 부품 확보 경쟁이 커지고 있음을 보여 준다. 가격·조건은 아직 공개되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 + 로이터 독립 보도(소식통). 양사 공식 발표 전이라 협상 단계."
+    },
+    "links": [
+      {
+        "label": "로이터(MarketScreener)",
+        "url": "https://www.marketscreener.com/news/marvell-in-advanced-talks-to-buy-lumentum-bloomberg-news-reports-ce785cd3db8af523",
+        "type": "source"
+      },
+      {
+        "label": "블룸버그(Bloomberg Law)",
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/marvell-is-said-to-near-megadeal-for-lumentum-in-ai-push-2",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-malaysia-ai-chip-seizure-klia",
     "date": "2026-10-29",
     "category": "AI·IT",
@@ -462,6 +486,31 @@
     ]
   },
   {
+    "id": "2026-10-29-doj-nvidia-hugging-face-inquiry",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "미 법무부, 엔비디아의 129억 달러 허깅페이스 인수 경쟁 영향 조사",
+    "summary": "미국 법무부가 엔비디아에 129억 달러 규모 허깅페이스 인수가 경쟁사에 미칠 영향에 관한 정보를 요청했다고 로이터가 처음 보도했고 CNBC도 관계자를 통해 확인했다. 엔비디아는 9월 인수를 발표했으며, 거래는 2027년 상반기 마무리가 예상된다. 엔비디아는 논평을 거부했다.",
+    "why": "허깅페이스는 오픈 웨이트 모델 배포의 중심 플랫폼이라, 엔비디아가 이를 경쟁사 견제에 쓸 수 있는지가 규제 쟁점이 됐다. 로컬 AI 생태계 전반에 영향을 줄 수 있는 사안이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독 + CNBC 독자 확인(관계자). 법무부·엔비디아 공식 발표는 없음."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108416313-1792099132044-gettyimages-2299644955-AFP_D3B329K.jpeg?v=1793222589&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/exclusiveus-doj-is-inquiring-about-nvidias-purchase-of-hugging-face-sources-say-4980450",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-deepseek-moonshot-astra-distillation-report",
     "date": "2026-10-29",
     "category": "AI·IT",
@@ -481,6 +530,35 @@
       {
         "label": "MarketScreener",
         "url": "https://ca.marketscreener.com/news/deepseek-moonshot-used-openai-s-gpt-6-astra-to-train-models-the-information-reports-ce785cd3da89f427",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-bithumb-customer-data-leak",
+    "date": "2026-10-29",
+    "category": "한국 IT",
+    "title": "[업데이트] 빗썸 해킹, 고객 6,444명 정보도 유출…844명은 주민번호·계좌번호·신분증 사본 노출",
+    "summary": "빗썸은 27일 사내 모바일 그룹웨어 '다우오피스'에 외부 비인가자가 침입해 고객 6,444명과 임직원 715명의 개인정보가 유출됐다고 29일 밝혔다. 고객 중 5,600명분은 암호화된 상태이고 나머지 844명은 성명, 휴대전화번호, 이메일, 주민등록번호, 운전면허번호, 계좌번호, 신분증 사본 등이 노출됐으며, 거래소 계정·자산 DB가 직접 침해된 정황은 확인되지 않았다고 회사는 설명했다.",
+    "why": "전날까지 임직원 정보만 유출된 것으로 알려졌지만 고객의 민감 정보까지 포함된 것으로 확인됐다. 빗썸 직원 사칭 보이스피싱 같은 2차 피해 우려가 있고, 빗썸 홈페이지에서 본인 유출 여부를 조회할 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "빗썸 공식 공지 + 연합뉴스·전자신문·머니투데이 보도 교차 확인. 고객 844명 노출 규모는 회사 측 설명."
+    },
+    "links": [
+      {
+        "label": "빗썸 공지: 개인정보 유출 안내·조회",
+        "url": "https://feed.bithumb.com/notice/1655458",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(종합)",
+        "url": "https://www.yna.co.kr/view/AKR20261029169152002",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261029000458",
         "type": "source"
       }
     ]
