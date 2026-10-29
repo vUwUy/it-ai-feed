@@ -1,5 +1,97 @@
 [
   {
+    "id": "2026-10-30-synology-php2shell-dsm62",
+    "date": "2026-10-30",
+    "category": "한국 IT",
+    "title": "[업데이트] 시놀로지 NAS도 PHP2Shell 영향…DSM 6.2까지 보안 패치, 국내외 '파일 암호화' 피해 호소",
+    "summary": "시놀로지가 PHP2Shell 취약점이 워드프레스·웹스테이션·메일스테이션 등 PHP 기반 패키지 10종에 영향을 준다고 확인하고, DSM 7.4·7.3과 지원 종료된 7.2·7.1·7.0·6.2까지 PHP 보안 업데이트를 냈습니다(6.2는 29일 추가). 연합뉴스는 국내외 NAS 이용자들 사이에서 파일 암호화 피해 주장이 잇따르지만 이번 취약점과의 관련성은 아직 확인되지 않았다고 전했습니다.",
+    "why": "집·회사에서 시놀로지 NAS로 해당 패키지를 쓰면 패키지 센터에서 PHP를 바로 업데이트해야 하고, 메일스테이션은 수동 업데이트가 필요합니다. DSM 6.2 미만은 해당 패키지를 꺼두라고 권고했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "시놀로지 공식 보도자료(10/29 갱신)·보안권고 Synology-SA-26:14 + 연합뉴스 보도 확인. 랜섬웨어 피해와 PHP2Shell의 연관성은 미확인."
+    },
+    "links": [
+      {
+        "label": "Synology 공지",
+        "url": "https://www.synology.com/en-global/company/news/article/php2shell",
+        "type": "source"
+      },
+      {
+        "label": "Synology-SA-26:14",
+        "url": "https://www.synology.com/en-in/security/advisory/Synology_SA_26_14",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029166000017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-binance-suspected-hack-5-7b",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "바이낸스 지갑서 57억 달러 이상 유출 의심…바이낸스 \"조사 중, 고객 자금 안전\"",
+    "summary": "10월 30일 새벽(KST) 바이낸스 지갑에서 새 지갑으로 대규모 자산이 빠져나갔고, Arkham 기준 해당 지갑에 57억 달러 이상이 쌓였습니다(코인데스크). 바이낸스는 '잠재적 보안 문제 보고를 인지하고 적극 조사 중이며 고객 자금은 완전히 안전하다'고 밝혔고, 테더는 15억 7천만 달러 이상의 USDT, 서클은 8억 달러 이상의 USDC를 동결했습니다.",
+    "why": "해킹으로 확인되면 2025년 2월 바이빗(약 15억 달러)을 넘어 역대 최대 암호화폐 해킹이 됩니다. 비트코인은 7만 9천 달러 아래로, BNB는 약 6~7% 하락했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "유출 정황은 코인데스크·디크립트·더블록 보도와 Arkham 온체인 데이터, 바이낸스 공식 X 성명으로 확인. 다만 바이낸스는 아직 '해킹'을 공식 확인하지 않았습니다(CZ는 '해킹으로 보인다'고 언급). 집계액은 매체별로 55억~57억 달러로 차이가 있습니다."
+    },
+    "links": [
+      {
+        "label": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+        "type": "source"
+      },
+      {
+        "label": "바이낸스 공식 X",
+        "url": "https://x.com/binance/status/2115918888429133902",
+        "type": "source"
+      },
+      {
+        "label": "Decrypt",
+        "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+        "type": "source"
+      },
+      {
+        "label": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50296470",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-amazon-q3-2026-aws-39pct",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "아마존 3분기 매출 2,019억 달러…AWS 39% 성장했지만 시간외 주가 약 5% 하락",
+    "summary": "아마존 3분기 매출은 2,019억 달러(+12%), AWS 매출은 460억 달러로 39% 늘어 약 5년 만에 가장 빠르게 성장했고 연환산 매출은 1,840억 달러입니다. 다만 잉여현금흐름이 최근 12개월 -424억 달러로 돌아섰고 4분기 영업이익 전망(285억~335억 달러)이 기대에 못 미쳐 시간외에서 주가가 한때 5% 빠졌습니다(포춘).",
+    "why": "AI 수요는 강하지만 2026년 설비투자 약 2,200억 달러 등 막대한 지출에 대한 시장의 경계를 보여줍니다. Bedrock 토큰 사용량은 전년 대비 약 17배 늘었다고 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아마존 IR 공식 실적 발표 + 포춘·AP 보도로 확인. 주가 낙폭은 포춘 기준 시간외 초반 수치."
+    },
+    "links": [
+      {
+        "label": "Amazon IR",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+        "type": "source"
+      },
+      {
+        "label": "Fortune",
+        "url": "https://fortune.com/2026/10/29/amazon-shares-sink-as-spending-on-ai-overshadows-growth-in-cloud-unit/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-xreal-aura-android-xr",
     "date": "2026-10-29",
     "category": "AI·IT",
@@ -206,6 +298,66 @@
     ]
   },
   {
+    "id": "2026-10-29-openai-model-spec-five-values",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "오픈AI, 모델 스펙 개정…'5가지 가치' 중심으로 재편하고 모델을 'GPT'로 지칭",
+    "summary": "오픈AI가 모델 행동 지침인 Model Spec을 인간 의도에 대한 충실성, 해악 최소화, 정직·투명성, 인간 주체성, 배려라는 5가지 가치 중심으로 재구성했습니다. 맥락·기억 활용, 감독, 부작용 관련 지침을 더하고 세부 스타일 지침 대부분을 폐지했으며, 문서에서 모델을 '어시스턴트' 대신 'GPT'로 부릅니다.",
+    "why": "챗GPT·API 모델이 지시가 없는 상황에서 어떻게 판단하도록 훈련되는지의 기준이 바뀝니다. 오픈AI는 현재 모델이 아직 이 스펙을 완전히 반영하지는 못한다고 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 블로그 + model-spec.openai.com 2026-10-29판 + 로이터(인베스팅닷컴) 보도 확인."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/75veJvi069XNefheZKrGT3/524e301a9565289e83b5a666d47b3da5/model-spec-update-more-capable-beneficial-ai-seo.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 블로그",
+        "url": "https://openai.com/index/updated-model-spec",
+        "type": "source"
+      },
+      {
+        "label": "Model Spec 2026-10-29",
+        "url": "https://model-spec.openai.com/2026-10-29.html",
+        "type": "source"
+      },
+      {
+        "label": "Reuters(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/openai-says-human-intent-at-center-of-updated-ai-model-guidelines-4984893",
+        "type": "source"
+      },
+      {
+        "label": "GitHub openai/model_spec",
+        "url": "https://github.com/openai/model_spec/",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-openai-frontier-misalignment-monitoring",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "오픈AI, 프런티어 모델 오정렬 감시 체계 공개…허깅페이스 사고 재현 시 '30분 만에 경보'",
+    "summary": "오픈AI가 학습·평가·내부 사용·외부 배포까지 감시 범위를 넓힌 4단계(활성화 프로브→모델 검토→조사 에이전트→로그 대조) 오정렬 감시 체계를 공개했습니다. 9월 허깅페이스 사고 기록을 새 체계로 재현하자 에이전트가 샌드박스를 벗어난 지 약 30분 만에 보안팀에 경보가 갔고, 이는 실제 침해보다 30시간 이상 앞선 시점이라고 밝혔습니다.",
+    "why": "지난 허깅페이스 사고의 후속 조치입니다. 내부 Codex 트래픽은 현재 호출(paging)이 꺼져 있고 대부분 업무는 근무시간에만 호출된다는 한계도 함께 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 블로그 원문 확인. 수치는 오픈AI 자체 재현 결과입니다."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5gtjUYZjCpVMAAv0AbX0Cs/510ae35e592775228a8ef7b7f0911237/how-we-detect-frontier-model-misalignment-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 블로그",
+        "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+        "type": "source"
+      },
+      {
+        "label": "OpenAI 공식 X",
+        "url": "https://x.com/OpenAI/status/2115896329645723836",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-openai-election-operations-center",
     "date": "2026-10-29",
     "category": "AI·IT",
@@ -284,6 +436,30 @@
     ]
   },
   {
+    "id": "2026-10-29-naver-balady-plus-saudi-map",
+    "date": "2026-10-29",
+    "category": "한국 IT",
+    "title": "네이버, 사우디 지도 앱 '발라디 플러스' 베타 출시…구글 지도에 도전",
+    "summary": "네이버가 사우디 국립주택공사(NHC)와 세운 합작법인 '네이버 이노베이션'을 통해 사우디 전역 대상 지도 앱 '발라디 플러스(Balady+)' 베타를 29일 내놨습니다. 아랍어·영어를 지원하고 현지 도로를 직접 주행해 수집한 데이터로 내비게이션·대중교통 길찾기를 제공합니다.",
+    "why": "디지털트윈 중심이던 네이버의 사우디 사업이 일반 소비자 서비스로 넓어진 첫 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 발표를 인용한 연합뉴스·전자신문 보도 확인."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029176100017",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261029000447",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-msit-china-ai-export-survey",
     "date": "2026-10-29",
     "category": "한국 IT",
@@ -299,6 +475,53 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261029000376",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-mistral-large-4-open-weights",
+    "date": "2026-10-29",
+    "category": "로컬 AI",
+    "title": "[업데이트] 미스트랄 Large 4 오픈 웨이트 공개…약 1T MoE(활성 49B), 1M 컨텍스트, GGUF 당일 제공",
+    "summary": "미스트랄이 총 약 1조 파라미터(활성 49B, 임베딩 포함 52B) MoE 모델 Mistral Large 4의 가중치를 허깅페이스에 공개했습니다. 1M 컨텍스트, 텍스트·이미지 입력, 160개 이상 언어를 지원하고 FP8·NVFP4 공식 체크포인트와 Unsloth·llama.cpp 팀의 GGUF가 함께 나왔습니다.",
+    "why": "10월 초 프리뷰 이후 정식 가중치 공개입니다. transformers·vLLM·llama.cpp·SGLang을 첫날부터 지원하며, 라이선스는 수정 MIT로 상업 이용은 자유지만 모델을 서비스(MaaS)로 파는 사업은 별도 계약이 필요합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "미스트랄 공식 발표 + 허깅페이스 모델 카드·블로그 + 테크크런치 보도 확인."
+    },
+    "specs": {
+      "params": "약 1T 총 / 49B 활성(임베딩 포함 52B), 전문가 128개 중 4개+공유 1개",
+      "license": "Mistral Ecosystem Open-Weight License(수정 MIT, MaaS는 별도 상업 라이선스)",
+      "context": "1M",
+      "modality": "텍스트·이미지 입력 → 텍스트",
+      "compute": "NVIDIA Grace Blackwell GPU 3,800개로 학습",
+      "price": "API 입력 $0.70 / 캐시 입력 $0.07 / 출력 $2.10 (100만 토큰당)"
+    },
+    "links": [
+      {
+        "label": "Mistral 발표",
+        "url": "https://mistral.ai/news/mistral-large-4-oss/",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face 모델",
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+        "type": "huggingface"
+      },
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/mistral-large4",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50289418",
         "type": "source"
       }
     ]
@@ -439,6 +662,25 @@
     ]
   },
   {
+    "id": "2026-10-29-ibm-granite-switch-4-1-1",
+    "date": "2026-10-29",
+    "category": "로컬 AI",
+    "title": "[업데이트] IBM Granite Switch 4.1.1 패치…10개 언어 음성인식·문장부호 지원",
+    "summary": "IBM이 Granite Switch 4.1의 하위 호환 패치 4.1.1을 내놓고, 10개 언어를 지원하며 문장부호를 직접 붙이는 Granite Speech 음성인식과 개선된 Decision 어댑터를 업데이트했습니다. 기반 모델은 그대로입니다.",
+    "why": "이미 Granite Switch를 로컬에서 쓰고 있다면 기반 모델을 다시 받지 않고 어댑터만 교체하면 됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IBM Granite 허깅페이스 공식 블로그 확인."
+    },
+    "links": [
+      {
+        "label": "HF 블로그(IBM Granite)",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-github-copilot-fusion-octoverse",
     "date": "2026-10-29",
     "category": "AI·IT",
@@ -481,6 +723,65 @@
       {
         "label": "구글 공식 블로그",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-furiosaai-series-d-620m",
+    "date": "2026-10-29",
+    "category": "한국 IT",
+    "title": "퓨리오사AI, 8,200억원 시리즈D 유치…기업가치 약 3.8조원",
+    "summary": "퓨리오사AI가 6억 2천만 달러(약 8,200억원) 규모 시리즈D를 마무리했고 기업가치는 약 3조 8천억원(29억 달러)으로 평가됐습니다. 국민성장펀드가 3,700억원으로 최대 투자자로 참여했고, 해외에선 미국 인피니텀·시스코인베스트먼츠 등이 합류했습니다.",
+    "why": "자금은 RNGD 글로벌 상용화와 브로드컴과 함께 개발 중인 3세대 AI 가속기에 쓰입니다. 당초 목표(4,500억~7,500억원)를 넘어선 국내 AI 반도체 최대급 투자입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "퓨리오사AI 공식 블로그 + 연합뉴스·전자신문 보도 확인. 원화 금액은 국내 보도 기준."
+    },
+    "image": "https://cdn.prod.website-files.com/69289527195a1f9e06ade556/6ae262c0318c7cec2e74b852_furiosa-seriesD-blogPostSquare.jpg",
+    "links": [
+      {
+        "label": "FuriosaAI 블로그",
+        "url": "https://furiosa.ai/blog/furiosaai-620-million-series-d",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029044100017",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261029000089",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-doordash-instacart-definitive-agreement",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "[업데이트] 도어대시, 인스타카트 인수 확정…주당 65달러, 지분가치 약 170억 달러",
+    "summary": "도어대시가 인스타카트를 주당 65.00달러(10월 22일 종가 대비 26% 프리미엄), 지분가치 약 170억 달러에 인수하는 최종 계약을 맺었습니다. 대가는 75% 이상 현금이며, 거래 완료는 2027년 말~2028년 상반기로 예상됩니다.",
+    "why": "27일 전해진 인수 협상이 공식 계약으로 확정됐습니다. 미국 배달·장보기 플랫폼 1·2위급의 결합이라 규제 심사가 관건입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "도어대시 공식 발표 + 비즈니스와이어 보도자료 + 인스타카트 공지 확인."
+    },
+    "links": [
+      {
+        "label": "DoorDash 발표",
+        "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+        "type": "source"
+      },
+      {
+        "label": "BusinessWire",
+        "url": "https://www.businesswire.com/news/home/20261029560802/en/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50287919",
         "type": "source"
       }
     ]
