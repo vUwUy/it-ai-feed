@@ -28,6 +28,40 @@
     ]
   },
   {
+    "id": "2026-10-29-update-php2shell-fragnesia-firewalls-25-rooted",
+    "date": "2026-10-29",
+    "category": "한국 IT",
+    "title": "[업데이트] PHP2Shell 실제 침해 확인…한국 포함 4개국 방화벽 등 25대 루트 권한 탈취",
+    "summary": "이스라엘 보안업체 드림(Dream)은 10월 26일 보고서에서 중국 연계로 보이는 공격자가 PHP2Shell(CVE-2026-109618·109619)과 리눅스 커널 권한 상승 취약점 Fragnesia(CVE-2026-46300)를 엮어 10월 23~24일 미국·일본·대만·한국의 특정 대형 업체 방화벽 등 서버 25대의 루트 권한을 인증 없이 탈취했다고 밝혔어요. 공격자는 노출된 방화벽 약 1만9000대를 조사해 240대를 표적으로 추렸고, 미국 정부 관련 환경에서는 내부 액티브 디렉터리까지 들어가 계정 정보를 빼냈다고 해요.",
+    "why": "그동안 '악용 시도' 단계였던 PHP2Shell이 실제 침해로 확인됐고 한국도 피해 국가에 포함됐어요. 벤더와 영향 버전은 비공개이고 국내 피해 기관·규모도 공개되지 않아, 인터넷에 노출된 방화벽·관리 인터페이스 점검과 PHP·커널 패치가 시급해요. 공격 환경에서 클로드 코드와 딥시크·키미 연결 도구가 발견됐지만 AI가 공격 코드를 직접 작성했다는 증거는 없다고 해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "드림 리서치 보고서(1차) + SecurityWeek·연합뉴스·파이낸셜뉴스 보도. 벤더·국내 피해 규모는 미공개"
+    },
+    "links": [
+      {
+        "label": "Dream Research",
+        "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+        "type": "source"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610290941104682",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/MYH20261029008300038",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-29-samsung-q3-2026-final",
     "date": "2026-10-29",
     "category": "한국 IT",
