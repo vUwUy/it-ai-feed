@@ -134,6 +134,31 @@
     ]
   },
   {
+    "id": "2026-10-30-reddit-q3-ai-search-referrals",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "레딧 3분기 매출 53%↑에도 주가 15% 넘게 급락…구글 AI 검색에 유입 감소",
+    "summary": "레딧 3분기 매출은 8억 9,500만 달러(+53%), 일간 활성 사용자(DAUq)는 1억 3,030만(+12%)이었지만 미국 DAUq는 5,070만(-2%)으로 줄었습니다. 허프먼 CEO는 구글 AI 모드·AI 오버뷰 탓에 검색 유입이 의미 있게 줄었다고 밝혔고, 4분기 미국 밖에서 로그인 필수화를 시험합니다.",
+    "why": "AI 검색이 웹 트래픽 구조를 바꾸는 영향이 대형 커뮤니티 실적에 숫자로 드러난 사례입니다. 4분기 매출 전망은 10억~10억 3천만 달러입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "레딧 IR 실적 발표 + CNBC 보도 확인."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108481452-1793291103327-gettyimages-2290577527-HL_IBENYOUSSEF_3258972.jpeg?v=1793291205&w=1920&h=1080",
+    "links": [
+      {
+        "label": "Reddit IR",
+        "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Third-Quarter-2026-Results/default.aspx",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-30-openai-pro-codex-limits-doubled",
     "date": "2026-10-30",
     "category": "AI·IT",
@@ -221,6 +246,31 @@
     ]
   },
   {
+    "id": "2026-10-30-kt-token-factory-launch",
+    "date": "2026-10-30",
+    "category": "한국 IT",
+    "title": "[업데이트] KT '토큰팩토리' 정식 출시…73개 모델로 시작, 11월 500개+로 확대",
+    "summary": "KT가 여러 AI 모델을 한 곳에서 골라 쓰는 '토큰팩토리'를 30일 출시했습니다. 출시 시점 73개 모델에서 11월 오픈라우터 연동으로 500개 이상으로 늘리고, 국내 인프라에서 서비스하는 믿음 K 3.0 Pro·솔라-프로 4·모티프 3·Nemotron 3 Ultra·GLM 5.3 Flash·Kimi K3·Gemma 4 31B 7종은 11월 30일까지 30% 할인합니다.",
+    "why": "10월 27일 예고 이후 실제 출시 내용(모델 수·할인)이 새로 나왔습니다. 할인은 기업 인증·계약을 마친 법인 고객 대상이며 원화로 결제됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·지디넷코리아 등 복수 보도 확인."
+    },
+    "image": "https://img0.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030033200017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261030033200017",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261030095123",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-30-irregular-glm-5-3-cyber-eval",
     "date": "2026-10-30",
     "category": "로컬 AI",
@@ -242,6 +292,72 @@
         "label": "Reuters(Investing.com)",
         "url": "https://www.investing.com/news/stock-market-news/chinese-ai-model-carries-out-complex-cyberattacks-in-controlled-tests-researchers-say-4981414",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-gemini-app-edit-files",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "제미나이 앱, 채팅 안에서 문서·PDF·슬라이드·시트 바로 만들고 편집",
+    "summary": "구글이 제미나이 앱에서 문서·PDF·슬라이드·시트·마크다운·TXT·코드 파일을 대화 안에서 생성·미리보기·편집하는 기능을 냈습니다. PDF는 웹·모바일, 나머지 형식은 웹에서 쓸 수 있고 지원 언어 전체 사용자에게 제공돼 한국어도 됩니다.",
+    "why": "챗봇이 답변을 넘어 실제 업무 파일을 직접 다루는 쪽으로 가는 경쟁(ChatGPT·Claude 파일 생성)에 구글이 본격 합류했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + The Verge 보도 확인."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fileGen2.0-thumbnail-resize.max-1440x810.png",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-edge0-audio8-tts-realistic",
+    "date": "2026-10-30",
+    "category": "로컬 AI",
+    "title": "Edge0 'Audio8-TTS-Realistic-0.6b' 공개…한국어 포함 23개 언어 음성 복제 TTS, Apache 2.0",
+    "summary": "Edge0가 제로샷 음성 복제를 지원하는 오픈 웨이트 TTS 모델을 Apache 2.0으로 공개했습니다. 프리뷰보다 12개 늘어난 23개 언어(한국어 포함), 44.1kHz 코덱, 메인 모델 6.01억 파라미터이며 한국어 CV3 CER은 4.801%로 제시됐습니다.",
+    "why": "상업 이용이 자유로운 소형 다국어 TTS라 로컬 음성 비서·더빙에 쓸 만합니다. CUDA GPU 권장, SGLang Omni 어댑터를 제공합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드·GitHub 저장소(1차 출처) 확인. 성능 수치는 제작사 자체 측정."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Edge0/Audio8-TTS-Realistic-0.6b.png",
+    "specs": {
+      "params": "메인 모델 601M",
+      "license": "Apache 2.0",
+      "modality": "텍스트(+참조 음성) → 음성 44.1kHz",
+      "compute": "CUDA GPU 권장"
+    },
+    "links": [
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face 가중치",
+        "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
+        "type": "huggingface"
+      },
+      {
+        "label": "체험 Space",
+        "url": "https://huggingface.co/spaces/Edge0/Audio8-TTS-Realistic-0.6b",
+        "type": "huggingface"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Audio8-AI/Audio8_TTS",
+        "type": "github"
       }
     ]
   },
@@ -277,6 +393,30 @@
         "label": "Pipecat GitHub",
         "url": "https://github.com/pipecat-ai/pipecat",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-chatgpt-pro-business-api-credits",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "ChatGPT Pro·Business 구독에 매달 무료 API 크레딧 포함",
+    "summary": "오픈AI가 Pro 구독자에게 요금제에 맞춰 매달 $100·$200·$500, Business 워크스페이스에 Standard 좌석당 $20·Premium 좌석당 $100(월 최대 $500 합산)의 API 크레딧을 줍니다. 크레딧은 결제 주기 말에 소멸되고 이월되지 않으며, API 키로 쓰는 Codex 사용량에는 적용되지 않습니다.",
+    "why": "ChatGPT 구독자가 별도 결제 없이 API로 앱·에이전트를 만들어 볼 수 있게 돼, 구독과 개발자 플랫폼을 묶는 전략입니다. 구독 후 7일이 지나야 신청 가능하고 국가·대상별로 순차 적용됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 도움말 센터 + 개발자 문서(1차 출처) 확인."
+    },
+    "links": [
+      {
+        "label": "OpenAI 도움말",
+        "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+        "type": "source"
+      },
+      {
+        "label": "개발자 가이드",
+        "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+        "type": "source"
       }
     ]
   },
@@ -418,6 +558,62 @@
     ]
   },
   {
+    "id": "2026-10-30-baseten-joey-1-decision-model",
+    "date": "2026-10-30",
+    "category": "로컬 AI",
+    "title": "베이스텐, 2B 오픈 웨이트 판단 모델 'joey-1' 공개(MIT)",
+    "summary": "베이스텐이 Qwen3.5-2B를 후학습한 판단(분류) 전용 모델 joey-1을 MIT 라이선스로 공개했습니다. 텍스트·이미지를 받아 보정된 확률을 내놓고 컨텍스트는 16,384토큰, 자체 호스팅에는 CUDA GPU 1장이면 됩니다.",
+    "why": "LLM에 예/아니오 판단을 맡기던 작업을 작은 모델로 싸게 돌리는 용도입니다. 베이스텐은 P50 20ms, 입력 100만 토큰당 $0.01을 제시했습니다(자체 수치).",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드 + 베이스텐 공식 블로그 확인."
+    },
+    "image": "https://www.datocms-assets.com/104802/1793290906-li-image_joey-1-1.png?auto=compress%2Cformat&fit=crop&h=630&q=75&w=1200",
+    "specs": {
+      "params": "2B (Qwen3.5-2B 기반)",
+      "license": "MIT",
+      "context": "16,384",
+      "modality": "텍스트·이미지 → 확률"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델",
+        "url": "https://huggingface.co/baselabs/joey-1",
+        "type": "huggingface"
+      },
+      {
+        "label": "Baseten 블로그",
+        "url": "https://www.baseten.co/blog/decisions-for-a-penny-introducing-joey-1/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-anthropic-ai-for-science-20-partners",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "앤트로픽 'AI for Science', 재단·연구기관 20곳으로 확대…무료 Claude 크레딧 제공",
+    "summary": "앤트로픽이 슬론·사이먼스·슈미트 사이언시스·미국 국립과학재단(NSF)·중국과학원(CAS)·웰컴 생어·프랜시스 크릭·HHMI 자넬리아·앨런 연구소 등 20곳과 손잡고 소속 연구자에게 무료 Claude 크레딧을 지원합니다. 자넬리아와는 AI 에이전트가 실험 장비를 직접 다루게 하는 'Model Hardware Standard'를 연구 프리뷰로 내놨습니다.",
+    "why": "모델 회사가 개별 연구자 지원에서 기관 단위 과학 연구 인프라로 영역을 넓히는 흐름입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 발표 + 웰컴 생어 연구소 공식 발표 확인."
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+    "links": [
+      {
+        "label": "Anthropic 발표",
+        "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+        "type": "source"
+      },
+      {
+        "label": "Wellcome Sanger 발표",
+        "url": "https://www.sanger.ac.uk/news_item/ai-for-science-expands-to-foundations-and-research-institutions/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-30-amazon-q3-2026-aws-39pct",
     "date": "2026-10-30",
     "category": "AI·IT",
@@ -437,6 +633,30 @@
       {
         "label": "Fortune",
         "url": "https://fortune.com/2026/10/29/amazon-shares-sink-as-spending-on-ai-overshadows-growth-in-cloud-unit/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-altman-local-inference-dram",
+    "date": "2026-10-30",
+    "category": "로컬 AI",
+    "title": "올트먼 \"개인 PC에 DRAM 두고 5%만 쓰는 건 끔찍한 배분\"…로컬 추론 회의론에 커뮤니티 반발",
+    "summary": "샘 올트먼이 존 콜리슨의 'Cheeky Pint' 팟캐스트에서 메모리 부족 상황에서 각자 컴퓨터에 DRAM을 두고 \"5% 정도만\" 쓰는 건 세계적 자원 배분으로 보면 끔찍하다며 로컬 추론에 회의적인 입장을 밝혔습니다. 데이터센터 비용은 기가와트당 약 700억 달러로 추산했습니다.",
+    "why": "로컬 AI 진영과 클라우드 사업자의 시각 차를 드러낸 발언으로, r/LocalLLaMA에서 크게 화제가 됐습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "팟캐스트 원문 대신 발언을 인용한 독립 매체 2곳(BigGo·Magica) 보도로 확인."
+    },
+    "links": [
+      {
+        "label": "BigGo 정리",
+        "url": "https://finance.biggo.com/news/c8f9be1b0cccfd2c",
+        "type": "source"
+      },
+      {
+        "label": "Magica",
+        "url": "https://magica.com/news/sam-altman-local-inference-dram-cloud-utilization",
         "type": "source"
       }
     ]
@@ -805,6 +1025,25 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261029000447",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-msit-physical-ai-training-center",
+    "date": "2026-10-29",
+    "category": "한국 IT",
+    "title": "과기정통부, 내년 '피지컬 AI 트레이닝센터' 구축…우정사업본부와 현장 실증",
+    "summary": "과기정통부가 29일 피지컬 AI 모델·데이터·로봇 전문가 간담회를 열고, 내년 양질의 학습 데이터를 만드는 '피지컬 AI 트레이닝센터'를 구축하고 우정사업본부와 함께 현장 실증을 하겠다고 밝혔습니다.",
+    "why": "월드모델·파운데이션모델 개발 사업에 이어 데이터와 실증까지 국산 풀스택 체계를 만들겠다는 정책 방향입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도(과기정통부 간담회 발표) 확인."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029055000017",
         "type": "source"
       }
     ]
