@@ -296,6 +296,36 @@
     ]
   },
   {
+    "id": "2026-10-30-intel-q3-2026-weak-guidance-plunge",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "인텔 3분기 매출 165억 달러(21%↑)에도 4분기 전망 부진…시간외 20%대 폭락",
+    "summary": "인텔 3분기 매출은 165억 달러로 21% 늘고 데이터센터·AI 매출은 78% 증가했지만, 4분기 매출 전망을 150억~160억 달러(비GAAP EPS 0.25달러)로 제시해 LSEG 집계 예상치(171억 달러·0.43달러)를 밑돌았습니다. PC 부문 매출은 5% 줄었고, CFO는 PC 둔화가 최소 내년 상반기까지 이어진다고 밝혔습니다. 주가는 시간외에서 20% 넘게 떨어졌습니다(CNBC).",
+    "why": "메모리 가격 급등이 PC 수요를 누르고 AI 투자 회수 우려가 겹치면서, 빅테크 실적 시즌 이후 반도체주 급락 흐름을 키운 사건입니다. 이스라엘 키르얏 갓 공장 폭발로 4분기 매출이 약 3억 달러 줄어든다는 설명도 나왔습니다(칼칼리스트).",
+    "verification": {
+      "status": "확인됨",
+      "note": "인텔 공식 실적 보도자료 + CNBC·칼칼리스트 보도 확인."
+    },
+    "image": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/878/6995/social_image_resized.jpg",
+    "links": [
+      {
+        "label": "인텔 실적 발표",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+        "type": "source"
+      },
+      {
+        "label": "Ctech(칼칼리스트)",
+        "url": "https://www.calcalistech.com/ctechnews/article/7djs538lu",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-30-gemini-app-edit-files",
     "date": "2026-10-30",
     "category": "AI·IT",
@@ -393,6 +423,30 @@
         "label": "Pipecat GitHub",
         "url": "https://github.com/pipecat-ai/pipecat",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-crowdstrike-vapor-panda-artex-deepseek",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "크라우드스트라이크 \"중국 연계 VAPOR PANDA, 딥시크 기반 AI 에이전트로 11일간 200곳+ 공격\"",
+    "summary": "크라우드스트라이크에 따르면 중국 연계 그룹 VAPOR PANDA가 오픈소스 에이전트 프레임워크 ARTEX와 딥시크 LLM(및 확인되지 않은 상용 LLM)으로 10월 17일부터 11일간 최소 14개국 200개 이상 조직을 노렸습니다. 9곳에서 침투 후 활동(BLOODALCHEMY 백도어 설치)이 확인됐고, 한 침투에서 계획 에이전트가 약 14억 입력 토큰을 썼습니다.",
+    "why": "사람 한 명이 중국어로 지시하고 AI 에이전트가 여러 침투를 병렬로 수행한 사례로, 공개 도구와 내려받을 수 있는 모델로 공격 규모를 키울 수 있음을 보여 줍니다. 앞서 국내 은행 해킹·ConnectWise 공급망 공격에 쓰인 ARTEX와는 별개 캠페인입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "크라우드스트라이크 공식 블로그 + NBC 뉴스 보도 확인."
+    },
+    "links": [
+      {
+        "label": "크라우드스트라이크 블로그",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "type": "source"
+      },
+      {
+        "label": "NBC 뉴스",
+        "url": "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343",
+        "type": "source"
       }
     ]
   },
