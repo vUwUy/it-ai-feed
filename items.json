@@ -1,5 +1,39 @@
 [
   {
+    "id": "2026-10-31-speridlabs-idol-image-to-3d",
+    "category": "로컬 AI",
+    "title": "Sperid Labs 'Idol' 공개…사진 한 장을 3D 가우시안 스플랫으로, VRAM 7.2GB",
+    "summary": "사물 사진 한 장으로 보이지 않는 면까지 포함해 최대 1,048,576개 가우시안의 .ply 파일을 만들며, 소비자용 GPU에서 7.2GB VRAM으로 2초 안에 돈다고 모델 카드에 적혀 있습니다.",
+    "why": "Apache 2.0 가중치지만, 로컬 실행에는 접근 승인이 필요한 DINOv3·FLUX.2-dev VAE 모델이 함께 필요합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드·프로젝트 페이지·GitHub SDK 확인."
+    },
+    "specs": {
+      "license": "Apache 2.0",
+      "memory": "7.2GB VRAM",
+      "modality": "이미지 → 3D"
+    },
+    "links": [
+      {
+        "label": "speridlabs/idol",
+        "url": "https://huggingface.co/speridlabs/idol",
+        "type": "huggingface"
+      },
+      {
+        "label": "speridlabs/idol-sdk",
+        "url": "https://github.com/speridlabs/idol-sdk",
+        "type": "github"
+      },
+      {
+        "label": "프로젝트 페이지",
+        "url": "https://speridlabs.com/research/idol",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
     "id": "2026-10-31-servicenow-apriel-voice-27b",
     "category": "로컬 AI",
     "title": "ServiceNow, MIT 라이선스 음성 모델 'Apriel-Voice-27B-preview' 공개",
@@ -24,6 +58,40 @@
         "label": "Hugging Face",
         "url": "https://huggingface.co/ServiceNow-AI/Apriel-Voice-27B-preview",
         "type": "huggingface"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
+    "id": "2026-10-31-sensenova-loop-9b-preview",
+    "category": "로컬 AI",
+    "title": "센스타임 'SenseNova-Loop-9B-Preview' 공개…레이어를 두 번 도는 루프형 멀티모달 모델",
+    "summary": "디코더 레이어 블록을 가중치 공유로 두 번 실행하고 mHC(다양체 제약 하이퍼커넥션)를 붙인 9B 멀티모달(텍스트·이미지 입력) 모델로, Apache 2.0으로 공개됐습니다.",
+    "why": "센스타임은 27B급 성능을 주장하지만 자체 벤치마크 기준입니다. 9B라 개인 GPU에서 돌려보기 좋은 크기입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(라이선스·구조·10/30 공개) 확인. 성능 주장은 회사 자체 수치."
+    },
+    "specs": {
+      "params": "9B",
+      "license": "Apache 2.0",
+      "modality": "텍스트·이미지 입력, 텍스트 출력"
+    },
+    "links": [
+      {
+        "label": "모델 카드(공식)",
+        "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+        "type": "source"
+      },
+      {
+        "label": "sensenova/SenseNova-Loop-9B-Preview",
+        "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "OpenSenseNova/SenseNova-Loop",
+        "url": "https://github.com/OpenSenseNova/SenseNova-Loop",
+        "type": "github"
       }
     ],
     "date": "2026-10-31"
@@ -102,6 +170,30 @@
       {
         "label": "OpenAI",
         "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
+    "id": "2026-10-31-nvidia-nscale-credit-guarantee",
+    "category": "AI·IT",
+    "title": "[보도] 엔비디아, 앤트로픽용 엔스케일 데이터센터 건설 부채 보증 협상",
+    "summary": "디인포메이션 보도(블룸버그·로이터 후속)에 따르면 엔비디아가 엔스케일의 웨스트버지니아 460MW 데이터센터 건설·전력 비용 부채에 수십억 달러 규모 잔존가치 보증을 협상 중이며, 아직 서명 전입니다.",
+    "why": "칩 구매나 임대가 아니라 건설 자체를 보증하는 구조로, AI 인프라 자금 조달 부담이 커지고 있다는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "보도 사실은 TechCrunch·Business Standard(로이터) 등 복수 매체로 확인. 계약 자체는 미확정."
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+        "type": "source"
+      },
+      {
+        "label": "Business Standard(로이터)",
+        "url": "https://www.business-standard.com/technology/tech-news/nvidia-in-talks-to-give-credit-support-for-nscale-s-deal-with-anthropic-126103001890_1.html",
         "type": "source"
       }
     ],
@@ -219,6 +311,25 @@
     "date": "2026-10-31"
   },
   {
+    "id": "2026-10-31-korea-un-military-ai-resolution",
+    "category": "한국 IT",
+    "title": "한국·네덜란드 주도 '군사분야 AI' 유엔 결의, 3년 연속 1위원회 채택",
+    "summary": "외교부에 따르면 결의는 2027·2028년 제네바 구조적 대화 개최와 유엔군축연구소 AI·평화·안보 우수센터 설립 환영을 담았고, 12월 유엔총회 본회의 채택으로 최종 확정됩니다.",
+    "why": "유엔의 유일한 군사 AI 결의를 한국이 계속 주도하고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "외교부 발표 인용 파이낸셜뉴스(뉴시스 사진) 보도 확인."
+    },
+    "links": [
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610311103158866",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
     "id": "2026-10-31-hyundai-saemangeum-ai-datacenter",
     "category": "한국 IT",
     "title": "현대차그룹, 새만금 AI 데이터센터 투자 확정…11월 SPC 2곳 설립",
@@ -267,6 +378,58 @@
     "date": "2026-10-31"
   },
   {
+    "id": "2026-10-31-gemini-api-computer-use-ga",
+    "category": "AI·IT",
+    "title": "Gemini API 'Computer Use' 정식 제공(GA)",
+    "summary": "구글은 10월 30일 화면을 보고 클릭·키 입력 같은 UI 동작을 돌려주는 Computer Use 기능을 Interactions API와 GenerateContent API 모두에서 정식 제공한다고 밝혔습니다.",
+    "why": "브라우저·데스크톱 자동화 에이전트를 프리뷰가 아닌 프로덕션용으로 만들 수 있게 됐습니다. 실제 동작 실행은 클라이언트 쪽에서 해야 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Gemini API 공식 릴리스 노트와 문서 확인."
+    },
+    "links": [
+      {
+        "label": "Gemini API 릴리스 노트",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "type": "source"
+      },
+      {
+        "label": "Computer Use 문서",
+        "url": "https://ai.google.dev/gemini-api/docs/computer-use",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
+    "id": "2026-10-31-diffuspace-clover-35b-a3b",
+    "category": "로컬 AI",
+    "title": "DiffuSpace, 확산 언어모델 'Clover-35B-A3B-Preview' 오픈소스 공개",
+    "summary": "총 35B·활성 3B의 MoE 확산(diffusion) 언어모델로 thinking 모드를 지원하며, Apache 라이선스로 공개되고 SGLang·llama.cpp 추론을 지원합니다.",
+    "why": "자기회귀가 아닌 확산 방식 LLM이 로컬 도구(llama.cpp)까지 지원하며 나왔습니다. Qwen3.6-35B-A3B보다 낫고 빠르다는 건 회사 주장입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 블로그 글 확인. 벤치마크는 회사 자체 수치."
+    },
+    "specs": {
+      "params": "35B (활성 3B, MoE)",
+      "license": "Apache"
+    },
+    "links": [
+      {
+        "label": "DiffuSpace 공식 발표",
+        "url": "https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview",
+        "type": "source"
+      },
+      {
+        "label": "HF 블로그: Clover-35B-A3B-Preview",
+        "url": "https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview",
+        "type": "huggingface"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
     "id": "2026-10-31-cursor-marketplace-claude-code-extension-malware",
     "category": "AI·IT",
     "title": "Cursor 마켓플레이스에 악성 'Claude Code' 확장 배포…SSH 키 심어 원격 접속",
@@ -296,6 +459,30 @@
     "date": "2026-10-31"
   },
   {
+    "id": "2026-10-31-claude-max-ultra-no-5h-limit",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude Max 20x를 'Ultra'로 개편…인증 계정은 5시간 한도 폐지",
+    "summary": "Max 20x는 Ultra로 이름이 바뀌고 월 200달러 그대로이며, 인증된 Ultra 계정은 5시간 사용 한도 없이 주간 한도(Pro의 10배) 안에서 쓸 수 있습니다.",
+    "why": "헤비 유저가 가장 자주 부딪히던 5시간 리셋 제약이 사라집니다. 미인증 신규 계정에는 임시 한도가 남습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude 고객센터 공식 문서 + 외신 보도 확인."
+    },
+    "links": [
+      {
+        "label": "Claude 고객센터: Ultra 플랜",
+        "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
+        "type": "source"
+      },
+      {
+        "label": "Neural Brew 보도",
+        "url": "https://neuralbrew.ai/en/articles/2026/10/claude-max-ultra-five-hour-limit-removed/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
     "id": "2026-10-31-binance-hack-north-korea-attribution",
     "category": "AI·IT",
     "title": "[업데이트] 바이낸스 해킹, 블록체인 분석사들 '북한 TraderTraitor' 소행 지목",
@@ -314,6 +501,50 @@
       {
         "label": "AP",
         "url": "https://apnews.com/article/binance-cryptocurrency-security-hack-north-korea-550e9b876550f71f07098494fe735beb",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
+    "id": "2026-10-31-apple-intelligence-china-ios-27-3",
+    "category": "AI·IT",
+    "title": "애플 인텔리전스, iOS 27.3로 중국 출시…11월 4일 베타, 알리바바 Qwen 연동",
+    "summary": "애플 중국 뉴스룸에 따르면 11월 4일 iOS 27.3 베타로 알림 요약·실시간 번역·글쓰기 도구·사진 정리 등을 먼저 제공하고, 정식 배포는 12월이며 일부 기능에 알리바바 Qwen이 들어갑니다.",
+    "why": "수년간 막혀 있던 중국 시장에 애플 AI가 처음 들어갑니다. 새 Siri AI는 이번에 포함되지 않습니다(The Verge).",
+    "verification": {
+      "status": "확인됨",
+      "note": "애플 중국 뉴스룸 원문 + The Verge 보도 확인."
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+    "links": [
+      {
+        "label": "애플 중국 뉴스룸",
+        "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+        "type": "source"
+      }
+    ],
+    "date": "2026-10-31"
+  },
+  {
+    "id": "2026-10-31-anthropic-automated-em-search",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude 에이전트로 '감시를 통과하는 오정렬 학습 데이터' 자동 탐색 연구",
+    "summary": "Claude 에이전트들에게 학습 데이터 감시기를 통과하면서 소형 연구 모델을 오정렬시키는 데이터를 만들게 했더니, 무해해 보이는 소설·롤플레이·틈새 Q&A 데이터로 감시기를 통과해 감독 회피·기만 같은 행동을 유도했습니다.",
+    "why": "학습 데이터 감시기의 사각지대를 자동으로 찾는 방법이며, 앤트로픽은 생성된 사례를 향후 감시기 개선에 쓴다고 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 Alignment 블로그 원문 확인."
+    },
+    "links": [
+      {
+        "label": "Anthropic Alignment 블로그",
+        "url": "https://alignment.anthropic.com/2026/automated-em-search/",
         "type": "source"
       }
     ],
