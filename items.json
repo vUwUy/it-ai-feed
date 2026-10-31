@@ -1,5 +1,233 @@
 [
   {
+    "id": "2026-11-01-xai-naacp-motion-denied",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "법원, xAI의 NAACP 대기오염 소송 기각 신청 거부…Colossus 2 가스터빈 재판 계속",
+    "summary": "미국 미시시피 북부지법은 xAI의 Colossus 2 데이터센터에 전력을 공급하는 사우스헤이븐 무허가 가스터빈 발전소를 둘러싼 NAACP의 청정대기법 소송에서 xAI의 기각 신청을 받아들이지 않았습니다. 법원은 해당 발전소가 '이동 오염원'이 아니어서 허가 의무가 면제되지 않는다고 봤습니다.",
+    "why": "앞서 미 법무부의 기각 신청도 거부된 바 있어, AI 데이터센터의 자체 발전 인허가 문제에 선례가 될 수 있습니다. 가처분 신청은 아직 판단 전입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Earthjustice(원고 측 대리) 보도자료 + TechCrunch 보도 확인."
+    },
+    "image": "https://earthjustice.org/wp-content/uploads/2026/04/xai-data-centers-turbines.jpg",
+    "links": [
+      {
+        "label": "Earthjustice",
+        "url": "https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-openai-daybreak-blue-training-optout",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "OpenAI, 11/29부터 Daybreak Blue 세션 학습 활용 통보했다가 반발에 '별도 옵트아웃' 약속",
+    "summary": "OpenAI는 개인 계정 Daybreak Blue 세션 데이터를 11월 29일부터 모델 개선에 쓰겠다고 이메일로 알렸다가, 몇 시간 만에 두 번째 이메일로 Daybreak 전용 옵트아웃을 제공하겠다고 했습니다. 안전 검토로 걸린 대화는 계속 안전 목적으로 쓰일 수 있습니다.",
+    "why": "미패치 취약점·익스플로잇 PoC가 담기는 보안 연구 세션이라 연구자 반발이 컸습니다. Runtimewire는 개인용 API 접근이 11월 20일 종료된다고도 전했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Decoder + Runtimewire 두 매체 독립 보도(OpenAI 이메일 인용) 확인. 세부는 11/29 전후 공개 예정."
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png",
+    "links": [
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+        "type": "source"
+      },
+      {
+        "label": "Runtimewire",
+        "url": "https://runtimewire.com/article/openai-daybreak-blue-training-opt-out-api-access",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-microsoft-mage-vl-cowork-4b",
+    "date": "2026-11-01",
+    "category": "로컬 AI",
+    "title": "마이크로소프트 'Mage-VL-Cowork' 4B 오픈 웨이트…OSWorld-Verified 66.0% 컴퓨터 사용 에이전트",
+    "summary": "GUI 조작(computer_use)과 코드·터미널 실행(bash)을 하나의 4B 비전-언어 정책에 묶은 컴퓨터 사용 에이전트를 Apache 2.0으로 공개했으며, 50스텝 예산에서 OSWorld-Verified 66.0%로 4B급 최고라고 밝혔습니다(자체 측정). 온라인 강화학습이 Hybrid SFT 대비 +10.16%p를 더했다고 합니다.",
+    "why": "작은 모델로 PC 작업 자동화를 로컬에서 돌릴 수 있는 후보입니다. 293,806개 작업을 생성하는 합성 엔진 Mage-CUA-Forge와 학습 레시피도 함께 공개했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드(microsoft, apache-2.0, 10/30 생성) 확인. 벤치마크는 자체 측정."
+    },
+    "image": "https://huggingface.co/microsoft/Mage-VL-Cowork/resolve/main/assets/mage-vl-cowork-teaser.png",
+    "specs": {
+      "params": "4B (safetensors 기준 약 4.74B)",
+      "license": "Apache 2.0",
+      "modality": "이미지+텍스트 → 텍스트 (GUI·bash 행동)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델 카드",
+        "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+        "type": "source"
+      },
+      {
+        "label": "microsoft/Mage-VL-Cowork",
+        "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-lg-cloid-in-house-production",
+    "date": "2026-11-01",
+    "category": "한국 IT",
+    "title": "LG전자, 휴머노이드 '클로이드' 양재 데이터 팩토리서 직접 생산 (보도)",
+    "summary": "지디넷코리아에 따르면 LG전자는 그동안 애지봇·로보스타가 위탁생산하던 세미 휴머노이드 클로이드를 서울 양재 데이터 팩토리에서 직접 만들고 있으며, 연말까지 수백 대를 데이터 팩토리에 투입할 계획입니다. 아직 양산이 아닌 수작업 조립 단계입니다.",
+    "why": "휴머노이드 원가의 절반 이상인 액추에이터를 창원 파일럿 라인에서 내재화하는 등 부품 자체 조달로 경쟁력을 높이려는 흐름입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "지디넷코리아 단독 보도 기준. LG전자 공식 발표는 없음(뉴스룸에 '자체 제작' 언급은 있음)."
+    },
+    "links": [
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261031010426",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-epoch-glm53-firefox-patch-gap",
+    "date": "2026-11-01",
+    "category": "로컬 AI",
+    "title": "Epoch AI: 오픈 웨이트 GLM 5.3이 '패치 갭'으로 파이어폭스 6개 버전 공격 성공…회당 약 1,000달러",
+    "summary": "Epoch AI는 GLM 5.3이 공개됐지만 아직 배포 전인 보안 수정을 역추적해 9월 17일~10월 26일 출시된 파이어폭스 6개 릴리스 모두에서, 방문만으로 로컬 파일을 빼내는 공격을 사람 개입 없이 만들었다고 밝혔습니다. 최대 48시간을 줬고 가장 빠른 시도는 12시간, 버전당 한계비용은 약 1,000달러였습니다.",
+    "why": "공격에 쓰인 미공개 취약점은 10월 27일 Firefox 159.0에서 패치됐고, Mozilla는 주간 릴리스·회귀 테스트 비공개·커밋 스캔으로 대응한다고 밝혔습니다. 크롬 공격은 성공하지 못했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Epoch AI 보고서(10/29) + Mozilla 공식 블로그 확인. 이전 브리핑에서 누락돼 이번에 포함."
+    },
+    "image": "https://epoch.ai/assets/images/posts/2026/open-weight-models-patch-gap/t-open-weight-models-patch-gap.png",
+    "links": [
+      {
+        "label": "Epoch AI 보고서",
+        "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+        "type": "source"
+      },
+      {
+        "label": "Mozilla 블로그",
+        "url": "https://blog.mozilla.org/en/firefox/privacy-security/defending-patch-gap/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-claude-watermark-older-models",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "Anthropic, 11월 3일부터 Mythos 5·Opus 4.7·Opus 4.6·Sonnet 4.6에도 텍스트 워터마크",
+    "summary": "The Decoder에 따르면 Anthropic은 API 고객 이메일에서 이 4개 모델에 보이지 않는 텍스트 워터마크를 적용한다고 알렸고, Amazon Bedrock은 며칠 더 걸릴 수 있다고 했습니다. Opus 4.6·Sonnet 4.6은 temperature·top_p·top_k를 기본값으로 둘 때만 워터마크가 들어갑니다.",
+    "why": "EU AI Act의 12월 전환 기한에 맞춘 조치로, 워터마크는 모델 단위라 끌 수 없고 전 세계에 적용됩니다. 감지 API는 비공개 프리뷰입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude Help Center 공식 문서(구형 모델 워터마크 추가·EU AI Act) + The Decoder(고객 이메일 인용) 확인. 11/3 날짜는 이메일 인용 보도 기준."
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/08/Claude-Watermark.png",
+    "links": [
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+        "type": "source"
+      },
+      {
+        "label": "Claude Help Center",
+        "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-claude-code-game-recreation-rule",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "Claude Code에 '기존 게임 재현 금지' 지침 발견…Opus 5.5에서 작동 (보도)",
+    "summary": "XDA는 Claude Code v2.1.314 바이너리에서 \"Don't build a recreation of a specific existing game, even if it is renamed or called original\"이라는 지침을 직접 찾았고, 테스트상 Opus 5.5에서 적용된다고 보도했습니다. 다만 디컴파일·정적 리컴파일 지원은 전면 금지되지 않은 것으로 보인다고 했습니다.",
+    "why": "AI로 고전 게임을 이식·재구축하는 커뮤니티에 직접 영향이 있을 수 있습니다. Anthropic의 공식 입장은 아직 없고 적용 범위도 불명확합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "XDA(바이너리 독립 확인·테스트) + Mashable 보도. Anthropic 공식 발표는 없음 — 보도 기준."
+    },
+    "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
+    "links": [
+      {
+        "label": "XDA",
+        "url": "https://www.xda-developers.com/anthropic-testing-potential-crackdown-on-vibe-coded-ports-of-existing-games/",
+        "type": "source"
+      },
+      {
+        "label": "Mashable",
+        "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50320255",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-chatgpt-share-link-takeover",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "공유된 ChatGPT 링크 하나로 남의 비공개 대화 열람…Parameter가 찾은 P1 취약점, 패치 완료",
+    "summary": "보안업체 Parameter는 악성 ChatGPT 공유 링크를 열면(초기엔 Preview 클릭 1번) 공격자 코드가 피해자의 로그인 세션에서 돌며 비공개 대화를 읽을 수 있다고 공개했습니다. 10월 18일 제보, OpenAI가 P2→P1으로 올린 뒤 10월 26일까지 수정했고 포상금은 총 5,000달러였습니다.",
+    "why": "MathLive 키보드 메시지의 발신자 미검증 → raw HTML 허용 → 샌드박스 없는 프레임 → CSP가 허용한 YouTube 스크립트로 이어지는 연쇄였습니다. 사용자가 할 조치는 없고, 실제 악용 사례는 보고되지 않았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Parameter 원문 연구 글 + The Hacker News 독립 보도 확인. 실사용자 대상 악용은 보고 없음."
+    },
+    "image": "https://www.parameter.ai/labs/images/openai-public-share-modified-page.png",
+    "links": [
+      {
+        "label": "Parameter 연구 글",
+        "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50314699",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-chatgpt-mobile-account-switching",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "ChatGPT iOS·안드로이드 앱에 계정 전환 도입…최대 2개 계정 동시 로그인",
+    "summary": "OpenAI 도움말에 따르면 iOS·안드로이드 앱 설정의 'Switch account'로 최대 2개 계정에 동시에 로그인해 로그아웃 없이 전환할 수 있으며, 현재 순차 배포 중입니다. 대화·메모리·파일·구독은 계정별로 분리됩니다.",
+    "why": "개인·회사 계정을 함께 쓰는 사용자에게 유용합니다. 결제 전 활성 계정을 꼭 확인하라는 안내가 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI Help Center 공식 문서 확인(배포 중, 미노출 시 아직 미적용)."
+    },
+    "links": [
+      {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-31-speridlabs-idol-image-to-3d",
     "category": "로컬 AI",
     "title": "Sperid Labs 'Idol' 공개…사진 한 장을 3D 가우시안 스플랫으로, VRAM 7.2GB",
