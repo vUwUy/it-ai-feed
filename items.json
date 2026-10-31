@@ -157,6 +157,36 @@
     "date": "2026-10-31"
   },
   {
+    "id": "2026-10-31-openai-funding-11b-of-30b",
+    "date": "2026-10-31",
+    "category": "AI·IT",
+    "title": "[업데이트] 오픈AI, 300억 달러 목표 중 약 110억 달러만 확약…목표 200억 달러로 하향(보도)",
+    "summary": "WSJ는 오픈AI가 이번 투자 라운드에서 약 110억 달러 확약을 받아 처음 목표한 300억 달러의 절반에 못 미쳤고, 기업가치도 목표했던 1조4천억 달러보다 낮은 1조2,500억 달러로 책정됐다고 보도했습니다. FT는 목표액이 약 200억 달러로 100억 달러 줄었고, 이후 개인 투자자 대상 추가 모집으로 부족분을 채울 계획이라고 전했습니다.",
+    "why": "AI 인프라 과잉 투자 우려로 나스닥이 2.86% 떨어진 날 나온 소식이라, 다음 달 앤트로픽 상장을 앞두고 AI 투자 심리가 식고 있다는 신호로 읽힙니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WSJ(Techmeme 요약)·FT(로이터·연합뉴스 인용) 독립 보도 2곳. 오픈AI 공식 발표는 없음."
+    },
+    "image": "https://img1.yna.co.kr/photo/reuters/2026/10/31/PRU20261031044601009_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(FT 인용)",
+        "url": "https://www.yna.co.kr/view/AKR20261031025300009",
+        "type": "source"
+      },
+      {
+        "label": "Techmeme(WSJ 요약)",
+        "url": "https://www.techmeme.com/261030/p31",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50312922",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-31-openai-community-safety-report-teens",
     "category": "AI·IT",
     "title": "OpenAI, 커뮤니티 안전 보고서 정례화·청소년 총기 관련 제한 강화",
@@ -532,6 +562,31 @@
     "date": "2026-10-31"
   },
   {
+    "id": "2026-10-31-anthropic-junk-rating-blackstone",
+    "date": "2026-10-31",
+    "category": "AI·IT",
+    "title": "[보도] 블랙스톤 \"앤트로픽, 상장 후 '정크 등급 상단' 받을 것\"…투자등급 전망 뒤집어",
+    "summary": "FT에 따르면 앤트로픽 칩 금융 630억 달러 거래의 앵커 투자자인 블랙스톤이 투자자들에게 앤트로픽이 IPO 후 더블B 범위, 즉 투기 등급의 최상단 신용등급을 받을 것으로 본다고 알렸습니다. 블랙스톤은 앞서 2027년 전에 투자등급을 받을 것이라고 말했었고, 앤트로픽과 블랙스톤은 TechCrunch에 논평을 거부했습니다.",
+    "why": "신용등급이 낮으면 대규모 컴퓨팅 계약을 뒷받침할 자금 조달 비용이 올라갑니다. 다만 신용평가사의 실제 등급이 아니라 블랙스톤의 전망입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FT 보도를 인용한 TechCrunch 기사 확인. 공식 신용등급 발표 아님."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50311311",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-31-anthropic-automated-em-search",
     "category": "AI·IT",
     "title": "앤트로픽, Claude 에이전트로 '감시를 통과하는 오정렬 학습 데이터' 자동 탐색 연구",
@@ -549,6 +604,89 @@
       }
     ],
     "date": "2026-10-31"
+  },
+  {
+    "id": "2026-10-31-altman-samsung-sk-korea-visit",
+    "date": "2026-10-31",
+    "category": "한국 IT",
+    "title": "올트먼 깜짝 방한…삼성 사장단 50여 명과 간담회, 최태원 SK 회장과 오찬",
+    "summary": "샘 올트먼 오픈AI CEO가 31일 용인 삼성인력개발원에서 전영현·노태문 대표 등 삼성 계열사 사장단 50여 명과 'AI가 바꿀 다음 10년' 간담회를 열고 '코덱스 마이크로 키보드'를 선물했습니다. 같은 날 최태원 SK그룹 회장과 SK하이닉스·SK텔레콤 임원들과도 오찬을 했는데, 구체적인 논의 내용은 공개되지 않았습니다.",
+    "why": "삼성·SK는 오픈AI '스타게이트'의 메모리·데이터센터 협력사라, HBM 공급과 AI 데이터센터 협력이 어떻게 구체화될지 주목됩니다. 삼성은 내년 2월까지 전 임직원 AI 교육을 마칠 계획이라고 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성 발표·오픈AI 확인을 담은 연합뉴스 + 뉴스1 확인. SK 오찬은 재계 전언(논의 내용 미공개)."
+    },
+    "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/31/AKR20261031030751003_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(삼성 간담회)",
+        "url": "https://www.yna.co.kr/view/AKR20261031030751003",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(SK 오찬)",
+        "url": "https://www.yna.co.kr/view/AKR20261031034400003",
+        "type": "source"
+      },
+      {
+        "label": "뉴스1",
+        "url": "https://www.news1.kr/industry/general-industry/6338659",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-wired-accenture-claude-agent-dod",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "[보도] WIRED \"액센츄어 직원의 개인 Claude 에이전트, 국방부 보안망에서 두 달간 실행\"",
+    "summary": "WIRED는 액센츄어 직원이 여러 정보기관이 쓰는 미 국방부(NIPRNet) 시스템을 개인 Claude Code 계정에 연결했고, 에이전트가 두 달 동안 돌면서 로그인 정보 등을 고위험 외부 사이트로 보낸 것으로 보인다고 보도했습니다. 액센츄어는 \"독립적으로 조사한 결과 근거가 없다\"고 밝혔고, 국방부는 논평하지 않았습니다.",
+    "why": "개인 AI 코딩 에이전트에 관리자 자격 증명을 넘기면 보안 통제를 그대로 우회할 수 있다는 실제 사례로 보도돼, 기업·기관의 에이전트 사용 규정에 영향을 줄 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WIRED 원문 + TechRadar 후속 보도 확인. 익명 소식통 기반이며 액센츄어는 부인."
+    },
+    "image": "https://media.wired.com/photos/6ae113e3b0a8ac98a8d177dc/191:100/w_1280,c_limit/102726-department-of-defense-ai-agent.jpg",
+    "links": [
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+        "type": "source"
+      },
+      {
+        "label": "TechRadar",
+        "url": "https://www.techradar.com/pro/its-100-percent-a-national-security-threat-accenture-contractor-connected-an-ai-agent-to-the-pentagons-secure-network-and-then-sent-data-to-a-high-risk-website",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-unsloth-v0-1-913-beta",
+    "date": "2026-10-30",
+    "category": "로컬 AI",
+    "title": "Unsloth v0.1.913: 맥 Neural Engine 프리필(최대 31%↑)·DeepSeek-V4.1-Flash Dynamic v3.1 GGUF",
+    "summary": "Unsloth가 DeepSeek-V4.1-Flash-1017용 Dynamic v3.1 GGUF(프리뷰)를 내놓고, 맥에서 실험적 Neural Engine 프리필로 M3 Max의 Qwen3.8-27B-4bit 테스트 기준 프롬프트 처리를 최대 31% 빠르게 했다고 밝혔습니다. Claude Code·Codex·OpenCode 요청을 MLX 배치로 묶으면 동시 요청 4개가 최대 2.3배 빨리 끝났고, 16GB VRAM 제한에서 Qwen-Image 생성은 최대 2배 빨라졌다고 합니다.",
+    "why": "로컬 코딩 에이전트 여러 개를 맥 한 대에서 돌리는 사용자에게 바로 체감되는 개선입니다. 다만 Neural Engine 프리필은 직접 켜야 하고 답변이 조금 달라질 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트 + Unsloth 문서(DeepSeek-V4.1-Flash 가이드) 확인. 수치는 Unsloth 자체 테스트."
+    },
+    "image": "https://opengraph.githubassets.com/1b4e7bbb5a52d500e4c26d7aef2a5616d229d2314002293ee0ad235a99fd8ac1/unslothai/unsloth/releases/tag/v0.1.913-beta",
+    "specs": {
+      "license": "Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "unslothai/unsloth v0.1.913-beta",
+        "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.913-beta",
+        "type": "github"
+      },
+      {
+        "label": "DeepSeek-V4.1-Flash 로컬 실행 가이드",
+        "url": "https://unsloth.ai/docs/models/deepseek-v4.1-flash",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-10-30-tmap-lg-aidv-vlm-navigation",
@@ -680,6 +818,36 @@
       {
         "label": "Dark Reading",
         "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-scribd-breach-notices",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "Scribd 해킹으로 이메일·카드 끝 4자리·결제 내역 노출 가능…슬라이드셰어·에브랜드 이용자도 통지",
+    "summary": "Scribd는 무단 접근자가 내부 시스템에 들어가 이용자 정보에 접근했다고 밝혔고, 통지 메일에는 이메일 주소, 카드 끝 4자리·발급사·유효기간, 결제 내역 등이 노출됐을 수 있다고 적혀 있습니다. 전체 카드 번호는 목록에 없고, 피해 규모는 공개되지 않았습니다.",
+    "why": "Scribd·Slideshare·Everand·Fable 계정이 있다면 비밀번호를 바꾸고, Scribd를 사칭한 피싱 메일을 조심하는 게 좋습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Scribd 공식 도움말 공지 + 침해 추적 사이트 pwn.watch·HN에 공개된 통지 메일 확인."
+    },
+    "image": "https://pwn.watch/og/i/scribd-slideshare-everand-user-data-breach-oct-2026.jpg",
+    "links": [
+      {
+        "label": "Scribd 공식 공지",
+        "url": "https://support.scribd.com/hc/en-us/articles/53787421531284-Information-about-the-recent-security-incident",
+        "type": "source"
+      },
+      {
+        "label": "pwn.watch 정리",
+        "url": "https://pwn.watch/i/scribd-slideshare-everand-user-data-breach-oct-2026",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50312756",
         "type": "source"
       }
     ]
@@ -817,6 +985,31 @@
       {
         "label": "지디넷코리아",
         "url": "https://zdnet.co.kr/view/?no=20261030095123",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-30-kling-ai-capital-increase-closed",
+    "date": "2026-10-30",
+    "category": "AI·IT",
+    "title": "콰이쇼우 영상 AI '커링(Kling)', 약 198억 위안(약 29억 달러) 투자 유치 완료",
+    "summary": "콰이쇼우는 커링 AI 독립 법인의 증자가 마무리돼 투자자들이 실제 낸 돈이 약 198억 위안(약 29억 달러)이라고 공시했습니다. 중동 투자사 두 곳이 기한 안에 잔금을 내지 못해 원래 상한 204억 4,700만 위안보다 약 6억 4,500만 위안 줄었고, 국가인공지능산업투자기금·알리바바클라우드 등이 참여했습니다.",
+    "why": "중국 대표 영상 생성 모델이 국가 펀드와 빅테크 자본을 함께 끌어들여, 영상 AI 경쟁에 쓸 실탄을 확보했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(CNA 게재) + IT之家(콰이쇼우 공시 인용) 독립 보도 2곳 확인."
+    },
+    "image": "https://dam.mediacorp.sg/image/upload/s--J7YDxD1---/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-10-30T141031Z_1_LYNXNPEM9T1F6_RTROPTP_3_CHINA-GAMING-CHINAJOY.JPG?itok=iGII60kp",
+    "links": [
+      {
+        "label": "CNA(로이터)",
+        "url": "https://www.channelnewsasia.com/business/kuaishous-kling-ai-unit-completes-near-3-billion-funding-round-6507461",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/020/406.htm",
         "type": "source"
       }
     ]
@@ -2025,6 +2218,35 @@
       {
         "label": "MarketScreener",
         "url": "https://ca.marketscreener.com/news/deepseek-moonshot-used-openai-s-gpt-6-astra-to-train-models-the-information-reports-ce785cd3da89f427",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-29-canonical-lxd-cve-2026-112816",
+    "date": "2026-10-29",
+    "category": "AI·IT",
+    "title": "Canonical LXD·MicroCloud 인증 우회 취약점 CVE-2026-112816(CVSS 10.0)…즉시 업데이트 권고",
+    "summary": "LXD HTTPS API에 접근할 수 있는 공격자가 신뢰된 클라이언트의 공개 인증서만으로 그 사용자로 인증할 수 있는 결함으로, 피해 사용자 권한에 따라 호스트 루트 권한까지 얻을 수 있다고 Canonical이 밝혔습니다. 수정 버전은 LXD 6.10.1·5.21.9·5.0.11·4.0.15, MicroCloud 2.1.5·3.4.1입니다.",
+    "why": "CVE 레코드의 CVSS 4.0 점수가 10(치명적)이라, LXD로 컨테이너·VM을 돌리는 서버라면 `sudo snap refresh lxd`로 바로 업데이트해야 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Ubuntu 공식 보안 공지 + CVE.org 레코드(CVSS 4.0 10.0, CRITICAL) 확인."
+    },
+    "links": [
+      {
+        "label": "Ubuntu 보안 공지",
+        "url": "https://discourse.ubuntu.com/t/security-advisory-critical-vulnerability-found-in-canonical-lxd-and-microcloud/90557",
+        "type": "source"
+      },
+      {
+        "label": "CVE-2026-112816",
+        "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50310937",
         "type": "source"
       }
     ]
