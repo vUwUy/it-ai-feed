@@ -108,6 +108,35 @@
     "date": "2026-10-31"
   },
   {
+    "id": "2026-10-31-northflank-breach-secrets",
+    "date": "2026-10-31",
+    "category": "AI·IT",
+    "title": "배포 플랫폼 Northflank 침해…\"모든 환경변수가 복호화됐다고 가정하고 즉시 교체\"",
+    "summary": "Northflank는 10월 30일(UTC) 보안 사고를 공지하고 사용자에게 워크로드·시크릿 그룹·글로벌 시크릿을 포함한 모든 환경변수가 복호화됐다고 가정하고 키를 즉시 교체하라고 안내했습니다. 이후 사용자들이 플랫폼에 넣어 둔 AI API 키의 무단 사용을 신고했다고 밝혔고, 플랫폼은 큰 장애를 겪었습니다.",
+    "why": "10월 OpenCode·Railway 등에 이어 개발 플랫폼에 저장된 AI 키를 노리는 공격의 최신 사례입니다. Northflank는 Wiz의 'Black October' 보고서와 비슷한 IP가 관측됐다고 했고, Sentry도 고객 데이터 영향은 없다고 별도 공지했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Northflank 공식 상태 페이지 공지 + Sentry 고객 공지(독립 출처). Hacker News 346점."
+    },
+    "links": [
+      {
+        "label": "Northflank 상태 페이지",
+        "url": "https://status.northflank.com/cmvv0rn5a092f14rutwccodpp",
+        "type": "source"
+      },
+      {
+        "label": "Sentry 공지",
+        "url": "https://www.sentry.help/en/articles/17824780-was-sentry-customer-data-or-services-impacted-by-the-northflank-com-compromise",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50305025",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-10-31-maincode-matilda-platypus",
     "category": "로컬 AI",
     "title": "Maincode, Qwen3 두 모델을 이어 붙인 'Matilda Platypus' 1.5B~13B 공개",
@@ -130,6 +159,40 @@
       }
     ],
     "date": "2026-10-31"
+  },
+  {
+    "id": "2026-10-31-linux-cve-98432-go-mptcp",
+    "date": "2026-10-31",
+    "category": "AI·IT",
+    "title": "[업데이트] 리눅스 TCP 원격 루트 취약점 CVE-2026-98432…Go 1.24+ 서버 기본 노출, Akamai(Linode)도 조사",
+    "summary": "앤트로픽이 10월 27일 공개한 원격 루트 익스플로잇의 대상인 리눅스 IPv4 TCP use-after-free(CVE-2026-98432)에 대해, Go 보안팀은 Go 1.24부터 리눅스에서 리스닝 소켓에 MPTCP가 기본으로 켜진다고 경고했습니다. 임시 완화로 GODEBUG=multipathtcp=0을 안내했지만 최선의 해결책은 패치된 커널로 업그레이드하는 것이라고 했고, Akamai(Linode)도 이 CVE에 대한 고객 보안 공지를 내고 조사 중입니다.",
+    "why": "Go로 만든 HTTP·gRPC 서버를 운영하면 별도 설정 없이도 시연된 공격 조건에 해당할 수 있습니다. 패치 버전은 6.12.113, 6.18.56, 7.2.10, 7.3 등입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Go 보안팀 공지(oss-security 전달) + 리눅스 커널 CVE 공지 + Linode 상태 페이지 + The Hacker News 보도."
+    },
+    "links": [
+      {
+        "label": "Go 보안팀 공지",
+        "url": "https://www.openwall.com/lists/oss-security/2026/10/30/1",
+        "type": "source"
+      },
+      {
+        "label": "커널 CVE 공지",
+        "url": "https://lists.openwall.net/linux-cve-announce/2026/10/15/1",
+        "type": "source"
+      },
+      {
+        "label": "Linode 보안 공지",
+        "url": "https://status.linode.com/incidents/nt58zhx3pmgm",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-10-31-lg-cns-q3-2026",
