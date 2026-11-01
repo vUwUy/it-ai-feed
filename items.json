@@ -212,6 +212,30 @@
     ]
   },
   {
+    "id": "2026-11-01-fsc-ai-hacking-meeting",
+    "date": "2026-11-01",
+    "category": "한국 IT",
+    "title": "[업데이트] 금융위, 5일 전 금융권 'AI 해킹 대응 점검회의'…5대 은행장 소집, 코인거래소 프라뱅 1억원 피해",
+    "summary": "금융위원회는 11월 5일 금감원·금융보안원·관계부처·전 금융권 협회·5대 시중은행장과 AI 해킹 대응 점검회의를 엽니다. 금감원은 업권별 AI 기반 공동 보안관제 시스템 구축을 논의했고, 지난주 코인거래소 프라뱅에서는 비정상 출금으로 1억원 피해가 발생했습니다.",
+    "why": "9월 말부터 이어진 은행·저축은행·증권·보험 연쇄 해킹에 당국이 전 금융권 차원 대응에 나선 것입니다. 금융당국은 일련의 공격에 AI 에이전트가 활용된 것으로 추정하고 조사 중입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "파이낸셜뉴스 + YTN 보도 일치."
+    },
+    "links": [
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611011141247429",
+        "type": "source"
+      },
+      {
+        "label": "YTN",
+        "url": "https://www.ytn.co.kr/_ln/0102_202611011243141336",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-01-epoch-glm53-firefox-patch-gap",
     "date": "2026-11-01",
     "category": "로컬 AI",
@@ -365,6 +389,30 @@
       {
         "label": "OpenAI Help Center",
         "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-chainalysis-agentic-breach",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "체이널리시스, '공격형 에이전트 기법' 쓴 해커에 침해…고객 이름·이메일·역할 정보 접근",
+    "summary": "블록체인 분석 기업 체이널리시스는 이달 외부 행위자가 '공격형 에이전트 기법(offensive agentic techniques)'으로 내부 시스템과 도구에 무단 접근했다고 공지했습니다. 플랫폼 사용자의 사용자 ID·이름·이메일·조직 내 역할 라벨이 접근됐고, 수사 내용·인증 정보·세션 토큰 접근 증거는 지금까지 없다고 밝혔습니다.",
+    "why": "금융기관·거래소·정부기관이 쓰는 보안·수사 플랫폼이 AI 에이전트를 활용한 공격에 뚫렸다고 회사가 직접 밝힌 사례입니다. 역할 정보는 표적 피싱에 쓰일 수 있어, 회사는 2단계 인증과 비정상 비밀번호 재설정 요청 주의를 권고했습니다. 바이낸스 해킹과는 무관하다고 했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "체이널리시스 공식 공지 + BleepingComputer(대변인 확인)·The Hacker News·The Block 보도 확인. 피해 규모·침투 경로는 미공개."
+    },
+    "links": [
+      {
+        "label": "체이널리시스 공지",
+        "url": "https://www.chainalysis.com/blog/security-incident-october-30/",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
         "type": "source"
       }
     ]
