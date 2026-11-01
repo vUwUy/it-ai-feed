@@ -238,6 +238,31 @@
     ]
   },
   {
+    "id": "2026-11-01-moin-data-breach",
+    "date": "2026-11-01",
+    "category": "한국 IT",
+    "title": "해외송금 핀테크 모인 해킹…신분증 사본·주민번호·계좌·가족관계증명서 유출",
+    "summary": "모인은 10월 23일 오전 2시 30분께 외부 불법 접근으로 2023년 10월 19일 이전에 고객이 낸 증빙서류 파일이 유출됐다고 공지했습니다. 신분증 사본(주민등록번호·주소·사진 등), 통장 사본, 주민등록등본·가족관계증명서, 주주명부 일부나 전부가 포함될 수 있으며, 회원이 아닌 가족·주주·거래상대방 정보도 대상일 수 있습니다.",
+    "why": "신원 확인과 금융거래에 쓰이는 서류 원본이 빠져나가 명의도용·금융사기 우려가 큽니다. 회사는 신분증 재발급, 금감원 개인정보노출자 사고예방시스템 등록, 비대면 계좌개설·대출 안심차단 이용을 권고했고, 전체 피해 규모와 침입 경로는 아직 공개하지 않았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "모인 공식 공지 내용을 전한 데일리시큐 + YTN 보도 확인."
+    },
+    "image": "https://cdn.dailysecu.com/news/photo/202611/209225_210248_2757.jpeg",
+    "links": [
+      {
+        "label": "데일리시큐",
+        "url": "https://www.dailysecu.com/news/articleView.html?idxno=209225",
+        "type": "source"
+      },
+      {
+        "label": "YTN",
+        "url": "https://www.ytn.co.kr/_ln/0102_202611011550310790",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-01-microsoft-mage-vl-cowork-4b",
     "date": "2026-11-01",
     "category": "로컬 AI",
@@ -449,6 +474,35 @@
       {
         "label": "YTN",
         "url": "https://www.ytn.co.kr/_ln/0102_202611011243141336",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-fbi-binance-north-korea",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "[업데이트] FBI, 바이낸스 60억 달러+ 해킹 배후로 북한 'TraderTraitor' 공식 지목",
+    "summary": "FBI는 10월 31일(현지) 사이버 경보에서 북한이 10월 29일께 바이낸스에서 60억 달러 이상의 가상자산을 탈취했다고 밝혔습니다. FBI·비밀경호국(USSS)·국세청 범죄수사국(IRS-CI)은 탈취 자산이 주로 이더리움으로 바뀌고 있다며, 거래소·노드 운영자·DeFi 서비스 등에 공개한 세탁 주소와의 거래 차단을 요청했습니다.",
+    "why": "민간 분석사 추정에 이어 나온 미 정부의 첫 공식 귀속입니다. 코인데스크에 따르면 공개된 주소는 이더리움 600여 개, 비트코인 20개 미만, 솔라나 1개입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FBI 사이버 경보 원문 + AP·연합뉴스·코인데스크 보도 확인."
+    },
+    "links": [
+      {
+        "label": "FBI 사이버 경보",
+        "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(영문)",
+        "url": "https://en.yna.co.kr/view/AEN20261101000300315",
+        "type": "source"
+      },
+      {
+        "label": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
         "type": "source"
       }
     ]
