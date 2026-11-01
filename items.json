@@ -1,5 +1,186 @@
 [
   {
+    "id": "2026-11-02-openai-ai-compute-campuses",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "[보도] 오픈AI, 중간선거 뒤 'PR 공세'…데이터센터를 'AI 컴퓨트 캠퍼스'로 개명 검토",
+    "summary": "악시오스에 따르면 크리스 리헤인 오픈AI 글로벌 업무 총괄은 AI '속도 제한', 국제 표준 주도와 함께 데이터센터를 'AI 컴퓨트 캠퍼스'로 바꿔 부르는 방안을 언급했습니다. 그는 2028년 대선에서 AI가 핵심 쟁점이 될 것이라고 봤습니다.",
+    "why": "데이터센터 반대 여론이 정치 쟁점이 된 가운데 AI 기업들의 대응 방향을 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "악시오스 인터뷰를 인용한 TechCrunch 보도(11/1). 회사 공식 발표는 아님."
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-grok-api-text-watermark",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "xAI Grok API, 11월 7일부터 텍스트 출력에 기본 워터마크",
+    "summary": "grok-4.7·4.6·4.5·4.3·4.20의 Responses·Chat Completions 출력(구조화 출력·도구 인자 포함)에 기본으로 워터마크가 들어가며, 응답 헤더 x-watermark로 적용 여부를 확인할 수 있습니다. 관리자는 콘솔에서 모델별로 끌 수 있고 변경은 5분 안에 반영됩니다.",
+    "why": "앤트로픽에 이어 xAI도 API 텍스트 워터마크를 기본값으로 켜, 주요 모델사 전반으로 확산되는 흐름입니다. 검출은 별도 신청이 필요합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "xAI 공식 개발자 문서 + MACCUS 보도 확인."
+    },
+    "links": [
+      {
+        "label": "xAI 문서",
+        "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+        "type": "source"
+      },
+      {
+        "label": "MACCUS",
+        "url": "https://maccus.fr/en/grok-text-watermark/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-chatgpt-card-device-limits",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "ChatGPT 유료 계정에 결제 카드·기기 수 제한 도입",
+    "summary": "Go·Plus·Pro 요금제에 카드·기기 수 제한이 적용돼 한도를 넘으면 'Device limit reached'가 뜨고, 로그아웃해도 자리가 비지 않습니다. Free·Business·Enterprise·Edu는 제외되며 구체적인 한도 숫자는 공개되지 않았습니다.",
+    "why": "계정 공유를 막고 유료 사용을 늘리려는 조치로 해석되며, 여러 기기를 쓰는 개인 사용자도 영향을 받을 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 도움말 문서 + The Decoder 보도 확인."
+    },
+    "links": [
+      {
+        "label": "OpenAI Help",
+        "url": "https://help.openai.com/en/articles/20001559-understanding-card-and-device-limits-in-chatgpt",
+        "type": "source"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-talos-volta-infostealer-llm",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "시스코 탈로스, 훔친 정보를 LLM으로 '감정'하는 인포스틸러 VOLTA 공개",
+    "summary": "자기 삭제형 윈도 인포스틸러 VOLTA는 자격 증명·세션·암호화폐 지갑을 훔친 뒤 OpenRouter를 통해 claude-opus-4.6에 피해자 프로필을 보내 자산 가치를 순위화하며, 모델이 거부하면 kimi-k2, gemini-2.5-flash로 넘어갑니다. API 키가 없으면 AI 단계를 건너뛰고 텔레그램으로 바로 전송합니다.",
+    "why": "공격자가 상용 LLM을 피해자 선별 단계에 붙인 사례로, 실제 유포 여부는 탈로스도 추적하지 않았다고 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Cisco Talos 블로그(10/31) + WIRED·Tom's Hardware 보도 확인."
+    },
+    "links": [
+      {
+        "label": "Cisco Talos",
+        "url": "https://blog.talosintelligence.com/category/ai/",
+        "type": "source"
+      },
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+        "type": "source"
+      },
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-nace-drex-max-v1-open-weights",
+    "date": "2026-11-01",
+    "category": "로컬 AI",
+    "title": "Nace AI 결정 모델 'Drex Max v1' 27B 오픈 웨이트…24GB 맥에서 Q4 실행",
+    "summary": "텍스트·JSON·이미지 상황을 받아 선택지별 확률을 한 번의 순전파로 내놓는 27B 덴스 결정 모델로, bf16(약 49GB)·Q8_0 GGUF(27.25GB)·affine Q4(14.45GB)와 llama.cpp·Ollama 포크, MLX 경로를 제공합니다. Decision Index 0.4 점수는 67.52(자체 발표)입니다.",
+    "why": "에이전트 라우팅·티켓 분류·가드레일 판정을 로컬에서 돌릴 수 있는 특화 모델입니다. 로컬 맥·CPU 경로는 현재 텍스트 전용입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 저장소 확인 + MarkTechPost 기사(Nace AI 후원 기사). 벤치마크는 자체 발표."
+    },
+    "specs": {
+      "params": "27B dense",
+      "license": "Nace.AI Open RAIL-M",
+      "memory": "Q4 24GB+ 맥 / Q8_0 48GB 맥",
+      "context": "262,144 (기본 16,384)",
+      "modality": "텍스트·JSON·이미지(로컬 경로는 텍스트)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/nace-ai/drex-max-v1",
+        "type": "huggingface"
+      },
+      {
+        "label": "Q8_0 GGUF",
+        "url": "https://huggingface.co/nace-ai/drex-max-v1-Q8_0",
+        "type": "huggingface"
+      },
+      {
+        "label": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
+        "type": "source"
+      }
+    ],
+    "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-88881-1-scaled.png"
+  },
+  {
+    "id": "2026-11-02-jaeyong-lee-yokohama-apl",
+    "date": "2026-11-01",
+    "category": "한국 IT",
+    "title": "이재용 회장, 요코하마 첨단 패키징 연구소(APL) 첫 방문",
+    "summary": "이재용 삼성전자 회장이 11월 1일 개소 약 두 달 된 일본 요코하마 어드밴스드 패키지 랩을 찾아 웨이퍼 본딩·유리기판 등 차세대 패키징 연구를 점검하고 일본 소부장 기업과의 협력 확대를 논의했습니다.",
+    "why": "HBM 등 AI 반도체 경쟁에서 패키징이 핵심이 된 만큼, 삼성의 일본 소부장 협력 강화 신호로 읽힙니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·뉴스1·한국일보 등 복수 보도 확인."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261101032200003",
+        "type": "source"
+      },
+      {
+        "label": "뉴스1",
+        "url": "https://www.news1.kr/industry/electronics/6339062",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-heretic-2-0",
+    "date": "2026-11-01",
+    "category": "로컬 AI",
+    "title": "검열 제거 도구 Heretic 2.0 출시…플러그인 시스템·헤드리스 모드",
+    "summary": "로컬 모델의 거부 성향을 자동으로 줄이는 Heretic이 v2.0.0을 내고 일반 플러그인 시스템과 헤드리스 실행을 추가했습니다. 1.x 설정 파일과 호환되지 않으며 연구 기능은 제거돼 Lophius로 넘어갔습니다.",
+    "why": "허깅페이스에 올라오는 'uncensored' 파생 모델 상당수가 이 도구로 만들어져, 오픈 모델 생태계 영향이 큽니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트(11/1) 확인. HN 토론은 반응 참고용."
+    },
+    "links": [
+      {
+        "label": "GitHub v2.0.0",
+        "url": "https://github.com/p-e-w/heretic/releases/tag/v2.0.0",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50328567",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-01-xai-naacp-motion-denied",
     "date": "2026-11-01",
     "category": "AI·IT",
@@ -709,6 +890,30 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-deepmind-planassist-15-councils",
+    "date": "2026-10-31",
+    "category": "AI·IT",
+    "title": "구글 딥마인드 PlanAssist, 영국 지자체 12곳 추가해 15곳 베타",
+    "summary": "바넷·캠던·도싯 시범에서 담당관 검토 시간이 평균 58% 줄고 보고서 70% 이상이 수정 없이 승인된 인허가 보조 AI가 웨스트민스터·람베스·브리스톨 등 12곳을 더해 12개월 베타에 들어갑니다. 결정 권한은 담당관에게 남습니다.",
+    "why": "생성형 AI가 공공 행정 실무에 들어가는 대표 사례로, 시험이 성공하면 2027년 말 전국 확대를 검토합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google DeepMind 블로그 + 영국 정부(GOV.UK) 발표 확인."
+    },
+    "links": [
+      {
+        "label": "Google DeepMind",
+        "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+        "type": "source"
+      },
+      {
+        "label": "GOV.UK",
+        "url": "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
         "type": "source"
       }
     ]
