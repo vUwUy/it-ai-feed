@@ -25,6 +25,30 @@
     ]
   },
   {
+    "id": "2026-11-01-pope-leo-autonomous-weapons",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "레오 14세 교황, 제네바 CCW 회의 앞두고 '살상용 자율무기 금지' 촉구",
+    "summary": "레오 14세 교황은 11월 16~20일 제네바에서 열리는 특정재래식무기금지협약(CCW) 제7차 검토회의를 앞두고, 생명·자유·무력 사용에 관한 결정을 AI에 맡겨선 안 되며 살상용 자율무기 금지를 향한 구체적 조치를 취하라고 각국에 촉구했습니다.",
+    "why": "한국이 주도한 군사 AI 유엔 결의에 이어, 자율무기 규범 논의가 이달 제네바 회의에서 다시 시험대에 오릅니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ANSA + Newsweek 보도 확인."
+    },
+    "links": [
+      {
+        "label": "ANSA",
+        "url": "https://www.ansa.it/english/news/vatican/2026/10/30/pope-says-never-delegate-decisions-on-weapons-and-borders-to-ai_8e10a221-37e2-40f0-b9e9-d96f673d4a3d.html",
+        "type": "source"
+      },
+      {
+        "label": "Newsweek",
+        "url": "https://www.newsweek.com/pope-leo-warns-ai-must-be-disarmed-ahead-of-autonomous-weapons-talks-12644766",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-01-openai-daybreak-blue-training-optout",
     "date": "2026-11-01",
     "category": "AI·IT",
@@ -99,6 +123,95 @@
     ]
   },
   {
+    "id": "2026-11-01-korea-oct-exports-chips",
+    "date": "2026-11-01",
+    "category": "한국 IT",
+    "title": "10월 수출 1152억8000만 달러 '역대 2위'…반도체 564억4000만 달러, 259.4%↑",
+    "summary": "산업통상부가 1일 발표한 10월 수출입동향에 따르면 수출은 1년 전보다 93.7% 늘어난 1152억8000만 달러, 반도체 수출은 259.4% 늘어난 564억4000만 달러로 2개월 연속 500억 달러를 넘었고 전체 수출의 48.9%를 차지했습니다. 1~10월 누적 수출은 9300억 달러로, 정부는 11월 중 연 1조 달러 달성이 확실시된다고 밝혔습니다.",
+    "why": "AI 서버 투자로 D램 초과수요와 고정가격 상승이 이어지며 한국 수출의 절반 가까이를 반도체가 떠받치고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "산업통상부 발표를 인용한 뉴시스·뉴스핌·아시아경제 보도 교차 확인."
+    },
+    "links": [
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261031000112",
+        "type": "source"
+      },
+      {
+        "label": "아시아경제",
+        "url": "https://www.asiae.co.kr/article/2026110110285709510",
+        "type": "source"
+      },
+      {
+        "label": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261101_0003849555",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-house-democrats-openai-letter",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "미 하원 민주당 20명, 오픈AI에 '내부고발자 보호·최상위 모델 공개 중단 유지' 요구 서한",
+    "summary": "그렉 카사르 의원 등 미 하원 민주당 의원 20명이 10월 29일 샘 올트먼에게 서한을 보내, 모델 안전 정보를 공유하는 내부고발자를 해고하지 말고 독립적 제3자 감독이 마련될 때까지 가장 강력한 모델의 공개 중단(pause)을 유지하라고 요구했습니다. 안전 연구원 3명 해고와 보안 사고에 대한 답변은 11월 13일까지 요청했습니다.",
+    "why": "오픈AI의 안전 연구원 해고와 보안 사고가 의회 감독 이슈로 번지고 있다는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카사르 의원실 서한 PDF + Nextgov/FCW 보도 확인."
+    },
+    "links": [
+      {
+        "label": "서한 원문(PDF)",
+        "url": "https://casar.house.gov/sites/evo-subsites/casar.house.gov/files/evo-media-document/openai-employee-firing_cyber-security-follow-up_0.pdf",
+        "type": "source"
+      },
+      {
+        "label": "Nextgov/FCW",
+        "url": "https://www.nextgov.com/artificial-intelligence/2026/10/democrats-press-openai-over-safety-researcher-firings-security-incidents/416954/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-groot-19b-a3b",
+    "date": "2026-11-01",
+    "category": "로컬 AI",
+    "title": "GrootTeam 'Groot-19B-A3B' 공개…Qwen3.6-35B-A3B 기반, 16GB 카드에서 128K 컨텍스트",
+    "summary": "GrootTeam이 Qwen3.6-35B-A3B에서 출발해 1억 토큰 미만의 공개 데이터로 후학습한 19B(활성 약 3B) MoE 모델을 Apache 2.0으로 공개했습니다. 모델 카드는 16개 벤치마크 평균 41.44로 Qwen3.6-35B-A3B(38.08)·Gemma-4-26B-A4B(30.05)보다 높고 출력도 짧다고 밝혔으며, Q4_K_M GGUF는 11.7GB입니다. 상위 모델 Groot-280B-A16B(MIT)도 함께 공개됐습니다.",
+    "why": "소비자 GPU 한 장에서 긴 컨텍스트로 돌릴 수 있는 에이전트·코딩용 중형 모델 후보입니다. 단, 벤치마크는 개발팀 자체 수치입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드·API(라이선스) 확인. 성능 수치는 자체 보고. r/LocalLLaMA에서 화제."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/GrootTeam/Groot-19B-A3B-261023.png",
+    "specs": {
+      "params": "19B (활성 ~3B)",
+      "license": "Apache 2.0",
+      "memory": "Q4_K_M GGUF 11.7GB",
+      "context": "256K (YaRN ~1M)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델 카드",
+        "url": "https://huggingface.co/GrootTeam/Groot-19B-A3B-261023",
+        "type": "source"
+      },
+      {
+        "label": "GrootTeam/Groot-19B-A3B-261023",
+        "url": "https://huggingface.co/GrootTeam/Groot-19B-A3B-261023",
+        "type": "huggingface"
+      },
+      {
+        "label": "GrootTeam/Groot-280B-A16B-261023",
+        "url": "https://huggingface.co/GrootTeam/Groot-280B-A16B-261023",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-01-epoch-glm53-firefox-patch-gap",
     "date": "2026-11-01",
     "category": "로컬 AI",
@@ -119,6 +232,35 @@
       {
         "label": "Mozilla 블로그",
         "url": "https://blog.mozilla.org/en/firefox/privacy-security/defending-patch-gap/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-deepseek-super-agent-design",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "딥시크 Harness 팀, 'Super-agent' 설계 글과 MIT 라이선스 참조 프로토타입 공개",
+    "summary": "딥시크 Harness 팀이 10월 31일 사람과 대화하며 일을 나눠주는 상주 Router와 각자 격리된 맥락에서 작업하는 여러 Worker로 이뤄진 2계층 에이전트 구조를 설명한 글을 내고, 참조 구현 dsh-superagent-prototype을 MIT 라이선스로 공개했습니다. 팀은 이것이 아키텍처 탐색이며 현재 DeepSeek Harness의 제품 기능은 아니라고 밝혔습니다.",
+    "why": "모델 회사가 여러 작업을 동시에 진행하는 상시형 에이전트 구조를 직접 공개한 사례로, 이벤트 기반 트리거·Watchdog 복구 등 설계를 코드로 확인할 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "deepseek-ai GitHub 저장소(10/31 생성, MIT) + 36Kr·Startup Fortune 등 복수 보도 확인."
+    },
+    "links": [
+      {
+        "label": "deepseek-ai/dsh-superagent-prototype",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+        "type": "github"
+      },
+      {
+        "label": "아키텍처 문서",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/007-architecture.md",
+        "type": "source"
+      },
+      {
+        "label": "Startup Fortune",
+        "url": "https://startupfortune.com/deepseek-open-sources-the-architecture-behind-its-super-agent/",
         "type": "source"
       }
     ]
@@ -223,6 +365,30 @@
       {
         "label": "OpenAI Help Center",
         "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-apple-ternus-wired-ai",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "애플 CEO 존 터너스 \"AI를 위한 AI는 내놓지 않겠다\"…WIRED 인터뷰",
+    "summary": "존 터너스 애플 CEO는 WIRED 인터뷰에서 애플이 AI를 \"분명히 활용\"하겠지만 \"AI를 위한 AI를 출시하고 싶지는 않다\"며, 사용자가 기능이 AI로 만들어졌는지 신경 쓸 필요가 없어야 한다고 말했습니다. 에이전트가 앱을 대체할 것이라는 시각에는 제품 만들기가 깊이 인간적인 일이라고 답했습니다.",
+    "why": "CEO 교체 뒤 애플의 AI 전략 방향을 보여주는 발언으로, 경쟁사의 공격적 AI 출시와 대비됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WIRED 원 인터뷰 + TechCrunch 보도 확인."
+    },
+    "links": [
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
         "type": "source"
       }
     ]
