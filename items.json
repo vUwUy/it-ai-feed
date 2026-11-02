@@ -77,6 +77,26 @@
     ]
   },
   {
+    "id": "2026-11-02-openai-abu-dhabi-four-agreements",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "오픈AI, 아부다비와 협약 4건…ADNOC 에너지 첫 파트너·'기계가 읽는 정부' 시범",
+    "summary": "아부다비 왕세자가 샘 올트먼을 만난 자리에서 오픈AI와 4건의 협약이 체결됐습니다. ADNOC·Inception42(G42 계열)·오픈AI 3자 협약(오픈AI의 첫 에너지 기업 파트너, UAE 국내 추론 활용), 아부다비 디지털정부청 주도의 'Machine-Readable Government'(첫 시범은 ADAFSA 식품 수입 절차로 이미 운영 중), 무바달라의 투자 분석 협력, Inception42–오픈AI 5년 계약입니다.",
+    "why": "오픈AI가 중동에서 정부·에너지 분야로 직접 들어가는 사례로, 국가 단위 AI 도입 모델의 참고점이 됩니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아부다비 미디어오피스 공식 발표(11/2) 원문 확인."
+    },
+    "image": "https://www.mediaoffice.abudhabi/assets/resized/img/Abu-Dhabi-Media-Office-0-0-0-0.webp?k=7bd1853e3f",
+    "links": [
+      {
+        "label": "아부다비 미디어오피스 발표",
+        "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-nvidia-ai-day-seoul-2026",
     "date": "2026-11-02",
     "category": "한국 IT",
@@ -139,6 +159,30 @@
     ]
   },
   {
+    "id": "2026-11-02-national-grid-teesside-substation-ai-dc",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "영국 내셔널그리드, 티사이드에 1GW 넘는 400kV 변전소…AI 데이터센터 전용 송전",
+    "summary": "내셔널그리드가 티스웍스 도먼 포인트 부지 29.5ha(73에이커)에 400kV 'Tees Dock' 변전소를 짓고, 1GW 이상 전력을 계획 중인 AI 데이터센터에 전용선(private wire)으로 공급할 계획입니다. 가디언은 티사이드 최대 규모 변전소라고 전했습니다.",
+    "why": "AI 데이터센터 경쟁이 전력망 인프라 투자로 번지고 있다는 걸 보여주는 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가디언 보도(11/1)와 내셔널그리드 공식 프로젝트 페이지 대조."
+    },
+    "links": [
+      {
+        "label": "가디언",
+        "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+        "type": "source"
+      },
+      {
+        "label": "내셔널그리드 Tees Dock 변전소",
+        "url": "https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/infrastructure-projects/tees-dock-substation",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-national-ai-secretary-lee-jisu",
     "date": "2026-11-02",
     "category": "한국 IT",
@@ -158,6 +202,25 @@
       {
         "label": "파이낸셜뉴스",
         "url": "https://www.fnnews.com/news/202611020922292945",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-microsoft-north-korea-ai-tradecraft",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "MS 보안 보고서: 북한 해킹 조직들, AI를 실전 공격에 본격 활용",
+    "summary": "마이크로소프트 위협 인텔리전스는 Jade·Coral·Jasper Sleet 등 북한 연계 조직이 AI를 공격 작업에 운영 단계로 도입했고, Onyx·Pearl Sleet은 ARTEX를 실제 작전에 썼다고 밝혔습니다.",
+    "why": "국내 기업·개인을 노리는 북한발 공격이 AI로 더 정교해지고 있다는 공식 분석입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "마이크로소프트 보안 블로그 원문(10/29) 확인."
+    },
+    "links": [
+      {
+        "label": "Microsoft Security 블로그",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
         "type": "source"
       }
     ]
@@ -226,6 +289,25 @@
     ]
   },
   {
+    "id": "2026-11-02-kakao-ai-dot-season2",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "카카오 'AI 돛 출항' 2기 122팀 참가…수상 8팀·상금 7500만원으로 확대",
+    "summary": "카카오의 AI 서비스 공모 프로그램 2기에 122팀이 참가해 1기(66팀)보다 85% 늘었고, 수상팀은 5팀에서 8팀, 상금은 3900만원에서 7500만원으로 커졌습니다. 본선은 10일입니다.",
+    "why": "카카오가 외부 개발자 AI 서비스 생태계를 키우려는 움직임입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "디지털타임스 보도(카카오 발표 기반) 확인."
+    },
+    "links": [
+      {
+        "label": "디지털타임스",
+        "url": "https://www.dt.co.kr/article/12092594",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-hybe-data-breach",
     "date": "2026-11-02",
     "category": "한국 IT",
@@ -240,6 +322,40 @@
       {
         "label": "한겨레",
         "url": "https://www.hani.co.kr/arti/culture/music/1285298.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-haas-ja-v1-japanese-asr",
+    "date": "2026-11-02",
+    "category": "로컬 AI",
+    "title": "일본어 음성인식 오픈모델 Haas-ja-v1.0 공개…615.8M, Apache 2.0",
+    "summary": "일본 Third Intelligence가 NeMo FastConformer-TDT 기반 일본어 전용 음성인식 모델 Haas-ja-v1.0(6억1580만 파라미터)을 Apache 2.0으로 공개했습니다. 자체 평가에서 오픈모델 중 가장 정확했고 Gemini 3.5 transcribe보다 점수가 높았다고 하며, GIGAZINE 테스트에서는 4분19초 음성을 0.32초에 변환했습니다.",
+    "why": "가벼운 크기라 로컬에서 일본어 회의·영상 자막을 빠르게 만들 수 있는 선택지입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 페이지와 GIGAZINE 보도 대조. 정확도 비교는 개발사 자체 평가입니다."
+    },
+    "image": "https://i.gzn.jp/img/2026/11/02/haas-ja-v1-asr/00.png",
+    "specs": {
+      "params": "615.8M",
+      "license": "Apache-2.0"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/third-intelligence/Haas-ja-v1.0",
+        "type": "huggingface"
+      },
+      {
+        "label": "GitHub 추론 코드",
+        "url": "https://github.com/third-intelligence/Haas-ASR",
+        "type": "github"
+      },
+      {
+        "label": "GIGAZINE",
+        "url": "https://gigazine.net/gsc_news/en/20261102-haas-ja-v1-asr/",
         "type": "source"
       }
     ]
@@ -264,6 +380,26 @@
       {
         "label": "MACCUS",
         "url": "https://maccus.fr/en/grok-text-watermark/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-gisc-2026-physical-agentic-ai-standards",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "GISC 2026 개막…피지컬·에이전틱 AI 국제 표준 논의 (11/2~4)",
+    "summary": "과기정통부와 지식재산처가 11월 2~4일 서울 양재 엘타워에서 글로벌 ICT 표준 컨퍼런스(GISC 2026)를 열고, 피지컬 AI와 에이전틱 AI 표준을 중심으로 약 1000명이 참가한다고 밝혔습니다.",
+    "why": "AI 표준과 표준특허를 선점하려는 정부 정책 흐름을 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 보도(정부 발표 기반) 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/02/e11e815beea9e920612256d6c762f506.png",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261102112545",
         "type": "source"
       }
     ]
