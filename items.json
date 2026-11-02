@@ -163,6 +163,45 @@
     ]
   },
   {
+    "id": "2026-11-02-meituan-longcat-2-5",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "메이투안 'LongCat-2.5' 출시…총 1.6조 파라미터 네이티브 멀티모달, 중국산 칩으로 전 과정 학습",
+    "summary": "메이투안이 장기 에이전트 작업용 네이티브 멀티모달 모델 LongCat-2.5를 공개했어요. 총 1.6조 파라미터, 토큰당 약 480억 활성이고, 온라인 체험과 API는 바로 열렸으며 GitHub·Hugging Face 공개는 '추후'라고 밝혔어요. 경제관찰망에 따르면 회사는 여러 벤치마크 성적이 Claude Opus 4.8과 Opus 5 사이라고 주장해요.",
+    "why": "중국 빅테크가 국산 가속기만으로 조 단위 프런티어급 모델을 다시 내놨고, 가중치가 풀리면 대형 오픈 웨이트 모델 판도에도 영향을 줄 수 있어요. Claude Code·Codex 등 기존 하네스와 호환을 내세웠어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LongCat 공식 블로그·API 변경 로그(11/2) + IT之家·TechNode·경제관찰망 보도. 벤치마크 비교는 회사 주장(독립 검증 없음)"
+    },
+    "specs": {
+      "params": "1.6T (활성 약 48B)",
+      "modality": "텍스트·이미지 입력",
+      "license": "미정(가중치 추후 공개 예정)"
+    },
+    "links": [
+      {
+        "label": "LongCat 공식 블로그",
+        "url": "https://longcat.ai/blog/longcat-2.5",
+        "type": "source"
+      },
+      {
+        "label": "API 변경 로그",
+        "url": "https://longcat.chat/platform/docs/zh/change-log",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/020/873.htm",
+        "type": "source"
+      },
+      {
+        "label": "TechNode",
+        "url": "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-korea-2027-budget-ai-rnd",
     "date": "2026-11-02",
     "category": "한국 IT",
@@ -182,6 +221,25 @@
       {
         "label": "뉴시스 연설 전문",
         "url": "https://www.newsis.com/view/NISX20261102_0003850671",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-hybe-data-breach",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "하이브 내부 시스템 해킹…임직원·협력사 주민번호·여권·카드번호·의료정보 유출",
+    "summary": "하이브 전자결재 시스템에 연동된 외부 업체 문서 미리보기 솔루션과 비용처리 시스템을 통해 9월 12~13일, 10월 3~5일 두 차례 외부 접근이 있었고, 전·현 임직원과 협력사 관계자의 주민등록번호·여권번호·계좌·카드번호·의료정보 등이 유출됐어요. 전체 피해 인원은 공개되지 않았어요.",
+    "why": "금융권에 이어 대형 엔터 기업까지 협력업체 솔루션을 통한 침해가 확인되며 국내 해킹 사태가 산업 전반으로 번지고 있어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "한겨레 단독 보도, 하이브가 10/18 공식 누리집에 올린 사과·안내문 내용 인용"
+    },
+    "links": [
+      {
+        "label": "한겨레",
+        "url": "https://www.hani.co.kr/arti/culture/music/1285298.html",
         "type": "source"
       }
     ]
@@ -230,6 +288,35 @@
       {
         "label": "The Decoder",
         "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-btcpay-shutdown-hot-wallet",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "비트코인 결제 오픈소스 BTCPay, '서버 끄라' 긴급 권고…핫월렛 탈취 신고",
+    "summary": "BTCPay Server가 가맹점 핫월렛에서 비트코인이 빠져나갔다는 신고를 받고 모든 운영자에게 서버를 내리라고(btcpay-down.sh) 권고했어요. 창업자 니콜라 도리에는 피해가 2.4.2 이전 버전으로 보인다고 했지만, 공격자가 관리자 권한을 얻은 경로는 아직 모르고 새 버전이 안전한지도 확인하지 않았어요. 피해 규모와 패치는 발표되지 않았어요.",
+    "why": "지난달 LND 자격 증명 탈취 사고(2.4.2 패치)에 이어 또 나온 사고로, BTCPay를 직접 운영하는 가맹점은 지금 바로 조치가 필요해요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CoinDesk·The Defiant·TokenPost 보도 일치. BTCPay 공식 블로그의 이번 건 공지는 아직 못 찾음"
+    },
+    "links": [
+      {
+        "label": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+        "type": "source"
+      },
+      {
+        "label": "The Defiant",
+        "url": "https://thedefiant.io/news/hacks/btcpay-server-urges-shutdown-after-reports-of-hot-wallet-sweeps",
+        "type": "source"
+      },
+      {
+        "label": "TokenPost",
+        "url": "https://www.tokenpost.com/news/technology/46072",
         "type": "source"
       }
     ]
