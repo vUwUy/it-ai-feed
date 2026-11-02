@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-11-02-ukraine-russia-alert-apps-hacked",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "우크라이나 공습경보 앱 해킹돼 '방사능·화학 공격' 가짜 경보…몇 시간 뒤 러시아 비상사태부 앱도 공격받아",
+    "summary": "11월 1일 밤(현지시간) 우크라이나 '공습경보(Air Alert)' 앱이 해킹돼 전국에 가짜 적색 공습경보와 방사능·화학 공격·시가전 경고가 발송됐고, 약 1시간 뒤 해제됐습니다. 몇 시간 뒤 러시아도 비상사태부 앱이 '대규모 사이버 공격'을 받아 가짜 정보가 퍼졌다고 밝혔습니다. 우크라이나 측 해킹은 'Hitcore'라는 그룹이 자처했다는 보도가 있습니다.",
+    "why": "국가 재난·경보 앱이 공격받아 실제로 가짜 경보가 발송된 사례입니다. 우크라이나 공군은 방사능 위협이 없다고 밝혔고, 러시아는 사이렌 등 공공 경보 체계는 영향이 없었다고 했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "BBC 라이브, Kyiv Independent, dev.ua 보도 확인. 공격 주체는 자처·주장 단계로 미확인"
+    },
+    "image": "https://assets.kyivindependent.com/content/images/2026/11/Screenshot-2026-11-01-at-4_25_12-PM_20261101-212549.png",
+    "links": [
+      {
+        "label": "Kyiv Independent",
+        "url": "https://kyivindependent.com/ukraines-air-raid-alert-system-hacked-air-force-says-as-false-nuclear-chemical-warnings-sound/",
+        "type": "source"
+      },
+      {
+        "label": "BBC 라이브",
+        "url": "https://www.bbc.com/news/live/cm4g1yjxv38gt",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-tandem-cpp-moe-expert-cache",
     "date": "2026-11-02",
     "category": "로컬 AI",
@@ -453,6 +478,31 @@
       {
         "label": "TokenPost",
         "url": "https://www.tokenpost.com/news/technology/46072",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-anthropic-japan-offering-3-5b",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "[업데이트] 앤트로픽, 미국 IPO와 함께 일본 투자자에게 최대 35억 달러(약 5529억 엔) 신주 판매…관동재무국에 신고서 제출",
+    "summary": "앤트로픽이 11월 2일 일본 관동재무국에 유가증권 신고서를 내고, 미국 나스닥 상장과 함께 일본에서 최대 5529억 엔(35억 달러) 규모 신주를 모집한다고 밝혔습니다. 주관은 미즈호증권이 맡고 골드만삭스·미쓰비시UFJ모건스탠리·모건스탠리MUFG·라쿠텐·SBI증권이 청약을 받습니다. 전체 공모 규모·가격·기업가치는 신고서에 없습니다.",
+    "why": "앤트로픽 상장의 해외 공모 구조가 처음 구체적으로 드러났습니다. 일본 외에 호주·캐나다·영국·스위스·유럽 일부 투자자도 공모에 참여할 수 있습니다. 나스닥 상장 승인은 아직 받지 않았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(CNA·Investing.com 게재), 블룸버그 계열 보도(NDTV), 일본 あたらしい経済가 같은 신고서 내용을 독립 보도"
+    },
+    "image": "https://dam.mediacorp.sg/image/upload/s--C_q0B2L7--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-02T063109Z_2_LYNXNPEMA10FV_RTROPTP_3_ANTHROPIC-IPO.JPG?itok=yzxrxGlR",
+    "links": [
+      {
+        "label": "로이터 (CNA)",
+        "url": "https://www.channelnewsasia.com/business/anthropic-plans-sell-35-billion-shares-japan-investors-in-ipo-filing-shows-6512356",
+        "type": "source"
+      },
+      {
+        "label": "あたらしい経済",
+        "url": "https://www.neweconomy.jp/posts/623154",
         "type": "source"
       }
     ]
@@ -1305,6 +1355,30 @@
       {
         "label": "HN 토론 (233점·260댓글)",
         "url": "https://news.ycombinator.com/item?id=50328251",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-aramco-humain-49-close",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "아람코, 사우디 AI 기업 휴메인(HUMAIN) 지분 49% 인수 완료…현금 약 26억 달러 투입",
+    "summary": "사우디 국부펀드 PIF와 아람코가 11월 1일 거래 종결을 발표했습니다. 아람코는 자회사를 통해 휴메인 지분 49%를 갖고, 2026년 중 현금 약 99억 리얄(26억 달러)과 AI·컴퓨트·디지털 자산을 넣습니다. PIF는 51%를 유지합니다.",
+    "why": "휴메인은 2030년까지 AI 데이터센터 3GW를 구축하겠다는 사우디의 국가 AI 회사입니다. 중동 자본의 AI 인프라 투자가 커지는 흐름을 보여 줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아람코 공식 발표, 사우디 국영 SPA, Arab News·Gulf News 보도 확인"
+    },
+    "links": [
+      {
+        "label": "아람코 공식 발표",
+        "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
+        "type": "source"
+      },
+      {
+        "label": "Arab News",
+        "url": "https://www.arabnews.com/finance/aramco-closes-26bn-deal-for-49-stake-in-humain-3009220",
         "type": "source"
       }
     ]
