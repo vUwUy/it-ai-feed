@@ -1,5 +1,63 @@
 [
   {
+    "id": "2026-11-02-tandem-cpp-moe-expert-cache",
+    "date": "2026-11-02",
+    "category": "로컬 AI",
+    "title": "llama.cpp 패치 'tandem.cpp'…MoE 자주 쓰는 전문가만 GPU에 캐시, 디코딩 최대 3.3배 (자체 측정)",
+    "summary": "자주 쓰이는 MoE 전문가는 GPU에 캐시하고 나머지는 CPU가 계산하는 독립 패치 모음입니다. i5-12400F·DDR4 64GB·RTX 4090 환경에서 Qwen3.8-Flash-Next IQ3_S+MTP가 초당 29.8→97.3토큰(3.3배), gpt-oss-120b가 27.8→51.5토큰(1.85배)이었다고 합니다.",
+    "why": "VRAM이 부족한 PC에서 큰 MoE 모델을 더 빠르게 돌릴 수 있는 방법입니다. 공식 llama.cpp(ggml-org) 프로젝트와는 관계가 없습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소 원문(11/1 생성) 확인. 벤치마크는 모두 작성자 자체 측정이며 독립 검증 전입니다."
+    },
+    "specs": {
+      "compute": "CPU+GPU 하이브리드 (테스트: RTX 4090 + DDR4 64GB)"
+    },
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ewhacc/tandem.cpp",
+        "type": "github"
+      },
+      {
+        "label": "저장소 README",
+        "url": "https://github.com/ewhacc/tandem.cpp",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-silencio-2-18m-tts",
+    "date": "2026-11-02",
+    "category": "로컬 AI",
+    "title": "18M 파라미터 TTS 'Silencio-2' 공개…감정·효과음 태그, CPU에서 실시간보다 약 20배 빠름",
+    "summary": "Kyutai Pocket TTS 18M을 파인튜닝한 영어 TTS로, 감정·효과음 태그를 지원하고 몇 초짜리 음성으로 목소리를 복제할 수 있습니다. 출력은 24kHz이고, Apple M4의 CPU 4스레드에서 실시간보다 약 20배 빠르다고 합니다.",
+    "why": "112MB짜리 파일 하나로 GPU 없이 표현력 있는 음성을 만들 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 원문으로 확인. 속도 수치는 제작자 측정값입니다."
+    },
+    "specs": {
+      "params": "18M",
+      "license": "가중치 CC-BY-4.0 / 추론 코드 MIT",
+      "memory": "단일 파일 112MB",
+      "modality": "텍스트→음성 (영어, 24kHz)",
+      "compute": "CPU (M4 4스레드에서 약 20배 실시간)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/BlueRoseLabs/Silencio-2",
+        "type": "huggingface"
+      },
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/BlueRoseLabs/Silencio-2",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-openai-ai-compute-campuses",
     "date": "2026-11-02",
     "category": "AI·IT",
@@ -14,6 +72,116 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-nvidia-ai-day-seoul-2026",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "엔비디아 'AI 데이 서울 2026' 11월 9~10일 코엑스…삼성·SK하이닉스·LG·네이버 등 사례 발표",
+    "summary": "파트너 20곳, 약 2000명이 참여할 예정입니다. 삼성전자(PhysicsNeMo 반도체 설계), SK하이닉스(공정 시뮬레이션), LG전자(Isaac GR00T 공장 적용), SKT(DSX 기반 AI 팩토리), 네이버클라우드(수천 장 GPU 클러스터 운영), 쿠팡(GB300 NVL72)이 발표합니다.",
+    "why": "국내 대기업들의 엔비디아 기반 AI 도입 현황을 한자리에서 볼 수 있는 행사입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·머니투데이 보도(11/2)로 교차 확인."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261102082700017",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/02/2026110209451315073",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-navercloud-army-logistics-ai",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "네이버클라우드, 육군 군수사령부와 'AI 군수' 업무협약",
+    "summary": "10월 30일 대전에서 박춘식 군수사령관과 김유원 네이버클라우드 대표가 협약을 맺었습니다. 군 조달 플랫폼, 상태기반정비(CBM+), 디지털트윈 기반 군수·스마트팩토리, GPU 컨설팅, 군수 클라우드, 군수 AI 에이전트 분야에서 협력합니다.",
+    "why": "국내 클라우드 기업이 국방 분야로 AI를 넓히는 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도(11/2), 양측 협약 내용 기반."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261102059600017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-naver-siemens-industrial-ai",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "네이버 최수연 대표·지멘스 롤랜드 부시 회장, 산업용 AI 대담…디지털트윈·로봇 협력 논의",
+    "summary": "10월 31일 APK 2026에서 대담한 뒤 부시 회장이 네이버 1784 사옥을 찾았습니다. 양사는 네이버 디지털트윈 기술을 지멘스 산업용 솔루션과 연계해 글로벌로 확산하는 방안과 로봇 파운데이션 모델 등을 논의했습니다.",
+    "why": "네이버가 디지털트윈·로봇 기술을 산업 현장으로 넓히려는 움직임입니다. 계약이 아니라 협력 논의 단계입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 발표(11/2)를 전한 조선비즈 보도. 정식 계약 체결은 아님."
+    },
+    "links": [
+      {
+        "label": "조선비즈",
+        "url": "https://www.chosun.com/economy/tech_it/2026/11/02/GI2WEYJXGFQWCYTBHFTDGNZWGI/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-national-ai-secretary-lee-jisu",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "청와대 신임 국가AI정책비서관에 이지수 전 삼성전자 상무",
+    "summary": "김우창 전 비서관이 1일 퇴직하고 학계로 복귀하면서, 삼성전자 무선사업부에서 AI 음성비서 '빅스비' 개발을 이끈 이지수 전 상무가 후임으로 임명됐습니다. 이 비서관은 퍼듀대 산업공학과 부교수를 지냈습니다.",
+    "why": "정부 AI 정책 실무를 조율하는 자리에 산업계 출신이 들어왔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "청와대 발표를 전한 뉴스1(파이낸셜뉴스 게재)·동아일보 등 다수 보도."
+    },
+    "links": [
+      {
+        "label": "뉴스1",
+        "url": "https://www.news1.kr/politics/president/6339380",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611020922292945",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-korea-2027-budget-ai-rnd",
+    "date": "2026-11-02",
+    "category": "한국 IT",
+    "title": "이재명 대통령 2027 예산 시정연설…반도체·AI 21조3천억원, R&D 역대 최대 39조5천억원",
+    "summary": "3대 메가프로젝트(반도체·피지컬 AI·AI 데이터센터)와 AI 투자에 올해보다 두 배 가까이 늘어난 21조 3000억원을, R&D에는 4조원 늘린 39조 5000억원을 편성했다고 밝혔습니다. 전력·용수·산단 인프라에 2조 1000억원을 선제 투자하고, 내년 총지출은 820조 9000억원(12.8% 증가)입니다.",
+    "why": "정부 AI·반도체 정책의 내년 실제 예산 규모를 보여주는 숫자입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "대통령 국회 시정연설(11/2). 전자신문 보도와 뉴시스 연설 전문으로 교차 확인."
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261102000209",
+        "type": "source"
+      },
+      {
+        "label": "뉴시스 연설 전문",
+        "url": "https://www.newsis.com/view/NISX20261102_0003850671",
         "type": "source"
       }
     ]
@@ -201,6 +369,30 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-uk-sovereign-ai-fractile",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "[보도] 영국 정부 Sovereign AI 펀드, AI 추론칩 스타트업 Fractile 투자…기업가치 약 65억달러",
+    "summary": "텔레그래프에 따르면 Fractile은 약 7억달러를 유치하고 기업가치를 약 65억달러로 인정받을 예정이며, 영국 정부 펀드가 신규 투자자로 참여합니다. 영국 기업등록소 서류에는 9월 이후 5억7740만파운드어치 시리즈C 신주가 발행된 것으로 나옵니다.",
+    "why": "앤트로픽에 칩을 공급하기로 한 유럽 AI 칩 스타트업에 영국 정부가 직접 지분 투자를 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "텔레그래프 보도(11/1)를 European Tech On Heels·Telecompaper가 전함. 회사·정부는 조건에 대해 언급 거부, 공식 발표 전."
+    },
+    "links": [
+      {
+        "label": "European Tech On Heels",
+        "url": "https://europeantechonheels.com/uk-sovereign-ai-fund-fractile-ai-chip-stake/",
+        "type": "source"
+      },
+      {
+        "label": "Telecompaper",
+        "url": "https://www.telecompaper.com/news/uk-sovereign-ai-fund-invests-in-ai-chip-start-up-fractile-report--1587427",
         "type": "source"
       }
     ]
@@ -866,6 +1058,30 @@
       {
         "label": "BleepingComputer",
         "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-calegari-math-has-changed",
+    "date": "2026-11-01",
+    "category": "AI·IT",
+    "title": "테렌스 타오 블로그 기고 '수학은 변했다, 그에 맞게 행동하자'…AI 시대 수학계 6가지 제안",
+    "summary": "수학자 프랭크 칼레가리는 오픈AI가 10월 6일 700편이 넘는 연구 논문을 공개한 것을 분수령으로 봤습니다. 모든 연구를 AI 도움을 받았다고 가정하고 평가하기, 채용 대면 면접, 저널 기준 강화, 대학원 교육에서 폭넓은 지식 강조, 세미나 개선, AI 결과에 대한 책임 지기를 제안했습니다.",
+    "why": "AI가 수학 연구 방식을 바꾸고 있다는 점을 학계 내부에서 직접 짚은 글입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Terence Tao 블로그 게스트 포스트 원문(11/1). 의견 글입니다."
+    },
+    "links": [
+      {
+        "label": "Terence Tao 블로그",
+        "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론 (233점·260댓글)",
+        "url": "https://news.ycombinator.com/item?id=50328251",
         "type": "source"
       }
     ]
