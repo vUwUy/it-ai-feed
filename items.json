@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-11-03-presidential-trip-168-pii-exposed",
+    "date": "2026-11-03",
+    "category": "한국 IT",
+    "title": "이재명 대통령 부부 등 순방단 168명 여권번호·생년월일, 악성코드 검사 사이트에 5개월 노출",
+    "summary": "6월 유럽 순방 공군 1호기 탑승자 명단 엑셀 파일이 6월 2일 유료 악성코드 검사 사이트에 올라가 약 5개월간 열람 가능했다. 국문·영문 이름, 소속·직책, 생년월일, 여권번호, 여권 발급·만료일이 담겼고, 경찰은 2일 내사에 착수, 청와대는 3일 비서실장 주재 긴급회의를 열었다.",
+    "why": "대통령·장관·경호관 신원정보가 출국 전부터 노출된 경호·보안 사고다. 파일 악성코드 검사를 위해 외부 서비스에 업로드하면 그 파일이 공유될 수 있다는 점도 다시 드러났다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "KBS 단독 보도를 연합뉴스·아주경제가 확인 보도. 청와대 서면 브리핑(긴급회의)·외교부 입장·경찰청 내사 착수 확인. 사이트 이름은 인사이트 보도(바이러스토탈)만 명시."
+    },
+    "links": [
+      {
+        "label": "연합뉴스: 경찰 내사 착수",
+        "url": "https://www.yna.co.kr/view/AKR20261103042000004",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스: 168명 개인정보 노출(종합2보)",
+        "url": "https://www.yna.co.kr/view/AKR20261102174452001",
+        "type": "source"
+      },
+      {
+        "label": "아주경제: 청와대 긴급회의",
+        "url": "https://www.ajunews.com/view/20261103090156079",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-openai-grid-protectors",
     "date": "2026-11-03",
     "category": "AI·IT",
@@ -55,6 +84,40 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-cve-2026-98432-rhel-fixed-ubuntu-vulnerable",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "[업데이트] 리눅스 원격 루트 CVE-2026-98432: 레드햇 RHEL 패치 배포, 우분투는 아직 전 버전 '취약'",
+    "summary": "레드햇이 11월 1일 RHEL 8·9·10용 수정(RHSA-2026:93412 등)을 냈고 데비안·SUSE·오라클 리눅스·아마존 리눅스도 일부 버전 패치를 냈다. 우분투 보안 트래커는 3일 현재 16.04~26.10 커널을 'Vulnerable'로 표시하고 있으며 22.04~26.10은 'work in progress'다.",
+    "why": "Claude가 만든 무인증 원격 루트 익스플로잇이 공개된 CVSS 9.8 취약점이라 우분투 서버 운영자는 노출된 TCP·MPTCP 서비스를 점검하고 임시 방화벽 조치를 검토해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "우분투 CVE 페이지·레드햇 CVE 페이지(RHSA 목록) 직접 확인 + Decrypt·Akamai 보도"
+    },
+    "links": [
+      {
+        "label": "Ubuntu CVE-2026-98432",
+        "url": "https://ubuntu.com/security/CVE-2026-98432",
+        "type": "source"
+      },
+      {
+        "label": "Red Hat CVE-2026-98432",
+        "url": "https://access.redhat.com/security/cve/cve-2026-98432",
+        "type": "source"
+      },
+      {
+        "label": "Decrypt 보도",
+        "url": "https://decrypt.co/382375/claude-built-linux-exploit-bug-ubuntu",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50341462",
         "type": "source"
       }
     ]
