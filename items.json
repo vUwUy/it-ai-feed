@@ -257,6 +257,31 @@
     ]
   },
   {
+    "id": "2026-11-03-nvidia-brev-breach-ssh-keys",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "엔비디아 GPU 개발 클라우드 'Brev' 침해…고객 VM용 SSH 키 노출 가능성, 키 교체",
+    "summary": "엔비디아가 Brev 사용자에게 보낸 침해 통지에서 10월 4일부터 10월 20일까지 Brev 플랫폼에 무단 활동이 있었고, Brev가 고객 VM에 발급한 SSH 키가 노출됐을 수 있다고 밝혔습니다. 키는 교체해 인스턴스에 반영했으며, 현재로서는 키가 부적절하게 쓰인 사실은 파악되지 않았다고 했습니다.",
+    "why": "AI 개발자가 많이 쓰는 엔비디아 GPU 클라우드에서 VM 접속 키가 노출됐을 수 있는 사고입니다. Brev를 썼다면 해당 기간 VM 접속·작업 로그를 확인하고 VM에 두었던 다른 자격 증명(API 키, 토큰 등)도 바꾸는 게 안전합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 고객 통지문 원문을 인용한 Tom's Hardware·Times of India 등 복수 매체로 확인. 침입 경로와 고객 데이터·워크로드 접근 여부는 공개되지 않음."
+    },
+    "image": "https://cdn.mos.cms.futurecdn.net/m9yYaGTygKCKaxm9GgKnKV-1920-80.png",
+    "links": [
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse",
+        "type": "source"
+      },
+      {
+        "label": "Times of India (통지문 전문)",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/hackers-hit-nvidias-cloud-development-platform-what-the-company-said-in-notification-sent-to-affected-customers/articleshow/135465535.cms",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-naver-ai-tab-iso42001",
     "date": "2026-11-03",
     "category": "한국 IT",
@@ -281,6 +306,61 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261103000046",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-kospi-4pct-drop-ai-profit-fears",
+    "date": "2026-11-03",
+    "category": "한국 IT",
+    "title": "'AI 수익성 우려' 재점화에 코스피·코스닥 4%대 급락…삼성전자 4%·SK하이닉스 5%대↓",
+    "summary": "3일 오후 1시 55분 기준 코스피는 전 거래일 대비 237.93포인트(4.06%) 내린 5,621.15에 거래됐고 코스닥도 4%대 하락했습니다(머니투데이). 삼성전자는 22만원, SK하이닉스는 140만원 아래로 내려가 각각 4%대·5%대 하락했고, 외국인과 기관이 각각 1조3,072억원, 4,556억원을 순매도했습니다.",
+    "why": "간밤 오라클의 200억 달러 자금 조달 발표와 필라델피아 반도체지수 3.37% 급락 등 미국발 AI 투자 수익성 우려가 국내 반도체 대형주를 다시 끌어내렸습니다. 수치는 장중 기준이라 종가는 달라질 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(장 초반 3%대 하락·원인) + 머니투데이(오후 1시 55분 4.06%) 교차 확인. 장중 수치."
+    },
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=795,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110313380685347_1.jpg",
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/stock/2026/11/03/2026110313380685347",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261103039551008",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-google-xcpe-botnet-takedown",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "구글, 안드로이드 셋톱박스 130만 대 감염 'XCPE' 봇넷 해체…제조사가 백도어 심어 판매",
+    "summary": "구글 위협 인텔리전스 그룹(GTIG)이 업계 파트너와 함께 130만 대가 넘는 셋톱박스를 봇넷으로 묶은 XCPE 백도어를 해체했다고 밝혔습니다. 안드로이드 OEM·ODM인 Videostrong Technology가 백도어를 만들어 범죄 조직에 접근권을 팔았다고 높은 확신으로 평가했고, 관련 C2 도메인 차단으로 최소 1,000만 대의 추가 감염 기기 접근도 끊길 것으로 봤습니다.",
+    "why": "제조 단계부터 악성코드가 심긴 기기가 광고 사기·주거용 프록시·추가 악성코드 유포에 쓰였습니다. 보도에 따르면 백도어는 기기에 남아 다시 설치될 수 있어 초기화로는 부족하고, 저가 안드로이드 TV 박스는 연결을 끊거나 교체하라는 권고가 나왔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 클라우드 위협 인텔리전스 블로그(1차) + 트렌드AI 연구 블로그, BleepingComputer·The Hacker News 보도로 교차 확인."
+    },
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/03_ThreatIntelligenceWebsiteBannerIdeas_BA.max-2600x2600.png",
+    "links": [
+      {
+        "label": "Google 위협 인텔리전스 블로그",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
         "type": "source"
       }
     ]
