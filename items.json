@@ -1393,6 +1393,35 @@
     ]
   },
   {
+    "id": "2026-11-02-arara-message-77m-email-leak",
+    "date": "2026-11-02",
+    "category": "AI·IT",
+    "title": "일본 메일 발송 서비스 '아라라 메시지' 해킹…메일 주소 약 7,700만 건 유출, 카드사 사칭 메일 최대 약 713만 통 발송",
+    "summary": "아라라(Arara)는 11월 2일 2차 공지에서 10월 28~31일 제3자가 서비스 서버를 거쳐 계약 기업 환경의 서버 97대(추정 최대 약 380개사)에 침입해 메일 주소 약 7,700만 건(정밀 조사 중)과 이름·성별·생년월일·전화번호·주소 등 회원 정보를 빼 갔다고 밝혔다. 서비스가 악용돼 news@arara.com 발신으로 신용카드사를 사칭한 메일이 최대 약 713만 통 나갔고, 서비스는 10월 31일부터 전면 중단됐다.",
+    "why": "1차 공지(약 301만 건)보다 피해 규모가 크게 늘었고, 수백 개 기업·지자체가 쓰는 메일 발송 SaaS가 피싱 발송 창구로 악용된 사례다. 회사는 카드 번호는 보유하지 않으며, 7,700만 건은 이용자 수가 아니라고 설명했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아라라 공식 2차 공지(PDF) + INTERNET Watch·NHK 독립 보도 확인. 건수는 회사 발표 기준이며 정밀 조사 중이라 바뀔 수 있음."
+    },
+    "links": [
+      {
+        "label": "아라라 공식 2차 공지(PDF)",
+        "url": "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+        "type": "source"
+      },
+      {
+        "label": "INTERNET Watch",
+        "url": "https://internet.watch.impress.co.jp/docs/news/2153174.html",
+        "type": "source"
+      },
+      {
+        "label": "NHK",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261102de69506",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-anthropic-japan-offering-3-5b",
     "date": "2026-11-02",
     "category": "AI·IT",
