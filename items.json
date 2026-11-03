@@ -1,5 +1,108 @@
 [
   {
+    "id": "2026-11-03-workos-breach-ai-assisted",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "WorkOS, 영업용 내부 도구 무단 접근 공개…'AI 기반 공격 프레임워크'가 정찰·침투 자동화",
+    "summary": "인증 플랫폼 WorkOS가 11월 2일, 10월 30일에 영업팀 내부 앱에 대한 무단 접근을 발견했으며 비즈니스 연락처와 고객 커뮤니케이션 요약 등 CRM·고객지원 데이터가 영향을 받았다고 공지했습니다. 공격자가 AI 기반 공격 보안 프레임워크로 정찰과 침투 시도를 자동화했다고 밝혔고, 앱 데이터나 운영 서비스가 접근된 증거는 없다고 했습니다.",
+    "why": "AI 에이전트가 실제 침입에 쓰였다고 피해 기업이 직접 밝힌 사례입니다. WorkOS를 쓰는 서비스라면 영업·지원 채널을 사칭한 피싱에 주의할 필요가 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WorkOS 공식 보안 공지(1차) 확인. 프레임워크 이름(ARTEX 등)은 일부 매체 보도로만 나와 제외."
+    },
+    "links": [
+      {
+        "label": "WorkOS 보안 공지",
+        "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50345712",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-weight-space-programming-astra",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "MIT CSAIL 'Weight-Space Programming': GPT-6 Astra가 학습 없이 Qwen 가중치를 직접 고쳐 MATH-500 7.9%→48.1%",
+    "summary": "MIT CSAIL 연구진(Takehi·Teoh·Zhang·Khattab)이 11월 2일, GPT-6 Astra가 경사하강 없이 신경망 가중치를 읽고 고칠 수 있다는 실험을 공개했습니다. Qwen3.5-0.8B의 15·19번 층 MLP에서 반복 루프 방향을 빼는 식으로 가중치 131,072개(0.016%)만 바꿨더니 MATH-500 7.9%→48.1%, GSM8K 13.8%→67.1%, IFEval 21.0%→62.3%로 올랐고 토큰 한도 도달 비율은 93%→33.1%로 줄었다고 합니다.",
+    "why": "모델이 다른 모델의 가중치를 '코드처럼' 편집할 수 있다는 첫 사례급 보고라 해석 가능성·모델 수리 연구에 큰 반향이 있습니다. 다만 Gemma 3 270M에서는 개선이 없었고, 가중치만 보고 아첨형 모델을 찾아내는 데는 실패했다고 저자들이 직접 밝혔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "저자 연구 블로그(1차)와 전체 실험 로그 GitHub 공개 확인. 동료 심사 전. 제3자가 HF에 공개한 편집 모델에서 MATH-500(사고 모드) 7.4→50.2로 재현했다고 보고했지만, 사고 모드를 끄면 오히려 −2.2로 '능력 추가가 아니라 루프 실패 제거'라는 단서를 달았습니다. HN 2,031점·660댓글."
+    },
+    "image": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
+    "specs": {
+      "params": "Qwen3.5-0.8B 대상, 가중치 131,072개(0.016%) 편집",
+      "license": "편집분 CC BY 4.0, 기반 모델 Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "MIT CSAIL 연구 블로그",
+        "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+        "type": "source"
+      },
+      {
+        "label": "실험 로그(GitHub)",
+        "url": "https://github.com/RikiyaT/lm_understand-logs",
+        "type": "github"
+      },
+      {
+        "label": "편집 모델 재현(HF, 제3자)",
+        "url": "https://huggingface.co/JonathanColetti/Qwen3.5-0.8B-Astra-WeightEdit",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-upstage-solar-pro-4-gov",
+    "date": "2026-11-03",
+    "category": "한국 IT",
+    "title": "업스테이지 '솔라 프로 4', 범정부 AI 공통기반 정식 서비스…행정망에서 공무원 업무 지원",
+    "summary": "업스테이지의 LLM '솔라 프로 4'가 행정안전부·과학기술정보통신부의 범정부 AI 공통기반에서 정식 서비스를 시작했습니다. 국정원 보안성 심사를 통과한 행정망 안에서 삼성SDS '패브릭스'를 통해 제공되며, 공무원들이 법령 검토·민원 답변 초안·보고서 초안·장문 요약 등에 채팅과 API로 쓸 수 있습니다.",
+    "why": "국산 LLM이 정부 행정망 업무에 정식으로 들어간 사례라 공공 AI 시장에서 의미가 큽니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "서울경제·아주경제 보도로 교차 확인."
+    },
+    "image": "https://wimg.sedaily.com/news/cms/2026/11/03/news-p.v1.20261103.4af6648b420a4d599689c01eae29df3c_Z1.png",
+    "links": [
+      {
+        "label": "서울경제",
+        "url": "https://www.sedaily.com/article/20109440",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261103083131957",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-sglang-v0-5-23",
+    "date": "2026-11-03",
+    "category": "로컬 AI",
+    "title": "SGLang v0.5.23: GPU 메모리보다 큰 MoE를 소비자 GPU 한 장에서 돌리는 'Paged Experts' 추가",
+    "summary": "SGLang v0.5.23이 11월 3일 오전(KST) 나왔습니다. 선택 기능인 Paged Experts로 GPU 메모리보다 큰 MoE 모델을 소비자용 GPU 한 장에서 CPU 오프로드보다 최대 30배 빠르게 돌릴 수 있고, 저지연 메가커널로 단일 사용자 디코딩이 GB300에서 최대 44%, MI350X에서 75% 빨라졌다고 합니다(DeepSeek-V4.1-Flash 기준).",
+    "why": "로컬에서 큰 MoE 모델을 돌리려는 사람에게 실용적인 변화입니다. FP8/NVFP4 양자화 MoE에서의 LoRA, TPU7x 지원, Muse Spark Open·MiniMax-M3.1-Flash·MiniCPM-V 4.7·FLUX.3 Klein 등 신규 모델 지원도 들어갔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트(1차) 확인. PR 1,007개·기여자 257명."
+    },
+    "image": "https://opengraph.githubassets.com/67873b5d9e4b8a4d7dde50c4e76d5cd72a419508b6c431f3c3de6fb54cc24307/sgl-project/sglang/releases/tag/v0.5.23",
+    "links": [
+      {
+        "label": "GitHub 릴리스",
+        "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-presidential-trip-168-pii-exposed",
     "date": "2026-11-03",
     "category": "한국 IT",
@@ -24,6 +127,26 @@
       {
         "label": "아주경제: 청와대 긴급회의",
         "url": "https://www.ajunews.com/view/20261103090156079",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-oracle-20b-stock-notes",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "오라클, AI 인프라 자금 위해 보통주 100억·선순위채 100억 달러 발행 신청…주가 8.8% 급락",
+    "summary": "오라클이 11월 2일(미국 시간) SEC에 보통주 100억 달러와 선순위채 100억 달러 발행 서류를 냈고, 지난주 투자자의 날에 예고한 내용인데도 주가는 이날 8.8% 떨어졌습니다. 오라클은 2027~2030 회계연도 투자 기간의 추가 자본시장 조달을 이 200억 달러로 제한하겠다고 했으며, 8월 31일 기준 부채는 1,253억 4천만 달러입니다.",
+    "why": "AI 데이터센터 투자 부담과 부채에 대한 시장 불안이 커지고 있다는 지표입니다. 오라클 주가는 올해 33%, 최근 12개월 50% 하락했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC(SEC 제출 서류 인용) 확인, 로이터도 같은 내용 보도."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108468745-1793103926982-gettyimages-2234722679-_73a3321_cmlbiuj4.jpeg?v=1793642583&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
         "type": "source"
       }
     ]
@@ -59,6 +182,51 @@
     ]
   },
   {
+    "id": "2026-11-03-openai-dan-driscoll",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "오픈AI, 댄 드리스콜 전 미 육군장관 영입…국가안보 현대화 수석 고문 신설",
+    "summary": "오픈AI가 11월 2일 제26대 미 육군장관을 지낸 댄 드리스콜을 새로 만든 '국가안보 현대화 수석 고문(Senior Counselor for National Security Modernization)' 자리에 영입했다고 발표했습니다.",
+    "why": "오픈AI가 정부·국방 분야 사업을 본격적으로 키우고 있다는 흐름을 보여주는 인사입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 발표(1차)와 CNBC 보도 확인."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5KVBxyiipFJUDP8ePhzCFt/7ed307cd82ba4699dcf2ed9f349ea750/dan-driscoll-joins-openai-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 공식 발표",
+        "url": "https://openai.com/index/dan-driscoll-joins-openai/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-openai-bug-bounty-raise",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "오픈AI, 버그바운티 상금 평균 4배 이상 인상…핵심 제품 치명적 취약점 최대 3만 달러",
+    "summary": "오픈AI가 11월 2일 버그바운티의 중간·높음·치명 등급 보상 중간값을 평균 4배 넘게 올리고, ChatGPT·Codex·API 플랫폼 같은 핵심 제품의 치명적 취약점에 최대 3만 달러, 예외적 발견에는 최대 10만 달러(보너스 포함 최대 17만 2천 달러)를 주겠다고 밝혔습니다. 품질 배수·5단계 로열티 제도·우선 캠페인을 새로 두고, 아직 보상하지 않았거나 최근 30일 안에 보상한 건에도 소급 적용합니다.",
+    "why": "AI 공격 자동화가 늘면서 방어 쪽 연구자 확보 경쟁이 커지고 있다는 신호입니다. 11월 20~21일 오클랜드에서 해킹 행사 PROMPT2PWN도 엽니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 발표(1차) 확인."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6YGqAlQzlUWYvYNTeDnfcM/e5455b9d34b33916246eadda9c1b0959/rewarding-defenders-with-bigger-bug-bounties-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 공식 발표",
+        "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-nyt-sues-brave",
     "date": "2026-11-03",
     "category": "AI·IT",
@@ -84,6 +252,35 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-naver-ai-tab-iso42001",
+    "date": "2026-11-03",
+    "category": "한국 IT",
+    "title": "네이버 'AI탭', AI 경영시스템 국제표준 ISO/IEC 42001 인증…국내 첫 대규모 검색 기반 에이전틱 AI",
+    "summary": "네이버가 3일 AI탭으로 AI 경영시스템 국제표준 ISO/IEC 42001:2023 인증을 받았다고 밝혔습니다. 국내에서 대규모 검색 기반 에이전틱 AI 서비스를 범위로 받은 첫 인증이며, AI 생산자와 공급자 양쪽 측면을 모두 심사받았다고 합니다.",
+    "why": "AI 서비스의 위험 관리 체계를 국제 기준으로 검증받은 사례로, 네이버는 다른 에이전틱 AI 서비스로도 인증을 넓힐 계획입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 공식 보도자료(1차)와 연합뉴스·전자신문 보도 확인."
+    },
+    "links": [
+      {
+        "label": "네이버 보도자료",
+        "url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034815",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261103044900017",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261103000046",
         "type": "source"
       }
     ]
@@ -118,6 +315,31 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50341462",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-claude-code-game-clone-limit",
+    "date": "2026-11-03",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude Code에 '특정 게임 복제' 막는 프롬프트 추가 확인",
+    "summary": "앤트로픽의 애디 오스마니가 Opus 5.5용 Claude Code 프롬프트에 남의 특정 게임을 그대로 재현하지 않도록 하는 두 문장을 넣었다고 확인했습니다. 오리지널 게임, 장르 게임, 직접 가진 에셋을 쓰는 작업은 그대로 된다고 설명했습니다.",
+    "why": "코딩 에이전트가 저작권 이슈를 직접 걸러내기 시작했다는 점에서 개발자 사용 범위에 영향을 줄 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "더버지·톰스하드웨어 보도로 앤트로픽 측 확인 내용 교차 확인. Opus 5.5가 리버스 엔지니어링 작업까지 막는다는 주장은 사용자 보고뿐이라 미확인."
+    },
+    "image": "https://cdn.mos.cms.futurecdn.net/qziRh5FuRAUAAnNS3QuCiU-2070-80.jpg",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+        "type": "source"
+      },
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks",
         "type": "source"
       }
     ]
