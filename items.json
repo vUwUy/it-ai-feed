@@ -1,5 +1,197 @@
 [
   {
+    "id": "2026-11-04-update-weight-space-critique-qwen-local",
+    "date": "2026-11-04",
+    "category": "로컬 AI",
+    "title": "업데이트: 'Astra 가중치 직접 읽기' 논문 과장 비판…로컬 Qwen 3.8 27B도 가중치 해석 재현",
+    "summary": "spaCy 개발자 Matthew Honnibal은 도구 없이 원시 가중치만 읽은 실험은 게임·도형 판별 정도이고, Qwen3.5-0.8B의 MATH-500 7.9%→48.1% 향상은 Python을 쓰고 네트워크를 50번 실행해 얻은 결과라 '가중치만 보고' 했다는 표현은 오해의 소지가 있다고 지적했습니다. Simon Willison은 노트북에서 돌린 Qwen 3.8 27B로도 논문 예제 중 하나의 가중치 해석이 된다고 공개했습니다.",
+    "why": "화제가 된 연구의 핵심 주장 범위가 좁혀졌고, 같은 실험 일부를 로컬 모델로 직접 해볼 수 있다는 점이 확인됐습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Honnibal 블로그와 Simon Willison 블로그 원문(각 1차) 확인."
+    },
+    "image": "https://honnibal.dev/social.png",
+    "links": [
+      {
+        "label": "Honnibal 비판",
+        "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+        "type": "source"
+      },
+      {
+        "label": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50351111",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-revolut-self-hosted-glm",
+    "date": "2026-11-04",
+    "category": "로컬 AI",
+    "title": "Revolut, 코딩 AI를 자체 호스팅 GLM-5.3으로 전환해 비용 약 90% 절감",
+    "summary": "The Register에 따르면 Revolut은 약 2,000명 엔지니어용 코딩 AI 기본 모델을 Claude 등 상용 서비스에서 자체 호스팅 GLM-5.3으로 바꿔 추론 비용을 약 90% 줄였고, B200 GPU 56장으로 서비스하고 있습니다. 발표는 AI Engineer NYC에서 인프라 리드 David Abitbol이 했습니다.",
+    "why": "규제가 강한 금융사도 오픈 웨이트 모델 자체 운영으로 상용 API를 대체할 수 있다는 실사용 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AI Engineer NYC 발표 페이지(1차)와 The Register 보도 교차 확인."
+    },
+    "image": "https://image.theregister.com/260288.jpg?imageId=260288&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "specs": {
+      "params": "GLM-5.3 (이전 GLM-5.1)",
+      "memory": "NVIDIA B200 56장"
+    },
+    "links": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+        "type": "source"
+      },
+      {
+        "label": "AI Engineer 발표",
+        "url": "https://ai.engineer/nyc/2026/talks/revolut",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-postman-auto-install-agent-plugins",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "Postman 데스크톱이 Codex·Claude 플러그인과 MCP 연결을 자동 설치한다는 사용자 보고",
+    "summary": "Postman 공식 이슈 트래커에 데스크톱 앱이 Codex·Claude 플러그인, 시작 시 지시 훅, 원격 MCP 연결, CLI를 자동 설치하고 자체 훅을 신뢰 목록에 올리려 한다는 보고가 올라왔습니다. 아직 Postman 측 공식 답변은 없습니다.",
+    "why": "개발 도구가 사용자 동의 없이 코딩 에이전트 설정을 건드리는 것이라면 보안·공급망 측면에서 문제가 될 수 있어, Postman 사용자는 에이전트 설정 파일을 점검해 볼 만합니다.",
+    "verification": {
+      "status": "미확인",
+      "note": "GitHub 이슈의 사용자 보고만 있고 Postman 공식 확인이나 독립 매체 보도는 아직 없음."
+    },
+    "links": [
+      {
+        "label": "GitHub 이슈 #14370",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50354960",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-openai-astra-physical-engineering",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "OpenAI, GPT-6·Astra로 사람 직접 수정 없이 기기 외장·PCB·펌웨어 설계",
+    "summary": "OpenAI가 Astra와 GPT-6로 기기의 외장, PCB, 펌웨어를 사람의 직접 편집 없이 설계했고, 두 명이 일주일이 안 돼 작업을 마친 뒤 위탁 생산업체가 한 달 안에 시제품을 만들었다고 공개했습니다. Astra가 제조 공차를 일관되게 고려하지 못한 한계도 함께 밝혔고, 2월 이후 사내 하드웨어 팀의 토큰 사용량이 23배 늘었다고 했습니다.",
+    "why": "코딩을 넘어 하드웨어 설계·제조 흐름까지 에이전트가 맡는 사례로, 실물 제품 개발 속도에 대한 기대치를 바꿀 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 게시물(1차) 기준. 수치는 원문 그대로."
+    },
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-google-k12-ai-default-off",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "구글, 초중고 학생 계정에서 Gemini·AI 기능 기본 비활성화…AI 끄면 검색도 묶여 논란",
+    "summary": "구글이 K-12 학생 계정에서 Gemini, Gemini Notebook, Classroom 속 Gemini, Google 검색을 관리자가 켜기 전까지 기본으로 꺼 두겠다고 발표했습니다. 구글은 뉴욕타임스에 '검색과 AI가 깊이 통합돼 있다'며 AI를 막는 학교는 검색도 쓸 수 없다고 했고, 이후 NBC에는 검색만 따로 켤 수 있지만 AI 모드·AI 개요 같은 AI 기능은 함께 포함된다고 설명했습니다. 관련 선택지는 2027년 초에 제공됩니다.",
+    "why": "학교 관리자 입장에서 'AI 없이 검색만' 쓰는 선택지가 사실상 사라지는 구조라, 교육 현장의 AI 정책 논쟁에 직접 영향을 줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그(1차)와 9to5Google·NBC·AP·Engadget 보도 교차 확인. 검색 개별 활성화 관련 설명은 NBC 보도 기준."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Designing_responsible_AI_for_learning_hero.width-1300.png",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+        "type": "source"
+      },
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/tech/tech-news/google-shut-search-schools-opt-ai-rcna607280",
+        "type": "source"
+      },
+      {
+        "label": "9to5Google",
+        "url": "https://9to5google.com/2026/11/03/google-search-ai-guided-learning-changes/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50353192",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-gitbook-ai-agent-attack",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "GitBook, 'AI 에이전트 이용한 정교한 표적 공격'으로 인프라 자격증명 탈취…API 토큰 전면 폐기",
+    "summary": "GitBook이 공격자가 11월 2일 19시(CET)에 인프라 자격증명을 얻었다며, 통합 토큰, Git Sync 비밀값, API 토큰, 방문자가 GitBook Assistant에 한 질문이 접근됐을 수 있다고 공지했습니다. 콘텐츠 변경 증거는 없고 개인 API 토큰을 모두 폐기했으며, 사용자에게 연동된 서드파티 비밀값 교체와 GitBook MCP 서버 재인증을 권고했습니다. 같은 주 Trigger.dev도 일부 조직의 환경 변수에 무단 접근이 있었다고 공개했습니다.",
+    "why": "문서 도구에 연결된 Git·서드파티 비밀값이 노출됐을 수 있어, GitBook을 쓰는 팀은 바로 키 교체가 필요합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitBook 공식 보안 공지와 Trigger.dev 공식 공지(각 1차) 확인. GitBook 사후 분석 보고서는 아직 미공개."
+    },
+    "image": "https://framerusercontent.com/images/2QElhXaCZ6d3Q2pBNrT6tQL24qg.png",
+    "links": [
+      {
+        "label": "GitBook 보안 공지",
+        "url": "https://www.gitbook.com/status/security-incident-2026-11-03",
+        "type": "source"
+      },
+      {
+        "label": "Trigger.dev 보안 공지",
+        "url": "https://trigger.dev/blog/security-incident-nov-2026",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50354336",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-amd-q3-2026-results",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "AMD 3분기 매출 134억 달러로 사상 최대…데이터센터 97% 성장, 4분기 약 170억 달러 전망",
+    "summary": "AMD가 3분기 매출 133억 7,700만 달러(전년 대비 45% 증가), 데이터센터 매출 85억 달러(97% 증가)를 발표했습니다. Instinct MI450 출시와 EPYC 수요가 성장을 이끌었고, 4분기 매출은 약 170억 달러(±3%)로 전년 대비 약 66% 성장을 예상했습니다. CNBC에 따르면 주가는 시간외에서 7% 올랐습니다.",
+    "why": "AI 인프라 과잉투자 우려로 반도체주가 흔들린 직후 나온 실적이라, 엔비디아 대안 GPU 수요가 실제로 커지고 있는지 보여주는 지표입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AMD IR 보도자료(1차)와 CNBC 보도 교차 확인."
+    },
+    "image": "https://d1io3yog0oux5.cloudfront.net/_1dcf6819c1566fb2bab40c24e6158009/amd/db/834/7308/social_image_resized.jpg",
+    "links": [
+      {
+        "label": "AMD 실적 발표",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-workos-breach-ai-assisted",
     "date": "2026-11-03",
     "category": "AI·IT",
@@ -455,6 +647,36 @@
     ]
   },
   {
+    "id": "2026-11-03-keti-korean-ai-datasets",
+    "date": "2026-11-03",
+    "category": "한국 IT",
+    "title": "KETI, 한국어 AI 데이터셋 4종 공개…유해·민감 발화 약 1만 건 KoEVD 포함",
+    "summary": "한국전자기술연구원(KETI)이 K-MIND, KoMMERCE, K-Prism(1,002건), KoEVD(유해·민감 발화 약 1만 건) 등 한국어 AI 데이터셋 4종을 AI 허브와 Hugging Face에 공개했습니다.",
+    "why": "한국어 모델의 안전성·도메인 평가에 바로 쓸 수 있는 공개 데이터라 국내 모델 개발과 로컬 모델 미세조정에 유용합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 보도와 Hugging Face KETI-NLP 저장소 실물 확인."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/KETI-NLP/KoEVD.png",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261103000056",
+        "type": "source"
+      },
+      {
+        "label": "KoEVD (HF)",
+        "url": "https://huggingface.co/datasets/KETI-NLP/KoEVD",
+        "type": "huggingface"
+      },
+      {
+        "label": "K-Prism (HF)",
+        "url": "https://huggingface.co/datasets/KETI-NLP/K-prism",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-google-xcpe-botnet-takedown",
     "date": "2026-11-03",
     "category": "AI·IT",
@@ -622,6 +844,25 @@
       {
         "label": "Tom's Hardware",
         "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-bespin-helpnow-computer",
+    "date": "2026-11-03",
+    "category": "한국 IT",
+    "title": "베스핀글로벌, 기업용 에이전트 '헬프나우 컴퓨터' 출시…GPT-OSS·HyperCLOVA X·EXAONE 등 지원",
+    "summary": "베스핀글로벌이 9가지 실행 도구를 갖춘 기업용 AI 에이전트 '헬프나우 컴퓨터'를 내놨고, GPT-OSS, Llama, Qwen, HyperCLOVA X, EXAONE, Gemini 등 여러 모델을 골라 쓸 수 있다고 밝혔습니다.",
+    "why": "국산·오픈 웨이트 모델을 함께 고를 수 있는 업무용 에이전트가 국내 기업 시장에 나왔다는 점에서 의미가 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 보도 기준(회사 발표 인용)."
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261103000032",
         "type": "source"
       }
     ]
