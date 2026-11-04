@@ -30,6 +30,76 @@
     ]
   },
   {
+    "id": "2026-11-04-update-daouoffice-fss",
+    "date": "2026-11-04",
+    "category": "한국 IT",
+    "title": "업데이트: 빗썸·한양증권 해킹 통로 '다우오피스' 제로데이…금감원, 금융권에 긴급 패치·결과 보고 요청",
+    "summary": "금감원은 10월 30일 다우오피스 취약점을 금융권에 공유하고 긴급 패치를 당부했으며, 사용 금융사 명단 취합과 후속 조치 결과 보고를 요청했습니다. 한양증권은 10월 29일 다우오피스를 통해 공격받아 고객정보 15건 등이 유출됐고, 다우오피스 고객사는 약 1만7천 곳, 사용자는 70만 명으로 알려졌습니다. 보안뉴스는 3.6.8.5 이하 버전의 접근통제 미흡 취약점을 원인으로 지목했습니다.",
+    "why": "빗썸 사고의 원인이 국내 기업 다수가 쓰는 그룹웨어로 확인되면서 피해가 금융권 밖으로 번질 수 있습니다. 다우오피스를 쓰는 조직은 패치와 외부망 접근 차단을 확인해야 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·보안뉴스 보도와 다우오피스 공식 보안 공지 확인."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261104126600002",
+        "type": "source"
+      },
+      {
+        "label": "보안뉴스",
+        "url": "https://www.boannews.com/news/articleView.html?idxno=147008",
+        "type": "source"
+      },
+      {
+        "label": "다우오피스 보안 공지",
+        "url": "https://daouoffice.com/blog/daouoffice-security-update/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-tencent-hy4-release",
+    "date": "2026-11-04",
+    "category": "로컬 AI",
+    "title": "텐센트 'Hy4' 정식 출시…비전·컴퓨터 사용 첫 지원, 가중치는 며칠 내 공개 예정",
+    "summary": "텐센트가 차세대 LLM Hy4를 발표했습니다. 시각 이해와 CLI·GUI 컴퓨터 사용 기능을 처음 넣었고, 텐센트 클라우드·OpenRouter와 자사 제품에서 바로 쓸 수 있습니다. 텐센트는 모델 가중치와 시스템 카드를 '며칠 내' 공개하고 vLLM·SGLang과 지원을 준비 중이라고 밝혔습니다. 앞서 8월 공개된 Hy4 preview는 총 770B·활성 49B MoE, 100만 토큰 컨텍스트, Apache 2.0이었습니다(정식판 규격은 미공개).",
+    "why": "중국 대형 오픈 웨이트 모델 경쟁에 또 하나의 프런티어급 후보가 나왔고, 가중치가 풀리면 vLLM·SGLang 기반 자체 호스팅 선택지가 넓어집니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "텐센트 공식 보도자료와 Hy 연구 페이지(1차), Unite.AI 보도 확인. 정식판 가중치는 아직 미공개."
+    },
+    "image": "https://www.tencent.com/wp-content/uploads/2026/11/H4-thumbnail-e1793777947684.jpg",
+    "specs": {
+      "params": "정식판 미공개(preview는 770B/활성 49B)",
+      "license": "preview는 Apache 2.0",
+      "context": "preview 1M",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "텐센트 발표",
+        "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+        "type": "source"
+      },
+      {
+        "label": "Hy4 연구 페이지",
+        "url": "https://hy.tencent.ai/research/hy4",
+        "type": "source"
+      },
+      {
+        "label": "Unite.AI",
+        "url": "https://www.unite.ai/tencent-releases-full-hy4-model-with-vision-and-computer-use/",
+        "type": "source"
+      },
+      {
+        "label": "tencent/Hy4-preview",
+        "url": "https://huggingface.co/tencent/Hy4-preview",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-04-skt-q3-2026-aidc",
     "date": "2026-11-04",
     "category": "한국 IT",
@@ -217,6 +287,35 @@
       {
         "label": "The Information",
         "url": "https://www.theinformation.com/briefings/nvidia-tells-cloud-clients-take-less-china-business",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-nikke-pc-launcher-malware",
+    "date": "2026-11-04",
+    "category": "한국 IT",
+    "title": "'승리의 여신: 니케' PC 런처에 악성코드…10월 24일 이후 실행자 계정·암호화폐 지갑 탈취 위험",
+    "summary": "깃허브에 올라온 기술 보고서에 따르면 레벨인피니트 CDN의 자바스크립트 파일이 9월 27일 변조돼, PC 런처 실행 시 원격 액세스 악성코드(RAT)를 내려받았습니다. 보고서는 10월 24일 이후 런처를 실행한 모든 이용자를 감염 위험 대상으로 봤고, 운영진은 스크립트 변조 가능성을 확인하고 4일 오전 2시 30분경 클라이언트를 수정·업데이트했다고 공지했습니다.",
+    "why": "국내 이용자가 많은 게임의 공급망 공격으로, 브라우저 저장 비밀번호·API 키·토큰·지갑 데이터가 노출될 수 있습니다. 해당 기간 런처를 실행했다면 점검과 비밀번호 변경이 필요합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·디지털투데이·전자신문 보도와 운영진 공지 인용 확인. 피해 규모는 조사 중."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261104049351017",
+        "type": "source"
+      },
+      {
+        "label": "디지털투데이",
+        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712534",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261104000227",
         "type": "source"
       }
     ]
