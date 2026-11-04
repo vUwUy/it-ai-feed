@@ -1,5 +1,209 @@
 [
   {
+    "id": "2026-11-05-update-kimi-k3-1-pro-weights-released",
+    "date": "2026-11-05",
+    "category": "로컬 AI",
+    "title": "업데이트: Kimi K3.1 Pro 가중치 허깅페이스 공개",
+    "summary": "문샷AI가 예고대로 Kimi K3.1 Pro 가중치를 허깅페이스에 올렸습니다. 총 2.8T·활성 104B 파라미터, 1M 컨텍스트, MXFP4 형식으로 용량은 약 1.56TB이며 자체 라이선스입니다.",
+    "why": "공개 가중치 중 최대급 모델이 실제로 풀렸지만, 용량상 개인 로컬보다는 다중 GPU 서버용입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드(1차) 확인, HN 282점."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/moonshotai/Kimi-K3.1-Pro.png",
+    "specs": {
+      "params": "총 2.8T / 활성 104B (MoE)",
+      "license": "자체 라이선스",
+      "memory": "약 1.56TB (MXFP4)",
+      "context": "1M"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50366999",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-rtx-spark-linux-throttle-report",
+    "date": "2026-11-05",
+    "category": "로컬 AI",
+    "title": "RTX Spark 노트북, 리눅스에서 GPU 780MHz 고정…추론 약 5배 느려(테스트 보고)",
+    "summary": "MindStudio가 MSI Prestige N16 Flip AI Plus로 테스트한 결과, 전원 연결 시 리눅스에서 GPU가 약 780MHz에 묶여 GPT-OSS-120B가 윈도우 65.4 대비 13.9 tok/s에 그쳤다고 보고했습니다. 원인은 윈도우 전용 전력 관리 컨트롤러가 쓰는 암호화된 전력 테이블로 추정되며, 당분간 WSL이 우회책이라고 합니다.",
+    "why": "RTX Spark 노트북을 리눅스 로컬 AI 머신으로 쓰려던 사람에게는 구매 전 확인할 문제입니다.",
+    "verification": {
+      "status": "미확인",
+      "note": "단일 실측 보고(MindStudio)와 이를 인용한 기사뿐이며 엔비디아 공식 확인은 없음."
+    },
+    "image": "https://i.mscdn.ai/o/iZl0kkZU2R9KXyy7/a/3V2ICO3oSq2QZPii/_published/generated-images/0d8c9668-cbfe-4ecf-bb31-1a7fff7102be.png?fm=auto&w=1200&h=630&fit=crop",
+    "links": [
+      {
+        "label": "MindStudio 테스트",
+        "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50362905",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-ricursive-ripple-65b-preview",
+    "date": "2026-11-05",
+    "category": "로컬 AI",
+    "title": "Ricursive, 65B 덴스 오픈 웨이트 'Ripple-65B Preview' 공개",
+    "summary": "칩 설계 AI 회사 Ricursive가 12조 토큰으로 처음부터 학습한 65B 덴스 모델을 Apache 2.0으로 공개했고, TerminalBench 2.1에서 80.52점(자체 발표)으로 미국 오픈 웨이트 최고라고 밝혔습니다. 1M 컨텍스트를 지원하며 개발 총비용은 3,200만 달러, DGX Spark 같은 로컬 기기에서도 효율적으로 돌아간다고 설명합니다.",
+    "why": "MoE가 아닌 65B 덴스 모델이라 128GB급 통합 메모리 기기에서 양자화로 돌려볼 만한 코딩 에이전트 후보입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Ricursive 공식 블로그와 허깅페이스 모델 페이지(1차), MarkTechPost 보도 확인. 벤치마크는 자체 발표 수치."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ricursiveAI/Ripple-65B-Preview.png",
+    "specs": {
+      "params": "65B (덴스)",
+      "license": "Apache 2.0",
+      "context": "1M"
+    },
+    "links": [
+      {
+        "label": "Ricursive 발표",
+        "url": "https://www.ricursive.com/ripple",
+        "type": "source"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50369925",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-openai-acquires-pierre",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "오픈AI, Codex용 Git 도구 만든 Pierre 인수",
+    "summary": "오픈AI가 Code Storage와 Codex 앱에 쓰이는 Trees·Diffs 라이브러리를 만든 Pierre Computer Company를 인수한다고 11월 4일 발표했습니다. Pierre의 오픈소스는 계속 오픈소스로 유지되고, Code Storage는 인수 완료 후에도 쓸 수 있으며 규제 승인 등 종결 조건이 남아 있습니다.",
+    "why": "며칠 전 공개한 사내 소스 관리 백엔드 Pando에 이어, 오픈AI가 에이전트 시대의 Git·코드 리뷰 도구를 Codex로 끌어들이는 흐름입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "오픈AI 공식 발표(1차) 확인, HN 토론 진행 중."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "오픈AI 발표",
+        "url": "https://openai.com/index/openai-to-acquire-pierre/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50366863",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-naver-unified-agent-kakao-baemin",
+    "date": "2026-11-05",
+    "category": "한국 IT",
+    "title": "네이버 '통합 에이전트' 앞당겨…카카오 카나나 스페이스 내달 CBT, 배민 AI 검색 테스트",
+    "summary": "네이버가 내년으로 잡았던 검색·쇼핑·지도 통합 에이전트 구축을 앞당기고 있으며 내년 상반기 출시 전망이 나온다고 전자신문이 보도했습니다. 카카오는 다음 달 '카나나 스페이스' CBT를 시작하고, 배민은 10월 20일부터 대화형 AI 검색 CBT를 진행 중입니다.",
+    "why": "국내 플랫폼 경쟁이 검색에서 예약·결제까지 실행하는 에이전트로 옮겨가고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 보도(네이버 관계자 발언 포함) 확인. 카나나 스페이스 일정은 이전 카카오 발표와 일치."
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261104000273",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-meta-acquires-conductor",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "메타, 코딩 에이전트 앱 Conductor 인수…클라우드 11월 20일 종료",
+    "summary": "여러 코딩 에이전트를 병렬로 돌리는 Mac 앱 Conductor가 메타에 합류한다고 발표했습니다. 11월 4일부터 신규 가입이 막혔고, Conductor Cloud는 11월 13일 읽기 전용, 11월 20일 종료되며 로컬 앱은 2027년 초까지 새 모델·중요 버그 수정만 받습니다.",
+    "why": "메타가 코딩 에이전트 인터페이스 팀을 확보한 것이고, 현재 Conductor Cloud 사용자라면 11월 20일 전에 데이터를 옮겨야 합니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Conductor 공식 공지(1차)와 TechCrunch 보도 확인."
+    },
+    "image": "https://www.conductor.build/farewell/og.png",
+    "links": [
+      {
+        "label": "Conductor 공지",
+        "url": "https://www.conductor.build/announcement",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50369503",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-llama-cpp-v0-9-0",
+    "date": "2026-11-05",
+    "category": "로컬 AI",
+    "title": "llama.cpp v0.9.0: FP8 양자화·Mistral Large 4 지원",
+    "summary": "llama.cpp v0.9.0이 OCP FP8 E4M3 양자화, 멀티 시퀀스용 flash_attn_ext_rows, Mistral Large 4·Metis-1.6·Clover·Limite 아키텍처, Nemotron 3.5 Transcribe(40개 언어 전사)를 추가했습니다. Gemma 4 E2B/E4B 프리필이 크게 빨라졌고 ggml은 v0.29.0으로 올라갔습니다.",
+    "why": "최근 빌드에 흩어져 있던 기능이 정식 버전으로 묶였고, Mistral Large 4를 로컬에서 돌릴 길이 열렸습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(1차) 확인."
+    },
+    "links": [
+      {
+        "label": "GitHub 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-etri-physical-ai-playground",
+    "date": "2026-11-05",
+    "category": "한국 IT",
+    "title": "ETRI, 오늘 킨텍스서 피지컬 AI 기술 10종 발표",
+    "summary": "ETRI가 11월 5일 킨텍스에서 'ETRI 피지컬AI 플레이그라운드'를 열고 휴머노이드 파운데이션 모델, VLA 학습 데이터, 로봇핸드 촉각센싱 등 10개 기술을 발표합니다. 로봇학습데이터 허브(ROJI-Hub)에는 14만 개 작업, 140만 건 이상 작업 영상 데이터가 구축됐다고 밝혔습니다.",
+    "why": "국책 연구소의 로봇 학습 데이터와 파운데이션 모델 현황을 한눈에 볼 수 있는 자리입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 보도(ETRI 발표 기반) 확인."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/04/news-p.v1.20261104.55ffa5717d1449ee98169a55da11e4e2_P1.png",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261104000219",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-04-update-weight-space-critique-qwen-local",
     "date": "2026-11-04",
     "category": "로컬 AI",
