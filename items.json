@@ -102,6 +102,129 @@
     ]
   },
   {
+    "id": "2026-11-04-ollama-0-40-15-rc0-mimo",
+    "date": "2026-11-04",
+    "category": "로컬 AI",
+    "title": "Ollama v0.40.15-rc0, 샤오미 MiMo V2.6 지원 추가",
+    "summary": "Ollama v0.40.15-rc0이 샤오미 MiMo V2.6 모델 지원과 리눅스에서 MLX용 번들 CUDA 라이브러리 인프로세스 로딩을 추가했다.",
+    "why": "MIT 라이선스 MiMo V2.6 계열(Flash-RL 약 311B/활성 15B, Distill-Qwen-9B 등)을 Ollama로 돌릴 수 있게 된다. 아직 RC(출시 후보) 단계다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트 + Hugging Face 컬렉션 확인."
+    },
+    "specs": {
+      "license": "MIT (MiMo V2.6)"
+    },
+    "links": [
+      {
+        "label": "Ollama v0.40.15-rc0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
+        "type": "source"
+      },
+      {
+        "label": "XiaomiMiMo/mimo-v26",
+        "url": "https://huggingface.co/collections/XiaomiMiMo/mimo-v26",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-msit-amd-steering-committee",
+    "date": "2026-11-04",
+    "category": "한국 IT",
+    "title": "과기정통부·AMD 첫 운영위…AMD GPU와 국산 NPU 잇는 이기종 AI 인프라 추진",
+    "summary": "과기정통부와 AMD가 첫 운영위원회를 열어 AMD CPU·GPU와 국산 NPU를 연계한 이기종 AI 컴퓨팅 인프라, AMD AI 연구센터 설립, 인재 양성 과제를 점검했다. AMD는 같은 날 'Advancing AI World Tour Seoul 2026'을 한국에서 처음 열었다.",
+    "why": "국산 NPU 기업에 글로벌 GPU 생태계와 결합할 기회가 될 수 있지만, 구체적 규모·참여 기업·연구센터 일정은 아직 공개되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 머니투데이 보도(과기정통부 발표) 확인."
+    },
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/04/2026110317492242301",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261104029800017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-meta-15b-bond",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "메타, AI 인프라 자금 위해 150억 달러 규모 5개 트랜치 달러 채권 발행",
+    "summary": "메타가 AI 인프라 투자 재원 마련을 위해 150억 달러 규모의 5개 트랜치 미국 달러 채권을 발행한다고 밝혔다. 2031년 만기 32.5억 달러(쿠폰 5.85%), 2033년 만기 32.5억 달러(6.25%) 등으로 구성되며 무디스는 Aa3를 부여했다.",
+    "why": "올해 설비투자 1,350억~1,450억 달러를 예고한 메타가 주식 발행 확대에 이어 채권까지 동원하는 등, 빅테크 AI 투자의 외부 자금 의존이 커지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Reuters(규제 공시 인용) + CNBC 보도 확인."
+    },
+    "links": [
+      {
+        "label": "Reuters (StreetInsider)",
+        "url": "https://www.streetinsider.com/Reuters/Meta+raises+%2415+billion%C2%A0in+five-part+US+bond+sale+to+fund+AI+expansion/27283778.html",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-llamacpp-nccl-multinode-tp",
+    "date": "2026-11-04",
+    "category": "로컬 AI",
+    "title": "llama.cpp, NCCL 멀티노드 텐서 병렬 지원(b12079)…DGX Spark 2대로 생성 속도 1.8배",
+    "summary": "llama.cpp b12079에 NCCL 기반 멀티노드 텐서 병렬이 들어갔다. PR 벤치마크에서 DGX Spark·Qwen3.8-27B UD-Q4_K_M 기준 1대는 pp512 846.54 / tg128 13.02 t/s, 2대(NCCL)는 pp512 1348.29 / tg128 23.51 t/s였다.",
+    "why": "여러 대의 로컬 머신을 묶어 큰 모델을 더 빠르게 돌릴 수 있는 길이 공식 빌드에 열렸다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b12079 + 해당 PR 벤치마크 확인."
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12079",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12079",
+        "type": "source"
+      },
+      {
+        "label": "PR #28967",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/28967",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-lg-exaone-nexus-award",
+    "date": "2026-11-04",
+    "category": "한국 IT",
+    "title": "LG AI연구원 '엑사원 넥서스', AI 학습데이터 저작권 검증…전문가보다 45배 빠르고 비용 1천분의 1",
+    "summary": "LG AI연구원이 학습 데이터의 저작권·라이선스·개인정보 리스크를 자동 분석하는 에이전트 '엑사원 넥서스'로 ICOTEC 저작권 기술 어워드 국가지식재산위원장상을 받았다. 법률 전문가 대비 속도는 45배, 정확도는 26% 높고 비용은 약 1천분의 1이라고 밝혔다.",
+    "why": "오픈 데이터셋 2만여 개의 리스크 평가 결과를 연구용으로 공개했고, 자사 모든 AI 모델의 필수 검증 절차로 쓰며 해외 빅테크·로펌 공급도 추진한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·서울경제·이데일리 등 복수 보도 확인(수치는 LG AI연구원 자체 발표)."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261104031300003",
+        "type": "source"
+      },
+      {
+        "label": "서울경제",
+        "url": "https://www.sedaily.com/article/20110050",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-04-google-k12-ai-default-off",
     "date": "2026-11-04",
     "category": "AI·IT",
@@ -163,6 +286,156 @@
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50354336",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-fal-16b",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "생성형 미디어 추론 플랫폼 Fal, 13억 달러 유치…기업가치 160억 달러",
+    "summary": "Fal이 Bessemer 주도로 13억 달러 시리즈 F를 유치해 기업가치 160억 달러를 인정받았다. 4월 80억 달러에서 두 배로 뛰었고 엔비디아 등이 참여했다.",
+    "why": "이미지·영상 생성 모델 추론 수요가 커지면서 추론 인프라 스타트업 몸값이 빠르게 오르고 있다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Bessemer 공식 글 + TechCrunch·SiliconANGLE·Bloomberg 보도 확인."
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+        "type": "source"
+      },
+      {
+        "label": "Bessemer",
+        "url": "https://www.bvp.com/news/investing-in-fal-the-generative-media-company",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-crowdstrike-dreadnode-fiddler",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "크라우드스트라이크, AI 보안 스타트업 Dreadnode·Fiddler 인수…약 5억 달러",
+    "summary": "크라우드스트라이크가 Fal.Con Europe 2026에서 AI 레드팀 업체 Dreadnode와 AI 관측성 업체 Fiddler 인수를 발표했고, TechCrunch는 두 건 합계를 5억 달러 가까이로 보도했다.",
+    "why": "Dreadnode의 100가지 이상 AI 공격 전략은 Falcon 제품군에, Fiddler는 'Falcon Observe'로 편입돼 AI 에이전트 보안·관측 시장 경쟁이 본격화된다. 거래는 크라우드스트라이크 FY27 4분기 종료 예정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "크라우드스트라이크 IR 보도자료 2건 + TechCrunch 확인."
+    },
+    "links": [
+      {
+        "label": "CrowdStrike IR (Dreadnode)",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-dreadnode-advance-ai-trust-and-deliver/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-chatgpt-search-20pct-google",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "OpenAI \"ChatGPT 검색량, 구글의 약 20% 수준\"",
+    "summary": "OpenAI 애덤 프라이는 웹 검색을 유발한 ChatGPT 질의량이 구글 검색량의 약 5분의 1이라고 밝혔다.",
+    "why": "OpenAI 내부 추정치로, 구글 수치·기간·지역 기준은 공개되지 않아 독립 검증된 점유율은 아니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge + Big Technology 보도로 발언 확인(수치는 OpenAI 자체 추정)."
+    },
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+        "type": "source"
+      },
+      {
+        "label": "Big Technology",
+        "url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-binance-hack-initial-findings",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "업데이트: 바이낸스 해킹, 가짜 채용 면접과 사내 AI 도구 악용으로 시작",
+    "summary": "바이낸스가 초기 조사 결과에서 엔지니어가 가짜 채용 면접 '과제' 저장소를 업무용 PC에서 실행하며 악성코드에 감염됐고, 10월 20일 사내 AI 도구를 악용해 다른 지갑 엔지니어 2명의 PC까지 장악당했다고 밝혔다.",
+    "why": "공격자는 10월 29일 탈취한 컨테이너 배포 토큰으로 컨테이너를 띄워 내부 지갑 서명 서비스를 통해 정상 출금 절차 밖의 거래를 실행했다. 사내 AI 도구가 내부 확산 경로가 된 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "바이낸스 공식 블로그 발표를 The Hacker News·WIRED·The Register가 보도. 피해액 표기는 매체마다 63억~64억 달러대로 다름."
+    },
+    "links": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+        "type": "source"
+      },
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-apple-siri-ai-app-intents",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "애플, 모든 개발자에게 Siri AI 개방…App Intents 개발자 프리뷰(27.3 베타)",
+    "summary": "애플이 iOS·iPadOS·macOS·visionOS 27.3 베타에서 모든 앱이 App Intents로 Siri AI(개인 맥락·화면 인식·자연어)를 쓸 수 있는 개발자 프리뷰를 열었다. 여러 동작을 잇는 '스킬'과 Spotlight 시맨틱 인덱스 엔티티 노출도 지원한다.",
+    "why": "사용자 배포는 '몇 달 내', App Store 제출은 봄부터이며 지원 언어에 한국어가 포함된다. EU(iOS·iPadOS·watchOS)와 13세 미만은 제외된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Apple Developer 공식 뉴스 + The Verge 보도 확인."
+    },
+    "links": [
+      {
+        "label": "Apple Developer News",
+        "url": "https://developer.apple.com/news/?id=gdk2umrf",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-anthropic-flashprove",
+    "date": "2026-11-04",
+    "category": "AI·IT",
+    "title": "Anthropic, 가중치 공개 없이 추론을 증명하는 오픈소스 'FlashProve' 공개",
+    "summary": "Anthropic Frontier Red Team이 zkSNARK 기반 '증명 가능한 추론' 프로토타입 FlashProve를 Apache 2.0으로 공개했다. Llama 4 Maverick(400B MoE, 4비트)에서 H100 한 장으로 초당 약 110토큰을 증명하고, 1,024토큰 요청당 증명 크기는 18.78MB다.",
+    "why": "모델 가중치를 숨긴 채 '이 모델로 이 답을 냈다'는 걸 24개 CPU 스레드에서 17초 만에 검증할 수 있다. 다만 vLLM 대비 GPU 시간이 약 70~95배 들고, 1,024토큰 컨텍스트·그리디 정수 모델로 제한된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 연구 페이지 + GitHub 저장소(Apache 2.0) 확인, TechCrunch 보도."
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
+    "specs": {
+      "license": "Apache 2.0",
+      "compute": "H100 1장 ~110 tok/s 증명, 검증 24스레드 17초",
+      "context": "1,024 토큰"
+    },
+    "links": [
+      {
+        "label": "Anthropic Research",
+        "url": "https://www.anthropic.com/research/provable-inference",
+        "type": "source"
+      },
+      {
+        "label": "anthropics/FlashProve",
+        "url": "https://github.com/anthropics/FlashProve",
+        "type": "github"
       }
     ]
   },
@@ -673,6 +946,31 @@
         "label": "K-Prism (HF)",
         "url": "https://huggingface.co/datasets/KETI-NLP/K-prism",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-hyundai-rnd-external-ai-block",
+    "date": "2026-11-03",
+    "category": "한국 IT",
+    "title": "현대차, 자율주행·로보틱스 R&D 조직 외부 생성형 AI 사용 중단…젬마 등 사내 설치 모델은 허용",
+    "summary": "현대차가 지난달 말부터 국가핵심기술을 다루는 일부 R&D 조직에서 사내 플랫폼 'H챗'을 통한 챗GPT·클로드 등 외부 AI 이용을 막았고, 구글 '젬마'처럼 사내 인프라에 설치해 쓰는 모델은 계속 허용했다.",
+    "why": "현대차는 '보안성 재검토' 차원이며 재개 여부는 정해지지 않았다고 밝혔다. 기업 보안 측면에서 사내 구축형(로컬) 모델 수요가 커지는 흐름이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 뉴시스 보도, 현대차 관계자 발언 확인."
+    },
+    "image": "https://img6.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102907820001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261103176900003",
+        "type": "source"
+      },
+      {
+        "label": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261103_0003853449",
+        "type": "source"
       }
     ]
   },
