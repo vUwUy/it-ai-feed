@@ -146,6 +146,31 @@
     "date": "2026-11-05"
   },
   {
+    "id": "2026-11-05-update-chainalysis-all-users-credentials",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "업데이트: 체이널리시스, 전 사용자 이름·비번 해시·라이브 토큰 노출 확인…KYT 등 중단",
+    "summary": "체이널리시스는 11월 4일(미국 동부) 업데이트에서 전 사용자의 이름·사용자명·비밀번호 해시·라이브 토큰이 악성 행위자에게 노출됐다고 밝혔습니다. 초기(10/30)에는 인증 자격증명·세션 토큰 접근 증거가 없다고 했으나 입장을 뒤집었고, Reactor·Data Solutions에 이어 KYT UI·API와 주소 스크리닝·로그인 페이지도 내렸습니다. 무단 접근이 의심되는 KYT 계정 고객에게는 개별 통지하며, 전 사용자에게 비밀번호 재설정과 API 키 교체를 요구합니다. 조사 데이터 접근이나 귀속 데이터 조작 증거는 아직 없다고 했습니다.",
+    "why": "암호화폐 추적·규제 준수 도구가 법집행·금융권에 쓰이는 만큼, 전 계정 자격증명 노출과 서비스 중단은 업계 전반에 파급이 큽니다. '공격형 에이전트 기법' 침해의 초기 평가가 과소였음이 드러난 사례입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "체이널리시스 공식 보안 공지(11/4 23:00 ET 업데이트)와 Recorded Future The Record 보도 확인."
+    },
+    "image": "https://www.chainalysis.com/wp-content/uploads/2026/10/2026-11-security.png",
+    "links": [
+      {
+        "label": "Chainalysis 공식 공지",
+        "url": "https://www.chainalysis.com/blog/security-incident-october-30/",
+        "type": "source"
+      },
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-sk-hynix-hyaico-chey-chairman",
     "category": "한국 IT",
     "title": "최태원, SK하이닉스 美 AI 투자법인 HYAICO 이사회 의장",
@@ -584,6 +609,43 @@
       }
     ],
     "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-baidu-ernie-5-5-flash-base",
+    "date": "2026-11-05",
+    "category": "로컬 AI",
+    "title": "바이두, ERNIE 5.5 Flash Base 오픈 웨이트 공개…280B-A14B 베이스 체크포인트",
+    "summary": "바이두가 사전학습만 마친 ERNIE-5.5-Flash-Base를 공개했습니다. 총 280B·활성 14B MoE로 33.5T 토큰을 학습했고, 학습 컨텍스트는 최대 128K·파인튜닝·추론은 1M까지 지원합니다. 동일 파이프라인 비교에서 MMLU 93.3, HumanEval+ 82.3 등 동급 베이스(DeepSeek-V4-Flash-Base 등) 대비 강세를 주장하며, FP8·BF16 가중치를 허깅페이스에 올렸습니다. 라이선스는 EU·영국·한국을 제외한 지역에만 허용하고, 관련 연매출 5천만 달러 초과 시 별도 허가가 필요합니다.",
+    "why": "280B급 효율 MoE 베이스가 공개돼 파인튜닝·에이전트 연구의 출발점이 됩니다. 다만 한국은 라이선스 허용 지역에서 빠져 국내 배포·상업 이용에 제약이 큽니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "바이두 ERNIE 공식 블로그(11/5)와 허깅페이스 모델 카드(1차) 확인. 벤치마크는 바이두 통일 평가 파이프라인 수치."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/baidu/ERNIE-5.5-Flash-Base.png",
+    "specs": {
+      "params": "280B total / 14B active (MoE)",
+      "license": "ERNIE 5.5 Flash Base Model License v1.0 (EU·UK·한국 제외)",
+      "context": "128K train / 1M fine-tune·inference",
+      "modality": "텍스트",
+      "compute": "FP8·BF16 safetensors, SGLang·vLLM 지원"
+    },
+    "links": [
+      {
+        "label": "바이두 ERNIE 블로그",
+        "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+        "type": "source"
+      },
+      {
+        "label": "baidu/ERNIE-5.5-Flash-Base",
+        "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+        "type": "huggingface"
+      },
+      {
+        "label": "BF16 가중치",
+        "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base-BF16",
+        "type": "huggingface"
+      }
+    ]
   },
   {
     "id": "2026-11-05-baidu-apollo-world",
