@@ -172,12 +172,12 @@
   {
     "id": "2026-11-05-samsung-hynix-close-plunge",
     "category": "한국 IT",
-    "title": "[업데이트] 삼성전자 7.57%·SK하이닉스 9.46% 급락 마감…美 데이터센터 규제 우려",
+    "title": "[업데이트] 삼성전자 7.57%·SK하이닉스 9.46% 급락 마감",
     "summary": "삼성전자는 20만1,500원(-7.57%)으로 마감하며 장중 한때 7월 29일 이후 처음 20만원선이 깨졌고, SK하이닉스는 126만4,000원(-9.46%)으로 마감했습니다. 외국인은 코스피에서 3조4,242억 원을 순매도했습니다.",
-    "why": "미 중간선거 뒤 AI 데이터센터 규제 우려가 국내 메모리 대표주에 직접 타격을 줬습니다(장중 급락 소식의 마감 업데이트).",
+    "why": "오전 코스피 급락·매도 사이드카 소식의 마감 업데이트로, 반도체 대표주가 하락을 주도했습니다.",
     "verification": {
       "status": "확인됨",
-      "note": "연합뉴스 마감 종합 기사, 뉴스투데이 시황 기사와 수치 대조."
+      "note": "연합뉴스 마감 기사(1차 시세 보도) 확인."
     },
     "links": [
       {
@@ -186,7 +186,8 @@
         "type": "source"
       }
     ],
-    "date": "2026-11-05"
+    "date": "2026-11-05",
+    "image": "https://img2.yna.co.kr/photo/cms/2026/10/29/29/PCM20261029000029990_P4.jpg"
   },
   {
     "id": "2026-11-05-rtx-spark-linux-throttle-report",
@@ -515,13 +516,12 @@
     "id": "2026-11-05-cohere-model-vault-open-models",
     "category": "로컬 AI",
     "title": "코히어 Model Vault, 딥시크 V4.1 Flash·GLM 5.3 Flash·MiMo V2.6 Pro 등 외부 오픈 모델 지원",
-    "summary": "코히어는 단일 테넌트 추론 플랫폼 Model Vault에서 딥시크 V4.1 Flash, GLM 5.3 Flash, MiMo V2.6 Pro와 젬마 4, GPT-OSS, 파이, 네모트론 등 외부 오픈 모델을 지원한다고 밝혔습니다. 미국·EU·캐나다 리전에서 쓸 수 있고, 기밀 컴퓨팅 기반 Model Vault Encrypted에서는 일부 모델만 지원합니다.",
+    "summary": "코히어는 단일 테넌트 추론 플랫폼 Model Vault에서 딥시크 V4.1 Flash, GLM 5.3 Flash, MiMo V2.6 Pro와 젬마 4, GPT-OSS, 파이, 네모트론 등 외부 오픈 모델을 지원한다고 밝혔습니다. 기본으로 데이터를 보관하지 않고 미국·EU·캐나다에서 쓸 수 있으며, Model Vault Encrypted는 젬마·GPT-OSS·파이 등 일부 모델만 미국에서 지원합니다.",
     "why": "오픈 웨이트 모델을 직접 띄우기 어려운 기업이 데이터 주권을 지키며 쓰는 관리형 경로가 넓어졌습니다.",
     "verification": {
       "status": "확인됨",
-      "note": "코히어 공식 블로그·문서 변경 로그(1차) + ZDNet Korea 보도 확인."
+      "note": "코히어 공식 블로그(1차) + ZDNet Korea 보도 확인."
     },
-    "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/94683ad16fe28268fa577a6c84a3556bb7fc1a43-3840x2160.png?rect=0,72,3840,2016&w=1200&h=630&q=80&fit=crop&auto=format",
     "links": [
       {
         "label": "Cohere 블로그",
@@ -544,7 +544,7 @@
     "why": "손정의 회장의 피지컬 AI 전략에 제동이 걸렸고, 중국이 로봇·AI 데이터 유출을 이유로 외국 인수를 막은 사례입니다. 중국은 ABB 로봇 사업의 약 30%를 차지합니다(로이터).",
     "verification": {
       "status": "확인됨",
-      "note": "ABB 공식 발표(1차) + 로이터·FT 보도 확인. 중국 외교부는 주관 부처에 문의하라고만 답함."
+      "note": "ABB 공식 발표(1차) + 로이터·FT 보도 확인. ABB와 소프트뱅크는 협의 중."
     },
     "image": "https://resources.news.e.abb.com/images/2026/11/5/1/1.ABB_HQ_Zurich_-_Switzerland_1.jpg",
     "links": [
@@ -639,13 +639,12 @@
     "id": "2026-11-05-apple-cuts-employee-ai-budgets",
     "category": "AI·IT",
     "title": "[보도] 애플, 직원 AI 사용 예산 삭감…엔지니어 하루 300달러→200달러",
-    "summary": "블룸버그 보도에 따르면 애플은 10월 일부 엔지니어의 하루 AI 사용 한도를 300달러에서 200달러로 낮췄고, 일부 엔지니어링 팀은 100달러, 비엔지니어링 팀은 25달러까지 낮추는 방안도 검토 중입니다. 더 저렴한 모델과 온디바이스 AI 사용을 권장한다고 합니다.",
+    "summary": "블룸버그 보도에 따르면 애플은 10월 엔지니어의 하루 AI 사용 한도를 300달러에서 200달러로 낮췄고, 100달러까지 낮추는 방안도 검토 중이며 일부 비엔지니어링 팀은 25달러까지 내려갈 수 있습니다.",
     "why": "빅테크 내부에서도 AI 토큰 비용 관리가 현실 과제가 됐다는 신호입니다.",
     "verification": {
       "status": "확인됨",
-      "note": "블룸버그 원보도를 로이터·TechCrunch·MacRumors가 인용. 애플 공식 확인은 없음."
+      "note": "블룸버그 원보도를 TechCrunch·MacRumors가 인용. 애플 공식 확인은 없음."
     },
-    "image": "https://images.macrumors.com/t/yFW3VMvOO_OCLJnNnBNawPXm2zU=/2048x/article-new/2026/01/Apple-Logo-Black.jpeg",
     "links": [
       {
         "label": "TechCrunch",
@@ -689,8 +688,8 @@
     "id": "2026-11-05-anthropic-ap-licensing-deal",
     "category": "AI·IT",
     "title": "[보도] 앤트로픽, AP와 첫 언론사 유료 라이선스 계약…Claude에 선거 속보 제공",
-    "summary": "애드위크는 앤트로픽이 중간선거 직전 AP와 첫 콘텐츠 라이선스 계약을 맺어, 선거 당일 Claude가 출처가 표시된 AP 선거 정보를 실시간 제공했다고 보도했습니다. 금액·기간은 공개되지 않았고 양사는 공식 확인하지 않았습니다.",
-    "why": "그동안 언론사 라이선스 계약을 피해온 앤트로픽의 방향 전환일 수 있습니다.",
+    "summary": "애드위크는 앤트로픽이 AP와 첫 언론사 콘텐츠 라이선스 계약을 맺고 Claude에서 AP 선거 보도를 제공했다고 보도했습니다. 계약 조건은 공개되지 않았고 양사 모두 공식 확인하지 않았습니다.",
+    "why": "AI 챗봇이 선거 같은 민감한 실시간 정보를 언론사 라이선스로 보강하는 흐름입니다.",
     "verification": {
       "status": "확인됨",
       "note": "Adweek 원보도 + The Verge 후속 보도. 양사 공식 확인은 없음."
@@ -712,12 +711,12 @@
   {
     "id": "2026-11-05-42maru-appliance42",
     "category": "한국 IT",
-    "title": "포티투마루, GPU·NPU 장비에 자체 경량 LLM 얹은 '어플라이언스42' 출시",
-    "summary": "포티투마루는 연산 장비에 경량 언어모델 LLM42, RAG42, MRC42, 에이전트42를 결합한 일체형 '어플라이언스42'를 사내 설치형과 클라우드형으로 출시했습니다. 중소기업·지자체·공공기관을 우선 겨냥합니다.",
+    "title": "포티투마루, 중소기업·지자체용 일체형 AI 패키지 '어플라이언스42' 출시",
+    "summary": "포티투마루는 LLM42, RAG42, MRC42, 에이전트42를 묶은 일체형 AI 패키지 '어플라이언스42'를 GPU·NPU·LPU 기반 온프레미스형과 클라우드형으로 출시했습니다. 중소기업과 지자체를 겨냥합니다.",
     "why": "인프라 인력이 부족한 국내 기관의 온프레미스 AI 도입 수요를 노린 제품입니다.",
     "verification": {
       "status": "확인됨",
-      "note": "ZDNet Korea·서울경제 독립 보도 확인(회사 발표 기반)."
+      "note": "ZDNet Korea·서울경제 보도 확인(회사 발표 기반)."
     },
     "links": [
       {
