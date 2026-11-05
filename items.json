@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-11-05-white-house-network-residential-proxies",
+    "category": "AI·IT",
+    "title": "백악관 네트워크에서 주거용 프록시 출구 236건 포착",
+    "summary": "보안업체 Layer3 Intel은 10월 5일~11월 3일 대통령실(AS2650) 네트워크에서 주거용 프록시 출구 236건(주소 6개, 30일 중 26일, 프록시 서비스 28곳)을 관측했다고 밝혔습니다. 회사는 데이터가 출구를 보여줄 뿐 특정 기기나 사람을 뜻하지는 않는다고 덧붙였습니다.",
+    "why": "정부망 안의 기기가 프록시 앱·SDK로 외부 트래픽 통로가 됐을 가능성을 보여줍니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Layer3 Intel 원문(1차)과 GIGAZINE 보도 확인. HN 715점."
+    },
+    "links": [
+      {
+        "label": "Layer3 Intel",
+        "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+        "type": "source"
+      },
+      {
+        "label": "GIGAZINE",
+        "url": "https://gigazine.net/gsc_news/en/20261105-residential-proxies-detected-white-house",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50371246",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-webai-twil-8b",
+    "category": "로컬 AI",
+    "title": "webAI TwIL-8B 공개…8B급 추론 모델, MATH-500 98.2",
+    "summary": "webAI가 IBM Granite 4.2 8B를 사후학습한 8.79B 추론 모델 TwIL-8B를 공개했습니다. MATH-500 98.2, LiveCodeBench 81.6(verbose)이지만 GPQA Diamond는 70.2로 지식 영역은 약하고, Q4_K_M GGUF는 4.98GiB입니다.",
+    "why": "5GB 안팎 GGUF로 일반 PC에서 돌릴 수 있는 수학·코딩 특화 모델이지만 비상업 라이선스입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드(1차)와 MarkTechPost 확인. 벤치마크는 webAI 자체 측정."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/webAI-Official/TwIL-8B.png",
+    "specs": {
+      "params": "8.79B (dense)",
+      "license": "webAI 비상업 라이선스 1.0",
+      "memory": "Q4_K_M 4.98GiB / bf16 16.38GiB",
+      "context": "131K"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+        "type": "huggingface"
+      },
+      {
+        "label": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/11/04/webai-twil-8b-reasoning-model/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-update-kospi-chip-selloff-dc-regulation",
+    "category": "한국 IT",
+    "title": "업데이트: 美 데이터센터 규제 우려에 코스피 장중 4%↓·매도 사이드카",
+    "summary": "美 중간선거 민주당 압승으로 AI 데이터센터 규제 우려가 커지며 코스피가 오전 11시 3.96% 내린 5,458.83을 기록했고, 10시 16분께 올해 29번째 매도 사이드카가 발동됐습니다. 같은 시각 삼성전자는 6.19%, SK하이닉스는 7.74% 하락했습니다(연합뉴스).",
+    "why": "외국인이 1조 3,441억 원을 순매도하며 반도체 밸류체인 전반이 약세입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·한국경제·뉴스투데이 교차 확인. 수치는 연합뉴스 오전 11시 기준."
+    },
+    "image": "https://img2.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110503680001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261105081800008",
+        "type": "source"
+      },
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/2026110576866",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
     "id": "2026-11-05-update-kimi-k3-1-pro-weights-released",
     "date": "2026-11-05",
     "category": "로컬 AI",
@@ -29,6 +114,60 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-05-update-kakao-q3-2026-earnings",
+    "category": "한국 IT",
+    "title": "업데이트: 카카오 3분기 매출 2조 867억…카나나 스페이스 12월 파일럿",
+    "summary": "카카오 3분기 매출은 2조 867억 원(+6%), 영업이익 2,403억 원(+7%)이고 플랫폼 매출은 1조 2,350억 원(+17%)입니다. 12월 카나나 스페이스 파일럿, 모두의 AI·칸바스 연내 정식 출시, 연내 AI MAU 1,000만 명 목표를 밝혔습니다.",
+    "why": "컨콜에서 AI 크루 12월 비공개 베타, 2028년 AI 손익분기 목표, 자사주 1,500억 원 매입·소각도 나왔습니다(연합뉴스).",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공식 실적 발표(1차), 연합뉴스·머니투데이 교차 확인."
+    },
+    "image": "https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/news/a8cdc9d601a100001.png?type=thumb&opt=C800x400",
+    "links": [
+      {
+        "label": "카카오 발표",
+        "url": "https://www.kakaocorp.com/page/detail/12190",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261105069800017",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/05/2026110510000658059",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-sk-hynix-hyaico-chey-chairman",
+    "category": "한국 IT",
+    "title": "최태원, SK하이닉스 美 AI 투자법인 HYAICO 이사회 의장",
+    "summary": "SEC 대량보유 보고서에 따르면 SK하이닉스 미국 AI 투자법인 HYAICO 코퍼레이션 이사회 의장은 최태원 회장, CEO는 송현종 사장입니다. 회사는 이 법인에 최대 100억 달러를 출자할 계획입니다.",
+    "why": "그룹 총수가 직접 미국 AI 투자를 챙기는 구조라 향후 투자 규모와 방향에 무게가 실립니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SEC 보고서 근거, 연합뉴스·한국경제·뉴스핌 교차 확인."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261104178700003",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261105000050",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
   },
   {
     "id": "2026-11-05-rtx-spark-linux-throttle-report",
@@ -91,6 +230,30 @@
     ]
   },
   {
+    "id": "2026-11-05-reuters-openai-opsec-warnings",
+    "category": "AI·IT",
+    "title": "로이터 \"OpenAI 직원들, 수년간 운영 보안 허점 경고\"",
+    "summary": "로이터는 OpenAI 직원들이 2022년 ChatGPT 출시 이전부터 수년간 운영 보안 허점을 경고해 왔다고 보도했습니다. OpenAI는 보안을 소홀히 했다는 주장을 부인했습니다.",
+    "why": "최근 이어진 OpenAI 보안 이슈와 맞물려 내부 통제에 대한 의문이 커지고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 기사 전재(Investing.com, The Hindu) 확인. 익명 소식통 기반 보도."
+    },
+    "links": [
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/economy-news/openai-employees-warned-about-operational-security-lapses-for-years-sources-say-4996239",
+        "type": "source"
+      },
+      {
+        "label": "The Hindu",
+        "url": "https://www.thehindu.com/sci-tech/technology/openai-employees-warned-about-operational-security-lapses-for-years-sources-say/article71663807.ece",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
     "id": "2026-11-05-openai-linux-kernel-948-lpe",
     "date": "2026-11-05",
     "category": "AI·IT",
@@ -113,6 +276,30 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-05-openai-images-2-6",
+    "category": "AI·IT",
+    "title": "OpenAI, 이미지 모델 Images 2.6 공개…GIF 생성·50% 빨라져",
+    "summary": "OpenAI가 ChatGPT·Codex·API에 Images 2.6을 내놓았습니다. 애니메이션 GIF 생성, 50% 빠른 속도, SVG 내보내기를 지원하고 API에는 GPT-Image-2.6 Flare·Sunburst 두 모델이 들어갑니다.",
+    "why": "더버지에 따르면 주간 이미지 생성량이 9월 30억 장에서 40억 장 이상으로 늘어, 이미지 기능이 ChatGPT 성장 축이 되고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표(1차)와 더버지 보도 교차 확인. HN 135점."
+    },
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/introducing-images-2-6/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
   },
   {
     "id": "2026-11-05-openai-acquires-pierre",
@@ -208,6 +395,35 @@
     ]
   },
   {
+    "id": "2026-11-05-lion-er-35b-a3b",
+    "category": "로컬 AI",
+    "title": "招商局 라이언마운틴 랩, 체화 추론 VLM Lion-ER-35B-A3B 공개",
+    "summary": "중국 招商局 산하 라이언마운틴 AI 랩이 총 35B·토큰당 약 3B 활성 MoE 체화 추론 비전-언어 모델 Lion-ER-35B-A3B를 Apache 2.0으로 허깅페이스에 공개했습니다.",
+    "why": "로봇용 물리 세계 이해 모델을 3B 활성 수준으로 돌릴 수 있는 공개 가중치입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 저장소(Apache 2.0, image-text-to-text) 확인, 펑황망·TPS 보도. 벤치마크 수치는 미검증이라 생략."
+    },
+    "specs": {
+      "params": "총 35B / 활성 약 3B (MoE)",
+      "license": "Apache 2.0",
+      "modality": "이미지+텍스트 → 텍스트"
+    },
+    "links": [
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/cmriat/lion-ER-35B-A3B",
+        "type": "huggingface"
+      },
+      {
+        "label": "펑황망",
+        "url": "https://feng.ifeng.com/c/8xmGWARgu8z",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
     "id": "2026-11-05-fsc-network-separation-full-lift-tf",
     "date": "2026-11-05",
     "category": "한국 IT",
@@ -250,6 +466,55 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-05-cat-wu-anthropic-to-openai",
+    "category": "AI·IT",
+    "title": "Claude Code 제품 리드 캣 우, 앤트로픽 떠나 OpenAI로",
+    "summary": "Claude Code 제품을 이끌던 캣 우가 지난주 앤트로픽을 떠나 OpenAI 코어 제품팀 PM 리드로 합류해 티보 소티오에게 보고합니다. OpenAI는 확인했고 앤트로픽은 논평을 거절했습니다.",
+    "why": "앤트로픽 IPO를 약 2주 앞둔 시점에 코딩 제품 핵심 인력이 경쟁사로 옮겼습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Business Insider(OpenAI 확인)와 India Today 교차 확인."
+    },
+    "links": [
+      {
+        "label": "Business Insider",
+        "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11",
+        "type": "source"
+      },
+      {
+        "label": "India Today",
+        "url": "https://www.indiatoday.in/technology/news/story/anthropic-loses-3-claude-code-team-members-just-weeks-before-its-mega-ipo-3031942-2026-11-04",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-baidu-apollo-world",
+    "category": "AI·IT",
+    "title": "바이두, 자율주행 학습용 월드모델 Apollo World 공개",
+    "summary": "바이두가 AI 에이전트로 교통 상황을 시뮬레이션하는 월드모델 Apollo World를 공개했고, 이미 Apollo Go 로보택시 글로벌 테스트에 쓰고 있다고 밝혔습니다. 하루 가상 주행량이 안전요원 탑승 실차 약 3년 연속 주행에 해당한다고 합니다.",
+    "why": "카메라·라이다 데이터까지 실시간 생성하는 폐루프 시뮬레이션으로 실도로 테스트 비용을 줄이려는 시도입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CnEVPost(바이두 11/4 성명 인용), 신화망, SCMP 교차 확인."
+    },
+    "image": "https://cnevpost.com/wp-content/uploads/2026/11/2026110501404610.jpg",
+    "links": [
+      {
+        "label": "CnEVPost",
+        "url": "https://cnevpost.com/2026/11/05/baidu-apollo-world-model-ai-teach-ai-to-drive/",
+        "type": "source"
+      },
+      {
+        "label": "신화망",
+        "url": "https://www.news.cn/tech/20261104/38e7bae3b4094da796b3f51e2252cefe/c.html",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
   },
   {
     "id": "2026-11-04-update-weight-space-critique-qwen-local",
