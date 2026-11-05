@@ -91,6 +91,30 @@
     ]
   },
   {
+    "id": "2026-11-05-openai-linux-kernel-948-lpe",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "OpenAI 자율 보안 파이프라인, 리눅스 커널 권한 상승 취약점 948개 발견·패치 후보 생성",
+    "summary": "OpenAI가 공개 예정 사이버 모델로 돌린 자율 파이프라인이 커널 약 7%(약 280만 줄)를 검사해 1,724개 취약점을 재현하고, 고유 로컬 권한 상승(LPE) 취약점 948개에 대한 익스플로잇과 패치 후보를 만들었다고 밝혔습니다. 총 API 비용은 약 121만 달러(LPE당 약 1,279달러)이며, 업스트림에서 이미 고쳐졌거나 스테이징 패치가 있는 건 104개 수준입니다.",
+    "why": "일반 데스크톱 보호 기능이 켜진 환경에서 루트 권한 탈취가 가능한 결함이 대량으로, 싸게 발견됐다는 점에서 AI 보안 연구의 규모가 달라졌고, 나머지 대부분은 아직 메인테이너 검토를 기다리는 상태라 리눅스 배포판 패치 흐름을 지켜볼 필요가 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글 + Unite.AI·Crypto Briefing 등 복수 보도에서 수치 일치"
+    },
+    "links": [
+      {
+        "label": "OpenAI: A thousand fewer paths to root",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "type": "source"
+      },
+      {
+        "label": "Unite.AI 보도",
+        "url": "https://www.unite.ai/openai-pipeline-finds-948-linux-kernel-privilege-escalation-flaws/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-openai-acquires-pierre",
     "date": "2026-11-05",
     "category": "AI·IT",
@@ -179,6 +203,30 @@
       {
         "label": "GitHub 릴리스",
         "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-fsc-network-separation-full-lift-tf",
+    "date": "2026-11-05",
+    "category": "한국 IT",
+    "title": "금융위, 금융권 망분리 규제 전면해제 TF 가동…580여 개사 보안 전수점검",
+    "summary": "금융위원회가 9월 30일 이후 37개사에서 40건의 침해사고(정보유출 약 47만3천 건, 자금 탈취 약 10억 원)가 신고되자, 가상자산사업자를 포함한 약 580개 금융사의 외부접점(API 포함)과 내부통제를 연말까지 전수점검하고 'AI 공격은 AI로 방어'하는 새 보안체계를 위해 망분리 규제 전면해제 TF를 이달 가동한다고 밝혔습니다. 대형사 취약점 평가는 연 1회에서 2회로 늘리고, 보안 목적 AI·SaaS 활용 완화는 상시 제도화합니다.",
+    "why": "수년간 국내 금융 IT의 기본 틀이던 망분리를 걷어내는 방향이 공식화된 것이라 금융권의 생성형 AI·클라우드 도입 방식이 크게 바뀔 수 있고, 연이은 해킹에 대한 CEO 책임 강화도 함께 나왔습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "금융위 간담회 발표, 뉴스핌·한겨레·아시아경제·연합뉴스 보도 일치"
+    },
+    "links": [
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261105000068",
+        "type": "source"
+      },
+      {
+        "label": "한겨레",
+        "url": "https://www.hani.co.kr/arti/economy/finance/1285868.html",
         "type": "source"
       }
     ]
