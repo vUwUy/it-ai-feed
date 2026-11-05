@@ -170,6 +170,25 @@
     "date": "2026-11-05"
   },
   {
+    "id": "2026-11-05-samsung-hynix-close-plunge",
+    "category": "한국 IT",
+    "title": "[업데이트] 삼성전자 7.57%·SK하이닉스 9.46% 급락 마감…美 데이터센터 규제 우려",
+    "summary": "삼성전자는 20만1,500원(-7.57%)으로 마감하며 장중 한때 7월 29일 이후 처음 20만원선이 깨졌고, SK하이닉스는 126만4,000원(-9.46%)으로 마감했습니다. 외국인은 코스피에서 3조4,242억 원을 순매도했습니다.",
+    "why": "미 중간선거 뒤 AI 데이터센터 규제 우려가 국내 메모리 대표주에 직접 타격을 줬습니다(장중 급락 소식의 마감 업데이트).",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 마감 종합 기사, 뉴스투데이 시황 기사와 수치 대조."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261105040851008",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
     "id": "2026-11-05-rtx-spark-linux-throttle-report",
     "date": "2026-11-05",
     "category": "로컬 AI",
@@ -327,6 +346,31 @@
     ]
   },
   {
+    "id": "2026-11-05-nvidia-store-pulls-rtx-5080",
+    "category": "로컬 AI",
+    "title": "엔비디아 미국 스토어, RTX 5090에 이어 RTX 5080도 내려…시중가 출고가의 2.2배",
+    "summary": "톰스하드웨어는 엔비디아 미국 온라인 스토어에서 RTX 5090에 이어 RTX 5080도 사라졌고, GDDR7 메모리 부족으로 RTX 5080 시중가가 약 2,000~2,200달러(출고가 999달러)까지 올랐다고 전했습니다. 엔비디아는 RTX 5090 단종은 부인한 바 있습니다.",
+    "why": "로컬 AI용 고성능 소비자 GPU 구하기가 더 어려워지고 비싸지고 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Tom's Hardware + Notebookcheck 독립 보도 확인. 엔비디아의 5080 관련 공식 입장은 없음."
+    },
+    "image": "https://cdn.mos.cms.futurecdn.net/wBRx7KSSQTRptohLwufHcn-1920-80.jpg",
+    "links": [
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp",
+        "type": "source"
+      },
+      {
+        "label": "Notebookcheck",
+        "url": "https://www.notebookcheck.net/The-allegedly-discontinued-RTX-5080-has-quietly-disappeared-from-Nvidia-s-online-store.1438809.0.html",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
     "id": "2026-11-05-naver-unified-agent-kakao-baemin",
     "date": "2026-11-05",
     "category": "한국 IT",
@@ -468,6 +512,56 @@
     ]
   },
   {
+    "id": "2026-11-05-cohere-model-vault-open-models",
+    "category": "로컬 AI",
+    "title": "코히어 Model Vault, 딥시크 V4.1 Flash·GLM 5.3 Flash·MiMo V2.6 Pro 등 외부 오픈 모델 지원",
+    "summary": "코히어는 단일 테넌트 추론 플랫폼 Model Vault에서 딥시크 V4.1 Flash, GLM 5.3 Flash, MiMo V2.6 Pro와 젬마 4, GPT-OSS, 파이, 네모트론 등 외부 오픈 모델을 지원한다고 밝혔습니다. 미국·EU·캐나다 리전에서 쓸 수 있고, 기밀 컴퓨팅 기반 Model Vault Encrypted에서는 일부 모델만 지원합니다.",
+    "why": "오픈 웨이트 모델을 직접 띄우기 어려운 기업이 데이터 주권을 지키며 쓰는 관리형 경로가 넓어졌습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "코히어 공식 블로그·문서 변경 로그(1차) + ZDNet Korea 보도 확인."
+    },
+    "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/94683ad16fe28268fa577a6c84a3556bb7fc1a43-3840x2160.png?rect=0,72,3840,2016&w=1200&h=630&q=80&fit=crop&auto=format",
+    "links": [
+      {
+        "label": "Cohere 블로그",
+        "url": "https://cohere.com/blog/open-source-model-vault",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261105133915",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-china-blocks-softbank-abb-robotics",
+    "category": "AI·IT",
+    "title": "중국, 소프트뱅크의 ABB 로보틱스 54억 달러 인수 중 중국 사업 불허",
+    "summary": "ABB는 중국 외국인투자 안전심사 기구가 ABB 로보틱스 중국 사업의 소프트뱅크 인수를 금지했다고 소프트뱅크로부터 통보받았다고 밝혔습니다. 로이터·FT는 중국 국가발전개혁위원회가 로봇 데이터가 해외로 넘어가 오픈AI 등 AI 모델 학습에 쓰일 수 있다는 점을 우려했다고 전했습니다.",
+    "why": "손정의 회장의 피지컬 AI 전략에 제동이 걸렸고, 중국이 로봇·AI 데이터 유출을 이유로 외국 인수를 막은 사례입니다. 중국은 ABB 로봇 사업의 약 30%를 차지합니다(로이터).",
+    "verification": {
+      "status": "확인됨",
+      "note": "ABB 공식 발표(1차) + 로이터·FT 보도 확인. 중국 외교부는 주관 부처에 문의하라고만 답함."
+    },
+    "image": "https://resources.news.e.abb.com/images/2026/11/5/1/1.ABB_HQ_Zurich_-_Switzerland_1.jpg",
+    "links": [
+      {
+        "label": "ABB 발표",
+        "url": "https://www.abb.com/global/en/news/140154/update-on-divestment-of-abb-robotics",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/softbanks-54-bln-takeover-of-abb-robotics-unit-blocked-by-china-ft-5002105",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
     "id": "2026-11-05-cat-wu-anthropic-to-openai",
     "category": "AI·IT",
     "title": "Claude Code 제품 리드 캣 우, 앤트로픽 떠나 OpenAI로",
@@ -511,6 +605,129 @@
       {
         "label": "신화망",
         "url": "https://www.news.cn/tech/20261104/38e7bae3b4094da796b3f51e2252cefe/c.html",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-aws-continuum-code-vulnerabilities-ga",
+    "category": "AI·IT",
+    "title": "AWS 'Continuum' 코드 취약점 서비스 정식 출시…악용 가능성 검증 후 PR로 수정안",
+    "summary": "AWS는 코드 취약점을 찾아 샌드박스에서 실제 악용 가능성을 검증하고, 비즈니스 영향도로 우선순위를 매긴 뒤 수정안을 깃허브 풀 리퀘스트로 제안하는 'AWS Continuum for code vulnerabilities'를 미국 동부(버지니아 북부)·서부(오리건) 리전에 정식 출시했습니다. 수정안은 사람이 승인해야 반영됩니다.",
+    "why": "오픈AI의 커널 취약점 파이프라인에 이어 클라우드 업체도 AI 기반 취약점 검증·패치를 상용화했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AWS 뉴스 블로그(1차) + ZDNet Korea 보도 확인."
+    },
+    "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/22/AWS-Continuum_Icon-21ratio-1260x630.png",
+    "links": [
+      {
+        "label": "AWS 뉴스 블로그",
+        "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261105142034",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-apple-cuts-employee-ai-budgets",
+    "category": "AI·IT",
+    "title": "[보도] 애플, 직원 AI 사용 예산 삭감…엔지니어 하루 300달러→200달러",
+    "summary": "블룸버그 보도에 따르면 애플은 10월 일부 엔지니어의 하루 AI 사용 한도를 300달러에서 200달러로 낮췄고, 일부 엔지니어링 팀은 100달러, 비엔지니어링 팀은 25달러까지 낮추는 방안도 검토 중입니다. 더 저렴한 모델과 온디바이스 AI 사용을 권장한다고 합니다.",
+    "why": "빅테크 내부에서도 AI 토큰 비용 관리가 현실 과제가 됐다는 신호입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 원보도를 로이터·TechCrunch·MacRumors가 인용. 애플 공식 확인은 없음."
+    },
+    "image": "https://images.macrumors.com/t/yFW3VMvOO_OCLJnNnBNawPXm2zU=/2048x/article-new/2026/01/Apple-Logo-Black.jpeg",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+        "type": "source"
+      },
+      {
+        "label": "MacRumors",
+        "url": "https://www.macrumors.com/2026/11/04/apple-reducing-employee-ai-spending/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-anthropic-claude-prokaryotic-vault",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude 도움으로 원핵생물 '볼트 입자' 첫 3D 구조 규명",
+    "summary": "앤트로픽은 Claude가 서열 검색·정제·전자현미경 분석을 도와, 파지 단백질 L05가 대장균에서 단백질 96개로 된 속 빈 껍질(인간 볼트는 78개)을 이룬다는 첫 원핵생물 볼트 구조를 밝혔다고 발표했습니다. 인간 볼트보다 짧고 넓지만 부피는 약 25% 더 큽니다.",
+    "why": "AI 기업이 모델을 실제 습식 실험 연구에 투입해 구조생물학 결과를 낸 사례로, Science도 보도했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 연구 글·논문 PDF(1차) + Science 뉴스 보도 확인."
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg",
+    "links": [
+      {
+        "label": "Anthropic 연구",
+        "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+        "type": "source"
+      },
+      {
+        "label": "Science 보도",
+        "url": "https://www.science.org/content/article/ai-company-s-research-deepens-mystery-vaults-cells-strangest-particles",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-anthropic-ap-licensing-deal",
+    "category": "AI·IT",
+    "title": "[보도] 앤트로픽, AP와 첫 언론사 유료 라이선스 계약…Claude에 선거 속보 제공",
+    "summary": "애드위크는 앤트로픽이 중간선거 직전 AP와 첫 콘텐츠 라이선스 계약을 맺어, 선거 당일 Claude가 출처가 표시된 AP 선거 정보를 실시간 제공했다고 보도했습니다. 금액·기간은 공개되지 않았고 양사는 공식 확인하지 않았습니다.",
+    "why": "그동안 언론사 라이선스 계약을 피해온 앤트로픽의 방향 전환일 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Adweek 원보도 + The Verge 후속 보도. 양사 공식 확인은 없음."
+    },
+    "links": [
+      {
+        "label": "Adweek",
+        "url": "https://www.adweek.com/media/anthropic-licensing-deal-ap-election/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1027173/anthropic-reportedly-made-a-licensing-deal-with-the-associated-press",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-42maru-appliance42",
+    "category": "한국 IT",
+    "title": "포티투마루, GPU·NPU 장비에 자체 경량 LLM 얹은 '어플라이언스42' 출시",
+    "summary": "포티투마루는 연산 장비에 경량 언어모델 LLM42, RAG42, MRC42, 에이전트42를 결합한 일체형 '어플라이언스42'를 사내 설치형과 클라우드형으로 출시했습니다. 중소기업·지자체·공공기관을 우선 겨냥합니다.",
+    "why": "인프라 인력이 부족한 국내 기관의 온프레미스 AI 도입 수요를 노린 제품입니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea·서울경제 독립 보도 확인(회사 발표 기반)."
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261105105144",
+        "type": "source"
+      },
+      {
+        "label": "서울경제",
+        "url": "https://www.sedaily.com/article/20110530",
         "type": "source"
       }
     ],
