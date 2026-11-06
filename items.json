@@ -1,5 +1,41 @@
 [
   {
+    "id": "2026-11-06-lunit-learningunit-2-l1-30b",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "루닛, 의료 특화 오픈웨이트 '러닝유닛 2.0'(L1-30B-A5B) 공개…병원 온프레미스용",
+    "summary": "루닛 컨소시엄이 과기정통부 의과학 특화 파운데이션 모델 사업 결과물 L1-30B-A5B(총 29.56B·활성 5.34B MoE, Apache 2.0, 컨텍스트 131K)를 허깅페이스에 공개했다. 한국어 임상 로케일 특화이며, 보도에 따르면 9개 병원에서 다학제 방침 타당성 86.2%·KTAS·ADR 전문의 일치(1단계 이내) 98% 등으로 실증했다.",
+    "why": "병원 안에서 돌릴 수 있는 국산 의료 오픈웨이트가 나와, 로컬·온프레미스 AI와 국내 의료 AI 생태계에 바로 쓸 수 있는 체크포인트다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드(1차, 파라미터·라이선스)와 머니투데이·한국경제 보도(현장 실증 수치)로 교차 확인. 루닛 공식 보도자료 URL은 미확인."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/learning-unit/L1-30B-A5B.png",
+    "specs": {
+      "params": "29.56B / 활성 5.34B (MoE)",
+      "license": "Apache 2.0",
+      "context": "131K",
+      "modality": "텍스트(한국어·영어 임상)"
+    },
+    "links": [
+      {
+        "label": "learning-unit/L1-30B-A5B",
+        "url": "https://huggingface.co/learning-unit/L1-30B-A5B",
+        "type": "huggingface"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/thebio/2026/11/06/2026110609035280939",
+        "type": "source"
+      },
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/202611069853i",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-white-house-network-residential-proxies",
     "category": "AI·IT",
     "title": "백악관 네트워크에서 주거용 프록시 출구 236건 포착",
