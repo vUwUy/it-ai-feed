@@ -1,5 +1,53 @@
 [
   {
+    "id": "2026-11-07-update-nasdaq-rebound",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "업데이트: 뉴욕증시, AI 폭락 다음날 나스닥 1.09% 반등…엔비디아·AMD 주도",
+    "summary": "6일(현지) 뉴욕증시에서 나스닥이 264.43포인트(1.09%) 오른 24,579.42로 마감했다. S&P500은 0.31% 상승, 다우는 0.46% 하락했다. 전날 AI·데이터센터 규제 우려로 급락한 뒤 반도체주 중심 저가 매수세가 유입됐다고 연합뉴스가 전했다.",
+    "why": "국내 삼전·닉스 급락 다음날 미국 반도체주 반등 여부가 단기 수급의 바로미터다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 뉴욕 특파원 보도(2026-11-07 06:15 KST)."
+    },
+    "image": "https://img8.yna.co.kr/etc/inner/KR/2026/11/07/AKR20261107008500072_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261107008500072",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-update-samsung-skhynix-close",
+    "date": "2026-11-06",
+    "category": "한국 IT",
+    "title": "업데이트: 삼성전자 6.35%·SK하이닉스 10.44% 급락 마감…코스피 6.02%↓",
+    "summary": "6일 코스피는 324.11포인트(6.02%) 내린 5,059.69로 마감했다. 삼성전자는 6.35% 내린 18만8,700원, SK하이닉스는 10.44% 내린 113만2,000원이다. 개장 직후 장중 저점(삼성 약 −11%, SK −13%대)보다는 낙폭을 줄였으나, 이틀간 각각 약 13.44%·18.91% 하락했다. 외국인은 SK하이닉스를 1조9,240억원 순매도했다.",
+    "why": "오전 서킷브레이커 이후 종가가 확정되며 국내 AI 반도체 주가 충격 규모가 구체화됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 마감 보도(2026-11-06 16:15). 장중 수치와 구분되는 종가 업데이트."
+    },
+    "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110612780001300_P4.jpg",
+    "specs": {
+      "price": "삼성 188,700원 / SK 1,132,000원"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261106137600008",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(코스피)",
+        "url": "https://www.yna.co.kr/view/AKR20261106129400008",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-update-samsung-skhynix-circuit-breaker",
     "date": "2026-11-06",
     "category": "한국 IT",
@@ -78,6 +126,55 @@
     ]
   },
   {
+    "id": "2026-11-06-update-artex-exposed-censys",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "업데이트: Censys, 노출된 ARTEX AI 해킹 콘솔 1,465대 확인…약 815대는 개별 배포로 보여",
+    "summary": "Censys가 11월 4일 기준 공개 접근 가능한 ARTEX 콘솔 1,465대를 관측했다. 동일 구성 호스팅 블록 약 650대를 제외하면 약 815대가 개별 배포로 보이며, 155대(10.6%)는 Cobalt Strike·Vshell 등 다른 위협 도구와 공존했다. 오픈 디렉터리 32곳에서는 임플란트·스테이지 등이 노출됐다. TechCrunch는 한국 금융권 공격에 쓰인 인스턴스도 수개월간 공개돼 있었다고 전했다.",
+    "why": "국내 금융권 침해에 쓰인 AI 펜테스트 도구가 전 세계에 대량 노출돼 2차 악용 위험이 커졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Censys 공식 블로그(2026-11-05) + TechCrunch(2026-11-06). 수치는 Censys 스캔 기준."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "Censys 블로그",
+        "url": "https://censys.com/blog/artex-agentic-asbestos/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-update-anthropic-ipo-valuation-1-3t",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 앤트로픽 IPO 밸류 논의 약 1.2~1.3조 달러로 하향",
+    "summary": "블룸버그가 전한 바에 따르면, 일부 예비 투자자들이 앤트로픽 IPO 기업가치를 약 1.2조~1.3조 달러 선에서 논의 중이라고 한다. 직전 은행단에 전달된 1.4조~1.5조 달러 범위보다 낮고, 10월 초 최대 2조 달러 논의에서 추가로 내려간 수치다. 최종 결정은 없고 논의는 진행 중이며, 앤트로픽은 논평을 거부했다. WSJ는 전날 일부 투자자가 1조 달러 근처·규모 축소·일정 지연 가능성도 거론했다고 보도했다.",
+    "why": "기술주 폭락 직후 첫 대형 프론티어 AI IPO 가격 눈높이가 다시 조정되고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Bloomberg(Investing 전재)·WSJ 보도 교차. 공식 확정 수치가 아닌 예비 투자자 논의."
+    },
+    "links": [
+      {
+        "label": "Bloomberg(Investing 전재)",
+        "url": "https://www.investing.com/news/stock-market-news/anthropic-ipo-valuation-discussions-fall-to-13-trillion-bloomberg-reports-5008125",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Tax",
+        "url": "https://news.bloombergtax.com/financial-accounting/anthropic-ipo-buyers-see-valuation-as-low-as-1-1-trillion-1",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-skbiopharm-ai-foundation-model",
     "date": "2026-11-06",
     "category": "한국 IT",
@@ -108,6 +205,54 @@
     ]
   },
   {
+    "id": "2026-11-06-openai-biobasicsbench",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "OpenAI, 습식실험 해석 벤치마크 BioBasicsBench 공개…GPT-6 Astra 66.7%",
+    "summary": "OpenAI가 효소 설계 바이오텍 Ligo와 함께 습식실험(wet-lab) 일상 분석 100과제로 구성된 BioBasicsBench를 공개했다. 젤·콜로니·현미경·시퀀싱·장비 원시 데이터를 해석하고 오류·근거 부족을 가리는 능력을 측정한다. xhigh 추론 설정에서 GPT-6 Astra 평균 보상 66.7%(95% CI 60.3–73.1%), GPT-5.6 Sol 43.8%였다.",
+    "why": "논문용 정리 이미지가 아닌 실험실 원시 데이터로 AI 에이전트의 일상 과학 보조 능력을 재는 공개 벤치마크다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 블로그(2026-11-06). 수치·모델명은 원문 그대로."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3lNbSQIg31Dg9aBrUjuQMI/131fea8d534499ca30f7a9f880269d74/biobasicsbench-social.png?w=1600&h=900&fit=fill",
+    "specs": {
+      "params": "100 tasks",
+      "compute": "GPT-6 Astra 66.7% @ xhigh"
+    },
+    "links": [
+      {
+        "label": "OpenAI 공식",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-nvidia-nvke-preview",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "엔비디아, 베어메탈 GPU용 Kubernetes 관리면 'NVKE' 프리뷰 공개",
+    "summary": "NVIDIA Kubernetes Engine(NVKE)이 프리뷰로 문서·오픈소스(Apache 2.0)와 함께 공개됐다. AI 팩토리 운영자가 자체 엔비디아 GPU 베어메탈에 고객별 격리 워크로드 클러스터를 프로비저닝·스케일·업그레이드할 수 있는 관리 평면이다. 공식 문서는 프리뷰라 API·동작이 바뀔 수 있고 프로덕션 사용을 권장하지 않는다고 명시한다. HN에도 관련 저장소가 올랐다.",
+    "why": "GPU 클러스터를 서비스형으로 돌리려는 온프레·로컬 인프라 운영자에게 공식 관리 스택이 생긴다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "docs.nvidia.com/nvke 공식 문서 + dsx-ai-factory/nvke 저장소. 프리뷰·비프로덕션 명시."
+    },
+    "links": [
+      {
+        "label": "NVIDIA NVKE 문서",
+        "url": "https://docs.nvidia.com/nvke/documentation/overview/preview-status-and-known-limitations",
+        "type": "source"
+      },
+      {
+        "label": "dsx-ai-factory/nvke",
+        "url": "https://github.com/dsx-ai-factory/nvke",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-mofe-semiconductor-demand-meeting",
     "date": "2026-11-06",
     "category": "한국 IT",
@@ -123,6 +268,80 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261106126900002",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-microsoft-oracle-ai-cloud-wind-down",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "[보도] 마이크로소프트, 오라클 AI 클라우드 용량 임대 계약 축소·종료 중",
+    "summary": "로이터가 전한 블룸버그 보도에 따르면, MS는 2023년 맺은 오라클(OCI) AI 컴퓨팅 임대 계약을 갱신하지 않은 뒤 최근 수개월간 임차 용량을 끄고 있으며, 수십억 달러 규모 클라우드 파트너십을 재점검하는 일환이라고 한다. 오라클 측 하드웨어가 구세대 엔비디아 칩이라 MS 수요에 맞지 않게 됐다는 설명이며, 오라클 대변인은 OCI AI 인프라(구세대 GPU 포함) 수요는 여전히 강하다고 밝혔다. MS는 논평을 내지 않았다.",
+    "why": "네오클라우드·외부 GPU 임대 재검토 신호와 맞물려 AI 인프라 투자·수요 논쟁의 핵심 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(Bloomberg 인용)·The Verge. MS 미논평·오라클 대변인 코멘트 포함. 계약 금액은 미공개."
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "links": [
+      {
+        "label": "로이터(Investing 전재)",
+        "url": "https://www.investing.com/news/stock-market-news/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-bloomberg-news-reports-5008946",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029199/microsoft-is-reportedly-winding-down-a-cloud-ai-deal-with-oracle",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-micron-taiwan-fab11e-halt",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "[보도] 마이크론, 대만 타오위안 신공장(Fab 11E) 건설 사실상 중단…노사 갈등",
+    "summary": "연합뉴스가 전한 블룸버그에 따르면, 마이크론이 7월 착공한 대만 타오위안 Fab 11E 건설을 노사 임금·이익분배 갈등으로 사실상 중단하고 대만 정부·협력사에 통보했다. 당초 30억~45억 달러 규모로 ASML 장비 도입·HBM·첨단 D램을 2028년부터 공급할 계획이었다. 마이크론은 '가동 중 생산라인은 정상'이라고만 밝혔다. 대만은 마이크론 전 세계 D램 생산의 약 60%를 담당한다.",
+    "why": "글로벌 메모리 공급·HBM 경쟁에서 삼성·SK하이닉스와 맞서는 마이크론의 대만 허브 전략에 차질 가능성이 나온다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(Bloomberg 인용). 마이크론 성명은 가동 라인 정상만 확인, 중단 자체는 부인하지 않음."
+    },
+    "image": "https://img0.yna.co.kr/photo/etc/af/2026/10/22/PAF20261022180001009_P4.jpg",
+    "specs": {
+      "price": "30억~45억 달러(계획)",
+      "compute": "D램 생산 비중 대만 ~60%"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261106064700009",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-meta-muse-spaces",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "메타, Muse에 맞춤형 미니앱 'Spaces' 도입…설명만으로 공간 생성",
+    "summary": "메타가 Muse 앱 안에서 아이디어를 설명하면 플래너·트래커·게임·대시보드 같은 맞춤 경험을 만들어 주는 Spaces를 공개했다. 사이드바·메인 탭 배치, 숨김, 스케줄 표시가 가능하고, 연결한 앱에서 정보를 받아 백그라운드 갱신할 수 있다. Muse가 제공되는 모든 곳에서 당일부터 이용 가능하며, 공유 기능은 검토 중이라고 했다.",
+    "why": "Muse를 단순 챗봇이 아닌 개인화된 에이전트 워크스페이스로 확장하는 제품 업데이트다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Meta Newsroom 공식(2026-11-06). TechCrunch·The Verge 교차."
+    },
+    "image": "https://about.fb.com/wp-content/uploads/2026/11/Design-the-Muse-App_Just-for-You_Social-Share.png?w=1200",
+    "links": [
+      {
+        "label": "Meta Newsroom",
+        "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
         "type": "source"
       }
     ]
@@ -200,6 +419,34 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261106000052",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-ing-data-center-loans-sale",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "[보도] ING, 데이터센터 대출 약 5억 달러 매각 추진…Stargate 관련 포함",
+    "summary": "CNBC·블룸버그에 따르면 네덜란드 ING가 데이터센터 관련 대출 약 12건·총 5억 달러 규모를 BWIC(경쟁입찰)로 매각하려 한다. 포트폴리오에는 OpenAI·소프트뱅크·오라클이 관여한 뉴멕시코 Stargate 관련 약 2,500만 달러와 Vantage·CyrusOne 관련 자산이 포함된 것으로 전해졌다. 최소 1,000만 달러 단위 입찰 마감은 11월 19일이다. ING는 논평을 거부했다.",
+    "why": "AI 인프라 부채를 은행에서 사모·보험으로 넘기려는 움직임이 중간선거 규제 우려와 겹쳐 주목된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Bloomberg 인용 CNBC·Euronext 라이브 뉴스. ING 미논평. 매각 성사 여부는 미확정."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108355111-1787834785359-gettyimages-2292235029-dji_20260826152250_0043_d_o63c17gu.jpeg?v=1787834843&w=1920&h=1080",
+    "specs": {
+      "price": "약 5억 달러"
+    },
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+        "type": "source"
+      },
+      {
+        "label": "Data Center Dynamics",
+        "url": "https://www.datacenterdynamics.com/en/news/ing-bank-looks-to-sell-500m-in-data-center-loans-at-once-including-at-stargate-site/",
         "type": "source"
       }
     ]
@@ -293,6 +540,31 @@
       }
     ],
     "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-update-meta-commercial-terms-paused",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "업데이트: 메타, 논란의 상업 약관 개정 무기한 중단…11/20 시행 철회",
+    "summary": "메타가 Meta Commercial Terms 등 예고했던 상업·광고 약관 개정을 일시 중단하며 2026년 11월 20일 시행하지 않는다고 Business Help Center에 공지했다. 기존 약관이 유지되며, 이해관계자 협의를 이어간다고 밝혔다. 노르웨이·브라질 예비금지, 영국 CMA 조사, 미 상원 서한 등이 배경으로 거론된다.",
+    "why": "미디어·광고주가 반발한 AI 스크래핑·학습 관련 약관이 사실상 철회 수준으로 멈췄다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Nieman Lab(메타 대변인 확인)·The Verge·Reuters 교차. 이전 '11/20 연기' 대비 무기한 중단·미리보기 삭제."
+    },
+    "image": "https://www.niemanlab.org/images/AdobeStock_858537249_Editorial_Use_Only-1536x914.jpeg",
+    "links": [
+      {
+        "label": "Nieman Lab",
+        "url": "https://www.niemanlab.org/2026/11/meta-pulls-down-controversial-terms-of-service/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1028473/meta-is-delaying-its-controversial-new-business-terms-indefinitely",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-05-update-kospi-chip-selloff-dc-regulation",
