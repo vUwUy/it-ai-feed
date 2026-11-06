@@ -25,6 +25,59 @@
     ]
   },
   {
+    "id": "2026-11-06-update-ollama-0-40-15",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "업데이트: Ollama v0.40.15 정식…MiMo V2.6·AutoTrust 결정 모델·동시 서빙 개선",
+    "summary": "Ollama v0.40.15가 정식 배포됐다. 샤오미 mimo-v2.6(9B) 지원, AutoTrust 결정 모델(9b·35b·27b-vl, Apple silicon), Kimi Code CLI 연동, 순환·비전 GGUF의 다중 요청 서빙, Qwen3/3.5 YaRN 긴 컨텍스트 등이 포함된다. 이전 rc0에서 예고된 MiMo 지원이 정식 릴리스로 확정됐다.",
+    "why": "로컬에서 결정형·비전·에이전트 워크플로를 돌리기 쉬운 런타임 업데이트다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub ollama/ollama Releases v0.40.15 (2026-11-03 UTC 게시, 정식 자산)."
+    },
+    "links": [
+      {
+        "label": "GitHub Releases",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+        "type": "source"
+      },
+      {
+        "label": "ollama/ollama",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-update-naver-nvidia-capital-increase-paid",
+    "date": "2026-11-06",
+    "category": "한국 IT",
+    "title": "업데이트: 엔비디아, 네이버 유상증자 1조3412억원 납입 완료…지분 약 4.13%",
+    "summary": "네이버는 6일 공시로 엔비디아 대상 제3자배정 유상증자 대금 1조3411억9995만7500원이 전액 납입됐다고 밝혔다. 보통주 655만8435주가 발행되며 엔비디아 지분은 약 4.13%, 신주 상장일은 27일이다. 조달 자금은 데이터센터 '각 세종'을 거점으로 한 글로벌 AI 팩토리·GPUaaS에 쓰이며, 브룩필드와도 협력한다.",
+    "why": "10억 달러 투자 납입이 실제로 끝나 AI 팩토리 사업이 자금 집행 단계로 넘어갔다. 환율 반영으로 원화 조달액·지분율(약 4.13%)이 확정됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·뉴스핌이 금감원 전자공시·네이버 공시를 인용. 이전 예고(10/30) 대비 납입 완료·확정 수치."
+    },
+    "image": "https://img7.yna.co.kr/photo/yna/YH/2025/11/27/PYH2025112705330006100_P4.jpg",
+    "specs": {
+      "price": "1조3412억원(약 10억 달러)",
+      "compute": "지분 약 4.13%"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261106136800017",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261106001038",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-skbiopharm-ai-foundation-model",
     "date": "2026-11-06",
     "category": "한국 IT",
@@ -50,6 +103,26 @@
       {
         "label": "머니투데이",
         "url": "https://www.mt.co.kr/thebio/2026/11/06/2026110609194681226",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-mofe-semiconductor-demand-meeting",
+    "date": "2026-11-06",
+    "category": "한국 IT",
+    "title": "재경부 반도체 간담회…\"AI·반도체 수요 위축 신호는 아직 없다\"",
+    "summary": "재정경제부는 6일 강기룡 차관보 주재로 반도체 전문가 간담회를 열고, 미 중간선거 이후 AI 데이터센터 규제 우려에도 불구하고 AI 투자·반도체 수요 위축의 뚜렷한 신호는 감지되지 않았다고 평가했다. 참석자들은 장기공급계약(LTA) 확대 등으로 당분간 수요 기반이 안정적일 것으로 전망했다.",
+    "why": "삼성·하이닉스 급락과 서킷브레이커 이후 정부가 공식 수요 점검을 내놓은 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도. 정부 간담회 발표 인용."
+    },
+    "image": "https://img1.yna.co.kr/photo/yna/YH/2026/04/08/PYH2026040816180001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261106126900002",
         "type": "source"
       }
     ]
@@ -127,6 +200,36 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261106000052",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-claude-code-user-agent-email",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "Claude Code, User-Agent에 사용자 이메일을 넣어 외부 사이트로 보냈다는 보고",
+    "summary": "앤트로픽 Claude Code가 외부 사이트 접속 시 HTTP User-Agent에 로그인·Git 설정의 이메일 등 개인정보를 넣어 보냈다는 이슈가 다시 불거졌다. 7월부터 GitHub에 유사 보고가 있었고, 11월 5일 신규 이슈와 Hacker News 토론이 이어졌다. 개발팀은 2.1.317부터 기본 활성 'cc-plugin-privacy'로 일부 전송을 막았다고 설명했으며, 계정 이메일을 모델 컨텍스트에서 빼는 추가 조치도 예고됐다.",
+    "why": "코딩 에이전트가 동의 없이 PII를 제3자 서버에 남길 수 있다는 점이 에이전트 보안·프라이버시 논쟁의 핵심이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 이슈·GIGAZINE·HN 교차. 피싱 메일 증가와의 인과는 미확인. Anthropic 측 완화 조치는 HN/이슈 답변 기준."
+    },
+    "image": "https://i.gzn.jp/img/2026/11/06/claude-code-mail-address/00_m.png",
+    "links": [
+      {
+        "label": "GIGAZINE",
+        "url": "https://gigazine.net/gsc_news/en/20261106-claude-code-mail-address",
+        "type": "source"
+      },
+      {
+        "label": "GitHub 이슈 #107757",
+        "url": "https://github.com/anthropics/claude-code/issues/107757",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50385272",
         "type": "source"
       }
     ]
@@ -462,6 +565,34 @@
     "date": "2026-11-05"
   },
   {
+    "id": "2026-11-05-perplexity-teammates",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "퍼플렉시티, 상시 업무 에이전트 'Teammates' 출시…Max(월 200달러)부터",
+    "summary": "퍼플렉시티가 여러 역할을 동시에 맡는 상시(always-on) 업무 에이전트 Teammates를 공개했다. Perplexity Computer 위의 프로젝트·스킬·권한을 이어받아 진행 상황을 스레드로 추적하고 Slack과도 연동한다. The Verge에 따르면 개별 Max 플랜(월 200달러) 웹에서 먼저 제공된다.",
+    "why": "OpenAI Dots·Claude Duet과 같은 '동료형' 에이전트 경쟁에 검색 특화 업체가 합류했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge + Perplexity 제품/도움말 페이지. 공식 블로그 fetch는 타임아웃."
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472503/STK271_PERPLEXITY_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "specs": {
+      "price": "Max 월 $200(초기)"
+    },
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+        "type": "source"
+      },
+      {
+        "label": "Perplexity Teammates",
+        "url": "https://www.perplexity.ai/hub/products/teammate",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-oracle-tencent-ai-chip-deal-canceled-report",
     "date": "2026-11-05",
     "category": "AI·IT",
@@ -760,6 +891,31 @@
     ]
   },
   {
+    "id": "2026-11-05-mistral-studio-managed-agents-apps",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "미스트랄, Studio에 Managed Agents·Apps 확장…클라우드·VPC·온프레 선택",
+    "summary": "미스트랄이 기업용 Studio에 managed agents와 앱을 공개 프리뷰로 넓히고, 워크플로·엔터프라이즈 컨텍스트·관측·평가 기능을 강화했다고 밝혔다. 에이전트는 스킬·샌드박스·서브에이전트·훅을 붙일 수 있고, 클라우드·자체 VPC·온프레 등 배포 위치를 고를 수 있다. ABANCA·BNP Paribas 등이 사용 중이라고 밝혔다.",
+    "why": "오픈 모델 진영이 에이전트 런타임·거버넌스 플랫폼까지 묶어 기업 도입 장벽을 낮추려는 움직임이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Mistral 공식 발표 페이지."
+    },
+    "image": "https://mistral.ai/cms-media/api/media/file/Studio%20V2%20-%20smal%20thumbnail.png",
+    "links": [
+      {
+        "label": "Mistral 발표",
+        "url": "https://mistral.ai/news/build-with-studio/",
+        "type": "source"
+      },
+      {
+        "label": "Managed Agents 문서",
+        "url": "https://docs.mistral.ai/studio/agents/overview",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-metr-anthropic-ai-rd-acceleration",
     "date": "2026-11-05",
     "category": "AI·IT",
@@ -785,6 +941,31 @@
       {
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261106103632",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-meta-muse-voice-expressive-avatars",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "메타 Muse, 미국서 실시간 음성·표정 아바타 롤아웃",
+    "summary": "메타가 Muse 앱에 Muse Realtime Voice·Realtime Avatar를 미국 사용자에게 공개했다. 모바일·웹·Mac에서 전화 아이콘으로 실시간 통화를 할 수 있고, 아바타는 표정·제스처로 반응하며 음성만·채팅 옆·전체화면 모드를 고를 수 있다. AI 글래스와 Muse Charm 지원은 추후 예정이다.",
+    "why": "소비자 AI 에이전트에 '얼굴 있는' 실시간 대화 UX를 본격 배포한 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Meta 공식 블로그 + TechCrunch."
+    },
+    "image": "https://about.fb.com/wp-content/uploads/2026/11/Were-rolling-out-voice-and-expressive-avatars-in-the-Muse-app_Social-Share.jpg?w=1200",
+    "links": [
+      {
+        "label": "Meta 블로그",
+        "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
         "type": "source"
       }
     ]
@@ -888,6 +1069,35 @@
       {
         "label": "아주경제",
         "url": "https://www.ajunews.com/view/20261105135132824",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-google-wyoming-17b-data-center",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "구글, 와이오밍 첫 데이터센터에 170억 달러 투자…702MW 연료전지·CCS",
+    "summary": "구글이 와이오밍주 첫 데이터센터에 170억 달러를 투자한다고 발표했다. Tallgrass·Black Hills Energy·AEP·Related Digital과 협력하며, AEP와 계약한 상업용 702MW 연료전지(Bloom Energy)·탄소포집저장(CCS)이 포함된다. 냉각은 공랭식으로 지역 물 사용을 줄인다고 밝혔다.",
+    "why": "중간선거 이후 데이터센터 규제 논란 속에 대규모 AI 인프라·전력 조달 계획을 구체화한 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google 공식 블로그. Bloomberg Law·WyoFile 등도 동일 수치 보도."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Wyoming_hero.width-1300.png",
+    "specs": {
+      "price": "$17B",
+      "compute": "702MW fuel cell + CCS"
+    },
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/google-plans-to-spend-17-billion-on-wyoming-data-center",
         "type": "source"
       }
     ]
@@ -1017,6 +1227,31 @@
     ]
   },
   {
+    "id": "2026-11-05-doj-super-intelligence-task-force",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "미 법무부, Super Intelligence Task Force(DOJ-SITF) 출범",
+    "summary": "미 법무부가 외국 국가·초국적 범죄조직·사기 등 SI(슈퍼 인텔리전스) 악용을 막기 위한 Super Intelligence Task Force를 출범했다고 5일 발표했다. Associate AG Stanley Woodward와 Associate DAG Stephen Weiss가 이끌며, 백악관 SI Force(Jay Clayton)와 협력한다고 밝혔다.",
+    "why": "첨단 AI를 국가안보·형사집행 프레임으로 묶는 미국 정부의 조직화가 공식화됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "DOJ 공식 보도자료."
+    },
+    "image": "https://www.justice.gov/themes/custom/usdoj_uswds/images/metatag-image--press-release.png",
+    "links": [
+      {
+        "label": "DOJ 보도자료",
+        "url": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force",
+        "type": "source"
+      },
+      {
+        "label": "Nextgov",
+        "url": "https://www.nextgov.com/artificial-intelligence/2026/11/department-justice-forms-ai-task-force/417074/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-discord-ditching-electron-rust",
     "date": "2026-11-05",
     "category": "AI·IT",
@@ -1037,6 +1272,31 @@
       {
         "label": "Windows Latest",
         "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-cursor-build-live-apps",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "Cursor, Cloud Agent로 웹앱 빌드·DB·인증·배포까지…'Build Live Apps'",
+    "summary": "Cursor가 Cloud Agent에 앱 빌드·Postgres·Cursor SSO 인증·호스팅 배포를 묶어 'Build Live Apps'를 공개했다. 게시 전 보안 검사가 통과하고 사용자가 명시적으로 publish해야 하며, Origin·GitHub 저장소에서 시작할 수 있다. 유료 플랜+Cloud Agents 활성화 시 이용 가능하다.",
+    "why": "코딩을 넘어 내부 도구를 바로 공유 링크로 올리는 에이전트 워크플로가 제품화됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Cursor 공식 체인지로그·문서."
+    },
+    "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-changelog-11-05-26.png",
+    "links": [
+      {
+        "label": "Cursor 체인지로그",
+        "url": "https://cursor.com/changelog/build-live-apps",
+        "type": "source"
+      },
+      {
+        "label": "문서",
+        "url": "https://cursor.com/docs/cloud-agent/apps",
         "type": "source"
       }
     ]
