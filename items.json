@@ -1,5 +1,60 @@
 [
   {
+    "id": "2026-11-06-update-samsung-skhynix-circuit-breaker",
+    "date": "2026-11-06",
+    "category": "한국 IT",
+    "title": "업데이트: 삼성전자·SK하이닉스 개장 직후 급락…코스피 1단계 서킷브레이커",
+    "summary": "6일 개장 직후 삼성전자·SK하이닉스가 정적 VI에 걸린 뒤, 한겨레 보도 기준 오전 9시18분경 삼성전자 약 9.98%↓(18만1400원)·SK하이닉스 약 11.71%↓(111만6000원)를 기록했다. 코스피 8% 이상 급락이 이어지며 오전 9시3분 1단계 서킷브레이커가 발동됐고 두 종목도 20분간 거래가 중단됐다. 미 중간선거 이후 AI·데이터센터 규제 우려가 배경으로 지목된다.",
+    "why": "전일 매도세에 이어 개장 직후 서킷브레이커까지 걸린 점이 국내 AI 반도체 투자 심리에 추가 충격을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "한겨레·파이낸셜뉴스 등 복수 보도. 장중 수치는 보도 시점 기준이며 종가와 다를 수 있음."
+    },
+    "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/605/imgdb/original/2026/1106/20261106500451.webp",
+    "links": [
+      {
+        "label": "한겨레",
+        "url": "https://www.hani.co.kr/arti/economy/finance/1286070.html",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611060956246065",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-skbiopharm-ai-foundation-model",
+    "date": "2026-11-06",
+    "category": "한국 IT",
+    "title": "SK바이오팜, 신약개발 AI 특화 모델 실증 완료…학습데이터 714만건·44억 토큰",
+    "summary": "SK바이오팜이 과기정통부 'AI 특화 파운데이션 모델' 프로젝트에서 약 10개월 개발·실증을 마쳤다고 밝혔다. 저분자·단백질·유전체 등 약 714만건(44억 토큰) 신약 특화 데이터를 구축하고 약물성·독성·상호작용·임상 예측 등 66개 과제로 성능을 검증했으며, 알츠하이머 공개 임상 기반 디지털 트윈과 AI 업무지원 시스템도 구축했다. 루닛·트릴리온랩스·아이젠사이언스·카카오헬스케어 등이 컨소시엄에 참여했다.",
+    "why": "국내 제약사가 실제 R&D 파이프라인에 붙일 수 있는 특화 파운데이션·재특화 모델 실증 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문·연합뉴스·머니투데이 등 복수 보도. 수치는 SK바이오팜 발표."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/06/news-p.v1.20261106.564058fe30fb4aeebd3d439b2b92cc1e_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261106000153",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261106048700017",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/thebio/2026/11/06/2026110609194681226",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-lunit-learningunit-2-l1-30b",
     "date": "2026-11-06",
     "category": "로컬 AI",
@@ -31,6 +86,47 @@
       {
         "label": "한국경제",
         "url": "https://www.hankyung.com/article/202611069853i",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-kakao-kanana-2-v-decide",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "카카오, 멀티모달 의사결정 모델 'Kanana-2-v-decide' 오픈소스 공개",
+    "summary": "카카오가 Kanana-2-v-3b 기반 의사결정 모델 Kanana-2-v-decide-3b-2611(약 3.67B, 비전 0.49B+LM 3.18B)을 허깅페이스에 공개했다. 문장 생성 대신 확률(noul)·선택(choice)·점수(score)만 반환하며, H200 1장 기준 평균 응답 0.04초 이내(자체 측정 GPT-6 Luna 대비 약 43배), Decision Index 공개 벤치 평균 61.23·한국어 Kanana Decision Bench(15,909문항) 72.50을 기록했다. Kanana Open License로 상업 이용 가능하다.",
+    "why": "에이전트 도구 선택·문의 분류·이미지 판단처럼 연속 판단이 필요한 로컬·서비스 스택에 바로 붙일 수 있는 국산 오픈 의사결정 모델이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공식 보도자료 + Hugging Face 모델 카드(파라미터·벤치·라이선스) + 전자신문·연합뉴스 교차 확인."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/kakaocorp/kanana-2-v-decide-3b-2611.png",
+    "specs": {
+      "params": "3.67B (비전 0.49B + LM 3.18B)",
+      "license": "Kanana Open License",
+      "context": "최대 20,480 토큰",
+      "modality": "텍스트·이미지(최대 10장)→확률/선택/점수"
+    },
+    "links": [
+      {
+        "label": "카카오 보도자료",
+        "url": "https://www.kakaocorp.com/page/detail/12193",
+        "type": "source"
+      },
+      {
+        "label": "kakaocorp/kanana-2-v-decide-3b-2611",
+        "url": "https://huggingface.co/kakaocorp/kanana-2-v-decide-3b-2611",
+        "type": "huggingface"
+      },
+      {
+        "label": "HF 컬렉션",
+        "url": "https://huggingface.co/collections/kakaocorp/kanana-2-v-decide",
+        "type": "huggingface"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261106000052",
         "type": "source"
       }
     ]
@@ -202,6 +298,37 @@
       {
         "label": "The Record",
         "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-thinking-machines-inkling-2-small",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "Thinking Machines, Inkling 2 Small 공개…594B/활성 17B MoE, 가중치 다음 주 Apache 예정",
+    "summary": "Thinking Machines Lab이 Inkling 2 Small(총 594B·활성 17B MoE, 이미지 입력·가변 추론 노력)을 발표했다. Artificial Analysis Intelligence Index 약 31점이며 현재는 Tinker에서 클로즈드 가중치로 제공하고, 외부 안전 테스트 후 다음 주 Apache 2.0으로 전체 가중치 공개를 계획한다. 가격은 입력/출력 100만 토큰당 $0.30/$1.00(캐시 히트 $0.03)이다.",
+    "why": "미국 랩의 고성능 MoE가 곧 오픈웨이트로 풀리면 로컬·셀프호스트 진영의 비중국 최상위 선택지가 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Thinking Machines 공식 발표 + Artificial Analysis 독립 평가. 가중치 공개일은 'next week'로만 명시."
+    },
+    "image": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png",
+    "specs": {
+      "params": "594B 총 / 17B 활성 (MoE)",
+      "license": "현재 클로즈드 → Apache 2.0 예정",
+      "modality": "텍스트·이미지→텍스트",
+      "price": "$0.30/$1.00 per 1M in/out (Tinker)"
+    },
+    "links": [
+      {
+        "label": "Thinking Machines 공식",
+        "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+        "type": "source"
+      },
+      {
+        "label": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai/articles/thinking-machines-releases-inkling-2-small-highest-scoring-open-weights-model-outside-of-chinia-upon-weights-release-it",
         "type": "source"
       }
     ]
@@ -533,6 +660,31 @@
     "date": "2026-11-05"
   },
   {
+    "id": "2026-11-05-nvidia-dsx-os",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "엔비디아 DSX OS 공개…AICR·NVCRE·NVSentinel로 GPU 쿠버네티스 구성·인증·운영",
+    "summary": "NVIDIA가 AI 팩토리용 오픈소스 소프트웨어 레이어 DSX OS를 소개했다. AICR이 버전 고정 레시피로 GPU 쿠버네티스 구성을 재현 가능하게 만들고, NVCRE가 NCCL·학습 워크로드로 클러스터 준비도를 인증하며, NVSentinel이 GPU·노드·네트워크 이상을 감시·격리·재검증한다. 세 프로젝트 모두 Apache 2.0이다.",
+    "why": "대규모 학습·서빙 클러스터의 '한 GPU가 전체를 늦추는' 문제를 설정·인증·운영 루프로 다루는 공식 스택이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA Technical Blog(1차) + DSX 제품·문서 페이지."
+    },
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/dsx-os-cluster-readiness-featured.webp",
+    "links": [
+      {
+        "label": "NVIDIA Tech Blog",
+        "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/",
+        "type": "source"
+      },
+      {
+        "label": "DSX OS 제품",
+        "url": "https://www.nvidia.com/en-us/data-center/products/dsx/os/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-nvidia-cosmos3-nano-interactive",
     "date": "2026-11-05",
     "category": "로컬 AI",
@@ -603,6 +755,36 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261105000310",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-metr-anthropic-ai-rd-acceleration",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "METR, 앤트로픽 AI R&D 가속 평가…벤치 개선 속도 약 1.9배(과거 2년분≈1년)",
+    "summary": "비영리 평가기관 METR이 앤트로픽 내부 자료를 11주간 검토한 공개 평가에서, 2025년 10월 이후 AECI 벤치 점수가 이전 대비 약 1.9배[95% CI 1.5–2.8x] 빠르게 올랐다고 밝혔다. 학습 컴퓨트 스케일 가속은 원인이 아니라고 했고, 현재 가속의 상당 부분(주관적 추정 ≈80%)이 AI를 활용한 R&D 지원에서 온다고 보았다. 다만 핵심 근거 상당수가 앤트로픽 검열로 비공개다.",
+    "why": "AI가 AI 개발을 가속하는 실측 신호가 나와, 안전·거버넌스 대응 시간이 더 짧아질 수 있다는 경고로 읽힌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "METR 공식 보고서(1차) + AP·ZDNet Korea 보도. 수치는 METR 공개분 기준."
+    },
+    "image": "https://metr.org/assets/images/ai-rd-acceleration-assessment/home-card.png",
+    "links": [
+      {
+        "label": "METR 보고서",
+        "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/anthropic-metr-ai-claude-acceleration-9cf8c590ffc1abdb489179bdccc69c23",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261106103632",
         "type": "source"
       }
     ]
@@ -711,6 +893,61 @@
     ]
   },
   {
+    "id": "2026-11-05-google-hypertension-smartwatch-ai",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "구글 리서치, 스마트워치 PPG·가속도계로 고혈압 징후 탐지 AI…Nature 발표",
+    "summary": "Google Research가 소비자용 스마트워치의 PPG·가속도계로 커프 보정 없이 고혈압 징후를 수동 탐지하는 AI-PPG-ACC-HTN을 Nature에 발표했다. 미국 5개 사이트 196명 전향 연구에서 24시간 ABPM 대비 초기 스크리닝 민감도 65.8%·특이도 90.0%·PPV 80.6%를 보고했다. 연구용이며 진단 제품이 아니라고 명시했다.",
+    "why": "웨어러블 센서만으로 클리닉 스크리닝과 비슷한 수준의 고혈압 탐지 가능성을 보여 준 1차 연구다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google Research 공식 블로그 + Nature 논문. 수치·한계는 블로그·논문 그대로."
+    },
+    "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+    "links": [
+      {
+        "label": "Google Research 블로그",
+        "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+        "type": "source"
+      },
+      {
+        "label": "Nature 논문",
+        "url": "https://www.nature.com/articles/s41586-026-11336-3",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-google-gemini-omni-1-2-flash",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "구글 Gemini Omni 1.2 Flash GA…최대 15초 영상·대화형 편집, 가격 30%↓",
+    "summary": "Google DeepMind가 Gemini Omni 1.2 Flash를 Gemini API·Google Cloud에 정식 출시했다. 네이티브 영상 길이가 10초에서 최대 15초(3~15초 1초 단위)로 늘었고 멀티턴 대화형 편집·참조 일관성이 강화됐다. 720p 기준 초당 $0.07로 1.1 대비 가격을 30% 낮췄으며 SynthID 워터마크가 적용된다.",
+    "why": "광고·제품 데모용 영상 생성의 길이와 수정 비용이 동시에 내려가 크리에이터·엔터프라이즈 워크플로에 바로 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google 공식 블로그(개발자) + Google Cloud 블로그. The Verge 등 독립 보도."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+        "type": "source"
+      },
+      {
+        "label": "Google Cloud 블로그",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1027845/googles-gemini-omni-1-2-flash-can-generate-clips-up-to-15-seconds-long",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-google-bigquery-ai-agg",
     "date": "2026-11-05",
     "category": "AI·IT",
@@ -775,6 +1012,31 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261104000219",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-discord-ditching-electron-rust",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "Discord, Electron 폐기 추진…Rust·GPUI 네이티브 클라이언트로 재작성",
+    "summary": "Discord CTO Stanislav Vishnevskiy가 Electron·React Native를 버리고 데스크톱·모바일 앱 코드를 Rust로 통합한다고 밝혔다. 초기 Windows 'Discord Phoenix' 빌드 RAM 사용량이 약 290MB로 소개됐고, 곧 사용자 테스트를 희망한다고 했다. 정식 출시 일정은 미정이다.",
+    "why": "대중적 Electron 앱이 네이티브 Rust로 넘어가는 대표 사례로, 데스크톱 클라이언트 메모리·성능 논쟁에 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge가 CTO 발언을 인용, Windows Latest·Windows Central 등 복수 매체 교차. Discord 공식 블로그 전용 글은 미확인."
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK062_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+        "type": "source"
+      },
+      {
+        "label": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/",
         "type": "source"
       }
     ]
@@ -1036,6 +1298,35 @@
       }
     ],
     "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-alpine-openssh-password-bypass",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "Alpine/OpenSSH 비밀번호 인증 우회…musl crypt(*)와 '*' 계정 필드 충돌",
+    "summary": "Alpine Linux가 openssh-server(비-PAM 빌드)에서 PasswordAuthentication이 켜져 있고 shadow 비밀번호 필드가 '*'인 계정(키 전용 등)이 있으면, 257~1024바이트 긴 비밀번호 한 번으로 로그인되는 치명적 우회를 공개했다. musl crypt()가 긴 키에서 오류값 '*'을 반환해 저장된 '*'과 일치한다. OpenSSH 10.6p2·Alpine 3.21.10/3.22.8/3.23.8/3.24.4 등으로 패치 후 sshd 재시작이 필요하다.",
+    "why": "컨테이너·클라우드 이미지에서 흔한 Alpine SSH 구성이 한 번에 뚫릴 수 있어 인프라·ML 서버 운영에 즉시 패치가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Alpine 공식 보안 공지 + OpenSSH 10.6p2 릴리스 노트 + The Hacker News·BleepingComputer 교차 확인."
+    },
+    "links": [
+      {
+        "label": "Alpine 보안 공지",
+        "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+        "type": "source"
+      },
+      {
+        "label": "OpenSSH 10.6p2",
+        "url": "https://www.openssh.org/txt/release-10.6p2",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-05-42maru-appliance42",
