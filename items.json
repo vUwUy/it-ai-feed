@@ -45,6 +45,64 @@
     ]
   },
   {
+    "id": "2026-11-07-llamacpp-b12180-kimi-k31-pro",
+    "date": "2026-11-07",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12180, Kimi-K3.1-Pro 텍스트 모델 지원 추가",
+    "summary": "llama.cpp 프리릴리즈 b12180(2026-11-06 23:18 UTC, KST 11/7 오전)이 Moonshot AI Kimi-K3.1-Pro의 DSA(lightning indexer) 아키텍처를 추가했다. 비전 타워는 아직 스킵해 텍스트만 변환·로드하며, MXFP4 라우티드 전문가 재패킹과 8레이어 슬라이스 HF 체크포인트 검증을 포함했다.",
+    "why": "최근 공개된 2.8T급 Kimi-K3.1-Pro를 llama.cpp에서 돌릴 수 있는 길이 열려 로컬·자가호스팅 실험이 가능해진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ggml-org/llama.cpp GitHub Releases b12180 릴리즈 노트."
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12180 릴리즈",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180",
+        "type": "source"
+      },
+      {
+        "label": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "type": "github"
+      },
+      {
+        "label": "moonshotai/Kimi-K3.1-Pro",
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-jensen-huang-congress-briefing-request",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "美 하원, 젠슨 황에 '中 간첩 의혹' 앨리스 황 관계 비공개 브리핑 요구",
+    "summary": "하원 외교위·중국특위·정보위 위원장 3명은 11월 5일(현지) 서한으로 젠슨 황 엔비디아 CEO에게 11월 18일 비공개 합동 브리핑 출석을 요청했다. 메가스피드 임원 앨리스 황(중국 정보원 의혹)과의 교류와 외국 적대세력 첩보 대응 보안 체계를 설명하라는 내용이며, 11월 11일까지 수락 또는 대체 일정을 달라고 했다. 엔비디아는 일상적 업무 교류이며 정보 유출은 없다고 부인했다.",
+    "why": "엔비디아 최고경영자에 대한 의회 압박이 공식화되며, AI 칩 공급·보안 이슈가 정치 리스크로 커졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "미 하원 외교위 공화당 보도자료(2026-11-05) + 연합뉴스·전자신문(2026-11-06/07)."
+    },
+    "links": [
+      {
+        "label": "하원 외교위 보도자료",
+        "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261106068000009",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261107000003",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-update-samsung-skhynix-close",
     "date": "2026-11-06",
     "category": "한국 IT",
@@ -230,6 +288,36 @@
     ]
   },
   {
+    "id": "2026-11-06-psi-aaronson-ambainis-anthropic",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "PSI, 미공개 앤트로픽 모델로 Aaronson–Ambainis 추측 증명…Lean 검증",
+    "summary": "Physical Superintelligence(PSI)는 내부 연구 시스템이 미공개 앤트로픽 모델을 사용해 2008년부터 열린 Aaronson–Ambainis 추측을 3일 만에 증명했고, Lean으로 기계 검증했다고 6일 발표했다. 결과는 무작위 입력에서 양자 컴퓨터의 지수적 속도 향상이 드물게 나타나는 구조에 의존함을 확정한다. 스탠퍼드 연구진이 증명을 검토 중이며 'huge result'라고 평가했다고 PSI가 전했다.",
+    "why": "AI가 양자복잡도 이론의 핵심 미해결 추측을 정식으로 푼 사례로, 연구용 AI의 수학·물리 기여가 다시 주목된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "PSI 공식 연구 페이지(2026-11-06) + Business Insider(2026-11-07). 동료심사 논문은 아직 별도. 사용 모델명은 미공개."
+    },
+    "image": "https://psi.inc/og/ring-arch-2.png",
+    "links": [
+      {
+        "label": "PSI 연구 발표",
+        "url": "https://psi.inc/research/aaronson-ambainis/",
+        "type": "source"
+      },
+      {
+        "label": "GitHub(형식화)",
+        "url": "https://github.com/physical-superintelligence/aaronson-ambainis",
+        "type": "github"
+      },
+      {
+        "label": "Business Insider",
+        "url": "https://www.businessinsider.com/anthropic-quantum-computing-breakthrough-aaronson-ambainis-math-physics-psi-2026-11",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-openai-biobasicsbench",
     "date": "2026-11-06",
     "category": "AI·IT",
@@ -254,6 +342,80 @@
     ]
   },
   {
+    "id": "2026-11-06-openai-11b-1-25t-valuation",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "[보도] OpenAI, 1.25조 달러 밸류로 110억 달러 추가 조달…라운드 미완",
+    "summary": "블룸버그에 따르면 OpenAI가 기업가치 1.25조 달러로 110억 달러를 우선 조달했다. 라운드는 아직 열려 있으며 수주 내 약 200억 달러까지 확대될 수 있고, 당초 목표였던 300억 달러·1.4조 달러 밸류보다는 낮아졌다고 로이터·테크크런치가 전했다.",
+    "why": "AI 섹터 급락·중간선거 이후 빅테크 밸류에이션이 재조정되는 가운데, OpenAI 실거래 밸류가 1.25조 달러로 구체화됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Bloomberg 인용 로이터(Investing.com 2026-11-06) + TechCrunch + The Verge. OpenAI 공식 발표는 아직 없음."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing)",
+        "url": "https://www.investing.com/news/stock-market-news/openai-secures-11-billion-funding-at-125-trillion-valuation-bloomberg-news-reports-5009182",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-nvidia-rtx-spark-korea-briefing",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "엔비디아 한국 간담회, RTX 스파크를 '로컬 AI 에이전트'용 Arm PC로 강조",
+    "summary": "6일 서울에서 열린 RTX 스파크 간담회에서 엔비디아는 Grace CPU+Blackwell GPU(N1X) 통합 메모리(최대 128GB) 구조로 클라우드 없이 32GB급 이상 로컬 모델을 돌릴 수 있다고 설명했다. HP·델·레노버 등 6사 제품이 출시 중이며, 국내 다나와 기준 24GB 모델 약 500만원·128GB 약 900만원대에 거래된다고 ZDNet Korea가 전했다.",
+    "why": "로컬 에이전트·온디바이스 추론 수요가 커지는 가운데, 국내에서 Arm 기반 AI PC의 가격대와 포지셔닝이 구체화됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 현장 취재(2026-11-06). RTX 스파크 자체는 10월 중순 정식 출시된 제품의 한국 브리핑."
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261106144312",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-nvidia-oakland-cargo-theft-11-4m",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "엔비디아 하드웨어 1,140만 달러분, 오클랜드→텍사스 운송 중 실종",
+    "summary": "Ars Technica 등에 따르면 8월 29일 오클랜드에서 포트워스행으로 실린 엔비디아 하드웨어 6팔레트(약 1,140만 달러)가 식품 운송 업체 로고의 트럭에 실린 뒤 실종했다. 오클랜드 경찰은 9월 13일 중절도 신고를 접수했고 수사는 진행 중이며, 2개월이 지나도 체포·회수는 발표되지 않았다.",
+    "why": "고가 AI 칩 화물 절도가 잇따르는 가운데 규모가 큰 사례가 공개돼, 공급망·수출통제 우회 위험이 다시 부각된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Ars Technica(2026-11-06) + LA Times·Tom's Hardware 등 복수 보도. 하드웨어 기종은 당국 미공개."
+    },
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303158972-1152x648.jpg",
+    "links": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
+        "type": "source"
+      },
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-nvidia-nvke-preview",
     "date": "2026-11-06",
     "category": "로컬 AI",
@@ -273,6 +435,31 @@
       {
         "label": "dsx-ai-factory/nvke",
         "url": "https://github.com/dsx-ai-factory/nvke",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-nvidia-nccl-m2n-reshard",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "엔비디아, RL 가중치 refit용 NCCL M2N Reshard 공개…2.7~5.7배 단축",
+    "summary": "엔비디아가 강화학습 사후학습에서 학습 GPU→추론 GPU로 가중치를 옮기는 refit을 DTensor-to-DTensor 전송으로 재정의한 Reshard 컬렉티브를 공개했다. 오픈소스 NCCL M2N Reshard(NVIDIA/nccl-extensions)와 NeMo RL 연동으로 Qwen3 235B·DeepSeek v3 671B 등 벤치에서 기존 gather-and-broadcast 대비 2.7~5.7배 빨라졌다고 밝혔다.",
+    "why": "조 파라미터급 오픈 모델에서 refit 통신량이 수 TB에 달해, 분산 RL 인프라의 병목을 줄이는 실질적 개선이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA Developer Blog(2026-11-06) + nccl-extensions 저장소."
+    },
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/green-cube.webp",
+    "links": [
+      {
+        "label": "NVIDIA 기술 블로그",
+        "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
+        "type": "source"
+      },
+      {
+        "label": "NVIDIA/nccl-extensions",
+        "url": "https://github.com/NVIDIA/nccl-extensions",
         "type": "github"
       }
     ]
@@ -472,6 +659,26 @@
       {
         "label": "Data Center Dynamics",
         "url": "https://www.datacenterdynamics.com/en/news/ing-bank-looks-to-sell-500m-in-data-center-loans-at-once-including-at-stargate-site/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-google-z4m-storage-optimized-ga",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "구글 클라우드, AI/ML용 스토리지 최적화 Z4M 인스턴스 GA",
+    "summary": "구글 클라우드가 체크포인팅·분산 KV 캐시·병렬 파일시스템용 Storage-optimized Z4M VM·베어메탈을 GA로 공개했다. 로컬 SSD 최대 168,000 GiB, 최대 192 vCPU·1,536 GiB 메모리, 400 Gbps Cloud RDMA를 지원하며 Z3 대비 랜덤 읽기 IOPS 최대 70%·순차 읽기 처리량 최대 110% 향상을 주장한다.",
+    "why": "GPU/TPU를 바쁘게 유지하려면 스토리지·네트워크가 병목인데, AI 훈련·추론용 고용량 로컬 SSD 인스턴스가 정식 출시됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google Cloud 공식 블로그(2026-11-06)."
+    },
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Compute_zkXaY5X.max-2500x2500.jpg",
+    "links": [
+      {
+        "label": "Google Cloud 블로그",
+        "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga",
         "type": "source"
       }
     ]
