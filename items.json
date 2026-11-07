@@ -103,6 +103,110 @@
     ]
   },
   {
+    "id": "2026-11-06-openai-hacktron-partnership",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "OpenAI, 보안 스타트업 Hacktron과 자사 시스템 취약점 공동 탐색",
+    "summary": "OpenAI가 Hacktron과 손잡고 자사 시스템, 특히 외부 서비스와 맞물리는 지점의 취약점을 함께 찾는다고 발표했다. Hacktron에는 'Daybreak Red'를 통해 프런티어 모델 접근 권한을 넓혀 준다. Hacktron은 앞서 OpenAI 포럼의 이미지 업로드 취약점과 SSO 설정 문제를 엮어 계정 탈취로 이어질 수 있는 경로를 보고한 바 있다.",
+    "why": "이번 주 Cathedral 협업·버그바운티 상향에 이어, OpenAI가 자체 사이버 모델을 외부 레드팀에 쥐여 주고 스스로를 공격하게 하는 흐름이 이어지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표(11/6 현지) + Hacktron 기술 블로그 확인."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6567aD1rFerr0QBajJ0uig/50339d375097da8d96ce12e925130276/partnering-with-hacktron-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/partnering-with-hacktron",
+        "type": "source"
+      },
+      {
+        "label": "Hacktron 블로그",
+        "url": "https://www.hacktron.ai/blog/hacking-openai",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-korea-ai-committee-legislation-framework",
+    "date": "2026-11-07",
+    "category": "한국 IT",
+    "title": "국가AI전략위, AI 입법은 'AI기본법·기존법 개정 우선'…초지능 대응 등 TF 7개 출범",
+    "summary": "국가인공지능전략위원회가 6일 3차 전체회의에서 새 독립법보다 AI기본법이나 기존 개별법 개정을 먼저 검토하는 '인공지능 입법 프레임워크'를 의결했고, AI기본법 적용에서 빠진 국방·안보 분야는 별도 입법을 우선 추진한다. 22대 국회에서 'AI'를 언급한 법안이 477건에 달한 데 따른 것으로, 국가 초지능 대응 TF 등 7개 TF도 꾸렸다. 배경훈 과기부총리는 '모두의 AI'를 12월 중순 출시하겠다고 밝혔다.",
+    "why": "쏟아지는 AI 법안을 기본법 중심으로 정리하겠다는 원칙이라, 국내 AI 기업이 받을 규제의 예측 가능성과 방향을 가늠할 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "디지털데일리·블로터·이데일리 등 복수 언론 보도 교차 확인."
+    },
+    "image": "https://www.ddaily.co.kr/photos/2026/11/06/2026110616325706037_l.jpg",
+    "links": [
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026110616331138429",
+        "type": "source"
+      },
+      {
+        "label": "블로터",
+        "url": "https://www.bloter.net/news/articleView.html?idxno=678002",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-autodna-nature-ai-lab",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "상하이교통대 'AutoDNA', AI가 장비 20여 종 조율해 DNA 합성~시퀀싱 자율 수행 (네이처)",
+    "summary": "상하이교통대 연구진이 네이처에 AI 네이티브 자율 생명과학 실험실 AutoDNA를 발표했다. 20종 이상의 장비에서 1만1000단계가 넘는 실험을 자율 수행했고, 여러 DNA 합성을 병렬로 돌릴 때 순차 실행보다 처리 속도가 3.2배 빨랐으며 암 관련 KRAS G13D 변이 검출도 수행했다.",
+    "why": "OpenAI BioBasicsBench 등 'AI가 습식 실험까지' 흐름에서, 실제 로봇·장비를 AI가 직접 움직인 피어리뷰 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Nature 논문 + Nature 뉴스 + 뉴시스(파이낸셜뉴스 게재) 보도로 확인."
+    },
+    "links": [
+      {
+        "label": "Nature 논문",
+        "url": "https://www.nature.com/articles/s41586-026-11228-6",
+        "type": "source"
+      },
+      {
+        "label": "Nature 뉴스",
+        "url": "https://www.nature.com/articles/d41586-026-03552-8",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스(뉴시스)",
+        "url": "https://www.fnnews.com/news/202611071200389004",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-amsterdam-microsoft-datacenter-protest",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "암스테르담 MS 데이터센터 공사장에 시위대 100여 명 진입…유럽 반(反)데이터센터 시위 확산",
+    "summary": "6일(현지) 활동가 100명 이상이 마이크로소프트가 단독 입주할 암스테르담 78MW 데이터센터 공사장에 진입했고, 길 건너에서는 수백 명이 평화 시위를 벌였다. 이번 주말 유럽 여러 나라에서 AI 데이터센터 확장에 반대하는 행동이 예정돼 있다고 DCD·가디언이 전했다.",
+    "why": "미국 중간선거 뒤 데이터센터 규제 우려에 이어 유럽에서도 물·전력 사용을 둘러싼 반발이 조직화되면서 AI 인프라 증설의 사회적 비용이 커지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가디언·DCD 보도 교차 확인. 진입 인원은 단체 주장(500명)과 언론 집계(100명 이상)가 달라 언론 수치로 표기."
+    },
+    "image": "https://media.datacenterdynamics.com/media/images/GettyImages-1890243590.1cfefaf7.fill-1200x630.jpg",
+    "links": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
+        "type": "source"
+      },
+      {
+        "label": "DCD",
+        "url": "https://www.datacenterdynamics.com/en/news/more-than-100-protesters-break-into-microsoft-data-center-construction-site-in-amsterdam/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-update-samsung-skhynix-close",
     "date": "2026-11-06",
     "category": "한국 IT",
@@ -318,6 +422,64 @@
     ]
   },
   {
+    "id": "2026-11-06-pfn-plamo-3-translate",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "PFN, 번역 특화 'PLaMo 3 Translate' 0.8B~31B 가중치 공개…GGUF·MLX 공식 제공",
+    "summary": "일본 Preferred Networks가 53개 언어 번역 모델 PLaMo 3 Translate를 0.8B·2B·8B·31B 네 크기로 Hugging Face에 공개했다. BF16·FP8·NVFP4 외에 llama.cpp용 GGUF와 Apple Silicon용 MLX 4bit도 직접 제공하며, PFN은 0.8B 모델도 30배 이상 큰 기존 번역 특화 LLM보다 일본어 번역 성능이 낫다고 밝혔다.",
+    "why": "스마트폰·노트북에서 오프라인으로 돌릴 수 있는 크기부터 공식 양자화를 갖춘 번역 모델이라 로컬 번역용으로 바로 써볼 만하다. 한국어도 평가 대상 언어에 들어 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "PFN 공식 기술 블로그 + HF 컬렉션·GGUF 저장소 확인. 성능 비교는 PFN 자체 평가."
+    },
+    "specs": {
+      "params": "0.8B / 2B / 8B / 31B",
+      "license": "PLaMo Community License (연매출 10억엔 이하 상업 무료·사전 등록)",
+      "modality": "텍스트(번역 53개 언어)"
+    },
+    "links": [
+      {
+        "label": "PFN 기술 블로그",
+        "url": "https://www.preferred.jp/en/blog/tech/plamo-3-translate-weight-release",
+        "type": "source"
+      },
+      {
+        "label": "pfnet/plamo-3-translate",
+        "url": "https://huggingface.co/collections/pfnet/plamo-3-translate",
+        "type": "huggingface"
+      },
+      {
+        "label": "pfnet/plamo-3-translate-8b-GGUF",
+        "url": "https://huggingface.co/pfnet/plamo-3-translate-8b-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-palo-alto-clutch-talks",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "[보도] 팔로알토 네트웍스, AI 에이전트 보안 스타트업 Clutch 약 5억 달러 인수 협상",
+    "summary": "TechCrunch와 이스라엘 Calcalist에 따르면 팔로알토가 AI 에이전트의 사내 시스템 접근 자격증명(비인간 ID)을 관리하는 Clutch Security를 현금 5억 달러에 마일스톤 보상을 더해 인수하는 협상을 하고 있다. Clutch의 연 반복매출은 1천만 달러에 근접해 약 50배 수준이며, 협상은 무산될 수도 있다.",
+    "why": "에이전트 권한·자격증명 관리가 보안 업계의 독립 예산 항목으로 굳어지며, Cyera–Oasis, 시스코–Astrix에 이은 인수 경쟁이 이어지고 있다.",
+    "verification": {
+      "status": "미확인",
+      "note": "The Information 최초 보도를 TechCrunch·Calcalist가 각각 취재원 인용으로 전함. 양사 공식 확인 없음."
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+        "type": "source"
+      },
+      {
+        "label": "Calcalist(Ctech)",
+        "url": "https://www.calcalistech.com/ctechnews/article/qx69w4bra",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-openai-biobasicsbench",
     "date": "2026-11-06",
     "category": "AI·IT",
@@ -480,6 +642,31 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261106126900002",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-miit-agent-terminal-network-access",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "중국 공업정보화부, 'AI 에이전트 탑재 단말' 진입 관리 통지…적합성 검증·OTA 사전 보고 의무화",
+    "summary": "MIIT가 에이전트를 기본 탑재한 휴대폰·태블릿·웨어러블에 대해 전신망 진입 검사 때 에이전트 적합성 검증과 보이스피싱(사기) 위험 평가를 요구하는 통지(공신청신관〔2026〕42호)를 냈다. 에이전트에는 고유 신원 코드를 붙여야 하고, OTA로 에이전트를 업그레이드하려면 계획을 먼저 제출하고 사후 보고서가 전문가 평가를 거친 뒤에야 정식 서비스할 수 있다.",
+    "why": "폰 제조사가 AI 에이전트를 기본 탑재하는 흐름에 중국이 처음으로 구체적 출시·업데이트 규칙을 건 것으로, 중국향 단말과 에이전트 앱 배포 방식에 직접 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공업정보화부 원문 게시 + 중국신문망 전문 보도로 확인. 통지 서명일은 10월 24일, 공개는 11월 6일."
+    },
+    "image": "https://www.chinanews.com.cn/fileftp/2025/07/2025-07-17/U947P4T47D55580F24532DT20250717134135.png",
+    "links": [
+      {
+        "label": "공업정보화부 통지 원문",
+        "url": "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2026/art_5066b9dffa93405a988e266ff12bf674.html",
+        "type": "source"
+      },
+      {
+        "label": "중국신문망",
+        "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727035.shtml",
         "type": "source"
       }
     ]
@@ -710,6 +897,61 @@
         "label": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50385272",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-ant-ling-3-2-flash",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "앤트그룹 Ling-3.2-flash 공개…560B-A25B 네이티브 멀티모달, 가중치는 아직 미공개",
+    "summary": "앤트 Ling 팀이 이미지·텍스트·영상 입력을 받는 네이티브 멀티모달 MoE 모델 Ling-3.2-flash(총 560B, 활성 25B, 컨텍스트 1M)를 API로 내놨다. 복잡한 시각 이해, 멀티모달 장기 에이전트, 3D 이해, 의료 멀티모달을 주력으로 내세웠지만 Ling-3.1과 달리 Hugging Face 가중치는 아직 올라오지 않았다.",
+    "why": "그동안 MIT 라이선스로 가중치를 풀어온 Ling 계열의 첫 대형 멀티모달 모델이라, 오픈 웨이트 공개 여부를 지켜볼 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Ant Ling 개발자 문서(1차) 확인. 가중치 미공개는 inclusionAI HF 목록과 isitsota 추적 기준."
+    },
+    "specs": {
+      "params": "560B (활성 25B)",
+      "context": "1M",
+      "modality": "텍스트·이미지·영상 입력",
+      "license": "가중치 미공개(API)"
+    },
+    "links": [
+      {
+        "label": "Ant Ling 모델 문서",
+        "url": "https://developer.ant-ling.com/en/docs/models/ling/",
+        "type": "source"
+      },
+      {
+        "label": "isitsota 추적",
+        "url": "https://isitsota.com/m/ling-3-2-flash",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-google-agent-substrate-cncf",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "구글, AI 에이전트 런타임 'Agent Substrate' 1.0·gVisor·OpenRL을 CNCF에 기증",
+    "summary": "구글이 에이전트 세션 상태(Actor)와 연산 풀(Worker)을 분리해 대기 중 에이전트를 스냅숏으로 내렸다가 500밀리초 안에 복원한다는 Agent Substrate 1.0을 내고, 샌드박스 커널 gVisor·강화학습 오케스트레이터 OpenRL과 함께 CNCF 샌드박스로 기증했다. 다음 주 KubeCon NA(11/9~12)에서 세션과 데모를 진행한다.",
+    "why": "에이전트가 대부분 시간을 대기로 보내는 특성에 맞춘 쿠버네티스 위 표준 런타임을 벤더 중립 재단에 넘긴 것으로, 자체 호스팅 에이전트 인프라의 기본 선택지가 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 오픈소스 블로그(11/5 현지) + GitHub 저장소 확인. 500ms 복원은 구글 발표 수치."
+    },
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_wdaUqPjEHOQEbXrFmii7Ow7AaR1TgWan91QRO0D-Wf4thu-2emQwFJGZ84-wQwVlNaq4AnDsPrz2Dqj0D5Ru1T168GIj2KqEMZpDoG6ie59Q0qdz6AW-hBhKf7DD_ChLtgTCZoey0YZZt3gDg2GmHvY8yQ4Ea8BniNDEC8mlHbMgAqqWFQ6m5JEZXiA/w1200-h630-p-k-no-nu/image.png",
+    "links": [
+      {
+        "label": "Google Open Source Blog",
+        "url": "https://opensource.googleblog.com/2026/11/sandboxing-untrusted-ai-agents-at-scale.html",
+        "type": "source"
+      },
+      {
+        "label": "agent-substrate/substrate",
+        "url": "https://github.com/agent-substrate/substrate",
+        "type": "github"
       }
     ]
   },
