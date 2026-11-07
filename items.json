@@ -20,6 +20,31 @@
     ]
   },
   {
+    "id": "2026-11-07-miraeasset-securities-hack",
+    "date": "2026-11-07",
+    "category": "한국 IT",
+    "title": "미래에셋증권 해킹…고객 3,800여명 계좌번호·임직원 3만5,255명 정보 유출",
+    "summary": "미래에셋증권은 11월 4~5일 모바일웹 휴대폰 인증 로그인과 그룹웨어(mi-global)에 대한 외부 공격으로 고객 3,800여명의 계좌번호와 임직원(퇴직·외주 포함) 3만5,255명의 성명·사번·이메일·휴대폰번호·암호화 비밀번호 등이 유출됐다고 7일 밝혔다. 고유식별·민감정보와 예금주명은 유출되지 않았고, 금전 피해·서비스 중단은 없다고 했다. 금융위·금감원·개인정보위에 보고했으며, 미래에셋그룹 내 관련 침해·시도 계열사는 4곳으로 늘었다.",
+    "why": "국내 최대 증권사에서 연이은 금융권 해킹 속에 대규모 정보 유출이 확인돼, 피싱 2차 피해와 금융투자업 보안 대응이 당장 이슈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "미래에셋증권 공식 공지(고객·임직원 유출 안내, 2026-11-07) + 연합뉴스 종합 보도."
+    },
+    "image": "https://img9.yna.co.kr/photo/yna/YH/2026/06/15/PYH2026061513310001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(종합)",
+        "url": "https://www.yna.co.kr/view/AKR20261107014452008",
+        "type": "source"
+      },
+      {
+        "label": "미래에셋증권 공지 목록",
+        "url": "https://securities.miraeasset.com/bbs/board/message/list.do?categoryId=66",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-update-samsung-skhynix-close",
     "date": "2026-11-06",
     "category": "한국 IT",
