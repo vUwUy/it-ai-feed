@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-11-08-llamacpp-b12191-moe-cache-cpu",
+    "date": "2026-11-08",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12191, MoE 캐시 미스를 CPU에서 일부 계산…tune 스크립트 추가",
+    "summary": "llama.cpp 프리릴리즈 b12191(2026-11-07 21:11 UTC, KST 11/8 오전)이 PR #30966을 포함한다. `--moe-cache-cpu-share F`로 MoE 캐시 미스의 일부 전문가를 호스트 CPU에서 계산해 업로드를 줄이고, `scripts/moe-cache-tune.py`로 `--moe-cache-mib`·CPU share 추천값을 뽑는다.",
+    "why": "대형 MoE를 GPU VRAM만으로 못 담을 때 CPU 일부를 섞어 처리하는 경로가 열려, 로컬 MoE 추론 실용성이 오른다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ggml-org/llama.cpp GitHub Releases b12191 + PR #30966."
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12191 릴리즈",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191",
+        "type": "source"
+      },
+      {
+        "label": "PR #30966",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/30966",
+        "type": "github"
+      },
+      {
+        "label": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-07-update-nasdaq-rebound",
     "date": "2026-11-07",
     "category": "AI·IT",
@@ -15,6 +44,31 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261107008500072",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-tsmc-3d-dram-report-denial",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "[보도] TSMC, 엔비디아 요청으로 3D D램 검토설…본사는 로직 파운드리 집중 입장",
+    "summary": "The Information 등 외신은 TSMC가 엔비디아 요청으로 3D D램 사업화 구상에 착수했고 첨단 패키징 총괄 쉬궈진 부사장이 주도한다고 전했다. Tom's Hardware가 받은 TSMC 대변인 코멘트는 “핵심은 로직 IC 파운드리에 집중”이라며 사실상 보도를 부인하는 입장이었다. 공식 사업 발표는 없다.",
+    "why": "AI로 HBM·D램이 전략 자산이 된 상황에서 세계 최대 파운드리의 메모리 진출설은 공급망·삼성·SK하이닉스 관계에 파급이 크다. 다만 공식 확인은 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "보도(The Information→ZDNet Korea) + TSMC 대변인 코멘트(Tom's Hardware). 공식 사업 발표 없음."
+    },
+    "image": "https://cdn.mos.cms.futurecdn.net/inWCPzXNVFbyYDRmxtthn3-970-80.jpg",
+    "links": [
+      {
+        "label": "Tom's Hardware (대변인 코멘트)",
+        "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261107132711",
         "type": "source"
       }
     ]
@@ -40,6 +94,25 @@
       {
         "label": "미래에셋증권 공지 목록",
         "url": "https://securities.miraeasset.com/bbs/board/message/list.do?categoryId=66",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-madison-huang-korea-visit-cancel",
+    "date": "2026-11-07",
+    "category": "한국 IT",
+    "title": "젠슨 황 장녀 매디슨 황, 방한 하루 앞두고 취소…AI 데이는 예정대로",
+    "summary": "젠슨 황 엔비디아 CEO의 장녀인 매디슨 황(옴니버스·로보틱스 제품 마케팅 수석이사)이 8일 방한 예정이었으나 가족 사유로 하루 앞두고 일정을 취소했다고 연합뉴스가 전했다. 9~10일 서울 코엑스 ‘엔비디아 AI 데이 서울 2026’은 예정대로 열린다. 구체적 사유는 공개되지 않았다.",
+    "why": "국내 AI·반도체 업계가 주목하던 엔비디아 고위 인사 방한이 무산돼, AI 데이 현장 메시지와 정부·업계 접촉 일정에 공백이 생긴다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도(2026-11-07 21:35 KST). 행사 예정 진행은 업계·정부 취재 종합."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261107050000017",
         "type": "source"
       }
     ]
@@ -98,6 +171,36 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261107000003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-claude-code-settings-local-secrets",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "Claude Code ‘Don’t Ask Again’, 공개 GitHub 1,122건에 비밀번호·키 노출",
+    "summary": "Apiiro 조사에 따르면 Claude Code에서 ‘Yes, and don’t ask again’을 고르면 승인 명령이 `.claude/settings.local.json`에 그대로 저장되며, 여기에 비밀번호·토큰이 포함될 수 있다. 공개 GitHub에서 해당 파일 사본 1,122건에 비밀이 최소 1개 이상 있었고(서로 다른 비밀 1,379개), Claude 공동저자 커밋이 파일을 바꾼 사례도 539/1,105개 저장소에서 확인됐다. 권고는 먼저 자격증명 교체 후 정리.",
+    "why": "AI 코딩 에이전트 권한 파일이 프로젝트 디렉터리에 남아 git에 올라가면 비밀이 퍼진다. 로컬 개발 보안 기본 수칙이 다시 이슈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Apiiro 연구 원문(HN·THN이 인용) + The Hacker News 요약(2026-11-07). HN 토론에서 Claude Code팀 응답 확인."
+    },
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1700-nu-rw-lo-l85-e365/claude-code.jpg",
+    "links": [
+      {
+        "label": "Apiiro 연구",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50407882",
         "type": "source"
       }
     ]
@@ -308,6 +411,31 @@
       {
         "label": "뉴스핌",
         "url": "https://www.newspim.com/news/view/20261106001038",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-update-google-wyoming-crusoe-sale",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "업데이트: 구글, Crusoe 와이오밍 미완공 데이터센터 부지 인수…Crusoe 사전개발 종료",
+    "summary": "Crusoe가 와이오밍 남동부 데이터센터 부지를 구글에 넘겼다고 공식 발표했다. 부지 선정·인허가·Tallgrass와 하이브리드 전력 전략 등 사전개발을 마친 뒤 매각이며, 거래 금액은 비공개다. TechCrunch에 따르면 구글은 캠퍼스 개발에 170억 달러를 투자할 계획이고, Crusoe는 텍사스 아마릴로(Armstrong County) 구글 캠퍼스 개발은 계속한다.",
+    "why": "앞서 알려진 구글 와이오밍 투자 뉴스의 거래 상대·구조가 Crusoe 사전개발 종료·부지 인수로 구체화됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Crusoe 공식 뉴스룸(2026-11-06) + TechCrunch. 기존 구글 170억 달러 와이오밍 투자 항목의 업데이트."
+    },
+    "image": "https://cdn.prod.website-files.com/6863cc86499b79ce3ab28f8b/6aee19ec970f4b7e8614bcdb_6abaa3170b66e6fbd57379d2_Crusoe%20X%20Google-p-1080.jpg",
+    "links": [
+      {
+        "label": "Crusoe 공식",
+        "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
         "type": "source"
       }
     ]
@@ -627,6 +755,67 @@
     ]
   },
   {
+    "id": "2026-11-06-nous-arete-27b",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "Nous Research Arete-27B 공개…Qwen3.8-27B SFT로 ‘서방 가치’ 정렬",
+    "summary": "Nous Research가 Alibaba Qwen3.8-27B를 감독 미세조정(SFT, RL 없음)한 Arete-27B 가중치를 Apache 2.0으로 공개했다. 자체 propaganda eval(803 프롬프트)에서 fact mean 2.32→2.98/5, propaganda 응답 22%→0.9%로 줄였고 Hermes Bench는 65.77%→65.60%로 큰 회귀가 없다고 밝혔다. 학습은 약 5,280만 토큰·64k 컨텍스트·1,202 스텝.",
+    "why": "강한 중국 오픈웨이트 모델을 로컬에서 가치 정렬해 쓰는 사례로, 27B급 로컬 에이전트·연구용 선택지가 늘었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Nous 공식 블로그 + HF 모델 카드(2026-11-06). bartowski GGUF URL HEAD 200 확인."
+    },
+    "image": "https://nousresearch.com/assets/nous-web/blog/arete1-card.webp",
+    "specs": {
+      "params": "27B",
+      "license": "Apache 2.0",
+      "context": "64K(학습)",
+      "modality": "텍스트(비전 인코더 동결)",
+      "compute": "Qwen3.8-27B SFT · ~52.8M tokens · 1,202 steps"
+    },
+    "links": [
+      {
+        "label": "Nous 블로그",
+        "url": "https://nousresearch.com/arete",
+        "type": "source"
+      },
+      {
+        "label": "NousResearch/Arete-27B",
+        "url": "https://huggingface.co/NousResearch/Arete-27B",
+        "type": "huggingface"
+      },
+      {
+        "label": "bartowski GGUF",
+        "url": "https://huggingface.co/bartowski/NousResearch_Arete-27B-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-ms-ai-frontiers-ended",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "MS Research ‘AI Frontiers’ 종료…존 랭포드, 스케일링 일변도 MAI와 불화 후 퇴사",
+    "summary": "존 랭포드가 개인 블로그에서 Microsoft Research의 AI Frontiers(AIF, 약 50명)가 끝났다고 밝혔다. 2026년 9월 초 MAI(Microsoft AI)로 재편된 뒤 전 Inflection 리더십의 ‘스케일링 일변도·연구 배제’ 철학과 맞지 않아 본인과 창립 리더십이 떠났다고 썼다. Autogen·Fara, Next Latent·Dion3·Full Bandwidth Transformer 등을 AIF 성과로 언급했다.",
+    "why": "빅테크가 연구 조직을 제품·스케일링 쪽으로 흡수하는 흐름을 내부자가 직접 서술한 1차 자료로, MS의 AI 연구 경로를 가늠하는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "John Langford 본인 블로그(hunch.net, 2026-11-06) + HN 토론(id=50406563)."
+    },
+    "links": [
+      {
+        "label": "hunch.net (John Langford)",
+        "url": "https://hunch.net/?p=13764006",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50406563",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-mofe-semiconductor-demand-meeting",
     "date": "2026-11-06",
     "category": "한국 IT",
@@ -742,6 +931,44 @@
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-maritaca-s5-nano",
+    "date": "2026-11-06",
+    "category": "로컬 AI",
+    "title": "Maritaca S5-nano 공개…약 4B 포르투갈어 강점, Think/Instruct·262K·MTP",
+    "summary": "브라질 Maritaca AI가 S5-nano(약 4.2B, Apache 2.0)를 공개했다. Think(기본)/Instruct 모드, 컨텍스트 최대 262,144 토큰, MTP 레이어를 포함하며 BF16·FP8·공식 GGUF(Q4_K_M 약 2.8GB 등)를 제공한다. 자체 관측소 평가에서 Think 모드 Native BR 평균 83.74로 동급 대비 포르투갈어·브라질 벤치에 강하다고 밝혔다.",
+    "why": "4B급으로 긴 컨텍스트·추론 모드·GGUF까지 갖춰 노트북·소형 GPU 로컬 실험에 쓰기 좋은 다국어(특히 PT-BR) 선택지다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드 maritaca-ai/S5-nano + 공식 GGUF 저장소 URL 확인."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/maritaca-ai/S5-nano.png",
+    "specs": {
+      "params": "~4.2B",
+      "license": "Apache 2.0",
+      "memory": "Q4_K_M ~2.8GB / Q8_0 ~4.6GB / BF16 ~8.7GB",
+      "context": "262K",
+      "modality": "텍스트(+비전 mmproj 옵션)",
+      "compute": "Think/Instruct · MTP speculative decoding"
+    },
+    "links": [
+      {
+        "label": "maritaca-ai/S5-nano",
+        "url": "https://huggingface.co/maritaca-ai/S5-nano",
+        "type": "source"
+      },
+      {
+        "label": "공식 GGUF",
+        "url": "https://huggingface.co/maritaca-ai/S5-nano-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "bartowski GGUF",
+        "url": "https://huggingface.co/bartowski/maritaca-ai_S5-nano-GGUF",
+        "type": "huggingface"
       }
     ]
   },
@@ -896,6 +1123,30 @@
       {
         "label": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50385272",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-china-miit-robot-id-code-draft",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "중국 공신부, 로봇 ‘제품식별코드’ 잠정방법 초안 의견수렴…전 품목 일기기코드",
+    "summary": "공업정보화부 장비공업일사가 《로봇제품식별코드 관리 잠정방법(의견수렴안)》을 공개했다(의견수렴 2026-11-06~12-05). 출고 로봇에 제조사·제품설명·일련번호 등으로 구성된 유일 식별코드를 부여하고 GB/T 48541-2026을 따르도록 하며, 적용 범위를 산업·서비스·특수용 등 전 품목으로 넓힌다.",
+    "why": "중국이 로봇을 국가 단위로 추적·관리하려는 제도화 신호로, 현지 생산·수출 로봇의 출고·등록 절차에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MIIT 의견수렴 원문(2026-11-06 게시) + IT之家 초안 요약."
+    },
+    "links": [
+      {
+        "label": "공업정보화부 의견수렴 원문",
+        "url": "https://www.miit.gov.cn/gzcy/yjzj/art/2026/art_ef16149bd27e4d7f95e5537e7dc68fdc.html",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/023/625.htm",
         "type": "source"
       }
     ]
