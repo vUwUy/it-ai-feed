@@ -1,5 +1,80 @@
 [
   {
+    "id": "2026-11-08-unsloth-v0-1-916",
+    "date": "2026-11-08",
+    "category": "로컬 AI",
+    "title": "Unsloth v0.1.916: 대폭 성능 개선·GPU 2장 이미지/영상 생성 최대 2배",
+    "summary": "같은 NVIDIA GPU 2장으로 SDXL·Qwen-Image·Wan2.2 5B 등이 약 1.5~1.8배 빨라지고, 대형 모델의 통합 메모리 오프로딩이 제대로 동작하게 됐다. Qwen3.8-Flash용 Dynamic V3.1(토큰 50% 절감·정확도 15%↑ 주장)과 채팅별 브라우저·플로팅 브라우저도 추가됐다.",
+    "why": "로컬에서 LLM·이미지·영상 생성을 한 앱으로 돌리는 사용자에게 체감 속도와 멀티 GPU 활용이 크게 개선된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트. 수치는 개발사 주장"
+    },
+    "image": "https://opengraph.githubassets.com/66260dc0b50d172a6e00f0babcdcf636d06b1c2d4bd6bbe83c5a62e2c450aceb/unslothai/unsloth/releases/tag/v0.1.916-beta",
+    "links": [
+      {
+        "label": "릴리스 노트",
+        "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.916-beta",
+        "type": "source"
+      },
+      {
+        "label": "unslothai/unsloth",
+        "url": "https://github.com/unslothai/unsloth",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-08-samsung-cash-214-trillion",
+    "date": "2026-11-08",
+    "category": "한국 IT",
+    "title": "삼성전자 현금 자산 214조8천억원…국내 기업 첫 200조 돌파",
+    "summary": "삼성전자의 3분기 말 현금성 자산이 214조8천억원으로 직전 분기 190조원에서 24조8천억원 늘었고, 순현금은 197조6천억원이다. 올해 시설투자 84조4천억원(반도체 76조8천억원)이 예정돼 있고, 주주환원은 계획 최대치인 110조원에 달할 것으로 연합뉴스가 전망했다.",
+    "why": "AI 메모리 호황의 현금이 HBM·신규 팹·테일러 파운드리 투자로 이어지는 규모를 보여준다. 삼성은 내년 1월 말 이사회에서 차기 주주환원 정책을 발표할 계획이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(3분기 보고서 기반 집계). 110조·130조+α는 업계 전망치"
+    },
+    "image": "https://img2.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102905990001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261106156200003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-08-macos-family-classifier-8rank",
+    "date": "2026-11-08",
+    "category": "AI·IT",
+    "title": "맥OS, 연락처를 '가족'으로 점수 매기는 비공개 분류기 탑재…8rank 분석",
+    "summary": "보안 연구팀 8rank는 맥OS가 온디바이스 지식 그래프를 만들며, 144개 신호(성·주소 등 신원 20개, 연락 패턴 40개, 사진 동반 출현 84개)를 쓰는 XGBoost 분류기 2개로 가족 여부를 점수화한다고 밝혔다. 결과는 사람별 17개 관계 열로 매일 다시 계산되며, 데이터가 기기 밖으로 나간다는 증거는 제시되지 않았다.",
+    "why": "사용자가 보거나 고칠 수 없는 관계 추론이 기본으로 돌아간다는 점에서 프라이버시 논란이 커지고 있다. 애플 공식 입장은 아직 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "8rank 원문 + 오픈소스 도구 iKnow 저장소 확인. 애플 미확인·연구자 분석"
+    },
+    "image": "https://8rank.ai/og-apple-intelligence-personal-knowledge-graph.png",
+    "links": [
+      {
+        "label": "8rank 분석 원문",
+        "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+        "type": "source"
+      },
+      {
+        "label": "8rank/iKnow",
+        "url": "https://github.com/8rank/iKnow",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50403097",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-08-llamacpp-b12191-moe-cache-cpu",
     "date": "2026-11-08",
     "category": "로컬 AI",
@@ -49,6 +124,31 @@
     ]
   },
   {
+    "id": "2026-11-07-uk-agentic-ai-loss-of-control-clause",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "영국, 사이버보안법에 'AI 에이전트 통제 상실' 조항 추가…장관에 조사 권한",
+    "summary": "영국 정부가 사이버보안·복원력 법안에 AI 에이전트의 감독·통제 상실로 인한 침해에 대해 장관이 규정을 만들고 조사관 임명·현장 조사 등을 할 수 있게 하는 조항(32조)을 넣었다. 정부는 보안 요건, 영향받은 기관 통지, 증거 보존, 사후 검토 권한 등 4가지 조치를 협의를 거쳐 도입할 계획이며 아직 시행 전이다.",
+    "why": "에이전트 사고를 법적으로 다루는 첫 국가 단위 장치 중 하나로, 필수 서비스 운영사에 에이전트 모니터링 의무가 생길 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GOV.UK 공식 팩트시트 + The Register 보도"
+    },
+    "image": "https://image.theregister.com/2918046.jpg?imageId=2918046&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+      {
+        "label": "GOV.UK 팩트시트",
+        "url": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets/agentic-ai-resilience-measures",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-07-tsmc-3d-dram-report-denial",
     "date": "2026-11-07",
     "category": "AI·IT",
@@ -69,6 +169,31 @@
       {
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261107132711",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-nvidia-h200-china-empty-office-nyt",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "[보도] 美 승인받은 엔비디아 H200 中 구매업체, 사무실은 텅 빈 껍데기",
+    "summary": "뉴욕타임스에 따르면 H200 서버 조립 승인 업체 중 하나인 New Matrix는 설립 17개월로, 등록 주소 사무실이 비어 있고 관리사무소에도 기록이 없었다. 소유주는 2024년부터 미국 블랙리스트에 오른 중국 사모펀드와 연관돼 있으며, 제재 대상과 연결된 업체 승인이 반복되는 패턴이라고 보도했다.",
+    "why": "미 상무부와 엔비디아의 대중국 칩 수출 심사 부실 논란으로 이어질 수 있어 수출 규제 재강화 변수다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NYT 원보도를 The Verge가 인용 보도, DNYUZ에 NYT 기사 재게재 확인"
+    },
+    "image": "https://dnyuz.com/wp-content/uploads/2026/11/07dc-china-chips-01-fjhg-facebookJumbo-1024x535.jpg",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+        "type": "source"
+      },
+      {
+        "label": "NYT 기사 재게재 (DNYUZ)",
+        "url": "https://dnyuz.com/2026/11/07/u-s-cleared-nvidia-chips-to-chinese-firms-with-empty-offices-and-troubling-ties/",
         "type": "source"
       }
     ]
@@ -176,6 +301,56 @@
     ]
   },
   {
+    "id": "2026-11-07-github-pr-overview-preview",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "GitHub, PR 'Overview' 새 화면 공개 프리뷰…머지 가능 여부를 맨 위로",
+    "summary": "GitHub가 머지 상태·체크·승인과 다음 행동을 PR 상단에 압축해 보여주는 새 Overview 페이지를 옵트인 공개 프리뷰로 내놨고, 이번 주말까지 순차 배포한다. 미해결·내 댓글 필터와 최신순 정렬, 활동 요약도 추가됐다.",
+    "why": "AI 코딩 도구로 리뷰할 PR이 늘어난 상황에서 리뷰 동선을 줄이려는 변화로, 헤더의 'Try the Overview page'로 바로 써볼 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 체인지로그"
+    },
+    "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+    "links": [
+      {
+        "label": "GitHub 체인지로그",
+        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-deepmind-ai-agents-rsa-1024",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "구글 딥마인드, AI 에이전트로 구형 RSA-1024 약점 2가지 발견",
+    "summary": "사람 연구자의 감독 아래 AI 에이전트가 1024비트 RSA에서 서명 위조 기법과 일괄 인수분해 비용을 낮추는 방법을 찾았다고 딥마인드가 11월 6일(현지시간) 밝혔다. 기존 벤치마크 재현은 CPU 시간 3.5배 절감(실측), 32바이트 입력 위조는 이론상 약 1,600배, 키당 인수분해 비용은 약 30배 절감(추정)이다.",
+    "why": "AI 에이전트가 암호 안전성 가정을 빠르게 검증하는 사례다. 딥마인드는 2048비트 이상 현대 RSA에는 영향이 없다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Interesting Engineering·AI Tamer 등 독립 보도 2곳 이상 일치, 선행 연구는 IACR ePrint 2026/2131. 1,600배·30배는 이론 추정치"
+    },
+    "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Logo-onf-Google-DeepMind-on-a-tablet.jpg",
+    "links": [
+      {
+        "label": "Interesting Engineering",
+        "url": "https://interestingengineering.com/ai-robotics/google-deepmind-agents-expose-older-encryption-flaws",
+        "type": "source"
+      },
+      {
+        "label": "AI Tamer 정리",
+        "url": "https://aitamer.news/posts/deepmind-ai-agents-rsa-1024-cryptanalysis/",
+        "type": "source"
+      },
+      {
+        "label": "선행 논문 (IACR ePrint)",
+        "url": "https://eprint.iacr.org/2026/2131",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-07-claude-code-settings-local-secrets",
     "date": "2026-11-07",
     "category": "AI·IT",
@@ -201,6 +376,31 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50407882",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-amd-lisa-su-data-center-first",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "리사 수 AMD CEO \"우리는 데이터센터 우선 기업\"…소비자 GPU 우려 확산",
+    "summary": "리사 수 CEO는 야후 파이낸스 인터뷰에서 AMD를 '데이터센터 우선 기업'이라고 말하며 데이터센터 사업이 3분기에서 4분기로 50% 성장할 것으로 내다봤다. r/LocalLLaMA 등에서는 저렴한 GPU 구하기가 더 어려워질 것이라는 반응이 나왔다.",
+    "why": "로컬 AI 사용자에게 중요한 소비자용 GPU 공급·가격 우선순위가 더 밀릴 수 있다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge·PC Gamer 독립 보도 2곳 (야후 파이낸스 인터뷰 인용)"
+    },
+    "image": "https://cdn.mos.cms.futurecdn.net/qDK99x7KtDSDHFZjKX9dj3-1920-80.jpg",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028538/we-are-a-data-center-first-company-amd-ceo-lisa-su-says",
+        "type": "source"
+      },
+      {
+        "label": "PC Gamer",
+        "url": "https://www.pcgamer.com/gaming-industry/amd-ceo-lisa-su-we-are-a-data-center-first-company/",
         "type": "source"
       }
     ]
