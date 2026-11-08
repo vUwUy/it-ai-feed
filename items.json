@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-11-09-vercel-deepseek-v41-ultrafast",
+    "date": "2026-11-09",
+    "category": "로컬 AI",
+    "title": "Vercel AI Gateway, DeepSeek V4.1 Flash 1017 'Ultrafast' 공개 프리뷰…Fireworks 제공, 초당 1,000+ 토큰",
+    "summary": "Fireworks의 가속 엔드포인트로 제공되며 컨텍스트 1M 토큰, 입력 $2.40·출력 $9.60 /백만 토큰이다. 모델 ID는 deepseek/deepseek-v4.1-flash-1017-ultrafast. 로컬이 아닌 호스팅 서비스다.",
+    "why": "오픈 웨이트(MIT) DeepSeek V4.1 Flash를 매우 빠른 호스팅 API로 쓸 수 있게 됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Vercel 공식 changelog·모델 페이지. 속도는 Vercel 문구"
+    },
+    "links": [
+      {
+        "label": "Vercel changelog",
+        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+        "type": "source"
+      },
+      {
+        "label": "모델 페이지",
+        "url": "https://vercel.com/ai-gateway/models/deepseek-v4.1-flash-1017-ultrafast",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-08-unsloth-v0-1-916",
     "date": "2026-11-08",
     "category": "로컬 AI",
@@ -65,6 +89,35 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261106156200003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-08-nvidia-board-huang-probe",
+    "date": "2026-11-08",
+    "category": "AI·IT",
+    "title": "업데이트: 엔비디아 이사회, 젠슨 황 '中 정보기관 표적' 독립 조사 개시…황, 불륜 인정 사내 메모",
+    "summary": "엔비디아 이사회가 8일 독립이사 위원회와 외부 변호사가 맡는 조사를 시작한다고 밝혔다. 황은 사내 메모에서 외도를 인정했고, 이사회는 국가안보·기밀이 침해됐다고 볼 근거는 없다고 했다.",
+    "why": "CEO를 둘러싼 의혹이 회사 차원의 공식 조사로 번졌고, 美 하원 브리핑 요구에 이어 엔비디아 거버넌스·대중 수출 정책 리스크로 이어질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch·The Verge·NBC 등 복수 보도. 이사회 성명 인용. 간첩 모집 주장은 美 정보당국 메모 기반 보도(NBC는 자체 확인 안 됐다고 명시)"
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+        "type": "source"
+      },
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148",
         "type": "source"
       }
     ]
@@ -158,6 +211,59 @@
         "label": "microsoft/Mage-VL-Cowork",
         "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-08-caissi-white-house-ap",
+    "date": "2026-11-08",
+    "category": "AI·IT",
+    "title": "[보도] 美 AI 안전센터 CAISSI, 상임 센터장 없이 연구 공개 중단…직원은 백악관에 비공식 보고 요청받아",
+    "summary": "AP는 상무부 산하 CAISSI가 연구 공개를 중단했고 상임 리더가 없으며, 직원들이 백악관 한 사무실에 비공식 보고하라는 요청을 받았다고 익명의 전직 관료 2명을 인용해 보도했다. 백악관은 구체 질문엔 답하지 않았다.",
+    "why": "프런티어 모델을 평가하는 정부 기관의 독립성과 결과 공개 여부가 걸려 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AP 원문 + Fox News 후속 보도. 핵심은 익명 관료 2명 증언이며 백악관·상무부는 직접 확인하지 않음"
+    },
+    "links": [
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13",
+        "type": "source"
+      },
+      {
+        "label": "Fox News",
+        "url": "https://www.foxnews.com/live-news/ai-news-safety-11-08-26",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-08-apple-agentic-siri-gurman",
+    "date": "2026-11-08",
+    "category": "AI·IT",
+    "title": "[보도] 애플, 빠르면 내년 Siri를 '에이전트'에 가깝게…터너스가 페더리기에 가속 압박(블룸버그)",
+    "summary": "블룸버그 마크 거먼에 따르면 존 터너스 CEO가 크레이그 페더리기에게 Siri 개선을 넘어 에이전트형 기능을 서두르라고 압박하고 있다. 9to5Mac은 iOS 28 기능으로 해석했지만 실제 출시 내용은 알려지지 않았다.",
+    "why": "Siri AI를 개발자에게 연 직후, 애플의 에이전트 경쟁 대응 속도를 보여주는 신호다.",
+    "verification": {
+      "status": "미확인",
+      "note": "블룸버그 단독을 The Verge·MacRumors·9to5Mac이 전한 보도. 애플 공식 확인 없음"
+    },
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+        "type": "source"
+      },
+      {
+        "label": "MacRumors",
+        "url": "https://www.macrumors.com/2026/11/08/siri-ai-rumored-to-become-more-agentic/",
+        "type": "source"
+      },
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/11/08/apple-working-on-agentic-siri-ai-next-year-report/",
+        "type": "source"
       }
     ]
   },
@@ -848,6 +954,30 @@
       {
         "label": "Bloomberg Tax",
         "url": "https://news.bloombergtax.com/financial-accounting/anthropic-ipo-buyers-see-valuation-as-low-as-1-1-trillion-1",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-suno-elvis-eminem-lawsuits",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "엘비스 측·에미넴 출판사, Suno에 각각 소송…ELVIS Act·저작권 침해 주장",
+    "summary": "엘비스 프레슬리 권리자와 에미넴 음반 다수의 출판사 Eight Mile Style이 11월 6일 Suno를 상대로 각각 소송을 냈다. 엘비스 측은 테네시 ELVIS Act 위반(음성·초상 복제)도 주장한다.",
+    "why": "AI 음악 생성의 학습·음성 복제 책임을 둘러싼 소송이 또 늘었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge·Variety 등 복수 보도. 소송 내용은 원고 주장"
+    },
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "type": "source"
+      },
+      {
+        "label": "Variety",
+        "url": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/",
         "type": "source"
       }
     ]
