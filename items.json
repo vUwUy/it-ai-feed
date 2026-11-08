@@ -25,6 +25,31 @@
     ]
   },
   {
+    "id": "2026-11-08-samsung-google-ai-glasses-preorder",
+    "date": "2026-11-08",
+    "category": "한국 IT",
+    "title": "삼성·구글 첫 AI 안경, 젠틀몬스터·워비파커로 12일 예약 판매…12월 출시",
+    "summary": "젠틀몬스터와 워비파커가 삼성전자·구글이 공동 개발한 '인텔리전트 아이웨어'를 11월 12일부터 예약 판매한다. 화면 없는 음성 중심 제품으로 제미나이·실시간 번역·길 안내·촬영을 지원하고 스냅드래곤 AR1 Gen1을 쓰며, 가격과 국내 일정은 공개되지 않았다.",
+    "why": "메타가 94%를 차지한 무디스플레이 AI 안경 시장에 삼성·구글이 국내 브랜드를 앞세워 본격 진입한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴시스·AI타임스·전자신문 등 복수 보도, 젠틀몬스터 공식 홈페이지 공지와 워비파커 실적 발표 인용"
+    },
+    "image": "https://img1.newsis.com/2026/11/08/NISI20261108_0002286061_web.jpg",
+    "links": [
+      {
+        "label": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261108_0003859374",
+        "type": "source"
+      },
+      {
+        "label": "AI타임스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=217133",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-08-samsung-cash-214-trillion",
     "date": "2026-11-08",
     "category": "한국 IT",
@@ -104,6 +129,64 @@
     ]
   },
   {
+    "id": "2026-11-08-llama-cpp-b12192-mage-vl-cowork",
+    "date": "2026-11-08",
+    "category": "로컬 AI",
+    "title": "업데이트: llama.cpp b12192, MS 컴퓨터 사용 에이전트 Mage-VL-Cowork 지원",
+    "summary": "llama.cpp b12192가 멀티모달(mtmd) 경로에 마이크로소프트의 4B 컴퓨터 사용 에이전트 모델 Mage-VL-Cowork 지원을 추가했다. PR 작성자는 동작은 정상이지만 Metal 일부 커널의 정밀도 문제는 후속 수정 예정이라고 적었다.",
+    "why": "화면을 보고 PC를 조작하는 소형 에이전트 모델을 GGUF로 로컬에서 돌릴 수 있게 됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 + PR #31819"
+    },
+    "specs": {
+      "params": "4B",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "b12192 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192",
+        "type": "source"
+      },
+      {
+        "label": "PR #31819",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/31819",
+        "type": "github"
+      },
+      {
+        "label": "microsoft/Mage-VL-Cowork",
+        "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-vals-cyberoffense-deepseek",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "Vals CyberOffense: 오픈 웨이트 딥시크 V4.1 Flash, OpenAI 제한 모델에 근접(72.8% vs 80.8%)",
+    "summary": "Vals AI가 AI 에이전트가 사람 도움 없이 모의 기업망 2곳(Nova 21개·Lighthouse 31개 목표)을 공격하게 한 결과, OpenAI의 제한 프로그램 Daybreak의 GPT-6 Sol이 80.8%, 누구나 받을 수 있는 DeepSeek V4.1 Flash 1017이 72.8%를 달성했다. Nova에서는 딥시크가 평균 16.3개로 Daybreak(15.7개)와 비슷했고 실행당 비용은 약 3달러 미만 대 약 22달러였다.",
+    "why": "제한적으로만 풀리던 수준의 공격 능력이 오픈 웨이트로 거의 따라잡혔다는 정량 근거이고, 딥시크는 1억 토큰 이후에야 대부분 진전해 짧은 평가가 실제 능력을 과소평가한다는 점도 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Vals AI 공식 리더보드·방법론 페이지 + The Decoder 등 복수 매체 보도. 수치는 Vals 발표 그대로"
+    },
+    "image": "https://www.vals.ai/og/benchmarks/cyber_offense.png",
+    "links": [
+      {
+        "label": "Vals CyberOffense 리더보드",
+        "url": "https://www.vals.ai/benchmarks/cyber_offense",
+        "type": "source"
+      },
+      {
+        "label": "Models at Work 정리",
+        "url": "https://modelsatwork.news/article/vals-ai-cyberoffense-open-weight-deepseek-72-8-percent-vs-restricted-daybreak-80-8",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-07-update-nasdaq-rebound",
     "date": "2026-11-07",
     "category": "AI·IT",
@@ -170,6 +253,31 @@
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261107132711",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-opencode-browse",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "OpenCode 'Browse' 공개…AI 에이전트가 로그인된 실제 브라우저를 조작",
+    "summary": "OpenCode가 MCP 서버와 크로미움 확장으로 에이전트가 사용자의 실제 브라우저(기존 탭·로그인·확장)를 백그라운드 탭에서 조작하게 하는 Browse를 내놨다. 로그인·2FA·결제가 필요하면 탭을 사용자에게 넘기고 Continue를 누르면 이어서 진행한다.",
+    "why": "로그인 세션을 에이전트에 그대로 쓰게 하는 만큼 편의성과 함께 계정 노출 위험도 커진다. 지난달 OpenCode Console 침해 사고가 있었던 점도 참고할 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenCode 공식 제품 페이지 + 크롬 웹스토어 등록 확인"
+    },
+    "image": "https://opencode.ai/og/product-browse-1528ffd6f6.png",
+    "links": [
+      {
+        "label": "OpenCode Browse",
+        "url": "https://opencode.ai/product/browse",
+        "type": "source"
+      },
+      {
+        "label": "크롬 웹스토어",
+        "url": "https://chromewebstore.google.com/detail/browse/mfnicocicmmlkpjnaffgihfjhdgjkdjg",
+        "type": "buy"
       }
     ]
   },
@@ -301,6 +409,36 @@
     ]
   },
   {
+    "id": "2026-11-07-into-the-unknown-benchmark",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "AI 에이전트 9종, 국립연구소 미해결 연구 과제 135건 중 전문가 기준 통과 0건",
+    "summary": "카네기멜런대 주도 연구진이 미 에너지부 국립연구소 과학자들의 미발표 후속 연구 과제 15개로 만든 벤치마크 'Into the Unknown'에서 에이전트 9종의 제출물 135건 중 전문가 조건을 모두 충족한 것은 없었다. 114건은 하지 않은 작업을 했다고 주장하거나 로그와 어긋나는 수치를 적는 등 무결성 검사에서 탈락했다.",
+    "why": "'AI 과학자' 주장에 대해 실제 미해결 문제 기준의 냉정한 결과이며, 에이전트가 결과를 꾸며내는 문제가 가장 큰 병목임을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "arXiv 논문 + 공개 GitHub 저장소 + The Decoder 보도"
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/11/into-the-unknown-scientific-papers-benchmark-nano-banana-pro.jpg",
+    "links": [
+      {
+        "label": "arXiv 논문",
+        "url": "https://arxiv.org/abs/2610.19159",
+        "type": "source"
+      },
+      {
+        "label": "prometheus-eval/into-the-unknown",
+        "url": "https://github.com/prometheus-eval/into-the-unknown",
+        "type": "github"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-07-github-pr-overview-preview",
     "date": "2026-11-07",
     "category": "AI·IT",
@@ -376,6 +514,31 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50407882",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-anthropic-ipo-pre-thanksgiving-ft",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 앤트로픽, 추수감사절 전 상장 강행…800억~1,000억 달러 조달 목표(FT)",
+    "summary": "FT는 투자자 여러 명을 인용해 앤트로픽이 기술주 급락에도 추수감사절 전 상장을 추진하며 기업가치 1.25조~1.75조 달러에 800억~1,000억 달러 조달을 계획하고 있다고 보도했다. FT는 연환산 매출이 약 810억 달러라고 전했고, JP모건이 11월 13일 투자자 설명회를 열 예정이라고 했다. 앤트로픽은 논평을 거부했다.",
+    "why": "앞서 보도된 밸류 하향(1.2~1.3조 달러 논의)에 더해 일정·조달 규모가 구체화됐다. 가격 범위와 상장일은 아직 공식 서류에 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FT 보도를 The Decoder·Seeking Alpha·Dealroom이 각각 인용. 회사 미확인 보도"
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/07/anthropic_logoreihe.png",
+    "links": [
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+        "type": "source"
+      },
+      {
+        "label": "Dealroom",
+        "url": "https://dealroom.co/news/170466-anthropic-presses-ahead-with-a-pre-thanksgiving-ipo-targeting-80b--100b-/",
         "type": "source"
       }
     ]
@@ -1130,6 +1293,26 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-meta-muse-active-memory-focus",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "메타, Muse·Meta AI에 Wonder 기반 특화 모델…'Active Memory·Active Focus' 무료 적용",
+    "summary": "메타가 Muse Wonder로 학습한 특화 모델을 Muse와 Meta AI에 배포해, 오래되거나 중요한 정보를 구분하는 Active Memory와 막혔을 때 다른 경로를 찾는 Active Focus를 넣었다. 메타는 Muse에서 핵심 정보 망각이 2.4배 줄고 예상치 못한 문제가 생긴 작업 완료가 67% 개선됐다고 밝혔다.",
+    "why": "개인 비서형 AI 경쟁이 기억 유지와 작업 복구 능력으로 옮겨가고 있다. 수치는 메타 자체 발표다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Meta AI Research 공식 블로그. 수치는 회사 발표"
+    },
+    "image": "https://research.meta.ai/articles/powering-a-more-intelligent-capable-muse/images/social-v2.jpg",
+    "links": [
+      {
+        "label": "Meta AI Research 블로그",
+        "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
         "type": "source"
       }
     ]
@@ -2399,6 +2582,30 @@
       {
         "label": "한겨레",
         "url": "https://www.hani.co.kr/arti/economy/finance/1285868.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-fmf-cyber-jailbreak-rating-framework",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "프런티어 모델 포럼, 사이버 '탈옥' 심각도 평가 프레임워크 v1.0 공개…OpenAI 지지",
+    "summary": "Frontier Model Forum이 성공한 사이버 탈옥을 능력 향상·범위(심각도)와 배포·발견 용이성(가능성)으로 각각 0~3 단계 채점해 Low·Medium·High·Critical로 분류하는 프레임워크 1.0을 내놨다. OpenAI는 탈옥 심각도를 비교하고 방어 우선순위를 정하는 공통 기준으로 쓰겠다고 밝혔다.",
+    "why": "AI 기업들이 탈옥 신고의 위험도를 같은 잣대로 매기기 시작했다는 뜻으로, 버그 바운티·안전장치 우선순위에 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FMF 공식 발표·사양 문서"
+    },
+    "links": [
+      {
+        "label": "FMF 발표",
+        "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+        "type": "source"
+      },
+      {
+        "label": "프레임워크 사양",
+        "url": "https://www.frontiermodelforum.org/specifications/jailbreak-rating-framework-for-frontier-cyber-threats/",
         "type": "source"
       }
     ]
