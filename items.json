@@ -1,5 +1,171 @@
 [
   {
+    "id": "2026-11-10-ollama-v0-40-16-rc0",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "Ollama v0.40.16-rc0: MLX에서 Qwen3.8 Flash Next 메모리 효율화·Ripple 프리뷰 지원",
+    "summary": "MLX 러너에 Ricursive Ripple 프리뷰 지원을 추가하고 Qwen3.8 Flash Next의 메모리 사용을 줄였다. 윈도 ARM64용 CUDA 13.5·SM 103 추가, llama.cpp b12177 반영, Claude Code 연동 라우팅 오류 수정도 포함된 릴리스 후보다.",
+    "why": "맥(MLX)에서 최신 오픈 모델을 더 적은 메모리로 돌릴 수 있게 된다. 아직 rc라 정식판에서 바뀔 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(릴리스 후보)"
+    },
+    "links": [
+      {
+        "label": "ollama v0.40.16-rc0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-meta-muse-ember",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "메타, 가장 작은 모델 'Muse Ember' 공개…입력 $0.10·출력 $0.50, 1M 컨텍스트",
+    "summary": "도구 호출·코딩 하위 작업·라우팅·추출·긴 문서 분석 같은 반복 에이전트 작업용으로, 텍스트·이미지·오디오·영상 입력을 받는다. 메타는 모든 추론 설정에서 Claude Haiku 5.5·GPT-6 Luna보다 달러당 지능이 높다고 주장한다. Meta Model API와 Muse Code에서 muse-ember-1.0으로 제공.",
+    "why": "큰 모델이 계획하고 작은 모델이 대량 실행하는 에이전트 구성에서 비용을 크게 낮출 수 있는 선택지다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 리서치 블로그·개발자 문서 + Economic Times. 비교 주장은 메타 측"
+    },
+    "image": "https://research.meta.ai/articles/muse-glint/hero/blog-header-light-v1.webp",
+    "specs": {
+      "context": "1M",
+      "modality": "텍스트·이미지·오디오·영상 입력",
+      "price": "$0.10 / $0.50 (백만 토큰, 200K 이하)"
+    },
+    "links": [
+      {
+        "label": "메타 리서치 블로그",
+        "url": "https://research.meta.ai/blog/muse-ember",
+        "type": "source"
+      },
+      {
+        "label": "개발자 문서",
+        "url": "https://dev.meta.ai/docs/muse-ember",
+        "type": "source"
+      },
+      {
+        "label": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/news/international/us/meta-launches-muse-ember-its-most-efficient-ai-model-to-handle-repetitive-tasks-know-what-it-can-do-and-heres-how-it-works/articleshow/135692774.cms",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-llamacpp-b12233-external-ple",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12233, PLE(층별 임베딩) 파일을 따로 불러오기 지원",
+    "summary": "--ple 옵션(--shard 별칭)으로 외부 PLE 파일을 여러 위치에서 불러올 수 있게 했고, 변환 스크립트에 PLE 분리 내보내기를 추가했다. 같은 날 Granite NVFP4 가중치 스케일 연결, Metal FA 출력 버퍼 경계 초과 쓰기 수정(b12221~b12223)도 들어갔다.",
+    "why": "용량이 큰 층별 임베딩을 본체와 분리해 저장·배치할 수 있어, 메모리가 빠듯한 기기에서 모델을 나눠 두기 쉬워진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12233",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12233",
+        "type": "source"
+      },
+      {
+        "label": "b12223 (Granite NVFP4)",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-google-tpu-8tx-8i-max",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "구글, 8세대 TPU 'TPU 8tx'(기밀 추론)·'TPU 8i Max'(긴 컨텍스트) 공개…한 해 4종",
+    "summary": "TPU 8tx는 TPU 8t와 같은 실리콘에 AMD EPYC 5세대 호스트를 붙여 실행 중에도 데이터·가중치를 보호하고, TPU 8i Max는 8i 칩 두 개를 한 패키지에 묶어 연산·SRAM·HBM 대역폭을 각각 두 배로 늘렸다. 구글은 Gemini로 칩 배치 작업을 수 주에서 수 시간으로 줄였다고도 밝혔다.",
+    "why": "규제 산업용 기밀 컴퓨팅과 에이전트 시대의 메모리 병목을 겨냥한 구성으로, TorchTPU·TPU Sync 등 오픈 소프트웨어도 함께 내놨다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + SiliconANGLE·토큰포스트"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/TPU-8tx_and_8i-Max.width-1300.png",
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+        "type": "source"
+      },
+      {
+        "label": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/11/09/google-advances-agentic-ai-custom-silicon-expanding-tpu-family-with-8tx-and-8i-max/",
+        "type": "source"
+      },
+      {
+        "label": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/ai/435387",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-chatgpt-enterprise-aws-marketplace",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "ChatGPT Enterprise, AWS Marketplace에서 구매 가능…AWS 청구로 결제",
+    "summary": "기업이 기존 AWS 구매·청구 관계로 ChatGPT Enterprise를 도입할 수 있게 됐다. 보도에 따르면 가격은 프라이빗 오퍼로 개별 책정되고, 사용액은 AWS 약정(EDP 등)에 산입될 수 있다.",
+    "why": "OpenAI가 마이크로소프트 외 클라우드 유통망을 넓히는 행보로, AWS 고객사의 도입 장벽을 낮춘다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글 + PPC Land·Unite.AI 보도"
+    },
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "type": "source"
+      },
+      {
+        "label": "PPC Land",
+        "url": "https://ppc.land/aws-customers-can-now-buy-chatgpt-enterprise-against-cloud-commitments/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-anthropic-fable-mythos-5-2",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude Fable 5.2·Mythos 5.2 출시…5.1보다 최대 30% 빠르고 $8/$40로 인하",
+    "summary": "같은 기반 모델로, Fable 5.2는 사이버·생물 안전장치를 달고 모든 사용자에게, Mythos 5.2는 Cyber·Life Sciences 검증 프로그램을 거친 기관에만 제공된다. 가격은 입력 $8·출력 $40(백만 토큰), 최대 2.5배 빠른 fast mode는 $16/$80, 컨텍스트 1M·최대 출력 128K.",
+    "why": "앤트로픽 최상위 모델의 새 버전이며, 회사는 대부분 작업은 Opus 5.5로 시작하고 가장 어려운 일에만 Fable을 쓰라고 권했다. 5.1에서 코드가 깨지는 변경 4가지가 있어 마이그레이션 시 확인 필요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 발표·플랫폼 문서 + The Verge. 성능 주장은 회사 자체 측정"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+    "specs": {
+      "context": "1M",
+      "price": "$8 / $40 (백만 토큰)"
+    },
+    "links": [
+      {
+        "label": "앤트로픽 발표",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "type": "source"
+      },
+      {
+        "label": "What's new in Fable 5.2",
+        "url": "https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-vercel-deepseek-v41-ultrafast",
     "date": "2026-11-09",
     "category": "로컬 AI",
@@ -43,6 +209,30 @@
       {
         "label": "로이터: 민주당 AI 법안 계획",
         "url": "https://www.yahoo.com/news/politics/articles/democrats-planning-flood-ai-bills-110522968.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-qwen-office-2-team-agent",
+    "date": "2026-11-09",
+    "category": "AI·IT",
+    "title": "알리바바 '千问办公(Qwen Office) 2.0'…여러 사람과 에이전트가 함께 일하는 'Team Agent'",
+    "summary": "출시 3개월 만의 최대 업그레이드로 '협업'·'인간-AI 공동 작업'·'자료 공간'·'자동 작업'·'3기기 연동'을 추가했고 클라이언트에 전면 배포됐다. 딩톡·페이슈·위챗워크 등 메신저와 연결된다.",
+    "why": "개인 비서형이던 업무 에이전트가 팀 단위 협업으로 넘어가는 흐름이며, 텐센트 WorkBuddy 등과 경쟁한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "每日经济新闻 보도 + 千问办公 공식 릴리스 노트 페이지"
+    },
+    "links": [
+      {
+        "label": "每经网",
+        "url": "https://www.nbd.com.cn/articles/2026-11-09/4642315.html",
+        "type": "source"
+      },
+      {
+        "label": "공식 릴리스 노트",
+        "url": "https://docs.qwenwork.cn/release-notes/desktop",
         "type": "source"
       }
     ]
@@ -107,6 +297,60 @@
     ]
   },
   {
+    "id": "2026-11-09-nvidia-korea-startup-investments",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "엔비디아, 국내 AI 스타트업 4곳 투자…포인트투 투자, 업스테이지·모티프·리얼월드 추가 투자 계획",
+    "summary": "과기정통부와 연 'AI 스타트업 파트너십 포럼'에서 RF 기반 AI 인터커넥트 기업 포인트투테크놀로지 투자를 발표하고, 모티프 테크놀로지스·리얼월드(RLWRLD)·업스테이지에 추가 투자 계획을 밝혔다. 금액은 공개하지 않았다.",
+    "why": "인프라(인터커넥트)부터 모델·로봇까지 국내 AI 스택 전반에 엔비디아 자본이 들어오는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA 코리아 공식 블로그 + 연합뉴스·조선비즈"
+    },
+    "image": "https://blogs.nvidia.co.kr/wp-content/uploads/sites/16/2026/11/korea-startups-msit-1920x1080-1.jpg",
+    "links": [
+      {
+        "label": "NVIDIA 블로그",
+        "url": "https://blogs.nvidia.co.kr/blog/korean-startup-investments-msit/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261109146400017",
+        "type": "source"
+      },
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/it-science/ict/2026/11/09/E2NB6FVCRRBONHFSOARRZ4U7SI/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-nvidia-dynamo-korean-open-models",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "엔비디아, 국산 오픈 모델 4종 Dynamo 배포 레시피 공개…A.X K2·K-EXAONE 2.0·Solar Open 2·Motif-3",
+    "summary": "SK텔레콤·LG AI연구원·업스테이지·모티프의 오픈 모델을 B200 GPU에서 분산 서빙하는 Dynamo 최적화 레시피로, 기본 설정만으로 최대 2배 성능을 낸다고 밝혔다. '모두의 AI' 컨소시엄 3곳과 국내 모델 개발사 4곳의 추론 최적화도 지원한다.",
+    "why": "국산 오픈 웨이트 모델을 실제 서비스 규모로 돌리는 데 필요한 서빙 경로가 공식으로 마련됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA 코리아 AI Day 서울 공식 라이브 블로그 + 과기정통부 NPU·엔비디아 협력 보도자료(연합뉴스)"
+    },
+    "links": [
+      {
+        "label": "NVIDIA 라이브 블로그",
+        "url": "https://blogs.nvidia.co.kr/blog/ai-day-seoul-2026-live/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스 AI픽",
+        "url": "https://www.yna.co.kr/view/AKR20261109045800017",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-nvidia-ai-day-seoul-keynotes",
     "date": "2026-11-09",
     "category": "한국 IT",
@@ -131,6 +375,30 @@
       {
         "label": "Aju Press",
         "url": "https://www.ajupress.com/view/20261109104314898",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-msit-vibe-coding-all-staff",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "과기정통부, 실·국장 포함 전 직급 'AI 바이브코딩' 교육…국산 AI 모델로 행정 혁신",
+    "summary": "자연어로 지시해 AI가 프로그램을 만드는 바이브코딩을 전 직급에 교육하고, 국산 독자 AI 모델을 활용해 행정업무와 대국민 서비스 개선에 적용할 계획이다.",
+    "why": "정부 부처가 직접 AI 코딩 도구를 업무에 쓰겠다는 것으로, 공공 부문 AI 활용의 기준점이 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "정책브리핑 보도자료 + 연합뉴스"
+    },
+    "links": [
+      {
+        "label": "정책브리핑",
+        "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788451",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261109075600017",
         "type": "source"
       }
     ]
@@ -303,6 +571,31 @@
         "label": "ML-TANGO/TANGO2",
         "url": "https://github.com/ML-TANGO/TANGO2",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-bytedance-seedream-5-5",
+    "date": "2026-11-09",
+    "category": "AI·IT",
+    "title": "바이트댄스, 이미지 모델 Seedream 5.5 공개…100회 연속 편집·투명 배경(RGBA) 직접 생성",
+    "summary": "편집하지 않은 영역을 픽셀 단위로 보존해 같은 이미지를 100회 연속 편집할 수 있고, 알파 채널이 있는 이미지를 바로 만든다. 중·영문 텍스트 심각한 깨짐률은 0.4%라고 밝혔다. Doubao·Jimeng 등에 적용되고 Volcano Engine API가 열린다.",
+    "why": "배경 제거 없이 바로 쓸 수 있는 에셋 생성은 실무 디자인 워크플로에 직접 영향을 준다. Pro 버전도 예고됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ByteDance Seed 공식 블로그 + AIbase 보도. 평가 수치는 자체 측정"
+    },
+    "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mw8m2iyi.png",
+    "links": [
+      {
+        "label": "Seed 공식 블로그",
+        "url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+        "type": "source"
+      },
+      {
+        "label": "AIbase",
+        "url": "https://www.aibase.com/news/32185",
+        "type": "source"
       }
     ]
   },
