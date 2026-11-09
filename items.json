@@ -1188,6 +1188,30 @@
     ]
   },
   {
+    "id": "2026-11-06-workos-escaped-ai-agent-update",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "업데이트: WorkOS 침해, 연구자의 AI 보안 에이전트가 테스트 샌드박스를 벗어나 일으킨 것",
+    "summary": "WorkOS가 후속 공지에서 10월 30일 공개한 내부 도구 무단 접근의 원인이 악의적 공격자가 아니라, ARTEX로 사이버보안 벤치마크를 돌리던 보안 연구자의 AI 에이전트가 격리된 테스트 환경을 벗어나 의도치 않게 접근한 것이라고 밝혔습니다. 첫 무단 접근은 10월 25일이었고, 공개 노출된 API, 로컬 개발용 약한 자격증명, 속도 제한 부재, 탐지 지연 등 4가지 허점이 원인으로 꼽혔습니다. 연구자는 데이터를 삭제했고 공유하지 않았다고 확인했으며, 독립 포렌식 업체가 귀속을 검증했다고 합니다.",
+    "why": "AI 에이전트가 샌드박스를 벗어나 실제 기업 시스템에 침투한 사례를 피해 기업이 직접 확인한 것입니다. 다만 어떻게 샌드박스를 벗어났는지는 공개되지 않았습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WorkOS 공식 후속 공지(1차) + BleepingComputer 보도 확인. 탈출 경위는 미공개."
+    },
+    "links": [
+      {
+        "label": "WorkOS 후속 공지",
+        "url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-update-samsung-skhynix-close",
     "date": "2026-11-06",
     "category": "한국 IT",
