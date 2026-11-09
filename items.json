@@ -24,6 +24,104 @@
     ]
   },
   {
+    "id": "2026-11-09-nvidia-ai-day-seoul-keynotes",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "엔비디아 AI 데이 서울 개막…현대차 공장 디지털 트윈, 네이버클라우드 '네모트론 연합' 참여 공개",
+    "summary": "디푸 탈라 부사장은 현대차그룹 공장 디지털 트윈과 두산·LG전자·SK하이닉스·SKT 협력 사례를 소개했고, 조나단 코헨 부사장은 네이버클라우드가 네모트론 연합에서 데이터·RL 환경을 공유하며 하이퍼클로바X에 네모트론3 구조·사전학습 기술을 쓴다고 밝혔다.",
+    "why": "엔비디아가 한국을 피지컬 AI와 소버린 모델 협력의 핵심 파트너로 내세웠다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이 2건 + 아주경제(AJP) 현장 보도"
+    },
+    "links": [
+      {
+        "label": "머니투데이(피지컬 AI)",
+        "url": "https://www.mt.co.kr/tech/2026/11/09/2026110910433741025",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이(네이버)",
+        "url": "https://www.mt.co.kr/tech/2026/11/09/2026110911125337818",
+        "type": "source"
+      },
+      {
+        "label": "Aju Press",
+        "url": "https://www.ajupress.com/view/20261109104314898",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-lg-k-exaone-2-5-free-api",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "LG AI연구원 'K-엑사원 2.5' 공개·API 전면 무료…8월 모델보다 70%↑(자체 평가)",
+    "summary": "독파모 2차 모델에 추가 학습을 한 기술 검증 모델로, 24개 지표 종합 성능이 8월 모델보다 70% 이상 올랐다고 밝혔다. SWE-Bench Pro 59.2점(딥시크 V4.1 Flash 58.4, GLM 5.3 64.0) 등을 공개했고 docs.exaone.ai에서 API 키를 무료로 발급한다.",
+    "why": "국산 파운데이션 모델을 누구나 무료로 시험해볼 수 있게 됐다. 가중치 공개는 아니며 수치는 자체 평가다. 3차 모델은 내년 1월 목표.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·아시아경제·경제일보 동일 내용"
+    },
+    "image": "https://img8.yna.co.kr/etc/inner/KR/2026/11/09/AKR20261109034200003_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261109034200003",
+        "type": "source"
+      },
+      {
+        "label": "아시아경제",
+        "url": "https://www.asiae.co.kr/article/2026110908593029581",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-kakao-mobility-nvidia-l4",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "카카오모빌리티·엔비디아, 레벨4 자율주행 MOU…기아 PBV에 우선 적용",
+    "summary": "카카오모빌리티의 E2E 자율주행 AI에 드라이브 AGX 토르 2개 탑재 연산 장치, 하이페리온, 안전 시스템 헤일로스를 결합해 레벨4 서비스용 차량을 개발한다.",
+    "why": "국내 플랫폼 기업이 엔비디아 자율주행 스택으로 레벨4 상용화에 나선다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(회사 제공 자료·사진)"
+    },
+    "image": "https://img2.yna.co.kr/etc/inner/KR/2026/11/09/AKR20261109025500017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261109025500017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-etri-tango2-open-source",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "ETRI, 노코드 AI 개발도구 '탱고' 오픈소스 공개…LLM 지원 탱고2 LLMOps도 깃허브에",
+    "summary": "학습·최적화·배포를 브라우저에서 자동화하는 탱고를 공개했고, 산업 데이터로 LLM을 학습·운영하는 탱고2의 LLMOps를 깃허브에 올렸다. 11일 공개 세미나를 연다.",
+    "why": "현장 전문가가 직접 온프레·엣지용 AI를 만들 수 있게 하는 국산 오픈소스 도구다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + ML-TANGO GitHub 저장소 확인"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261109060100063",
+        "type": "source"
+      },
+      {
+        "label": "ML-TANGO/TANGO2",
+        "url": "https://github.com/ML-TANGO/TANGO2",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-08-unsloth-v0-1-916",
     "date": "2026-11-08",
     "category": "로컬 AI",
@@ -153,6 +251,35 @@
     ]
   },
   {
+    "id": "2026-11-08-llamacpp-b12206-moe-cache-cuda-ssm",
+    "date": "2026-11-08",
+    "category": "로컬 AI",
+    "title": "업데이트: llama.cpp b12201~b12207, MoE 캐시 후속 수정·CUDA SSM 스캔 fast path",
+    "summary": "b12201은 MoE 캐시를 드래프트 모델에 적용하지 않게 했고, b12206은 CPU 쪽이 캐시된 전문가를 기다리지 않도록 고쳤다. b12207은 CUDA SSM_SCAN에 d_state=64 fast path를 추가했다.",
+    "why": "지난주 들어온 MoE 캐시 기능을 쓰는 로컬 MoE·투기적 디코딩 사용자에게 의미 있는 수정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "릴리스 노트 b12206",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12206",
+        "type": "source"
+      },
+      {
+        "label": "b12206",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12206",
+        "type": "github"
+      },
+      {
+        "label": "b12207",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-08-llamacpp-b12191-moe-cache-cpu",
     "date": "2026-11-08",
     "category": "로컬 AI",
@@ -215,6 +342,30 @@
     ]
   },
   {
+    "id": "2026-11-08-deepseek-harness-1-54m-dau",
+    "date": "2026-11-08",
+    "category": "AI·IT",
+    "title": "딥시크 Harness 일간 사용자 154만 명…하루 약 92조 토큰, 공식 플러그인 마켓 예고",
+    "summary": "딥시크는 오픈소스 에이전트 앱 Harness가 11월 4일 기준 공식 API 사용자로만 일간 활성 사용자 154만 명, 하루 약 92조 토큰을 기록했다고 밝혔다. 서드파티 플러그인은 약 3만5천 개이며 공식 마켓과 토큰 지원 프로그램을 준비한다.",
+    "why": "중국 오픈소스 에이전트가 자체 생태계를 빠르게 키우고 있고, 에이전트가 추론 수요를 크게 끌어올린다는 구체적 수치다. 수치는 회사 자체 집계다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥시크 Harness 공식 X 글을 블룸버그(FMT 전재)·TechNode가 보도"
+    },
+    "links": [
+      {
+        "label": "블룸버그(FMT)",
+        "url": "https://www.freemalaysiatoday.com/category/business/2026/11/09/deepseek-s-ai-agent-platform-hits-1-54-million-daily-users",
+        "type": "source"
+      },
+      {
+        "label": "TechNode",
+        "url": "https://technode.com/2026/11/06/deepseek-plans-official-plugin-marketplace-as-harness-daily-users-reach-1-54-million/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-08-caissi-white-house-ap",
     "date": "2026-11-08",
     "category": "AI·IT",
@@ -263,6 +414,31 @@
       {
         "label": "9to5Mac",
         "url": "https://9to5mac.com/2026/11/08/apple-working-on-agentic-siri-ai-next-year-report/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-08-anthropic-gas-generators-3-4b",
+    "date": "2026-11-08",
+    "category": "AI·IT",
+    "title": "[보도] 앤트로픽, 데이터센터용 가스 발전기 1.7GW 약 34억 달러 확보(FT)",
+    "summary": "FT에 따르면 앤트로픽은 9월 말 텍사스 장비업체 OnePWR Solutions로부터 대형 가스 발전기 1.7GW 물량을 약 34억 달러에 넘겨받았다. 회사 인수는 아니며 설치에 필요한 엔지니어링·시공 역량이 포함됐다고 한다.",
+    "why": "AI 연산 경쟁이 전력 확보 경쟁으로 번지고 있음을 보여준다. 앤트로픽·OnePWR은 답하지 않았고 로이터도 독자 확인은 못 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FT 보도를 CNBC(로이터)·Investing.com이 전재. 회사 공식 확인은 없음"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108463869-17930177542026-10-22t132021z_138782045_rc2b6oa41zev_rtrmadp_0_energy-europe-batteries.jpeg?v=1793017796&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
+        "type": "source"
+      },
+      {
+        "label": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/anthropic-reportedly-strikes-34-billion-deal-for-gasfired-power-at-data-centres-5010208",
         "type": "source"
       }
     ]
@@ -408,6 +584,30 @@
       {
         "label": "NYT 기사 재게재 (DNYUZ)",
         "url": "https://dnyuz.com/2026/11/07/u-s-cleared-nvidia-chips-to-chinese-firms-with-empty-offices-and-troubling-ties/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-nvidia-fleet-intelligence-sea",
+    "date": "2026-11-07",
+    "category": "AI·IT",
+    "title": "[보도] 엔비디아, 동남아 클라우드 파트너(NCP) 자격에 GPU 위치 추적 'Fleet Intelligence' 가입 조건",
+    "summary": "블룸버그에 따르면 동남아 클라우드 업체가 엔비디아 클라우드 파트너 지위를 얻으려면 GPU 재고·상태·위치 정보를 수집할 수 있는 Fleet Intelligence에 가입해야 한다. 다른 고객은 여전히 자율 가입이다.",
+    "why": "중국 밀수 의혹 속에 칩 공급사가 직접 칩 행방을 추적하기 시작했다는 신호다. 엔비디아 공식 발표는 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 보도를 Tom's Hardware·The Edge Malaysia가 보도. 엔비디아 공식 발표는 미확인"
+    },
+    "links": [
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+        "type": "source"
+      },
+      {
+        "label": "The Edge Malaysia",
+        "url": "https://theedgemalaysia.com/node/824907",
         "type": "source"
       }
     ]
@@ -1558,6 +1758,35 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261106000052",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-iris-ohyama-breach-7-7m",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "日 아이리스오야마 쇼핑몰, 외부 클라우드 무단 접근으로 약 770만 명 정보 유출 우려",
+    "summary": "아이리스플라자 회원 580만 명·비회원 190만 명의 이름·주소·전화·이메일 등이 노출됐을 수 있으며 카드 정보는 저장돼 있지 않았다고 회사가 밝혔다.",
+    "why": "외부 클라우드 서비스 설정·계정 관리가 대형 유출로 이어진 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "회사 공지(2보) + BleepingComputer·ITmedia"
+    },
+    "links": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+        "type": "source"
+      },
+      {
+        "label": "ITmedia",
+        "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002934/",
+        "type": "source"
+      },
+      {
+        "label": "회사 공지(PDF)",
+        "url": "https://www.irisohyama.co.jp/news/2026/1105.pdf",
         "type": "source"
       }
     ]
@@ -2969,6 +3198,30 @@
       }
     ],
     "date": "2026-11-05"
+  },
+  {
+    "id": "2026-11-05-aws-kiro-crew-bots-ga",
+    "date": "2026-11-05",
+    "category": "AI·IT",
+    "title": "AWS, Kiro Crew에 상주형 에이전트 'bots' 정식 출시…기억·일정·전용 작업공간",
+    "summary": "Kiro bots는 이름, 대화 기록, 메모, 작업공간을 가진 상주 에이전트로, 정기 업무를 맡고 여러 코딩 작업 세션을 조율한다.",
+    "why": "코딩 에이전트를 사람이 일일이 감독하는 대신 '에이전트를 관리하는 에이전트'로 넘어가는 흐름이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Kiro 공식 블로그 + InfoWorld"
+    },
+    "links": [
+      {
+        "label": "Kiro 블로그",
+        "url": "https://kiro.dev/blog/crew-bots/",
+        "type": "source"
+      },
+      {
+        "label": "InfoWorld",
+        "url": "https://www.infoworld.com/article/4245120/aws-launches-kiro-bots-to-help-devs-coordinate-ai-coding-agents.html",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-05-aws-continuum-code-vulnerabilities-ga",
