@@ -24,6 +24,30 @@
     ]
   },
   {
+    "id": "2026-11-09-trump-60-minutes-ai-guardrails",
+    "date": "2026-11-09",
+    "category": "AI·IT",
+    "title": "트럼프 \"가드레일 괜찮다\"…CBS '60분'서 AI 안전장치에 민주당과 협력 여지",
+    "summary": "트럼프 대통령은 AI 위험은 관리 가능하다면서 \"I don't mind guardrails\"라고 말했고, 다만 규제가 미국을 중국 뒤 \"deep second position\"에 두면 안 된다고 했다. 어느 수준의 규제인지는 밝히지 않았다.",
+    "why": "그동안 업계 자율 규제를 선호하던 입장에서 변화 신호로, 1월 출범할 민주당 다수 의회의 AI 법안 추진과 맞물린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 보도 + The Neuron 등 복수 매체 인용"
+    },
+    "links": [
+      {
+        "label": "로이터(야후)",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-says-ai-risks-managed-002858735.html",
+        "type": "source"
+      },
+      {
+        "label": "로이터: 민주당 AI 법안 계획",
+        "url": "https://www.yahoo.com/news/politics/articles/democrats-planning-flood-ai-bills-110522968.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-open-go-kr-personal-data-leak",
     "date": "2026-11-09",
     "category": "한국 IT",
@@ -54,6 +78,35 @@
     ]
   },
   {
+    "id": "2026-11-09-nvlink-fusion-rebellions-skt",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "엔비디아·리벨리온·SKT, NVLink Fusion 협력…국산 NPU를 엔비디아 랙에 연결",
+    "summary": "리벨리온이 차세대 NPU 'Rebel R200'을 NVLink Fusion으로 엔비디아 플랫폼·MGX 랙에 연결하고, SKT가 자사 AI 데이터센터에 배치할 계획이다. GPU는 프리필, NPU는 디코드를 맡는 분리형 추론을 추진하며 R200 시스템은 2028년 배치 준비가 목표다.",
+    "why": "국산 NPU가 엔비디아 인프라 안으로 들어가는 첫 공식 협력이다. 과기정통부는 다른 국내 NPU 기업으로도 확대하겠다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 뉴스룸 공식 보도자료 + 머니투데이(과기정통부 발표)"
+    },
+    "links": [
+      {
+        "label": "엔비디아 뉴스룸",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+        "type": "source"
+      },
+      {
+        "label": "SKT 뉴스룸",
+        "url": "https://news.sktelecom.com/232944",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/09/2026110909570971072",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-nvidia-ai-day-seoul-keynotes",
     "date": "2026-11-09",
     "category": "한국 IT",
@@ -78,6 +131,79 @@
       {
         "label": "Aju Press",
         "url": "https://www.ajupress.com/view/20261109104314898",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-mit-worldparticle",
+    "date": "2026-11-09",
+    "category": "AI·IT",
+    "title": "MIT·UBC 'WorldParticle', 모래부터 단백질 접힘까지 하나의 AI로 물리 시뮬레이션",
+    "summary": "모든 물질을 입자로 표현해 한 단계씩 움직임을 예측하는 단일 딥러닝 모델로, 6가지 물리 현상에서 수치 시뮬레이션보다 높은 정확도를 보였고 단백질 구조 변화는 약 100배 빠르게 모델링했다고 한다.",
+    "why": "현상마다 따로 쓰던 시뮬레이터를 하나로 대체할 가능성으로, 소프트 로봇·신약 설계에 쓰일 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MIT News 공식 발표(수치는 연구진 주장)"
+    },
+    "links": [
+      {
+        "label": "MIT News",
+        "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-llama-modchip-284b-cpu",
+    "date": "2026-11-09",
+    "category": "로컬 AI",
+    "title": "llama-modchip, GPU 없이 64GB RAM에서 284B DeepSeek-V4-Flash 구동…HN 화제",
+    "summary": "llama.cpp/ggml용 커널 패치·양자화 변환 도구 모음으로, DeepSeek-V4-Flash(284B, 활성 13.17B)를 1.71bpw 56.56GiB로 줄여 256K 컨텍스트까지 RAM에 올린다. 개발자 측정으로 16코어 Zen 5에서 프리필 44.36 tok/s, 생성 9.1~14.7 tok/s다.",
+    "why": "대형 MoE를 GPU 없이 데스크톱 메모리만으로 돌리는 접근이다. 성능 수치는 독립 검증 전이고 1.71bpw는 품질 손실 가능성이 크다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소(Apache-2.0) 확인. 수치는 개발자 자체 측정"
+    },
+    "specs": {
+      "params": "284B (활성 13.17B)",
+      "license": "Apache 2.0",
+      "memory": "~57.6GiB RAM @256K",
+      "context": "256K"
+    },
+    "links": [
+      {
+        "label": "synchopate/llama-modchip",
+        "url": "https://github.com/synchopate/llama-modchip",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50411961",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-lguplus-k-voice-ai-alliance",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "LG유플러스, 서울대·KAIST·연세대와 'K-보이스 AI 얼라이언스'…음성 대 음성(V2V) 엔진 공동 개발",
+    "summary": "음성을 텍스트로 바꾸지 않고 직접 이해·응답하는 V2V 기술이 핵심이다. 서울대는 말투·목소리 생성, KAIST는 다자 대화·장기 맥락, 연세대는 상담 적용 효과 분석을 맡고 한국어 음성 AI 평가 기준도 만든다.",
+    "why": "해외 음성 AI 의존도를 낮추려는 통신사 주도의 한국어 특화 음성 모델 개발이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LG 공식 보도자료 + ZDNet Korea"
+    },
+    "links": [
+      {
+        "label": "LG 보도자료",
+        "url": "https://www.lg.co.kr/media/release/30759",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261109092615",
         "type": "source"
       }
     ]
@@ -128,6 +254,35 @@
     ]
   },
   {
+    "id": "2026-11-09-ftc-baemin-coupang-fine",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "공정위, 배민·쿠팡이츠 '최혜대우' 요구에 과징금 6,319억원…배달앱 역대 최대",
+    "summary": "배민 3,311억원, 쿠팡 3,008억원이다. 입점업체에 메뉴 가격·최소주문금액을 경쟁 앱과 같거나 유리하게 맞추도록 요구한 행위가 대상이며, 쿠팡 와우멤버십·쿠팡이츠 끼워팔기 혐의는 재심사로 넘어갔다.",
+    "why": "국내 플랫폼 규제에서 배달앱에 내려진 최대 규모 제재다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "한국경제 + 머니투데이 + 헤럴드경제 보도 일치"
+    },
+    "links": [
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/2026110947967",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/economy/2026/11/09/2026110909062575177",
+        "type": "source"
+      },
+      {
+        "label": "헤럴드경제",
+        "url": "https://biz.heraldcorp.com/article/10930464",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-etri-tango2-open-source",
     "date": "2026-11-09",
     "category": "한국 IT",
@@ -148,6 +303,30 @@
         "label": "ML-TANGO/TANGO2",
         "url": "https://github.com/ML-TANGO/TANGO2",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-alibaba-co-design-bench",
+    "date": "2026-11-09",
+    "category": "AI·IT",
+    "title": "알리바바 'Co-Design Bench': 실제 사용자 요청 273건, 최고 GPT-6 Astra도 완전 해결 26.4%",
+    "summary": "실사용 코딩 세션 26,314개에서 고른 웹앱 수정 과제 273개와 숨은 기준 2,331개로 평가했다. 최상위 모델은 기준 평균 69.9%를 충족했지만 과제 전체 통과는 26.4%, 저장소 단위 수정은 17.9%였다.",
+    "why": "구형 벤치마크 고득점과 달리, 실제 요청에선 코딩 에이전트가 대부분 마무리 작업을 사람에게 남긴다는 점을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "arXiv 논문 원문 + The Decoder 보도. 모델별 순위 세부는 논문 기준"
+    },
+    "links": [
+      {
+        "label": "arXiv 논문",
+        "url": "https://arxiv.org/html/2610.35138",
+        "type": "source"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+        "type": "source"
       }
     ]
   },
