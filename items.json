@@ -315,6 +315,30 @@
     ]
   },
   {
+    "id": "2026-11-10-fireworks-breach-weights-billing",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "Fireworks AI 침해 확대…결제 정보, 일부 고객 데이터셋·미완성 모델 가중치까지 접근",
+    "summary": "Fireworks AI는 11월 9일 보안 공지 업데이트에서 계정·결제 정보가 영향을 받았고, 일부 계정은 시크릿·데이터셋·미완성 모델까지 접근됐다고 밝혔다. 10월 24일에는 제3자 클라우드 업체 침해를 거쳐 개발 장비에 추가 침입이 있었으며, 공격자는 LLM 접근권을 되파는 'LLMJacking' 범죄 조직과 연관된 것으로 보인다고 했다. 카드 번호는 저장하지 않아 영향이 없고, 추론은 무보존(ZDR)이라 영향이 확인되지 않았다고 했다.",
+    "why": "오픈 웨이트 모델 추론·파인튜닝을 많이 맡는 대형 호스팅 업체라, 맡긴 데이터셋과 튜닝 가중치가 유출될 수 있다는 위험이 드러났다. 포브스는 고객 2곳이 상당 물량을 다른 곳으로 옮겼다고 보도했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Fireworks 공식 보안 공지 + 포브스·블룸버그 로 보도"
+    },
+    "links": [
+      {
+        "label": "Fireworks 보안 공지",
+        "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+        "type": "source"
+      },
+      {
+        "label": "Techmeme(포브스)",
+        "url": "https://www.techmeme.com/261109/p42",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-fable-5-2-artificial-analysis-65",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -358,6 +382,54 @@
       {
         "label": "PPC Land",
         "url": "https://ppc.land/aws-customers-can-now-buy-chatgpt-enterprise-against-cloud-commitments/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-anthropic-korea-claude-enterprise-leak",
+    "date": "2026-11-10",
+    "category": "한국 IT",
+    "title": "업데이트: 앤트로픽, 국내 기업용 Claude 계정 100여 개 정보 유출을 개인정보위에 신고",
+    "summary": "개인정보보호위원회에 따르면 앤트로픽은 10월 31일 국내 기업용 Claude 계정 100여 개의 정보 유출을 신고했다. 보안 스타트업 캐서드럴이 외부 업무용 소프트웨어 취약점으로 내부 시스템에 접근한 사건과 관련되며, 이름·이메일·계정·조직 ID·요금제 등이 노출됐을 수 있다. 앤트로픽 측은 프롬프트·결과물·결제정보에는 접근하지 못했다고 밝혔다.",
+    "why": "앞서 다룬 캐서드럴 침입 사건의 국내 피해가 처음 확인됐다. 개인정보위는 사전 검토 중이며 정식 조사 착수 여부는 아직 정하지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·한국경제·아이뉴스24가 개인정보위 확인 내용을 각각 보도"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261109152000017",
+        "type": "source"
+      },
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/2026110960257",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-anthropic-ipo-filing-retracted",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 앤트로픽, 최대 693억 달러 IPO 가격 정보 은행에 보냈다 철회(로이터)",
+    "summary": "로이터가 입수한 이메일에 따르면 앤트로픽 측이 약 8억 6,700만 주를 주당 70~80달러에 파는(상단 기준 693억 달러) 증권신고서 사본을 은행들에 보냈다가, 가격 정보가 부정확하다며 철회하고 수정본을 내겠다고 했다. 원본에는 구글·엔비디아·AMD·브로드컴·마이크론·MS·TSMC가 참여하는 260억 달러 사모 배정도 담겼다.",
+    "why": "로드쇼가 화요일(현지시간) 시작될 예정이라 공모 규모·가격의 첫 윤곽이다. 무엇이 틀렸는지는 확인되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독(이메일 근거), 블룸버그 로가 인용 보도. 앤트로픽은 논평 거부"
+    },
+    "links": [
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-aims-to-raise-up-to-693-billion-in-blockbuster-ipo-5013861",
+        "type": "source"
+      },
+      {
+        "label": "블룸버그 로",
+        "url": "https://news.bloomberglaw.com/capital-markets/anthropic-seeks-to-raise-69-3-billion-via-its-ipo-reuters-says",
         "type": "source"
       }
     ]
