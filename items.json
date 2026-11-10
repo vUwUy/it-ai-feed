@@ -20,6 +20,55 @@
     ]
   },
   {
+    "id": "2026-11-10-sendbird-delight-customer-agent",
+    "date": "2026-11-10",
+    "category": "한국 IT",
+    "title": "센드버드, 쇼핑·예약·고객지원·재구매를 하나로 묶은 '딜라이트 커스터머 에이전트' 출시",
+    "summary": "센드버드가 채팅·음성·이메일 등 채널을 넘나들며 고객 정보와 대화 맥락을 유지하고, 상품 추천부터 상담 예약·사후 지원·갱신 관리까지 하는 통합 AI 에이전트와 자연어 관리 도구 '마이다스'를 내놨어요.",
+    "why": "부서별로 따로 돌던 고객 응대 AI를 한 에이전트로 합치는 흐름을 국내 출신 기업이 제품화했어요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "센드버드(delight.ai) 공식 블로그 + 전자신문·머니투데이 보도"
+    },
+    "image": "https://sendbird.imgix.net/cms/_1200x630_crop_center-center_82_none/one-ai-agent-to-serve-customers-grow-biz.png?mtime=1793690374",
+    "links": [
+      {
+        "label": "공식 블로그",
+        "url": "https://delight.ai/blog/product/delight-customer-agent-and-midas",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261110000406",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-samsung-skhynix-physicsnemo-simulation",
+    "date": "2026-11-10",
+    "category": "한국 IT",
+    "title": "삼성·SK하이닉스, 엔비디아 AI로 반도체 열·휨 시뮬레이션 가속…삼성 '하루→약 1분', SK '30배 이상'",
+    "summary": "엔비디아 AI 데이 서울에서 삼성전자는 피직스네모 기반 열·기계 파운데이션 모델로 CPU에서 하루 걸리던 계산을 GPU에서 약 1분에 끝냈다고, SK하이닉스는 칩 단위 열·기계 해석이 32스레드 CPU보다 30배 이상 빨라졌다고 발표했어요.",
+    "why": "고객마다 설계가 다른 커스텀 HBM 시대에 시험 생산 전 검증을 앞당길 수 있는 기술이라 메모리 경쟁력과 직결돼요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴스핌 + 이투데이·팍스경제TV 보도, 엔비디아 기술 블로그(한국어)"
+    },
+    "links": [
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261110000546",
+        "type": "source"
+      },
+      {
+        "label": "엔비디아 기술 블로그",
+        "url": "https://developer.nvidia.com/ko-kr/blog/using-ai-physics-for-technology-computer-aided-design-simulations/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-openai-control-room",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -140,6 +189,25 @@
     ]
   },
   {
+    "id": "2026-11-10-naver-cafe-ai-agent-beta",
+    "date": "2026-11-10",
+    "category": "한국 IT",
+    "title": "네이버 카페에 'AI 카페 에이전트' 시범 도입…회원 글·댓글로 답하고 출처 제시",
+    "summary": "네이버가 9일부터 네일동·시크먼트·테슬라코리아클럽 3개 카페의 일부 회원을 대상으로, 카페에 쌓인 게시글과 댓글을 근거로 질문에 답하는 AI 에이전트를 시범 운영하고 있어요. 모바일 웹과 카페 앱에서 먼저 제공하고 PC는 추후 지원해요.",
+    "why": "쇼핑·플레이스에 이어 커뮤니티 데이터까지 AI 답변 재료로 쓰는 네이버의 '온 서비스 AI' 확장이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문(네이버 카페 공지·관계자 인용) + 아이보스 공지 공유글"
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261110000311",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-msit-frontier-ai-applications-december",
     "date": "2026-11-10",
     "category": "한국 IT",
@@ -189,6 +257,62 @@
       {
         "label": "Economic Times",
         "url": "https://economictimes.indiatimes.com/news/international/us/meta-launches-muse-ember-its-most-efficient-ai-model-to-handle-repetitive-tasks-know-what-it-can-do-and-heres-how-it-works/articleshow/135692774.cms",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-meta-ai-age-estimation-global",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "메타, 인스타그램 AI 나이 추정 전 세계 확대…성인 생일 입력해도 10대 계정 보호 적용",
+    "summary": "메타가 10대로 의심되는 이용자를 AI로 찾아 성인 생일을 넣었더라도 Teen Account 보호를 적용하는 기술을 인스타그램 전 세계로 넓혔어요. 페이스북은 계속 확대 중이고 스레드는 연내 도입, 호주에서는 애플의 연령대 신호도 함께 쓴다고 해요.",
+    "why": "플랫폼이 자체 AI로 나이를 추정해 계정 제한을 거는 방식이 전 세계 기본값이 됐다는 점에서, 국내 이용자에게도 바로 적용되는 변화예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 공식 뉴스룸(11/9) + TechCrunch·The Verge 보도"
+    },
+    "image": "https://about.fb.com/wp-content/uploads/2026/11/Expanding-Teen-Account-Protections-to-Teens-Around-the-World_socialShare.jpg?w=1200",
+    "links": [
+      {
+        "label": "메타 뉴스룸",
+        "url": "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-longcat-2-5-weights-hf",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "업데이트: 메이퇀 LongCat-2.5 가중치 허깅페이스 공개…MIT 라이선스, 약 3.56TB",
+    "summary": "11월 2일 소개됐던 LongCat-2.5(총 1.6T, 토큰당 활성 약 48B MoE 멀티모달) 가중치가 MIT 라이선스로 허깅페이스에 올라왔어요. 저장소는 safetensors 208개, 약 3.56TB이고, 모델 카드는 1.6T라고 적었지만 HF 자동 메타데이터에는 약 1.78T로 표시돼요.",
+    "why": "상업 이용이 자유로운 MIT 라이선스의 초대형 에이전트·코딩 모델이라 자체 서버 배포나 증류 재료로 쓸 수 있어요. 개인 PC로 돌리기에는 너무 커요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 저장소(MIT, 파일 208개·용량) 직접 확인 + 토큰포스트·AIbase 보도"
+    },
+    "specs": {
+      "params": "1.6T (활성 ~48B, MoE)",
+      "license": "MIT",
+      "memory": "가중치 ~3.56TB",
+      "context": "1M (보도 기준)",
+      "modality": "텍스트·이미지·영상"
+    },
+    "links": [
+      {
+        "label": "meituan-longcat/LongCat-2.5",
+        "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+        "type": "huggingface"
+      },
+      {
+        "label": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/ai/435697",
         "type": "source"
       }
     ]
@@ -363,6 +487,34 @@
     ]
   },
   {
+    "id": "2026-11-10-deepx-dx-m2-ces2027-award",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "업데이트: 딥엑스 DX-M2, CES 2027 혁신상…100B급 LLM 5W 구동 목표, 삼성 LPDDR5X-PIM 결합 시 6.7배",
+    "summary": "삼성 2나노로 만드는 딥엑스 2세대 칩 DX-M2가 CES 2027 혁신상을 받았어요. EE Times 인터뷰에 따르면 20B~100B 모델을 5W에서 초당 10~30토큰으로 돌리는 게 목표이고, 삼성 LPDDR5X-PIM과 붙이면 Llama3.1-8B 기준 6.7배 빨라지지만 전력은 2.7배 든다는 시뮬레이션 결과예요. 첫 실리콘은 내년 3월, 양산 본격화는 2028년 예정이에요.",
+    "why": "수십~100B급 모델을 배터리 기기에서 돌리겠다는 국산 온디바이스 칩이라 로컬 AI 하드웨어 흐름에서 눈여겨볼 만해요. 수치는 아직 회사 목표·시뮬레이션이에요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "조선비즈(회사 발표) + EE Times 인터뷰, 성능은 회사 주장·시뮬레이션"
+    },
+    "image": "https://biz.chosun.com/resizer/v2/35P7ZEDEKFAHTL7QCRG6Q2CPTE.png?auth=8e208d257395f3b8bd5470e809d9c612e52c8675c159d8551371eb36e43911bb&width=1200&height=630&smart=true",
+    "specs": {
+      "compute": "80 TOPS, 5W 이하, 150GB/s"
+    },
+    "links": [
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/en/en-it/2026/11/10/3KTXS6QC2FBHPKSM5DASPOFQC4/",
+        "type": "source"
+      },
+      {
+        "label": "EE Times",
+        "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-chatgpt-enterprise-aws-marketplace",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -464,6 +616,36 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-amazon-strands-decider-replaces-sonnet",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "아마존 사내 티켓 분류, Sonnet 4.6 대신 Gemma 4 E4B 기반 'Strands Decider'로 교체…비용 98%↓",
+    "summary": "아마존 엔지니어들이 사내 티켓 라벨링을 Claude Sonnet 4.6에서 결정 모델 Strands Decider E4B(Gemma 4 E4B 빌드)로 바꿔, 티켓당 비용을 약 $0.0222에서 약 $0.0005로, 평균 응답을 4,215ms에서 897ms로 줄였다고 밝혔어요. A10G 24GB 한 장에서 약 19GiB를 쓰고 요청당 약 640ms라고 해요.",
+    "why": "정해진 선택지 분류처럼 닫힌 작업은 작은 오픈 모델을 직접 띄우는 편이 큰 API 모델보다 훨씬 싸고 빠를 수 있다는 실제 운영 사례예요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Strands Agents(AWS) 공식 블로그 1차 출처, 수치는 블로그 그대로. Hacker News 프런트 페이지 화제"
+    },
+    "image": "https://strandsagents.com/blog/og/amazon-saves-millions-replacing-sonnet-with-strands-decider.png",
+    "specs": {
+      "params": "E4B(Gemma 4 기반)",
+      "memory": "~19GiB (A10G 24GB)",
+      "context": "4,096 토큰"
+    },
+    "links": [
+      {
+        "label": "Strands Agents 블로그",
+        "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50436640",
         "type": "source"
       }
     ]
@@ -2664,6 +2846,31 @@
       {
         "label": "Google Cloud 블로그",
         "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-doj-ai-impersonation-fraud-129m",
+    "date": "2026-11-06",
+    "category": "AI·IT",
+    "title": "미 법무부, AI로 CEO·변호사 사칭해 1억2,900만 달러 가로챈 3명 기소",
+    "summary": "뉴욕 남부지검이 2024~2026년 AI로 기업 CEO와 대형 로펌 변호사의 목소리·얼굴을 흉내 내 직원에게 송금을 지시한 혐의로 3명을 기소했어요. 피해액은 1억2,900만 달러 이상이고, 돈은 여러 나라 계좌를 거쳐 암호화폐로 바뀌었다고 해요.",
+    "why": "딥페이크 음성·영상 사칭이 실제 대규모 기업 송금 사기로 이어진 사례라, 회사 내 송금 확인 절차를 다시 볼 이유가 돼요.",
+    "verification": {
+      "status": "확인됨",
+      "note": "미 법무부 뉴욕 남부지검 보도자료(11/5) + AP 보도"
+    },
+    "image": "https://www.justice.gov/themes/custom/usdoj_uswds/images/metatag-image--press-release.png",
+    "links": [
+      {
+        "label": "미 법무부 보도자료",
+        "url": "https://www.justice.gov/index.php/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/artificial-intelligence-impersonation-theft-fraud-c348a0c96e941214e56f8d923d03fc4b",
         "type": "source"
       }
     ]
