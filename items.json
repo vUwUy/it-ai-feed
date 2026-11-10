@@ -1,5 +1,49 @@
 [
   {
+    "id": "2026-11-10-spacex-texas-gas-ai-center",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "[보도] 스페이스X, 텍사스 스타베이스에 240억 달러 가스발전소·슈퍼컴퓨팅 시설 추진",
+    "summary": "블룸버그·로이터가 스타베이스시 공청회 공고를 인용해, 스페이스X가 약 240억 달러(초기 추정)를 들여 천연가스 터빈 35기·748MW 발전시설과 슈퍼컴퓨팅 시설을 짓고 직접 운영할 계획이라고 보도했다. 시는 12월 9일 재산세 감면안을 심의한다.",
+    "why": "전력망 연결을 기다리지 않고 자체 발전으로 AI 연산을 늘리려는 흐름이다. 데이터센터 억제를 공약한 텍사스 주지사 당선인이 변수로 꼽힌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그·로이터 보도를 인용한 전자신문 기사(공청회 공고 기반)"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/10/news-p.v1.20261110.072de21565bf41f0ad49ce8640464ca0_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261110000051",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-openai-control-room",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "OpenAI 'Control Room' 공개…연구용 모델 작업을 35초 안에 중단",
+    "summary": "OpenAI가 연구 인프라 전체의 모델 작업을 추적하고, 중단 지시를 받으면 최대 35초 안에 추론 요청을 거부해 모델 출력을 멈추는 내부 시스템을 공개했다. Control Room이 꺼지거나 변조되면 모든 추론을 거부하는 'fail-closed' 방식이며, 프런티어 모델 연구 작업에는 이미 적용됐다.",
+    "why": "오정렬 감시 모니터가 문제를 잡았을 때 실제로 작업을 멈출 수 있는 '정지 장치'를 추론 계층에 둔 구체적 사례다. 35초는 OpenAI 자체 수치이고 외부 검증은 아직 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글 + AI Affairs·Interesting Engineering 보도"
+    },
+    "links": [
+      {
+        "label": "OpenAI 공식 글",
+        "url": "https://openai.com/index/introducing-control-room/",
+        "type": "source"
+      },
+      {
+        "label": "Interesting Engineering",
+        "url": "https://interestingengineering.com/ai-robotics/openai-control-room-35-second-model-shutdown",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-ollama-v0-40-16-rc0",
     "date": "2026-11-10",
     "category": "로컬 AI",
@@ -14,6 +58,58 @@
       {
         "label": "ollama v0.40.16-rc0",
         "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-ollama-v0-40-16",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "업데이트: Ollama v0.40.16 정식판…애플 실리콘서 Qwen3.8 Flash Next 메모리 약 27GiB 절감, Ripple Preview 라이브러리 등록",
+    "summary": "rc에 이어 나온 정식판에서 Qwen3.8 Flash Next가 애플 실리콘에서 약 27GiB 적은 메모리를 쓰고, Ricursive의 65B 코딩 모델 Ripple Preview를 'ollama run ripple-preview'로 바로 받을 수 있게 됐다. /v1/responses가 기본으로 몰래 잘라내지 않도록 바뀌었다.",
+    "why": "맥에서 대형 MoE 모델을 돌리는 사람에게 메모리 절감 폭이 구체적으로 확인됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트 + Ollama 라이브러리 페이지"
+    },
+    "specs": {
+      "params": "65B (Ripple Preview)",
+      "license": "Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "ollama v0.40.16",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+        "type": "github"
+      },
+      {
+        "label": "ripple-preview",
+        "url": "https://ollama.com/library/ripple-preview",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-nvidia-gr00t-2",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "엔비디아, 로봇 파운데이션 모델 GR00T 2 공개…사람 영상으로 학습한 2B 모델",
+    "summary": "엔비디아가 CoRL에서 Cosmos-Predict2.5-2B 기반 2B 파라미터 로봇 모델 GR00T 2를 공개했다. 카메라 화면·로봇 상태·지시문으로 미래 화면과 다음 동작을 함께 예측하며, 처음 보는 50개 작업에서 제로샷 성공률 40%, 시연 5번 후 95%를 보고했다. 코드는 12월 공개 예정이다.",
+    "why": "그리퍼 팔·손·휴머노이드를 체크포인트 하나로 다루는 방향이라, LG전자 등 GR00T를 쓰는 국내 로봇 개발에도 영향이 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA Research 프로젝트 페이지 + The Robot Report 보도"
+    },
+    "links": [
+      {
+        "label": "NVIDIA Research",
+        "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+        "type": "source"
+      },
+      {
+        "label": "The Robot Report",
+        "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
         "type": "source"
       }
     ]
@@ -39,6 +135,25 @@
       {
         "label": "BBC",
         "url": "https://www.bbc.com/news/articles/c6zxjx01vyleo",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-msit-frontier-ai-applications-december",
+    "date": "2026-11-10",
+    "category": "한국 IT",
+    "title": "과기정통부, 프런티어 AI 사업 12월 공모 시작…독파모 3차 평가와 2월에 함께 선정",
+    "summary": "과기정통부가 프런티어 AI 모델 개발 사업 공모를 12월에 열고 2월 마감해, 독자 AI 파운데이션 모델 3차 평가(SKT·LG AI연구원·업스테이지 중 2곳 선정)와 함께 사업자를 정한다. 예산안은 4조6,250억원이며 그중 약 3조8,500억원이 엔비디아 GPU 구매용이다.",
+    "why": "국가 AI 모델 사업의 다음 단계 일정이 나왔다. 국회예산정책처는 개발 법인(SPC) 설립이 2027년 10월께로 늦어질 수 있다고 우려했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아주경제(Aju Press) 보도, 과기정통부 관계자 발언·예산안 인용"
+    },
+    "links": [
+      {
+        "label": "Aju Press",
+        "url": "https://www.ajupress.com/view/20261109191670717",
         "type": "source"
       }
     ]
@@ -103,6 +218,49 @@
     ]
   },
   {
+    "id": "2026-11-10-llama-cpp-b12238-audio-speech",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12237~b12238: Gemma 4 오디오 스트림 입력·OpenAI 호환 /v1/audio/speech 추가",
+    "summary": "llama.cpp가 b12237에서 멀티모달(mtmd)로 Gemma 4의 오디오 스트림 입력을 지원하고, b12238에서 서버에 OpenAI 호환 음성 합성 엔드포인트 /v1/audio/speech를 추가했다. b12240은 Responses API의 json_schema 출력 형식 변환도 지원한다.",
+    "why": "llama-server 하나로 로컬 음성 입출력까지 OpenAI API 형태로 붙일 수 있게 되는 흐름이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트 직접 확인"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12238",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12238",
+        "type": "source"
+      },
+      {
+        "label": "llama.cpp b12237",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12237",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-kakao-ryan-ai-animation",
+    "date": "2026-11-10",
+    "category": "한국 IT",
+    "title": "카카오, OpenAI와 만든 라이언 첫 AI 단편 애니메이션 공개…11일 유튜브 공개",
+    "summary": "카카오가 챗GPT 이미지 기능으로 만든 약 5분 분량의 라이언 단편 애니메이션 <그래도, 라이언>을 공개했다. 한 장면에 약 1,500개 프롬프트를 썼고 한지원 감독 등이 손으로 수정해 완성했으며, 본편은 11일 카카오프렌즈와 OpenAI 채널에 올라온다.",
+    "why": "국내 대표 IP와 OpenAI의 창작 협업 사례로, 카카오-OpenAI 제휴가 콘텐츠로 이어진 결과다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공식 보도자료"
+    },
+    "links": [
+      {
+        "label": "카카오 보도자료",
+        "url": "https://www.kakaocorp.com/page/detail/12195",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-google-tpu-8tx-8i-max",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -128,6 +286,54 @@
       {
         "label": "토큰포스트",
         "url": "https://www.tokenpost.kr/news/ai/435387",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-gemini-human-review-gmail-drive",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "구글, Gemini 연결 앱의 Gmail·Drive 발췌를 사람(외주 포함)이 검토할 수 있다고 명시",
+    "summary": "구글이 2023년 '연결된 Gmail·Docs·Drive 내용은 사람이 보지 않는다'던 글에 10월 16일자 주석을 달아, Personal Intelligence 등 신규 기능에서는 일부 데이터가 학습과 제한적 인간 검토에 쓰일 수 있다고 밝혔다. Gemini 도움말은 검토자에 외주 인력이 포함되고 짧은 메일은 전문이 보일 수 있다고 적고 있다.",
+    "why": "개인 Gmail로 업무를 보는 사람이라면 Gemini 연결 앱과 '활동 유지' 설정을 다시 볼 필요가 있다. 해당 기능은 EEA·영국·스위스에선 아직 제공되지 않는다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 도움말·블로그 주석을 인용한 MACCUS 분석 + 복수 매체 보도. 레딧 작성자의 개별 테스트 주장은 미확인"
+    },
+    "links": [
+      {
+        "label": "MACCUS 분석",
+        "url": "https://maccus.fr/en/gemini-gmail-human-review/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50429426",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-fable-5-2-artificial-analysis-65",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "업데이트: Claude Fable 5.2, Artificial Analysis 지능 지수 65로 1위…과제당 비용·시간은 최상위권",
+    "summary": "독립 평가사 Artificial Analysis가 Claude Fable 5.2(Max)에 지능 지수 65점을 매겨 74개 모델 중 1위에 올렸다. 다만 과제당 평균 46.4분, 비용 26.54달러로 비교군 중 가장 느리고 비싼 축이며, 평가 중 출력 토큰도 2억7,500만 개로 많았다.",
+    "why": "어제 출시 발표 이후 처음 나온 독립 벤치마크 결과로, 성능과 함께 비용·속도의 대가도 드러났다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Artificial Analysis 모델 페이지 직접 확인"
+    },
+    "links": [
+      {
+        "label": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50431144",
         "type": "source"
       }
     ]
