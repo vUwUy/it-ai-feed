@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-11-11-australia-ai-criminal-offence",
+    "date": "2026-11-11",
+    "category": "AI·IT",
+    "title": "업데이트: 호주, AI 기업에 '피해 방지 실패' 형사처벌 신설 검토",
+    "summary": "호주 연방정부가 9월 OpenAI 메디케어 통계 포털 해킹 검토에 대한 대응으로, 모델의 해로운 행위를 막기 위한 합리적 조치를 하지 않은 AI 기업을 처벌하는 형사 범죄 신설을 검토한다고 ABC가 보도했다. 나머지 AI 기준은 연말까지 발표할 예정이다.",
+    "why": "전날 발표한 프런티어 AI 의무 규정·전담 규제기관에 이어, 기업 형사책임까지 논의 대상이 됐다. 아직 검토 단계다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ABC News 보도(정부 발표 근거), 전날 총리실 발표와 연결"
+    },
+    "links": [
+      {
+        "label": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-11/australia-considers-criminal-charges-for-ai-companies/107368676",
+        "type": "source"
+      },
+      {
+        "label": "호주 총리실(전날 발표)",
+        "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-spacex-texas-gas-ai-center",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -140,6 +164,31 @@
     ]
   },
   {
+    "id": "2026-11-10-ny-raise-act-registration",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "뉴욕주 AI 안전법(RAISE Act) 등록 포털 개설…대형 AI 개발사 2027년 1월 1일까지 등록",
+    "summary": "뉴욕주가 연매출 5억 달러 넘는 프런티어 AI 개발사(OpenAI·앤트로픽 등)의 등록 포털을 열었다. 내년 1월 1일 시행되는 RAISE Act는 안전 프레임워크 공개, 중대 사고 72시간 내 보고, 모델 투명성 보고서를 요구하며 위반 시 1회 최대 100만 달러, 이후 300만 달러 벌금을 매긴다.",
+    "why": "캘리포니아 SB 53(사고 15일 내 보고)보다 보고 기한이 짧다. 호컬 주지사는 빙엄턴대에 AI 안전 평가 센터도 출범시켰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch 보도 + 뉴욕주 금융감독국(DFS) 보도자료"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+        "type": "source"
+      },
+      {
+        "label": "뉴욕주 DFS",
+        "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20260921",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-nvidia-gr00t-2",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -251,6 +300,42 @@
       {
         "label": "Aju Press",
         "url": "https://www.ajupress.com/view/20261109191670717",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-minimax-h3-image-weights",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "MiniMax-H3-Image 오픈 웨이트 공개…33.1B·16MP 생성, 라이선스는 한국·미국·EU·영국 제외",
+    "summary": "미니맥스가 생성·편집을 한 체크포인트로 합친 33.1B DiT 이미지 모델을 허깅페이스에 올렸다. 업스케일러 없이 약 16메가픽셀(4096×4096 등)을 6스텝에 만들고 참조 이미지 최대 16장을 받지만, 커뮤니티 라이선스가 한국·미국·EU·영국을 적용 지역에서 빼 국내에서는 별도 허가 없이 쓸 수 없다.",
+    "why": "내려받을 수는 있어도 국내 사용권은 없다는 점이 핵심이다. DiT만 BF16 68.65GB에 MiniMax-H3 텍스트 인코더(66.7GB)가 따로 필요해 소비자 GPU로는 무겁다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드·LICENSE 원문 + 토큰포스트 보도"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/MiniMaxAI/MiniMax-H3-Image.png",
+    "specs": {
+      "params": "33.1B (DiT)",
+      "license": "MiniMax-H3-Image Community License (한국 제외)",
+      "memory": "DiT 68.65GB + 텍스트 인코더 66.7GB",
+      "modality": "텍스트→이미지·이미지 편집"
+    },
+    "links": [
+      {
+        "label": "MiniMaxAI/MiniMax-H3-Image",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+        "type": "huggingface"
+      },
+      {
+        "label": "라이선스 원문",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image/blob/main/LICENSE",
+        "type": "source"
+      },
+      {
+        "label": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/ai/436161",
         "type": "source"
       }
     ]
@@ -444,6 +529,31 @@
     ]
   },
   {
+    "id": "2026-11-10-gemini-robotics-2-5",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "구글 딥마인드 'Gemini Robotics 2.5' 공개…벤츠 공장 부품 키팅 성공률 96%",
+    "summary": "딥마인드가 로봇 제어용 VLA 모델 Gemini Robotics 2.5를 공개했다. 200개 과제 평가에서 이전 대비 성공률 30~100%, 속도 20~30% 개선됐고, 앱트로닉 Apollo 2가 메르세데스-벤츠 헝가리·독일 공장에서 부품 키팅을 96% 성공률로 수행했다. 로봇 탈옥을 시험하는 오픈소스 벤치마크 ASIMOV-Jailbreak도 공개했다.",
+    "why": "휴머노이드가 실제 생산 라인에서 쓸 만한 수준에 얼마나 다가왔는지 보여주는 수치다. 일반 공개는 아니고 파트너사에 순차 배포된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥마인드 공식 블로그 + 디지털데일리·Ars Technica 보도"
+    },
+    "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w1200-h630-n-nu-rw",
+    "links": [
+      {
+        "label": "딥마인드 블로그",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026111106134131595",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-gemini-human-review-gmail-drive",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -463,6 +573,36 @@
       {
         "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50429426",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-gemini-4-carbon-ga",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "업데이트: 구글 Gemini 4 Carbon 일반 공개…출시가 $2/$10(11월 30일까지), 이후 $4/$20",
+    "summary": "구글이 사이버 방어자에게 먼저 풀었던 Gemini 4 Carbon을 유료 개발자·기업(AI Studio, Gemini for business)과 Google AI Ultra 구독자(Gemini 앱, 검색 AI 모드, Antigravity)에게 공개했다. 출시 기념가는 입력 100만 토큰당 2달러·출력 10달러이고 11월 30일 이후 4달러/20달러가 적용되며, Antigravity에서 여러 에이전트를 묶는 '/swarm'도 프리뷰로 나왔다.",
+    "why": "10월 말 제한 공개 이후 실제로 누구나 API로 쓸 수 있게 된 시점이다. 구글은 CursorBench 4.0·WANDR·AutomationBench 1위라고 밝혔다(자사 발표).",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그(영문·한국어) 확인"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "type": "source"
+      },
+      {
+        "label": "구글 코리아 블로그",
+        "url": "https://blog.google/intl/ko-kr/company-news/technology/gemini-4-carbon-now-available-kr/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50442303",
         "type": "source"
       }
     ]
@@ -516,6 +656,25 @@
     ]
   },
   {
+    "id": "2026-11-10-elevenlabs-scribe-v3",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "ElevenLabs 'Scribe v3'·'Scribe v3 Live' 출시…단어 오류 27%·43% 감소(자사 발표)",
+    "summary": "ElevenLabs가 녹음용 Scribe v3(102개 언어에서 v2 대비 단어 오류 27% 감소)와 실시간용 Scribe v3 Live(v2 Realtime 대비 오류 43% 감소, 첫 실시간 화자 분리)를 내놨다. 두 모델 모두 ElevenAPI에서 쓸 수 있다.",
+    "why": "한국어 포함 다국어 받아쓰기·회의록·음성 에이전트 품질에 바로 영향이 있다. 수치는 회사 자체 평가다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ElevenLabs 공식 블로그(한국어판) 확인"
+    },
+    "links": [
+      {
+        "label": "ElevenLabs 블로그",
+        "url": "https://elevenlabs.io/ko/blog/scribe-v3",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-deepx-dx-m2-ces2027-award",
     "date": "2026-11-10",
     "category": "로컬 AI",
@@ -544,6 +703,36 @@
     ]
   },
   {
+    "id": "2026-11-10-claude-meetings-sheets-whiteboards",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude Meetings·Sheets·Whiteboards 베타, Claude Data 정식 출시",
+    "summary": "Claude가 화상회의(우선 Google Meet)에 참가자로 들어가 회의 중 계획·타임라인을 만드는 Claude Meetings(Team·Enterprise 베타)와, 함께 편집하는 스프레드시트 Claude Sheets·화이트보드 Claude Whiteboards(유료 요금제 베타)를 내놨다. Claude Dashboards는 Claude Data로 이름을 바꿔 정식 출시했다.",
+    "why": "OpenAI·메타와 함께 MS·구글 오피스 영역을 직접 겨냥하는 흐름이다. Meetings는 외부 손님이 들어오면 자동으로 나간다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 글 + TechCrunch·디지털데일리 보도"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png?resize=1200,675",
+    "links": [
+      {
+        "label": "Claude 공식",
+        "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026111106021331039",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-chatgpt-enterprise-aws-marketplace",
     "date": "2026-11-10",
     "category": "AI·IT",
@@ -563,6 +752,31 @@
       {
         "label": "PPC Land",
         "url": "https://ppc.land/aws-customers-can-now-buy-chatgpt-enterprise-against-cloud-commitments/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-chatgpt-businesses-agents",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "OpenAI 'Businesses in ChatGPT' 베타…기업 프로필 인증, 미국 이커머스용 'Business Agent'",
+    "summary": "OpenAI가 기업이 Business Hub에서 ChatGPT 속 자사 정보를 인증·관리하고 언급·클릭 통계를 보는 기능을 베타로 내놨다. 미국의 자격 있는 이커머스·온라인 서비스 기업은 사용자가 따로 대화할 수 있는 Business Agent를 만들 수 있고, 이를 ChatGPT 광고의 도착지로 후원할 수도 있다.",
+    "why": "ChatGPT가 검색처럼 기업 프로필·광고를 붙이는 플랫폼으로 가는 단계다. OpenAI는 사용자 대화를 기업과 공유하지 않는다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표 + The Verge·TechCrunch 보도"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/7Eicp7g84HA3PCzyVJTfbT/d423890d5a1a863bf69a57bcbbbf6e99/business-agents-blog-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-businesses-chatgpt",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
         "type": "source"
       }
     ]
@@ -616,6 +830,31 @@
       {
         "label": "한국경제",
         "url": "https://www.hankyung.com/article/2026110960257",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-10-anthropic-ipo-price-range",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "업데이트: 앤트로픽 공모가 범위 $70~78 확정…8억2,500만 주, 빅테크 7곳 260억 달러 동시 사모",
+    "summary": "수정 S-1에서 앤트로픽은 클래스A 8억2,500만 주를 주당 70~78달러에 공모(577억5천만~643억5천만 달러)하고, AMD·브로드컴·구글·마이크론·MS·엔비디아·TSMC에 260억 달러어치 무의결권 주식을 공모가로 판다고 밝혔다(구글·엔비디아 각 100억 달러). 10월 말 연환산 매출은 810억 달러, 공동창업자 7명은 각각 약 2억5천만 달러어치를 판다.",
+    "why": "상단 기준 완전희석 기업가치 1조4,040억 달러다. CNBC는 11월 19일 무렵 나스닥 'ANT' 상장을 전했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch·CNBC 보도(수정 S-1 근거)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
         "type": "source"
       }
     ]
@@ -709,6 +948,36 @@
     ]
   },
   {
+    "id": "2026-11-10-alphaproof-code-signal",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "딥마인드 'AlphaProof Code', Signal 프로토콜 실제 코드의 보안 속성을 AI 에이전트로 형식 검증",
+    "summary": "딥마인드가 사람이 명세를 검토하고 Gemini Carbon 기반 에이전트가 600만 줄 넘는 Lean 증명을 만든 방식으로, Signal 암호 프로토콜의 컴파일된 코드가 핵심 보안 속성을 지킨다는 것을 4주 만에 증명했다고 밝혔다. 이미 고쳤던 실제 버그 2개를 다시 넣자 두 경우 모두 취약하다는 증명을 냈고, 검증 산출물은 오픈소스로 공개한다.",
+    "why": "설계 수준이 아닌 배포된 구현을 형식 검증한 사례로, AI가 고급 보안 검증 비용을 크게 낮출 수 있음을 보여준다. 1:1 세션 범위이고 암호 원시함수의 정확성은 가정한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥마인드 공식 블로그 + The Register 보도"
+    },
+    "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw",
+    "links": [
+      {
+        "label": "딥마인드 블로그",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+        "type": "source"
+      },
+      {
+        "label": "프로젝트 페이지",
+        "url": "https://google-deepmind.github.io/code-verification/",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-vercel-deepseek-v41-ultrafast",
     "date": "2026-11-09",
     "category": "로컬 AI",
@@ -752,6 +1021,30 @@
       {
         "label": "로이터: 민주당 AI 법안 계획",
         "url": "https://www.yahoo.com/news/politics/articles/democrats-planning-flood-ai-bills-110522968.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-samsung-hyundai-one-team",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "삼성·현대차그룹 경영진 177명 첫 대규모 교류…피지컬 AI '원팀' 협력 모색",
+    "summary": "삼성과 현대차그룹이 9일 삼성전자 서천연수원에서 경영진·임원 등 177명이 모인 교류 행사를 열고, 차량용 반도체·배터리·전장과 자율주행·SDV·로보틱스를 엮은 피지컬 AI 협력 가능성을 논의했다.",
+    "why": "재계 1·3위가 반도체·로봇·자율주행에서 손잡는 모양새로, 같은 주 엔비디아의 한국 피지컬 AI 협력 발표와 맞물린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "디지털데일리·연합뉴스·중앙일보 등 복수 보도"
+    },
+    "links": [
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026110915202260769",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/MYH20261109016800038",
         "type": "source"
       }
     ]
