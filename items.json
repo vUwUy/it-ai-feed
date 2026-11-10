@@ -19,6 +19,31 @@
     ]
   },
   {
+    "id": "2026-11-10-nvidia-fbi-huang-stock-drop",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "업데이트: 트럼프 \"FBI가 젠슨 황 조사 중\"…엔비디아 주가 4%대 하락, 주주 집단소송 제기",
+    "summary": "트럼프 대통령이 9일(현지시간) FBI가 젠슨 황과 중국 스파이 의혹 여성의 관계를 들여다보고 있다고 말했습니다(로이터). 엔비디아 주가는 이날 4% 넘게 내린 채 마감해 시가총액 약 2,500억 달러가 증발했고(BBC), 같은 날 주주들이 회사와 황을 상대로 집단소송을 냈습니다(로이터).",
+    "why": "이사회 내부 조사에 이어 연방 수사기관 관여가 대통령 입으로 확인됐고, 시장·소송·의회 대중 칩 규제 논의로 번지고 있습니다. 엔비디아 측은 이사회가 황을 신뢰한다고 밝혔고, 중국 외교부는 '근거 없는 모함'이라고 부인했습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(트럼프 발언·종가 하락·집단소송) + BBC(약 2,500억 달러 증발) 독립 보도 2곳 확인"
+    },
+    "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA806Q_L.jpg",
+    "links": [
+      {
+        "label": "로이터 (Investing.com 전재)",
+        "url": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476",
+        "type": "source"
+      },
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.com/news/articles/c6zxjx01vyleo",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-meta-muse-ember",
     "date": "2026-11-10",
     "category": "AI·IT",
