@@ -1,5 +1,53 @@
 [
   {
+    "id": "2026-11-11-nvidia-board-wachtell-huang-probe",
+    "date": "2026-11-11",
+    "category": "AI·IT",
+    "title": "업데이트: 엔비디아 이사회, 젠슨 황 조사에 와크텔 립턴·전 뉴욕남부지검장 대행 준 김 선임…주가 이틀째 하락",
+    "summary": "엔비디아 독립이사들은 전 뉴욕남부지검 연방검사장 대행 준 H. 김과 그가 속한 와크텔 립턴을 선임해 독립 조사를 맡겼다고 화요일(미국시간) 밝혔다. CNBC는 회사 기밀이나 국가안보가 훼손됐는지를 조사한다고 전했고, 엔비디아 주가는 월요일 4% 넘게 떨어진 데 이어 화요일 6% 하락했다고 보도했다.",
+    "why": "AI 칩 시장의 핵심 기업 CEO를 둘러싼 조사가 본격화되면서 지배구조와 승계 문제로 번질 수 있다는 우려가 커지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 이사회 성명 인용 CNBC + FT + 블룸버그 로 독립 보도"
+    },
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/business-and-practice/nvidia-board-members-tap-wachtell-lipton-to-probe-ceo-affair",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-grok-build-ghostshares-35k-apps-exposed",
+    "date": "2026-11-11",
+    "category": "AI·IT",
+    "title": "Grok Build로 만든 앱 3만5천여 개, 로그인 없이 열려…스페이스XSI 내부 기밀도 노출",
+    "summary": "보안업체 Claroc에 따르면 온라인 상태인 Grok 앱 37,571개 중 35,578개(94.7%)가 로그인 없이 열렸다. 이 중 24개는 SpaceXSI·X 직원이 만든 앱으로, 기밀 표시된 영업팀 온보딩 계획, 594개 계정 영업 지도, 광고 제안서 등이 들어 있었다. Claroc은 게시 시 기본 공유 설정이 '링크가 있는 모든 사용자'였고, 앱 주소가 패시브 DNS로 수집된다고 밝혔다. SpaceXSI는 직원 앱 24개를 내렸지만 다른 사용자들의 공개 앱은 그대로라고 Claroc은 전했다.",
+    "why": "바이브 코딩 도구로 만든 앱의 기본 공유 설정과 주소 구조 때문에 병원 직원 명단·환자 검사 결과·평문 비밀번호까지 대량 노출된 사례다. Grok Build를 쓴다면 공유 설정을 확인해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claroc 1차 연구 보고서 + Ars Technica 독자 확인(SpaceXSI가 문의 후 링크 삭제)"
+    },
+    "links": [
+      {
+        "label": "Claroc 보고서",
+        "url": "https://blog.claroc.io/ghostshares-grok-build-apps/",
+        "type": "source"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-11-australia-ai-criminal-offence",
     "date": "2026-11-11",
     "category": "AI·IT",
@@ -19,6 +67,34 @@
       {
         "label": "호주 총리실(전날 발표)",
         "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-apple-claris-harbor-local-inference",
+    "date": "2026-11-11",
+    "category": "로컬 AI",
+    "title": "[미확인] 애플 Claris, 맥을 로컬 AI 추론 서버로 만드는 'Harbor' 앱 비공개 테스트…썬더볼트 5로 여러 대 메모리 합쳐",
+    "summary": "유출 정보 제보자 Aaron Perris가 공개한 앱 설명에 따르면 Harbor는 애플 실리콘 맥에서 오픈 웨이트 모델을 로컬로 돌리는 앱으로, 앱 안에서 모델을 찾아 내려받고, 썬더볼트 5로 연결한 맥 여러 대의 통합 메모리를 하나로 묶어 더 큰 모델을 돌린다. 맥루머스는 Claris가 비공개 얼리 액세스로 테스트 중이며 앱스토어 등록 정보가 있었다가 삭제됐다고 전했다.",
+    "why": "애플이 직접 커맨드라인 없이 쓰는 로컬 LLM·맥 클러스터 도구를 내놓으면 Ollama·LM Studio·exo 같은 로컬 AI 도구 생태계에 큰 영향을 줄 수 있다.",
+    "verification": {
+      "status": "미확인",
+      "note": "애플 공식 발표 없음. 9to5Mac·MacRumors가 같은 유출(앱스토어 등록 정보) 기반으로 보도"
+    },
+    "specs": {
+      "price": "미공개",
+      "compute": "애플 실리콘 맥, 썬더볼트 5 클러스터"
+    },
+    "links": [
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+        "type": "source"
+      },
+      {
+        "label": "MacRumors",
+        "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app/",
         "type": "source"
       }
     ]
