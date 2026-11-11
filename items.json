@@ -1,5 +1,68 @@
 [
   {
+    "id": "2026-11-11-tsmc-invests-anthropic-openai",
+    "date": "2026-11-11",
+    "category": "AI·IT",
+    "title": "TSMC, 앤트로픽·오픈AI에 각각 최대 5억 달러 투자 결의",
+    "summary": "TSMC 이사회가 앤트로픽 보통주를 IPO 공모가로 최대 5억 달러, 오픈AI 우선주를 최대 5억 달러어치 사들이는 안을 승인했다. 반도체 생태계 전략투자용 최대 5억 달러 규모 투자회사 설립과 약 409억 달러 설비 투자 집행도 함께 의결했다.",
+    "why": "세계 최대 파운드리가 고객사인 AI 개발사의 지분을 직접 확보하는 이례적 행보로, AI 수요에 대한 장기 확신을 보여 준다(로이터).",
+    "verification": {
+      "status": "확인됨",
+      "note": "TSMC 공식 이사회 결의 공시(SEC 제출) + 로이터·중앙통신(Focus Taiwan) 보도"
+    },
+    "links": [
+      {
+        "label": "TSMC 이사회 결의",
+        "url": "https://pr.tsmc.com/english/news/3352",
+        "type": "source"
+      },
+      {
+        "label": "Reuters (Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908",
+        "type": "source"
+      },
+      {
+        "label": "Focus Taiwan",
+        "url": "https://focustaiwan.tw/business/202611110009",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-qwen4-max-preview",
+    "date": "2026-11-11",
+    "category": "AI·IT",
+    "title": "알리바바, 차세대 'Qwen4' 첫 모델 Qwen4-Max 프리뷰 공개…11월 25일까지 한정",
+    "summary": "Qwen 팀이 \"Qwen4 is coming\"과 함께 최상위 모델 Qwen4-Max를 프리뷰로 열었다. API는 Token Plan 구독 전용(종량제 불가)이며 프리뷰 기간은 11월 11일 10:00~25일 24:00(UTC+8), 이후 내려간다. 문서상 1M 컨텍스트, 이미지·영상 이해, 도구 호출·웹 검색·구조화 출력 지원이고 QwenWork·Qoder·Qwen 앱·QwenStudio에서도 먼저 써볼 수 있다.",
+    "why": "Qwen 4세대의 첫 공개로 코딩·에이전트 성능 강화를 내세웠다. 파라미터 수·벤치마크·가중치는 아직 공개되지 않아 로컬용 오픈 웨이트가 뒤따를지가 관심사다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "알리바바 클라우드 Token Plan 공식 문서 + Qwen 공식 X 공지 + 界面新闻·PC Watch 독립 보도"
+    },
+    "specs": {
+      "context": "1M(공식 문서)",
+      "modality": "텍스트·이미지·영상 입력",
+      "license": "가중치 미공개"
+    },
+    "links": [
+      {
+        "label": "알리바바 클라우드 Token Plan 문서",
+        "url": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-personal-overview",
+        "type": "source"
+      },
+      {
+        "label": "界面新闻",
+        "url": "https://m.jiemian.com/article/15319312.html",
+        "type": "source"
+      },
+      {
+        "label": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2155430.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-11-openai-acquires-odessia",
     "date": "2026-11-11",
     "category": "AI·IT",
