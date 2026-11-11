@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-11-11-openai-acquires-odessia",
+    "date": "2026-11-11",
+    "category": "AI·IT",
+    "title": "OpenAI, Sonder 창업자의 AI 여행 에이전트 'Odessia' 인수…서비스는 종료",
+    "summary": "Odessia 창업자 프랜시스 데이비슨이 OpenAI 인수와 합류를 발표했고, OpenAI 대변인이 TechCrunch에 채용을 확인했다. 인수 조건은 비공개이며 Odessia 서비스는 이미 종료됐다.",
+    "why": "ChatGPT가 여행 계획·예약 에이전트 쪽으로 직접 역량을 넓히려는 신호로 읽힌다(OpenAI는 여행 관련 신제품을 아직 발표하지 않음).",
+    "verification": {
+      "status": "확인됨",
+      "note": "창업자 LinkedIn 글(1차) + TechCrunch(OpenAI 대변인 확인) + Skift·BetaKit 독립 보도"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?resize=1200,801",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+        "type": "source"
+      },
+      {
+        "label": "Francis Davidson (LinkedIn)",
+        "url": "https://www.linkedin.com/pulse/openai-acquires-odessia-francis-davidson-yolcc",
+        "type": "source"
+      },
+      {
+        "label": "Skift",
+        "url": "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-11-nvidia-board-wachtell-huang-probe",
     "date": "2026-11-11",
     "category": "AI·IT",
@@ -19,6 +49,74 @@
       {
         "label": "Bloomberg Law",
         "url": "https://news.bloomberglaw.com/business-and-practice/nvidia-board-members-tap-wachtell-lipton-to-probe-ceo-affair",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-llama-cpp-b12274-fp8-kv-cache",
+    "date": "2026-11-11",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12274, FP8 KV 캐시 지원 추가",
+    "summary": "llama.cpp b12274에 OCP FP8 기반 KV 캐시 지원이 들어갔으며, 실행 시 정적 텐서별 스케일도 선택적으로 쓸 수 있다. PR은 FP8 스케일 KV 캐시를 쓰는 예로 nvidia/Mistral-Medium-3.5-128B-NVFP4를 들었다.",
+    "why": "긴 컨텍스트에서 KV 캐시 메모리를 줄이는 선택지가 늘고, FP8 KV 캐시로 배포된 모델을 원래 형식대로 돌릴 수 있게 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b12274 + 머지된 PR #28392 직접 확인"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12274",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12274",
+        "type": "github"
+      },
+      {
+        "label": "PR #28392",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/28392",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-korea-imd-digital-ai-10th",
+    "date": "2026-11-11",
+    "category": "한국 IT",
+    "title": "한국, IMD 세계 디지털·AI 경쟁력 10위…전년 18위서 8계단 상승",
+    "summary": "과기정통부에 따르면 한국은 IMD 2026 세계 디지털·AI 경쟁력 평가에서 70개국 중 10위를 기록했고, 인구 2000만 명 이상 국가 중에서는 미국·캐나다·중국에 이어 4위였다. 기술인프라·효율성은 각각 3위, 거버넌스 27위, 인력개발 20위였다.",
+    "why": "인프라는 상위권이지만 거버넌스·인재 분야가 약점으로 드러나 정부 AI 정책 방향에 참고가 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "과기정통부 발표 인용 연합뉴스 + 아주경제·디지털타임스·코리아타임스 독립 보도"
+    },
+    "image": "https://image.ajunews.com/content/image/2026/11/11/20261111102536553873.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261110131300017",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261111102321575",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-kakao-overseas-ir-split",
+    "date": "2026-11-11",
+    "category": "한국 IT",
+    "title": "카카오, 홍콩·싱가포르 해외 IR로 인적분할 설명…자사주 1,500억 원 분할 전 조기 매입·소각",
+    "summary": "정신아 대표와 김도영 카카오X 대표 내정자가 11~12일 홍콩·싱가포르에서 해외 투자자·기관 10여 곳에 분할 후 카카오AI·카카오X 전략을 설명한다. 카카오는 3,000억 원 자사주 매입·소각 계획 중 1,500억 원을 분할 전에 앞당겨 실행하기로 했다.",
+    "why": "분할 후 카카오AI가 카카오톡 중심 AI·광고·커머스를 맡는 구조여서 국내 대표 플랫폼의 AI 사업 재편 일정과 직결된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공식 보도자료(1차)"
+    },
+    "links": [
+      {
+        "label": "카카오 보도자료",
+        "url": "https://www.kakaocorp.com/page/detail/12196",
         "type": "source"
       }
     ]
@@ -95,6 +193,105 @@
       {
         "label": "MacRumors",
         "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-hf-hub-google-cloud-marketplace",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "허깅페이스 Hub, 구글 클라우드 계정으로 결제 가능…Google Cloud Marketplace 등록",
+    "summary": "조직은 Google Cloud Marketplace에서 Hugging Face Hub에 구독하고 GCP 프로젝트·결제 계정을 연결하면 Hub 사용료를 구글 클라우드 청구로 낼 수 있다. 허깅페이스 승인 후 유료 사용분이 GCP 청구로 넘어간다.",
+    "why": "기업이 기존 클라우드 약정·예산으로 허깅페이스 유료 기능을 쓸 수 있게 돼 도입 절차가 단순해진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 블로그 + 공식 changelog"
+    },
+    "image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
+    "links": [
+      {
+        "label": "Hugging Face 블로그",
+        "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+        "type": "source"
+      },
+      {
+        "label": "HF changelog",
+        "url": "https://huggingface.co/changelog/gcp-marketplace",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-grok-4-8-pretraining-done",
+    "date": "2026-11-10",
+    "category": "AI·IT",
+    "title": "머스크 \"Grok 4.8 사전학습 완료, 지금은 RL 단계\"…RL·추론 스택 C/C++로 재작성",
+    "summary": "일론 머스크는 X에서 JAX/SGLang을 버리고 RL·추론 스택 전체를 C/C++로 새로 짜느라 시간이 더 걸렸으며, Grok 4.8의 사전학습이 끝나 현재 강화학습(RL) 단계에 있다고 밝혔다.",
+    "why": "xAI 차기 모델의 진행 상황을 밝힌 공개 발언으로, 출시 시점은 아직 공식 발표되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머스크 본인 X 게시물(1차) 직접 확인. 출시 일정은 공식 발표 없음"
+    },
+    "links": [
+      {
+        "label": "@elonmusk X 게시물",
+        "url": "https://x.com/i/status/2120088070443655190",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-gigabyte-ai-top-aero-rtx-spark",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "기가바이트 'AI TOP AERO' 출시…RTX Spark N1X·최대 128GB 통합 메모리, 약 1리터 미니 PC",
+    "summary": "기가바이트는 20코어 Grace CPU와 Blackwell RTX GPU를 묶은 RTX Spark N1X 기반 미니 PC를 11월 10일 출시했다. 최대 128GB LPDDR5x 통합 메모리·4TB PCIe 5.0 SSD, 10GbE·Wi‑Fi 7을 갖췄고 LM Studio·Ollama를 지원한다고 밝혔다.",
+    "why": "맥 스튜디오처럼 큰 통합 메모리로 대형 로컬 모델을 돌릴 수 있는 윈도 데스크톱 선택지가 늘었다. 가격은 지역별 발표 예정.",
+    "verification": {
+      "status": "확인됨",
+      "note": "기가바이트 공식 보도자료(PR Newswire) + Notebookcheck 독립 보도. 가격 미공개"
+    },
+    "image": "https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc5/gigabyte-ai-top-aero-nvidia-rtx-spark.jpg",
+    "specs": {
+      "memory": "최대 128GB LPDDR5x 통합",
+      "compute": "RTX Spark N1X (20코어 Grace + Blackwell RTX)",
+      "price": "미공개(지역별 발표 예정)"
+    },
+    "links": [
+      {
+        "label": "기가바이트 보도자료",
+        "url": "https://www.prnewswire.com/apac/news-releases/gigabyte-expands-its-local-ai-portfolio-with-the-launch-of-ai-top-aero-powered-by-nvidia-rtx-spark-302934940.html",
+        "type": "source"
+      },
+      {
+        "label": "Notebookcheck",
+        "url": "https://www.notebookcheck.com/Neuer-Mini-PC-greift-Mac-Studio-mit-128GB-RAM-und-RTX-Spark-an.1447248.0.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-arm-cortex-m42-edge-ai",
+    "date": "2026-11-10",
+    "category": "로컬 AI",
+    "title": "Arm, 초소형 기기용 'Cortex-M42' 공개…Cortex-M33 대비 벡터 연산 최대 3배",
+    "summary": "Arm은 Helium 벡터 기술과 AHB 기반 소형 설계를 결합한 Armv8.1-M 마이크로컨트롤러 코어 Cortex-M42를 공개했다. Cortex-M33 대비 벡터 연산 능력 최대 3배, 벡터 전력 효율 최대 2배라고 밝혔다.",
+    "why": "웨어러블 키워드 인식, 센서·설비 이상 감지처럼 아주 작은 기기에서 돌아가는 온디바이스 AI의 기반 칩이 넓어진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Arm 공식 뉴스룸(1차) + IT之家 독립 보도. 수치는 Arm 발표 그대로"
+    },
+    "image": "https://newsroom.arm.com/wp-content/uploads/2026/11/GettyImages-2173777205-2-scaled.jpg",
+    "links": [
+      {
+        "label": "Arm 뉴스룸",
+        "url": "https://newsroom.arm.com/news/arm-cortex-m42-accelerate-edge-ai-innovation",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/025/294.htm",
         "type": "source"
       }
     ]
@@ -1054,6 +1251,51 @@
     ]
   },
   {
+    "id": "2026-11-11-vulncheck-glasswing-7-months",
+    "date": "2026-11-09",
+    "category": "AI·IT",
+    "title": "VulnCheck \"앤트로픽 Glasswing 7개월, 발견 37,966건 중 수정 217건\"…curl은 34건 중 19건 '취약점 아님'",
+    "summary": "VulnCheck는 앤트로픽에 귀속되는 CVE를 442건(올해 전체의 약 0.5%)으로 집계했고, 이 중 실제 악용은 2건이라고 분석했다. curl에 전달된 앤트로픽 OSS Scanner 보고서는 공개된 34건 중 19건이 '취약점 아님', 6건이 저위험으로 판정됐다고 전했다.",
+    "why": "AI 보안 취약점 탐지의 실효성과 오픈소스 관리자에게 넘어가는 검증 부담을 수치로 짚은 독립 분석이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "VulnCheck 블로그(독립 분석, 앤트로픽 공개 원장·CVE 기록 기반). 수치는 VulnCheck 집계 그대로"
+    },
+    "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+    "links": [
+      {
+        "label": "VulnCheck",
+        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50447074",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-naver-cloud-vlm-throughput-1-5x",
+    "date": "2026-11-09",
+    "category": "한국 IT",
+    "title": "네이버클라우드, 하이퍼클로바X 기반 VLM 사전학습 처리량 150.2%로 개선",
+    "summary": "네이버클라우드는 엔비디아 AI 데이 서울에서 이미지·영상 데이터 병목을 풀어 VLM 사전학습 처리량을 메가트론 브리지 기본 설정 대비 150.2%로 높였다고 발표했다. 비전 인코더를 메가트론 방식으로 재구현한 효과가 23.9%로 가장 컸다고 밝혔다.",
+    "why": "같은 GPU로 멀티모달 데이터를 더 빨리 학습할 수 있어 국산 멀티모달 모델 개발 비용과 속도에 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "행사 발표 내용 보도(시대일보·머니S). 수치는 발표자 인용 그대로"
+    },
+    "image": "https://menu.sidae.com/moneyweek/thumb/2026/11/09/00/2026110913522692091_1.jpg",
+    "links": [
+      {
+        "label": "시대일보",
+        "url": "https://www.sidae.com/article/2026110913522692091",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-vercel-deepseek-v41-ultrafast",
     "date": "2026-11-09",
     "category": "로컬 AI",
@@ -1531,6 +1773,35 @@
       {
         "label": "The Decoder",
         "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-qwen-concept-27b-weight-editing",
+    "date": "2026-11-08",
+    "category": "로컬 AI",
+    "title": "Qwen3.8-27B를 학습 없이 가중치 편집한 'qwen-concept-27b' 공개…생각 토큰 27~54% 감소(자체 평가)",
+    "summary": "ConceptCountry는 Qwen3.8-27B의 다운 프로젝션 9개를 경사 하강 없이 모델 자체 활성값으로 계산한 편집으로 바꿨으며, 원본 대비 GPQA Diamond +4.3, LiveCodeBench v6 +13.0에 생각 토큰은 27~54% 줄었다고 밝혔다. Apache 2.0이며 GGUF Q8_0(~27GB)·Q4_K_M(~16GB)도 제공한다.",
+    "why": "추가 학습 없이 가중치 공간 편집만으로 추론 효율을 높였다는 주장이라 로컬 사용자 관심이 크다. 수치는 제작자 자체 평가이며 4비트 양자화본은 따로 평가되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(1차)로 공개 확인. 벤치 수치는 제작자 자체 평가로 독립 재현 없음"
+    },
+    "specs": {
+      "params": "27B",
+      "license": "Apache 2.0",
+      "memory": "Q4_K_M ~16GB / Q8_0 ~27GB"
+    },
+    "links": [
+      {
+        "label": "ConceptCountry/qwen-concept-27b",
+        "url": "https://huggingface.co/ConceptCountry/qwen-concept-27b",
+        "type": "huggingface"
+      },
+      {
+        "label": "연구 노트",
+        "url": "https://concept.country/research/weight-space-programming",
         "type": "source"
       }
     ]
