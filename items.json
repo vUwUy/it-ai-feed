@@ -1,5 +1,345 @@
 [
   {
+    "id": "2026-11-12-zyphra-zonos3-mini",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "Zyphra 'ZONOS3-Mini' 오픈소스 TTS…활성 1억 파라미터, 브라우저에서도 실시간",
+    "summary": "총 886M·활성 100M MoE 음성 합성 모델로, 음성 샘플 하나로 목소리를 복제하고 단어 단위로 감정·속도를 조절한다. 휴대폰·노트북·브라우저(WebGPU)에서 실시간으로 돌고 가중치는 Apache 2.0이며, 한국어를 포함한 다국어를 지원한다.",
+    "why": "고품질 음성 복제를 로컬에서 가볍게 돌릴 수 있는 오픈 TTS다. 허깅페이스 좋아요 150개 이상으로 r/LocalLLaMA에서도 화제다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Zyphra 공식 모델 페이지 + HF 모델 카드 + MarkTechPost 보도"
+    },
+    "image": "https://cdn.sanity.io/images/6pyafx7r/production/d4949d6090b265c5f2b7d030e9160ed9cd68181b-2400x1260.jpg?w=1200&h=630&fm=jpg&q=85&fit=crop",
+    "specs": {
+      "params": "886M (활성 100M)",
+      "license": "Apache 2.0",
+      "modality": "텍스트→음성"
+    },
+    "links": [
+      {
+        "label": "Zyphra",
+        "url": "https://www.zyphra.com/models/zonos3-mini",
+        "type": "source"
+      },
+      {
+        "label": "Zyphra/ZONOS3-Mini",
+        "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+        "type": "huggingface"
+      },
+      {
+        "label": "r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtb9gw/zyphrazonos3mini_hugging_face/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-tether-botpsy-0-8b",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "테더 AI 연구소 'BotPsy' 0.8B…온디바이스 도구 호출 특화, GGUF Q4 529MB",
+    "summary": "Qwen3.5-0.8B를 후속 학습한 함수 호출·에이전트용 모델로, 1.2B 이하 비교 모델 중 도구 사용 성능 1위라고 밝혔다(자체 평가). 추론 루프에 빠지는 비율을 22.9%에서 1.4%로 줄였고, bf16·Q8·Q4 GGUF를 llama.cpp용으로 함께 냈다.",
+    "why": "휴대폰·노트북에서 검색·일정·메일 같은 간단한 에이전트 작업을 로컬로 돌리는 초소형 선택지다. 회사도 고위험 용도엔 쓰지 말라고 명시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 블로그·모델 카드 + xnews 보도"
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+    "specs": {
+      "params": "0.8B",
+      "license": "Apache 2.0",
+      "memory": "Q4 529MB · Q8 812MB · BF16 1.52GB"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/qvac/botpsy",
+        "type": "source"
+      },
+      {
+        "label": "qvac/BotPsy-0.8B",
+        "url": "https://huggingface.co/qvac/BotPsy-0.8B",
+        "type": "huggingface"
+      },
+      {
+        "label": "qvac/BotPsy-0.8B-GGUFs",
+        "url": "https://huggingface.co/qvac/BotPsy-0.8B-GGUFs",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-runway-praxis-1-open",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "런웨이, 로봇용 월드 액션 모델 'Praxis-1' 오픈 웨이트 공개(27B MoE, Apache 2.0)",
+    "summary": "영상과 로봇 동작을 함께 예측하는 27B MoE 디퓨전 트랜스포머로, 가중치와 추론·파인튜닝 코드(LoRA 포함)를 상업 이용 가능한 Apache 2.0으로 냈다. 런웨이는 엔비디아 RoboLab-120에서 성공률 46.2%로 FLUX 3 Action(42.9%)·π0.5(28.0%)를 앞섰다고 밝혔다.",
+    "why": "H100·B200부터 RTX 5090·RTX PRO 6000, 로봇 탑재용 Jetson Thor까지 지원해 연구자가 자기 하드웨어에서 돌리고 고칠 수 있다. LeRobot·vLLM-Omni 지원.",
+    "verification": {
+      "status": "확인됨",
+      "note": "런웨이 공식 발표 + Hugging Face 컬렉션·GitHub 저장소 확인"
+    },
+    "image": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/11/frame-8-bddb7fbc-4647-44e5-bf65-1fbb7e559b24.png",
+    "specs": {
+      "params": "27B (MoE)",
+      "license": "Apache 2.0",
+      "modality": "영상·동작"
+    },
+    "links": [
+      {
+        "label": "Runway 발표",
+        "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+        "type": "source"
+      },
+      {
+        "label": "runwayml/praxis-1",
+        "url": "https://huggingface.co/collections/runwayml/praxis-1",
+        "type": "huggingface"
+      },
+      {
+        "label": "runwayml/praxis-1-oss",
+        "url": "https://github.com/runwayml/praxis-1-oss",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-rtx-5080-24gb-cancel-rumor",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "[미확인] 엔비디아, RTX 5080 24GB 1월 출시 취소설…3GB GDDR7 가격 탓",
+    "summary": "중국 Board Channels발 보도에 따르면 엔비디아가 2027년 1월 중국 출시 예정이던 RTX 5080 24GB를 접고 16GB 모델을 계속 공급하기로 파트너사에 통보했다. 3GB GDDR7 칩이 2GB보다 약 3배 비싼 것이 이유로 거론된다.",
+    "why": "로컬 LLM용으로 기대를 모은 24GB급 소비자 GPU가 미뤄질 수 있다는 신호다. 엔비디아는 24GB 모델 자체도, 취소도 공식 확인하지 않았다.",
+    "verification": {
+      "status": "미확인",
+      "note": "VideoCardz(루머 태그)·Wccftech 등이 같은 Board Channels 출처 인용, 엔비디아 공식 확인 없음"
+    },
+    "links": [
+      {
+        "label": "VideoCardz",
+        "url": "https://videocardz.com/newz/nvidia-reportedly-cancels-geforce-rtx-5080-24gb-launch-brings-back-16gb-model-over-gddr7-costs",
+        "type": "source"
+      },
+      {
+        "label": "r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtdwps/nvidia_reportedly_cancels_geforce_rtx_5080_24gb/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-msit-2027-ai-budget",
+    "date": "2026-11-12",
+    "category": "한국 IT",
+    "title": "과기정통부, 내년 AI 분야 약 9조4천억 원 투자…AI·ICT R&D 예산안 2조755억 원",
+    "summary": "류제명 2차관은 '2027 AI·ICT 기술전망 컨퍼런스'에서 내년 AI 투자를 올해의 2배인 약 9조4천억 원으로 잡았고, AI·ICT R&D 예산안 2조755억 원 중 약 32%인 6,621억 원을 피지컬 AI·AI 데이터센터·AI 반도체 3대 메가프로젝트에 넣는다고 밝혔다. 예산안은 국회 심의가 남아 있다.",
+    "why": "통과되면 AI·ICT R&D 예산이 처음 2조 원을 넘는다. 프런티어 AI 모델, AI 고속도로, 양자·차세대 통신, 4대 권역 AX 실증이 함께 중점 분야로 제시됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 아주경제(IITP 행사 자료) 보도"
+    },
+    "image": "https://image.ajunews.com/content/image/2026/11/11/20261111162330962331.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261111070200017",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261111155137679",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-llamacpp-b12284-cuda-fp8",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12284, CUDA에 OCP FP8 지원 추가",
+    "summary": "CUDA 백엔드에 OCP 표준 FP8 형식 지원이 들어갔고, GEMV 경로에서는 W8A16 방식으로 처리한다. 하루 전 FP8 KV 캐시(b12274)에 이어 FP8 경로가 넓어졌다.",
+    "why": "FP8로 배포되는 최신 모델 가중치를 엔비디아 GPU에서 변환 없이 더 효율적으로 다룰 길이 열린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트 + PR #28413"
+    },
+    "links": [
+      {
+        "label": "b12284 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12284",
+        "type": "source"
+      },
+      {
+        "label": "PR #28413",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/28413",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-krafton-raon-1-nano",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "크래프톤 'Raon-1 nano' 오픈 웨이트…한·영 온디바이스용 1.5B, 262K 컨텍스트",
+    "summary": "유효 1.5B(층별 임베딩 포함 총 3.1B) 덴스 모델로, Raon-1 mini 프리뷰(30B-A4B)에서 MoE→Dense 가지치기와 증류로 만들었다. 24층 중 18층이 선형 어텐션이라 KV 캐시는 6개 MLA 층만 쓰며(토큰당 약 7KiB), GGUF·MLX·LiteRT-LM 형식을 함께 낸다.",
+    "why": "국내 기업이 한국어 대화·도구 호출에 맞춘 소형 모델을 Apache 2.0으로 공개해 휴대폰·맥에서 바로 돌려 볼 수 있다. 벤치마크 우위는 크래프톤 자체 비교다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드(KRAFTON) + r/LocalLLaMA 화제"
+    },
+    "image": "https://huggingface.co/KRAFTON/Raon-1-nano/resolve/main/assets/raon-1-nano-main-plot.png",
+    "specs": {
+      "params": "1.5B 유효(총 3.1B)",
+      "license": "Apache 2.0",
+      "context": "262K",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "KRAFTON/Raon-1-nano",
+        "url": "https://huggingface.co/KRAFTON/Raon-1-nano",
+        "type": "huggingface"
+      },
+      {
+        "label": "r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmbkn/kraftonraon1nano_hugging_face/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-gemini-decisions-api",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "구글 'Gemini Decisions API' 공개…한 요청에 질문 최대 1,000개, 출력 토큰 0원",
+    "summary": "새 모델 Gemini Decision 1(gemini-decision-1)이 문장을 생성하지 않고 예/아니오·객관식(2~255개)·루브릭 점수를 한 번의 순전파로 매겨 확률과 신뢰도를 돌려준다. 입력은 텍스트·이미지·오디오·영상·PDF(최대 256K 토큰), 종단 지연 150~250ms, 가격은 입력 100만 토큰당 $0.10이고 출력 토큰은 과금하지 않는다.",
+    "why": "에이전트의 도구 선택·정책 점검·모델 라우팅 같은 '정해진 선택지' 판단을 생성형 호출 대신 싸고 빠르게 처리하는 전용 엔드포인트다. 구글은 Gemini 3.5 Flash-Lite 대비 약 5배 저렴하다고 밝혔다(자사 벤치마크).",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + 토큰포스트 보도, HN 토론 확인"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+    "specs": {
+      "price": "입력 $0.10/1M, 출력 $0",
+      "context": "256K"
+    },
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "type": "source"
+      },
+      {
+        "label": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/ai/436777",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-fractile-720m-series-c",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "업데이트: 영국 AI 칩 스타트업 Fractile, 7억2천만 달러 시리즈 C 공식 발표",
+    "summary": "Thrive Capital·Founders Fund·Lightspeed·Redpoint가 주도하고 영국 Sovereign AI 펀드가 참여했다. 영국 정부는 기업가치를 '50억 파운드 이상'이라고 밝혔고, FT·로이터는 70억 달러로 보도했다. 칩 위에 DRAM을 쌓는 설계로 첫 칩과 시스템을 내년에 출하할 계획이다.",
+    "why": "앞서 보도된 영국 국부펀드 투자가 공식 라운드로 확정됐고, 추론 비용을 낮출 전용 AI 칩 스타트업 중 최상위권 자금을 확보했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch + 투자사 Balderton 공식 글"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2183896789.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+        "type": "source"
+      },
+      {
+        "label": "Balderton",
+        "url": "https://www.balderton.com/news/fractile-raises-720m-to-build-the-hardware-that-pushes-ais-frontier-forward/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-deepl-aure",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "딥엘, 실시간 음성 번역 모델 '오러(Aure)' 공개…한국어 포함 8개 언어",
+    "summary": "화자의 어조·감정·강세·말 속도 변화를 번역된 음성에 계속 반영하는 모델로, 딥엘 보이스(온라인 미팅·대면 대화)와 음성 API에 별도 설정 없이 자동 적용된다. 출시 초기 한국어·영어·독일어·스페인어·프랑스어·이탈리아어·일본어·포르투갈어를 지원한다.",
+    "why": "내용만 옮기던 음성 번역을 '말하는 방식'까지 옮기는 쪽으로 넓혔고, 한국어가 첫 지원 언어에 들어갔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥엘 공식 보도자료(한국어)"
+    },
+    "links": [
+      {
+        "label": "딥엘 보도자료",
+        "url": "https://www.deepl.com/ko/press-release/aure-voice-ai-model",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-aws-emulator",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "AWS, 에이전트가 만든 로컬 AWS 'AWS Emulator' 공개…200개+ 서비스, CC0",
+    "summary": "코딩 에이전트가 테스트할 수 있도록 AWS API를 내 컴퓨터에서 무료·오프라인으로 흉내 내는 에뮬레이터로, 400개 이상 API 모델 기반 200개 이상 서비스를 다룬다. AWS는 코드 전부를 에이전트가 작성·테스트했으며 실제 AWS와 대조하는 '충실도 테스트'로 차이를 고친다고 밝혔다.",
+    "why": "에이전트가 실제 클라우드 없이 자기 코드를 검증하는 루프를 공식 도구로 제공한다. 아직 실제 AWS와 다르게 동작하는 부분은 저장소의 'things-that-do-not-work' 폴더에 공개돼 있다. HN에서 480점 안팎으로 화제가 됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AWS CTO 블로그(All Things Distributed) + 공식 GitHub 저장소"
+    },
+    "image": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg",
+    "specs": {
+      "license": "CC0"
+    },
+    "links": [
+      {
+        "label": "All Things Distributed",
+        "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+        "type": "source"
+      },
+      {
+        "label": "aws/aws-emulator",
+        "url": "https://github.com/aws/aws-emulator",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50456631",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-alphagenome-2",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "딥마인드 'AlphaGenome 2' 공개…세포 유형별 DNA 변이 영향 예측",
+    "summary": "100만 염기 DNA 서열과 조직·세포 유형·상태를 함께 입력받는 조건부 모델로, 1억700만 개 이상 단일세포 프로파일로 학습했고 DNA 메틸화 예측이 추가됐다. TenK10K 면역세포 데이터에서 원인 변이 식별률 30%로 기존 AlphaGenome(16%)의 약 2배였다(딥마인드 발표).",
+    "why": "질병 관련 변이를 조직 평균이 아니라 실제로 작용하는 세포 단위로 좁힐 수 있다. 비상업 연구용 API로 바로 열렸고, 상업 연구는 비공개 프리뷰이며 임상·진단용 승인은 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 딥마인드 공식 블로그 + The Verge·토큰포스트 보도"
+    },
+    "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw",
+    "links": [
+      {
+        "label": "딥마인드 블로그",
+        "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-11-tsmc-invests-anthropic-openai",
     "date": "2026-11-11",
     "category": "AI·IT",
