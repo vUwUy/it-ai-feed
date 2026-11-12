@@ -547,6 +547,44 @@
     ]
   },
   {
+    "id": "2026-11-12-apache-httpd-cve-2026-119618",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "아파치 HTTP 서버 mod_http2 '치명적' 원격 코드 실행 취약점(CVE-2026-119618)…2.4.71로 패치",
+    "summary": "Apache HTTP Server 2.4.55~2.4.70의 mod_http2 assign_headers() 경쟁 상태로 힙 손상과 원격 코드 실행(RCE)이 가능하다. Apache 보안팀 등급은 'critical'이며 11월 11일 2.4.71에서 수정됐다. 발견자는 Anthropic OSS Scanner와 Google Cloud 취약점 연구팀이다.",
+    "why": "전 세계에서 가장 많이 쓰이는 웹 서버 중 하나다. Wiz는 클라우드 환경의 64%에 취약한 리소스가 있고 51%는 공개 노출 인스턴스가 있다고 밝혔다(설정 미고려). 당장 패치할 수 없으면 HTTP/2를 끄는 것(Protocols http/1.1)이 임시 완화책이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Apache 공식 보안 페이지·CHANGES_2.4 + oss-security 공지 + Wiz 분석 확인. Wiz 게시 시점 기준 공개 익스플로잇·실제 악용 보고 없음"
+    },
+    "specs": {
+      "영향 버전": "2.4.55~2.4.70 (mod_h2 2.0.8~2.0.42)",
+      "패치": "2.4.71"
+    },
+    "links": [
+      {
+        "label": "Apache 보안 공지",
+        "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
+        "type": "source"
+      },
+      {
+        "label": "oss-security 공지",
+        "url": "https://www.openwall.com/lists/oss-security/2026/11/11/13",
+        "type": "source"
+      },
+      {
+        "label": "Wiz 분석",
+        "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-alphagenome-2",
     "date": "2026-11-12",
     "category": "AI·IT",
