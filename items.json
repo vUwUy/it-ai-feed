@@ -1,5 +1,295 @@
 [
   {
+    "id": "2026-11-13-smolmaxxing-tv-box-llm",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "'smolmaxxing': RAM 1.9GB 샤오미 TV 박스에서 2B는 6.55 tok/s, 9B까지 구동",
+    "summary": "Hyperion AI의 MIT 오픈소스 프로젝트로, Cortex-A55 전용 커널, 어휘 헤드 축소, 플래시에서 가중치 스트리밍, MTP 추측 디코딩을 패치한 llama.cpp에 넣었다. 샤오미 TV Box S(3세대)에서 Qwen3.5-2B 6.55 tok/s, 1비트 Bonsai-8B 1.21 tok/s, Qwen3.5-9B는 0.27 tok/s로 측정했다.",
+    "why": "쓰지 않는 저사양 기기에서 로컬 LLM을 어디까지 돌릴 수 있는지 실측으로 보여 준다. 다만 아직 이 TV 박스 하나만 결과가 있고, 2B보다 큰 모델은 느리다고 스스로 밝혔다. HN 229점.",
+    "verification": {
+      "status": "확인됨",
+      "note": "프로젝트 공식 페이지(실측 표) + GitHub 저장소 + HN"
+    },
+    "image": "https://hyperion-ai.com/og/smolmaxxing.png",
+    "specs": {
+      "license": "MIT",
+      "memory": "RAM 1.9GB(사용 가능 약 1GB)"
+    },
+    "links": [
+      {
+        "label": "프로젝트 페이지",
+        "url": "https://hyperion-ai.com/products/smolmaxxing",
+        "type": "source"
+      },
+      {
+        "label": "hyperionaidev/smolmaxxing",
+        "url": "https://github.com/hyperionaidev/smolmaxxing",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50468888",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-samsung-intelligent-eyewear-korea-launch",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "업데이트: 삼성·구글 AI 안경 전 라인업 30종 공개…국내 12월 10일 출시, 65만~70만 원",
+    "summary": "삼성전자·구글·젠틀몬스터·워비파커가 뉴욕에서 제미나이 탑재 '인텔리전트 아이웨어' 30종(젠틀몬스터 16·워비파커 14)을 공개했다. 무게 약 41g, 1,200만 화소 카메라, 스냅드래곤 AR1 1세대, 최대 9시간(케이스 포함 72시간) 배터리이며, 국내에는 12월 10일 젠틀몬스터 컬렉션이 65만~70만 원에 나온다.",
+    "why": "지난 8일 예약 소식에 이어 국내 출시일·가격과 사양이 확정됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea + 연합뉴스 + 전자신문"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/12/92cbcac94d05a5cebc32c9b55ded80d4.jpg",
+    "specs": {
+      "price": "65만~70만 원(국내 젠틀몬스터)"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261112162741",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112140300017",
+        "type": "source"
+      },
+      {
+        "label": "젠틀몬스터 공식몰",
+        "url": "https://www.gentlemonster.com/kr/ko",
+        "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-openai-daybreak-red-team-defense-factory",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "OpenAI, 침투 테스트 에이전트 'Daybreak Red Team'·자동 패치 'Defense Factory' 출시",
+    "summary": "Red Team(얼리 액세스)은 에이전트 팀이 소스 코드와 앱 맥락으로 웹앱 취약점을 찾고, 스캐너·버그바운티 제보를 검증하며 패치가 실제로 막는지 재시험한다. Defense Factory는 GPT-6 Cyber 기반 에이전트가 코드베이스의 취약점을 찾아 패치와 테스트를 담은 PR을 만들고, 엔지니어가 승인한다.",
+    "why": "그렉 브록먼 사장은 기조연설에서 '기업은 방어에 쓰는 프런티어 모델만큼만 안전하다'고 말했다(The Register). OpenAI의 보안 사업이 제품 라인으로 본격화했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 제품 페이지 + The Register"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "Daybreak Red Team",
+        "url": "https://openai.com/daybreak/red-team/",
+        "type": "source"
+      },
+      {
+        "label": "Daybreak Defense Factory",
+        "url": "https://openai.com/daybreak/defense-factory/",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-microsoft-365-global-outage",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "마이크로소프트 365 전 세계 장애…아웃룩·팀즈·코파일럿 접속 오류",
+    "summary": "12일(현지) 서버 다수가 자동 상태 점검에서 실패해 남은 서버에 부하가 몰리면서 Exchange Online·Teams·OneDrive·SharePoint·Copilot 등에 장애가 났다. Down Detector 신고는 약 13만 건까지 치솟았고, MS는 최근 구성 변경을 유력 원인으로 보고 배포를 멈춘 채 서버를 재시작하며 복구했다.",
+    "why": "국내 기업도 13일 오전 업무에 영향이 있을 수 있어 MS 365 서비스 상태를 확인하는 게 좋다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가디언 + CNBC + 알자지라"
+    },
+    "image": "https://i.guim.co.uk/img/media/f39d9eba31016399e4c01fd145c5dd223dd145d6/334_0_3332_2666/master/3332.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b91f0696e82c3ebefb1469dc0fc5a959",
+    "links": [
+      {
+        "label": "가디언",
+        "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-libreagi-oss-model-tracker",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "'LibreAGI', 사라질 수 있는 오픈 모델 가중치를 보존하는 비공개 토렌트 트래커 등장",
+    "summary": "회원들이 삭제될 위험이 큰 오픈 모델의 사본을 시딩하는 비공개 BitTorrent 트래커다. Apache-2.0·MIT·Qwen 커뮤니티 라이선스의 safetensors·GGUF·ONNX만 받고, 파일마다 원본 커밋과 대조하며, 사본이 1개뿐인 모델은 기본의 4배 크레딧을 준다. 서명된 공개 카탈로그도 낸다.",
+    "why": "HF 등에서 모델이 내려가도 로컬 사용자가 가중치를 다시 구할 수 있게 하려는 커뮤니티의 시도다. 가입은 신청제. HN 109점.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공식 사이트 + HN 토론"
+    },
+    "image": "https://libreagi.com/og.png",
+    "links": [
+      {
+        "label": "LibreAGI",
+        "url": "https://libreagi.com/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50467439",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-korea-cyber-resilience-tf",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "국가AI전략위, '국가 사이버복원력 강화 TF' 출범…내년 1분기 전략 마련",
+    "summary": "AI 기반 사이버 공격에 대비해, 침해가 일어나도 핵심 서비스를 유지·복구하는 체계를 만드는 TF다. 이원태 국민대 특임교수가 이끌고 민간위원 11명과 과기정통부·행안부·국정원 등이 참여하며, 내년 1분기까지 전략과 2027~2028년 이행 로드맵을 만든다.",
+    "why": "최근 금융보안원 등 해킹이 잇따른 가운데 나온 범정부 대응이다. 같은 날 하정우 부위원장은 업스테이지 독파모 특혜 의혹에 '네이버도 탈락했다, 공정성 문제 없다'고 반박했다(머니투데이).",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 디지털타임스·조선비즈 + 머니투데이"
+    },
+    "image": "https://img0.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110612000001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112054000017",
+        "type": "source"
+      },
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/it-science/ict/2026/11/12/RYIAJBQFAFBO5P7UFGDTQCQAEQ/",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이(하정우 반박)",
+        "url": "https://www.mt.co.kr/tech/2026/11/12/2026111214242847252",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-jensen-huang-resigns-nvidia",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "업데이트: 젠슨 황, 엔비디아 CEO 즉시 사임…콜레트 크레스 CFO가 임시 CEO",
+    "summary": "엔비디아 이사회는 젠슨 황이 사장·CEO·이사직에서 즉시 사임했다고 발표했다. 콜레트 크레스 CFO가 임시 CEO를 겸하고, 하비 존스 전 시놉시스 CEO가 첫 이사회 의장을 맡으며, 3분기 실적은 예정대로 11월 17일(현지) 발표한다.",
+    "why": "33년간 회사를 이끈 창업자가 후계 구도 없이 물러났다. TechCrunch에 따르면 목요일 장 초반 주가가 약 12% 빠졌고, 국내에서는 삼성전자·SK하이닉스 HBM 공급 일정에 미칠 영향이 거론된다(뉴데일리). HN에서 2,495점·댓글 2,400여 개로 하루 1위였다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 보도자료 + TechCrunch + 뉴데일리"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205210966.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "엔비디아 보도자료",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+        "type": "source"
+      },
+      {
+        "label": "뉴데일리(국내 영향)",
+        "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/13/2026111300001.html",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/front?day=2026-11-12",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-gemini-4-hydrogen",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "구글 'Gemini 4 Hydrogen' 출시…Flash 후속, 입력 $1.50·출력 $7.50",
+    "summary": "구글이 빠른 코딩·에이전트 작업용 Gemini 4 Hydrogen을 공개했다. 기본(high) 설정에서 Artificial Analysis 지능 지수 51로 Argon(50)을 앞서고, 3.8 Flash보다 작업을 2.5배 빨리 끝내며 Terminal-Bench 4.1은 57%(3.8 Flash 18.2%)라고 밝혔다. 1M 컨텍스트 전 구간 입력 100만 토큰당 $1.50·출력 $7.50이다.",
+    "why": "Gemini 앱(무료는 자동 선택)·검색 AI 모드 기본 모델·API에 오늘부터 바로 들어간다. Antigravity에는 Carbon과 Hydrogen을 자동으로 바꿔 쓰는 'Orchestrator'도 추가됐다. HN 385점.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + 9to5Google"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "specs": {
+      "context": "입력 1M·출력 최대 1M",
+      "price": "입력 $1.50 / 출력 $7.50 (100만 토큰당)"
+    },
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+        "type": "source"
+      },
+      {
+        "label": "9to5Google",
+        "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-anthropic-ipo-nov-19-trading",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "업데이트: 앤트로픽, 11월 19일 나스닥 거래 시작 확인…공모가는 18일 확정",
+    "summary": "앤트로픽이 11월 18일 최종 공모가를 정하고 19일 나스닥 글로벌 셀렉트 마켓에서 티커 'ANT'로 거래를 시작할 계획이라고 확인했다. 공모가 범위는 주당 $70~78다.",
+    "why": "상장 일정이 확정되며 일주일 뒤 사상 최대급 AI 기업 IPO가 열린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 발표(티커·공모가 범위) + 더버지(거래일 확인)"
+    },
+    "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "links": [
+      {
+        "label": "앤트로픽 발표",
+        "url": "https://www.anthropic.com/news/roadshow-launch",
+        "type": "source"
+      },
+      {
+        "label": "더버지",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031894/anthropic-confirms-its-planning-for-its-shares-to-start-publicly-trading-on-november-19th",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-advocacy-lawsuit-freeze-ai-models",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "시민단체 연합, 오픈AI·앤트로픽·구글·메타·SpaceXSI에 '신모델 개발 중단' 소송",
+    "summary": "온라인 안전·소비자 단체 연합이 샌프란시스코 상급법원에 5개 AI 기업을 상대로 현재 최고 모델보다 더 강력한 AI의 개발·배포를 멈추게 해 달라는 소송을 냈다. AI가 동원된 사이버 공격 사례와 기업들 스스로 밝힌 위험 경고를 근거로 들었다.",
+    "why": "규제 입법이 아니라 법원을 통해 프런티어 모델 개발 자체를 멈추려는 시도다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AP 단독 보도 + The Register"
+    },
+    "links": [
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-zyphra-zonos3-mini",
     "date": "2026-11-12",
     "category": "로컬 AI",
