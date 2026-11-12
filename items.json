@@ -35,6 +35,60 @@
     ]
   },
   {
+    "id": "2026-11-12-us-ban-superintelligence-act",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "미 민주당 '초지능 금지법'(H.R.10538) 다시 주목…'AI부' 신설해 고급 AI 개발에 정부 허가",
+    "summary": "9월 24일 카사르 의원 등이 발의한 법안으로, AI부(Department of Artificial Intelligence)를 만들고 장관 인가 없이는 고급 AI 모델을 개발·배포하지 못하게 한다. 선거 후 민주당 내 규제 목소리가 커지며 다시 주목받고 있으며, 위반 시 최대 20년 징역 등 처벌 조항이 있다. 통과 가능성은 불투명하다.",
+    "why": "미국 의회 권력 변화 뒤 AI 규제 논의 방향을 보여준다. 실제 법이 되려면 갈 길이 멀다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "govinfo 법안 원문(2026-09-24 발의) + Futurism 보도. 다만 '탄력' 평가는 언론 해석"
+    },
+    "links": [
+      {
+        "label": "H.R.10538 원문",
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr10538ih/pdf/BILLS-119hr10538ih.pdf",
+        "type": "source"
+      },
+      {
+        "label": "Futurism",
+        "url": "https://futurism.com/artificial-intelligence/democrats-federal-permit-train-ai-model",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-united-blocks-ai-agents",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "유나이티드항공, 승인 안 된 개인 AI 에이전트의 항공권 예약·계정 접근 차단",
+    "summary": "AI 도구가 유나이티드 항공편·운임을 보여주는 것은 허용하지만, 예약 완료·계정 접근·여정 관리는 막는다. 개인정보 노출, 의도치 않은 구매, 위험물 확인 등 규제 위반 우려를 이유로 들었다.",
+    "why": "OpenAI·메타 등이 '대신 사주는' 에이전트를 밀고 있지만, 판매자가 사람 결제 단계를 요구하며 제동을 건 대표 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "유나이티드 공식 안내 페이지 + CNBC·더버지 보도"
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0%2C10.721800295556%2C100%2C78.556399408888&w=1200",
+    "links": [
+      {
+        "label": "유나이티드 안내",
+        "url": "https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html",
+        "type": "source"
+      },
+      {
+        "label": "더버지",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-tether-botpsy-0-8b",
     "date": "2026-11-12",
     "category": "로컬 AI",
@@ -169,6 +223,30 @@
     ]
   },
   {
+    "id": "2026-11-12-naver-q3-ai-factory-agent-app",
+    "date": "2026-11-12",
+    "category": "한국 IT",
+    "title": "네이버, 미국 AI 기업과 약 2조 원 AI 팩토리 계약…예약·결제까지 하는 개인형 AI 에이전트 앱 연내 출시",
+    "summary": "네이버는 3분기 실적 콘퍼런스콜에서 미국 AI 추론 기업에 B300·베라 루빈 GPU 기반 컴퓨팅을 약 20MW 규모, 4~5년간 공급하는 약 2조 원 계약을 맺었다고 밝혔다. 검색·쇼핑·플레이스·네이버페이와 외부 웹까지 연결해 예약·결제를 대신 수행하는 개인형 AI 에이전트 앱을 연내 내놓고, 2030년까지 물류 인프라에 약 1조 원을 투자하는 물류 자회사도 세운다.",
+    "why": "국내 플랫폼 중 처음으로 '실행형' AI 에이전트 앱을 예고했고, AI 인프라(AI 팩토리)가 실제 대형 수주로 이어졌다. 결제·예약 확정은 이용자가 최종 승인하는 구조다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·뉴스핌 실적 콘퍼런스콜 보도 2곳 교차 확인"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112073100017",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://newspim.com/news/view/20261112000546",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-msit-2027-ai-budget",
     "date": "2026-11-12",
     "category": "한국 IT",
@@ -189,6 +267,36 @@
       {
         "label": "아주경제",
         "url": "https://www.ajunews.com/view/20261111155137679",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-microsoft-lazarus-neuron-backdoor",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "MS 리서치 'Lazarus': 휴면 뉴런 10개 미만 수정만으로 AI 에이전트에 백도어",
+    "summary": "학습 없이 마지막 FFN 층의 잘 안 쓰이는 뉴런을 고쳐, 트리거 문자열(예: 날짜 2027-01-01)이 보이면 에이전트가 공격자 명령을 출력하게 만드는 기법이다. Nemotron-Terminal-8B에서 뉴런 7개로 트리거 상황의 98.8% 이상 발동했고 Qwen3.6-27B·Gemma-4-31B-IT에서도 통했으며, 원본 없이도 에이전트 기반 탐지가 수정 체크포인트의 91.4%를 잡아냈다(오탐 9.7%).",
+    "why": "허브에서 받은 가중치를 그대로 돌리는 로컬·오픈 웨이트 사용자에게 직접 관련된다. 체크포인트 쓰기 권한이 필요하며, MS는 실제 악용 사례는 아직 없다고 밝혔다. 가중치를 코드처럼 출처·무결성 검증하라는 권고다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MS 리서치 블로그·논문 페이지 + MS 보안 블로그 + The Hacker News·CSO 보도"
+    },
+    "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/MSR-BLG_LAZ_HERO.png",
+    "links": [
+      {
+        "label": "MS 리서치 블로그",
+        "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+        "type": "source"
+      },
+      {
+        "label": "MS 보안 블로그",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
         "type": "source"
       }
     ]
@@ -244,6 +352,65 @@
       {
         "label": "r/LocalLLaMA",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmbkn/kraftonraon1nano_hugging_face/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-huawei-macaq-quantizer",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "화웨이 CSL, 범용 양자화 도구 'MACaQ' 오픈소스…122B 모델 64분·32.5GB로 양자화",
+    "summary": "텍스트·이미지·영상·음성 모델을 층 단위로 4비트(W4A4 등) 보정 양자화하는 도구로, llama.cpp(2·3·4비트 GGUF)·vLLM·Diffusers·PyTorch를 지원한다. 122B 모델을 64분에 32.5GB 장치 메모리로 양자화하며, Qwen3.8-27B를 llama.cpp에서 FP16 대비 디코딩 2.74배 빠르게 돌렸다고 밝혔다(자체 측정).",
+    "why": "하나의 레시피로 LLM부터 이미지·영상 모델까지 4비트로 줄여 로컬에서 돌릴 수 있다. Apache 2.0이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub README + arXiv 2611.10649 + 화웨이 CSL 블로그"
+    },
+    "image": "https://huawei-csl.com/assets/content/macaq/macaq-social-cover.png",
+    "specs": {
+      "license": "Apache 2.0",
+      "compute": "122B 양자화 64분·32.5GB(자체 측정)"
+    },
+    "links": [
+      {
+        "label": "화웨이 CSL 블로그",
+        "url": "https://huawei-csl.com/blog/macaq/",
+        "type": "source"
+      },
+      {
+        "label": "huawei-csl/MACaQ",
+        "url": "https://github.com/huawei-csl/MACaQ",
+        "type": "github"
+      },
+      {
+        "label": "arXiv 2611.10649",
+        "url": "https://arxiv.org/abs/2611.10649",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-gemini-live-apple-carplay",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "구글 Gemini, 애플 CarPlay 지원…운전 중 핸즈프리 Gemini Live 대화",
+    "summary": "iOS Gemini 앱 사용자에게 CarPlay용 Gemini가 전 세계 순차 배포된다. 운전 중 일정 확인, 이메일 요약, 발표 연습 등을 음성으로 할 수 있고 대화는 아이폰 Gemini 앱과 동기화된다.",
+    "why": "시리 자리인 아이폰 차량 환경에 경쟁사 AI 비서가 정식으로 들어간 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + AppleInsider·9to5Mac 보도"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Carplay_hero_image.width-1300.png",
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+        "type": "source"
+      },
+      {
+        "label": "AppleInsider",
+        "url": "https://appleinsider.com/articles/26/11/11/you-can-now-talk-to-gemini-right-from-apple-carplay",
         "type": "source"
       }
     ]
@@ -317,6 +484,31 @@
       {
         "label": "딥엘 보도자료",
         "url": "https://www.deepl.com/ko/press-release/aure-voice-ai-model",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-databricks-always-on-genie",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "데이터브릭스, 상시 가동 자율 에이전트 2세대 'Genie' 공개…Genie Ontology 정식 출시",
+    "summary": "목표를 주면 백그라운드에서 하위 에이전트에 일을 나눠 진행하고, 결정이 필요할 때 우선순위 받은편지함·이메일로 사람을 찾는 2세대 Genie를 발표했다. Genie·Genie Ontology는 정식 출시, Genie Search(100개+ 소스)·상시 가동 Genie는 프리뷰·베타 예정이다.",
+    "why": "기업 데이터 플랫폼이 '질문에 답하는 챗봇'에서 장기 업무를 맡는 상시 에이전트로 넘어가는 흐름이다. Unity Catalog 권한·승인 규칙 안에서만 움직이도록 설계했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "데이터브릭스 공식 보도자료 + TechTarget 보도"
+    },
+    "image": "https://www.databricks.com/sites/default/files/blog_images/databricks-launches-new-always-on-genie-autonomous-blog-img-og.png",
+    "links": [
+      {
+        "label": "데이터브릭스 보도자료",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
+        "type": "source"
+      },
+      {
+        "label": "TechTarget",
+        "url": "https://www.techtarget.com/news/databricks-turns-genie-into-always-on-agent-for-complex-work/874354/",
         "type": "source"
       }
     ]
