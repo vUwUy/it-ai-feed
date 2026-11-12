@@ -124,6 +124,26 @@
     ]
   },
   {
+    "id": "2026-11-12-skhynix-chatgpt-enterprise-pilot",
+    "date": "2026-11-12",
+    "category": "한국 IT",
+    "title": "[보도] SK하이닉스, 이천 본사서 ChatGPT 엔터프라이즈 파일럿…소프트웨어 개발부터",
+    "summary": "MTN 단독 보도에 따르면 SK하이닉스는 데이터를 사내 서버에 두는 방식으로 ChatGPT 엔터프라이즈 실증을 진행 중이며 바이브코딩 활용성을 중점 검증한다. 회사 측은 \"파일럿 테스트는 충분히 진행될 수 있는 것\"이라면서도 반도체 생산·연구개발에 당장 쓸 계획은 없다고 했다.",
+    "why": "외부 AI에 보수적이던 국내 반도체 기업이 단계적으로 문을 여는 흐름이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MTN 단독 보도(회사 관계자 코멘트 포함). 단일 매체 보도"
+    },
+    "image": "https://files.mtn.co.kr/article-asset/2026/11/12/41a0e4fb-206b-41d4-a59f-ae5811b4a415.jpg",
+    "links": [
+      {
+        "label": "MTN",
+        "url": "https://news.mtn.co.kr/article/2026111214044514208",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-runway-praxis-1-open",
     "date": "2026-11-12",
     "category": "로컬 AI",
@@ -326,6 +346,42 @@
     ]
   },
   {
+    "id": "2026-11-12-kvark-sparkle-1-1-27b",
+    "date": "2026-11-12",
+    "category": "로컬 AI",
+    "title": "KVARK Sparkle 1.1 27B 공개…문서 검색 에이전트용, 답이 없으면 '없다'고 답한다",
+    "summary": "Qwen3.8-27B 기반 Sparkle 1.0을 문서 작업용으로 추가 학습해, 자체 RAG 벤치마크에서 문서에 없는 질문을 올바르게 거절하는 비율이 91.5%(1.0+규칙 74%)로 올랐다. 일반 벤치마크는 Qwen3.8-27B와 유의미한 차이가 없고 추론 토큰은 7~48% 적으며, Apache 2.0으로 BF16·FP8·GGUF(15.3~54.7GB, MTP 헤드 포함)를 제공한다.",
+    "why": "로컬 RAG에서 환각 대신 '모름'을 말하도록 학습한 27B 모델로, Q4 GGUF면 단일 24~32GB GPU급에서 돌릴 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(자체 평가 수치)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Egzakta/Kvark-Sparkle-1.1-27B.png",
+    "specs": {
+      "params": "27.8B",
+      "license": "Apache 2.0",
+      "context": "262K(64K까지 평가)",
+      "memory": "GGUF 15.3~54.7GB"
+    },
+    "links": [
+      {
+        "label": "HF 모델 카드",
+        "url": "https://huggingface.co/Egzakta/Kvark-Sparkle-1.1-27B",
+        "type": "source"
+      },
+      {
+        "label": "Egzakta/Kvark-Sparkle-1.1-27B",
+        "url": "https://huggingface.co/Egzakta/Kvark-Sparkle-1.1-27B",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF",
+        "url": "https://huggingface.co/Egzakta/Kvark-Sparkle-1.1-27B-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-krafton-raon-1-nano",
     "date": "2026-11-12",
     "category": "로컬 AI",
@@ -352,6 +408,56 @@
       {
         "label": "r/LocalLLaMA",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmbkn/kraftonraon1nano_hugging_face/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-k-ondevice-ai-chip-roadmap",
+    "date": "2026-11-12",
+    "category": "한국 IT",
+    "title": "정부, 8,002억 원 K-온디바이스 AI반도체 로드맵 확정…2030년까지 10종 개발",
+    "summary": "산업통상부가 M.AX 얼라이언스 하반기 총회에서 자율주행차용 1종, 스마트가전용 3종, 협동로봇·휴머노이드·농작업로봇·무인드론용 각 1종, 선단공정·극한환경용 설계자산 각 1종을 개발·검증하는 일정을 발표했다. 삼성 파운드리는 2027년 MPW 싱글런 18회(2나노 3회 등)를 국산 시제품에 우선 배정한다.",
+    "why": "국산 NPU를 실제 제품 탑재까지 끌고 가려는 수요기업-팹리스-파운드리 연계 계획이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 전자신문·한국일보 보도"
+    },
+    "image": "https://img8.yna.co.kr/photo/yna/YH/2025/12/24/PYH2025122404500001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112061400003",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261112000402",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-intel-k-ai-fullstack-alliance",
+    "date": "2026-11-12",
+    "category": "한국 IT",
+    "title": "인텔 AI 서밋 서울서 'K-AI 풀스택 얼라이언스' 출범…삼성·SK하이닉스 등 52개사 참여",
+    "summary": "인텔코리아는 국산 서버 기반 개방형 인프라 위에서 한국 기업의 AI 주권을 돕는 'K-AI 풀스택 얼라이언스'를 출범시켰고, 반도체 설계·첨단 패키징·파운드리 역량으로 한국 메모리 기업과 맞춤형 칩 협력을 하겠다고 밝혔다. 행사에는 52개 기업과 5개 정부·공공기관이 참여했다.",
+    "why": "인텔이 커스텀 ASIC·파운드리로 국내 메모리·AI 생태계와 접점을 넓히려는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴시스(파이낸셜뉴스) + 중앙이코노미뉴스 보도"
+    },
+    "image": "https://cdn.joongangenews.com/news/photo/202611/563320_370948_2151.jpg",
+    "links": [
+      {
+        "label": "파이낸셜뉴스(뉴시스)",
+        "url": "https://www.fnnews.com/news/202611121427434041",
+        "type": "source"
+      },
+      {
+        "label": "중앙이코노미뉴스",
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=563320",
         "type": "source"
       }
     ]
@@ -386,6 +492,31 @@
       {
         "label": "arXiv 2611.10649",
         "url": "https://arxiv.org/abs/2611.10649",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-helsing-clarity",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "독일 헬싱, 군사 정보용 에이전트 AI 플랫폼 'Clarity' 공개…'유럽판 팔란티어'",
+    "summary": "위성·드론·센서·공개 출처·보고서를 한데 묶어 수백 개 AI 에이전트가 병렬로 적 자산을 탐지하고 가장 적합한 무기에 필요한 정보를 준비한다. 고객 소유 인프라에서 돌고, 운용자가 증거를 검토해 교전 대상을 고르고 무기로 넘기는 모든 단계를 승인한다고 밝혔다.",
+    "why": "유럽이 미국 팔란티어 의존에서 벗어나려는 '소버린 군사 AI' 흐름을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Helsing 공식 보도자료 + 로이터(StreetInsider)·The Next Web 보도"
+    },
+    "image": "https://helsing.ai/assets/image/389d980b49e17e297c76a4791e96dbbfab89df68-3840x2160.png?rect=0,77,3840,2006&w=1200&h=627&fit=crop&auto=format",
+    "links": [
+      {
+        "label": "Helsing 보도자료",
+        "url": "https://helsing.ai/newsroom/helsing-unveils-clarity-a-sovereign-software-platform-for-military-intelligence",
+        "type": "source"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/helsing-clarity-palantir-maven-rival-karp-democrat",
         "type": "source"
       }
     ]
@@ -514,6 +645,30 @@
     ]
   },
   {
+    "id": "2026-11-12-claude-api-per-message-effort",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "Claude API, 대화 중간에 effort 단계 바꾸는 '메시지별 effort' 베타",
+    "summary": "빈 content의 system 메시지에 output_config.effort를 넣고 mid-conversation-output-config-2026-07-01 베타 헤더를 보내면 다음 사용자 턴부터 추론 강도가 바뀐다. 최상위 값은 그대로라 프롬프트 캐시가 유지되며, Fable 5.1·5.2, Mythos 5.1·5.2, Opus 5.5·5, Sonnet 5.5, Haiku 5.5에서 쓸 수 있다.",
+    "why": "한 대화 안에서 복잡한 분석은 high, 가벼운 후속 질문은 low로 바꿔 캐시를 깨지 않고 비용·지연을 줄일 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic 공식 API 문서 + IT之家 보도"
+    },
+    "links": [
+      {
+        "label": "Claude 문서: Per-message effort",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/effort-per-message",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/025/894.htm",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-aws-emulator",
     "date": "2026-11-12",
     "category": "AI·IT",
@@ -580,6 +735,56 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-anthropic-supported-regions-policy",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "앤트로픽 '지원 지역 정책' 오늘 시행…중국 등 비지원 지역 지배 기업은 해외 직원도 Claude 사용 금지",
+    "summary": "11월 12일부터 Claude.ai·Claude Code·Cowork·API와 클라우드·리셀러 경유 Claude까지 목록에 있는 국가·지역에서만 쓸 수 있다. 비지원 지역에 법인·본사가 있거나 그쪽이 직간접적으로 과반 지분·지배하는 기업은 직원이 지원 국가에 있어도 쓸 수 없고, 비지원 지역에 머무는 동안의 사용도 금지된다. 중국 본토·홍콩·마카오는 목록에 없고 한국·대만은 포함됐다.",
+    "why": "중국계 자본이 지배하는 글로벌 기업과 해외 출장자까지 막는 조항이라 국내 기업도 지분 구조에 따라 영향을 받을 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 정책 페이지(시행일 2026-11-12) + TokenPost 보도"
+    },
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "links": [
+      {
+        "label": "Anthropic 지원 지역 정책",
+        "url": "https://www.anthropic.com/legal/supported-regions",
+        "type": "source"
+      },
+      {
+        "label": "TokenPost",
+        "url": "https://www.tokenpost.com/news/regulation/54098",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-anthropic-roadshow-mythos-amd-3days",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "앤트로픽 IPO 로드쇼 영상 \"Mythos가 3일 만에 Claude를 AMD GPU에서 돌렸다\"",
+    "summary": "톰 브라운 공동창업자는 상장 로드쇼 영상에서 예전엔 새 칩 도입에 엔지니어 수십 명이 몇 달 걸렸지만, 올해 처음 쓴 AMD GPU에서는 Mythos가 사람 개입 거의 없이 3일 만에 Claude를 돌렸고 커널의 거의 100%를 이식·작성했다고 말했다. 앤트로픽은 AWS 트레이니엄·구글 TPU·엔비디아·AMD 네 계열 칩에서 Claude를 학습·서비스한다고 밝혔다.",
+    "why": "사실이라면 엔비디아 CUDA 생태계의 전환 비용이 크게 줄어든다는 뜻이지만, 투자자 대상 회사 주장이고 외부 검증은 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로드쇼 영상 발언(사이먼 윌리슨 전사) + The Decoder 보도. 수치는 회사 주장"
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_moat-1200x670.png",
+    "links": [
+      {
+        "label": "Simon Willison(전사)",
+        "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+        "type": "source"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
         "type": "source"
       }
     ]
