@@ -129,6 +129,46 @@
     ]
   },
   {
+    "id": "2026-11-12-nvidia-board-preparing-oust-huang-wsj",
+    "date": "2026-11-12",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] WSJ \"엔비디아 이사회, 젠슨 황 해임 준비\"…NYT는 두 번째 사내 관계 보도, 시간외 약 8% 하락",
+    "summary": "WSJ는 11일(미국시간) 소식통을 인용해 엔비디아 이사회가 젠슨 황 CEO 해임을 준비 중이며 이르면 이날 회의를 열어 거취를 정한다고 보도했다(로이터·블룸버그 전재). 같은 날 NYT는 황이 직속 임원인 킴벌리 파월 헬스케어 부사장과도 관계를 가졌다고 회사 관계자 5명을 인용해 보도했고, 엔비디아 주가는 시간외에서 약 8% 떨어졌다(로이터).",
+    "why": "약 4조 달러 규모 AI 칩 1위 기업의 창업자 CEO 거취가 걸린 사안이며, 로이터는 이번 주 시가총액 약 6,000억 달러가 사라졌다고 전했다. 승계 계획이 없다는 점도 지적되고 있다.",
+    "verification": {
+      "status": "미확인",
+      "note": "WSJ 단독 보도를 로이터·블룸버그·The Verge가 인용 보도. 로이터는 자체 확인 못 함. 엔비디아 공식 발표는 11/8 조사 개시·11/10 와크텔 립턴 선임 성명까지이며 해임 결정은 발표되지 않음(KST 11/12 오전 기준)"
+    },
+    "image": "https://cphoto.asiae.co.kr/listimglink/1/2026111208061396189_1794438373.jpg",
+    "links": [
+      {
+        "label": "로이터 (Investing.com 전재)",
+        "url": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
+        "type": "source"
+      },
+      {
+        "label": "블룸버그 (Japan Times 전재)",
+        "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/nvidia-jensen-huang-affairs/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+        "type": "source"
+      },
+      {
+        "label": "엔비디아 이사회 성명(11/10)",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-msit-2027-ai-budget",
     "date": "2026-11-12",
     "category": "한국 IT",
