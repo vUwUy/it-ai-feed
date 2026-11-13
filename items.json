@@ -1,5 +1,60 @@
 [
   {
+    "id": "2026-11-13-vscode-1-146-local-harness-deprecated",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "VS Code 1.146, 'Local' 에이전트 하네스 지원 중단 예고…2027년 2월까지만 사용",
+    "summary": "VS Code 1.146에서 Local 에이전트 하네스가 지원 중단(deprecated)되어 2027년 2월까지 쓸 수 있지만 기능은 동결된다. 새 기능은 이미 새 세션 기본값인 Copilot 하네스에만 들어가며, 에이전트 인박스·모델 비교·채팅 창 분리도 추가됐다.",
+    "why": "Local 하네스로 커스터마이징·조직 정책을 짜 둔 팀은 석 달 안에 Copilot 하네스로 옮겨야 한다. 공식 이전 가이드가 함께 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "VS Code 공식 릴리스 노트 + 이전 가이드 + Visual Studio Magazine"
+    },
+    "image": "https://code.visualstudio.com/assets/updates/1_146/release-highlights.webp",
+    "links": [
+      {
+        "label": "VS Code 1.146 릴리스 노트",
+        "url": "https://code.visualstudio.com/updates/v1_146",
+        "type": "source"
+      },
+      {
+        "label": "Copilot 하네스 이전 가이드",
+        "url": "https://code.visualstudio.com/docs/agents/run/move-to-copilot",
+        "type": "source"
+      },
+      {
+        "label": "Visual Studio Magazine",
+        "url": "https://visualstudiomagazine.com/articles/2026/11/12/vs-code-1-146-adds-ai-agent-inbox-model-comparisons-and-chat-windows.aspx",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-us-congress-chip-control-3-bills",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "젠슨 황 사태로 美 의회 '대중 칩 규제 3법' 탄력…삼성·SK 중국 공장 영향 주목",
+    "summary": "WSJ 보도에 따르면 미 의회 양당이 AI 오버워치법(수출 승인 의회 감독), 반도체 보안법(칩 위치 추적 의무), 매치법(동맹국 장비 통제를 150일 안에 미국 수준으로)을 국방수권법(NDAA)에 넣어 통과시키려 한다. 3법은 상원 NDAA 패키지에 이미 포함돼 있다.",
+    "why": "매치법이 시행되면 시안(삼성 낸드), 우시·다롄(SK하이닉스 D램·낸드) 중국 공장의 장비 반입·고도화가 제약될 수 있다. 반면 중국 업체 약화로 반사이익 관측도 있다. NDAA 교착으로 최종 입법은 불확실하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(WSJ·로이터 인용) + Semafor 독립 보도"
+    },
+    "image": "https://img0.yna.co.kr/photo/ap/2026/11/11/PAP20261111147201009_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261112000500071",
+        "type": "source"
+      },
+      {
+        "label": "Semafor",
+        "url": "https://www.semafor.com/article/11/12/2026/a-high-probability-congress-pushes-tighter-export-controls-following-nvidia-scandal",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-smolmaxxing-tv-box-llm",
     "date": "2026-11-13",
     "category": "로컬 AI",
@@ -67,6 +122,35 @@
     ]
   },
   {
+    "id": "2026-11-13-postgresql-cve-2026-6460-rce",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "PostgreSQL 22년 된 타입 혼동 버그로 임의 코드 실행(CVE-2026-6460)…18.7 등 패치",
+    "summary": "ALTER … SET DATA TYPE 이후 남은 값이 바뀐 타입으로 재해석되며 메모리 손상이 생겨, 객체 생성 권한자가 DB 서버 OS 사용자 권한으로 코드를 실행할 수 있다(CVSS 8.8). PostgreSQL 18.7·17.12·16.16·15.20·14.25에서 고쳐졌다.",
+    "why": "발견자가 RCE까지 이어지는 과정을 공개했고 HN에서도 크게 화제가 됐다. 관리형 클라우드를 포함해 직접 운영하는 Postgres는 업데이트를 확인할 필요가 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "PostgreSQL 공식 보안 공지 + 릴리스 공지 + GitHub 권고 DB"
+    },
+    "links": [
+      {
+        "label": "PostgreSQL 보안 공지",
+        "url": "https://www.postgresql.org/support/security/CVE-2026-6460/",
+        "type": "source"
+      },
+      {
+        "label": "PostgreSQL 릴리스 공지",
+        "url": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+        "type": "source"
+      },
+      {
+        "label": "발견자 분석(Mehmet Ince)",
+        "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-openai-daybreak-red-team-defense-factory",
     "date": "2026-11-13",
     "category": "AI·IT",
@@ -97,6 +181,107 @@
     ]
   },
   {
+    "id": "2026-11-13-openai-codex-security-open-source",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "OpenAI, 'Codex Security' CLI·TypeScript SDK를 Apache 2.0 오픈소스로 공개",
+    "summary": "저장소·경로·Git 변경분을 스캔해 취약점을 찾고, 검증·패치 생성·수정 확인까지 하는 CLI(cs)와 SDK를 GitHub(openai/codex-security)에 공개했다. --fail-on-severity high로 CI 머지를 막을 수 있고 SARIF·JSON·CSV 내보내기를 지원한다.",
+    "why": "클라이언트·SDK는 열렸지만 분석 서비스는 로그인이 필요한 구조라, 자체 CI에 AI 보안 스캔을 붙이려는 팀이 바로 써 볼 수 있다. 일부 보호된 결과는 Trusted Access for Cyber가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소(Apache 2.0 라이선스 파일) + npm 패키지 + 공식 문서"
+    },
+    "image": "https://opengraph.githubassets.com/13bf305cdebe6260c65ca3c583bc0bc472913be32ce3ccd886df3e3dc93f6bc6/openai/codex-security",
+    "specs": {
+      "license": "Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "CLI 빠른 시작(공식)",
+        "url": "https://learn.chatgpt.com/docs/security/cli",
+        "type": "source"
+      },
+      {
+        "label": "openai/codex-security",
+        "url": "https://github.com/openai/codex-security",
+        "type": "github"
+      },
+      {
+        "label": "npm @openai/codex-security",
+        "url": "https://www.npmjs.com/package/@openai/codex-security",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-n8n-nod-local-personal-agent",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "n8n Labs 'Nod' 오픈소스 공개…내 PC 샌드박스에서 도는 개인 에이전트, 로컬 모델 연결 가능",
+    "summary": "n8n과 별개인 Apache 2.0 데스크톱 앱으로, 로컬 가상머신과 자체 브라우저에서 앱·웹사이트 작업을 대신한다. 모델은 API 키나 ChatGPT 플랜, 또는 Ollama·LM Studio·vLLM·llama.cpp 같은 로컬 모델을 고를 수 있다(리서치 프리뷰).",
+    "why": "보내기·결제·삭제 전 별도 확인 모델이 사용자 요청인지 검사하고, 저장 로그인·카드는 모델이 못 보는 폼으로 입력하는 등 안전장치를 코드로 공개했다. 장기 기억 LongMemEval 93.2%는 자체 발표 수치.",
+    "verification": {
+      "status": "확인됨",
+      "note": "n8n 공식 블로그 + 공식 문서 + GitHub 저장소"
+    },
+    "image": "https://storage.ghost.io/c/0d/78/0d78b34c-0c5f-4975-900e-61d00ccb1c2d/content/images/size/w1200/2026/11/nod-header-2x-1.png",
+    "specs": {
+      "license": "Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "n8n 블로그",
+        "url": "https://blog.n8n.io/meet-nod/",
+        "type": "source"
+      },
+      {
+        "label": "n8n-io/nod",
+        "url": "https://github.com/n8n-io/nod",
+        "type": "github"
+      },
+      {
+        "label": "Nod 다운로드",
+        "url": "https://nod.n8n.io/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-multiverse-comet-60b-a12b",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "Multiverse Computing 'Comet 60B'…Nemotron 3.5 Super를 절반(61.1B)으로 압축, NVFP4 40.5GB",
+    "summary": "엔비디아 Nemotron 3.5 Super VL(124.5B, 활성 약 12B)에 CompactifAI 압축을 적용해 61.1B로 줄이고 증류로 회복시킨 멀티모달(텍스트·이미지·영상 입력) 모델이다. BF16 122.3GB·FP8 66.3GB·NVFP4 40.5GB로 제공되며, 모델 카드상 35개 점수 중 28개에서 원본과 3점 이내다.",
+    "why": "원본이 H200 4장이 필요하던 것을 FP8은 1장, NVFP4는 40.5GB로 낮춰 워크스테이션급 블랙웰에서도 대형 에이전트 모델을 노려볼 수 있다. 커뮤니티 GGUF 변환도 올라왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 공식 모델 카드(BF16·FP8·NVFP4)"
+    },
+    "specs": {
+      "params": "61.1B(활성 약 12B)",
+      "license": "OpenMDW-1.1",
+      "memory": "NVFP4 40.5GB / FP8 66.3GB",
+      "modality": "텍스트·이미지·영상 입력"
+    },
+    "links": [
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/MultiverseComputingCAI/Comet_60B_A12B_BF16",
+        "type": "source"
+      },
+      {
+        "label": "Comet_60B_A12B_NVFP4",
+        "url": "https://huggingface.co/MultiverseComputingCAI/Comet_60B_A12B_NVFP4",
+        "type": "huggingface"
+      },
+      {
+        "label": "커뮤니티 GGUF",
+        "url": "https://huggingface.co/Felladrin/gguf-BF16-Comet-60B-A12B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-microsoft-365-global-outage",
     "date": "2026-11-13",
     "category": "AI·IT",
@@ -117,6 +302,30 @@
       {
         "label": "CNBC",
         "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-llama-cpp-b12340-ssrf-fix",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12340, 서버의 CORS 프록시·미디어 URL SSRF 취약점 수정",
+    "summary": "llama-server에서 CORS 프록시와 미디어 URL 처리 경로를 통한 SSRF(서버 측 요청 위조)를 막는 수정(#32115)이 b12340 빌드에 들어갔다.",
+    "why": "llama-server를 네트워크에 열어 두고 쓰는 경우 내부망 요청에 악용될 수 있던 경로라, 서버 모드 사용자는 최신 빌드로 올리는 게 좋다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "b12340 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12340",
+        "type": "github"
+      },
+      {
+        "label": "PR #32115",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/32115",
         "type": "source"
       }
     ]
@@ -212,6 +421,26 @@
     ]
   },
   {
+    "id": "2026-11-13-itlogin-upstage-public-onprem-ai",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "업스테이지·아이티로그인, 공공용 온프레미스 소버린 AI 패키지…\"2~4주 안에 구축\"",
+    "summary": "업스테이지가 KO-GDPVAL 87.3점의 '솔라프로 4'와 GPU 1장으로 도는 '솔라미니 4', HWP·복합 표 문서 파싱을 내세웠고, 아이티로그인은 나라장터 디지털서비스몰 상용 제품으로 6개월 이상 걸리던 SI 대신 2~4주 안에 현장 구축하겠다고 밝혔다. 2027년 1월 조달 규격 등록을 지원할 계획이다.",
+    "why": "망분리·HWP 문서가 걸림돌이던 공공기관 AI 도입을 조달 상용 패키지로 풀려는 시도로, 내년 공공 AI 예산 편성에 맞춘 움직임이다(수치는 회사 발표).",
+    "verification": {
+      "status": "확인됨",
+      "note": "디지털데일리 보도(회사 발표 기반)"
+    },
+    "image": "https://www.ddaily.co.kr/photos/2026/11/13/2026111309432038670_l.jpg",
+    "links": [
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026111309432828517",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-gemini-4-hydrogen",
     "date": "2026-11-13",
     "category": "AI·IT",
@@ -237,6 +466,106 @@
         "label": "9to5Google",
         "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-edge0-145b-on-device",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "Edge0-145B·120B 공개…145B MoE를 노트북에서, 최대 메모리 29GB·80 tok/s 이상(자체 측정)",
+    "summary": "Edge0이 4비트로 학습한 잠재 희소 MoE(512 전문가 중 토큰당 10개, 256K 컨텍스트) Edge0-145B와 120B를 추론 프레임워크와 함께 공개했다. HF 모델 카드상 기반은 Qwen3.8-Flash-Next이고 Q3_K·NVFP4 형식을 제공하며, RTX 5090 D 24GB에서 VRAM 16GiB+RAM 20GiB 예산으로 시험했다.",
+    "why": "자체 평가로 DeepSWE 1.1 64.6점(Qwen3.8-Flash-Next 58.7)을 주장해 48GB 노트북급에서 100B+ 모델을 쓰는 선택지가 생긴다. 다만 벤치마크는 내부 평가이고, 라이선스는 자체 커뮤니티 라이선스(edge0-community-model-1.0)다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공식 블로그 + HF 모델 카드 + GitHub(벤치마크는 자체 측정)"
+    },
+    "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
+    "specs": {
+      "params": "145B(토큰당 전문가 10개)",
+      "license": "Edge0 Community Model 1.0",
+      "memory": "최대 29GB(자체 측정)",
+      "context": "256K"
+    },
+    "links": [
+      {
+        "label": "공식 블로그",
+        "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+        "type": "source"
+      },
+      {
+        "label": "Edge0/Edge0-145B-q3k",
+        "url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+        "type": "huggingface"
+      },
+      {
+        "label": "Edge0/Edge0-145B-NVFP4",
+        "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+        "type": "huggingface"
+      },
+      {
+        "label": "Edge0-AI/Edge0",
+        "url": "https://github.com/Edge0-AI/Edge0",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-chinese-models-blackwell-fingerprint",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "중국 오픈 모델 6종 가중치에서 엔비디아 블랙웰 '지문'…딥시크·문샷·MiniMax·앤트그룹",
+    "summary": "전 OpenAI 연구원 윌 디퓨(Unemployment Labs)가 공개 가중치의 초기화 패턴을 분석해, DeepSeek-V4-Flash·V4-Pro, Kimi K3·K3.1-Pro, MiniMax-M3, Ling-3.1-flash가 수출 통제 대상인 블랙웰(B200/B300 또는 GB200/GB300)에서 시작됐다는 결과를 냈다. 이전 세대 모델은 호퍼와 일치했고, Qwen·GLM·텐센트·샤오미·StepFun 최신 모델은 호퍼로 읽혔다.",
+    "why": "수출 통제 논쟁에 처음으로 가중치 기반 기술 증거가 나왔다. 다만 보고서 스스로 '하드웨어 접근의 증거일 뿐, 밀반출이나 위법을 입증하지 않는다'고 밝혔고, 해외 데이터센터 임대 가능성도 열어 뒀다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "원 보고서(Unemployment Labs) + Unite.AI·temperature2 등 독립 보도"
+    },
+    "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
+    "links": [
+      {
+        "label": "Unemployment Labs 보고서",
+        "url": "https://unemploymentlabs.com/checkpoint-forensics",
+        "type": "source"
+      },
+      {
+        "label": "Unite.AI",
+        "url": "https://www.unite.ai/unemployment-labs-reports-blackwell-patterns-in-chinese-ai-models/",
+        "type": "source"
+      },
+      {
+        "label": "temperature2 분석",
+        "url": "https://temperature2.com/p/2026-11-13-deepseek-moonshot-blackwell-weight-fingerprints/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-anthropic-worse-together-multi-agent",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "앤트로픽 연구: 사용자마다 에이전트를 붙인 팀보다 공유 코디네이터 1개가 낫다",
+    "summary": "Anthropic Fellows의 'Worse Together' 연구에서 공유 자원 시뮬레이션 4종 모두 단일 코디네이터 에이전트가 사용자별 에이전트 팀을 앞섰다. API 예산 과제에서 피어 간 팀은 코디네이터 성능의 38~47%에 그쳤다.",
+    "why": "실패 유형은 행동 지연·불참, 다른 사용자 요청 덮어쓰기, 근거 없는 주장이었다. 팀 리드 지정, 커밋 전 대기 메시지 읽기 같은 간단한 완화책이 과제별로 효과를 냈다. 벤치마크(MAMUBench)도 공개.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 얼라인먼트 블로그 + arXiv 논문 + GitHub 벤치마크"
+    },
+    "links": [
+      {
+        "label": "Anthropic Alignment 블로그",
+        "url": "https://alignment.anthropic.com/2026/worse-together/",
+        "type": "source"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/html/2610.00583",
+        "type": "source"
+      },
+      {
+        "label": "safety-research/MAMUBench",
+        "url": "https://github.com/safety-research/MAMUBench",
+        "type": "github"
       }
     ]
   },
