@@ -282,6 +282,35 @@
     ]
   },
   {
+    "id": "2026-11-13-microsoft-365-outage-prolonged",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "업데이트: MS 365 장애 11시간 넘게 지속…MS \"복구 조치가 예상대로 안 먹혀\"",
+    "summary": "MS는 적용한 변경이 '예상대로 작동하지 않는다'며 용량을 늘릴 대체 방안을 찾고 있다고 밝혔고, 일부 지역의 '부분 복구'도 지속되지 않고 있다. BBC에 따르면 Downdetector 기준 74개국에 영향이 있고 11시간 넘게 이어지고 있다. MS 찰스 라마나 부사장은 사이버 공격이 원인이 아니라고 밝혔다.",
+    "why": "앞서 '복구 중'으로 전했던 장애가 장기화하고 있다. Exchange Online(아웃룩 메일·일정)에 의존하는 기능이 주로 영향을 받으며, OpenAI·앤트로픽도 MS 365 연동에서 문제를 보고했다. 싱가포르 정부 시스템 일부도 영향을 받았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "BBC 라이브 + 가디언 라이브 + RTÉ + Business Standard, MS 서비스 상태 페이지 '서비스 저하' 표시"
+    },
+    "links": [
+      {
+        "label": "BBC 라이브",
+        "url": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
+        "type": "source"
+      },
+      {
+        "label": "RTÉ",
+        "url": "https://www.rte.ie/news/business/2026/1113/1599061-microsoft-tech-outage/",
+        "type": "source"
+      },
+      {
+        "label": "MS 서비스 상태",
+        "url": "https://status.cloud.microsoft/m365",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-microsoft-365-global-outage",
     "date": "2026-11-13",
     "category": "AI·IT",
@@ -381,6 +410,35 @@
       {
         "label": "머니투데이(하정우 반박)",
         "url": "https://www.mt.co.kr/tech/2026/11/12/2026111214242847252",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-kakao-work-breach",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "카카오워크 해킹…메일 본문·첨부파일 원본까지 유출",
+    "summary": "운영사 디케이테크인 시스템에 9일 외부 공격자가 비정상적으로 접근해 일부 이용자 정보가 유출됐다. 유출 항목은 이름·닉네임·부서·휴대전화번호·이메일 주소, 메일 제목·본문·첨부파일명, 암호화된 메시지, 메시지 내 첨부파일명, 첨부파일 원본이며, 대상은 카카오엔터프라이즈 전·현직 임직원과 회사 계정을 쓴 외부 인원, 일부 메일 수신자다. 전체 피해 규모는 공개되지 않았다.",
+    "why": "개인정보를 넘어 기업 내부 업무 메일·파일까지 빠져나갔을 가능성이 있다. 비밀번호 유출은 아직 확인되지 않았지만 회사는 카카오워크·업무용 메일 비밀번호 변경과 사칭 문자·메일 주의를 권고했다. 다른 고객사 피해 여부는 아직 확인되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 전자신문 + ZDNet Korea + 머니투데이(회사 공지 인용). 12일 KISA·개인정보위 신고(전자신문)."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261113072800017",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261113000152",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261113113227",
         "type": "source"
       }
     ]
