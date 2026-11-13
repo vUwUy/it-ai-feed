@@ -1,5 +1,306 @@
 [
   {
+    "id": "2026-11-14-sglang-consortium",
+    "date": "2026-11-14",
+    "category": "로컬 AI",
+    "title": "LMSYS 'SGLang 컨소시엄' 출범…엔비디아·AMD·인텔·구글·메타 등 8곳 창립",
+    "summary": "SGLang을 만든 비영리 LMSYS가 첫 SGLang Summit에서 엔비디아·AMD·인텔·구글·메타·클라우드플레어·Modal·RadixArk와 컨소시엄을 출범했다. 회원사는 기술 대표를 두고 연 2회 로드맵 회의에 참여하며, 기술 결정과 코드 채택 권한은 메인테이너가 유지한다.",
+    "why": "오픈소스 추론 엔진 로드맵을 하드웨어·클라우드 업체들이 함께 짜는 구조가 생겼다. vLLM과의 경쟁 구도에도 영향이 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LMSYS 공식 블로그 + Business Wire 보도자료"
+    },
+    "image": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium/opengraph-image?2f2a10b2cba4f923",
+    "links": [
+      {
+        "label": "LMSYS 블로그",
+        "url": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium",
+        "type": "source"
+      },
+      {
+        "label": "sgl-project/sglang",
+        "url": "https://github.com/sgl-project/sglang",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-openai-disbands-robotics-team",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "OpenAI, 독립 로보틱스 팀 해체…\"GPT-6 Astra 같은 범용 모델로 로봇 직접 제어\"",
+    "summary": "포춘 단독 보도에 OpenAI가 확인한 내용으로, 로보틱스 연구진은 마크 첸 CRO 산하 연구 조직으로, 응용 로보틱스·하드웨어 팀은 그렉 브록먼 사장 산하 Applied 조직으로 옮겼다. OpenAI는 로보틱스를 포기하는 게 아니라 범용 모델로 진전을 앞당기려는 것이라고 밝혔다.",
+    "why": "'로봇 전용 두뇌가 필요하다'는 로봇 스타트업들의 전제와 정면으로 다른 베팅이다. 포춘은 엔비디아 연구에서 Astra 기반 에이전트가 시뮬레이션 조작 벤치마크 74.8%(전문 모델 최고 51.0%)를 냈다고 전했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "포춘 단독(OpenAI 대변인 확인) + 토큰포스트·Seeking Alpha 후속 보도"
+    },
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600",
+    "links": [
+      {
+        "label": "Fortune",
+        "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+        "type": "source"
+      },
+      {
+        "label": "TokenPost",
+        "url": "https://www.tokenpost.com/news/business/56940",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-openai-chatgpt-wallet",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "OpenAI 'ChatGPT Wallet' 출시…에이전트가 실제 카드번호 없이 결제, 구매마다 생체 인증",
+    "summary": "OpenAI가 아멕스·마스터카드·비자와 함께 만든 ChatGPT Wallet을 dots에서 미국 ChatGPT Pro 구독자(18세 이상)에게 먼저 제공한다. 사용자가 품목·총액·카드를 확인하고 Face ID 등으로 승인하면 네트워크가 발급한 결제 토큰으로 결제되고, 기존 카드 혜택·분쟁 보호는 유지된다.",
+    "why": "에이전트 결제를 카드 네트워크와 공식으로 묶은 첫 대형 사례다. 판매자용 'Commerce Partner Playbook'(Web Bot Auth·WebMCP 등)도 함께 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표 + CNBC 보도"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2xTvIZkcQhKk3VNFioQ4CR/4efb84a6adbddb41311f6b18158fad8b/introducing-chatgpt-wallet-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-llama-cpp-v1-0-0",
+    "date": "2026-11-14",
+    "category": "로컬 AI",
+    "title": "llama.cpp·ggml v1.0.0 정식 출시…이제부터 API·ABI 호환성 깨지면 메이저 버전 올린다",
+    "summary": "ggml-org가 libllama·libggml v1.0.0을 내고 공개 C API(include/) 변경은 MAJOR, 기능·백엔드·모델 지원은 MINOR, 버그 수정은 PATCH로 올리는 시맨틱 버전 규칙을 밝혔다. 150개 이상 아키텍처 변형을 지원하며 Docker·Debian·Homebrew·conda-forge·Winget 등으로 배포한다.",
+    "why": "Ollama·LM Studio 등 llama.cpp에 의존하는 앱들이 안정적인 API 경계를 기대할 수 있게 됐다. 3년 반 만의 첫 1.0이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 블로그 + GitHub 릴리스 v1.0.0(11/13 19:20 KST)"
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "type": "source"
+      },
+      {
+        "label": "ggml-org/llama.cpp v1.0.0",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-langchain-series-c-3b",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "랭체인, 3억 달러 시리즈 C…기업가치 30억 달러",
+    "summary": "LangChain이 기존 투자사 CapitalG 주도로 3억 달러를 기업가치 30억 달러에 유치했고, GIC·DFJ Growth가 새로 참여했으며 IVP·Sapphire Ventures도 들어왔다.",
+    "why": "에이전트 프레임워크·관측(LangSmith) 시장에 큰돈이 계속 몰린다는 신호다. '모든 기업이 자기 지능을 소유하게'를 내세웠다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LangChain 공식 블로그 + TechCrunch + CapitalG 글"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+    "links": [
+      {
+        "label": "LangChain 블로그",
+        "url": "https://www.langchain.com/blog/series-c",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-kr-ai-committee-nvidia-emergency",
+    "date": "2026-11-14",
+    "category": "한국 IT",
+    "title": "국가AI전략위, '젠슨 황 사퇴' 긴급 점검회의…GPU 26만 장 도입 등 협력사업 영향 점검",
+    "summary": "국가AI전략위원회가 13일 긴급회의를 열어 국내 GPU 공급·확보계획과 엔비디아 협력사업, 3대 메가프로젝트에 미칠 영향을 점검하고 기존 사업은 차질 없이 추진하기로 했다. 중장기로는 국산 AI 반도체 등 컴퓨팅 선택지를 넓힌다는 방침이다.",
+    "why": "엔비디아 경영 공백이 국내 AI 인프라 일정에 미칠 영향을 정부가 공식 점검했다. 네이버·카카오모빌리티도 '협력 차질 없다'는 입장을 냈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea(위원회 제공 사진·발언) + 아주경제(네이버·카카오모빌리티 입장)"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/13/11f5ccef50581943095a4ae13340b941.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261113152653",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261113162211336",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-inclusionai-duo-v1",
+    "date": "2026-11-14",
+    "category": "로컬 AI",
+    "title": "앤트 inclusionAI 'Duo v1' 가중치 공개…보고 들으며 말 끊기까지 되는 전이중 음성·영상 대화 모델",
+    "summary": "inclusionAI가 오디오·영상을 계속 받아들이며 실시간으로 응답하고 끼어들기도 처리하는 'Reciprocal World Model' Duo v1 프리뷰를 공개했다. causal·distill·양자화 가중치와 vLLM-Omni·SGLang-Omni 스트리밍 파이프라인, arXiv 논문을 함께 냈다.",
+    "why": "전이중(full-duplex) 음성·영상 대화를 직접 돌려볼 수 있는 드문 오픈 웨이트다. 연구용 프리뷰이며 Duo v2가 예고됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소 README + Hugging Face 모델 페이지(11/12~13 업로드) + arXiv"
+    },
+    "specs": {
+      "license": "코드 Apache 2.0(HF 가중치는 'other'로 표기)",
+      "modality": "음성·영상 입출력"
+    },
+    "links": [
+      {
+        "label": "inclusionAI/Duo",
+        "url": "https://github.com/inclusionAI/Duo",
+        "type": "github"
+      },
+      {
+        "label": "Duo-v1 컬렉션",
+        "url": "https://huggingface.co/collections/inclusionAI/duo-v1",
+        "type": "huggingface"
+      },
+      {
+        "label": "arXiv 2611.15131",
+        "url": "https://arxiv.org/abs/2611.15131",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-google-schools-search-ai-overviews",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "구글, 학교가 AI를 전부 끄면 구글 검색도 차단…Gemini만 끄는 건 가능",
+    "summary": "구글은 학교가 Gemini 제품은 끌 수 있지만, 검색을 쓰려면 AI 개요(AI Overviews)는 유지해야 하며 AI를 전부 끄면 학생 계정의 구글 검색이 막힌다고 밝혔다. LA·시애틀·뉴욕시 교육청이 교실 AI 금지에 나선 가운데 학부모 반발이 커지고 있다.",
+    "why": "교육 현장에서 'AI 없는 검색' 선택지가 사라지는 문제라 규제·반독점 논쟁으로 번지고 있다(뉴욕시장이 '독점력 남용'이라고 비판).",
+    "verification": {
+      "status": "확인됨",
+      "note": "NPR + Ars Technica + NBC News 보도"
+    },
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
+    "links": [
+      {
+        "label": "NPR",
+        "url": "https://www.npr.org/2026/11/13/nx-s1-6029408/google-ai-search-schools",
+        "type": "source"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-eu-first-ai-summit-dublin",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "EU 정상들, 더블린서 첫 AI 전용 정상회의…미·중 추격·자금·안전장치 논의",
+    "summary": "EU 정상들이 13일 더블린에서 처음으로 AI만 다루는 회의를 열고 미국·중국 추격, 투자 재원, 규제 부담과 가드레일을 논의했다. 미스트랄 CEO 아르튀르 멘슈와 제프리 힌턴이 브리핑을 맡았다(로이터).",
+    "why": "AI 기가팩토리 7곳 계획이 예산 갈등으로 지지부진한 상황에서 정상급 논의가 시작됐다. 유럽 AI 정책 방향의 출발점이 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 기사(타이베이타임스 게재) + 다수 AI 뉴스 다이제스트"
+    },
+    "image": "https://img.taipeitimes.com/images/2026/11/14/P01-261114-317.jpg",
+    "links": [
+      {
+        "label": "Reuters via Taipei Times",
+        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867714",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-etri-trinity-robot-benchmark",
+    "date": "2026-11-14",
+    "category": "한국 IT",
+    "title": "ETRI, 사람 특성까지 따지는 로봇 AI 평가 벤치마크 '트리니티' 공개",
+    "summary": "ETRI가 식습관·알레르기·종교적 식이조건·취미 등 151가지 사용자 조건과 관련 물체 95종으로 로봇 작업계획이 '그 사람에게' 적절한지 평가하는 벤치마크를 개발해 코드·데이터를 공개했다. 결과는 EMNLP 2026 Findings에 발표됐다.",
+    "why": "물건을 잘 옮겨도 사용자에게 맞지 않으면 실패로 보는 평가라, 가정·돌봄 로봇용 에이전트 평가 기준이 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문(ETRI 발표 기반)"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/13/news-p.v1.20261113.fbfddd383ae24faeaa10591460d07adb_P2.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261113000128",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-claude-godel-notebooks",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "Claude로 괴델 속기 노트 1,009쪽 해독…정리 후보 663개, 선택공리 독립성 증명 '거의 완성'",
+    "summary": "헬싱키대 얀 폰 플라토 교수가 Claude로 괴델의 1940년대 노트를 분석해 정리 663개를 추렸고, Coq 검증에서 약 400개는 그대로 통과·약 200개는 보완·약 50개는 거짓으로 나왔다. 재구성한 선택공리 독립성 증명도 Coq를 통과했다고 밝혔다.",
+    "why": "사람이 1년에 50쪽 읽던 자료를 며칠 만에 전체 요약한 사례다. 다만 노터데임대 햄킨스 교수는 \"어디까지가 Claude고 어디까지가 괴델인지는 역사가들이 가릴 일\"이라고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가디언 보도(연구 책임자·외부 전문가 인터뷰) + MLQ.ai 보도"
+    },
+    "image": "https://mlq.ai/media/news_images/claude-helped-decode-kurt-godels-shorthand-notebooks-turning-up-663-theorems-and.jpg",
+    "links": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+        "type": "source"
+      },
+      {
+        "label": "MLQ.ai",
+        "url": "https://mlq.ai/news/claude-helped-decode-kurt-godels-shorthand-notebooks-turning-up-663-theorems-and-a-near-proof-he-claimed-in-1966/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-amd-mi450x-hbm4",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "AMD, 288GB HBM4 'Instinct MI450X' 추가…MI455X는 DeepSeek-R1서 GPU당 21,333 tok/s(자체 측정)",
+    "summary": "AMD가 Helios 랙용 MI450X(HBM4 288GB)를 MI400 라인업에 더하고, MI455X가 MLPerf 오프라인 구성 DeepSeek-R1에서 GPU당 초당 21,333토큰으로 엔비디아 Vera Rubin 공개 결과보다 최대 30% 높았다고 밝혔다. 과학 계산용 MI430X는 HBM4 432GB·23.3TB/s다.",
+    "why": "엔비디아 리더십 공백 속에 AMD가 추론 성능 수치로 정면 비교에 나섰다. 수치는 AMD 자체 테스트라 독립 검증이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AMD 뉴스룸 공식 발표(성능 수치는 AMD 자체 측정)"
+    },
+    "image": "https://newsroom.amd.com/images/2026/11/94aa8d86-458b-4844-988c-cbc7b7237228.jpg",
+    "specs": {
+      "memory": "MI450X 288GB HBM4"
+    },
+    "links": [
+      {
+        "label": "AMD 뉴스룸",
+        "url": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+        "type": "source"
+      },
+      {
+        "label": "MI450X 제품 페이지",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi400/mi450x.html",
+        "type": "buy"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-vscode-1-146-local-harness-deprecated",
     "date": "2026-11-13",
     "category": "AI·IT",
