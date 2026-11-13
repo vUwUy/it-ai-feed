@@ -420,6 +420,35 @@
     ]
   },
   {
+    "id": "2026-11-13-microsoft-365-outage-partial-recovery",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "업데이트: MS 365 장애 아태 지역부터 일부 복구…메일 보관 시한 48시간으로 연장",
+    "summary": "MS는 인증·라우팅 구성 요소 패치를 일부 인프라에 적용한 뒤 서버 안정성에서 '긍정적 결과'를 보고 있으며, 아시아태평양 지역 일부 인프라에서 복구 조치를 마치고 트래픽을 점진적으로 되돌리고 있다고 밝혔다. 지연된 메일을 보존하려고 이메일 타임아웃을 48시간으로 늘렸다. 다만 용량은 아직 정상 수준이 아니고, 소비자용 서비스는 20:21(KST) 기준 여전히 '서비스 저하'다.",
+    "why": "장애가 시작된 지 17시간가량 지났지만 완전 복구 전이다. 국내(아태) 사용자는 메일함 접근부터 나아지고 있으나 간헐적 문제가 남을 수 있고, 보낸 메일이 늦게 도착할 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NBC 라이브(MS 공지 인용) + Moneycontrol(@MSFT365Status 인용) + MS 서비스 상태 페이지"
+    },
+    "links": [
+      {
+        "label": "NBC 라이브",
+        "url": "https://www.nbcnews.com/tech/tech-news/live-blog/microsoft-outage-outlook-teams-updates-fix-rcna609118",
+        "type": "source"
+      },
+      {
+        "label": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/technology/microsoft-365-outage-company-reports-early-stabilisation-extends-email-timeout-to-48-hours-article-14079645.html",
+        "type": "source"
+      },
+      {
+        "label": "MS 서비스 상태",
+        "url": "https://status.cloud.microsoft/m365",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-microsoft-365-global-outage",
     "date": "2026-11-13",
     "category": "AI·IT",
@@ -798,6 +827,35 @@
       {
         "label": "토큰포스트",
         "url": "https://www.tokenpost.kr/news/ai/437606",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-claude-auth-outage",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "Claude.ai '주요 장애'…로그인 실패로 Claude Code·Console도 영향, 수정 배포 후 모니터링 중",
+    "summary": "앤트로픽은 13일 18:58(KST, 09:58 UTC)부터 Claude.ai와 Claude Code 사용자 인증 문제를 조사한다고 밝혔고, 20:05(KST, 11:05 UTC)에 수정을 배포해 복구를 모니터링 중이다. 상태 페이지에서 claude.ai는 '주요 장애(Major Outage)'로 표시됐고, Claude API는 정상으로 표시됐다. Moneycontrol에 따르면 Downdetector 신고는 2,895건까지 늘었다.",
+    "why": "웹·Claude Code·Cowork처럼 로그인 세션에 기대는 서비스가 막혔다. API 키로 쓰는 작업은 정상으로 표시돼 영향 범위가 갈린다. 아직 완전 해결 공지는 나오지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 상태 페이지 + Moneycontrol + Windows Report"
+    },
+    "links": [
+      {
+        "label": "Claude 상태 페이지",
+        "url": "https://status.claude.com/incidents/nn11wk485zfn",
+        "type": "source"
+      },
+      {
+        "label": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/technology/claude-down-users-report-login-issues-and-service-disruptions-affecting-claude-ai-and-claude-code-article-14079689.html",
+        "type": "source"
+      },
+      {
+        "label": "Windows Report",
+        "url": "https://windowsreport.com/claude-ai-code-console-and-cowork-are-down-and-not-working-in-latest-outage-anthropic-confirms/",
         "type": "source"
       }
     ]
