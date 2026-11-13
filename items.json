@@ -55,6 +55,85 @@
     ]
   },
   {
+    "id": "2026-11-13-tsmc-employee-data-exposed",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "TSMC, 전·현직 직원 개인정보 외부 사이트 유출 공시…\"시스템 침해 증거는 없어\"",
+    "summary": "TSMC가 12일 SEC 6-K 공시에서 일부 전·현직 직원 데이터가 외부 웹사이트에 무단 공개됐으며, 이 데이터가 한 클라우드 서비스 제공업체의 시스템에 저장된 것과 일치한다고 밝혔다. 회사 운영·고객 데이터와는 무관하고 자사 시스템이 침해된 증거는 현재 없다고 했다.",
+    "why": "세계 최대 파운드리의 협력 클라우드를 통한 유출이라 공급망 보안 관점에서 주목된다. TSMC는 클라우드 업체·수사 당국·외부 보안업체와 함께 조사 중이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SEC 제출 TSMC 6-K 공시 원문 확인"
+    },
+    "links": [
+      {
+        "label": "TSMC 6-K 공시(SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-spacex-74b-supercompute-campuses",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "SpaceX, 텍사스·애리조나 AI 슈퍼컴퓨팅 캠퍼스에 740억 달러+ 투자 계획",
+    "summary": "SpaceX가 스타베이스(텍사스) 인근에 240억 달러 이상, 애리조나 코치스 카운티에 약 500억 달러 규모의 슈퍼컴퓨팅 캠퍼스를 짓겠다고 12일(현지시간) 발표했다. 텍사스 시설은 공공 전력망 대신 자체 발전을 하고, 애리조나 캠퍼스는 건식 냉각을 쓰며 카운티 승인이 남아 있다.",
+    "why": "로이터에 따르면 SpaceX의 AI 부문은 3분기 매출의 절반 이상을 차지했다. 애리조나 부지에는 반대 청원(약 2,400명)이 있고 12월 카운티 공청회가 예정돼 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SpaceX 공식 발표 + 로이터·UPI·블룸버그 보도"
+    },
+    "image": "https://www.spacex.com/assets/images/share.jpg",
+    "links": [
+      {
+        "label": "SpaceX 공식 발표",
+        "url": "https://www.spacex.com/updates/terafab",
+        "type": "source"
+      },
+      {
+        "label": "UPI",
+        "url": "https://www.upi.com/Top_News/US/2026/11/12/spacex-musk-AI-supercomputing-texas-arizona/8361794521839/",
+        "type": "source"
+      },
+      {
+        "label": "The Hill",
+        "url": "https://thehill.com/policy/technology/6217630-spacex-plans-data-centers-texas-arizona/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-softbank-3-7b-power-equipment-charge",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "소프트뱅크, 美 AI 데이터센터용 발전 설비 주문 변경으로 37억 달러 손실…분기 70억 달러 적자",
+    "summary": "소프트뱅크그룹이 미국 AI 데이터센터용 발전 설비 조달 계획 변경으로 5,972억 엔(37억 달러) 손실을 반영하며 2분기 순손실 1조1,200억 엔(약 70억 달러)을 냈다. 환불 불가 선급금과 계약 변경 비용 때문이며, 향후 구매 시 최대 21억 달러 리베이트를 받을 수 있다고 밝혔다.",
+    "why": "전력 장비를 미리 쓸어 담던 AI 인프라 경쟁의 비용 리스크가 숫자로 드러났다. CFO는 오하이오 프로젝트 축소는 없다면서도 비슷한 손실이 다시 없을 거라 장담하지 못한다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC + 로이터 + Bisnow 보도(실적 발표 기반)"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108263657-1770697316782-gettyimages-2228259809-TFSPI_07082025-9375.jpeg?v=1794333546&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+        "type": "source"
+      },
+      {
+        "label": "로이터(StreetInsider)",
+        "url": "https://www.streetinsider.com/Reuters/SoftBank+books+%247+billion+quarterly+loss+on+US+data+centre+hit%2C+financing+costs/27317116.html",
+        "type": "source"
+      },
+      {
+        "label": "Bisnow",
+        "url": "https://www.bisnow.com/news/national/data-center-capital-markets/softbank-takes-3-7b-hit-on-data-center-equipment-it-no-longer-wants",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-smolmaxxing-tv-box-llm",
     "date": "2026-11-13",
     "category": "로컬 AI",
@@ -209,6 +288,36 @@
       {
         "label": "npm @openai/codex-security",
         "url": "https://www.npmjs.com/package/@openai/codex-security",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-nvidia-huang-second-employee-petition",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "업데이트: 로이터 \"젠슨 황, 세 번째 직원과도 관계\"…엔비디아 직원들은 복귀 청원 댓글 1,600개+",
+    "summary": "로이터는 사임한 젠슨 황이 앨리스 황·킴벌리 파월에 이어 또 다른 엔비디아 직원과도 관계를 가졌다고 소식통 2명을 인용해 보도했다(엔비디아는 논평 거부). 와이어드에 따르면 사내 제안함에 올라온 황 복귀 요청 글에 1,600개 넘는 댓글이 달렸다.",
+    "why": "사임 하루 만에 의혹이 넓어지는 동시에 내부에선 복귀 여론이 커져, 후임 CEO 선임 과정의 변수가 되고 있다. 주가는 목요일 5.5% 하락, 10월 고점 대비 30% 넘게 빠졌다(로이터).",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(Globe and Mail 전재) + 와이어드(India Today 인용 보도) — 로이터 건은 익명 소식통 기반"
+    },
+    "image": "https://media.wired.com/photos/6af6533dc5d481da1362b330/191:100/w_1280,c_limit/Petition-Bring-Back-Jensen-Business-2299493060.jpg",
+    "links": [
+      {
+        "label": "로이터(Globe and Mail)",
+        "url": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-affair/",
+        "type": "source"
+      },
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50477231",
         "type": "source"
       }
     ]
@@ -415,6 +524,26 @@
     ]
   },
   {
+    "id": "2026-11-13-konan-argo-x-defense-ai",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "코난테크놀로지, 국방 정보분석 AI '아르고-엑스' 첫 공개…12월 출시",
+    "summary": "코난테크놀로지가 13일 국방 AI 서밋에서 영상·신호·지리공간·인적정보·공개정보 등을 연결해 인물·장비·시설·사건 관계를 분석하는 플랫폼 '코난 아르고-엑스(ARGO-X)'를 처음 공개하고 12월 정식 출시한다고 밝혔다.",
+    "why": "국산 '한국판 팔란티어' 시도로, 회사는 통신이 끊겨도 장비 안에서 판단하는 온디바이스 국방 AI(KAI와 AI 파일럿 2027년 제품화 목표)도 함께 추진한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 현장 취재 보도(회사 발표)"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/13/3894ec2842138db607e4eb5f490f5e13.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261113102516",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-kakao-work-breach",
     "date": "2026-11-13",
     "category": "한국 IT",
@@ -472,7 +601,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/front?day=2026-11-12",
         "type": "source"
       }
@@ -495,6 +624,81 @@
         "label": "디지털데일리",
         "url": "https://www.ddaily.co.kr/page/view/2026111309432828517",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-inkling-2-small-weights-released",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "업데이트: Thinking Machines 'Inkling 2 Small' 가중치 공개…594B/17B MoE, Apache 2.0",
+    "summary": "Thinking Machines가 예고대로 외부 안전성 테스트를 마친 Inkling 2 Small의 가중치를 Hugging Face에 Apache 2.0으로 공개했다. 텍스트·이미지 입력 멀티모달 MoE(총 594B·활성 17B, 384개 전문가 중 8개 라우팅)로, NVFP4 기본 체크포인트와 MXFP8 버전이 있다.",
+    "why": "오픈 웨이트지만 개인 PC용은 아니다. NVFP4도 합계 VRAM 500GB 이상(B300 2장 또는 H200 4장)이 필요하며 SGLang·vLLM·Unsloth 등 레시피가 함께 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Thinking Machines 공식 페이지 + HF 모델 카드(라이선스·하드웨어 요구 확인)"
+    },
+    "image": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png",
+    "specs": {
+      "params": "594B (활성 17B)",
+      "license": "Apache 2.0",
+      "memory": "NVFP4 ≥500GB VRAM / MXFP8 ≥800GB",
+      "modality": "텍스트·이미지 → 텍스트"
+    },
+    "links": [
+      {
+        "label": "공식 발표",
+        "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+        "type": "source"
+      },
+      {
+        "label": "thinkingmachines/Inkling-2-Small",
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+        "type": "huggingface"
+      },
+      {
+        "label": "thinkingmachines/Inkling-2-Small-MXFP8",
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small-MXFP8",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-ibm-granite-4-1-llmon-preview",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "IBM, 프롬프트 인젝션에 강한 'Granite 4.1 LLMON' 3B·8B 프리뷰 공개",
+    "summary": "IBM이 지시와 데이터를 특수 토큰 마크업(LLMON)으로 분리해 학습한 실험용 모델 granite-4.1-3b/8b-LLMON-preview를 Apache 2.0으로 공개했다. IBM 측정에서 문서·도구 결과에 숨긴 간접 프롬프트 인젝션을 대부분 무시하면서 일반 성능은 Granite 4.1 Instruct와 비슷했다고 한다.",
+    "why": "로컬 에이전트·RAG에서 가장 골치 아픈 간접 인젝션을 모델 차원에서 줄이려는 시도다. 다만 IBM도 학습된 행동일 뿐 보장은 아니며, 다회차 적응형 공격은 아직 개선 중이고 프로덕션용이 아니라고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IBM Granite 공식 HF 블로그 + HF 모델 카드 2종 + arXiv 논문"
+    },
+    "specs": {
+      "params": "3B · 8B",
+      "license": "Apache 2.0",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "IBM HF 블로그",
+        "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+        "type": "source"
+      },
+      {
+        "label": "ibm-granite/granite-4.1-8b-llmon-preview",
+        "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "ibm-granite/granite-4.1-3b-llmon-preview",
+        "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "generative-computing/llmon",
+        "url": "https://github.com/generative-computing/llmon",
+        "type": "github"
       }
     ]
   },
@@ -565,6 +769,36 @@
         "label": "Edge0-AI/Edge0",
         "url": "https://github.com/Edge0-AI/Edge0",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-claude-managed-agents-self-hosted-beta",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude Managed Agents '자체 호스팅' 프라이빗 베타…세션 기록까지 고객 서버에",
+    "summary": "앤트로픽이 12일(현지시간) 에이전트 서버·PostgreSQL DB·워커·샌드박스·자격 증명·세션 기록을 고객의 클라우드나 사내 설비에서 운영하는 자체 호스팅 버전을 프라이빗 베타로 열었다. 모델 요청은 Claude API 외에 Bedrock·구글 Agent Platform·Microsoft Foundry·자체 게이트웨이로 보낼 수 있고, 접근은 앤트로픽 계정팀을 통해 신청한다.",
+    "why": "이전엔 도구 실행만 고객 쪽이었지만 이제 오케스트레이션과 세션 기록까지 내부에 둘 수 있다. 다만 모델 호출 내용은 선택한 추론 제공자에게 전달되고, 예약 배포·웹훅·Files API 등은 자체 호스팅에서 쓸 수 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude 공식 문서(퀵스타트·데이터/접근 문서) + 토큰포스트 보도"
+    },
+    "image": "https://f1.tokenpost.kr/2026/11/4psj3xzeqf_th_1600x900.webp",
+    "links": [
+      {
+        "label": "공식 문서: 자체 호스팅 퀵스타트",
+        "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted/quickstart",
+        "type": "source"
+      },
+      {
+        "label": "공식 문서: 데이터와 접근",
+        "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-data-and-access",
+        "type": "source"
+      },
+      {
+        "label": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/ai/437606",
+        "type": "source"
       }
     ]
   },
@@ -1410,7 +1644,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/",
         "type": "source"
       }
@@ -2726,7 +2960,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50442303",
         "type": "source"
       }
@@ -3066,7 +3300,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50436640",
         "type": "source"
       }
@@ -3121,7 +3355,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50447074",
         "type": "source"
       }
@@ -3452,7 +3686,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50411961",
         "type": "source"
       }
@@ -3781,7 +4015,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50403097",
         "type": "source"
       }
@@ -4355,7 +4589,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50407882",
         "type": "source"
       }
@@ -5063,7 +5297,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50406563",
         "type": "source"
       }
@@ -5556,7 +5790,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50371246",
         "type": "source"
       }
@@ -5694,7 +5928,7 @@
         "type": "huggingface"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50366999",
         "type": "source"
       }
@@ -5849,7 +6083,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50362905",
         "type": "source"
       }
@@ -5884,7 +6118,7 @@
         "type": "huggingface"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50369925",
         "type": "source"
       }
@@ -6109,7 +6343,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50366863",
         "type": "source"
       }
@@ -6344,7 +6578,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50369503",
         "type": "source"
       }
@@ -7034,7 +7268,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50351111",
         "type": "source"
       }
@@ -7181,7 +7415,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50354960",
         "type": "source"
       }
@@ -7596,7 +7830,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50353192",
         "type": "source"
       }
@@ -7626,7 +7860,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50354336",
         "type": "source"
       }
@@ -7869,7 +8103,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50345712",
         "type": "source"
       }
@@ -8502,7 +8736,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50341462",
         "type": "source"
       }
@@ -9665,7 +9899,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50320588",
         "type": "source"
       }
@@ -9851,7 +10085,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50320995",
         "type": "source"
       }
@@ -10121,7 +10355,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50320255",
         "type": "source"
       }
@@ -10151,7 +10385,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50314699",
         "type": "source"
       }
@@ -10477,7 +10711,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50312922",
         "type": "source"
       }
@@ -10549,7 +10783,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50305025",
         "type": "source"
       }
@@ -10877,7 +11111,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50311311",
         "type": "source"
       }
@@ -11031,7 +11265,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50295450",
         "type": "source"
       }
@@ -11143,7 +11377,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50312756",
         "type": "source"
       }
@@ -11231,7 +11465,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50293047",
         "type": "source"
       }
@@ -11635,7 +11869,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50296470",
         "type": "source"
       }
@@ -11704,7 +11938,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50296470",
         "type": "source"
       }
@@ -11953,7 +12187,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50271640",
         "type": "source"
       }
@@ -12292,7 +12526,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50289418",
         "type": "source"
       }
@@ -12552,7 +12786,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50287919",
         "type": "source"
       }
@@ -12630,7 +12864,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50310937",
         "type": "source"
       }
@@ -12722,7 +12956,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50276998",
         "type": "source"
       }
@@ -13927,7 +14161,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50242939",
         "type": "source"
       }
@@ -14156,7 +14390,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50245524",
         "type": "source"
       }
@@ -14295,7 +14529,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50246238",
         "type": "source"
       }
@@ -14351,7 +14585,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50248124",
         "type": "source"
       }
@@ -14488,7 +14722,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50246658",
         "type": "source"
       }
@@ -15159,7 +15393,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50233779",
         "type": "source"
       }
@@ -15271,7 +15505,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50236828",
         "type": "source"
       }
@@ -15776,7 +16010,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50219700",
         "type": "source"
       }
@@ -16571,7 +16805,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50195959",
         "type": "source"
       }
@@ -16965,7 +17199,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50195110",
         "type": "source"
       }
@@ -17238,7 +17472,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50197601",
         "type": "source"
       }
@@ -17263,7 +17497,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50202217",
         "type": "source"
       }
@@ -17627,7 +17861,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50188228",
         "type": "source"
       }
@@ -17722,7 +17956,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50181175",
         "type": "source"
       }
@@ -17772,7 +18006,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50180752",
         "type": "source"
       }
@@ -18013,7 +18247,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50181114",
         "type": "source"
       }
@@ -18186,7 +18420,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50181136",
         "type": "source"
       }
@@ -18250,7 +18484,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50190168",
         "type": "source"
       }
@@ -19173,7 +19407,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50159341",
         "type": "source"
       }
@@ -19360,7 +19594,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50159245",
         "type": "source"
       }
@@ -19697,7 +19931,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50155245",
         "type": "source"
       }
@@ -19764,7 +19998,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50163961",
         "type": "source"
       }
@@ -19916,7 +20150,7 @@
         "type": "huggingface"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50163277",
         "type": "source"
       }
@@ -19980,7 +20214,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50153630",
         "type": "source"
       }
@@ -20104,7 +20338,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50149392",
         "type": "source"
       }
@@ -20380,7 +20614,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50154540",
         "type": "source"
       }
@@ -20602,7 +20836,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50143755",
         "type": "source"
       }
@@ -20813,7 +21047,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50133401",
         "type": "source"
       }
@@ -21370,7 +21604,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50129045",
         "type": "source"
       }
@@ -21622,7 +21856,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50122800",
         "type": "source"
       }
@@ -22212,7 +22446,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50111852",
         "type": "source"
       }
@@ -22496,7 +22730,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50122951",
         "type": "source"
       }
@@ -23568,7 +23802,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50114758",
         "type": "source"
       }
@@ -25333,7 +25567,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50059115",
         "type": "source"
       }
@@ -25620,7 +25854,7 @@
         "type": "github"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50063717",
         "type": "source"
       }
@@ -25660,7 +25894,7 @@
         "type": "buy"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50063365",
         "type": "source"
       }
@@ -25765,7 +25999,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50055304",
         "type": "source"
       }
@@ -25999,7 +26233,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50065553",
         "type": "source"
       }
@@ -26226,7 +26460,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50058507",
         "type": "source"
       }
@@ -26295,7 +26529,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50048522",
         "type": "source"
       }
@@ -26742,7 +26976,7 @@
         "type": "source"
       },
       {
-        "label": "Hacker News 토론",
+        "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50065692",
         "type": "source"
       }
