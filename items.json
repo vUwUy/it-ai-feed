@@ -1,5 +1,200 @@
 [
   {
+    "id": "2026-11-15-stand-with-jensen-petition",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "업데이트: '젠슨 황 복귀' 청원 서명 11만5,000명 넘어…머스크·스위니 동참, 가짜 서명도 섞여",
+    "summary": "엔비디아 이사회에 황의 복귀와 독립 조사를 요구하는 'Stand with Jensen' 청원이 14일(미국 시간) 오후 11만5,000명 넘게 서명을 모았다고 TechCrunch가 전했다. 사이트 집계로 현직 엔비디아 직원 5,965명, 전직 1,108명, 주주 63,063명이며 일론 머스크·팀 스위니·암자드 마사드 등이 서명했다.",
+    "why": "Business Insider는 'Tim Cruise' 'Xi Jingping' 같은 가짜 서명도 있어 주최 측이 지우는 중이라고 전했다. 알티미터 브래드 거스트너 등 투자자들도 이사회에 '서두른 후임 선정'을 피하라는 서한을 보냈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch + Business Insider 보도, 청원 사이트 확인. 서명 수는 자체 집계로 검증 불가"
+    },
+    "image": "https://i.insider.com/6af87bd8b2c29afb4e56b08f?width=1200&format=jpeg",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "type": "source"
+      },
+      {
+        "label": "Business Insider",
+        "url": "https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11",
+        "type": "source"
+      },
+      {
+        "label": "Stand with Jensen",
+        "url": "https://standwithjensen.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-project-zero-full-x-disclosure",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "구글 Project Zero, 공개 정책 'Full 90'으로 변경…2027년 2월 60일, 2028년 1월 30일로 단축",
+    "summary": "Project Zero가 기존 '90+30'(수정 90일+패치 배포 30일) 대신 제보 후 무조건 X일 뒤 공개하는 'Full X' 정책을 발표했다. 지금은 90일, 2027년 2월 2일부터 60일, 2028년 1월 3일부터 30일이며 유예 기간 등 특례도 대부분 없앴다.",
+    "why": "LLM 때문에 공격자가 패치를 보고 바로 익스플로잇을 만들 수 있고, Project Zero 자체도 '예전엔 1년에 몇 개 찾던 대상에서 주당 여러 개'를 찾는다고 밝혔다. AI가 보안 패치 주기 자체를 바꾸고 있다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Project Zero 공식 블로그(2026-11-13)"
+    },
+    "image": "https://projectzero.google/images/preview_image.png",
+    "links": [
+      {
+        "label": "Project Zero 블로그",
+        "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50496051",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-lovable-apps-expose-data",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "바이브 코딩 'Lovable'로 만든 앱 다수, 로그인 없이 개인정보 노출…여권 정보·채팅 20만 건도",
+    "summary": "독일 보안업체 Crissy Field가 Lovable 프로젝트 159,041개(이 중 Supabase 사용 34,545개)를 분석해, 첫 로딩에 DB 레코드를 보내는 24,664개 사이트 중 7,403곳(30%)에서 이메일이 든 테이블을 읽기 요청만으로 확인했다. 여권 번호 1,000건+, 채팅 메시지 20만 건+ 등 사례도 나왔다.",
+    "why": "AI로 '코딩 몰라도' 앱을 만드는 흐름에서 접근 권한 설정 누락이 반복 패턴이 돼 대량 공격에 취약하다는 경고다. 연구진은 30%가 확정 유출률은 아니며 표본이 대표성이 없다고 명시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Crissy Field 연구 보고서(1차 출처, 방법·한계 공개) + 한델스블라트 11월 2일 첫 보도(독일어). Lovable 측 입장은 확인 못 함"
+    },
+    "image": "https://www.crissyfield.de/images/research-lovable-opengraph.jpg",
+    "links": [
+      {
+        "label": "Crissy Field 보고서",
+        "url": "https://www.crissyfield.de/research/lovable-en/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론(485점)",
+        "url": "https://news.ycombinator.com/item?id=50499017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-italy-garante-meta-805m-gallery",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "이탈리아 개인정보 감독기구, 메타에 8억500만 유로 과징금…페이스북 '갤러리 추천' 동의 없이 사진 접근",
+    "summary": "이탈리아 Garante는 페이스북 안드로이드 앱의 '갤러리에서 추천 받기' 기능이 구체적 동의·충분한 고지 없이 이용자 휴대폰의 사진·영상·메타데이터에 접근했다며 메타에 8억500만 유로를 부과했다(14일 발표). 60일 안에 기능을 기본 꺼짐으로 바꾸고 별도 동의를 받아야 한다.",
+    "why": "영향 이용자 약 2,000만 명, 과징금은 그룹 전 세계 매출의 약 0.47%다. ePrivacy 규정이라 아일랜드 '원스톱숍'이 적용되지 않는다고 판단했고, 2026년 나온 클라우드 갤러리 처리 기능은 따로 조사하겠다고 했다. 메타는 항소 방침.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Garante 공식 보도자료(2026-11-14) + BBC·Reuters 보도"
+    },
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+    "links": [
+      {
+        "label": "Garante 보도자료",
+        "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321080",
+        "type": "source"
+      },
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.com/news/articles/cwn83gxemk35o",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50497009",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-uber-fireworks-breach-drivers",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "업데이트: Fireworks AI 침해로 우버 운전자 면허 정보 유출…매사추세츠 등 3개 주에서만 7,870명",
+    "summary": "우버가 10월 외부 업체 침해로 운전자 개인정보·운전면허 정보가 도난됐다고 각 주 법무장관에 신고했고, TechCrunch는 그 업체가 Fireworks AI라고 확인했다. 매사추세츠 2,567명, 사우스캐롤라이나 3,430명, 로드아일랜드 1,873명이며 일리노이·캘리포니아 피해 규모는 아직 미공개다.",
+    "why": "노션에 이어 우버까지, AI 추론 플랫폼 한 곳의 침해가 고객사 데이터로 번진 사례다. Fireworks는 LLM 접근 토큰을 팔려는 금전 목적 범죄 조직 소행이라고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch(우버·Fireworks 확인) + Engadget·Reuters 보도"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2043993878-e1722276196662.jpg?resize=1200,676",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+        "type": "source"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2316881/uber-drivers-information-stolen-in-a-third-party-hack/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-nvidia-glm53-two-dgx-stations-vllm",
+    "date": "2026-11-14",
+    "category": "로컬 AI",
+    "title": "엔비디아, DGX Station 2대로 753B GLM-5.3 로컬 서빙 가이드…vLLM으로 최대 607.8 tok/s",
+    "summary": "엔비디아 기술 블로그가 약 464GB인 GLM-5.3 NVFP4(총 753B·활성 40B)를 GB300 DGX Station 2대에 ConnectX-8 RDMA로 묶어 vLLM 텐서 병렬(TP=2)로 하나의 OpenAI 호환 엔드포인트로 서빙하는 방법을 공개했다. 동시 16요청에서 전체 처리량 607.8 tok/s, 단일 요청은 115.3 tok/s였다(자체 측정).",
+    "why": "GPU 1개(HBM3e 252GB)에 안 들어가는 프런티어급 오픈 모델을 CPU 오프로드 없이 '책상 위'에서 돌리는 구체적 레시피다. 동시 32요청에선 385.0 tok/s로 떨어지고 평균 지연이 453.5초로 늘었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NVIDIA Technical Blog(2026-11-13) + HF nvidia/GLM-5.3-NVFP4 모델 페이지 확인"
+    },
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/image3-3.webp",
+    "specs": {
+      "params": "753B 총 / 40B 활성 (MoE)",
+      "memory": "체크포인트 약 464GB (GB300 2대)",
+      "compute": "DGX Station ×2, vLLM TP=2"
+    },
+    "links": [
+      {
+        "label": "NVIDIA 기술 블로그",
+        "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+        "type": "source"
+      },
+      {
+        "label": "nvidia/GLM-5.3-NVFP4",
+        "url": "https://huggingface.co/nvidia/GLM-5.3-NVFP4",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50497155",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-google-antigravity-teamwork-research",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "구글, Antigravity '/teamwork' 다중 에이전트로 수학 난제 해결 사례 공개…외부 사용자에게도 제공",
+    "summary": "구글 리서치가 Gemini 4 모델과 Antigravity /teamwork로 2013년 Courtade–Kumar 추측을 증명해 Lean 4로 형식화(코드 5,000만 줄)하는 등 수학·화학·시스템 분야 성과를 공개했다. /teamwork와 /boost는 지금 Antigravity에서 쓸 수 있고, 학계 연구자 1만 명에게 최고 사용 등급 6개월 무료 신청을 받는다.",
+    "why": "병렬 탐색 + Lean·테스트 등 '반증기'로 검증하고, 에이전트마다 필요한 맥락만 나눠 주는 방식이다. 사내에서는 Borg 스케줄링에 적용해 일부 하드웨어에서 TPU 작업 선점을 24% 줄였다고 밝혔다(자체 발표).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google Research 공식 블로그(2026-11-13 미국 시간)"
+    },
+    "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+    "links": [
+      {
+        "label": "Google Research 블로그",
+        "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50496811",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-yellow-umbrella-breach",
     "date": "2026-11-14",
     "category": "한국 IT",
@@ -765,6 +960,72 @@
         "label": "MI450X 제품 페이지",
         "url": "https://www.amd.com/en/products/accelerators/instinct/mi400/mi450x.html",
         "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-mois-local-admin-ai-coding",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "행안부, 2,857억 원 차세대 지방행정공통시스템에 'AI 코딩' 공식 도입…대형 공공SW 사업 처음",
+    "summary": "행안부는 13일 설명회에서 지방공무원 약 32만 명이 쓰는 지방행정공통시스템 재구축 사업(통합 구축 1,527억 원)에 AI 코딩을 공식 개발체계로 요구한다고 밝혔다. AI 개발환경은 행정망 내부 폐쇄망에 두고 외부 상용 LLM API로 코드를 보내는 것은 금지하며, 생산성·결함밀도 등을 수치로 측정해야 한다.",
+    "why": "대규모 공공정보화 사업에서 AI 코딩을 공식 요구한 첫 사례(행안부)다. 토큰 비용은 발주기관에 청구할 수 없고, 2027~2029년 단계적으로 확대하며 국정원 보안성 검토에 따라 범위가 바뀔 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "행정안전부 보도자료 + 지디넷코리아·디지털데일리 보도"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/13/d6f944fde7c9e57a147c2a22dc96d4f8.jpg",
+    "links": [
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261113134630",
+        "type": "source"
+      },
+      {
+        "label": "행정안전부 보도자료",
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=130822",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026110914162142684",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-haru-4b-full-duplex",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "일본 higurashi 'Haru-4B' 공개…듣고 말하기를 동시에 하는 전이중 음성 대화 모델, 한국어 지원",
+    "summary": "Qwen3.5-4B 기반으로 133ms마다 사용자 음성을 받아 자기 음성·텍스트를 내는 전이중 음성 대화 기반 모델이다. 실제 음성 4,000만 시간으로 학습했고 한국어 포함 9개 언어가 주력이며, Apache 2.0으로 가중치와 PyTorch·MLX(맥 앱)·vLLM-Omni 코드를 공개했다.",
+    "why": "맞장구·끼어들기·말 차례를 배운 4B급 음성 모델을 집에서 돌릴 수 있다. 맥북에서 종단 지연 약 65ms(자체 측정), NVIDIA GPU는 약 12GB 메모리가 필요하다. 지시 튜닝 전 사전학습 기반 모델(연구용)이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "higurashi 기술 블로그(2026-11-13) + HF 모델 카드(license: apache-2.0) + GitHub 저장소"
+    },
+    "image": "https://blog.higurashi.ai/ogp/melte-haru4b.png",
+    "specs": {
+      "params": "4B (Qwen3.5-4B 기반)",
+      "license": "Apache 2.0",
+      "memory": "NVIDIA GPU 약 12GB",
+      "modality": "음성↔음성(전이중)+텍스트"
+    },
+    "links": [
+      {
+        "label": "higurashi 기술 블로그",
+        "url": "https://blog.higurashi.ai/melte/haru4b/",
+        "type": "source"
+      },
+      {
+        "label": "higurashi-ai/Haru-4B",
+        "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+        "type": "huggingface"
+      },
+      {
+        "label": "higurashi-ai/Haru",
+        "url": "https://github.com/higurashi-ai/Haru",
+        "type": "github"
       }
     ]
   },
