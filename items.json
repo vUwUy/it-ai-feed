@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-11-14-transformers-v5-23",
+    "date": "2026-11-14",
+    "category": "로컬 AI",
+    "title": "Transformers v5.23…Inkling 2·LFM3/LFM3-VL·Dots 3 Note·IQuest-Coder·InternLM3 지원",
+    "summary": "Thinking Machines의 Inkling 2 Small(594B/17B MoE), 리퀴드 AI의 LFM3·LFM3-VL, 텍스트·이미지·영상·오디오 입력의 Dots 3 Note Preview 등이 추가됐다. JEV 결정 헤드와 실험적 decision 파이프라인으로 pplx-decider 계열도 읽을 수 있다.",
+    "why": "최근 공개된 오픈 웨이트 모델을 별도 코드 없이 표준 라이브러리로 돌릴 수 있게 됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트"
+    },
+    "links": [
+      {
+        "label": "릴리스 v5.23.0",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
+        "type": "source"
+      },
+      {
+        "label": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-sglang-consortium",
     "date": "2026-11-14",
     "category": "로컬 AI",
@@ -75,6 +99,30 @@
     ]
   },
   {
+    "id": "2026-11-14-openai-backs-chip-export-bills",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "OpenAI, 대중 AI 칩·장비 수출통제 3개 법안 지지로 선회(보도)",
+    "summary": "폴리티코·블룸버그 로에 따르면 OpenAI는 첨단 칩 대중 판매 제한, 엔비디아 칩 우회 유입 차단, ASML 장비 접근 차단을 담은 초당적 법안 3건(Chip Security Act·AI Overwatch Act·MATCH Act)을 지지한다고 의원실에 전했다. 의회는 이를 연례 국방수권법(NDAA)에 넣는 방안을 추진 중이다.",
+    "why": "엔비디아와의 관계 때문에 수위를 낮췄던 OpenAI가 입장을 바꾸면서, 젠슨 황 사임 이후 탄력을 받은 수출통제 강화 흐름에 힘이 실린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "POLITICO + Bloomberg Law 보도(익명 소식통), 조선비즈 교차 확인. OpenAI 공식 발표는 없음"
+    },
+    "links": [
+      {
+        "label": "POLITICO",
+        "url": "https://www.politico.com/live-updates/2026/11/12/congress/openai-tells-congressional-offices-it-supports-key-chip-export-control-bills-01162641",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/openai-joins-groundswell-of-support-for-ai-chip-control-measures",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-nvidia-approached-arm-ceo-haas",
     "date": "2026-11-14",
     "category": "AI·IT",
@@ -99,6 +147,31 @@
       {
         "label": "CNA/로이터",
         "url": "https://www.channelnewsasia.com/business/nvidia-approached-arm-ceo-haas-succeed-huang-ft-reports-6550286",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-lutnick-testify-nvidia-probe",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "업데이트: 러트닉 상무장관, 엔비디아 대중 칩 판매 관련 상원 증언 동의…민주당 닐·와이든 조사 착수",
+    "summary": "CNBC(NBC 인용)에 따르면 러트닉 상무장관이 팀 스콧 상원 은행위원장의 요청에 응해 12월 10일 청문회에 자발적으로 출석하기로 했고, 젠슨 황 전 CEO에게는 12월 3일 출석이 요청됐다. 와이든 상원의원과 닐 하원의원은 중국 정부·군 연계 기업에 대한 엔비디아 칩 판매 승인 경위 조사에 착수하고 상무부에 관련 기록 보존을 요구했다.",
+    "why": "젠슨 황 사임 사태가 미 행정부의 대중 칩 수출 정책 검증으로 번지고 있어, 수출통제 강화와 국내 반도체·엔비디아 협력사업에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 보도 + 미 상원 재무위원회(와이든) 보도자료 + TechCrunch"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108550377-1794507899960-gettyimages-2297605826-kbd14163_5adpm0ir.jpeg?v=1794507941&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+        "type": "source"
+      },
+      {
+        "label": "상원 재무위 보도자료",
+        "url": "https://www.finance.senate.gov/newsroom/press-releases/wyden-and-neal-launch-investigation-of-trump-administration-scheme-to-take-cut-of-nvidia-ai-chip-sales-to-chinese-companies-trump-and-commerce-department-reportedly-ignored-warnings-about-former-ceo/",
         "type": "source"
       }
     ]
@@ -276,6 +349,36 @@
     ]
   },
   {
+    "id": "2026-11-14-faa-ground-stop-lifted",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "업데이트: 미 FAA 전국 이륙 중지 5시간 만에 해제…원인은 노후 라우터·스위치 '데이터 과부하'",
+    "summary": "WIRED에 따르면 해제 시점까지 6,300편 이상이 결항, 9,500편이 지연됐다(FlightAware). 더피 교통장관은 '오래된 스위치·라우터'와 데이터 과부하를 원인으로 들었고, 국토안보부 장관은 사이버 공격 징후는 없지만 완전히 확실하지는 않다고 말했다.",
+    "why": "AI 관제 보조 시스템 확대 직후 터진 사고였지만 원인은 통신망 인프라로 지목됐다. 노후 IT 인프라가 국가 기간망 장애로 이어질 수 있음을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WIRED + Reuters + FAA 공식 성명(초기)"
+    },
+    "image": "https://media.wired.com/photos/6af796575e4ca9026ac50e15/191:100/w_1280,c_limit/Air-Traffic-Outage-Wasnt-AI-Gear-2239205748.jpg",
+    "links": [
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/",
+        "type": "source"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/3fec1b0a85a0/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
+        "type": "source"
+      },
+      {
+        "label": "HN: 해제 공지 토론",
+        "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-eu-first-ai-summit-dublin",
     "date": "2026-11-14",
     "category": "AI·IT",
@@ -341,6 +444,36 @@
     ]
   },
   {
+    "id": "2026-11-14-claude-code-projects-redesigned",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude Code 'Projects' 재설계 베타…코디네이터가 병렬 클라우드 스레드에 일을 나눠 맡김",
+    "summary": "새 Projects는 하나의 대화에서 Claude가 작업을 쪼개 스레드마다 별도 브랜치의 클라우드 세션으로 병렬 실행하고, 결과 검토·PR 정리까지 맡는다. 스레드 간 공유 메모리와 파일 라이브러리가 붙으며, Pro·Max·Ultra에서 퍼블릭 베타로 순차 배포되고 Team·Enterprise는 아직 미지원이다.",
+    "why": "여러 코딩 에이전트를 사람이 직접 조율하던 방식을 제품 차원에서 자동화한 것으로, 스레드가 동시에 돌아 사용량 한도에 더 빨리 닿을 수 있다는 점도 회사가 명시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude 공식 발표 글 + Claude Code 공식 문서"
+    },
+    "image": "https://claude.com/resources/articles/projects-redesigned/opengraph-image/og",
+    "links": [
+      {
+        "label": "Claude 발표",
+        "url": "https://claude.com/resources/articles/projects-redesigned",
+        "type": "source"
+      },
+      {
+        "label": "Claude Code 문서",
+        "url": "https://code.claude.com/docs/en/claude-projects",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50492141",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-amd-mi450x-hbm4",
     "date": "2026-11-14",
     "category": "AI·IT",
@@ -365,6 +498,61 @@
         "label": "MI450X 제품 페이지",
         "url": "https://www.amd.com/en/products/accelerators/instinct/mi400/mi450x.html",
         "type": "buy"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-lawform-breach-modu-startup",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "AI 법률 솔루션 '로폼' 해킹으로 2만28명 정보 유출…'모두의 창업' 참가자 818명 포함",
+    "summary": "중기부에 따르면 2차 '모두의 창업' AI 솔루션 공급기업 아미쿠스렉스(로폼)가 11일 외부 해킹 정황을 발견했고, 이용자 2만28명의 이름·전화번호·이메일이 유출됐다. 1차 사업 플랫폼 유출(약 5,000명)과는 별개 경로이며, 중기부는 나머지 50개 공급기업에도 보안 점검을 요청했다.",
+    "why": "정부 지원사업과 연결된 민간 AI 서비스가 개인정보 유출 통로가 될 수 있음을 보여줘, 공급기업 보안 관리 기준이 쟁점이 됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 + 정책브리핑(정부 설명) + 연합뉴스"
+    },
+    "image": "https://img.etnews.com/news/article/2026/10/20/news-p.v1.20261020.f71d814045354f5a908ba9eebc04e6cf_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261113000295",
+        "type": "source"
+      },
+      {
+        "label": "정책브리핑",
+        "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148975732",
+        "type": "source"
+      },
+      {
+        "label": "GeekNews",
+        "url": "https://news.hada.io/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-ai-song-melon-top100-first",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "AI 보컬곡 첫 멜론 '톱 100' 1위…머무르 '꿈꾸던 어른이 되었나요?'",
+    "summary": "13일 오후 5시 기준 멜론 톱 100에서 리센느 '위드'를 제치고 1위에 올랐다. 보컬은 생성형 음악 AI 수노로 만들었고 기획·작사·프로듀싱은 아티스트가 맡았으며, 6월 발매 후 약 5개월 만이다.",
+    "why": "국내 대표 음원 차트 정상에 AI 활용곡이 처음 오른 사례로, 음원 플랫폼의 AI 표기·저작권 논의가 본격화될 전망이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 한겨레·파이낸셜뉴스 교차 확인"
+    },
+    "image": "https://img2.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113157000005_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261113157000005",
+        "type": "source"
+      },
+      {
+        "label": "한겨레",
+        "url": "https://www.hani.co.kr/arti/culture/music/1287281.html",
+        "type": "source"
       }
     ]
   },
@@ -594,6 +782,47 @@
       {
         "label": "발견자 분석(Mehmet Ince)",
         "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-perplexity-decider-v1-3",
+    "date": "2026-11-13",
+    "category": "로컬 AI",
+    "title": "퍼플렉시티 'Decider v1.3'·'Flash v1.3' Apache 2.0 가중치 공개…분류 확률 + 원문 구간 추출(Locate)",
+    "summary": "텍스트를 생성하지 않고 예/아니오·다지선다·점수 질문에 선택지별 확률을 돌려주는 판단 전용 모델의 새 버전으로, 개체명·개인정보·추출형 QA용 'Locate' 기능이 추가됐다. v1.3은 Qwen3.8-27B 기반으로 BF16 가중치 약 49GiB가 필요하고, Flash는 증류된 소형 모델이다.",
+    "why": "라우팅·분류·PII 탐지에 LLM 판정 대신 상업적으로 쓸 수 있는 자체 호스팅 모델을 쓸 수 있다. Transformers v5.23에 이 계열을 읽는 실험적 decision 파이프라인도 들어갔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "퍼플렉시티 공식 블로그 + Hugging Face 모델 카드·컬렉션"
+    },
+    "image": "https://cdn.sanity.io/images/aqo64vfr/production/76ef8b5b28ef57516b89d0f531f7b3d18e61fc43-1600x838.png?rect=2,0,1596,838&w=1200&h=630&fm=jpg&q=80&fit=crop",
+    "specs": {
+      "params": "26B / 5B(HF 표기)",
+      "license": "Apache 2.0",
+      "memory": "~49GiB(BF16, v1.3)",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "퍼플렉시티 블로그",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+        "type": "source"
+      },
+      {
+        "label": "perplexity-ai/pplx-decider-v1.3",
+        "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+        "type": "huggingface"
+      },
+      {
+        "label": "Decider v1.3 컬렉션",
+        "url": "https://huggingface.co/collections/perplexity-ai/decider-v13",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/",
         "type": "source"
       }
     ]
