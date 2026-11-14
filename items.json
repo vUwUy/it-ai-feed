@@ -75,6 +75,35 @@
     ]
   },
   {
+    "id": "2026-11-14-nvidia-approached-arm-ceo-haas",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 엔비디아 이사회, 후임 CEO로 Arm의 르네 하스 접촉(FT)…이사회 \"추측은 시기상조\"",
+    "summary": "FT는 엔비디아 이사회가 젠슨 황 후임 후보로 Arm CEO 르네 하스를 접촉했다고 소식통을 인용해 보도했다. 하스는 여러 후보 중 한 명이며 제안·수락은 보장되지 않는다. 엔비디아 이사회는 CNBC에 '헤드헌팅 업체를 아직 선정 중이며 공식적으로 접촉한 후보는 없다'고 밝혔다.",
+    "why": "하스는 Arm으로 옮기기 전 엔비디아에서 7년 일했다. 보도 뒤 Arm 주가는 5% 넘게, 엔비디아는 3% 넘게 하락했다. 엔비디아 3분기 실적 발표는 11월 17일로 예정돼 있다.",
+    "verification": {
+      "status": "미확인",
+      "note": "FT 단독 보도(로이터 독자 확인 불가, Arm 논평 거부). 엔비디아 이사회는 CNBC에 개별 후보 추측은 시기상조라고 반박"
+    },
+    "links": [
+      {
+        "label": "FT",
+        "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
+        "type": "source"
+      },
+      {
+        "label": "CNBC (이사회 입장)",
+        "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+        "type": "source"
+      },
+      {
+        "label": "CNA/로이터",
+        "url": "https://www.channelnewsasia.com/business/nvidia-approached-arm-ceo-haas-succeed-huang-ft-reports-6550286",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-llama-cpp-v1-0-0",
     "date": "2026-11-14",
     "category": "로컬 AI",
@@ -203,6 +232,45 @@
       {
         "label": "Ars Technica",
         "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-faa-nationwide-ground-stop-telecom-outage",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "미 FAA, 통신 장애로 전국 공항 이륙 전면 중지…9·11 이후 두 번째",
+    "summary": "미국 연방항공청(FAA)이 현지시간 13일 오후 22개 광역 항공교통관제센터의 '일시적 통신 장애'로 전국 모든 공항의 출발편을 지상 정지시켰다. ABC 집계 기준 4,000편 이상 결항됐고, 국토안보부 장관은 '악의적 공격이라는 징후는 아직 없다'고 밝혔다. FAA는 관제센터가 복구되는 대로 순차 출발을 허용 중이다.",
+    "why": "워싱턴포스트에 따르면 9·11 이후 두 번째 전국 이륙 중지다. FAA가 이번 주 22개 센터 전체로 넓힌 클라우드 기반 AI 운항 계획 도구 'SMART'와의 연관성도 당국은 아직 배제하지 않았다. 계약사 AirSpace Intel은 SMART가 원인이 아니라고 밝혔다. 전날 시작된 MS 365 장애와는 관련이 없다는 게 정부와 마이크로소프트의 설명이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FAA 공식 관제 공지(ATCSCC 111) + AP·워싱턴포스트·ABC 보도. 원인은 조사 중, 전면 해제 시점은 신뢰할 만한 매체로 아직 확인 못 함"
+    },
+    "links": [
+      {
+        "label": "FAA ATCSCC 공지",
+        "url": "https://www.fly.faa.gov/ois/oisedit/adv_oisedit_dis?day=11132026&number=111",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/faa-us-flights-grounded-extraordinary-circumstances-6aaa6bd4991ef22eb0c3baa6961a91d1",
+        "type": "source"
+      },
+      {
+        "label": "워싱턴포스트",
+        "url": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
+        "type": "source"
+      },
+      {
+        "label": "GeekWire (SMART AI 관련)",
+        "url": "https://www.geekwire.com/2026/dhs-chief-sees-no-microsoft-link-to-faa-ground-stop-says-possible-ai-role-being-investigated/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50489641",
         "type": "source"
       }
     ]
