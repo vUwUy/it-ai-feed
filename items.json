@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-11-14-yellow-umbrella-breach",
+    "date": "2026-11-14",
+    "category": "한국 IT",
+    "title": "노란우산 홈페이지 침해…주민번호 앞 7자리·주소·연락처 조회 의심",
+    "summary": "중기중앙회는 11일 외부 비인가자의 노란우산 홈페이지 비정상 접근을 확인했다고 14일 공지했다. 조회 의심 정보는 성명, 주민등록번호 앞 7자리, 휴대전화번호, 자택 주소·전화번호, 이메일 등이며 주민번호 뒷자리는 복호화 불가 방식으로 암호화돼 있다고 밝혔다. 실제 조회 여부와 피해 범위는 조사 중.",
+    "why": "재적 가입자 192만 명(5일 기준)인 소상공인 공제제도라 사칭 전화·문자(납부 계좌 변경 요구 등) 2차 피해 주의가 필요하다. 카카오워크·두레이·로폼에 이어 국내 침해사고가 잇따르고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "중기중앙회 공지 + 전자신문·연합뉴스·중앙일보 보도. 피해 범위는 조사 중"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/14/news-p.v1.20261114.bebbfb5e670846c2ba5176a0ba069405_P1.png",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261114000032",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(종합)",
+        "url": "https://www.yna.co.kr/view/AKR20261114037551030",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-unsloth-qwen38-27b-dynamic-v31",
     "date": "2026-11-14",
     "category": "로컬 AI",
@@ -686,6 +711,31 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50492141",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-chak-komsco-breach",
+    "date": "2026-11-14",
+    "category": "한국 IT",
+    "title": "조폐공사 지역사랑상품권 앱 '착' 개인정보 유출…3,083명",
+    "summary": "조폐공사는 13일 오전 9시 30분께 '착' 시스템의 비정상 접근 징후를 확인했고, 외부 비인가 접근으로 3,083명의 이름·생년월일·휴대전화번호·계좌번호·CI·이메일·암호화된 카드번호 등이 조회됐다고 밝혔다. 2개 이하 정보 유출 3,072명, 3~4개 11명.",
+    "why": "공공기관이 운영하는 지역화폐 플랫폼 사고로, 해외 IP 전면 차단·서비스 일시 중단 후 복구했다. KISA에 신고.",
+    "verification": {
+      "status": "확인됨",
+      "note": "조폐공사 발표 기반 연합뉴스·뉴스1·한국경제·YTN 보도"
+    },
+    "image": "https://img3.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114043100063_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261114043100063",
+        "type": "source"
+      },
+      {
+        "label": "뉴스1",
+        "url": "https://www.news1.kr/local/daejeon-chungnam/6354132",
         "type": "source"
       }
     ]
