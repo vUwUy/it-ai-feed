@@ -921,6 +921,36 @@
     ]
   },
   {
+    "id": "2026-11-13-nhn-dooray-api-keys-revoked",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "협업 도구 '두레이' 침해 정황…서비스·관리자 API 키 전량 폐기, API 일시 중단",
+    "summary": "NHN두레이가 13일 새벽 외부인의 비인가 계정 접근과 API 키를 이용한 비정상 호출을 확인하고, 민간·공공 고객사의 기존 서비스 API와 관리자(Admin) API 키를 전량 폐기한 뒤 API 이용을 일시 중단했습니다. 외부 시스템 연동·업무 자동화 기능이 멈췄고 재개 시점은 미정이며, 실제 계정 침해·개인정보 유출 여부와 피해 범위는 조사 중입니다.",
+    "why": "공공·민간 기관이 쓰는 국산 협업 도구로, 하루 전 카카오워크 해킹에 이어 국내 협업 SaaS 보안 사고가 잇따랐습니다. API 연동을 쓰는 고객사는 재발급 안내를 기다려야 하고, 유출 여부 발표에 따라 파장이 커질 수 있습니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "두레이 공지 내용과 회사 관계자 발언을 IT조선·보안뉴스·글로벌이코노믹이 각각 보도. 유출 여부·피해 규모는 회사가 조사 중"
+    },
+    "image": "https://cdn.it.chosun.com/news/photo/202611/3000000001054_501194_3031.png",
+    "links": [
+      {
+        "label": "IT조선",
+        "url": "https://it.chosun.com/news/articleView.html?idxno=3000000001054",
+        "type": "source"
+      },
+      {
+        "label": "보안뉴스(단독)",
+        "url": "https://www.boannews.com/news/articleView.html?idxno=147258",
+        "type": "source"
+      },
+      {
+        "label": "글로벌이코노믹",
+        "url": "https://www.g-enews.com/article/ICT/2026/11/2026111319410653883d7a510102_1",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-n8n-nod-local-personal-agent",
     "date": "2026-11-13",
     "category": "로컬 AI",
