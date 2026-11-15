@@ -1,5 +1,85 @@
 [
   {
+    "id": "2026-11-16-ula-vulcan-fails-amazon-leo",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "ULA 벌컨 로켓 발사 실패…아마존 Leo 위성 40기 전손, ULA 창사 20년 만의 첫 실패",
+    "summary": "아마존 Leo 위성 40기를 실은 벌컨 로켓(LV-01)이 발사 약 10분 뒤 센타우르 상단 연소 중 이상이 생겨 궤도 투입에 실패했다. 아마존이 ULA에서 산 벌컨 38회 중 첫 비행이었고, 원인은 아직 밝혀지지 않았다.",
+    "why": "스타링크 경쟁 위성인터넷 아마존 Leo는 3,300기 이상이 필요한데, 이번 발사가 성공했다면 누적 436기가 될 예정이었다. 벌컨 조사 기간 동안 아마존 일정 차질이 불가피하고, 뉴 글렌도 5월 폭발 이후 아직 재비행 전이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ULA 공식 성명(X) 인용 Spaceflight Now·The Verge·SpaceNews 독립 보도."
+    },
+    "image": "https://spaceflightnow.com/wp-content/uploads/2026/11/20261114-Vulcan-LV-01-launch.jpg",
+    "links": [
+      {
+        "label": "Spaceflight Now",
+        "url": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+        "type": "source"
+      },
+      {
+        "label": "SpaceNews",
+        "url": "https://spacenews.com/vulcan-launch-of-amazon-leo-satellites-fails/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-nyt-lutnick-chip-rules-cantor",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "[보도] NYT \"러트닉 상무장관, 가족 회사 캔터와 얽힌 데이터센터 칩 규제 완화 추진\"",
+    "summary": "NYT 탐사보도에 따르면 러트닉 장관은 중국 고객에게 컴퓨팅을 제공하는 해외 데이터센터용 첨단 칩 규제를 약하게 하자고 주장해 왔으며, 아들들이 운영하는 캔터 피츠제럴드는 말레이시아 'A201' 데이터센터 운영사 등 동남아 데이터센터 기업의 자금 조달을 도왔다. 상무부안은 싱가포르·말레이시아·태국·인도네시아·브라질·남아공·노르웨이 7개국, 향후 출하분에만 적용하는 축소안이다.",
+    "why": "NYT는 캔터의 사업이 러트닉의 결정에 영향을 줬다는 증거는 찾지 못했다고 밝혔고, 상무부는 러트닉이 아들들과 부처 업무를 논의하지 않는다고 반박했다. 엔비디아·메가스피드 사태와 맞물려 대중 칩 수출통제 논의(삼성·SK 영향 포함)의 향방을 가를 변수다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NYT 기사 전재(Philadelphia Inquirer)·Yahoo·Business Standard 교차 확인."
+    },
+    "image": "https://www.inquirer.com/resizer/v2/5BQ2K5HRXKWNWYLO3QZR44EHTE.jpg?auth=6938a81ecd8604bfc3f3d4416dbdb4a6b286277a90589cbcddcb8c29cebd91b4&width=760&height=507&smart=true",
+    "links": [
+      {
+        "label": "NYT (Inquirer 전재)",
+        "url": "https://www.inquirer.com/news/nation-world/howard-lutnick-commerce-secretary-rules-data-centers-nvidia-chips-china-southeast-asia-cantor-fitzgerald-20261115.html",
+        "type": "source"
+      },
+      {
+        "label": "Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/nyt-lutnick-eased-ai-chip-162816136.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-jensen-huang-weighs-nvidia-comeback-bessent",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 젠슨 황, 엔비디아 CEO 복귀 검토(FT)…베선트 재무장관은 \"외부 인사로 대대적 쇄신\" 요구",
+    "summary": "FT는 젠슨 황이 측근들과 CEO 복귀 가능성을 논의했고, 한 측근이 실리콘밸리 경영진으로 '워룸'을 꾸려 이사회 설득과 백악관 지지 확보에 나섰으며 황도 이를 지지한다고 보도했다. 반면 스콧 베선트 재무장관은 엔비디아에 '대대적 쇄신'과 외부 CEO 영입을 촉구하며 이사회·외부 법률대리인에게 10일 안에 답을 요구했다.",
+    "why": "엔비디아와 황 측 대변인은 논평을 거부했고, 황은 지배 지분이 없어 이사회를 뒤집을 수 없다. 엔비디아는 화요일(미국 시간) 황 사임 후 첫 분기 실적을 발표하고, 크레스 임시 CEO는 수요일 전사 회의를 연다. 러트닉 상무장관은 12월 10일 상원 은행위 증언에 동의한 것으로 전해졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FT 원보도를 Yahoo(베선트 발언·CNBC·Axios 인용 포함)·The Independent가 각각 인용 보도. 엔비디아·황 측 공식 입장은 없음."
+    },
+    "image": "https://s.yimg.com/lo/mysterio/api/bae78d9731cffdfd8f430dfc1cfecea59e6eea3ea616c179060217128646a1cd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F9a0b2736-728c-4636-9d47-e2892c82d397",
+    "links": [
+      {
+        "label": "Yahoo Tech",
+        "url": "https://tech.yahoo.com/general/breaking-news/article/jensen-huang-weighs-comeback-as-nvidia-ceo-as-allies-lobby-board-ft-reports-bessent-calls-for-dramatic-shakeup-204839950.html",
+        "type": "source"
+      },
+      {
+        "label": "The Independent",
+        "url": "https://www.independent.co.uk/news/world/americas/jensen-huang-nvidia-return-spy-b3085318.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-windows-signdrop-zero-day",
     "date": "2026-11-15",
     "category": "AI·IT",
@@ -91,6 +171,31 @@
         "label": "Tess-4.5-594B-A17B-LoRA",
         "url": "https://huggingface.co/migtissera/Tess-4.5-594B-A17B-LoRA",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-tech-against-terrorism-abliteration-report",
+    "date": "2026-11-15",
+    "category": "로컬 AI",
+    "title": "UN 지원 단체 \"오픈 웨이트 모델 안전장치, 공개 사흘 만에 제거돼\"…HF에 무검열 사본 약 3만 개",
+    "summary": "Tech Against Terrorism의 CT-AI 벤치마크 2판에 따르면 인기 오픈 모델의 안전장치를 없앤 첫 사본은 공개 후 약 3일(2024년엔 3주 이상) 만에 올라오고, 9월 18일 기준 Hugging Face에 그런 저장소가 29,745개 있었다. 전체 측정한 안전장치 제거 사본 13개는 모두 테러 안전 테스트에서 불합격했다.",
+    "why": "ABC 보도로 정책 논쟁에 다시 불이 붙었다. 단체는 오픈 공개 자체는 지지하고 문제는 '공개 이후 유통'이라고 했고, HF의 야신 제르나이트는 연구 등 정당한 용도를 들어 오픈 웨이트를 옹호했다. 로컬 모델 배포·규제 논의에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Tech Against Terrorism 공식 보고서 페이지 + ABC News 보도 확인."
+    },
+    "image": "https://www.ct-ai.org/opengraph-image",
+    "links": [
+      {
+        "label": "CT-AI (Tech Against Terrorism)",
+        "url": "https://www.ct-ai.org/abliteration",
+        "type": "source"
+      },
+      {
+        "label": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-15/open-source-ai-like-nazi-coach-un-backed-anti-terror-group-says/107368512",
+        "type": "source"
       }
     ]
   },
@@ -195,6 +300,26 @@
     ]
   },
   {
+    "id": "2026-11-15-sk-hynix-hbm4-capacity-pt6",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "[보도] SK하이닉스, HBM4 후공정 장비 추가 발주 추진…청주 P&T6 풀가동 시 월 2만 장+ 증설",
+    "summary": "전자신문은 장비 업계를 인용해 SK하이닉스가 HBM 접합·절단·검사 장비 발주를 협의 중이며 내년 상반기 반입·설치를 목표로 한다고 보도했다. 유력 기지인 청주 P&T6를 풀가동하면 웨이퍼 기준 월 2만 장 이상 HBM을 더 만들 수 있다는 업계 관측이다.",
+    "why": "엔비디아 CEO 교체에도 AMD·브로드컴 등 수요가 견조하다는 판단으로 풀이된다. SK하이닉스는 수치를 확인하지 않았고 \"계획에 맞춰 장비 발주를 지속해 왔다\"고만 밝혔다.",
+    "verification": {
+      "status": "미확인",
+      "note": "전자신문 단독(협력사·업계 관계자 인용). TechPowerUp 등 해외 보도는 전자신문을 인용한 것이라 독립 확인이 아님. 회사는 수치 미확인."
+    },
+    "image": "https://img.etnews.com/news/article/2026/02/05/news-p.v1.20260205.e9f1f45852ca4fabbcc6e3cb3644ef47_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261113000212",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-sk-ceo-seminar-ai-flywheel",
     "date": "2026-11-15",
     "category": "한국 IT",
@@ -275,6 +400,31 @@
     ]
   },
   {
+    "id": "2026-11-15-persona-ai-15b-krw-national-growth-fund",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "페르소나AI, 국민성장펀드 통해 150억 원 투자 유치…기업용 AI 에이전트 'GEN STATION' 확대",
+    "summary": "AI 에이전트 기업 페르소나AI가 국민성장펀드 위탁운용사 한국투자밸류자산운용에서 제3자 배정 유상증자로 약 150억 원(약 90억+60억)을 유치했고, 13일 납입을 마쳤다.",
+    "why": "국민성장펀드 자금이 국내 AI 에이전트 스타트업으로 흘러가는 사례로, 회사는 산업별 에이전트와 국방·로봇 등 피지컬 AI로 사업을 넓힌다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "회사 공식 유상증자 공고 + ZDNet Korea 보도."
+    },
+    "image": "https://image.zdnet.co.kr/2023/08/09/81c101a18986a6a826a57a531185adeb.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261115233648",
+        "type": "source"
+      },
+      {
+        "label": "페르소나AI 공고",
+        "url": "https://www.personaai.co.kr/news/view/153",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-nvidia-investors-letter-huang-return",
     "date": "2026-11-15",
     "category": "AI·IT",
@@ -320,6 +470,36 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261115029100030",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-ms365-outage-phantasialand-chlorine",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "업데이트: MS 365 장애로 경보 메일 못 받아…독일 호텔 수영장 염소 과다 투입, 15명 부상",
+    "summary": "독일 판타지아란트 호텔 링바오에서 수영장 자동 투입 장치가 고장 나 염소를 과다 투입했지만, 경보 시스템이 보낸 메일이 Microsoft Outlook 장애로 전달되지 않았다. 15명이 호흡기 자극을 호소했고 4명이 병원으로 옮겨졌다.",
+    "why": "클라우드 메일을 안전 경보 단일 채널로 쓰면 안 된다는 사례다. 판타지아란트는 앞으로 경보를 메일로만 보내지 않겠다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WDR(판타지아란트 입장 인용)·RTL·Tom's Hardware 교차 확인."
+    },
+    "image": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg",
+    "links": [
+      {
+        "label": "WDR",
+        "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+        "type": "source"
+      },
+      {
+        "label": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50509411",
         "type": "source"
       }
     ]
@@ -371,6 +551,40 @@
         "label": "Hacker News 토론(485점)",
         "url": "https://news.ycombinator.com/item?id=50499017",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-llamacpp-b12406-inkling-2-support",
+    "date": "2026-11-15",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12406, Inkling 2 지원 추가…594B/17B MoE를 GGUF로 변환·텍스트·이미지 입력까지",
+    "summary": "llama.cpp에 Thinking Machines의 Inkling 2(텍스트+비전) 지원이 병합됐다. GGUF 변환(NVFP4·MXFP8 전문가 가중치를 청크 단위로 풀어 변환), 텍스트 추론, 이미지 인코더(mmproj), 플래시 어텐션이 들어갔다.",
+    "why": "Apache 2.0 594B/17B 모델을 vLLM 없이 llama.cpp 계열 도구로 돌릴 길이 열렸다. 다만 b12406은 프리릴리스이고, DSpark 추측 디코더는 별도 PR로 나올 예정이다. 커밋 메시지에는 '실제 체크포인트 변환은 아직 미검증'이라는 대목도 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트·PR #32217(병합 확인) 직접 확인."
+    },
+    "specs": {
+      "params": "594B (활성 17B) MoE",
+      "license": "Apache 2.0",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12406",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12406",
+        "type": "github"
+      },
+      {
+        "label": "PR #32217",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/32217",
+        "type": "source"
+      },
+      {
+        "label": "thinkingmachines/Inkling-2-Small",
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+        "type": "huggingface"
       }
     ]
   },
@@ -1404,6 +1618,31 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261113000128",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-cursor-breach-fireworks-key-root-cause",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "업데이트: Cursor 침해·악성 Claude Code 확장의 시작은 Fireworks가 노출한 키…최대 5,000명 영향",
+    "summary": "Cursor가 2주 조사 결과, 공격자가 Fireworks에 발급한 접근 키로 학습용 공유 버킷(주로 2025년, Privacy Mode 아닌 세션의 에이전트 기록)을 복사했고, 그 안의 미삭제 자격증명으로 내부 SaaS에 들어가 10월 29일 마켓플레이스 캐시에 악성 Claude Code 확장(2.1.312·2.1.313)을 올렸다고 밝혔다. 약 11시간 노출됐고 최대 5,000명이 받았을 수 있다.",
+    "why": "API 자격증명이 노출된 고객은 0.01% 미만이라고 밝혔고, Privacy Mode 사용자·고객 코드 저장소·프로덕션은 영향이 없었다고 했다. Cursor는 추론 트래픽을 Fireworks에서 모두 옮겼다. 해당 버전을 설치했다면 확장을 지우는 것만으로는 SSH 백도어가 남을 수 있으니 공지대로 정리해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Cursor 공식 블로그 + BleepingComputer·The Hacker News 보도 확인."
+    },
+    "image": "https://www.bleepstatic.com/content/hl-images/2025/07/13/cursor-header.jpg",
+    "links": [
+      {
+        "label": "Cursor 블로그",
+        "url": "https://cursor.com/blog/security-incident-update",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
         "type": "source"
       }
     ]
@@ -2462,6 +2701,36 @@
         "label": "generative-computing/llmon",
         "url": "https://github.com/generative-computing/llmon",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-13-google-hd-map-export-conditions-met",
+    "date": "2026-11-13",
+    "category": "한국 IT",
+    "title": "정부 \"구글, 고정밀 지도 반출 보안조건 이행\"…구글 지도 길찾기 국내 출시 길 열려",
+    "summary": "국토부 국외반출 협의체가 구글의 1:5,000 지도 반출 허가 조건(한국 영토 좌표 표시 제거, 영상 보안처리, 국내 데이터 가공, 보안사고 대응체계)이 이행됐다고 확인했다. 보안처리 영상과 지도 데이터는 국내 제휴사 티맵을 통해 공급받는다.",
+    "why": "구글은 \"한국에서 구글 지도를 출시할 수 있기를 기대한다\"고 밝혔다. 정부는 심각한 불이행 시 허가 중단·회수 방침이며, 네이버·카카오는 AI 장소 에이전트 등으로 이용자 지키기에 나섰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(구글 입장 포함)·파이낸셜뉴스 보도, 정부 참고자료 기반."
+    },
+    "image": "https://image.fnnews.com/resource/media/image/2026/11/13/202611131226195580_e.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261113087151003",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611131210273167",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이(네이버·카카오 대응)",
+        "url": "https://www.mt.co.kr/tech/2026/11/15/2026111315555216366",
+        "type": "source"
       }
     ]
   },
