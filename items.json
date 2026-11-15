@@ -1,5 +1,100 @@
 [
   {
+    "id": "2026-11-15-windows-signdrop-zero-day",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "윈도 제로데이 'SignDrop' 공개…일반 사용자가 SYSTEM 권한 획득, 패치 없음",
+    "summary": "연구자 Nightmare Eclipse가 CLFS(공용 로그 파일 시스템)와 Windows Defender의 상호작용을 악용해 일반 사용자 권한에서 SYSTEM 권한을 얻는 'SignDrop' 익스플로잇을 공개했다. 2025년 10월 도입된 CLFS 인증 보안 조치가 오히려 공격 경로가 됐다.",
+    "why": "윌 도먼이 재현에 성공했지만 CLFS 인증 모드 값이 0 또는 1인 시스템(주로 설치 90일 이상 된 26H2)에서만 동작한다. MS는 조사 중이며 실제 악용 증거는 없고 Defender가 공격 시도를 차단한다고 밝혔다. 아직 패치·CVE는 없고, CLFS 인증을 끄면 과거 취약점이 다시 열리니 끄지 말라는 권고가 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Ars Technica(MS 입장 포함)·BleepingComputer·SecurityWeek 독립 보도 교차 확인."
+    },
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/11/12/0_Windows-headpic.jpg",
+    "links": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-tiny-voca-4p5m-tts",
+    "date": "2026-11-15",
+    "category": "로컬 AI",
+    "title": "파라미터 450만 개 초소형 영어 TTS 'tiny-voca' 공개…CPU 4스레드서 실시간 대비 약 70배",
+    "summary": "보코더까지 포함해 4,537,291개 파라미터인 영어 TTS 모델 tiny-voca가 Apache 2.0으로 공개됐다. 약 18시간 합성 음성으로 처음부터 학습했고 여성·남성 목소리 2종, 24kHz 출력, ONNX(21.4MB) 버전을 제공한다.",
+    "why": "휴대폰이나 브라우저에서도 돌릴 수 있는 크기의 로컬 TTS다. 영어(미국식)만 지원한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 + GitHub 코드 저장소 확인. 속도는 제작자 측정."
+    },
+    "specs": {
+      "params": "4.5M",
+      "license": "Apache 2.0",
+      "memory": "PyTorch 18.2MB / ONNX 21.4MB",
+      "modality": "텍스트→음성(영어)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델 카드",
+        "url": "https://huggingface.co/n4ze3m/tiny-voca",
+        "type": "source"
+      },
+      {
+        "label": "n4ze3m/tiny-voca",
+        "url": "https://huggingface.co/n4ze3m/tiny-voca",
+        "type": "huggingface"
+      },
+      {
+        "label": "n4ze3m/tiny-voca",
+        "url": "https://github.com/n4ze3m/tiny-voca",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-tess-45-594b-inkling2-finetune",
+    "date": "2026-11-15",
+    "category": "로컬 AI",
+    "title": "Inkling 2 Small 첫 대형 파인튜닝 'Tess-4.5-594B-A17B' 공개…SWE-Bench Pro v2 Hard 88.2%(자체 측정)",
+    "summary": "Continuity Research가 Thinking Machines의 Inkling 2 Small(594B MoE, 17B 활성)을 에이전트 코딩용으로 후학습한 Tess-4.5-594B-A17B를 Apache 2.0으로 공개했다. 51개 과제에서 88.2%로 베이스(86.3%)보다 높고 출력 토큰은 9% 적었다고 밝혔다.",
+    "why": "오픈 웨이트로 풀린 지 며칠 만에 나온 파인튜닝으로, 327MB LoRA 어댑터도 따로 제공한다. 다만 총 GPU 메모리 500GB 이상(B200 4장 등)이 필요해 개인 PC용은 아니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(license: apache-2.0, base_model: thinkingmachines/Inkling-2-Small) 확인. 벤치마크는 자체 측정."
+    },
+    "specs": {
+      "params": "594B 총 / 17B 활성 (MoE)",
+      "license": "Apache 2.0",
+      "memory": "체크포인트 약 394GB, GPU 메모리 500GB+",
+      "context": "1M"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델 카드",
+        "url": "https://huggingface.co/migtissera/Tess-4.5-594B-A17B",
+        "type": "source"
+      },
+      {
+        "label": "migtissera/Tess-4.5-594B-A17B",
+        "url": "https://huggingface.co/migtissera/Tess-4.5-594B-A17B",
+        "type": "huggingface"
+      },
+      {
+        "label": "Tess-4.5-594B-A17B-LoRA",
+        "url": "https://huggingface.co/migtissera/Tess-4.5-594B-A17B-LoRA",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-tax-accountant-exam-ai-cheating",
     "date": "2026-11-15",
     "category": "한국 IT",
@@ -150,6 +245,36 @@
     ]
   },
   {
+    "id": "2026-11-15-php2shell-dprk-30-korean-targets",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "업데이트: PHP2Shell 악용 북한 연계 의심 조직 표적 명단 확보…216곳 중 한국 30곳",
+    "summary": "사이퍼마가 북한 라자루스 연계 추정 조직의 원본 표적 명단(10개국 216개 호스트)을 확보했으며, 한국은 30곳으로 미국(49)·일본(47)·인도(31)에 이어 네 번째였다. 공격자들은 이후 정부·은행 우선으로 표적을 581개로 늘리라고 지시했다.",
+    "why": "요청량을 줄여 장기간 분산 스캔하는 방식이라 임계치 기반 탐지로는 잡기 어렵다는 경고다. 명단 포함이 실제 침해를 뜻하지는 않으며, 사이퍼마도 한국어만으로는 범죄조직 가능성을 배제할 수 없다고 했다. PHP 패치 적용 후 관련 프로세스 재시작이 권고된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "사이퍼마 공식 블로그 + ZDNet Korea·Security Affairs·SBS 독립 보도 확인. 라자루스 연계는 사이퍼마 평가."
+    },
+    "image": "https://www.cyfirma.com/media/2026/11/php2shell04-fe.webp",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261115140951",
+        "type": "source"
+      },
+      {
+        "label": "사이퍼마",
+        "url": "https://www.cyfirma.com/blogs/php2shell-vulnerability-under-active-exploitation-are-you-affected-and-what-should-you-do-today/",
+        "type": "source"
+      },
+      {
+        "label": "Security Affairs",
+        "url": "https://securityaffairs.com/201748/hacking/php2shell-suspected-north-korean-campaign-targets-216-vulnerable-php-hosts.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-nvidia-investors-letter-huang-return",
     "date": "2026-11-15",
     "category": "AI·IT",
@@ -170,6 +295,56 @@
       {
         "label": "Seeking Alpha",
         "url": "https://seekingalpha.com/news/4672775-prominent-nvidia-investors-call-for-board-contemplate-huang-return",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-mss-startup-lawform-breach-sanctions",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "업데이트: 중기부, '로폼' 유출 아미쿠스렉스 선정 취소 등 제재 추진…AI 공급기업 49곳 긴급 보안점검",
+    "summary": "중기부가 '모두의 창업' 참가자 818명 정보가 포함된 로폼 해킹(총 2만28명 유출)과 관련해 아미쿠스렉스의 공급기업 선정 취소·1년 이내 사업 참여 제한을 검토한다. 나머지 AI 솔루션 공급기업 49곳은 20일까지 민간 보안업체와 긴급 점검한다.",
+    "why": "정부 지원사업 공급기업 선정 평가에 개인정보 보안 전문가 참여·정보보안 항목 반영을 의무화하고 제1차관이 이끄는 정보보안 TF를 꾸린다. 정부 AI 바우처형 사업 전반의 보안 기준이 강화되는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문·연합뉴스(중기부 발표) 확인."
+    },
+    "image": "https://img1.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073107630001300_P4.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261115000103",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261115029100030",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-metro-datacenter-grid-assessment-rule",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "수도권 데이터센터 짓기 더 까다로워진다…전력계통영향평가 통과점수 75점으로 상향",
+    "summary": "기후에너지환경부가 '전력계통영향평가 제도 운영에 관한 규정'을 제정해 16일 시행한다. 수도권 데이터센터 통과점수는 다른 시설보다 5점 높은 75점이고, 전력 이용 밀도가 높은 권역은 5점 감점된다.",
+    "why": "계약전력 10MW 이상 시설이 대상이며, 심의 결과 통보서 양도 금지·유효기간 1년 제한으로 '허수' 사업자를 막는다. 시행 전 제출했어도 통보서를 받기 전이면 새 규정이 적용돼 AI 데이터센터의 비수도권 유도가 강해진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·전자신문(기후에너지환경부 발표) 확인."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/15/news-g.v1.20261115.45d0e751d5ea4b7e946e2be665db3dd3_P1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261114043000530",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261113000210",
         "type": "source"
       }
     ]
@@ -285,6 +460,65 @@
     ]
   },
   {
+    "id": "2026-11-15-dram-conspiracy-suit-survives-dismissal",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "美 법원, 삼성·SK하이닉스·마이크론 'D램 공급 담합' 집단소송 기각 신청 전부 기각",
+    "summary": "미 캘리포니아 북부지법 노엘 와이즈 판사가 세 회사가 범용 D램(DDR5 등) 공급을 줄이고 생산능력을 HBM으로 돌리기로 담합했다는 집단소송에 대해 기각 신청을 전부 받아들이지 않았다. 판사는 장기 HBM 계약, 범용 D램 장기계약 거부, 증설 미이행 등을 담합 추정 근거로 인정했다.",
+    "why": "주장은 아직 입증된 것이 아니며 이번 결정은 소송 초기 단계 판단이다. 회사들은 12월 7일까지 답변서를 내야 하고 첫 사건관리회의는 2027년 1월 12일이다. 메모리 가격 급등을 둘러싼 국내 반도체 업체의 미국 법적 리스크가 커졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LitNews(법원 명령문 ECF No.68 인용, 사건번호 5:26-cv-06345-NW) + GoKawiil 보도 확인."
+    },
+    "links": [
+      {
+        "label": "LitNews",
+        "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+        "type": "source"
+      },
+      {
+        "label": "GoKawiil",
+        "url": "https://gokawiil.com/article/367688",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50502988",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-cpp26-dis-ballot-failed",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "C++26 국제표준안, ISO 투표에서 사상 첫 부결…'계약(Contracts)' 기능 놓고 충돌",
+    "summary": "C++26 국제표준초안(DIS)이 10월 ISO 회원국 투표에서 찬성 13·반대 9·기권 12로 승인 요건을 채우지 못했다. 비야네 스트롭스트룹은 계약 기능을 빼고 C++26을 내고 최소 설계를 C++29에서 다시 시작하자고 제안했다.",
+    "why": "WG21이 11월 16~21일 브라질 부지우스 회의에서 대응책(계약 제외·별도 기술명세·수정 후 재투표)을 논의한다. 확정이 내년으로 밀리면 이름이 'C++27'이 될 수 있고, 정적 리플렉션 등 다른 신기능 일정도 늦어질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Register·ZDNet Korea 보도 + isocpp.org 공식 문서(P4465R0 스트롭스트룹 'The DIS Failed – Now what?') 확인."
+    },
+    "image": "https://image.theregister.com/5309559.jpg?imageId=5309559&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/devops/2026/11/13/c26-stumbles-at-finish-line-over-contracts-dispute/5309526",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261115104827",
+        "type": "source"
+      },
+      {
+        "label": "P4465R0 (스트롭스트룹)",
+        "url": "https://isocpp.org/files/papers/P4465R0.pdf",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-coinone-metam-call-center-breach",
     "date": "2026-11-15",
     "category": "한국 IT",
@@ -310,6 +544,96 @@
       {
         "label": "서울경제(메타엠)",
         "url": "https://www.sedaily.com/article/20114360",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-claude-opus-55-default-prompting-guide",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "앤트로픽, Opus 5.5를 Pro·Max·Ultra·Team 기본 모델로…\"'think hard' 문구는 지워라\"",
+    "summary": "앤트로픽이 Claude Opus 5.5를 Pro·Max·Ultra·Team 플랜의 기본 모델로 두고 지식 업무용 사용 가이드를 냈다. Opus 5.5는 생각(추론)이 항상 켜져 있어 'think hard' 같은 문구를 빼도 품질 저하 없이 답이 더 빨리 시작됐다고 밝혔다.",
+    "why": "기본 노력(effort) 수준은 Medium이며, 자체 평가에서 Opus 5.5 Medium이 Opus 5 High와 같거나 앞섰다고 한다. 예전 모델용 프롬프트 습관이 오히려 속도와 비용을 늘릴 수 있다는 실용 팁이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 가이드(claude.com) + The Decoder 보도 확인. 성능 비교는 앤트로픽 자체 평가."
+    },
+    "image": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work/opengraph-image/og",
+    "links": [
+      {
+        "label": "앤트로픽 가이드",
+        "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+        "type": "source"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-boole-32b-a2p5b-1p8bit-gguf",
+    "date": "2026-11-15",
+    "category": "로컬 AI",
+    "title": "Precision Numerics 'Boole-32B-A2.5B' 프리뷰…Flint를 9GB(평균 1.8비트)로 압축, RTX 5090서 디코드 2배",
+    "summary": "Recursive의 Flint MoE에서 라우팅 전문가 21%를 가지치기하고 나머지를 평균 1.8비트로 양자화한 9.0GB GGUF가 Apache 2.0으로 공개됐다. RTX 5090에서 tg128 565.8 tok/s로 가장 빠른 기존 GGUF(Flint INT4 279.4 tok/s)보다 약 2배라고 밝혔다(자체 측정).",
+    "why": "단일 소비자 GPU에 32B급 MoE를 올리는 극저비트 시도다. 다만 LiveCodeBench v6 67.3으로 Flint BF16(81.9)보다 품질 손실이 있고, 표준 llama.cpp로는 아직 못 돌리며 전용 포크(CUDA GPU 필요)가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(license: apache-2.0) + GitHub boole-demo 저장소 확인. 벤치마크·속도는 자체 측정."
+    },
+    "specs": {
+      "params": "32B 총 / 2.5B 활성 (MoE)",
+      "license": "Apache 2.0",
+      "memory": "GGUF 9.0GB",
+      "compute": "RTX 5090 기준 측정, 전용 llama.cpp 포크 필요"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델 카드",
+        "url": "https://huggingface.co/precision-numerics/Boole-32B-A2.5B-Preview-GGUF",
+        "type": "source"
+      },
+      {
+        "label": "precision-numerics/Boole-32B-A2.5B-Preview-GGUF",
+        "url": "https://huggingface.co/precision-numerics/Boole-32B-A2.5B-Preview-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "PrecisionNumerics/boole-demo",
+        "url": "https://github.com/PrecisionNumerics/boole-demo",
+        "type": "github"
+      },
+      {
+        "label": "RecursiveSI/flint (원본)",
+        "url": "https://huggingface.co/RecursiveSI/flint",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-bluehouse-national-exam-ai-cheating-probe",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "업데이트: 청와대, 국가자격시험 전체 AI 부정행위 전수조사…수능 수험생 전원 AI 기기 점검",
+    "summary": "청와대가 하준경 정책실장 주재 긴급대책회의를 열고 국가자격시험 전체의 AI 활용 부정행위 의심 사례를 전수조사하기로 했다. 나흘 앞둔 수능에서는 전체 수험생 AI 기기 점검 절차를 마련하고 시험장별 전담인력을 배치하며, 신종·조직적 부정행위는 전담수사팀이 배후까지 추적한다.",
+    "why": "한국산업인력공단은 사과와 함께 수석 합격자를 업무방해로 고소하고 합격 취소를 추진하며, 'AI 인스펙터' 확대·안경 전수조사·전파탐지기 도입을 검토한다. 16일에는 국무총리 주재 관계부처 차관회의가 열린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "서울경제·연합뉴스(청와대 발표, 인력공단 입장문) 등 복수 언론 확인."
+    },
+    "image": "https://wimg.sedaily.com/news/cms/2026/11/15/rcv.NEWS1.NEWS1.20261115.2026-11-15T141837_1008214446_SOCIETY_I_Z1.jpg",
+    "links": [
+      {
+        "label": "서울경제",
+        "url": "https://www.sedaily.com/article/20114472",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(인력공단)",
+        "url": "https://www.yna.co.kr/view/AKR20261115034900530",
         "type": "source"
       }
     ]
