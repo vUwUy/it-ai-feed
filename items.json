@@ -55,6 +55,31 @@
     ]
   },
   {
+    "id": "2026-11-15-nvidia-investors-letter-huang-return",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "업데이트: 엔비디아 대주주 알티미터·아트레이디스, 이사회에 \"서두르지 말고 젠슨 황 복귀 가능성도 열어 둬야\"",
+    "summary": "알티미터 캐피털 브래드 거스트너와 아트레이디스 개빈 베이커가 엔비디아 이사회에 느리고 신중한 CEO 선임 절차를 요구하는 서한을 냈다. 즉각 복귀를 요구하진 않았으며, 두 회사의 6월 30일 기준 공시 지분은 합계 약 21억3,000만 달러다(CNBC).",
+    "why": "청원에 이어 기관 대주주까지 공개적으로 후임 선임 속도 조절을 요구해, 엔비디아 리더십 향방에 변수가 생겼다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC + Seeking Alpha + CNBC TV18 보도 일치(서한은 거스트너가 X에 게시)"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108330861-1783348415168-gettyimages-2284894623-0d6a8687_71g2vgle.jpeg?v=1794673296&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+        "type": "source"
+      },
+      {
+        "label": "Seeking Alpha",
+        "url": "https://seekingalpha.com/news/4672775-prominent-nvidia-investors-call-for-board-contemplate-huang-return",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-lovable-apps-expose-data",
     "date": "2026-11-15",
     "category": "AI·IT",
@@ -105,6 +130,36 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50497009",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-coinone-metam-call-center-breach",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "코인원, 상담 위탁사 메타엠 해킹으로 고객정보 유출…주민번호·계좌번호·비밀번호 등 포함 가능",
+    "summary": "코인원은 고객상담 위탁사 메타엠 서버가 해킹돼 상담 과정에서 고객이 남긴 정보가 유출됐다고 밝혔다. 유출 가능 항목은 전화번호·이름·이메일·생년월일·계좌번호·비밀번호·주민등록번호·신분증 발급일·주소·지갑 주소·TXID 등이며, 개인별로 다를 수 있다. 회원 계정·거래·지갑 시스템은 별도 인프라로 직접 침해 정황은 없다고 했다.",
+    "why": "국내 주요 가상자산 거래소 고객의 민감정보가 외주 상담 시스템을 통해 새어 나간 사례로, 사칭·피싱 2차 피해 위험이 크다. 메타엠은 다른 고객사도 둔 상담 위탁사라 피해가 더 넓어질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "코인원 공지(Public 게재) + 헤럴드경제 + 서울경제(메타엠 안내문) 교차 확인"
+    },
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/11/15/news-p.v1.20261115.a8354694062a4efeb402f2a9c87554b5_P1.png",
+    "links": [
+      {
+        "label": "헤럴드경제",
+        "url": "https://biz.heraldcorp.com/article/10937299",
+        "type": "source"
+      },
+      {
+        "label": "코인원 안내(Public)",
+        "url": "https://ebs.publicnow.com/view/BC7A77236BA5CE143E3EC3AD6471D183B04497D7",
+        "type": "source"
+      },
+      {
+        "label": "서울경제(메타엠)",
+        "url": "https://www.sedaily.com/article/20114360",
         "type": "source"
       }
     ]
