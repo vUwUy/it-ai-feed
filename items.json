@@ -1,5 +1,40 @@
 [
   {
+    "id": "2026-11-15-tax-accountant-exam-ai-cheating",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "세무사 시험 수석 합격자, 초소형 카메라·생성형 AI 부정행위 시인하고 자수…정부, 합격증 효력 정지 추진",
+    "summary": "제63회 세무사 시험 수석 합격자가 15일 1·2차 시험에서 초소형 카메라로 문제를 찍어 AI로 보내고 스마트폰으로 답을 확인했다고 시인하고 서울경찰청에 자수서를 냈다. 경찰은 광역수사단에 배당했고, 재정경제부는 합격증 효력을 정지하는 방향으로 신속히 처리하겠다고 밝혔다.",
+    "why": "감독위원 2명이 있는 교단 바로 앞자리에서도 적발되지 않아 국가자격시험 관리 허점이 드러났다. 뉴스1에 따르면 공인회계사 1차 시험에서도 같은 방식으로 부정행위를 했다고 인정했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 3건 + 뉴스1(파이낸셜뉴스 게재) + 경향신문"
+    },
+    "image": "https://img4.yna.co.kr/etc/inner/KR/2026/11/15/AKR20261115016200530_02_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261115016200530",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(재경부 합격증 효력 정지)",
+        "url": "https://www.yna.co.kr/view/AKR20261115021951002",
+        "type": "source"
+      },
+      {
+        "label": "뉴스1(파이낸셜뉴스)",
+        "url": "https://www.fnnews.com/news/202611151044148637",
+        "type": "source"
+      },
+      {
+        "label": "경향신문",
+        "url": "https://www.khan.co.kr/article/202611151034001",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-stand-with-jensen-petition",
     "date": "2026-11-15",
     "category": "AI·IT",
@@ -25,6 +60,66 @@
       {
         "label": "Stand with Jensen",
         "url": "https://standwithjensen.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-spacex-starship-flight15-ship-catch",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "SpaceX, 스타십 15차 비행서 궤도 다녀온 상단 'Ship'을 발사탑 팔로 첫 포획…부스터는 회수 실패",
+    "summary": "14일(미국 시간) 스타십 상단이 약 22.5시간 궤도 비행과 스타링크 V3 위성 26기 배치 후 스타베이스로 돌아와 발사탑 '메카질라'의 팔에 처음으로 잡혔다. 반면 슈퍼헤비 부스터는 부스트백 연소가 일찍 끝나 자동 중단 후 멕시코만으로 우회했고, 착수 직전 비행종료 시스템이 작동했다.",
+    "why": "Ship까지 회수에 성공하면서 완전 재사용이라는 스타십의 핵심 목표에 한 걸음 다가섰다. 스타링크 V3 대량 배치와 SpaceX가 추진 중인 우주·AI 인프라 계획의 비용 구조와 직결된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SpaceX 공식 비행 페이지 + CNBC·Al Jazeera(AP·로이터) 보도. 부스터 원인은 조사 중(SpaceX)"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108551593-17946919952026-11-14t212916z_181005512_rc2xnoanpi19_rtrmadp_0_space-spacex-starship.jpeg?v=1794692150&w=1920&h=1080",
+    "links": [
+      {
+        "label": "SpaceX Starship Flight 15",
+        "url": "https://www.spacex.com/launches/starship-flight-15/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+        "type": "source"
+      },
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50500963",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-sk-ceo-seminar-ai-flywheel",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "최태원 \"SK는 스스로를 'AI 컴퍼니'로 재정의해야\"…CEO세미나서 'AI 플라이휠'·토큰 이코노미 구상",
+    "summary": "SK그룹은 12~14일 이천 SKMS연구소에서 경영진 50여 명이 참석한 '2026 CEO세미나'를 열고 AI 반도체·인프라·에너지를 축으로 AI 모델·애플리케이션 등 서비스까지 넓히는 'AI 플라이휠' 전략을 논의했다. 최 회장은 모든 멤버사가 AI 서비스와 토큰 이코노미까지 잇는 구조를 만들자고 당부했다.",
+    "why": "메모리·인프라 공급자였던 SK가 AI 서비스와 연산 거래 시장까지 노리겠다는 그룹 차원의 방향 전환이다. 포트폴리오 리밸런싱 2.0과 현금창출력 기준 자본 배분도 계속한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·전자신문·조선비즈 등 SK 발표 인용 보도 일치"
+    },
+    "image": "https://www.ddaily.co.kr/photos/2026/11/15/2026111510265159557_l.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261115013700003",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261115000033",
         "type": "source"
       }
     ]
@@ -105,6 +200,31 @@
     ]
   },
   {
+    "id": "2026-11-15-korea-oct-ict-exports-703b",
+    "date": "2026-11-15",
+    "category": "한국 IT",
+    "title": "10월 ICT 수출 703억5,000만 달러, 전년 대비 202% 증가…월간 증가율 첫 200% 돌파",
+    "summary": "과기정통부 10월 ICT 수출입 동향에 따르면 ICT 수출은 703억5,000만 달러로 1년 전(232억9,000만 달러)보다 202.0% 늘었고, 반도체는 564억7,000만 달러로 259.4%, SSD는 56억4,000만 달러로 584.3% 증가했다. 사상 최대였던 9월(751억4,000만 달러)보다는 47억9,000만 달러 줄었다.",
+    "why": "AI 데이터센터 수요로 대미 ICT 수출이 522.4% 늘었고, ICT가 전체 수출의 61.0%를 차지했다. 반면 중소·중견기업 ICT 수출 증가율은 10.3%에 그쳐 쏠림이 뚜렷하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea + 연합뉴스(과기정통부 발표 인용) 수치 일치"
+    },
+    "image": "https://image.zdnet.co.kr/2025/12/14/778856b81145f42df70073f32e8e72df.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261115004601",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261115016600017",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-italy-garante-meta-805m-gallery",
     "date": "2026-11-15",
     "category": "AI·IT",
@@ -130,6 +250,36 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50497009",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-faa-ground-stop-l3harris-router",
+    "date": "2026-11-15",
+    "category": "AI·IT",
+    "title": "업데이트: 미 FAA 전국 이륙 중지, 계약업체 L3Harris가 설치한 라우터가 4~5초마다 1,000건+ 접속 시도로 관제망 '폭주'",
+    "summary": "더피 교통장관은 14일(미국 시간) 원격 FAA 시설에서 L3Harris가 구리선을 광케이블로 바꾸는 작업 중 설치한 라우터가 다른 관제 라우터에 약 5초마다 1,000건 넘는 접속 시도를 쏟아내 교신·레이더 피드가 흔들렸다고 밝혔다. 설치 오류인지 라우터 결함인지는 아직 판단하지 못했고, 사이버 공격이나 AI와의 관련 증거는 없다고 했다.",
+    "why": "앞서 '노후 장비 과부하'로만 알려졌던 원인이 특정 계약업체 작업과 장비로 좁혀졌다. L3Harris는 전환 작업을 70% 넘게 마쳤다며 조사에 협조하겠다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 2건(장관·FAA청장 기자회견) + L3Harris 공식 성명. 근본 원인은 미확정(FAA)"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108551584-1794673404798-gettyimages-2304591847-AFP_D7GQ7BU.jpeg?v=1794673431&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+        "type": "source"
+      },
+      {
+        "label": "CNBC(원인 미확정)",
+        "url": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+        "type": "source"
+      },
+      {
+        "label": "L3Harris 성명",
+        "url": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
         "type": "source"
       }
     ]
@@ -772,6 +922,31 @@
       {
         "label": "구글 공식 블로그",
         "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-fed-fsr-ai-circular-financing",
+    "date": "2026-11-14",
+    "category": "AI·IT",
+    "title": "미 연준 금융안정보고서, AI 데이터센터 '순환금융' 지목…첨단 컴퓨팅 부채 발행 6,800억 달러 넘어",
+    "summary": "연준은 13일(미국 시간) 반기 금융안정보고서에서 첨단 컴퓨팅 관련 부채 발행이 2026년 10월까지 6,800억 달러를 넘어 2023년 연간 1,300억 달러의 약 5배가 됐고, 비금융 투자등급 회사채 발행 중 비중이 6% 미만에서 약 31%로 커졌다고 밝혔다. 하이퍼스케일러·GPU 업체의 장기 임대·잔존가치 보증에 지분투자가 더해진 구조를 '순환금융'이라 부르며, 이들의 실제 위험 노출이 재무상태표 부채보다 상당히 클 수 있다고 했다.",
+    "why": "엔비디아 보증 거래 논란이 이어지는 가운데 미국 중앙은행이 AI 인프라 금융 구조를 금융 안정 위험으로 공식 거론했다. 디지털데일리 보도에 따르면 뉴욕연은 조사 응답자 23명 중 87%가 AI를 주요 위험으로 꼽았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연준 보고서 PDF 원문 확인(6,800억·1,300억·31%·circular financing 문구) + 디지털데일리 보도"
+    },
+    "image": "https://www.ddaily.co.kr/photos/2026/11/15/2026111509022137934_l.png",
+    "links": [
+      {
+        "label": "연준 금융안정보고서(PDF)",
+        "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026111509030426341",
         "type": "source"
       }
     ]
