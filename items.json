@@ -30,6 +30,31 @@
     ]
   },
   {
+    "id": "2026-11-16-us-ai-national-champions-wsj",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "[보도] 트럼프 행정부, 엔비디아·아마존·MS·OpenAI·앤트로픽 등 24곳+ 'AI 국가대표 기업' 지정 추진(WSJ)",
+    "summary": "WSJ는 트럼프 행정부가 엔비디아·아마존·마이크로소프트·OpenAI·앤트로픽을 포함한 20여 곳 이상을 AI '국가 챔피언'으로 지정할 계획이라고 보도했다. 해외 사업 확대와 중국 경쟁사 대응을 돕는 것이 목적이며, 로이터는 즉시 확인하지 못했다고 밝혔다.",
+    "why": "미국 정부가 특정 AI 기업을 공식적으로 밀어주는 산업정책으로, 해외 데이터센터·수출 경쟁 구도와 동맹국 시장에 영향을 줄 수 있다. 엔비디아 사태 와중에 엔비디아가 명단에 포함됐다는 점도 눈여겨볼 만하다.",
+    "verification": {
+      "status": "미확인",
+      "note": "WSJ 단독(익명 소식통)을 로이터·AI Affairs가 인용 보도. 정부 공식 발표 전"
+    },
+    "image": "https://www.aiaffairs.com/wp-content/uploads/2026/11/trump-ai-national-champions-wsj-report.jpg",
+    "links": [
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/trump-administration-to-name-nvidia-other-ai-firms-as-us-national-champions-wsj-reports-5028349",
+        "type": "source"
+      },
+      {
+        "label": "AI Affairs",
+        "url": "https://www.aiaffairs.com/government/trump-ai-national-champions-wsj-report/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-ula-vulcan-fails-amazon-leo",
     "date": "2026-11-16",
     "category": "AI·IT",
@@ -90,6 +115,116 @@
     ]
   },
   {
+    "id": "2026-11-16-suneung-ai-cheating-government-tf",
+    "date": "2026-11-16",
+    "category": "한국 IT",
+    "title": "업데이트: 수능 AI 부정 막으려 범정부 긴급대응팀…스마트기기 전면 반납·공공 와이파이 차단 추진, 전파 차단은 불가",
+    "summary": "한성숙 국무총리 주재 관계부처 회의에서 정부는 19일 수능 시험장의 모든 스마트기기 반납과 시험 중 공공 와이파이 차단을 추진하고 '범정부 스마트기기 부정행위 방지 TF'를 꾸리기로 했다. 전자신문에 따르면 시험장 통신망 자체 차단은 법적 근거가 없어 학교·공공 와이파이 중단으로 가닥을 잡았고, 교육부는 17일 최종 대책을 발표한다.",
+    "why": "세무사 시험 AI 부정이 국가 시험 전반의 대책으로 번진 것으로, 스마트 검색대·전파탐지기 도입 등 'AI 커닝' 대응 기술 수요와 관련 제도 개정으로 이어질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(총리실 발표) + 전자신문 + ZDNet Korea 교차 확인"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/16/rcv.YNA.20261116.PYH2026111610090001300_P1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(종합)",
+        "url": "https://www.yna.co.kr/view/AKR20261116029451001",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261116000315",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261116150738",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-sk-hynix-trinity-fab",
+    "date": "2026-11-16",
+    "category": "한국 IT",
+    "title": "SK하이닉스 용인 1기 팹에 소부장 실증 '트리니티팹'…8,746억 원, 장비 55대, 내년 5월 개소",
+    "summary": "SK하이닉스(4,432억 원)·정부(3,736억 원)·경기도·용인시(577억 원)가 총 8,746억 원을 들여 용인 1기 팹 안에 소부장 기업용 양산 검증 공간 '트리니티팹'을 만든다. 노광·식각·증착 등 양산 장비 37대를 포함해 55대를 두고 최대 50개 기업이 쓰며, 2027년 5월 문을 열고 4분기부터 평가 서비스를 제공한다.",
+    "why": "실제 양산 라인과 같은 환경에서 검증할 수 있어 소부장 개발~양산 기간(평균 3~4년)을 1년~1년 6개월가량 줄이는 것이 목표다. 국산화율 30% 안팎인 반도체 소부장 생태계에 의미가 크다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 현장 르포(SK하이닉스 제공 자료) + 아주경제 + 블룸버그(Techmeme 요약) 교차 확인"
+    },
+    "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/16/AKR20261116018400003_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261116018400003",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261115112309783",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-san-francisco-declaration-pax-silica-korea",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "한·미·일 등 10개국 '샌프란시스코 선언' 서명…AI 공급망·핵심 기술 공동 보호(팍스 실리카)",
+    "summary": "미 국무부에 따르면 미국과 한국·일본·호주·인도·이스라엘·카타르·싱가포르·UAE·영국이 11월 15일(현지) 팍스 실리카 창립 회의에서 '샌프란시스코 선언'에 서명했다. 초지능(SI) 공급망의 민감 기술·핵심 인프라 보호를 공동 과제로 규정하고 실무그룹 5개 설치를 추진한다. FT 보도 기준 독일·스웨덴·네덜란드·EU 집행위는 다음 주 서명 예정이다.",
+    "why": "반도체·장비·물류·에너지까지 AI 공급망 보호 대상 목록을 동맹이 함께 만든다는 뜻이라, 한국 반도체·데이터센터 기업의 대중국 거래와 수출 관리에 직접 영향을 줄 수 있다. 미·중 APEC 정상회담 직전에 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "미 국무부 공식 선언문 + 파이낸셜뉴스(뉴시스)·뉴스핌 보도 교차 확인"
+    },
+    "image": "https://image.fnnews.com/resource/media/image/2026/11/16/202611160356082631_e.jpg",
+    "links": [
+      {
+        "label": "미 국무부 선언문",
+        "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity/",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611160356121580",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261116000300",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-samsung-ai-datacenter-openai-anthropic-ft",
+    "date": "2026-11-16",
+    "category": "한국 IT",
+    "title": "[보도] FT \"삼성, AI 데이터센터 통째로 공급 추진…삼성SDS, 오픈AI·앤트로픽 입주 초기 협의\"",
+    "summary": "FT에 따르면 삼성은 물산(건설)·SDS(설계·운영)·SDI(배터리)·전자(칩·냉각)를 묶어 AI 데이터센터를 원스톱으로 공급하는 사업을 추진하고, 삼성SDS는 오픈AI·앤트로픽을 국내 데이터센터 임차 고객으로 유치하려 초기 협의 중이다. 계약·용량·위치는 정해지지 않았다.",
+    "why": "메모리 공급사를 넘어 AI 인프라 사업자로 가려는 시도로, 성사되면 국내 AI 데이터센터 판도가 바뀔 수 있다. 다만 아직 초기 협의 단계다.",
+    "verification": {
+      "status": "미확인",
+      "note": "FT 보도를 아시아투데이·Tenbrief가 인용. 삼성·오픈AI·앤트로픽 공식 확인 없음"
+    },
+    "image": "https://tenbrief.com/img/og/samsung-ai-data-center-integrated-supply.6015df1b.png",
+    "links": [
+      {
+        "label": "아시아투데이 (FT 인용)",
+        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261116010005729",
+        "type": "source"
+      },
+      {
+        "label": "Tenbrief (FT 인용)",
+        "url": "https://tenbrief.com/en/2026/11/16/samsung-ai-data-center-integrated-supply/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-qwen4-max-official-launch",
     "date": "2026-11-16",
     "category": "AI·IT",
@@ -137,6 +272,25 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50513215",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-qwen4-max-artificial-analysis-43",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "업데이트: Qwen4-Max, Artificial Analysis 지능 지수 43점…81개 중 38위",
+    "summary": "Artificial Analysis 평가에서 Qwen4-Max는 지능 지수 43점(비교군 중앙값 41)으로 81개 모델 중 38위를 기록했다. 평가 과제당 평균 비용은 3.27달러, 가격은 입력 100만 토큰당 1.5달러·출력 4.5달러다.",
+    "why": "알리바바 자체 벤치마크와 달리 독립 평가에서는 최상위권이 아닌 '중상위' 성적으로 나와, 가성비 위주로 봐야 할 모델임을 보여 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Artificial Analysis 모델 페이지 직접 확인"
+    },
+    "links": [
+      {
+        "label": "Artificial Analysis: Qwen4 Max",
+        "url": "https://artificialanalysis.ai/models/qwen4-max",
         "type": "source"
       }
     ]
@@ -192,6 +346,41 @@
     ]
   },
   {
+    "id": "2026-11-16-longcat-video-avatar-1-6",
+    "date": "2026-11-16",
+    "category": "로컬 AI",
+    "title": "메이퇀 'LongCat-Video-Avatar 1.6' 공개(MIT)…음성 구동 아바타 영상 10분 이상 생성",
+    "summary": "메이퇀 LongCat 팀이 음성으로 인물 영상을 만드는 오픈 모델 LongCat-Video-Avatar 1.6을 MIT 라이선스로 허깅페이스에 올렸다. 1.5 대비 입모양·표정·몸동작 자연스러움과 장시간 일관성을 개선해 10분 넘는 영상도 화질·인물 일관성을 유지한다고 밝혔고, 1인·다인 아바타와 추론 최적화를 지원한다.",
+    "why": "상업적 이용이 자유로운 MIT 라이선스의 장시간 립싱크 영상 모델이다. 다만 공식 예제는 GPU 2장 병렬(torchrun) 기준이라 소비자용 단일 GPU에서는 부담이 클 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드 + GitHub 저장소·기술 보고서 확인. 성능 주장은 자체 발표"
+    },
+    "image": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6/resolve/main/assets/logo.png",
+    "specs": {
+      "license": "MIT",
+      "modality": "음성·이미지·텍스트 → 영상",
+      "compute": "공식 예제 GPU 2장 병렬"
+    },
+    "links": [
+      {
+        "label": "meituan-longcat/LongCat-Video-Avatar-1.6",
+        "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+        "type": "huggingface"
+      },
+      {
+        "label": "meituan-longcat/LongCat-Video",
+        "url": "https://github.com/meituan-longcat/LongCat-Video",
+        "type": "github"
+      },
+      {
+        "label": "프로젝트 페이지",
+        "url": "https://meigen-ai.github.io/LongCat-Video-Avatar-1.6-Page/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-llamacpp-b12426-higgs-v3-stt-vibevoice-asr",
     "date": "2026-11-16",
     "category": "로컬 AI",
@@ -228,6 +417,31 @@
         "label": "microsoft/VibeVoice-ASR-HF",
         "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-kakaobank-apple-pay",
+    "date": "2026-11-16",
+    "category": "한국 IT",
+    "title": "카카오뱅크, 애플페이 연동 시작…현대카드 이후 3년 8개월 만에 두 번째",
+    "summary": "카카오뱅크는 16일 오후부터 체크카드 '프렌즈 카드'와 선불 연동 '카카오뱅크 미니카드'를 애플페이에 등록해 아이폰·애플워치로 결제할 수 있다고 밝혔다. 2023년 3월 현대카드 도입 이후 처음 합류한 금융사이며, 카드사보다 인터넷은행이 먼저 연동했다.",
+    "why": "현대카드 독점이 깨지면서 다른 카드사의 애플페이 합류와 국내 NFC 결제 경쟁에 속도가 붙을 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 + ZDNet Korea(카카오뱅크 발표 인용) 교차 확인"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/16/429b6bf6d00a3d10b185ee17c4242832.png",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261116145058",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261116000304",
+        "type": "source"
       }
     ]
   },
@@ -302,6 +516,36 @@
     ]
   },
   {
+    "id": "2026-11-16-coles-cyber-incident",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "호주 최대 유통사 콜스(Coles), 사이버 보안 사고 조사…\"고객 데이터 유출 증거는 아직 없음\"",
+    "summary": "콜스는 16일 호주증권거래소(ASX) 공시로 사이버 보안 사고를 조사 중이며, 지금까지 고객·직원·공급사 데이터가 유출된 증거는 찾지 못했다고 밝혔다. 호주사이버보안센터(ACSC)와 협력 중이고 매장·온라인 운영은 정상이지만, 리쿼랜드 클릭앤콜렉트 일부 문제를 조사 중이다.",
+    "why": "사고 유형·시점·대상 시스템은 공개되지 않아 추가 공시를 지켜봐야 한다. 최근 유통·여행·협업툴을 노린 공격이 잇따르는 흐름의 하나다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "콜스 ASX 공시 원문 + 공식 업데이트 페이지 + ABC 뉴스"
+    },
+    "image": "https://live-production.wcms.abc-cdn.net.au/2e01753e944462e6b938c532392c7594?impolicy=wcms_watermark_news&cropH=2629&cropW=4674&xPos=326&yPos=266&width=862&height=485&imformat=generic",
+    "links": [
+      {
+        "label": "콜스 ASX 공시(PDF)",
+        "url": "https://announcements.asx.com.au/asxpdf/20261116/pdf/076mbypg72n06s.pdf",
+        "type": "source"
+      },
+      {
+        "label": "콜스 공식 업데이트",
+        "url": "https://www.colesgroup.com.au/updates",
+        "type": "source"
+      },
+      {
+        "label": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-16/coles-investigates-cybersecurity-breach-but-little-detail/107390824",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-bitly-old-links-hijacked",
     "date": "2026-11-16",
     "category": "AI·IT",
@@ -357,6 +601,36 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-anthropic-ipo-7x-oversubscribed",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 앤트로픽 IPO 청약 약 7배 몰려…IPO+별도 사모로 최대 904억 달러 조달(블룸버그)",
+    "summary": "블룸버그는 앤트로픽 IPO에 공모 주식의 약 7배 주문이 들어왔으며, 회사와 일부 기존 주주가 IPO와 별도 사모를 합쳐 최대 904억 달러를 조달하려 한다고 보도했다. 성사되면 사상 최대 상장이 된다. 공모가는 18일(현지) 확정, 19일 나스닥 거래 시작 예정이다.",
+    "why": "지난주 '수 배' 수준이던 수요가 약 7배로 늘었다는 새 수치로, 엔비디아 사태로 흔들린 AI 투자 심리가 앤트로픽 상장에서 어떻게 반영될지 가늠할 지표다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 보도를 Economy Media·Stocktwits가 각각 인용(수치는 보도 기준, 회사 공식 확인 아님). 상장 일정은 앤트로픽 공식 발표"
+    },
+    "image": "https://economy-media.com/wp-content/uploads/2026/11/anthropic-ipo-oversubscribed-90-billion-raise-cover.jpg",
+    "links": [
+      {
+        "label": "Economy Media (블룸버그 인용)",
+        "url": "https://economy-media.com/anthropic-ipo-oversubscribed-90-billion-raise/",
+        "type": "source"
+      },
+      {
+        "label": "Stocktwits (블룸버그 인용)",
+        "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-ipo-reportedly-oversubscribed-7-times-but-will-the-ai-euphoria-survive-the-stock-market-debut/cNb79cJR9X3",
+        "type": "source"
+      },
+      {
+        "label": "앤트로픽 로드쇼 공지",
+        "url": "https://www.anthropic.com/news/roadshow-launch",
         "type": "source"
       }
     ]
