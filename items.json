@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-11-16-wsj-megaspeed-12b-nvidia-china-orders",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] WSJ \"메가스피드, 중국 업체 위해 엔비디아 첨단 칩 약 120억 달러어치 주문 주선\"",
+    "summary": "WSJ가 입수한 선적 기록에 따르면 앨리스 황이 소유했던 싱가포르 메가스피드가 2024년 3월~2025년 6월 중국 구매자들을 위해 수출통제 대상 엔비디아 칩 수십만 개, 약 120억 달러 규모 주문을 주선했다. 기록상 실제 인도량과 출발지는 확인되지 않았고, 말레이시아 데이터센터를 통한 원격 사용 경로도 지목됐다. 메가스피드는 로이터에 앨리스 황이 2025년 8월 30일 회사를 떠났으며 합법적으로 사업했다고 밝혔다.",
+    "why": "젠슨 황 사임을 부른 메가스피드 사태의 규모를 처음으로 구체적 금액으로 보여 준 보도로, 엔비디아 대중 매출 실체·후임 CEO 논의와 미국의 동남아 데이터센터 수출 규제 강화 논의에 직접 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WSJ 단독 보도(문서 기반)를 The Decoder·아주경제(AJP)가 각각 인용 보도, 메가스피드 입장은 로이터 인용. 실제 인도량은 미확인."
+    },
+    "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
+    "links": [
+      {
+        "label": "The Decoder (WSJ 인용)",
+        "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+        "type": "source"
+      },
+      {
+        "label": "아주경제 AJP (WSJ 인용)",
+        "url": "https://www.ajupress.com/view/20261115133842034",
+        "type": "source"
+      },
+      {
+        "label": "CNBC: 베선트 '대대적 쇄신' 요구",
+        "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-ula-vulcan-fails-amazon-leo",
     "date": "2026-11-16",
     "category": "AI·IT",
