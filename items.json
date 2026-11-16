@@ -60,6 +60,88 @@
     ]
   },
   {
+    "id": "2026-11-16-ublock-origin-uxss-element-picker",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "uBlock Origin '요소 선택기' 범용 XSS 취약점 공개(심각도 High)…AI가 발견, 이미 패치",
+    "summary": "악성 웹사이트가 uBlock Origin(Firefox MV2) 요소 선택기를 숨은 iframe으로 띄워 조작하고, 사용자가 한 번 클릭하면 임의 '신뢰 필터'를 추가해 다른 사이트에서 자바스크립트를 실행할 수 있는 문제가 GitHub 보안 권고로 공개됐다. 11월 1일 제보돼 1.75.2~1.76.0에서 순차 수정됐다. 제보자는 블로그에서 GPT-5.6 Sol이 문제 발견의 대부분을 했다고 밝혔다.",
+    "why": "널리 쓰이는 광고 차단 확장 프로그램이 어느 사이트에서나 코드를 실행시킬 수 있었던 사례이자, AI 모델이 실제 취약점 발견에 쓰이는 흐름을 보여 준다. 자동 업데이트가 꺼져 있다면 최신 버전(GitHub 기준 1.76.4)인지 확인하자.",
+    "verification": {
+      "status": "확인됨",
+      "note": "uBlock Origin 공식 GitHub 보안 권고(GHSA-cmqw-9r2w-6wv2) + 제보자 블로그. 영향 버전 1.75.2 이하, 수정 1.75.4."
+    },
+    "image": "https://iter.ca//ubo-epicker.png",
+    "links": [
+      {
+        "label": "GitHub 보안 권고",
+        "url": "https://github.com/gorhill/uBlock/security/advisories/GHSA-cmqw-9r2w-6wv2",
+        "type": "source"
+      },
+      {
+        "label": "제보자 블로그",
+        "url": "https://iter.ca/post/ubo-uxss/",
+        "type": "source"
+      },
+      {
+        "label": "gorhill/uBlock",
+        "url": "https://github.com/gorhill/uBlock",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-qwen4-max-official-launch",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "업데이트: 알리바바 Qwen4-Max 정식 출시…입력 100만 토큰당 1.5달러, '작은 Qwen4 오픈 웨이트도 공개 예정'",
+    "summary": "11일 Token Plan 전용 프리뷰였던 Qwen4-Max가 16일 정식 출시돼 QwenCloud API가 열렸다. 새 MoE 구조·네이티브 비전·100만 토큰 컨텍스트이며, 가격은 100만 토큰당 입력 1.5달러·출력 4.5달러·암묵적 캐시 0.075달러로 모두 Qwen3.8-Max보다 낮다. Qwen은 자체 Work360 평가에서 작업당 평균 비용이 4.43달러에서 1.67달러로 줄었다고 밝혔고, IT之家 등은 주간 파라미터를 2조4,000억 개로 전했다.",
+    "why": "중국 최대 프런티어 모델의 정식 가격·성능이 처음 공개됐다. Arena 집계로 중국 모델 1위(Code Arena WebDev 6위)이고, 공식 계정이 '더 작은 Qwen4 모델의 오픈 웨이트를 공개하겠다'고 밝혀 로컬 AI 쪽 다음 Qwen 세대 예고이기도 하다(크기·일정 미정).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Qwen 공식 X 발표 + 알리바바 클라우드 모델 릴리스 문서(2026-11-16 qwen4-max) + IT之家·Sulat 보도. 성능·비용 수치는 Qwen 자체 평가, Arena 순위는 Arena 공식 계정(예비 수치)."
+    },
+    "image": "https://news.sulat.com/wp-content/uploads/2026/11/hero-qwen4-max-launch.jpg",
+    "specs": {
+      "params": "2.4T MoE(보도 기준 활성 71B)",
+      "context": "1M",
+      "modality": "텍스트·이미지·영상 입력",
+      "price": "입력 $1.5 / 출력 $4.5 / 캐시 $0.075 (100만 토큰당)",
+      "license": "API 전용(가중치 비공개)"
+    },
+    "links": [
+      {
+        "label": "Qwen 공식 X 발표",
+        "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+        "type": "source"
+      },
+      {
+        "label": "알리바바 클라우드 모델 릴리스 노트",
+        "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+        "type": "source"
+      },
+      {
+        "label": "IT之家 보도",
+        "url": "https://www.ithome.com/1/027/512.htm",
+        "type": "source"
+      },
+      {
+        "label": "Sulat 보도",
+        "url": "https://news.sulat.com/2026/11/16/qwen4-max-launch/",
+        "type": "source"
+      },
+      {
+        "label": "QwenCloud 모델 페이지",
+        "url": "https://www.qwencloud.com/models/qwen4-max",
+        "type": "buy"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50513215",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-nyt-lutnick-chip-rules-cantor",
     "date": "2026-11-16",
     "category": "AI·IT",
@@ -85,6 +167,71 @@
     ]
   },
   {
+    "id": "2026-11-16-nis-pqc-transition-2031",
+    "date": "2026-11-16",
+    "category": "한국 IT",
+    "title": "국정원, 양자내성암호 전환 지침 2종 초안 공개…중요시스템 전환 목표 2035→2031년",
+    "summary": "국정원이 국가보안기술연구소와 함께 '암호 안전성 기준'과 '양자내성암호 전환 가이드북' 초안을 16일 국가사이버안보센터 홈페이지에 공개했다. 국가 기밀·기반시설 등 중요시스템의 암호체계 전환 목표 시점은 기존 2035년에서 2031년으로 4년 앞당겨졌다. 기준은 알고리즘별 허용·제한·금지 사용연한을 제시하고, 의견 수렴 뒤 내년 상반기 확정·배포한다.",
+    "why": "공공기관과 이들에 납품하는 보안·SI 업체의 암호 교체 일정이 4년 빨라진다. 올해 말 '암호 키 관리 가이드라인'도 추가로 나온다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·디지털투데이가 각각 국정원 발표 보도."
+    },
+    "image": "https://img5.yna.co.kr/photo/yna/YH/2025/12/17/PYH2025121718010001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261116067000017",
+        "type": "source"
+      },
+      {
+        "label": "디지털투데이",
+        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715658",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-llamacpp-b12426-higgs-v3-stt-vibevoice-asr",
+    "date": "2026-11-16",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12426, 음성 인식 모델 Higgs Audio v3 STT·VibeVoice-ASR 지원",
+    "summary": "llama.cpp 멀티모달(mtmd)에 보손AI의 Higgs Audio v3 STT(Whisper-Large-v3 인코더+Qwen3 디코더, 2.68B, Apache 2.0)와 마이크로소프트 VibeVoice-ASR(MIT) 지원이 추가됐다. 두 모델이 같은 백본을 공유해 한 번에 들어갔다. VibeVoice-ASR은 최대 60분 오디오를 한 번에 받아 화자 구분·타임스탬프를 붙여 전사하며 한국어를 포함한 50개+ 언어를 지원한다(모델 카드 기준).",
+    "why": "GGUF로 로컬에서 돌릴 수 있는 음성 인식 선택지가 늘었다. 특히 VibeVoice-ASR은 회의 녹음처럼 긴 다화자 오디오를 클라우드 없이 전사하는 데 쓸 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "llama.cpp 공식 GitHub 릴리스 b12426 + PR #32329 + 두 모델의 Hugging Face 모델 카드 확인."
+    },
+    "image": "https://opengraph.githubassets.com/988d00d93695b1e2b7dc801ccf6a29e557d619b3f49f22fb7adfa9dcbb72db47/ggml-org/llama.cpp/releases/tag/b12426",
+    "specs": {
+      "params": "Higgs v3 STT 2.68B",
+      "license": "Higgs: Apache 2.0 / VibeVoice-ASR: MIT",
+      "modality": "음성→텍스트"
+    },
+    "links": [
+      {
+        "label": "llama.cpp b12426 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12426",
+        "type": "source"
+      },
+      {
+        "label": "PR #32329",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/32329",
+        "type": "github"
+      },
+      {
+        "label": "bosonai/higgs-audio-v3-stt",
+        "url": "https://huggingface.co/bosonai/higgs-audio-v3-stt",
+        "type": "huggingface"
+      },
+      {
+        "label": "microsoft/VibeVoice-ASR-HF",
+        "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-jensen-huang-weighs-nvidia-comeback-bessent",
     "date": "2026-11-16",
     "category": "AI·IT",
@@ -105,6 +252,101 @@
       {
         "label": "The Independent",
         "url": "https://www.independent.co.uk/news/world/americas/jensen-huang-nvidia-return-spy-b3085318.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-bitly-old-links-hijacked",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "버거킹·맥도날드·트럼프 옛 트윗의 Bitly 단축 링크 탈취…Bitly \"오래된 비활성 링크 재사용 문제\" 인정",
+    "summary": "2011년 버거킹·맥도날드 트윗 속 Bitly 링크가 15일 다른 사람에게 다시 등록돼 엉뚱한 페이지로 연결됐다. CNN은 빌 게이츠, FBI, 미 국방부 등의 옛 게시물에서도 같은 일이 있었다고 보도했다. Bitly는 공식 X 계정에서 \"악의적 행위자가 오래된 비활성 링크를 다른 콘텐츠로 돌릴 수 있는 문제\"를 확인했으며, 관련 계정을 정지하고 해당 링크를 비활성화하고 있다고 밝혔다.",
+    "why": "계정 해킹 없이도 수년 전 게시물·문서 속 단축 링크가 피싱·사기로 바뀔 수 있다. Bitly 링크 끝에 '+'를 붙이면 생성일과 목적지를 볼 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Bitly 공식 X 게시물 + CNN 보도(KVIA 게재) + Ransomnews 자체 조사."
+    },
+    "image": "https://ransomnews.com/wp-content/uploads/2026/11/burger-king-tweet-bitly-link-hijack-2026-cover-1024x576.png",
+    "links": [
+      {
+        "label": "Bitly 공식 X",
+        "url": "https://x.com/Bitly/status/2122045450786152588",
+        "type": "source"
+      },
+      {
+        "label": "CNN (KVIA 게재)",
+        "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/11/15/trump-mcdonalds-and-burger-king-among-targets-of-past-x-posts-that-contain-redirected-website-links/",
+        "type": "source"
+      },
+      {
+        "label": "Ransomnews 조사",
+        "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-apple-health-ai-usage-study",
+    "date": "2026-11-16",
+    "category": "AI·IT",
+    "title": "애플, OpenEvidence와 'Health AI 사용 연구' 앱 출시…미국서 최대 20만 명 참여",
+    "summary": "애플이 대화형 건강 AI를 사람들이 어떻게 쓰고 믿는지 연구하는 별도 앱을 미국에서 내놨다. 21세 이상, Apple Intelligence 지원 iPhone(15 Pro 이상)·iOS 26 이상 사용자가 대상이며 최대 12개월 진행된다. 답변은 NEJM·JAMA·Nature 등 동료 심사 자료를 쓰는 OpenEvidence가 생성하고, HealthKit 데이터를 선택적으로 공유할 수 있다. 애플은 연구 데이터를 AI 학습에 쓰지 않는다고 밝혔다.",
+    "why": "오픈AI·앤트로픽이 건강 챗봇 기능을 내놓는 가운데, 애플은 제품 출시 대신 대규모 연구로 건강 AI에 들어갔다. 향후 건강 앱이나 Siri에 들어갈지는 정해지지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch·The Verge·Fierce Healthcare가 각각 애플 발표 보도(애플 측 발언 인용)."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Apple-Health-AI-Usage-Study.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+        "type": "source"
+      },
+      {
+        "label": "Fierce Healthcare",
+        "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/hlth26-apple-kicks-new-study-examine-use-ai-chatbots-health",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-amadeus-breach-korean-travel-agencies",
+    "date": "2026-11-16",
+    "category": "한국 IT",
+    "title": "업데이트: 아마데우스 해킹 여파 국내 여행사로 확산…현대드림투어 여권번호 유출, NH여행 등 잇따라 공지",
+    "summary": "항공예약시스템 아마데우스 해킹으로, 그 기술을 쓰는 토파스를 거쳐 국내 여행사 고객 정보가 유출됐다. 현대드림투어는 2023년 8월 10일~올해 9월 23일 사이 성명·여권번호·이메일·휴대전화번호가 유출된 정황을 확인했다고 밝혔다. NH여행·참좋은여행·노랑풍선·모두투어 등도 안내문을 냈고, 토파스는 KISA에 고객사를 포함해 신고했다. 토파스는 국내 약 4,000개 여행사에 보급돼 있다.",
+    "why": "10월 대한항공·아시아나에 이어 일반 여행사 고객까지 피해 범위가 넓어지고 있다. 결항·환불을 핑계로 결제나 인증번호를 요구하는 스미싱에 주의해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·머니투데이·보안뉴스 보도 + NH여행 공지 확인."
+    },
+    "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/16/AKR20261116058500030_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261116058500030",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/industry/2026/11/16/2026111608213741937",
+        "type": "source"
+      },
+      {
+        "label": "보안뉴스",
+        "url": "https://www.boannews.com/news/articleView.html?idxno=147014",
+        "type": "source"
+      },
+      {
+        "label": "NH여행 공지",
+        "url": "https://www.nhtour.co.kr/board/NH0001/article/535",
         "type": "source"
       }
     ]
@@ -1932,6 +2174,31 @@
     ]
   },
   {
+    "id": "2026-11-13-white-house-ai-task-force-cyber-liability-relief",
+    "date": "2026-11-13",
+    "category": "AI·IT",
+    "title": "美 백악관 AI 태스크포스 \"AI발 사이버 사고 자진 신고하면 규제 책임 완화\"…최소 12개월",
+    "summary": "트럼프 행정부 AI 태스크포스가 2차 회의 뒤 성명에서 \"AI 시대에 기존 사이버 사고 규제 기준은 낡았을 수 있다\"며, 선의로 취약점·사고를 자진 신고한 조직에 대해 연방기관이 규제 책임을 제한하라고 권고했다. 적용 기간은 최소 12개월이며 위험 환경에 따라 연장될 수 있다. 업계가 AI 관련 사고를 자발적으로 보고하는 절차도 논의됐다.",
+    "why": "AI 공격 자동화로 사고가 늘자 처벌보다 신고·정보 공유를 우선하는 쪽으로 미국 규제 방향이 바뀌고 있다는 신호다. CISA 사고 보고 규칙과 만료를 앞둔 사이버정보공유법(CISA 2015) 재승인 논의에도 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Cybersecurity Dive(태스크포스 성명 인용) + 블룸버그 보도를 인용한 전자신문. 행정명령이 아닌 권고 단계."
+    },
+    "image": "https://imgproxy.divecdn.com/jYswdNdunuDsy2XaKwTq02AxqkRU13UbC_ckie7D_B0/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDk0MzExNDUuanBn.webp",
+    "links": [
+      {
+        "label": "Cybersecurity Dive",
+        "url": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/",
+        "type": "source"
+      },
+      {
+        "label": "전자신문 (블룸버그 인용)",
+        "url": "https://www.etnews.com/20261116000016",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-vscode-1-146-local-harness-deprecated",
     "date": "2026-11-13",
     "category": "AI·IT",
@@ -3460,6 +3727,31 @@
       {
         "label": "중앙이코노미뉴스",
         "url": "https://www.joongangenews.com/news/articleView.html?idxno=563320",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-hyperaccel-sc26-lpu-server",
+    "date": "2026-11-12",
+    "category": "한국 IT",
+    "title": "하이퍼엑셀, SC26서 LPU 8개 추론 서버 첫 공개…\"RTX PRO 6000 대비 와트·달러당 토큰 3.5배+\"(자체 측정)",
+    "summary": "국내 AI 반도체 스타트업 하이퍼엑셀이 17~19일 미국 시카고 SC26에서 자체 LPU(LLM 처리 장치) 8개를 탑재한 추론 서버를 처음 선보이고, 한국에서 운영 중인 서버로 원격 LLM 추론을 시연한다. 자체 벤치마크에서 카드당 250W LPU 서버가 Qwen3-32B·Llama3-70B 실행 시 RTX PRO 6000 Blackwell(카드당 600W) 서버보다 와트당·달러당 토큰 처리량이 3.5배 이상 높았다고 밝혔다.",
+    "why": "HBM 대신 LPDDR5X를 쓰는 국산 추론 칩이 서버 단위 제품으로 글로벌 시장에 나선다. 다만 성능 수치는 회사 자체 측정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "하이퍼엑셀 보도자료(PR Newswire) + ZDNet Korea 보도. 성능 수치는 회사 자체 벤치마크."
+    },
+    "image": "https://mmx.prnewswire.com/media/MS2033589/20261112024914EST_image_1.jpg?id=OA3074670&p=facebook",
+    "links": [
+      {
+        "label": "하이퍼엑셀 보도자료(PR Newswire)",
+        "url": "https://www.prnewswire.com/news-releases/hyperaccel-to-showcase-lpu-based-ai-inference-system-at-sc26-highlighting-power-and-cost-efficiency-302937584.html",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261116092249",
         "type": "source"
       }
     ]
