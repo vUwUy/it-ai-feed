@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-11-17-windows11-coding-agent-telemetry",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "[미확인] \"윈도 11, 어떤 코딩 에이전트를 쓰는지 수집\"…연구자 역분석, MS 입장 없음",
+    "summary": "보안 연구자 Xusheng Li가 윈도 11의 MissionControlAggregator.dll이 copilot·claude·codex·cursor·antigravity 등 코딩 에이전트와 python·gcc 등 개발 도구 실행 여부를 비트맵으로 기록해 '선택적 진단 데이터'로 업로드 대기열에 올린다고 분석했다. 프롬프트·코드 내용은 없었고, 미국 설정 클린 설치에서 선택적 진단 데이터가 기본으로 켜져 있었다고 밝혔다.",
+    "why": "개발자 PC의 도구 사용 정보가 기본 설정으로 수집될 수 있다는 지적이다. 설정 → 개인 정보 및 보안 → 진단 및 피드백에서 '선택적 진단 데이터 보내기'를 끄면 막을 수 있다고 한다.",
+    "verification": {
+      "status": "미확인",
+      "note": "연구자 원문(재현 절차 포함)만 있고 마이크로소프트 공식 확인·해명은 없음. 보도는 대부분 원문 재인용. HN 530점+."
+    },
+    "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
+    "links": [
+      {
+        "label": "연구자 원문",
+        "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+        "type": "source"
+      },
+      {
+        "label": "MS 선택적 진단 데이터 문서",
+        "url": "https://learn.microsoft.com/en-us/windows/privacy/optional-diagnostic-data",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50524736",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-vllm-v0-34-0",
     "date": "2026-11-17",
     "category": "로컬 AI",
@@ -114,6 +144,77 @@
     ]
   },
   {
+    "id": "2026-11-17-suneung-ai-cheating-wifi-bigtech",
+    "date": "2026-11-17",
+    "category": "한국 IT",
+    "title": "업데이트: 수능 AI 부정 대책 확정…시험장·인근 공공 와이파이 차단, 빅테크·통신사와 사후 추적",
+    "summary": "배경훈 부총리 겸 과기정통부 장관이 대국민 담화 질의응답에서 \"전파 차단은 현재 기술상 불가능\"하다며, 시험장 내·인근 공공 와이파이를 끊고 휴대전화를 물리적으로 분리하는 데 주력하겠다고 밝혔다. 개인 와이파이·이동통신망은 완전 차단이 어려워 통신 기록을 사후 분석하고, 이번 수능에 한해 글로벌 빅테크의 협력을 받아 AI 사용 여부를 추적하기로 했다.",
+    "why": "국내 AI 서비스만 막는 별도 모델 튜닝·필터는 어렵다고 정부가 인정한 것으로, 실시간 차단보다 사후 적발로 방향이 정해졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 2건(종합·과기부) + ZDNet Korea 보도 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/17/653dc762d3a5c65a1aca4b3ccf8432fe.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(종합)",
+        "url": "https://www.yna.co.kr/view/AKR20261117129451017",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(빅테크 협력)",
+        "url": "https://www.yna.co.kr/view/AKR20261117124100017",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261117160901",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-shanghai-ai-lab-sage-s2-1-flash",
+    "date": "2026-11-17",
+    "category": "로컬 AI",
+    "title": "상하이 AI랩 'Sage S2.1 Flash' 오픈 웨이트(MIT)…320B-A18B 과학 멀티모달 에이전트 모델",
+    "summary": "상하이 AI 연구소가 분자 그래프·결정 구조·단백질 서열 등 10여 종 과학 데이터를 다루는 멀티모달 에이전트 모델 Sage S2.1 Flash를 MIT 라이선스로 공개했다. GLM-5.3-Flash 구조의 320B-A18B MoE(BF16 약 645GB)이며, 회사 측 15개 벤치마크 비교에서 4개 1위(MLE-bench Lite 90.3 등)·7개 2위를 기록했다고 밝혔다. FP8 버전도 있다.",
+    "why": "과학 연구용 오픈 웨이트 대형 모델이지만 가이드 기준 H200 8장급이 필요해 개인 로컬보다는 연구실·서버용이다. vLLM은 별도 패치가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드·배포 가이드 + GitHub 저장소 확인. 벤치마크는 자체 측정."
+    },
+    "specs": {
+      "params": "320B (18B 활성)",
+      "license": "MIT",
+      "memory": "BF16 약 645GB(H200 8장 예시)",
+      "context": "config 기준 최대 1,048,576",
+      "modality": "텍스트·이미지·과학 데이터"
+    },
+    "links": [
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+        "type": "source"
+      },
+      {
+        "label": "internlm/Sage-S2.1-Flash",
+        "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+        "type": "huggingface"
+      },
+      {
+        "label": "internlm/Sage-S2.1-Flash-FP8",
+        "url": "https://huggingface.co/internlm/Sage-S2.1-Flash-FP8",
+        "type": "huggingface"
+      },
+      {
+        "label": "InternLM/Sage-S2.1-Flash",
+        "url": "https://github.com/InternLM/Sage-S2.1-Flash",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-scatterlab-zeta-trust-safety",
     "date": "2026-11-17",
     "category": "한국 IT",
@@ -134,6 +235,30 @@
       {
         "label": "디지털데일리",
         "url": "https://www.ddaily.co.kr/page/view/2026111709214375241",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-reuters-china-distillation",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "[보도] 로이터 \"中, 미국 AI 모델 출력으로 자국 모델 학습…증류가 산업 현장으로 확산\"",
+    "summary": "로이터가 중국 논문·특허·기업 공시·채용 공고·정부 문서 300여 건을 검토한 결과, 미국 모델의 답변을 모아 작은 중국 모델을 학습시키는 '증류'가 학술 실험을 넘어 산업 전반으로 퍼졌고, 1월 8개 부처의 'AI+제조' 정책 패키지가 증류를 지원하는 등 정부도 장려하고 있다고 보도했다.",
+    "why": "미국 칩 수출통제의 실효성 논쟁과 11월 18~19일 APEC 미·중 정상 회동을 앞두고 증류가 새로운 갈등 요소로 떠올랐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독 원문(Investing.com 게재본) 확인 + Moneycontrol 등 재인용. 중국 측 기관은 무응답."
+    },
+    "links": [
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/economy-news/exclusivechina-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite-5031568",
+        "type": "source"
+      },
+      {
+        "label": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/news/business/china-is-using-america-s-ai-to-build-its-own-over-300-documents-reveal-how-14081926.html",
         "type": "source"
       }
     ]
@@ -248,6 +373,31 @@
     ]
   },
   {
+    "id": "2026-11-17-openai-academic-researchers-200k",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "OpenAI, 연구자 무료 ChatGPT 프로그램 20만 명으로 확대…11월 23일 5만 건 선착순 신청",
+    "summary": "OpenAI가 'ChatGPT for Academic Researchers'를 최대 20만 명 규모로 넓힌다. 11월 23일부터 자격을 갖춘 신청자 선착순 5만 명에게 ChatGPT Plus를 주며, 건마다 공동연구자 2명까지 포함된다. 7월 시범 이후 33개국 2만 명이 참여했고, 설문 응답자들은 AI 없이는 같은 작업에 거의 두 배 시간이 걸렸을 것으로 추정했다.",
+    "why": "국내 연구자도 자격이 되면 신청할 수 있는 무료 접근 경로다(추첨→선착순으로 변경, 프로그램 데이터는 기본적으로 학습에 미사용).",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글(2026-11-16) 확인 + AI Affairs 보도."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/793p1h1iUmksoWkDep5NRR/580e87d687cea7ef8e8288bef51c7bd4/academic-researchers-seo-card.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 공식",
+        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "type": "source"
+      },
+      {
+        "label": "AI Affairs",
+        "url": "https://www.aiaffairs.com/corporate/openai-doubles-academic-researcher-access-target-200000/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-nvidia-vera-rubin-mlperf-rubin-hpc",
     "date": "2026-11-17",
     "category": "AI·IT",
@@ -273,6 +423,31 @@
       {
         "label": "MLCommons",
         "url": "https://mlcommons.org/2026/11/mlperf-training-v6-1-results/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-nvidia-no-sale-over-50pct-china-rental",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 엔비디아 \"GPU 50% 넘게 중국에 빌려주는 고객엔 칩 안 판다\"…원격 접근 법안(RASA) '법적 조치' 경고",
+    "summary": "CNBC가 소식통 2명을 인용해, 엔비디아가 GPU의 50% 넘게 중국 기업에 임대하는 고객에게는 당분간 칩을 팔지 않겠다고 했고, 하원을 통과한 원격접근보안법(RASA)이 시행되면 자사와 고객 모두 미국의 '법적 조치'를 받을 수 있다고 구매자들에게 경고했다고 보도했다. 앞서 FT는 신규 계약에서 비중국 고객 비중 51% 이상을 구두로 요구했다고 전한 바 있다.",
+    "why": "상무부의 원격 접근 차단 규칙(IFR)에 이어 엔비디아 스스로 해외 클라우드 우회로를 좁히는 것으로, 동남아·유럽 데이터센터 사업자의 수요 구조가 바뀔 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 단독(소식통 2명, 엔비디아·BIS 무응답) 원문 확인. 앞선 FT 51% 보도는 TNW 기사로 교차 확인. 엔비디아 공식 발표는 아님."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108551696-1794795719884-gettyimages-2304259055-nokings-sf1017.jpeg?v=1794840889&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+        "type": "source"
+      },
+      {
+        "label": "TNW(FT 51% 보도)",
+        "url": "https://thenextweb.com/news/nvidia-cloud-partners-cap-china-business",
         "type": "source"
       }
     ]
@@ -319,6 +494,125 @@
         "label": "The Register",
         "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-llama-cpp-fish-s2-yue2",
+    "date": "2026-11-17",
+    "category": "로컬 AI",
+    "title": "llama.cpp, Fish Audio S2 음성합성·YuE2-3B 음악 생성 지원 추가(b12452·b12458)",
+    "summary": "llama.cpp b12452에서 Fish Audio S2(s2-pro, Qwen3 4B 백본) TTS가 llama-tts와 서버(/v1/audio/speech, 스트리밍)에서 돌아가고 참조 음성 복제도 지원한다. b12458에선 m-a-p의 음악 생성 모델 YuE2-3B를 mmproj 하나로 '그냥 동작'하게 붙였다. 같은 시기 Inkling 채팅 파서(b12455), 웹 UI 'Llama Chat' 개편(b12451)도 들어갔다.",
+    "why": "음성합성·음악 생성까지 llama.cpp 하나로 로컬에서 돌릴 수 있게 됐다. 다만 YuE2-3B는 CC-BY-NC 4.0이라 상업 이용은 안 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스(b12452 2026-11-17 12:59 KST, b12458 14:36 KST)와 PR #32330·#32369 본문, HF 모델 카드 확인."
+    },
+    "specs": {
+      "license": "llama.cpp MIT · YuE2-3B CC-BY-NC 4.0 · s2-pro 별도 라이선스",
+      "params": "s2-pro 4B 백본 · YuE2 3B"
+    },
+    "links": [
+      {
+        "label": "b12452 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12452",
+        "type": "source"
+      },
+      {
+        "label": "b12458 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12458",
+        "type": "source"
+      },
+      {
+        "label": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "type": "github"
+      },
+      {
+        "label": "fishaudio/s2-pro",
+        "url": "https://huggingface.co/fishaudio/s2-pro",
+        "type": "huggingface"
+      },
+      {
+        "label": "m-a-p/YuE2-3B",
+        "url": "https://huggingface.co/m-a-p/YuE2-3B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-kospi-below-5000-hynix",
+    "date": "2026-11-17",
+    "category": "한국 IT",
+    "title": "코스피 9개월여 만에 5,000선 붕괴(4,968.48)…SK하이닉스 7개월 만에 110만 원 아래",
+    "summary": "코스피가 2.59% 내린 4,968.48로 마감해 4거래일 연속 하락했다(12일 이후 7.57%↓). SK하이닉스는 1.96% 내린 109만8,000원, 삼성전자는 3.30% 내린 19만300원에 마감했다. 연합뉴스는 젠슨 황 스캔들, 앤트로픽 상장, 미 국채 금리 상승을 '삼중고'로 꼽았다.",
+    "why": "증권가는 18일 새벽 엔비디아 실적과 19일 앤트로픽 IPO 흥행 여부를 분위기 반전의 계기로 보고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 2건 + 머니투데이 보도 확인(수치는 연합뉴스 기준)."
+    },
+    "image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/17/PYH2026111716180001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(코스피)",
+        "url": "https://www.yna.co.kr/view/AKR20261117065451008",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(반도체주)",
+        "url": "https://www.yna.co.kr/view/AKR20261117037851008",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/stock/2026/11/17/2026111715442030493",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-kaist-kormo-web-4b",
+    "date": "2026-11-17",
+    "category": "로컬 AI",
+    "title": "KAIST 'KORMo-Web' 공개…화면만 보고 웹 작업하는 4B 에이전트, 한국어 Online-Mind2Web 42.3%",
+    "summary": "KAIST 임경태 교수팀이 스크린샷만 보고 클릭·입력으로 웹 작업을 수행하는 KORMo-Web을 공개했다. 4B 모델(Qwen3.5-4B 기반)이 Online-Mind2Web에서 영어·한국어 모두 42.3%로, 비교한 공개 가중치 웹 에이전트보다 영어 9.6%p, 한국어 22.1%p 높았고, 9B는 영어 51.0%·한국어 48.1%였다. 자체 KORMo 기반 11B도 함께 나왔으며 가중치·학습 데이터·한국어 평가셋·크롬 확장 코드를 공개한다.",
+    "why": "개인 PC에서 돌릴 수 있는 크기의 한국어 브라우저 에이전트로, 네이버 쇼핑·쿠팡 같은 국내 사이트 작업까지 겨냥했다. MLX 4bit 변환본도 올라왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(Apache 2.0) + 전자신문 + IT비즈뉴스 확인. 성능 수치는 연구팀 자체 평가."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/17/news-p.v1.20261117.e5f7cbc657154c04afe08e1616eb6a5e_P1.png",
+    "specs": {
+      "params": "4B·9B·11B",
+      "license": "Apache 2.0",
+      "modality": "이미지(스크린샷)→행동",
+      "memory": "MLX 4bit 약 4.5GB(파일 기준)"
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261117000335",
+        "type": "source"
+      },
+      {
+        "label": "IT비즈뉴스",
+        "url": "https://www.itbiznews.com/news/articleView.html?idxno=231653",
+        "type": "source"
+      },
+      {
+        "label": "KORMo-VL/KORMo-Web-4B",
+        "url": "https://huggingface.co/KORMo-VL/KORMo-Web-4B",
+        "type": "huggingface"
+      },
+      {
+        "label": "KORMo-VL/KORMo-Web-9B",
+        "url": "https://huggingface.co/KORMo-VL/KORMo-Web-9B",
+        "type": "huggingface"
+      },
+      {
+        "label": "KORMo-Web-4B MLX 4bit",
+        "url": "https://huggingface.co/KORMo-VL/KORMo-Web-4B-mlx-4bit",
+        "type": "huggingface"
       }
     ]
   },
@@ -388,6 +682,31 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-databricks-ai-index-open-weight-30pct",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "데이터브릭스 AI 인덱스: 기업 토큰 중 오픈 웨이트 비중 7.3%→30.9%…단일 공급사 의존 64%→28%",
+    "summary": "데이터브릭스가 Unity Gateway를 쓰는 1만여 기업의 익명 데이터로 'AI 인덱스'를 공개했다. 오픈 웨이트 모델의 토큰 비중은 7월 7.3%에서 11월 30.9%로 늘었고, 한 공급사만 쓰는 기업 비율은 약 64%에서 28%로 줄었다. Opus 5.5는 6주 만에 독점 모델 토큰의 7.2%→37.9%로 늘었다.",
+    "why": "실제 기업 사용량 기준으로 오픈 웨이트 모델이 비용 절감 수단으로 빠르게 자리 잡고 있음을 보여 준다(데이터브릭스 고객 표본 한정).",
+    "verification": {
+      "status": "확인됨",
+      "note": "데이터브릭스 공식 블로그(2026-11-16) 원문 확인. 수치는 자사 Unity Gateway 표본 기준."
+    },
+    "image": "https://www.databricks.com/sites/default/files/2026-11/introducing-databricks-ai-index-state-enterprise-ai-tokenomics-blog-og_0.png",
+    "links": [
+      {
+        "label": "데이터브릭스 블로그",
+        "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
+        "type": "source"
+      },
+      {
+        "label": "AI 인덱스",
+        "url": "https://developers.databricks.com/ai-index",
         "type": "source"
       }
     ]
@@ -481,6 +800,56 @@
       {
         "label": "싱가포르 정부 성명",
         "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-anthropic-cvd-30-days",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "앤트로픽, 취약점 공개 기한 90일→30일로 단축(고·치명 등급)…\"AI가 같은 버그를 다시 찾는다\"",
+    "summary": "앤트로픽 프론티어 레드팀이 조정된 취약점 공개(CVD) 기한을 고·치명 등급은 90일에서 30일, 나머지는 45일로 줄인다고 밝혔다. 2027년 1월 1일 이후 신고분부터 적용하며, 무응답 시 외부 조정기관 에스컬레이션은 30일→15일, 패치 후 상세 공개는 45일→30일로 당긴다. 실제 악용 중인 취약점의 7일 기한은 그대로다.",
+    "why": "AI로 취약점 재발견 속도가 빨라졌다는 판단으로, 오픈소스 메인테이너의 패치 압박이 커지고 업계 공개 관행(90일)에도 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 글(2026-11-16) + Help Net Security 보도 확인."
+    },
+    "image": "https://assets.claude.com/87317c13cd86cd0b62244c430e91d0bb13b920a1.jpg",
+    "links": [
+      {
+        "label": "앤트로픽 공식",
+        "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+        "type": "source"
+      },
+      {
+        "label": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-amd-world-labs-closed",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "AMD, 월드랩스 인수 완료…페이페이 리, AMD 부사장 겸 수석과학자로",
+    "summary": "AMD가 3D 월드 모델 스타트업 월드랩스 인수를 마쳤다고 발표했다(종결일 11월 13일). 인수가는 약 82억 달러 규모 주식이며 실제 발행 주식은 14,978,322주(8-K/A). 공동창업자 페이페이 리는 EVP 겸 수석과학자로 리사 수 CEO에게 직접 보고한다.",
+    "why": "칩 회사가 대형 모델 연구팀을 직접 품어 하드웨어·소프트웨어를 모델과 함께 설계하겠다는 것으로, 엔비디아와의 AI 인프라 경쟁 구도에 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AMD 뉴스룸(2026-11-16) + SEC 8-K/A 공시 확인."
+    },
+    "image": "https://newsroom.amd.com/images/2026/09/063180c6-5b1a-4200-b238-99d7083699ae.jpg",
+    "links": [
+      {
+        "label": "AMD 뉴스룸",
+        "url": "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/",
+        "type": "source"
+      },
+      {
+        "label": "8-K/A 공시",
+        "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-26-462340/0001193125-26-462340.pdf",
         "type": "source"
       }
     ]
