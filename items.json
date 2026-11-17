@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-11-17-vllm-v0-34-0",
+    "date": "2026-11-17",
+    "category": "로컬 AI",
+    "title": "vLLM v0.34.0: Mistral Large 4 등 신규 모델 10종, KV 캐시 자동 확장 기본값…업그레이드 주의",
+    "summary": "vLLM v0.34.0이 Mistral Large 4(1T/52B 활성), MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, LFM3 계열 등 10개 모델을 추가했다. 워밍업 후 실제 남은 메모리로 KV 캐시를 잡는 기능이 기본으로 켜졌고(gpu_memory_utilization 기본 1.0), Model Runner V1 삭제·기본 block size 64·huggingface_hub 2.0 이상 필수 등 호환성을 깨는 변경이 많다.",
+    "why": "자체 서빙 환경에서 캐시·처리량이 늘지만, 기존 설정이 시작 단계에서 실패할 수 있어 릴리스 노트의 'Before you upgrade' 표를 먼저 봐야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트 확인(2026-11-16 23:22 UTC = 11/17 08:22 KST)."
+    },
+    "specs": {
+      "license": "Apache 2.0"
+    },
+    "links": [
+      {
+        "label": "릴리스 노트",
+        "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+        "type": "source"
+      },
+      {
+        "label": "vllm-project/vllm",
+        "url": "https://github.com/vllm-project/vllm",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-vidraft-darwin-180b-superclue",
+    "date": "2026-11-17",
+    "category": "한국 IT",
+    "title": "비드래프트 오픈 모델 '다윈-180B', 中 SuperCLUE 수학·과학 추론 공개 가중치 1위(회사 발표)",
+    "summary": "비드래프트는 자사 1,800억 파라미터 모델 Darwin-180B-RSI가 SuperCLUE 11월 평가 수학·과학 추론에서 공개 가중치 모델 1위, 전체로는 GPT-6.1 Sol에 이어 2위였고 2.8조 파라미터 키미 K3.1 프로보다 10점 이상 높았다고 밝혔다. 여러 공개 모델의 FFN 강점을 합성한 뒤 스스로 만든 풀이를 검증해 재학습하는 방식이며, 허깅페이스에 가중치와 GGUF가 공개돼 있다.",
+    "why": "국내 스타트업 오픈 모델이 중국 평가에서 대형 모델을 앞섰다는 주장이다. 순위·점수는 회사 발표와 회사 HF 블로그 기준이라 SuperCLUE 원표 확인이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 보도 + 비드래프트(FINAL-Bench) HF 블로그·모델 카드 확인. 순위는 회사 측 정리."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/17/54f606e18788cee07891c26bb833e8ad.jpg",
+    "specs": {
+      "params": "180B"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261117112235",
+        "type": "source"
+      },
+      {
+        "label": "FINAL-Bench HF 블로그",
+        "url": "https://huggingface.co/blog/FINAL-Bench/superclue-november-2026-category-leaders-open-mode",
+        "type": "source"
+      },
+      {
+        "label": "FINAL-Bench/Darwin-180B-RSI-R3",
+        "url": "https://huggingface.co/FINAL-Bench/Darwin-180B-RSI-R3",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-upstage-cohere-sovereign-ai",
+    "date": "2026-11-17",
+    "category": "한국 IT",
+    "title": "업스테이지, 캐나다 코히어와 소버린 AI 동맹…'솔라'를 코히어 '노스'에 탑재",
+    "summary": "업스테이지가 코히어와 전략적 파트너십을 맺고 솔라 프로·솔라 미니·도큐먼트 파스를 코히어의 기업용 에이전트 플랫폼 '노스'에 결합해 온프레미스·클라우드 VPC 방식으로 보안·규제가 까다로운 기업·기관에 공급한다. 아태 지역 공동 사업과 모델 개발 기술 협력도 넓힌다.",
+    "why": "국내 독자 모델이 글로벌 엔터프라이즈 플랫폼에 들어가는 사례다. 금융·공공처럼 데이터 반출이 어려운 시장을 겨냥한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문·연합뉴스·ZDNet Korea(11/17) 확인, 업스테이지 발표."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/17/news-p.v1.20261117.1383bc9100204b9c9bd6bfc3500885ff_P1.png",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261117000029",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261117031000017",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-unsloth-studio-computer-use-beta",
     "date": "2026-11-17",
     "category": "로컬 AI",
@@ -25,6 +110,31 @@
         "label": "unsloth/MiniMax-H3-Image-GGUF",
         "url": "https://huggingface.co/unsloth/MiniMax-H3-Image-GGUF",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-scatterlab-zeta-trust-safety",
+    "date": "2026-11-17",
+    "category": "한국 IT",
+    "title": "스캐터랩, '제타' 대표 직속 안전 전담팀 신설…AI 개발 핵심 인력 절반 검수 모델에",
+    "summary": "스캐터랩이 김종윤 대표가 이끄는 '트러스트&세이프티 팀'을 만들고 주요 AI 개발 인력 절반을 콘텐츠·대화 검수 모델 개발에 투입한다. 플롯 3단계 검수, 연령별 접근 제한·발화 기준, AI와 대화 중임을 주기적으로 알리는 기능을 넣고, 청소년 하루 3시간·월 결제 10만 원 제한은 연내 국내 도입한다.",
+    "why": "청소년 AI 챗봇 과몰입 우려와 AI기본법 시행 속에 국내 대표 AI 캐릭터 서비스가 내놓은 안전 대책이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea·디지털데일리·아주경제 등(11/17) 확인, 회사 발표."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/17/5cd97f8e8122da3e2cfc5e75715a6dd1.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261117103025",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026111709214375241",
+        "type": "source"
       }
     ]
   },
@@ -59,6 +169,60 @@
     ]
   },
   {
+    "id": "2026-11-17-openai-tensorwave-457mw-amd",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "OpenAI, 텐서웨이브와 AMD MI455X 기반 457MW 6년 계약",
+    "summary": "AMD 중심 네오클라우드 텐서웨이브가 OpenAI에 AMD Instinct MI455X·Helios 랙 기반 전용 용량 457MW를 미국 여러 데이터센터에서 6년간 공급한다. 2027년 상반기 가동을 시작해 2028년 초 전량 배치할 예정이며, 텐서웨이브 최대 계약이다.",
+    "why": "OpenAI가 엔비디아 외 AMD 인프라를 대규모로 늘리는 흐름이 구체화됐다. 금액·부지는 공개되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "텐서웨이브 보도자료(BusinessWire) + DCD·ZDNet Korea 확인."
+    },
+    "image": "https://media.datacenterdynamics.com/media/images/TensorWave.2e16d0ba.fill-1200x630.jpg",
+    "links": [
+      {
+        "label": "텐서웨이브 보도자료",
+        "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
+        "type": "source"
+      },
+      {
+        "label": "DCD",
+        "url": "https://www.datacenterdynamics.com/en/news/openai-signs-on-for-457mw-ai-capacity-with-tensorwave/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-openai-embedded-assessments-apollo-metr",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "OpenAI, 외부 안전 평가기관 4곳을 내부에 상주시킨다…Apollo·METR·Transluce·Goodfire",
+    "summary": "OpenAI가 Apollo Research·METR·Transluce·Goodfire와 '임베디드 평가' 1단계 계약을 맺고 모델 체크포인트·소스 코드·학습·평가 데이터·모니터링 시스템 등 내부 자원 접근을 허용한다. Apollo는 6명이 4개월간 상주해 모델이 개발자 의도에 몰래 반하는지와 안전장치가 이를 잡아내는지 평가하고, METR은 OpenAI 사상 최대 강화학습 실행의 정렬 문제를 본다.",
+    "why": "캘리포니아주 제소·허깅페이스 사고 직후, 외부 기관이 학습 중인 모델까지 깊게 들여다보는 첫 사례라 업계 독립 평가 기준이 될 수 있다. 다만 Apollo는 접근·공개 권한이 제한적이라고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표(11/16) + Apollo Research 공식 블로그 + CNBC 확인."
+    },
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+        "type": "source"
+      },
+      {
+        "label": "Apollo Research 블로그",
+        "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-openai-csam-classifier-free-api",
     "date": "2026-11-17",
     "category": "AI·IT",
@@ -79,6 +243,36 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50520804",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-nvidia-vera-rubin-mlperf-rubin-hpc",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "엔비디아 Vera Rubin, MLPerf 학습 첫 출전서 GPU당 최대 2배…SC26서 5만 CUDA 코어 'Rubin HPC' 발표",
+    "summary": "MLPerf Training v6.1에서 Vera Rubin NVL72가 7개 중 6개 벤치마크 최단 학습 시간을 기록했고, DeepSeek-V3 671B를 GPU 1,024개로 4.14분(GB300 NVL72는 8.03분)에 학습했다(엔비디아 발표). SC26에서는 GPU당 CUDA 코어 5만 개 이상·7세대 NVLink를 갖춘 과학·공학 시뮬레이션용 Rubin HPC를 공개했고 2028년 출시 예정이다.",
+    "why": "CEO 공백 속에서도 차세대 플랫폼 성능이 공개 벤치마크로 처음 확인됐다. AMD MI455X Helios와의 경쟁 구도를 볼 기준점이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 기술 블로그·공식 블로그(11/16) + MLCommons 결과 발표 + Tom's Hardware 확인. 수치는 엔비디아 제출 기준."
+    },
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1.jpg",
+    "links": [
+      {
+        "label": "엔비디아 MLPerf 블로그",
+        "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/",
+        "type": "source"
+      },
+      {
+        "label": "Rubin HPC 발표",
+        "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "type": "source"
+      },
+      {
+        "label": "MLCommons",
+        "url": "https://mlcommons.org/2026/11/mlperf-training-v6-1-results/",
         "type": "source"
       }
     ]
@@ -109,6 +303,26 @@
     ]
   },
   {
+    "id": "2026-11-17-ms365-outage-root-cause-july-defect",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "업데이트: MS 365 대장애 원인은 7월 배포한 패치의 잠복 결함…서버 80% 이상 먹통",
+    "summary": "마이크로소프트 예비 사고 보고서에 따르면 7월 네트워크 게이트웨이 서버에 적용한 수정이 코어가 많은 최신 하드웨어에서 내부 Windows 프로세스 락 경합을 일으켰고, Teams 장애 조치로 부하가 몰리고 용량 약 14%가 빠진 상황에서 터졌다. 최저점에는 서버 80% 이상이 응답하지 않았고, 결함이 몇 달 묵어 롤백이 안 돼 '패치의 패치'로 복구했다.",
+    "why": "부하 테스트가 약한 하드웨어 위주였다는 점을 MS 스스로 인정했다. 최종 보고서는 11월 20일 나온다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Register가 MS 예비 사고 보고서(11/15) 내용 인용·보도."
+    },
+    "image": "https://image.theregister.com/254046.jpg?imageId=254046&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-ios-27-3-beta-siri-ai-daily-limits-icloud",
     "date": "2026-11-17",
     "category": "AI·IT",
@@ -129,6 +343,51 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-imf-ai-circular-financing-1t",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "IMF 총재 \"세계 경제가 AI 한 다리로 서 있다\"…AI 순환금융 1조 달러 넘어",
+    "summary": "크리스탈리나 게오르기에바 IMF 총재가 CNBC 인터뷰에서 AI 기업 간 순환금융이 1조 달러를 조금 넘었고 그중 약 3분의 2가 부채로 조달됐다고 밝혔다. \"이 다리가 흔들리면 금융 안정 문제로 이어질 수 있다\"면서도 최근 시장 변동은 '질서 있는' 수준이라고 평가했다.",
+    "why": "연준 금융안정보고서에 이어 IMF까지 AI 투자 쏠림을 금융 위험으로 짚었다. 엔비디아 실적과 앤트로픽 상장을 앞둔 주간이라 시장 민감도가 높다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 인터뷰 기사 + 아나돌루통신 등 복수 매체 확인."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108533958-1793988889190-gettyimages-2303346838-UEDA_IMF.jpeg?v=1793988928&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-fbi-artex-flash-alert",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "FBI 긴급 경보: 오픈소스 AI 해킹 도구 ARTEX, '3시간 안에' 침투…국내 금융권 공격도 확인",
+    "summary": "FBI가 플래시 경보에서 자율형 AI 침투 테스트 도구 ARTEX가 금융·정부·통신·국방·로펌 등을 노린 공격에 쓰였고, 일부는 표적 지정부터 장악까지 3시간이 안 걸렸다고 밝혔다. 한국 금융기관 공격으로 최소 6만8,000명의 개인정보가 털렸고 ConnectWise 고객 최소 2,250곳의 M365 환경도 뚫렸으며, 개발사가 비공개로 돌렸지만 예전 오픈소스판이 계속 돌고 있다고 경고했다.",
+    "why": "AI 에이전트형 공격이 사람 대응 속도를 앞질렀다는 정부 공식 경고다. 국내 금융권 피해가 다단계 인증 부재 등 기본 보안 미비에서 비롯됐다는 점도 짚었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FBI IC3 경보 PDF + TechCrunch(11/16) 확인. 피해 인원은 TechCrunch 기준 '최소 6만8,000명'."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/02/china-hacker-computer-flag.jpg?resize=1200,675",
+    "links": [
+      {
+        "label": "FBI IC3 경보(PDF)",
+        "url": "https://www.ic3.gov/csa/2026/261113.pdf",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
         "type": "source"
       }
     ]
