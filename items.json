@@ -1,5 +1,313 @@
 [
   {
+    "id": "2026-11-18-sensenova-loop-9b",
+    "date": "2026-11-18",
+    "category": "로컬 AI",
+    "title": "센스타임 'SenseNova-Loop-9B' 정식 공개(Apache 2.0)…레이어 반복으로 9B가 Qwen3.8-27B급",
+    "summary": "10월 프리뷰에 이은 정식판으로, 32개 레이어 중 24개를 두 번 돌려 56번 계산하는 루프 구조의 텍스트·이미지 입력 모델이다. 4비트 가중치는 약 4.9GB이고, 256K 컨텍스트도 8비트 KV 캐시로 약 15GiB에서 돌릴 수 있다고 밝혔다.",
+    "why": "AIDABench 65.31(Qwen3.8-27B 65.01), Terminal-Bench 2.1 59.55로 프리뷰보다 크게 올랐다(회사 측정). 다만 vLLM·SGLang 지원은 아직 PR 브랜치 단계다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 공식 모델 카드(11/17 정식 공개 명시) 확인. 벤치마크는 자체 측정."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/sensenova/SenseNova-Loop-9B.png",
+    "specs": {
+      "params": "약 9B(추론 환산 14.6B)",
+      "license": "Apache 2.0",
+      "memory": "4비트 약 4.9GB, 256K 컨텍스트 약 15GiB",
+      "context": "512K",
+      "modality": "텍스트·이미지 → 텍스트"
+    },
+    "links": [
+      {
+        "label": "HF 모델 카드(공식 발표)",
+        "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+        "type": "source"
+      },
+      {
+        "label": "sensenova/SenseNova-Loop-9B",
+        "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-perplexity-1b-run-rate",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "퍼플렉시티 연 환산 매출 10억 달러 돌파…매출총이익률 -219%→+17%",
+    "summary": "아라빈드 스리니바스 CEO가 16일(현지시간) 세마포 행사에서 연 환산 매출이 10억 달러를 넘었다고 밝혔다. 빠른 검색 요청의 80~90%를 자체 모델로 처리하며, 전체 매출총이익률은 지난해 4분기 -219%에서 올해 3분기 +17%로 개선됐다고 지디넷코리아가 전했다.",
+    "why": "연초 2억 5,000만 달러 미만에서 4배 넘게 늘었다. 자체 모델과 외부 모델을 섞어 추론비를 줄이는 전략이 수익성으로 이어지는지 보여주는 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "세마포(행사 주최) 기사 + 지디넷코리아 보도 교차 확인. 영업이익 흑자는 아님."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/17/fc2eef195ee7d2ce96ad92cdd1047cef.jpg",
+    "links": [
+      {
+        "label": "Semafor",
+        "url": "https://www.semafor.com/article/11/16/2026/america-needs-to-have-more-jensens-perplexity-ceo-lauds-huang-as-industry-titan",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261117155018",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-ovh-olala-mini-7a1b",
+    "date": "2026-11-18",
+    "category": "로컬 AI",
+    "title": "OVH클라우드 첫 자체 LLM 'Olala mini 7A1B' 발표…8GB GPU·CPU에서 동작, 가중치는 19일 공개 예정",
+    "summary": "유럽 클라우드 OVH가 7B 전체·1B 활성 MoE(레이어당 전문가 256개), Differential-TPA와 Mamba-3 혼합 어텐션 구조의 Olala mini를 발표했다. RTX A4500에서 초당 160토큰, CPU에서 50토큰이 나온다고 밝혔고, Apache 2.0으로 HF에 공개한다고 했다.",
+    "why": "8GB GPU나 GPU 없는 서버에서도 돌릴 수 있는 유럽산 소형 에이전트 모델이다. 정식 공개는 19일 OVHcloud AI Summit이며, 컨텍스트는 32K(v1.1에서 128K)다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OVH 공식 보도자료 + 독립 기사 교차 확인. 아직 HF에 가중치는 안 올라옴, 벤치마크 미공개."
+    },
+    "specs": {
+      "params": "7B (활성 1B)",
+      "license": "Apache 2.0(예정)",
+      "memory": "GPU 8GB부터",
+      "context": "32K"
+    },
+    "links": [
+      {
+        "label": "OVH 보도자료",
+        "url": "https://corporate.ovhcloud.com/en/newsroom/news/ovh-olala-mini/",
+        "type": "source"
+      },
+      {
+        "label": "Pasquale Pillitteri 기사",
+        "url": "https://pasqualepillitteri.it/en/news/34406/ovhcloud-launches-olala-mini-open-model-8-gb-gpu",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-openai-gpt-6-2-astra-sol",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "OpenAI GPT-6.2 Astra·Sol 출시…Astra API 가격 20% 인하(입력 $8·출력 $40)",
+    "summary": "OpenAI가 프런티어 모델 GPT-6.2 Astra와 일상 업무용 GPT-6.2 Sol을 공개했다. Astra는 Agents' Last Exam에서 GPT-6 Astra보다 5.2점 높았다고 밝혔고, API 가격은 100만 토큰당 입력 $8·캐시 입력 $0.40·출력 $40, Sol은 기존 6.1 Sol 가격($2/$0.10/$10)을 유지한다.",
+    "why": "Plus·Pro·Enterprise·Edu의 ChatGPT Work·Codex와 API에 바로 풀렸다. 두 모델이 작업을 막는 장애물을 사용자에게 덜 알리는 경향이 일부 평가에서 확인됐다고 OpenAI 스스로 밝힌 점도 눈여겨볼 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 발표문 확인(가격·제공 범위·안전성 평가). HN 900점+."
+    },
+    "image": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+    "specs": {
+      "price": "Astra 입력 $8 / 캐시 $0.40 / 출력 $40 (100만 토큰당), Sol $2 / $0.10 / $10"
+    },
+    "links": [
+      {
+        "label": "OpenAI 발표",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50535230",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-microsoft-mai-code-2",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "MS 자체 코딩 모델 'MAI Code 2'·'Code 2 Flash' 공개…GitHub Copilot에 탑재",
+    "summary": "마이크로소프트 AI가 이그나이트 2026에서 기업 일상 코딩용 MAI Code 2와 대량 작업용 Code 2 Flash를 공개했다. 4개 벤치마크 평균에서 GPT 6.1 Sol 성능의 98%를 비용 40%로, Claude Opus 5.5 성능의 96%를 비용 5%로 낸다고 밝혔다(자체 측정, 50% 프로모션 가격 기준).",
+    "why": "MS가 OpenAI 모델 대신 자체 모델을 Copilot의 주력으로 넣기 시작했다는 신호다. 과학 연구·초장기 에이전트 작업에는 아직 맞춰지지 않았다고 MS가 직접 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Microsoft AI 공식 발표 확인. 성능·비용은 MS 자체 평가(일부 Artificial Analysis 수치)."
+    },
+    "image": "https://microsoft.ai/wp-content/uploads/2026/11/MAI-Code-2-Ignite-WithHeader-16x9-1.jpg",
+    "links": [
+      {
+        "label": "Microsoft AI 발표",
+        "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50535885",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-lg-juvo-care",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "LG전자, 미국에 AI 가정 돌봄 플랫폼 '주보 케어' 설립(지분 54%)",
+    "summary": "LG전자 북미이노베이션센터(LG 노바)가 AI로 의료기관·환자·가족과 간병인을 연결하는 비의료 가정 돌봄 플랫폼 '주보 케어(Juvo Care)'를 3분기 미국에 별도 법인으로 세웠고, LG전자 지분율은 54%라고 전자신문이 보도했다.",
+    "why": "가전 중심의 LG전자가 AI 기반 헬스케어 서비스로 넓히는 움직임이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 단독 보도 1건. LG전자 공식 보도자료는 아직 못 찾음."
+    },
+    "image": "https://img.etnews.com/news/article/2024/09/30/ams.V01.photo.ETN.P.20240930.P12024093010581002325571590_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261117000251",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-lee-ai-exam-cheating-law",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "업데이트: 李대통령 \"AI 기업, 불법 시험답안 요청 사례 의무 제출\" 법 제정 지시…여야도 AI 커닝 특별법 착수",
+    "summary": "이재명 대통령이 필리핀에서 화상으로 수능 비상 점검회의를 열고, 정부가 요청하면 AI 기업이 불법 시험답안 요구 사례를 의무로 내도록 하는 법을 만들라고 지시했다. 부정행위 신고 포상금은 건당 1억 원 이상으로 하고, 민주당은 응시자격 박탈 10년, 국민의힘은 전자기기 부정행위 벌금형 없는 5년 이하 징역을 담은 특별법을 각각 추진한다.",
+    "why": "AI 서비스 이용 기록을 법으로 정부에 제출하게 하는 첫 사례가 될 수 있어, 국내외 AI 기업의 이용자 데이터 처리 방식에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 속보 + 지디넷코리아 2건(대통령 회의·국회 특별법) 교차 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/17/b03e6043f1b8483f7b3f8168b5b8c924.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261117171000001",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아(대통령 회의)",
+        "url": "https://zdnet.co.kr/view/?no=20261117232218",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아(국회 특별법)",
+        "url": "https://zdnet.co.kr/view/?no=20261117231318",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-java4shell-cve-2026-114938",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "자바 치명적 취약점 'Java4Shell'(CVE-2026-114938)…OpenJDK Base64 디코더, 인증 없이 원격 코드 실행",
+    "summary": "Calif가 OpenJDK Base64 디코더(AVX-512 VBMI 최적화 코드)의 메모리 손상 취약점을 공개했다(CVSS 4.0 9.2점). Keycloak·Jira·Confluence·Jenkins 등에서 기본 설정 인증 전 RCE를 시연했고, 오라클은 17일(현지시간) 패치를 냈다(오라클 자체 평가는 CVSS 3.1 8.1점).",
+    "why": "OpenJDK 17.0.6 이상 + 인텔 아이스레이크 이후 제온·AMD 젠4 이후 CPU가 대상이며 ARM64는 영향 없다. 즉시 업데이트하거나 -XX:-UseBASE64Intrinsics 옵션으로 완화할 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "발견사 Calif 원문 + Aikido 보안 블로그 + 연합뉴스 보도 교차 확인. 17일 기준 실제 악용 보고는 없음(Aikido)."
+    },
+    "image": "https://calif.io/java4shell/poster.jpg",
+    "links": [
+      {
+        "label": "Calif 원문",
+        "url": "https://calif.io/java4shell/",
+        "type": "source"
+      },
+      {
+        "label": "Aikido 분석",
+        "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261118014000017",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50538240",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-ignite-copilot-autopilot-decision-1-1",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "MS 이그나이트: '오피스 인 코파일럿' 정식 출시·자율 에이전트 'Autopilot' 배포 시작·Decision 1.1 GA",
+    "summary": "나델라 CEO가 '코파일럿은 업무를 위한 새 OS'라며 Home·Office in Copilot 정식 제공, Code는 수 주 내 정식 출시, 24시간 일하는 개인 에이전트 Autopilot은 Frontier 고객부터 배포한다고 발표했다. 결정 특화 모델 Microsoft-Decision-1.1도 Foundry에서 정식 출시됐고, 나델라는 'LLM 방식보다 10배 이상 빠르고 비용은 200분의 1'이라고 말했다.",
+    "why": "Autopilot은 Entra Agent ID와 담당 관리자를 따로 두고 활동이 자기 이름으로 기록된다. 기업이 에이전트를 '직원'처럼 관리하는 구조가 본격 상용화되는 셈이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MS 공식 블로그(Copilot 블로그·Official Microsoft Blog·Command Line) + 지디넷코리아 보도 교차 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/18/23084683ee639ebd5a497c044ee70eef.jpg",
+    "links": [
+      {
+        "label": "MS Copilot 블로그",
+        "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+        "type": "source"
+      },
+      {
+        "label": "Decision 1.1 GA",
+        "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261118042645",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-apple-services-outage-internal-update",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "애플 iCloud·앱스토어·애플 뮤직 등 대규모 장애…\"내부 업데이트 탓, 사이버 공격 아냐\"",
+    "summary": "17일(미국 시간) iCloud 계정·로그인, 앱스토어, 애플 뮤직, AppleCare 등에 장애가 나 iCloud 강제 로그아웃·아이폰 활성화 실패가 보고됐다. 애플은 내부 업데이트가 원인이며 사이버 공격이 아니라고 밝혔고, 이후 iCloud 로그인 문제는 해결됐다고 공지했다(로이터).",
+    "why": "MS 365·JP모건 체이스에 이어 일주일 새 대형 장애가 연달아 이어지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch·9to5Mac·AP 보도 + 애플 상태 페이지·애플 성명 인용 교차 확인. HN 530점+."
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+        "type": "source"
+      },
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/11/17/icloud-app-store-and-other-apple-services-hit-by-ongoing-outage/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50535238",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-anthropic-ipo-above-range-report",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 앤트로픽 IPO, 희망 범위($70~78) 웃돌게 가격 확정할 듯(CNBC 소식통)",
+    "summary": "CNBC는 여러 소식통을 인용해 앤트로픽이 공모가를 희망 범위 $70~78보다 높게 정할 가능성이 크며, 17일 오후 4시(미 동부) 수요예측을 마감한다고 보도했다. 공모가는 18일 저녁(미국 시간) 확정, 19일 나스닥 'ANT'로 거래를 시작할 예정이다.",
+    "why": "범위 상단 기준 기업가치는 약 1.4조 달러로, 공모가가 사상 최대 규모 AI 상장의 첫 가격 신호가 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 보도(익명 소식통) + CNBC IPO 가이드·Investopedia의 일정 확인. 최종 공모가는 아직 미발표."
+    },
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+        "type": "source"
+      },
+      {
+        "label": "CNBC IPO 가이드",
+        "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-windows11-coding-agent-telemetry",
     "date": "2026-11-17",
     "category": "AI·IT",
