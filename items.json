@@ -144,6 +144,31 @@
     ]
   },
   {
+    "id": "2026-11-17-uber-fireworks-breach-150k",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "업데이트: Fireworks AI 침해 여파, 우버 운전자 약 15만 명(149,346명) 면허 정보 유출 통지",
+    "summary": "우버가 여러 미국 주 법무장관에게 낸 통지에서 Fireworks AI 침해로 운전자 149,346명의 이름·주소·생년월일·운전면허 번호 등이 유출됐다고 밝혔다. 앞서 알려진 3개 주 7,870명보다 크게 늘었다. 해커가 Fireworks 내부 자격 증명을 써서 우버 측 경보도 울리지 않았다고 한다.",
+    "why": "오픈 웨이트 모델 추론 업체 한 곳의 침해가 노션·Cursor에 이어 우버 운전자 데이터로 번진 AI 공급망 사고다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch + BleepingComputer·SecurityWeek·The Record 독립 보도(주 법무장관 신고 기반)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/uber-breach-2288234319.jpg?resize=1200,820",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-suneung-ai-cheating-wifi-bigtech",
     "date": "2026-11-17",
     "category": "한국 IT",
@@ -259,6 +284,31 @@
       {
         "label": "Moneycontrol",
         "url": "https://www.moneycontrol.com/news/business/china-is-using-america-s-ai-to-build-its-own-over-300-documents-reveal-how-14081926.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-rakuten-securities-breach",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "라쿠텐증권 무단 접근…최대 약 447만 계좌 연소득·금융자산·출금 계좌 등 유출 가능성",
+    "summary": "라쿠텐증권은 11월 16일 일부 시스템에 대한 제3자 무단 접근을 감지했고, 11월 11일 테스트 환경 시스템의 일부 정보가 외부로 유출됐을 우려가 있다고 발표했다. 이름·생년월일·주소·전화·이메일·근무처·출금 계좌·연소득·금융자산 등은 최대 약 447만 계좌, 고객코드·로그인 ID는 최대 약 1,125만 계좌가 대상이다. 비밀번호·PIN 유출과 부정 거래는 확인되지 않았다고 밝혔다.",
+    "why": "일본 대형 온라인 증권사의 대규모 금융 개인정보 유출 가능성이다. 테스트 환경에 실제 고객 데이터가 있었다는 점, 사칭 피싱 위험이 커졌다는 점에서 주목된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "라쿠텐증권 공식 공지 + 닛케이 보도 확인"
+    },
+    "image": "https://www.rakuten-sec.co.jp/web/shared/images/og-image.gif",
+    "links": [
+      {
+        "label": "라쿠텐증권 공지",
+        "url": "https://www.rakuten-sec.co.jp/web/info/info20261117-02.html",
+        "type": "source"
+      },
+      {
+        "label": "닛케이",
+        "url": "https://www.nikkei.com/article/DGXZQOUB179TR0X11C26A1000000/",
         "type": "source"
       }
     ]
@@ -637,6 +687,30 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-infoblox-vendor-breach",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "보안·DNS 업체 인포블록스, 셰어포인트 이전 협력사 통해 침해 확인…고객 데이터 유출 보도",
+    "summary": "인포블록스가 해킹된 제3자 데이터 마이그레이션 업체를 통한 회사 정보 무단 접근을 확인했다. TechCrunch는 소식통을 인용해 민감한 고객 데이터가 빠져나갔다고 보도했고, The Register는 고객 NIOS 배포 스냅숏과 직원 정보가 노출됐다고 전했다. 회사는 제품·클라우드 서비스·업데이트·빌드 과정은 관련 징후가 없다고 밝혔다.",
+    "why": "기업 DNS·DHCP 인프라를 다루는 보안 업체의 고객 설정 데이터가 협력사를 통해 새어 나간 공급망 사고다. 이용 기업은 설정 정보 노출에 대비해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "회사 공식 확인(TechCrunch 인용) + The Register 독립 보도. 고객 데이터 범위는 보도 기준"
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/11/16/infoblox-customer-and-staff-data-exposed-in-sharepoint-breach/5310280",
         "type": "source"
       }
     ]
