@@ -29,6 +29,36 @@
     ]
   },
   {
+    "id": "2026-11-17-optimizely-supply-chain-malware",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "Optimizely 공급망 공격…Zoom·BBC·CNN·GitLab 등 178개 조직 사이트에 악성 스크립트",
+    "summary": "11월 16일(UTC) 공격자가 Optimizely Web 고객 프로젝트의 'Project JavaScript'에 코드를 심어, 178개 조직 사이트 방문자에게 암호화폐 주소 바꿔치기·카드 정보 스키밍·쿠키/스크린샷 탈취 스크립트가 배포됐고 iOS 18.6 이하 등에는 Coruna·DarkSword 익스플로잇 킷까지 로드됐다(Report URI). 21:52 UTC 기준 188개 감염 스니펫 중 1개만 남았고, 19:25 UTC까지 공격자 지갑에 약 7,040달러가 들어왔다.",
+    "why": "신뢰된 cdn.optimizely.com에서 정상 인증서로 배포돼 사이트 자체가 뚫리지 않아도 방문자가 피해를 입는 서드파티 스크립트 공급망 공격. 16일 해당 사이트에서 카드 입력·지갑 주소 복사를 했다면 확인이 필요하고, 구버전 iOS는 업데이트 권장.",
+    "verification": {
+      "status": "확인됨",
+      "note": "보안 연구자 Scott Helme(Report URI) 1차 분석 보고서 + TokenPost·Techmeme 등 보도. 침투 경로와 Optimizely 공식 입장은 아직 확인 안 됨"
+    },
+    "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
+    "links": [
+      {
+        "label": "Report URI 분석",
+        "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+        "type": "source"
+      },
+      {
+        "label": "TokenPost",
+        "url": "https://www.tokenpost.com/news/technology/58901",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-openai-csam-classifier-free-api",
     "date": "2026-11-17",
     "category": "AI·IT",
@@ -99,6 +129,30 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-chase-outage-us-banks",
+    "date": "2026-11-17",
+    "category": "AI·IT",
+    "title": "JP모건 체이스 기술 문제로 미국 주요 은행·Zelle 온라인 뱅킹 지연…'사이버 공격 아냐'",
+    "summary": "16일(미국 시간) JP모건 체이스의 기술 문제로 체이스뿐 아니라 여러 미국 주요 은행과 Zelle 이용 고객 수천 명이 온라인 계좌 접속·이체 지연을 겪었다. 체이스는 원인을 온프레미스 하드웨어 시스템의 소프트웨어 버그로 밝히고 사이버 공격이 아니라고 했으며 현재는 복구됐다.",
+    "why": "미국 최대 은행 한 곳의 장애가 금융망 전체로 번진 사례로, 핵심 결제 인프라의 집중 위험을 보여 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AP·NBC·BBC·워싱턴포스트 등 독립 보도, 체이스 원인 설명 인용"
+    },
+    "links": [
+      {
+        "label": "AP News",
+        "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e",
+        "type": "source"
+      },
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/business/consumer/outages-chase-banking-online-branches-rcna609673",
         "type": "source"
       }
     ]
