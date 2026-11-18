@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-11-18-waymo-suspends-us-freeway-rides",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "웨이모, 美 전 지역 고속도로 무인 운행 중단…캘리포니아 DMV '임박한 위험' 명령 여파",
+    "summary": "캘리포니아 DMV가 공사 구간 진입이 반복됐다며 11일자로 웨이모의 주 내 고속도로 무인 운행을 금지했고(17일 공개), 웨이모는 이를 따르면서 캘리포니아 밖을 포함한 모든 운영 지역에서 고속도로 운행을 멈췄다. DMV는 US-101 버링게임 인근에서 차량 3대가 공사 폐쇄 구간에 들어간 사건 등을 근거로 들었고, 일반 도로 운행은 계속된다.",
+    "why": "로보택시 고속도로 확장의 핵심 시장에서 규제 당국이 '임박한 위험'을 이유로 제동을 건 첫 사례로, 웨이모가 시정 조치를 입증할 때까지 금지가 유지된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch(DMV 확인) + BBC 보도 교차 확인, 웨이모 입장 인용 포함"
+    },
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/80ea/live/d55939e0-e31c-11f1-99a1-253766e7ad8b.jpg",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
+        "type": "source"
+      },
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.com/news/articles/cmy86pp336qlo",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-vals-autonomous-warfare-targeting",
     "category": "AI·IT",
     "title": "Vals 연구 \"프런티어 AI, 드론·위성 영상서 민간인도 표적 지정…'게임'이라 하면 거부 풀려\"",
@@ -51,6 +76,31 @@
       {
         "label": "TokenPost 보도",
         "url": "https://www.tokenpost.com/news/technology/60139",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-softbank-son-anthropic-missed-investment",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "손정의 \"앤트로픽에 투자 안 한 건 내 실수\"…오픈AI에 약 10조엔 집중",
+    "summary": "손정의 소프트뱅크그룹 회장이 18일 도쿄 닛케이 행사에서 앤트로픽과 지분 투자를 논의했지만 넣지 않은 것을 자신의 실패 사례로 꼽았다. 그는 '때로는 한쪽에 힘을 실어야 동료가 될 수 있다'며 오픈AI 중심 전략(누적 약 10조엔 투자)을 재확인했다.",
+    "why": "앤트로픽 IPO 가격 확정을 앞두고 오픈AI 최대 후원자가 경쟁사 투자 기회를 놓친 걸 공개적으로 인정했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "닛케이아시아 + 뉴스핌 보도 교차 확인(행사 발언)"
+    },
+    "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F8%2F8%2F6%2F13456885-1-eng-GB%2F2c07920bc185-photo_SXM2026111800004466.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+    "links": [
+      {
+        "label": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/softbank-s-son-calls-missing-anthropic-investment-one-of-his-mistakes",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261118001098",
         "type": "source"
       }
     ]
@@ -221,6 +271,46 @@
     ]
   },
   {
+    "id": "2026-11-18-onnxruntime-github-repos-404",
+    "date": "2026-11-18",
+    "category": "로컬 AI",
+    "title": "MS ONNX Runtime GitHub 저장소 돌연 404…PyPI 패키지는 정상, 원인 설명 없어",
+    "summary": "microsoft/onnxruntime·onnxruntime-genai·onnxruntime-extensions·onnxscript와 microsoft/agent-framework 저장소가 18일 404를 반환하고 있다(17시 KST 직접 확인). PyPI의 onnxruntime 1.32.0은 그대로 설치되지만 GitHub 릴리스 자산·소스 클론·서브모듈을 쓰는 빌드는 실패한다.",
+    "why": "로컬·엣지 추론에 널리 쓰이는 런타임이라 소스 빌드나 C/C++ 바이너리를 GitHub에서 받는 파이프라인이 깨진다. agent-framework 탈취와의 연관성은 추측일 뿐이고, 출처 불명 미러는 피하라는 경고가 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 404·PyPI 1.32.0 직접 확인 + The Terminal·sysnote 보도. MS 공식 설명은 아직 없음"
+    },
+    "image": "https://theterminal.space/software/onnx-runtime-github-repo-404-pypi-1-32-0/opengraph-image",
+    "links": [
+      {
+        "label": "The Terminal",
+        "url": "https://theterminal.space/software/onnx-runtime-github-repo-404-pypi-1-32-0",
+        "type": "source"
+      },
+      {
+        "label": "sysnote",
+        "url": "https://sysnote.net/news/microsoft-s-agent-framework-1-26-1-and-1-26-2-on-pypi-stole-ci-credentials-and-o",
+        "type": "source"
+      },
+      {
+        "label": "PyPI onnxruntime",
+        "url": "https://pypi.org/project/onnxruntime/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50539610",
+        "type": "source"
+      },
+      {
+        "label": "GeekNews",
+        "url": "https://news.hada.io/topic?id=37390",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-nvidia-stops-h200-china-open-source-intact",
     "category": "AI·IT",
     "title": "업데이트: 엔비디아 크레스 임시 CEO \"H200 중국 판매 중단\"…허깅페이스 인수·오픈 모델 전략은 유지",
@@ -355,6 +445,66 @@
     ]
   },
   {
+    "id": "2026-11-18-microsoft-agent-framework-pypi-compromised",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "MS 'agent-framework' PyPI 패키지 탈취…1.26.1·1.26.2에 클라우드·CI 자격증명 탈취 코드",
+    "summary": "Microsoft Agent Framework의 PyPI 메타 패키지 agent-framework 1.26.1·1.26.2(11월 17일 20:35 UTC부터 33분 간격 배포)에 .pth 시작 훅이 들어가 파이썬 실행 때마다 Azure·GitHub Actions·CI 토큰과 HF·npm 등 자격증명을 수집해 webhook.site로 보냈다. 두 버전은 PyPI에서 격리됐고 마지막 정상 버전은 1.26.0이다.",
+    "why": "월 약 19만 다운로드(Endor Labs) 규모의 공식 AI 에이전트 프레임워크가 공급망 공격을 당했다. 해당 시간대에 버전을 고정하지 않고 설치한 개발 PC·CI는 자격증명 교체가 권고된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Socket 분석 + The Hacker News 보도 + PyPI 현재 최신 1.26.0 직접 확인. 탈취 경로는 아직 미확인"
+    },
+    "image": "https://cdn.sanity.io/images/cgdhsj6q/production/b3d51ac973b4096a30d7b59bd0d2584ee04810b6-2736x1378.png?w=1000&q=95&fit=max&auto=format",
+    "links": [
+      {
+        "label": "Socket 분석",
+        "url": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer",
+        "type": "source"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+        "type": "source"
+      },
+      {
+        "label": "PyPI agent-framework",
+        "url": "https://pypi.org/project/agent-framework/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-llamacpp-b12500-tiny-voca",
+    "date": "2026-11-18",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12496~b12500: 초소형 TTS 'tiny-voca' 지원, AMD GCN 최적화, CUDA conv2d 개선",
+    "summary": "b12497에서 4.5M 영어 TTS 'tiny-voca'를 mtmd로 지원하고, b12496은 AMD GCN GPU에서 stream_k를 켜 mmq 설정을 조정했다. b12499는 퀄컴 Vulkan rms_norm 수정, b12500은 CUDA conv2d의 정수 나눗셈을 fastdiv로 바꿨다(PR 설명상 긴 리덕션에서 해당 병목 제거 시 시간 절반).",
+    "why": "CPU에서도 도는 초소형 TTS를 llama.cpp 하나로 돌릴 수 있게 됐고, 구형 AMD GPU 사용자 성능이 개선된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(b12496~b12500) 확인"
+    },
+    "image": "https://opengraph.githubassets.com/3c0a8f40344de3b52ac73f5cbfdf670b812c47bd82b62f3b58996b190fa28ef8/ggml-org/llama.cpp/releases/tag/b12500",
+    "links": [
+      {
+        "label": "llama.cpp b12500",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12500",
+        "type": "source"
+      },
+      {
+        "label": "llama.cpp b12497",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12497",
+        "type": "github"
+      },
+      {
+        "label": "n4ze3m/tiny-voca",
+        "url": "https://huggingface.co/n4ze3m/tiny-voca",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-llama-cpp-kokoro-qwen3-tts-minimax-music3",
     "category": "로컬 AI",
     "title": "llama.cpp, Kokoro TTS·Qwen3-TTS 참조 음성 모드·MiniMax-Music3 지원 추가(b12479~b12494)",
@@ -430,6 +580,36 @@
       {
         "label": "지디넷코리아(국회 특별법)",
         "url": "https://zdnet.co.kr/view/?no=20261117231318",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-kisti-hangang-top500-12th",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "국가슈퍼컴 6호기 '한강', TOP500 12위(342.6PF) 첫 등재…HPCG 8위",
+    "summary": "SC26에서 발표된 11월 TOP500에서 KISTI 6호기 '한강'(HPE Cray EX254n, GH200)이 실측 342.6PF로 12위에 올라 신규 등재 시스템 중 최고 순위를 기록했고 HPCG에선 8위였다. GPU 8,496개·CPU 9,936개로 5호기 대비 실측 성능 약 25배이며 12월 14일 공식 서비스를 시작한다.",
+    "why": "국내 공공 AI·과학 연구용 연산 자원이 세계 상위권에 들어섰다. 1위는 6월부터 이어진 중국 선전의 LineShine(2.198EF)으로 TOP10 변동은 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TOP500 공식 리스트(12위 HANGANG, KISTI) + 연합뉴스 교차 확인"
+    },
+    "image": "https://img3.yna.co.kr/etc/inner/KR/2026/11/18/AKR20261118137300063_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261118137300063",
+        "type": "source"
+      },
+      {
+        "label": "TOP500 HANGANG",
+        "url": "https://top500.org/system/180515",
+        "type": "source"
+      },
+      {
+        "label": "TOP500 2026년 11월",
+        "url": "https://top500.org/lists/top500/2026/11/",
         "type": "source"
       }
     ]
@@ -600,6 +780,51 @@
     "date": "2026-11-18"
   },
   {
+    "id": "2026-11-18-csat-ai-cheating-10yr-ban-bigtech",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "업데이트: 당정, AI 커닝 수능 응시제한 1년→10년·올해부터 소급…\"빅테크 4곳 협조\"",
+    "summary": "민주당과 정부가 18일 당정협의에서 AI 활용 수능 부정행위자의 응시자격 제한을 10년으로 늘리고 올해 수능부터 소급 적용하도록 고등교육법 개정을 추진하기로 했다. 정부 요청 시 AI 기업이 부정행위 관련 답안 요청 사례를 의무 제출하는 법제화도 추진하며, 빅테크 4곳이 협조 의사를 밝혔다고 전했다.",
+    "why": "전날 대통령 지시가 구체적 처벌 수위와 AI 기업 자료 제출 의무화로 이어졌다. 소급 적용은 입법 과정에서 법적 쟁점이 남아 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 전자신문 보도 교차 확인"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/18/rcv.YNA.20261118.PYH2026111805310001300_P1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261118066952001",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261118000276",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-claude-platform-linked-billing-beta",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude 플랫폼 '연결 결제(linked billing)' 베타…API 키 공유 없이 외부 앱에서 내 계정으로 결제",
+    "summary": "코딩 에이전트·자동화 도구 같은 서드파티 플랫폼이 고객의 API 키를 받지 않고도 고객의 기존 앤트로픽 결제 계정으로 Claude API 사용료를 청구할 수 있게 하는 기능을 베타로 열었다. 고객은 플랫폼별 승인과 지출 한도 설정, 언제든 연결 해제가 가능하다.",
+    "why": "API 키를 외부 서비스에 붙여 넣는 관행을 줄여 키 유출 위험을 낮추고, 서드파티 도구가 Claude를 붙이기 쉬워진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude 공식 아티클(2026-11-17 게시, 미국 시간) 확인"
+    },
+    "image": "https://claude.com/resources/articles/linked-billing-on-claude-platform/opengraph-image/og",
+    "links": [
+      {
+        "label": "Claude 공식",
+        "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-china-mofcom-remote-access-countermeasures",
     "category": "AI·IT",
     "title": "中 상무부, 美 'AI 칩 원격 접근' 규제에 \"강하게 반대…강행 시 반제 조치\"",
@@ -622,6 +847,31 @@
       }
     ],
     "date": "2026-11-18"
+  },
+  {
+    "id": "2026-11-18-cerebras-disaggregated-inference",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "세레브라스, GPU 프리필+웨이퍼스케일 디코드 '분리 추론' 상용 가동…메가와트당 토큰 5배",
+    "summary": "세레브라스가 프롬프트 처리(prefill)는 GPU, 토큰 생성(decode)은 자사 웨이퍼스케일 엔진이 맡는 분리 추론을 자사 추론 클라우드에서 실제 운영 중이라고 밝혔다. 같은 속도를 유지하면서 메가와트당 토큰을 5배 더 낸다고 했고, 인프라 파트너도 자체 데이터센터에 쓸 수 있게 한다.",
+    "why": "전력이 병목인 추론 시장에서 이기종 칩 조합으로 와트당 처리량을 늘리는 방식이 상용 단계에 들어섰다(수치는 회사 측 발표).",
+    "verification": {
+      "status": "확인됨",
+      "note": "세레브라스 공식 블로그 + Unite.AI 보도 교차 확인"
+    },
+    "image": "https://cdn.sanity.io/images/e4qjo92p/production/517b4d022eca11a8f17ad828fc698df3b3cd7d86-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fit=max&auto=format",
+    "links": [
+      {
+        "label": "Cerebras 블로그",
+        "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+        "type": "source"
+      },
+      {
+        "label": "Unite.AI",
+        "url": "https://www.unite.ai/cerebras-puts-disaggregated-inference-into-production-with-gpus/",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-18-apple-services-outage-internal-update",
@@ -6362,6 +6612,31 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261111067600003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-samsung-smartthings-chatgpt-labs",
+    "date": "2026-11-11",
+    "category": "한국 IT",
+    "title": "삼성 스마트싱스, 챗GPT 연동(Labs) 시험 서비스…말로 가전 상태 조회·제어",
+    "summary": "삼성전자가 챗GPT에서 스마트싱스 계정을 연결해 기기·방·장면 조회, 장면 실행, 기기 명령, 재실·외출·야간 모드 변경, 최근 작동 이력 조회를 할 수 있는 Labs 플러그인을 내놨다. 초기 단계라 일부 기기는 조회만 되고 도어록 등 보안 기기는 제어가 제한된다.",
+    "why": "LG 씽큐·구글 홈에 이어 삼성도 외부 범용 AI에 스마트홈을 개방했다. 국내 보도는 18일 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "스마트싱스 공식 커뮤니티 공지(11일 KST) + 전자신문 보도 교차 확인"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/18/news-p.v1.20261118.4403658394c0448e9e9f9c6061065d95_P1.png",
+    "links": [
+      {
+        "label": "SmartThings 공지",
+        "url": "https://community.smartthings.com/t/introducing-smartthings-in-chatgpt-labs-try-it-and-help-shape-whats-next/312097",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261118000237",
         "type": "source"
       }
     ]
