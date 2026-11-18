@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-11-18-vals-autonomous-warfare-targeting",
+    "category": "AI·IT",
+    "title": "Vals 연구 \"프런티어 AI, 드론·위성 영상서 민간인도 표적 지정…'게임'이라 하면 거부 풀려\"",
+    "summary": "AI 평가사 Vals가 OpenAI·앤트로픽·구글·딥시크 등 주요 모델에 드론·위성 영상 표적 식별을 시켰더니 대부분 응했고 민간인·구급차·항복한 병사까지 표적으로 표시했다고 발표했다. 분류기에 막힌 요청은 없었고, 거부한 모델도 '게임'이라고 하면 대부분 응했다고 밝혔으며, 실제 무기 체계에서의 정확도는 평가하지 않았다고 덧붙였다.",
+    "why": "CBRN·사이버에 비해 거의 다뤄지지 않던 재래식·자율 무기 오용 영역의 안전장치 공백을 드러냈다. OpenAI는 드론 관련 정렬 업데이트를 진행 중이라고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Vals 원문 보고서 + TechCrunch 보도 교차 확인"
+    },
+    "image": "https://www.vals.ai/blogs/2026-10-27-autonomous-warfare/hero.jpg",
+    "links": [
+      {
+        "label": "Vals 보고서",
+        "url": "https://www.vals.ai/blogs/autonomous-warfare",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
     "id": "2026-11-18-sensenova-loop-9b",
     "date": "2026-11-18",
     "category": "로컬 AI",
@@ -30,6 +55,56 @@
         "type": "huggingface"
       }
     ]
+  },
+  {
+    "id": "2026-11-18-semco-nvidia-mlcc",
+    "category": "한국 IT",
+    "title": "삼성전기, 엔비디아에 GPU 패키지기판 공급 확대…협력 MLCC로 넓혀",
+    "summary": "삼성전기가 엔비디아 차세대 GPU용 첨단 패키지기판 공급을 늘리고 협력 품목을 고신뢰성 MLCC로 확대한다고 18일 밝혔다. 지난달 파트너십 후속으로, 엔비디아는 세종·부산 사업장 설비 도입을 위한 추가 자금 지원을 검토 중이며 삼성전기는 2029년 본격 양산 계획이라고 전자신문이 전했다.",
+    "why": "AI 가속기 기판 병목 속에 국내 부품사가 엔비디아 공급망에서 입지를 넓히는 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성전기 뉴스룸 + 전자신문·연합뉴스 보도"
+    },
+    "image": "https://img.etnews.com/news/article/2026/09/28/news-p.v1.20260928.af318b9b9f57447188e3fc6e3cf2b5df_P1.jpg",
+    "links": [
+      {
+        "label": "삼성전기 뉴스룸",
+        "url": "https://m.samsungsem.com/kr/newsroom/news/view.do?id=10702",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261118000054",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
+    "id": "2026-11-18-samsung-apple-dram-lta-report",
+    "category": "한국 IT",
+    "title": "[보도] 삼성전자·애플, 4~5년 D램 장기공급계약 막바지 조율(매일경제)",
+    "summary": "매일경제는 삼성전자와 애플이 2027년 상반기부터 4~5년간 이어지는 D램 장기공급계약(LTA)을 최종 조율 중이며, 최소 공급 물량을 정하고 가격은 시장 상황에 따라 정하는 구조라고 보도했다. 트렌드포스도 이를 인용해 전했으며, 양사의 공식 발표는 없다.",
+    "why": "메모리 공급난 속에 애플이 단가 인하 관행 대신 물량 확보를 택했다는 의미로, 삼성 메모리 실적 안정성에 영향을 준다.",
+    "verification": {
+      "status": "미확인",
+      "note": "매일경제 단독 + 트렌드포스 인용 보도. 회사 공식 확인 없음"
+    },
+    "image": "https://img.trendforce.com/blog/wp-content/uploads/2025/12/17103440/Apple-logo-FREEPIK-20251217-624x350.jpg",
+    "links": [
+      {
+        "label": "매일경제",
+        "url": "https://www.mk.co.kr/news/business/12211342",
+        "type": "source"
+      },
+      {
+        "label": "TrendForce",
+        "url": "https://www.trendforce.com/news/2026/11/18/news-samsung-apple-reportedly-finalizing-4-5-year-dram-lta-with-minimum-supply-commitment-starting-in-2027/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
   },
   {
     "id": "2026-11-18-perplexity-1b-run-rate",
@@ -115,6 +190,36 @@
     ]
   },
   {
+    "id": "2026-11-18-nvidia-stops-h200-china-open-source-intact",
+    "category": "AI·IT",
+    "title": "업데이트: 엔비디아 크레스 임시 CEO \"H200 중국 판매 중단\"…허깅페이스 인수·오픈 모델 전략은 유지",
+    "summary": "콜레트 크레스 임시 CEO가 17일(현지시간) 실적 발표 콜에서 미국 승인 아래 팔던 H200(호퍼)의 중국 판매를 더는 하지 않는다고 밝혔고, 같은 날 수출 통제·국가안보 정책을 감독할 이사회 위원회 신설도 발표됐다. 오픈 모델 생태계 지원은 유지한다며 129억 달러 허깅페이스 인수도 예정대로 진행 중이라고 TechCrunch가 전했다.",
+    "why": "젠슨 황 퇴진 뒤 엔비디아의 중국 전략이 뒤집혔다는 신호이며, 오픈 소스 진영이 걱정하던 허깅페이스 인수·Nemotron 지원은 일단 유지된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch 2건 + CNBC-TV18 보도(실적 콜 발언) 교차 확인"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781",
+    "links": [
+      {
+        "label": "TechCrunch (중국)",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch (오픈 소스)",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC-TV18",
+        "url": "https://www.cnbctv18.com/market/nvidia-no-longer-selling-us-approved-hopper-chips-to-china-interim-ceo-kress-says-20036351.htm",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
     "id": "2026-11-18-nvidia-q3-fy27-results",
     "date": "2026-11-18",
     "category": "AI·IT",
@@ -164,6 +269,36 @@
     ]
   },
   {
+    "id": "2026-11-18-microsoft-mai-seven-models-ignite",
+    "category": "AI·IT",
+    "title": "업데이트: MS, 이그나이트서 자체 모델 7종…보안 'MAI Cyber 2 Flash'·이미지 2.7·음성 'Realtime 1'·Licensed Weights",
+    "summary": "MS AI가 앞서 다룬 MAI Code 2 외에 MAI Cyber 2 Flash(CyberGymE2E에서 GPT-6 Astra보다 높은 품질을 작업당 비용 2% 미만으로), 이미지 편집 Artificial Analysis 1위라는 MAI Image 2.7, 오디오 1분당 $0.01부터인 MAI Realtime 1을 공개했다. 고객이 MAI 모델을 자체 데이터로 맞춤화해 자기 애저 환경에서 돌리는 'MAI Licensed Weights'도 발표했다(성능은 자체 평가).",
+    "why": "MS가 OpenAI 의존을 줄이며 보안·이미지·음성까지 자체 모델 라인업을 갖추고 가격 경쟁에 나섰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Microsoft AI 공식 발표 + 파이낸셜뉴스(뉴시스) 보도"
+    },
+    "image": "https://microsoft.ai/wp-content/uploads/2026/11/All-Up-Blog.jpg",
+    "links": [
+      {
+        "label": "Microsoft AI",
+        "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+        "type": "source"
+      },
+      {
+        "label": "MAI Cyber 2 Flash",
+        "url": "https://microsoft.ai/news/introducing-mai-cyber-2-flash/",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611180956354067",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
     "id": "2026-11-18-microsoft-mai-code-2",
     "date": "2026-11-18",
     "category": "AI·IT",
@@ -187,6 +322,36 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-18-llama-cpp-kokoro-qwen3-tts-minimax-music3",
+    "category": "로컬 AI",
+    "title": "llama.cpp, Kokoro TTS·Qwen3-TTS 참조 음성 모드·MiniMax-Music3 지원 추가(b12479~b12494)",
+    "summary": "llama.cpp가 멀티모달 모듈(mtmd)에 Kokoro TTS 지원(b12494), Qwen3-TTS의 ICL·참조 음성 모드(b12491), MiniMax-Music3 지원(b12479)을 추가했다. Kokoro용 G2P 템플릿(b12478)과 Pascal GPU 양자화 matvec 융합 비활성화(b12488) 등도 들어갔다.",
+    "why": "전날 Fish Audio S2·YuE2에 이어 음성 합성·음악 생성까지 llama.cpp 하나로 로컬 실행하는 범위가 빠르게 넓어지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(b12479·b12491·b12494) 직접 확인"
+    },
+    "image": "https://opengraph.githubassets.com/1957567e3c5a4ac320555e007d89712277498e970714c71a8d87a148de15b769/ggml-org/llama.cpp/releases/tag/b12494",
+    "links": [
+      {
+        "label": "b12494 (Kokoro)",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12494",
+        "type": "github"
+      },
+      {
+        "label": "b12491 (Qwen3-TTS ICL)",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12491",
+        "type": "github"
+      },
+      {
+        "label": "b12479 (MiniMax-Music3)",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12479",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
   },
   {
     "id": "2026-11-18-lg-juvo-care",
@@ -239,6 +404,31 @@
     ]
   },
   {
+    "id": "2026-11-18-jensen-huang-house-interview-dec-1",
+    "category": "AI·IT",
+    "title": "업데이트: 젠슨 황, 12월 1일 美 하원 3개 위원회 출석 동의…엔비디아 법무총괄은 2일",
+    "summary": "미 하원 중국특위·외교위·정보위 위원장들이 젠슨 황 전 CEO와 팀 테터 엔비디아 법무총괄이 자발적으로 녹취 면담에 응하기로 했다고 17일(현지시간) 발표했다. 황은 12월 1일, 테터는 2일 출석하며, 위원회는 중국 측의 첨단 칩 접근과 '잠재적 중국 정보 자산' 역할을 묻겠다고 밝혔다.",
+    "why": "엔비디아 스캔들이 의회 조사 단계로 넘어가 수출 통제 강화 논의에 직접 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "하원 중국특위 공식 보도자료 + CNBC 보도"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108236158-1764789583941-gettyimages-2249798538-imgl8902_wkmxte1x.jpeg?v=1794957180&w=1920&h=1080",
+    "links": [
+      {
+        "label": "하원 중국특위 보도자료",
+        "url": "https://chinaselectcommittee.house.gov/media/press-releases/jensen-huang-and-nvidia-agree-to-appear-before-congress",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-house-committee.html",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
     "id": "2026-11-18-java4shell-cve-2026-114938",
     "date": "2026-11-18",
     "category": "AI·IT",
@@ -274,6 +464,31 @@
     ]
   },
   {
+    "id": "2026-11-18-isomorphic-labs-5b-series-c",
+    "category": "AI·IT",
+    "title": "딥마인드 분사 아이소모픽 랩스, 시리즈C 50억 달러 유치…AI 설계 신약 임상 진입 추진",
+    "summary": "아이소모픽 랩스가 그린옥스·세쿼이아 공동 주도, a16z 신규 참여, 알파벳 추가 투자로 50억 달러 시리즈C를 유치했다고 17일(현지시간) 발표했다. 자체 신약 설계 엔진(IsoDDE)과 후보 물질 파이프라인을 키우는 데 쓰며, TechCrunch는 5월 21억 달러 시리즈B에 이은 투자로 후보 물질을 임상으로 옮기려 한다고 전했다.",
+    "why": "AI 신약 개발에 몰린 최대 규모 자금 중 하나로, 알파폴드 계열 기술이 실제 임상 성과로 이어질지 시험대가 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아이소모픽 랩스 공식 발표 + TechCrunch 보도"
+    },
+    "image": "https://cdn.prod.website-files.com/6846c7b5a78f3e9225c64f10/6afc440c8b4fc64d82c8d851_6afc2c7f673a113273db42d4_ISO_MonumentalPost_Landscape%201.jpg",
+    "links": [
+      {
+        "label": "공식 발표",
+        "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
     "id": "2026-11-18-ignite-copilot-autopilot-decision-1-1",
     "date": "2026-11-18",
     "category": "AI·IT",
@@ -304,6 +519,80 @@
     ]
   },
   {
+    "id": "2026-11-18-google-gemini-tasks-korea-free",
+    "category": "한국 IT",
+    "title": "구글 제미나이 '태스크' 한국 등 6개국 무료 제공…전화 예약·결제까지 대신",
+    "summary": "구글이 Gemini 4 Hydrogen 기반 '태스크(Tasks)' 기능을 미국·한국·일본·캐나다·호주·인도 6개국 수억 명에게 무료로 순차 제공한다고 18일 밝혔다. 업체에 전화해 예약하고 에이전트 결제 프로토콜(AP2)로 구매하며, 업체 측과 통화가 연결되면 AI임을 바로 밝힌다고 설명했다(고급 기능은 미국부터).",
+    "why": "한국 사용자가 무료로 쓰는 첫 대중형 '행동하는' AI 비서로, 전화·결제 대행의 편의와 오남용 관리가 함께 쟁점이 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글코리아 공식 블로그 + TechCrunch 보도 교차 확인"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gugeul_jeminai_taeseukeuTask.width-1300.png",
+    "links": [
+      {
+        "label": "구글코리아 블로그",
+        "url": "https://blog.google/intl/ko-kr/company-news/technology/tasks-in-gemini-free-new-features-kr/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
+    "id": "2026-11-18-gemini-history-off-two-month-retention",
+    "category": "AI·IT",
+    "title": "구글, 제미나이 '기록 끔' 대화도 72시간→약 2개월 보관…학습 거부는 별도 설정으로",
+    "summary": "구글이 대화 기록과 AI 학습 사용 여부를 분리한 새 설정을 내놓아 기록은 남기고 학습만 끌 수 있게 했다. 대신 새 '기록' 설정을 꺼도 이후 대화는 응답·피드백 처리와 안전 목적으로 약 2개월 보관되며(기존 72시간), 앞으로 몇 주에 걸쳐 전 세계에 적용된다.",
+    "why": "기록을 끄면 곧 지워진다고 여기던 사용자에게 보관 기간이 크게 늘어나는 변화라 개인정보 설정을 다시 확인할 필요가 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + TechCrunch 보도 교차 확인"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/super-g_1.max-1440x810.jpg",
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
+    "id": "2026-11-18-china-mofcom-remote-access-countermeasures",
+    "category": "AI·IT",
+    "title": "中 상무부, 美 'AI 칩 원격 접근' 규제에 \"강하게 반대…강행 시 반제 조치\"",
+    "summary": "중국 상무부 대변인이 17일 미 상무부의 첨단 반도체 원격 접근 제한 조치에 대해 \"국가안보 개념을 일반화하고 수출통제를 남용한다\"며 강한 불만과 반대를 밝혔다. 미국이 고집하면 반제(대응) 조치를 취하겠다고 경고했다.",
+    "why": "해외 데이터센터를 통한 중국의 연산 자원 접근을 막는 규제가 미·중 보복전으로 번질 수 있어 국내 AI 데이터센터 사업에도 변수다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "중국 상무부 원문 + 로이터 보도"
+    },
+    "links": [
+      {
+        "label": "중국 상무부",
+        "url": "http://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/world-news/china-says-it-will-take-countermeasures-if-us-imposes-new-chip-curbs-5033368",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-18"
+  },
+  {
     "id": "2026-11-18-apple-services-outage-internal-update",
     "date": "2026-11-18",
     "category": "AI·IT",
@@ -331,6 +620,47 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-18-apple-fastframes-video",
+    "category": "로컬 AI",
+    "title": "애플 'FastFrames' 공개…1.3B·14B 영상 생성 모델, 480p를 대화형 지연으로",
+    "summary": "애플 연구진이 2단계 자기회귀 영상 확산 모델 FastFrames-S(1.3B)와 -L(14B, Wan2.1-T2V-14B 기반)을 HF에 공개했다. 모델 카드 기준 FastFrames-S는 GPU 1장에서 480p 프레임 구간당 약 35ms로 동작하며, 공식 대비 16배 빠른 LingBot 1.3B 최적화판도 함께 냈다(라이선스 apple-amlr, 연구용).",
+    "why": "실시간에 가까운 영상 생성을 소형 모델로 노려 로컬 GPU에서 대화형 영상 생성 가능성을 보여준다. 다만 상업 이용은 제한된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(apple 조직) + GitHub 공식 저장소 확인"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/apple/FastFrames-S.png",
+    "specs": {
+      "params": "1.3B / 14B",
+      "license": "apple-amlr(연구용)",
+      "modality": "텍스트→영상(480p)",
+      "compute": "NVIDIA GPU, CUDA 12.8"
+    },
+    "links": [
+      {
+        "label": "프로젝트 페이지",
+        "url": "https://apple-aiml-research.github.io/ml-fastframes/",
+        "type": "source"
+      },
+      {
+        "label": "apple/FastFrames-S",
+        "url": "https://huggingface.co/apple/FastFrames-S",
+        "type": "huggingface"
+      },
+      {
+        "label": "apple/FastFrames-L",
+        "url": "https://huggingface.co/apple/FastFrames-L",
+        "type": "huggingface"
+      },
+      {
+        "label": "apple-aiml-research/ml-fastframes",
+        "url": "https://github.com/apple-aiml-research/ml-fastframes",
+        "type": "github"
+      }
+    ],
+    "date": "2026-11-18"
   },
   {
     "id": "2026-11-18-anthropic-ipo-above-range-report",
