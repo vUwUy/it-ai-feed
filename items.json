@@ -825,6 +825,36 @@
     ]
   },
   {
+    "id": "2026-11-18-cj-logistics-one-chatbot-breach",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "CJ대한통운 '오네' 챗봇에 비정상 자동화 대량 접근…인수인 이름·동 단위 주소 조회 가능성",
+    "summary": "CJ대한통운은 16일경 '오네' 챗봇 서버 로그와 일부 DB 분석 중 비정상적인 자동화 대량 접근을 확인했다고 18일 밝혔다. 인수인 이름과 동 단위 주소가 조회됐을 가능성이 있으나 실제 유출 여부와 규모, 대상은 아직 확정되지 않았고, 주민등록번호·CI·휴대전화번호는 유출되지 않은 것으로 확인됐다고 했다.",
+    "why": "국내 최대 택배사의 고객 응대 챗봇이 자동화 대량 조회에 노출된 사례로, AI·봇을 이용한 대량 조회 공격이 국내 대형 서비스에서도 실제로 일어나고 있음을 보여준다. 택배 이용자라면 피싱·스미싱 문자를 주의할 필요가 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CJ대한통운 홈페이지 공지 내용을 보안뉴스·YTN·MTN 등 여러 매체가 보도. 유출 여부·규모는 회사가 조사 중"
+    },
+    "image": "https://cdn.boannews.com/news/photo/202611/147359_130181_2648.jpg",
+    "links": [
+      {
+        "label": "보안뉴스",
+        "url": "https://www.boannews.com/news/articleView.html?idxno=147359",
+        "type": "source"
+      },
+      {
+        "label": "YTN",
+        "url": "https://www.ytn.co.kr/_ln/0102_202611181827131663",
+        "type": "source"
+      },
+      {
+        "label": "MTN",
+        "url": "https://news.mtn.co.kr/article/2026111817594394646",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-china-mofcom-remote-access-countermeasures",
     "category": "AI·IT",
     "title": "中 상무부, 美 'AI 칩 원격 접근' 규제에 \"강하게 반대…강행 시 반제 조치\"",
