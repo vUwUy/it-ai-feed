@@ -25,6 +25,37 @@
     "date": "2026-11-18"
   },
   {
+    "id": "2026-11-18-tencent-hy4-flash-open-weights",
+    "date": "2026-11-18",
+    "category": "로컬 AI",
+    "title": "업데이트: 텐센트 'Hy4 flash' 가중치 공개…총 220B·활성 12B, 1M 컨텍스트, FP8·베이스 모델도",
+    "summary": "텐센트가 Hy4 flash(인스트럭트), Hy4 flash-FP8, 사전학습 Hy4 flash-base 3종을 허깅페이스·ModelScope·GitCode에 오픈 웨이트로 공개했다. 모델 카드 기준 총 220B(Engram 64B 포함)·토큰당 활성 12B, 텍스트·이미지 입력, 최대 1M 토큰 컨텍스트이며 테스트용 GGUF 버전과 vLLM 공식 이미지·SGLang 레시피도 제공한다. 라이선스는 Apache/MIT가 아닌 'Tencent Hy License'.",
+    "why": "16일 출시 때 '오픈소스 예정'이던 가중치가 실제로 풀렸다. 활성 12B MoE라 대용량 메모리 워크스테이션·멀티 GPU에서 로컬 서빙 후보가 되며, 텐센트는 Hy4 본 모델 오픈소스화도 앞당기겠다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드(tencent/Hy4-flash, 11/18 갱신) + TokenPost 보도 확인. 비용·성능 수치는 텐센트 자체 평가 기준."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy4-flash.png",
+    "specs": {
+      "params": "220B 총(Engram 64B 포함) / 12B 활성",
+      "context": "1M",
+      "modality": "텍스트·이미지 → 텍스트",
+      "license": "Tencent Hy License"
+    },
+    "links": [
+      {
+        "label": "tencent/Hy4-flash",
+        "url": "https://huggingface.co/tencent/Hy4-flash",
+        "type": "huggingface"
+      },
+      {
+        "label": "TokenPost 보도",
+        "url": "https://www.tokenpost.com/news/technology/60139",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-sensenova-loop-9b",
     "date": "2026-11-18",
     "category": "로컬 AI",
