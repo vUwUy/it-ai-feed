@@ -1,5 +1,221 @@
 [
   {
+    "id": "2026-11-19-reson8-rumble-2-flash",
+    "date": "2026-11-19",
+    "category": "로컬 AI",
+    "title": "Reson8 'Rumble-2-Flash' 공개(Apache 2.0)…0.5B 음성 인식, 40개+ 언어·Transformers·vLLM 바로 지원",
+    "summary": "암스테르담 스타트업 Reson8이 0.5B 음성 인식 모델을 공개했다. Open ASR 리더보드 다국어 트랙 평균 오류율 6.96%(영어 6.6% WER)로 15배 큰 omniASR-LLM 7B와 Whisper large-v3보다 낫다고 밝혔고, 302시간 콜센터 벤치마크에서 7.86%로 엔비디아 Nemotron 3.5 Transcribe(30B, 7.78%)와 비슷했다고 했다.",
+    "why": "Qwen3-ASR 구조라 별도 코드 없이 Transformers·vLLM에서 바로 돌아가는 작은 ASR이다. 숫자 표기·추임새 유지·언어 강제 같은 출력 옵션을 지원한다. 한국어 성능은 모델 카드에 따로 나와 있지 않다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 공식 블로그 + HF 모델 카드 확인. 수치는 회사 발표"
+    },
+    "image": "https://huggingface.co/blog/assets/rumble-2-flash/thumbnail.png",
+    "specs": {
+      "params": "0.5B",
+      "license": "Apache 2.0",
+      "modality": "음성→텍스트(40+ 언어)"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/rumble-2-flash",
+        "type": "source"
+      },
+      {
+        "label": "Reson8/Rumble-2-Flash",
+        "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-radixark-daisyrose-27b",
+    "date": "2026-11-19",
+    "category": "로컬 AI",
+    "title": "RadixArk 'DaisyRose-27B' 공개(Apache 2.0)…Qwen3.8-27B를 RL만으로 튜닝, Terminal-Bench 4.1 5.6%→12.0%",
+    "summary": "RadixArk가 첫 모델 DaisyRose-27B를 BF16·FP8·NVFP4로 공개했다. 장기 에이전트 과제 약 1,200개로 H200 144장에서 18일 강화학습만 했고, 베이스 모델의 구조·이미지 이해·256K 컨텍스트를 그대로 유지해 Qwen3.8-27B를 바로 대체할 수 있다.",
+    "why": "GPU 한 장(RTX 5090, RTX PRO 6000, DGX Spark 등)에서 돌아가는 27B 에이전트 코딩 모델이다. 가중치는 BF16 약 52GB, FP8 29GB, NVFP4 23GB(블랙웰 필요)이고, 학습 프레임워크 Miles도 오픈소스다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 블로그 + HF 모델 카드 확인. 벤치마크는 회사 자체 측정"
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6aeabf9f2efd990530425e58/faP4Su889q_DIgN3wmU9M.png",
+    "specs": {
+      "params": "27.8B (dense)",
+      "license": "Apache 2.0",
+      "memory": "BF16 ~52GB / FP8 29GB / NVFP4 23GB",
+      "context": "256K",
+      "modality": "텍스트·이미지 입력"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "type": "source"
+      },
+      {
+        "label": "RadixArk/DaisyRose-27B",
+        "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+        "type": "huggingface"
+      },
+      {
+        "label": "radixark/miles",
+        "url": "https://github.com/radixark/miles",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50551046",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-palo-alto-acquires-applied-compute",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "팔로알토 네트웍스, 오픈 웨이트 모델 후학습·추론 플랫폼 '어플라이드 컴퓨트' 45억 달러에 인수",
+    "summary": "팔로알토 네트웍스가 기업이 오픈 웨이트 모델을 자체 데이터로 학습·배포하게 돕는 어플라이드 컴퓨트를 전액 주식, 45억 달러에 인수한다고 발표했다. 야시 파틸 CEO는 인수 완료 후 팔로알토의 공동 최고AI책임자를 맡으며, 거래는 회계연도 2027년 3분기에 마무리될 예정이다.",
+    "why": "보안 1위권 기업이 '기업 AI는 개방형·폐쇄형 혼합'을 전제로 오픈 웨이트 모델 보안 배포 사업에 직접 뛰어든 것이다. 퍼블릭 클라우드와 소버린 환경을 모두 겨냥한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "팔로알토 공식 보도자료 + 로이터(CNA)·디지털데일리 교차 확인"
+    },
+    "links": [
+      {
+        "label": "팔로알토 보도자료",
+        "url": "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+        "type": "source"
+      },
+      {
+        "label": "로이터(CNA)",
+        "url": "https://www.channelnewsasia.com/business/palo-alto-buy-ai-startup-applied-compute-45-billion-6563836",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026111906151780682",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-openai-models-chip-design-amd",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "OpenAI \"우리 모델이 AMD 플래그십 GPU 설계 PPA 최대 14% 개선\"…일부는 이미 제조 설계에 반영",
+    "summary": "OpenAI는 자사 모델이 AMD 플래그십 GPU IP의 SystemVerilog RTL을 다시 써서 고도로 최적화된 기준 대비 전력·성능·면적(PPA)을 최대 14% 개선했고, 5개월이 안 걸려 약 1년치 진전을 냈다고 밝혔다. 자체 추론 칩 Jalapeño에서는 모델 제안으로 셀 면적을 벡터 유닛 약 13%, 행렬 유닛 약 10% 줄였다고 했다.",
+    "why": "AMD는 일부 변경을 이미 제조에 보낸 설계에 넣었고, 차세대 플래그십 CPU 주요 블록에서도 한 자릿수 % 개선을 확인했다고 한다. OpenAI는 시놉시스와 EDA 도구를 쓰는 'GPT-Synopsys' 모델도 학습 중이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글 원문 + The Decoder 보도 확인. 수치는 OpenAI 발표 기준"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/658zg0FHAg7zuL73DTFCfC/fff21fd18c260ce64a10a14ee8d4e851/advancing-chip-design-social.png",
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+        "type": "source"
+      },
+      {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-nginx-http2-critical-rce",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "NGINX 치명적 원격 코드 실행 취약점 패치…HTTP/2 쓰는 서버는 1.30.7/1.31.9로 즉시 업데이트",
+    "summary": "nginx.org가 1.30.7 stable·1.31.9 mainline을 내고 HTTP/2 흐름 제어 메모리 손상(CVE-2026-123007, 1.9.5~1.31.8 영향), HTTP/2·HTTP/3 use-after-free 등 여러 취약점을 고쳤다. Wiz는 HTTP/2가 켜진 서버에서 인증 없이 원격 코드 실행이 가능하고(CVSS 4.0 9.2) 1.31.7·1.31.8 공식 빌드에서 ASLR 우회 RCE를 확인했다고 밝혔다.",
+    "why": "Wiz에 따르면 2억2,500만 개가 넘는 웹사이트가 NGINX를 쓴다. 당장 업데이트가 어렵다면 Wiz는 해당 server 블록에서 'http2 off;' 설정을 임시 대응으로 제시했다. NGINX Plus 패치 버전도 별도로 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "nginx.org 공식 보안 권고·릴리스 공지 + Wiz 연구 블로그 교차 확인. 여러 팀(Wiz·Rapid7·Xint 등)이 독립 발견"
+    },
+    "image": "https://www.datocms-assets.com/75231/1794936719-img_7875.png",
+    "links": [
+      {
+        "label": "nginx 보안 권고",
+        "url": "https://nginx.org/en/security_advisories.html",
+        "type": "source"
+      },
+      {
+        "label": "Wiz 블로그",
+        "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50547374",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-google-gemini-4-neon",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "구글 'Gemini 4 Neon' 출시…Carbon과 Hydrogen 사이, 입력 $3·출력 $15, 컨텍스트 100만 토큰",
+    "summary": "구글이 Gemini 4 제품군의 중간 모델 Neon을 공개했다. 구글은 Artificial Analysis 지능 지수(xhigh) 61점으로 전체 3위, AA 코딩 에이전트 지수 58.6으로 1위라고 밝혔고, 가격은 100만 토큰당 입력 3달러(캐시 0.15달러)·출력 15달러다.",
+    "why": "Gemini API·AI Studio·Antigravity와 Pro·Ultra 구독자의 Gemini 앱에 바로 배포된다. 구글은 기본(high) 설정에서 작업당 비용이 Carbon보다 32% 낮다고 밝혔다. 보안용 'Neon for cyber'는 Fairwind 프로그램 방어자에게 며칠 안에 제공된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그(Koray Kavukcuoglu) 원문 확인. 벤치마크는 구글 발표 수치, HN에서도 화제"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+    "specs": {
+      "context": "1M",
+      "price": "입력 $3 / 출력 $15 (100만 토큰당)",
+      "modality": "텍스트·이미지·영상·오디오·PDF"
+    },
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50552424",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-anthropic-ipo-priced-83",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "업데이트: 앤트로픽 공모가 83달러 확정…희망 범위(70~78달러) 웃돌아, 19일 나스닥 'ANT' 상장",
+    "summary": "앤트로픽이 IPO 공모가를 주당 83달러로 정했다(로이터·블룸버그 소식통, 앤트로픽은 논평 거부). 로이터에 따르면 공모 물량도 처음 계획한 8억2,500만 주보다 늘었고, 거래는 현지 19일 나스닥에서 티커 ANT로 시작된다.",
+    "why": "프런티어 AI 모델 개발사로는 첫 상장이다. 로이터가 인용한 증권신고서 기준 연 환산 매출은 10월 31일 810억 달러, 3분기 영업손실 5억6,700만 달러, 컴퓨팅 지출 약정은 약 9,000억 달러다. AI 투자 심리를 가늠할 지표가 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(CNA 게재)·가디언·연합뉴스 교차 확인. 공모가는 소식통 기반, 회사 공식 발표는 아직 없음"
+    },
+    "image": "https://i.guim.co.uk/img/media/3cfaf92ac35e9034112174826b571870bc5071dc/373_0_3334_2668/master/3334.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0df9242478644237daa638c01262c7d1",
+    "links": [
+      {
+        "label": "로이터(CNA)",
+        "url": "https://www.channelnewsasia.com/business/anthropic-prices-blockbuster-ipo-83-share-source-says-6563856",
+        "type": "source"
+      },
+      {
+        "label": "가디언",
+        "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119010000091",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-waymo-suspends-us-freeway-rides",
     "date": "2026-11-18",
     "category": "AI·IT",
@@ -50,6 +266,25 @@
     "date": "2026-11-18"
   },
   {
+    "id": "2026-11-18-us-weighs-chinese-ai-disclosure",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "[보도] 美 행정부, 기업에 '중국 AI 모델 사용' 웹사이트 공개 의무화 검토(로이터 단독)",
+    "summary": "로이터는 소식통 3명을 인용해 재무부와 백악관 과학기술정책실(OSTP)이 미국 기업이 중국 AI 모델 사용 사실을 자사 웹사이트에 공개하도록 하는 방안을 논의했다고 보도했다. 알리바바 Qwen으로 고객 상담 에이전트를 돌리는 에어비앤비 같은 회사가 대상이다.",
+    "why": "새 규제 대신 '이름 공개'로 중국 오픈 웨이트 모델 의존을 줄이려는 시도다. 공식 규칙으로 갈지는 불분명하다. 에어비앤비는 \"AI 활동은 압도적으로 미국산 모델\"이라고 밝혔고, 주미 중국대사관은 반대 입장을 냈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독 보도(Investing.com 게재) 원문 확인. 백악관·재무부는 무응답, 검토 단계"
+    },
+    "links": [
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-tencent-hy4-flash-open-weights",
     "date": "2026-11-18",
     "category": "로컬 AI",
@@ -76,6 +311,31 @@
       {
         "label": "TokenPost 보도",
         "url": "https://www.tokenpost.com/news/technology/60139",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-suneung-emergency-alert-ai-cheating",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "업데이트: 오늘 수능, 08:30 전국 '위급재난문자'에 시험 중 불시 추가 발송…개인 필기구는 흑색 연필만",
+    "summary": "교육부·행안부가 AI 활용 부정행위를 막기 위해 수능일인 19일 08시 30분 1차 위급재난문자를 보내고 이후 불시에 추가 발송한다고 밝혔다. 수신 거부가 안 되며 켜진 모든 휴대전화에서 최대 볼륨(40dB 이상)으로 10.5초 울린다. 시험장에 스마트기기를 갖고 있거나 가방에 넣어 두기만 해도 부정행위로 처리된다.",
+    "why": "수험생뿐 아니라 전 국민·체류 외국인 휴대전화에 울린다(영문 병기). 실제 재난이 아니므로 대피할 필요는 없고, 출근길·운전 중 경보음에 놀라지 말라는 당부다. 아주경제에 따르면 개인 지우개·수정테이프·샤프심·사인펜 반입도 금지되고 시험장에서 지급한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "행정안전부 보도자료(11월 18일) 원문 + 아주경제 교차 확인"
+    },
+    "image": "https://image.ajunews.com/content/image/2026/11/18/20261118140142203140.jpeg",
+    "links": [
+      {
+        "label": "행정안전부 보도자료",
+        "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=131042",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261118135827153",
         "type": "source"
       }
     ]
@@ -161,6 +421,30 @@
       }
     ],
     "date": "2026-11-18"
+  },
+  {
+    "id": "2026-11-18-samsung-neocloud-8-percent",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "삼성전자 \"네오클라우드는 시장의 약 8%…AI 투자는 투기 아닌 실수요\"(인베스터 포럼)",
+    "summary": "김용관 삼성전자 DS부문 경영전략총괄 사장이 싱가포르 '삼성전자 인베스터 포럼 2026'에서 코어위브 등 네오클라우드는 전체 시장의 약 8%라며, 이들의 부채 우려가 AI 성장 전체에 중대한 위협은 아니라고 말했다(로이터 인용 보도). 지금의 AI 투자는 장기계약에 기반한 '구조적 변화'라고 했다.",
+    "why": "AI 순환금융·거품 우려로 반도체주가 흔들리는 가운데 메모리 최대 공급사가 수요 가시성을 직접 설명했다. 잔여 주주환원(현금배당+자사주 매입·소각) 세부안은 내년 1월 발표한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아이뉴스24(로이터 인용) + 연합뉴스 교차 확인"
+    },
+    "links": [
+      {
+        "label": "아이뉴스24",
+        "url": "https://www.inews24.com/view/2027934",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119010200009",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-18-samsung-apple-dram-lta-report",
@@ -385,6 +669,31 @@
       {
         "label": "AP",
         "url": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-naver-kakao-q3-rnd",
+    "date": "2026-11-18",
+    "category": "한국 IT",
+    "title": "네이버 3분기 누적 R&D 1조8,897억 원 역대 최대(16.2%↑)…카카오는 9,624억 원으로 제자리",
+    "summary": "분기보고서 기준 네이버의 올해 3분기 누적 연구개발비는 1조8,897억 원으로 전년 동기보다 16.2% 늘어 이미 2024년 연간치(1조8,579억 원)를 넘었다. 카카오는 9,624억 원으로 0.03% 줄었다.",
+    "why": "네이버는 브라우저 기반 AI 에이전트, 쇼핑 에이전트, 의료 AI 에이전트·메디컬 파운데이션 모델 등을 새 과제로 늘렸다. 카카오는 비용 효율 기조 속에 AI 스튜디오를 개편하고 다음 달 에이전트 서비스를 준비하고 있어, 두 회사의 AI 투자 전략이 갈린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 + 뉴스웨이 교차 확인(전자공시 분기보고서 기반)"
+    },
+    "image": "https://img.etnews.com/news/article/2026/10/22/news-p.v1.20261022.4e0cdf66a1574f40a283c21b2af13ad8_P1.png",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261118000253",
+        "type": "source"
+      },
+      {
+        "label": "뉴스웨이",
+        "url": "https://www.newsway.co.kr/news/view?ud=2026111816013535979",
         "type": "source"
       }
     ]
