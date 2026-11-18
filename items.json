@@ -115,6 +115,55 @@
     ]
   },
   {
+    "id": "2026-11-18-nvidia-q3-fy27-results",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "엔비디아 3분기(FY27) 매출 1,158억 달러 사상 최대…4분기 1,300억 달러 전망",
+    "summary": "엔비디아가 3분기 매출 1,158억 달러(전년 대비 103%, 전 분기 대비 20% 증가), 데이터센터 매출 1,076억 달러(110% 증가)를 발표했다. Vera Rubin NVL72 출하를 알렸고, 4분기 매출은 1,300억 달러(±3%, 추가 1주 포함)로 전망하며 중국 데이터센터 컴퓨트 매출은 가정하지 않았다.",
+    "why": "젠슨 황 사임 이후 첫 실적으로(콜렛 크레스 임시 CEO 코멘트), AI 인프라 수요와 중국 수출통제 영향을 가늠하는 핵심 지표다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 보도자료 + CNBC·Investopedia 보도 확인"
+    },
+    "image": "https://ml.globenewswire.com/media/39454f98-f1a6-4f6a-b3ab-43fe63dad6e3/medium/nvidia-corporate-headquarters.jpg",
+    "links": [
+      {
+        "label": "엔비디아 보도자료",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-nsa-network-outage",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "美 NSA 기밀 내부망 일시 장애…\"정기 유지보수 중 성능 저하, 공격 징후 없어\"",
+    "summary": "미 국가안보국(NSA)이 정기 유지보수 중 일시적 성능 저하로 일부 내부 시스템이 영향을 받았지만 핵심 임무 역량은 정상 가동 중이라고 밝혔다. AP·NBC는 기밀 통신망이 다운됐으며 사이버 공격 징후는 없다고 보도했다.",
+    "why": "애플·MS 365·JP모건 등 미국 내 연쇄 IT 장애가 이어지는 가운데 정보기관 기밀망까지 멈춘 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NSA 공식 성명 + AP·NBC 보도 확인"
+    },
+    "links": [
+      {
+        "label": "NSA 성명",
+        "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-microsoft-mai-code-2",
     "date": "2026-11-18",
     "category": "AI·IT",
