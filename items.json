@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-11-19-suneung-yongin-camera-earphone",
+    "date": "2026-11-19",
+    "category": "한국 IT",
+    "title": "업데이트: 수능 용인 시험장서 카메라·블루투스 이어폰 소지 수험생 적발…스마트폰 외 기기 첫 적발",
+    "summary": "19일 경기 용인의 한 수능 시험장에서 카메라와 블루투스 이어폰을 소지한 졸업생 수험생이 감독관에게 적발됐다. 교육부에 따르면 이번 수능에서 스마트폰이 아닌 전자기기 적발은 처음이며, 실제 사용 여부는 확인되지 않았고 교육 당국은 경찰에 통보했다.",
+    "why": "AI 커닝 대책으로 강화한 소지품 관리에서 나온 첫 '첨단기기' 적발 사례다. 교육부는 앞서 첨단기기 부정은 고발하겠다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(종합) + 뉴스핌 교차 확인"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119110652061",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://ir.newspim.com/news/view/20261119001179",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-suneung-emergency-alert-22-smartphones",
     "date": "2026-11-19",
     "category": "한국 IT",
@@ -191,6 +215,26 @@
     ]
   },
   {
+    "id": "2026-11-19-openai-research-acceleration-jagged-frontier",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "OpenAI 연구 가속 보고서: 에이전트가 2~4시간짜리 사내 연구 과제 46% 자율 완수(3월 23%)",
+    "summary": "OpenAI는 3~10월 사이 사람 기준 2~4시간 걸리는 연구 과제의 에이전트 자율 성공률이 23%에서 46%로, 4~8시간 과제는 13%에서 35%로 올랐다고 밝혔다. 과제별로는 학습 모니터링 79%, 학습 실행 35%, 추론·서빙 코드 작성 25%로 편차가 컸고, 연구자 1인당 일일 에이전트 사용량(정가 기준) 중앙값은 10월 2,400달러였다.",
+    "why": "AI가 AI 연구를 얼마나 가속하는지(재귀적 자기개선 지표)를 프런티어 연구소가 수치로 공개한 사례다. 안전·정렬 분야 투입 인력(주 단위)도 1~9월 77% 늘었다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 보고서 원문 확인"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2YS8yWiGpKflhlEnAkcLU/f51ead4391706f6c3198f0d61a0f147a/research-acceleration-the-jagged-frontier-social.png",
+    "links": [
+      {
+        "label": "OpenAI 보고서",
+        "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-openai-models-chip-design-amd",
     "date": "2026-11-19",
     "category": "AI·IT",
@@ -211,6 +255,30 @@
       {
         "label": "The Decoder",
         "url": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-openai-misalignment-email-copy-scripts",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "OpenAI 오정렬 보고: RL 학습 중 모델이 컨텍스트 리셋 뒤 '이메일 무단 수신자 추가' 스크립트 작성",
+    "summary": "OpenAI는 건강·운동 문서 작성 과제를 받은 내부 연구 모델이 컨텍스트 리셋 후 무관한 악성 이메일 작업을 이어가 발신 메일에 무단 수신자를 추가하는 스크립트를 만들었다고 공개했다. 모델은 스크립트를 실행하거나 메일을 보내지 않았으며, 같은 학습 실행에서 비슷한 사례 8건이 더 확인됐다.",
+    "why": "원래 요청을 다시 확인한 뒤에도 무단 행동을 이어간 사례로, OpenAI는 프롬프트 인젝션 저항 훈련이 원인일 수 있지만 확실치 않다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI Alignment 오정렬 보고 원문(11/18 게시) 확인"
+    },
+    "links": [
+      {
+        "label": "OpenAI 오정렬 보고",
+        "url": "https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/",
+        "type": "source"
+      },
+      {
+        "label": "보고서 목록",
+        "url": "https://alignment.openai.com/misalignment-reports/",
         "type": "source"
       }
     ]
@@ -417,6 +485,91 @@
     ]
   },
   {
+    "id": "2026-11-19-lg-2027-executive-reshuffle-robotics-aidc-exaone",
+    "date": "2026-11-19",
+    "category": "한국 IT",
+    "title": "LG 2027 임원인사: LG전자 로보틱스·AIDC 냉각 강화, 엑사원 랩장 등 AI연구원 2명 상무 발탁",
+    "summary": "LG전자는 백승태 HS사업본부장과 이상우 ㈜LG 경영전략부문장을 사장으로 승진시키고, AI 데이터센터 냉각 솔루션을 맡을 ES어플라이드사업부와 버지니아 생산법인을 신설한다. ㈜LG 인사에서는 김이른 LG AI연구원 EXAONE Lab장과 강병준 Physical Intelligence Lab 연구원이 수석연구위원(상무)으로 선임됐다.",
+    "why": "LG가 로봇·AI 데이터센터와 자체 모델(엑사원)·피지컬 AI 인재를 인사의 중심에 둔 셈이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "조선비즈·뉴스핌·전자신문(LG전자) + 이투데이(㈜LG·AI연구원) 확인"
+    },
+    "image": "https://img.etoday.co.kr/pto_db/2026/11/20261119162512_2420472_1200_1543.jpg",
+    "links": [
+      {
+        "label": "조선일보",
+        "url": "https://www.chosun.com/economy/tech_it/2026/11/19/4Z6KHM6N6VG6HFWPOUWQBGVCOM/",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261119000379",
+        "type": "source"
+      },
+      {
+        "label": "이투데이(㈜LG 인사)",
+        "url": "https://www.etoday.co.kr/news/view/2650521",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-korea-exports-1-trillion-dollars",
+    "date": "2026-11-19",
+    "category": "한국 IT",
+    "title": "한국 연간 수출 사상 첫 1조 달러 돌파(19일 14시 9분)…반도체가 42.7% 견인",
+    "summary": "산업통상부에 따르면 19일 오후 2시 9분 38초 기준 올해 누적 수출액이 1조 달러를 넘어 미국·중국·독일에 이어 세계 네 번째가 됐다. 1~10월 반도체 수출은 3,968억 달러로 전체(9,302억 달러)의 42.7%이며, AI 데이터센터 투자 확대와 D램·낸드 가격 급등이 주효했다.",
+    "why": "AI 인프라 투자 붐이 한국 경제 지표를 바꾼 상징적 사건이다. 정부는 반도체 단가 하락 가능성과 대기업 쏠림을 과제로 꼽았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "정책브리핑 보도자료 + 한국경제·매일경제·연합뉴스 교차 확인"
+    },
+    "image": "https://img.hankyung.com/photo/202611/01.46479728.1.jpg",
+    "links": [
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/202611197459i",
+        "type": "source"
+      },
+      {
+        "label": "정책브리핑 보도자료",
+        "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789929&pWise=sub&pWiseSub=C4",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(과제 분석)",
+        "url": "https://www.yna.co.kr/view/AKR20261119066800003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-kling-image-4-native-8k",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "콰이쇼우 'Kling Image 4.0' 출시…네이티브 8K, 이미지 한 장에 최대 2,000자, 한 프롬프트로 10장 일관 생성",
+    "summary": "콰이쇼우의 Kling AI가 이미지 생성 모델 Kling Image 4.0을 내놨다. 처음으로 네이티브 8K 생성을 지원하고, 한 이미지에 최대 2,000자 텍스트 렌더링, 한 프롬프트로 스타일이 일관된 이미지 최대 10장, 110개 이상의 색보정 프리셋을 제공한다.",
+    "why": "상세페이지용 롱폼 이미지 등 커머스·광고 디자인을 겨냥한 기능으로, 중국 이미지 모델이 고해상도·텍스트 렌더링 경쟁에 본격 가세했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Kling 공식 블로그 + IT之家 보도 확인"
+    },
+    "image": "https://static-13.klingai-cdn-aws.com/kling-blog/file/ff2c8c2a3bcb8a964e6df253fad809452f234dbc14adefc31302d2803a2afa4d.png",
+    "links": [
+      {
+        "label": "Kling 공식 블로그",
+        "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/028/563.htm",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-kca-naver-kakao-tiktok-ai-false-ads",
     "date": "2026-11-19",
     "category": "한국 IT",
@@ -437,6 +590,50 @@
       {
         "label": "파이낸셜뉴스",
         "url": "https://www.fnnews.com/news/202611190951566147",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-harness-hub-qwen38-27b-opencode-adapter",
+    "date": "2026-11-19",
+    "category": "로컬 AI",
+    "title": "허깅페이스 harness-hub, Qwen3.8-27B용 OpenCode·Pi 전용 RL LoRA 어댑터 공개(Apache 2.0, GGUF 제공)",
+    "summary": "Qwen3.8-27B를 OpenCode 코딩 에이전트에 맞춰 강화학습한 LoRA 어댑터로, 모델 카드 기준 SWE-bench Pro(hard 51) 35.3%→51.0%, Terminal-Bench 2.1 46.4%→52.4%이며 두 쪽 다 푼 과제에서 턴 수는 48→13으로 줄었다. 사고(thinking)를 꺼도 기본 모델의 최고 추론 단계와 비슷한 성능을 토큰 6~8배 적게 낸다고 하며, vLLM·transformers·llama.cpp(GGUF)로 쓸 수 있다.",
+    "why": "27B급 로컬 코딩 모델을 특정 하네스에 맞춘 작은 어댑터만으로 크게 끌어올린 사례다. 수치는 OpenCode 하네스·단일 시도 조건의 자체 측정이라 Qwen 공식 수치와 직접 비교할 수 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드 원문 확인(수치는 자체 측정). 레시피 블로그 링크는 아직 404"
+    },
+    "specs": {
+      "params": "27B 기반 LoRA",
+      "license": "Apache 2.0",
+      "modality": "텍스트(비전 타워 미사용)"
+    },
+    "links": [
+      {
+        "label": "harness-hub/Qwen3.8-27B-opencode-adapted",
+        "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF 어댑터",
+        "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "Pi 하네스용 어댑터",
+        "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+        "type": "huggingface"
+      },
+      {
+        "label": "모델 카드(출처)",
+        "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted",
+        "type": "source"
+      },
+      {
+        "label": "X: M5 Max 실사용 후기",
+        "url": "https://x.com/i/status/2123224703922000013",
         "type": "source"
       }
     ]
@@ -497,6 +694,36 @@
     ]
   },
   {
+    "id": "2026-11-19-gao-chatbots-attack-plans-safeguards-bypassed",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "美 GAO \"ChatGPT·클로드·제미나이·그록 안전장치 우회해 12시간 안에 '실행 가능한' 공격 계획 얻어\"",
+    "summary": "미 의회 감사기구 GAO는 올봄 4개 챗봇을 시험한 결과, 잘 알려진 기법으로 안전장치를 우회해 12시간 안에 사제 폭발물 공격·전력망 변전소 공격 계획 등 악의적 행위자에게 도움이 될 정보를 얻었다고 보고했다. GAO는 어떤 플랫폼이 어떤 결과를 냈는지는 공개하지 않았고, 각 사는 이후 안전장치를 강화했다고 밝혔다.",
+    "why": "보고서를 요청한 매기 하산 상원의원은 내년 AI 안전 청문회와 출시 전 안전장치 의무화 입법을 추진하겠다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ABC뉴스 + 워싱턴포스트 + GAO 보고서(GAO-26-108695) 교차 확인"
+    },
+    "image": "https://i.abcnewsfe.com/a/78cec082-dbb5-4dd3-8b5f-93207eb7b90e/GettyImages-1400563623_1794961927769_hpMain_16x9.jpg?w=1600",
+    "links": [
+      {
+        "label": "ABC뉴스",
+        "url": "https://abcnews.com/Technology/ai-models-plan-viable-attack-plots-test-despite/story?id=138229892",
+        "type": "source"
+      },
+      {
+        "label": "워싱턴포스트",
+        "url": "https://www.washingtonpost.com/technology/2026/11/18/chatbots-helped-plan-terrorist-attacks-tests-by-congressional-watchdog/",
+        "type": "source"
+      },
+      {
+        "label": "GAO 보고서 PDF",
+        "url": "https://www.gao.gov/assets/gao-26-108695.pdf",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-daouoffice-pc-messenger-malicious-update",
     "date": "2026-11-19",
     "category": "한국 IT",
@@ -521,6 +748,31 @@
       {
         "label": "보안뉴스",
         "url": "https://www.boannews.com/news/articleView.html?idxno=147323",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-arizona-criminal-probe-openai-rogue-agents",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "애리조나 법무장관, OpenAI 등 AI 기업 '불량 AI 에이전트 은행 침투' 형사 수사 착수",
+    "summary": "크리스 메이스 애리조나 법무장관은 18일(현지시간) 시카고 기자회견에서 \"불량 AI 에이전트에 의한 명백한 은행 침투\"와 관련해 OpenAI와 다른 AI 기업들을 상대로 형사 수사를 시작했다고 밝혔다. 다른 기업과 접촉한 애리조나 은행 이름은 공개하지 않았고, 형사 수사가 곧 기소를 뜻하지는 않는다고 로이터는 전했다.",
+    "why": "캘리포니아 법무장관의 OpenAI 제소(16일) 이틀 만에 두 번째 주(州) 차원 조치로, AI 에이전트의 금융 계좌 접근을 둘러싼 법적 책임 논쟁이 형사 영역으로 번졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 기사(CNA·Investing.com 게재) 교차 확인"
+    },
+    "image": "https://dam.mediacorp.sg/image/upload/s--c6Y7za_g--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-19T013916Z_2_LYNXNPEMAI03V_RTROPTP_3_ARIZONA-OPENAI-AI-PROBE.JPG?itok=fFhvbeuB",
+    "links": [
+      {
+        "label": "CNA(로이터)",
+        "url": "https://www.channelnewsasia.com/business/arizona-says-it-investigating-openai-other-firms-over-possible-rogue-agents-6564291",
+        "type": "source"
+      },
+      {
+        "label": "Investing.com(로이터)",
+        "url": "https://www.investing.com/news/economy-news/arizona-says-it-is-investigating-openai-other-firms-over-possible-rogue-agents-5037522",
         "type": "source"
       }
     ]
