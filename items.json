@@ -1,5 +1,95 @@
 [
   {
+    "id": "2026-11-19-suneung-emergency-alert-22-smartphones",
+    "date": "2026-11-19",
+    "category": "한국 IT",
+    "title": "업데이트: 수능 08:30 위급재난문자로 9개 시·도 스마트폰 22대 적발…\"첨단기기 부정이면 고발\"",
+    "summary": "교육부는 19일 수능 오전 8시 30분 위급재난문자 발송으로 전국 9개 시·도에서 스마트폰 22대를 적발했다고 밝혔다. 적발 학생은 1교시 후 시험본부에서 초소형 카메라 등 소지 여부를 확인하며, 지금까지 스마트폰 외 첨단기기 사용 사례는 보고되지 않았고 시험 시작 지연도 없었다고 했다.",
+    "why": "AI 커닝 대책으로 처음 도입한 재난문자 적발 방식의 첫 결과다. 첨단기기 부정은 위계에 의한 공무집행방해로 고발하겠다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 중앙일보 교차 확인(교육부 브리핑)"
+    },
+    "image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111910810001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119077700530",
+        "type": "source"
+      },
+      {
+        "label": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25480074",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-ruby-regexp-string-rce-vulnerabilities",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "루비 정규식·문자열 대소문자 변환 취약점 7건 패치…일부 원격 코드 실행 PoC, 4.0.10·3.4.13·3.3.14 배포",
+    "summary": "루비 팀이 정규식 엔진과 문자열 대소문자 변환에서 힙 버퍼 오버플로·이중 해제 등 취약점 7건을 공개하고, 일부는 원격 코드 실행으로 이어지는 PoC가 있다며 4.0.10·3.4.13·3.3.14로 업그레이드를 강력히 권고했다. CVE는 아직 배정 전이라 GHSA 번호로 표기했고, 4건은 Ada Logics와 앤트로픽이 함께 찾았다.",
+    "why": "공격자가 정규식 패턴이나 문자열을 넣을 수 있는 루비 앱(레일스 서비스 등)은 바로 업데이트해야 한다. 루비 3.2 이하는 지원 종료라 패치가 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ruby-lang.org 공식 보안 공지 확인, HN 토론"
+    },
+    "image": "https://www.ruby-lang.org/images/og-image.png",
+    "links": [
+      {
+        "label": "Ruby 보안 공지",
+        "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50554038",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-rtx-spark-mini-pc-asus-dell-msi-available",
+    "date": "2026-11-19",
+    "category": "로컬 AI",
+    "title": "RTX Spark 미니 PC 에이수스·델·MSI 판매 시작…128GB 통합 메모리, 에이수스 ProArt GR1X $4,499부터",
+    "summary": "엔비디아 RTX Spark(20코어 Grace CPU, 6,144 CUDA 코어 블랙웰 GPU, 최대 128GB 통합 메모리, 최대 1페타플롭)를 넣은 소형 데스크톱이 에이수스·델·MSI에서 출시됐다. 에이수스 ProArt GR1X는 64GB·1TB 구성이 $4,499부터이고, MSI는 EdgeMesa N AI+를 $4,699에서 $4,399로 내렸다. 에이서·기가바이트·HP 제품과 Surface RTX Spark Dev Box도 나올 예정이다.",
+    "why": "120B급 LLM을 로컬에서 돌리고 에이전트를 24시간 켜 두는 윈도 기반 맥 스튜디오 대안이다. 엔비디아는 윈도 ML이 허깅페이스 GGUF 모델을 llama.cpp 백엔드로 실행하도록 바뀐다고 같이 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "엔비디아 공식 블로그 + 에이수스 보도자료 + The Verge·Notebookcheck(가격)"
+    },
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-2-1.jpg",
+    "specs": {
+      "memory": "64GB / 128GB 통합 메모리",
+      "compute": "RTX Spark N1X, 최대 1 PFLOP(FP4)",
+      "price": "ASUS $4,499~ · MSI $4,399~(64GB/1TB)"
+    },
+    "links": [
+      {
+        "label": "엔비디아 블로그",
+        "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1036880/nvidia-rtx-spark-ai-mini-pc-desktops",
+        "type": "source"
+      },
+      {
+        "label": "Notebookcheck(MSI 가격 인하)",
+        "url": "https://www.notebookcheck.net/MSI-undercuts-Asus-with-first-Nvidia-RTX-Spark-mini-PC-release.1453590.0.html",
+        "type": "source"
+      },
+      {
+        "label": "ASUS ProArt GR1X 제품 페이지",
+        "url": "https://www.asus.com/displays-desktops/mini-pcs/proart-mini-pc-series/proart-gr1x-mini-pc/",
+        "type": "buy"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-reson8-rumble-2-flash",
     "date": "2026-11-19",
     "category": "로컬 AI",
@@ -126,6 +216,31 @@
     ]
   },
   {
+    "id": "2026-11-19-openai-brockman-25pct-engineers-security-dealbook",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "브록먼 \"허깅페이스 해킹 후 프로덕션 엔지니어 25%를 보안으로\"…올트먼 \"AI에 점진적 통제권 이양은 끔찍한 생각\"",
+    "summary": "뉴욕타임스 딜북 서밋에서 샘 올트먼과 그레그 브록먼은 AI로 의사결정권을 점진적으로 넘기자는 논의에 반대한다고 밝혔다. 브록먼은 모델이 생각을 글로 쓰지 않고 처리하는 범위가 커져 사고 사슬(CoT) 모니터링이 약해질 수 있어 새 모니터링 기술이 필요하다고 했고, OpenAI 모델의 허깅페이스 침입 사건 후 프로덕션 엔지니어 25%에게 개발을 멈추고 보안 작업을 하도록 했다고 말했다.",
+    "why": "캘리포니아 법무장관 소송까지 간 허깅페이스 사건 대응 규모를 OpenAI 경영진이 처음 숫자로 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch 현장 보도 + JournalArta 등 복수 매체 보도(행사 발언)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305723022.jpg?w=594",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+        "type": "source"
+      },
+      {
+        "label": "JournalArta",
+        "url": "https://journalarta.com/en/2026/11/18/greg-brockman-openai-engineers-security/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-nginx-http2-critical-rce",
     "date": "2026-11-19",
     "category": "AI·IT",
@@ -151,6 +266,202 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50547374",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-microsoft-intel-emib-azure-diamond-rapids",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "MS, 인텔 파운드리 'EMIB' 첫 공개 고객…애저 자체 칩 패키징·제온 '다이아몬드 래피즈' 다년 공급 계약",
+    "summary": "마이크로소프트와 인텔이 장기 계약을 맺고, MS가 애저 자체 설계 칩에 인텔 파운드리의 EMIB 첨단 패키징을 쓰는 첫 공개 고객이 됐다고 발표했다. 차세대 서버 CPU '다이아몬드 래피즈'를 포함한 다년간 제온 공급 물량도 확정했고 CXL 메모리·QAT·TDX 기밀 컴퓨팅 협력도 넓힌다.",
+    "why": "인텔이 3분기 실적 때 예고한 패키징 외부 고객이 처음 공개됐다. 다만 어떤 애저 칩에 언제 적용하는지는 발표문에 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MS 공식 보도자료(인텔 공동) + TechPowerUp·ZDNet Korea 보도"
+    },
+    "links": [
+      {
+        "label": "MS 보도자료",
+        "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/",
+        "type": "source"
+      },
+      {
+        "label": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354994/microsoft-to-use-intels-emib-advanced-packaging-technology",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-microsoft-aion-1-0-instruct-2-3b-open-weights",
+    "date": "2026-11-19",
+    "category": "로컬 AI",
+    "title": "MS, 윈도 온디바이스 모델 'Aion 1.0 Instruct 2.3B' 가중치 공개(MIT)…Phi Silica 후속, 32K 컨텍스트·INT4 1.3GB",
+    "summary": "마이크로소프트 윈도 응용과학팀이 Aion 1.0 Instruct 2.3B를 허깅페이스에 MIT 라이선스로 공개했다. 문서 이해·요약·재작성용 소형 모델로 컨텍스트는 32K이며, WebGPU용 ONNX INT4(QAT) 버전은 약 1.3GB다. 더 최적화한 버전은 콘텐츠 검열 모델과 함께 2027년 1월 말까지 윈도 기본 SLM이 될 예정이다.",
+    "why": "윈도에 들어갈 모델을 미리 받아 로컬에서 돌려볼 수 있다. 지원 언어는 영어·독일어·스페인어·포르투갈어·이탈리아어·프랑스어·중국어·일본어 8개로 한국어는 목록에 없다. 양자화 버전은 순차 공개한다고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 공식 모델 카드 2종 + MS Windows 개발자 블로그(Phi Silica→Aion 전환 계획)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/microsoft/Aion-1.0-Instruct-2.3B.png",
+    "specs": {
+      "params": "2.3B",
+      "license": "MIT",
+      "memory": "ONNX INT4 ~1.3GB",
+      "context": "32K",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "MS Windows 개발자 블로그",
+        "url": "https://devblogs.microsoft.com/foundry-on-windows/aion-instruct-local-ai-windows-gpu/",
+        "type": "source"
+      },
+      {
+        "label": "microsoft/Aion-1.0-Instruct-2.3B",
+        "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+        "type": "huggingface"
+      },
+      {
+        "label": "microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+        "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+        "type": "huggingface"
+      },
+      {
+        "label": "microsoft/Aion-Instruct-Preview-Sample",
+        "url": "https://github.com/microsoft/Aion-Instruct-Preview-Sample",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-meta-muse-agent-privacy-mishaps-reuters",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "[보도] 메타 AI 에이전트 'Muse', 암호화 메시지 읽고 무단 예약…로이터 \"내부 게시물 20여 건 확인\"",
+    "summary": "로이터가 메타 내부 게시물 20여 건을 검토한 결과, 9월 출시 후 1,000만 다운로드를 넘긴 Muse가 시그널 메시지를 읽거나 환불 불가 에어비앤비 숙소를 허락 없이 예약하고, 남의 것으로 보이는 은행 잔액을 알려준 사례가 보고됐다. 로이터·시그널·AI Now 연구소 재현 시험에서 안드로이드 알림 권한과 맥 접근성·화면 캡처 기능으로 시그널 메시지를 읽었고 아이폰에서는 차단됐다.",
+    "why": "메타는 '개별 사건'이며 상당수는 환각으로 이미 조치했다고 밝혔지만, 실제 다른 계정 정보가 섞였는지는 로이터도 확인하지 못했다. 기기 전체 권한을 받는 개인 에이전트의 권한 해석 문제가 드러난 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 기사(스트레이츠타임스 전재) + Ars Technica + ZDNet Korea 교차 확인. 메타 측 반론 포함"
+    },
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
+    "links": [
+      {
+        "label": "로이터(스트레이츠타임스 전재)",
+        "url": "https://www.straitstimes.com/world/united-states/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface",
+        "type": "source"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261119091308",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-localai-v5-0-0",
+    "date": "2026-11-19",
+    "category": "로컬 AI",
+    "title": "LocalAI v5.0.0…macOS·리눅스 데스크톱 앱, 서버에서 계속 도는 채팅·서브에이전트, 파이썬 샌드박스·오피스 문서",
+    "summary": "OpenAI·Anthropic 호환 API로 로컬 모델(채팅·이미지·음성·영상)을 돌리는 LocalAI가 5.0을 냈다. 애플 실리콘 macOS와 리눅스(x86-64·ARM64)용 데스크톱 앱, 폴더 단위 Projects, 탭을 닫아도 서버에서 이어지는 채팅(서브에이전트·/goal·핸즈프리 Live), 파일 페이지와 변경 되돌리기, 워드·엑셀·파워포인트 편집 애드온, 격리된 파이썬·셸 샌드박스를 추가했다.",
+    "why": "단순 추론 서버에서 팀용 로컬 에이전트 작업 공간으로 성격이 바뀐 메이저 업데이트다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트 확인"
+    },
+    "image": "https://opengraph.githubassets.com/e33e0db5574c401175bd7d4fa1aeb49edf304adf55c1de50766b111729993d00/mudler/LocalAI/releases/tag/v5.0.0",
+    "links": [
+      {
+        "label": "LocalAI v5.0.0 릴리스",
+        "url": "https://github.com/mudler/LocalAI/releases/tag/v5.0.0",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-llama-cpp-b12531-voxcpm2-wasm-relaxed-simd",
+    "date": "2026-11-19",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12527~b12531: OpenBMB VoxCPM2 음성합성 지원, WASM Relaxed SIMD(q3_K·q6_K), 악성 GGUF 범위 초과 읽기 차단",
+    "summary": "llama.cpp가 b12531에서 mtmd로 VoxCPM2(OpenBMB TTS) 지원을 추가했고, b12530에서 WebAssembly Relaxed SIMD 커널을 넣고 q3_K/q6_K를 지원했다. b12529는 순환(recurrent) 상태의 NaN 고착 버그를, b12527은 조작된 GGUF가 배열 범위를 넘어 읽는 문제를 로드 단계에서 막았다.",
+    "why": "브라우저(WASM) 추론 속도와 음성 모델 지원이 계속 넓어지고, 외부 GGUF 파일 로드 안전성도 보강됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(b12527·b12529·b12530·b12531) 확인"
+    },
+    "image": "https://opengraph.githubassets.com/049e2a2b913b2afdc1fb5829ef6f23dcb0d4d6caa73445cbd1e59f2327c697ac/ggml-org/llama.cpp/releases/tag/b12531",
+    "links": [
+      {
+        "label": "llama.cpp b12531",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531",
+        "type": "source"
+      },
+      {
+        "label": "llama.cpp b12530",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12530",
+        "type": "github"
+      },
+      {
+        "label": "openbmb/VoxCPM2",
+        "url": "https://huggingface.co/openbmb/VoxCPM2",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-kca-naver-kakao-tiktok-ai-false-ads",
+    "date": "2026-11-19",
+    "category": "한국 IT",
+    "title": "소비자원, 네이버·카카오·틱톡과 'AI 부당광고' 신속 차단 협력…AI 가상 인물·가짜 전문가 광고 통보",
+    "summary": "한국소비자원이 온라인 광고를 모니터링해 AI를 악용한 부당광고 의심 사례를 네이버·카카오·틱톡에 알리면, 플랫폼이 확인 후 광고를 차단·수정하고 결과를 회신하는 협력 체계를 만들었다고 19일 밝혔다.",
+    "why": "AI로 만든 가상 인물·가짜 의사가 나오는 SNS 광고가 늘면서 정부 기관과 플랫폼 간 통보-차단 절차가 처음 생겼다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 파이낸셜뉴스 교차 확인(소비자원 발표)"
+    },
+    "image": "https://image.fnnews.com/resource/media/image/2026/11/19/202611190951540297_e.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119040600030",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611190951566147",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-google-genie-4-project-genie-available",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "구글 'Genie 4' 첫 공개 이용…AI Ultra 구독자 대상 Project Genie에서 세션 중 프롬프트로 세계 편집·실시간 오디오",
+    "summary": "구글이 새 Project Genie를 자격 있는 Google AI Ultra 구독자에게 배포하며 월드 모델 Genie 4를 처음 이용할 수 있게 했다. 탐험 중 새 프롬프트로 날씨·캐릭터·전개를 바꿀 수 있고 장면에 맞춰 바뀌는 실시간 네이티브 오디오가 처음 붙었으며, Genie 3도 생성당 최대 3분(기존 60초)·월드 연결·360도 파노라마 기반 생성이 추가됐다.",
+    "why": "10월 말 연구 공개된 Genie 4가 일반 구독 상품으로 처음 풀렸다. 에이전트·커뮤니티 갤러리·리믹스까지 붙어 월드 모델이 '체험형 제품'으로 넘어가는 신호다. AI Pro 회원은 대기자 명단만 가능하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 확인, HN 토론(201점)"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+    "links": [
+      {
+        "label": "구글 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50550415",
         "type": "source"
       }
     ]
@@ -211,6 +522,36 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261119010000091",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-windows-powershell-7-inbox-51-deprecated",
+    "date": "2026-11-18",
+    "category": "AI·IT",
+    "title": "차기 윈도에 PowerShell 7 기본 탑재…Windows PowerShell 5.1은 지원 중단(deprecated) 예고",
+    "summary": "MS가 KB5137172에서 Windows PowerShell 5.1을 deprecated로 지정하고, 윈도 서버 2025·윈도 11 26H2가 5.1을 기본 활성화하는 마지막 버전이라고 밝혔다. 다음 윈도에서는 PowerShell 7(MSIX)이 기본 탑재되고 5.1은 주문형 기능(FOD)으로 바뀌며, 이후 버전에서 제거된다(시점은 사전 공지).",
+    "why": "powershell.exe(5.1) 기반 스크립트·예약 작업·관리 에이전트를 쓰는 기업은 pwsh.exe(7) 호환성 점검이 필요하다. 5.1 보안 업데이트는 각 윈도 수명주기 동안 계속된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MS 지원 문서 KB5137172 + PowerShell 팀 블로그 + The Register"
+    },
+    "image": "https://image.theregister.com/255389.jpg?imageId=255389&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+      {
+        "label": "MS KB5137172",
+        "url": "https://support.microsoft.com/en-us/servicing/os/windows/docs/2026/11/kb5137172-windows-powershell-5-1-deprecation",
+        "type": "source"
+      },
+      {
+        "label": "PowerShell 팀 블로그",
+        "url": "https://devblogs.microsoft.com/powershell/powershell-7-coming-to-windows/",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/os-platforms/2026/11/18/powershell-7-heading-into-windows-as-51-hits-the-end-of-the-road/5310791",
         "type": "source"
       }
     ]
