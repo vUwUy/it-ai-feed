@@ -497,6 +497,35 @@
     ]
   },
   {
+    "id": "2026-11-19-daouoffice-pc-messenger-malicious-update",
+    "date": "2026-11-19",
+    "category": "한국 IT",
+    "title": "다우오피스 윈도 PC메신저 자동 업데이트로 악성 파일 유포…브라우저 저장 계정 유출 가능성",
+    "summary": "다우오피스는 11월 15일 16:45~16일 09:25 윈도용 PC메신저 자동 업데이트 과정에서 불상의 해커에 의해 일부 PC에 악성 파일이 설치됐다고 17일 공지했다. 크롬·엣지에 저장된 아이디·비밀번호와 다우오피스 계정이 유출됐을 가능성이 있고, 원격 접속용 관리자 계정(DaouSupport) 생성·RDP 허용 가능성도 있다. 정상 버전 4.5.12를 배포했다.",
+    "why": "업데이트 채널을 노린 공급망 공격이라 별도 사이트 접속 없이 감염될 수 있다. 다우오피스는 앞서 그룹웨어 해킹으로 빗썸·한양증권 등 고객사 정보 유출을 겪었다(연합뉴스는 두 사고의 연관성은 확인되지 않았다고 보도). 사용 기업은 %AppData%\\DaouMessengerUpdater·beacon.exe·DaouSupport 계정 여부를 확인하고 브라우저 저장 비밀번호를 바꾸라는 권고가 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "다우오피스 공식 보안 공지(11/17) + 연합뉴스·보안뉴스 보도"
+    },
+    "links": [
+      {
+        "label": "다우오피스 보안 공지",
+        "url": "https://daouoffice.com/blog/411480/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119092400017",
+        "type": "source"
+      },
+      {
+        "label": "보안뉴스",
+        "url": "https://www.boannews.com/news/articleView.html?idxno=147323",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-anthropic-ipo-priced-83",
     "date": "2026-11-19",
     "category": "AI·IT",
