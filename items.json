@@ -1,5 +1,293 @@
 [
   {
+    "id": "2026-11-20-unsloth-0-1-920-amd-npu",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "Unsloth v0.1.920: AMD 라이젠 AI NPU 지원 본격화…AMD \"Unsloth Desktop 지원 첫 NPU\"",
+    "summary": "Unsloth가 v0.1.920 베타에서 Q4NX로 변환한 모델을 AMD XDNA 2 NPU에서 실행(텍스트 전용)하고 NPU별 실행 가능 여부를 표시하도록 했으며, LTX-2.5·MOSS-Image LoRA 학습, 디퓨전 LoRA 학습 단계당 최대 42% 가속, QLoRA 최대 25% 가속도 넣었다. AMD는 Lemonade·FastFlowLM 연동으로 Qwen3.6 35B-A3B를 NPU에서 돌리는 데모를 공개했고, 풀 컨텍스트에 NPU용 메모리 약 28GB(시스템 RAM 64GB 권장)가 필요하다고 밝혔다.",
+    "why": "노트북 NPU로 30B대 MoE 모델을 저전력으로 돌리는 길이 일반 사용자 앱에서 열렸다. Unsloth는 NPU가 GPU보다 토큰당 에너지 효율이 2~4배라고 주장한다(자체 주장).",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트 + AMD 공식 블로그 + Unsloth 문서 확인"
+    },
+    "image": "https://www.amd.com/content/dam/amd/en/images/blogs/designs/technical-blogs/consumer-ai-blogs/unsloth-npu/unsloth-feature-final.jpg",
+    "specs": {
+      "compute": "AMD XDNA 2 NPU(Windows)",
+      "memory": "Qwen3.6 35B-A3B 풀 컨텍스트 NPU 메모리 ~28GB(RAM 64GB)"
+    },
+    "links": [
+      {
+        "label": "AMD 블로그",
+        "url": "https://www.amd.com/en/blogs/2026/unlocking-the-amd-ryzen-ai-npu-for-unsloth-desktop.html",
+        "type": "source"
+      },
+      {
+        "label": "unslothai/unsloth v0.1.920-beta",
+        "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.920-beta",
+        "type": "github"
+      },
+      {
+        "label": "Unsloth AMD NPU 문서",
+        "url": "https://unsloth.ai/docs/get-started/install/amd/npu",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-uk-ipt-confirms-apple-tcn",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "영국 법원, 정부가 애플에 '암호화 우회' 기술역량통지(TCN) 발부한 사실 공식 확인",
+    "summary": "영국 조사권한재판소(IPT)는 19일 내무부가 애플에 수사권한법 253조에 따른 기술역량통지(TCN)를 내렸다는 사실을 공개해도 국가안보를 해친다는 정부 주장이 입증되지 않았다며 이를 공식 확인했다. 통지의 적법성 판단은 아니며, 본안 심리는 2027년 상반기로 잡혔다(The Record).",
+    "why": "아이클라우드 고급 데이터 보호(ADP) 종단간 암호화를 둘러싼 영국 정부·애플 분쟁이 2년 가까운 '확인도 부인도 않는' 단계를 벗어나 공개 재판으로 넘어간다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IPT 공개 판결문([2026] UKIPTrib 9) + 로이터·The Record 교차 확인, HN 화제"
+    },
+    "image": "https://cms.therecord.media/uploads/Apple_logo_253a5988c4.jpg",
+    "links": [
+      {
+        "label": "IPT 공개 판결문(PDF)",
+        "url": "https://investigatorypowerstribunal.org.uk/wp-content/uploads/2026/11/OPEN-Judgment-Apple-Inc.-and-Privacy-Int.-Ors-1.pdf",
+        "type": "source"
+      },
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/apple-uk-encryption-notice",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50562113",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-ruby2shell-rails-preauth-rce",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "업데이트: 루비 'Ruby2Shell'(CVE-2026-132825), 기본 설정 레일스에서 인증 없이 RCE…깃랩·GHES는 아직 패치 없음",
+    "summary": "Veria Labs가 루비 문자열 대소문자 변환(ß 대문자화)의 1바이트 힙 오버플로를 'Ruby2Shell'로 공개하며, 기본 설정의 Rails·Sinatra(classic)에서 인증 없이 도달 가능하다고 밝혔다. 루비 2.4.0부터 영향이고 4.0.10·3.4.13·3.3.14에서 수정됐으며, 루비를 내장한 GitLab(19.6.0 이하)·GitHub Enterprise Server(3.22.5 이하)·Chatwoot는 19일 22:00 UTC 기준 수정판이 없다. 레일스 RCE PoC는 11월 25일 공개 예정이다.",
+    "why": "어제 다룬 루비 보안 업데이트 중 하나가 실제로 '기본 설정 레일스 무인증 RCE'로 이어진다는 게 드러났다. 자체 호스팅 깃랩·GHES 운영자는 벤더 패치를 서둘러 확인해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "발견자 Veria Labs 공식 공지(CVE·GHSA 번호, 영향 표) + ruby-lang.org 보안 공지(수정 버전) 확인, HN 화제"
+    },
+    "image": "https://verialabs.com/og/ruby2shell.png",
+    "links": [
+      {
+        "label": "Veria Labs 공지",
+        "url": "https://verialabs.com/ruby2shell/",
+        "type": "source"
+      },
+      {
+        "label": "Ruby 보안 공지",
+        "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50556287",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-php-86-and-security-releases",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "PHP 8.6.0 정식 출시·8.2~8.5 보안 업데이트…치명적 취약점 7건(원격 코드 실행 포함)",
+    "summary": "PHP 팀이 19일 부분 함수 적용(Partial Function Application), Duration 클래스, Polling API, clamp() 함수 등을 담은 PHP 8.6.0을 내놨다. 같은 날 8.5.13·8.4.28·8.3.37·8.2.36 보안 릴리스로 취약점 17건(치명 7·높음 4·보통 6)을 고쳤으며, 시간대 캐시 UAF(CVE-2026-129496)·세션 파일 손상 RCE·PHP-FPM 요청 스머글링 등이 포함됐다.",
+    "why": "지난달 PHP2Shell 사태 한 달 만의 대규모 치명적 패치다. 일부는 특수 설정에서만 악용되지만 PHP 서버 운영자는 바로 업데이트해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "php.net 릴리스 공지·8.6 소개 페이지 + php-src GitHub 보안 권고 17건(심각도 집계) + 연합뉴스 교차 확인"
+    },
+    "image": "https://www.php.net/images/php8/php_8_6_released.png",
+    "links": [
+      {
+        "label": "PHP 8.6 릴리스",
+        "url": "https://www.php.net/releases/8.6/en.php",
+        "type": "source"
+      },
+      {
+        "label": "php-src 보안 권고",
+        "url": "https://github.com/php/php-src/security/advisories",
+        "type": "github"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119185500017",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론(8.6)",
+        "url": "https://news.ycombinator.com/item?id=50557870",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-llama-cpp-b12532-b12552",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12532~b12552: M5용 Metal CONV_2D 텐서 API·Vulkan stream-k 행렬곱·IQ2 양자화 생성 가속",
+    "summary": "llama.cpp가 하룻밤 사이 b12552까지 올라가며 M5 칩용 Metal CONV_2D 텐서 API 커널과 전 칩 split-K(b12543), Vulkan stream-k MUL_MAT(b12535), 캐싱을 통한 IQ2 양자화 생성 가속(b12541), Qwen3-VL EAGLE-3 대응(b12542), Inkling 2 어텐션 마스크 수정(b12549), WebGPU POOL_2D(b12547), CUDA set 스캐터 커널(b12551) 등을 반영했다.",
+    "why": "애플 M5·Vulkan(AMD/인텔 GPU) 환경 성능과 저비트 IQ2 양자화 작업 시간에 직접 영향을 주는 변경들이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(b12532~b12552) 직접 확인"
+    },
+    "links": [
+      {
+        "label": "b12552 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12552",
+        "type": "source"
+      },
+      {
+        "label": "b12543 (Metal M5)",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12543",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-lgd-10-5g-oled-investment-withdrawn",
+    "date": "2026-11-20",
+    "category": "한국 IT",
+    "title": "LG디스플레이, 파주 10.5세대 대형 OLED 3조 원 투자계획 7년 만에 철회",
+    "summary": "LG디스플레이가 2019년 결정한 파주 P10 10.5세대 대형 OLED 3조 원 시설투자를 19일 철회했다. 회사는 코로나19·전쟁·고금리 등 외부 변수와 OLED TV 성장 둔화를 이유로 들며, 초대형 패널보다 게이밍 OLED 모니터 등 중소형 프리미엄 수요가 커져 기존 대형 OLED 생산능력을 최대한 활용하는 게 합리적이라고 설명했다.",
+    "why": "한국 디스플레이 업계의 초대형 OLED 전략이 사실상 접히고 모니터 등 수익성 중심으로 방향이 바뀐다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea(회사 공시 설명 인용) + 연합뉴스 교차 확인"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/01/2928d7935e3ab69ce70255e2e250ddb5.png",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261120013247",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119157800003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-google-blue-origin-suncatcher-2029",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "구글, 우주 AI 데이터센터 'Project Suncatcher' 첫 대형 발사에 블루오리진 뉴글렌 선정(2029년 1분기)",
+    "summary": "구글은 블루오리진의 대형 로켓 뉴글렌이 2029년 1분기를 목표로 각각 데이터센터 랙 1개 수준의 연산 능력을 갖춘 TPU 위성들을 태양동기궤도에 올린다고 발표했다. Project Suncatcher의 첫 전용 대형 발사다.",
+    "why": "지난달 시험 위성의 궤도 AI 응답에 이어, 우주 데이터센터 구상이 구체적 발사 일정 단계로 들어섰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그 + 블루오리진 발표(검색 확인) + The Verge 교차 확인"
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/project-suncatcher-logo.png?quality=90&strip=all&crop=0%2C19.088098918083%2C100%2C61.823802163833&w=1200",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-gemini-mac-computer-use",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "구글 Gemini 맥 앱에 '컴퓨터 사용' 추가…백그라운드에서 맥 앱·파일·웹 조작",
+    "summary": "구글이 Gemini 맥 앱에 컴퓨터 사용 기능을 넣어, 지시한 작업을 Gemini가 백그라운드에서 맥 앱·로컬 파일·웹사이트를 오가며 처리하고 사용자는 라이브 미리보기로 보면서 일시정지·중단·승인할 수 있게 했다. 우선 미국 영어, 애플 실리콘 맥(macOS Sequoia 15.0 이상), 개인 계정 Google AI Plus·Pro·Ultra 이용자 대상이다.",
+    "why": "오픈AI·앤트로픽·메타에 이어 구글도 데스크톱 에이전트 경쟁에 본격 합류했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 공식 블로그(요구 사양 각주) + TechCrunch·9to5Google 교차 확인"
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-claude-black-hole-physics",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "앤트로픽 \"Claude Fable 5.2가 블랙홀 물리 미해결 문제 2개 풀어\"…프리프린트 공개(동료 검토 전)",
+    "summary": "앤트로픽은 17일 Claude가 20여 년 전 설정됐지만 풀리지 않던 계산을 완성해 블랙홀 형성과 관련된 급격한 상전이(호킹-페이지 전이)가 시공간이 명확한 형태를 잃는 영역에서도 유지됨을 보였고, 양자중력 후보 이론 검증 기법(모듈러 부트스트랩)의 가장 단순한 형태의 정확한 한계를 찾았다고 밝혔다. 두 작업 모두 대부분 자율적으로 수행됐다고 설명했다.",
+    "why": "AI가 이론물리 연구 결과를 직접 낸 사례로 화제지만, 아직 동료 검토 전이고 독립 전문가 평가는 확인되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 연구 글(17일 게시)로 '앤트로픽 주장'을 확인. 논문은 프리프린트로 동료 검토 전. HN에서 20일 새벽 화제"
+    },
+    "image": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
+    "links": [
+      {
+        "label": "Anthropic 연구 글",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50563148",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-anthropic-nasdaq-debut-close",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "업데이트: 앤트로픽 상장 첫날 시초가 111.5달러(시총 약 2조 달러)→종가 97.17달러, 공모가 대비 17%↑",
+    "summary": "19일(현지시간) 나스닥에 상장한 앤트로픽(ANT)은 공모가 83달러보다 34% 높은 111.5달러에 첫 거래를 시작해 완전희석 기준 시가총액이 한때 약 2조 달러에 달했으나, 약 17% 오른 97.17달러에 마감했다. 종가 기준 완전희석 시총은 약 1.77조~1.8조 달러(로이터·CNBC)이며, IPO 조달액은 813억 달러로 역대 최대다(CNBC).",
+    "why": "사상 최대 IPO가 첫날 흥행했지만 같은 날 나스닥은 2%대 하락해, AI 거품 논쟁 속 시장의 엇갈린 반응을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC 라이브·AP·로이터(investing.com 전재)·전자신문·연합뉴스 교차 확인. 시총 수치는 매체별 1.76조~1.8조 달러로 차이"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/19/news-p.v1.20261119.ff4d7d1a1f5c49f09836fedc3d33d2ae_P1.png",
+    "links": [
+      {
+        "label": "CNBC 라이브",
+        "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261120000001",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261120003151091",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50562754",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-suneung-yongin-camera-earphone",
     "date": "2026-11-19",
     "category": "한국 IT",
