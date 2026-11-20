@@ -1,5 +1,134 @@
 [
   {
+    "id": "2026-11-21-us-china-human-control-military-ai",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "베선트 \"트럼프·시진핑, AI 군사 결정에 항상 인간 개입 합의\"",
+    "summary": "스콧 베선트 미 재무장관이 20일 CNBC 인터뷰에서 트럼프 대통령과 시진핑 주석이 선전 정상회담에서 AI를 활용한 모든 군사적 결정에 인간이 개입해야 하며 주요 군사 작전에서 AI가 자율적으로 작동해서는 안 된다는 데 합의했다고 밝혔다. 그는 이 합의가 양국의 AI 패권 경쟁과는 별개라고 설명했다.",
+    "why": "미·중 정상 차원의 첫 군사 AI '인간 통제' 원칙 합의로 소개됐다. 다만 공동 문서 등 구체적 형식은 베선트 발언 외에 공개되지 않았다. 베선트는 H200이 여전히 중국이 라이선스로 살 수 있는 최고 사양 칩이라고도 말했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(Military Times 게재)·연합뉴스 기사 확인. 합의 내용의 출처는 베선트 장관 발언."
+    },
+    "image": "https://img9.yna.co.kr/photo/reuters/2026/11/17/PRU20261117291401009_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261121004500072",
+        "type": "source"
+      },
+      {
+        "label": "Reuters via Military Times",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-trump-overseas-data-center-tax",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "트럼프 \"美 기업 해외 데이터센터 건설 막겠다…지으면 '엄청난 세금'\"",
+    "summary": "트럼프 대통령이 20일(현지시간) 백악관 기자회견에서 미국 기업의 해외 데이터센터 건설을 금지하고, 짓는다면 '엄청난 세금(tremendous tax)'을 물리겠다고 밝혔다. 그는 \"아직 참모들에게도 말하지 않았다\"고 했으며, 세율·법적 근거·집행 방식은 제시하지 않았다.",
+    "why": "알파벳·아마존·MS·메타·오라클 등은 이미 해외에 데이터센터를 운영 중이고(CNBC), 연방 과세권은 의회에 있어 실행 방법이 불분명하다(Axios). 한국 등 해외 AI 데이터센터 투자 계획에도 불확실성 요인이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC·Axios 기사 직접 확인(대통령 기자회견 발언 인용)."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108556645-1795196053260-gettyimages-2305498959-AFP_D87462K.jpeg?v=1795196073&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+        "type": "source"
+      },
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-openai-combatting-adversarial-distillation",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "OpenAI, '적대적 증류' 대응 공개…GPT-6.2 Astra 추론 추출 공격 성공률 54.0%→0.2%",
+    "summary": "OpenAI가 무단으로 모델 출력을 학습해 안전장치 없는 복제 모델을 만드는 '적대적 증류' 탐지·차단 방식을 공개했다. 특히 보호된 추론(chain-of-thought) 추출 방어를 강화해, 내부 적응형 평가에서 평균 공격 성공률이 GPT-6 Astra(기존 안전장치) 54.0%에서 GPT-6.2 Astra 0.2%로 떨어졌다고 밝혔다.",
+    "why": "사이버·바이오 등 이중 용도 능력이 증류로 안전장치 없이 이전되는 위험을 안전 문제로 규정하고, 업계 공통 방어 권고(대화 전체 추론 누출 점검, 공격 로그 회귀 테스트 등)를 함께 내놨다. 수치는 OpenAI 자체 평가다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글 직접 확인(1차 출처). 수치는 자체 내부 평가."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 공식 글",
+        "url": "https://openai.com/index/combatting-adversarial-distillation/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-llama-cpp-b12590-drama3-domyn",
+    "date": "2026-11-21",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12553~b12590: drama3 음성 복제·Domyn Edge 4B 지원·Vulkan GATED_DELTA_NET 청크 구현",
+    "summary": "llama.cpp가 b12590에서 drama3 TTS의 음성 복제(Fish S2 코덱 인코더 공유)를, b12568에서 Domyn Edge 4B 모델 지원을 추가했다. 이 밖에 Vulkan 청크 GATED_DELTA_NET 셰이더(b12561), Gemma 4 다중 시퀀스 프롬프트 처리 최적화(b12588), CUDA Orin MMVQ 최적화(b12564), HarmonyOS AArch64 KleidiAI 허용(b12566) 등이 들어갔다.",
+    "why": "로컬 TTS 음성 복제와 새 소형 모델 지원이 계속 확대되고, Vulkan·Jetson 등 비-NVIDIA 데스크톱 환경 성능도 개선되고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트(b12561·b12564·b12566·b12568·b12588·b12590) 직접 확인."
+    },
+    "links": [
+      {
+        "label": "b12590 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12590",
+        "type": "source"
+      },
+      {
+        "label": "b12568 (Domyn Edge 4B)",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12568",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-alpoge-claude-riemann-hypothesis-claim",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "앤트로픽 수학자 알푀게 \"Claude와 리만 가설 증명\"…Lean 형식화 공개, 독립 재컴파일 통과",
+    "summary": "앤트로픽 소속 수학자 레벤트 알푀게가 Claude와 함께 리만 가설(일반화 리만 가설 포함)의 증명을 발견했다며 Lean 형식화 코드를 자신의 사이트에 공개했다. MIT 앤드루 서덜랜드 등 독립 연구자가 Lean 커널로 표준 공리 3개만 써서 재컴파일에 성공했지만, 정리 진술이 실제 리만 가설과 일치하는지 확인하는 'comparator run'은 아직 진행 중이다.",
+    "why": "1859년 제기된 밀레니엄 난제로, 검증되면 AI 수학의 최대 성과가 된다. 다만 사람이 이해할 수 있는 설명은 아직 없고 클레이 연구소 규정상 공식 인정에는 발표 후 최소 2년 검증이 필요하다. 앤트로픽은 공식 논평을 내지 않았고(더버지), 같은 날 스탠퍼드 박사후연구원 마술로의 '전부 사람이 쓴' 일반화 리만 가설 증명 초안도 공개됐다(테크크런치).",
+    "verification": {
+      "status": "확인됨",
+      "note": "알푀게 본인 문서(alpo.ge/remark.pdf) 확인 + Scientific American·The Verge·TechCrunch 독립 보도. 증명 자체의 최종 검증은 진행 중."
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "links": [
+      {
+        "label": "알푀게 발표문(PDF)",
+        "url": "https://alpo.ge/remark.pdf",
+        "type": "source"
+      },
+      {
+        "label": "Scientific American: 독립 검증 현황",
+        "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20-unsloth-0-1-920-amd-npu",
     "date": "2026-11-20",
     "category": "로컬 AI",
@@ -60,6 +189,58 @@
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50562113",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-thinking-machines-inkling-2-mini",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "Thinking Machines 'Inkling 2 Mini' 공개…26.4B/3.4B 활성 루프 MoE, 노트북용 오픈 웨이트(Apache 2.0)",
+    "summary": "Thinking Machines Lab이 로컬용 멀티모달(텍스트·이미지 입력) 모델 Inkling 2 Mini를 Apache 2.0으로 공개했다. 24층 중 가운데 12층을 가중치 공유로 3번 반복하는 '루프 트랜스포머' MoE(128개 전문가 중 8개)로, 총 26.4B·활성 3.4B(루프 포함 유효 활성 5.4B), 최대 1M 컨텍스트, NVFP4/MXFP8 혼합 정밀도 체크포인트 약 20GB다.",
+    "why": "허깅페이스는 '바이브 테스트상 Qwen 3.8 27B와 최소 대등'이라 평했다. 모델 카드는 DGX Spark 1대, 32GB 이상 애플 실리콘, 32GB+ VRAM을 권장하고 transformers·SGLang·vLLM·llama.cpp(GGUF)·Ollama·MLX를 지원한다. Unsloth는 v0.1.921에서 지원하며 '16GB RAM에서 도는' GGUF를 내놨다고 밝혔다. 루프 횟수 1~5회 연구용 변형(TML-d24-varloop-research)도 함께 공개.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(Apache 2.0, 2026-11-20 공개) + HF 공식 블로그 + Thinking Machines 공식 페이지 + Unsloth 릴리스 노트 확인."
+    },
+    "image": "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png",
+    "specs": {
+      "params": "26.4B 총 / 3.4B 활성(루프 3회 유효 5.4B)",
+      "license": "Apache 2.0",
+      "memory": "체크포인트 ~20GB, 32GB+ 메모리 권장(Unsloth GGUF는 16GB RAM 주장)",
+      "context": "1M 토큰",
+      "modality": "텍스트·이미지 → 텍스트"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/inkling2mini",
+        "type": "source"
+      },
+      {
+        "label": "Thinking Machines Inkling",
+        "url": "https://thinkingmachines.ai/inkling/",
+        "type": "source"
+      },
+      {
+        "label": "thinkingmachines/Inkling-2-Mini",
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "type": "huggingface"
+      },
+      {
+        "label": "ggml-org/Inkling-2-Mini-GGUF",
+        "url": "https://huggingface.co/ggml-org/Inkling-2-Mini-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "unsloth/Inkling-2-Mini-GGUF",
+        "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "Unsloth v0.1.921-beta",
+        "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.921-beta",
+        "type": "github"
       }
     ]
   },
@@ -125,6 +306,51 @@
       {
         "label": "SGLang Hy4 쿡북",
         "url": "https://docs.sglang.io/cookbook/autoregressive/Tencent/Hy4",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-sk-hynix-kioxia-cb-conversion",
+    "date": "2026-11-20",
+    "category": "한국 IT",
+    "title": "SK하이닉스, 키옥시아 전환사채 1,290억엔 주식 전환…지분 14.1% 간접 최대주주",
+    "summary": "SK하이닉스가 특수목적법인 SPC2가 발행한 1,290억엔(약 1조827억원) 규모 전환사채를 보통주 12만9천주로 전환하고, 베인캐피털 보유 SPC2 주식 1,001주를 1억엔에 추가 취득한다고 20일 공시했다. 전환이 끝나면 SPC2를 통해 키옥시아 지분 14.1%를 보유한 간접 최대주주가 된다(2대 주주 도시바 10.46%).",
+    "why": "2018년 투자 이후 8년여 만의 구조 정리다. 회사는 \"경영 참여 확대가 아니며 추가 매입·매각 계획은 없다\"고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SK하이닉스 공시 기반 연합뉴스·지디넷코리아 보도 확인."
+    },
+    "image": "https://img0.yna.co.kr/photo/cms/2026/07/18/01/PCM20260718000001990_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261120068951003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-signal-blocks-gemini-siri-ai-screen",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "시그널, 제미나이·Siri AI의 화면 읽기 차단…iOS는 기본 켜짐",
+    "summary": "시그널이 OS 내장 AI 비서가 앱 화면을 읽지 못하도록 '화면 보안'을 강화했다. 켜지면 스크린샷·화면 녹화, 최근 앱 목록 미리보기, 온디바이스 AI의 화면 읽기를 막으며, iPhone(시그널 8.37+, iOS 27+)은 'Block Siri AI'가 기본 켜짐, 안드로이드(8.35.1+)는 AI 비서가 처음 화면을 읽으려 할 때 자동으로 켜진다.",
+    "why": "메러디스 휘태커 시그널 회장은 OS에 통합된 AI 에이전트가 앱 수준 프라이버시에 '실존적 위협'이라며 애플·구글·MS에 개발자용 차단 도구와 문서를 요구했다. 파일 시스템 경유 접근은 못 막는 '불완전한' 조치이고 macOS는 아직 적용 불가라고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "시그널 공식 지원 문서 + The Verge 보도 확인."
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&strip=all&crop=0%2C3.8035109331691%2C100%2C92.392978133662&w=1200",
+    "links": [
+      {
+        "label": "Signal 지원 문서",
+        "url": "https://support.signal.org/hc/en-us/articles/11338514641306-Screen-security-blocking-Google-Gemini-and-Siri-AI",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
         "type": "source"
       }
     ]
@@ -493,6 +719,36 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261119157800003",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-kurly-curator-data-breach",
+    "date": "2026-11-20",
+    "category": "한국 IT",
+    "title": "컬리, 큐레이터 1만699명 개인정보 유출…일부 주민번호·계좌번호 포함, 최대 15만원 보상",
+    "summary": "컬리는 17일 외부 공격자가 인증정보를 탈취해 업무 시스템에 무단 접근, 큐레이터(제휴 마케팅 참여자) 1만699명의 이름·아이디·전화번호·이메일·SNS 채널 정보와 일반 고객 2명의 회원번호가 유출됐다고 20일 밝혔다. 일부 큐레이터는 계좌번호와 주민등록번호 또는 사업자등록번호도 유출됐으며, 18일 관계기관에 신고했다.",
+    "why": "유출 범위에 따라 5만~15만원 적립금(1년 내 사용)을 보상하고 실제 피해는 전액 보상하겠다고 했다. 일반 고객의 이름·주소·비밀번호·결제수단은 유출되지 않았다고 회사는 설명했다. 전담 고객센터 1644-1107.",
+    "verification": {
+      "status": "확인됨",
+      "note": "김슬아 대표 사과문 기반 연합뉴스·매일경제·동아일보(뉴스1) 보도 교차 확인."
+    },
+    "image": "https://img8.yna.co.kr/etc/inner/KR/2026/11/20/AKR20261120157051030_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(종합2보)",
+        "url": "https://www.yna.co.kr/view/AKR20261120157052030",
+        "type": "source"
+      },
+      {
+        "label": "매일경제",
+        "url": "https://www.mk.co.kr/news/business/12214861",
+        "type": "source"
+      },
+      {
+        "label": "동아일보",
+        "url": "https://www.donga.com/news/Economy/article/all/20261120/135063156/1",
         "type": "source"
       }
     ]
