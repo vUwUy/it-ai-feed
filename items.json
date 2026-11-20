@@ -64,6 +64,97 @@
     ]
   },
   {
+    "id": "2026-11-20-tencent-wemm-video-2b",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "텐센트 WeMM-Video-2B 공개(Apache 2.0)…영상+소리 함께 이해하는 2B 옴니 모델",
+    "summary": "텐센트가 텍스트·이미지·오디오·영상을 입력받아 중·영 텍스트로 답하는 2B 밀집 모델 WeMM-Video-2B를 공개했다. 영상 프레임과 원래 사운드트랙을 함께 처리해 사건 설명·음성 전사·추론을 하며, BF16 가중치 6.12GiB에 FP8·AWQ W4A16·GGUF Q4_K_M·NVFP4 양자화본도 제공한다.",
+    "why": "영상과 오디오를 함께 이해하는 모델을 노트북급 GPU에서 돌릴 수 있는 크기와 상업 이용 가능한 라이선스로 내놨다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 확인"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/WeMM-Video-2B.png",
+    "specs": {
+      "params": "2B",
+      "license": "Apache 2.0",
+      "memory": "BF16 6.12GiB(GGUF Q4_K_M 제공)",
+      "modality": "텍스트·이미지·오디오·영상 → 텍스트"
+    },
+    "links": [
+      {
+        "label": "모델 카드(Hugging Face)",
+        "url": "https://huggingface.co/tencent/WeMM-Video-2B",
+        "type": "source"
+      },
+      {
+        "label": "tencent/WeMM-Video-2B",
+        "url": "https://huggingface.co/tencent/WeMM-Video-2B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-tencent-hy4-weights",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "업데이트: 텐센트 Hy4 가중치 공개(770B/49B 활성 MoE, Hy4-FP8·base 포함)",
+    "summary": "텐센트가 플래그십 Hy4(언어 백본 총 770B·토큰당 49B 활성, 256개 전문가 중 8개+공유 1개, 3.3B DFly2 드래프터 내장)의 instruct·FP8·사전학습 base 가중치를 Hugging Face·ModelScope·GitCode에 공개했다. 텍스트·이미지·영상 이해를 지원하며 vLLM·SGLang 배포를 안내하고, 라이선스는 Tencent Hy License다.",
+    "why": "4일 출시 때 '며칠 내 공개'로 예고된 가중치가 실제로 풀렸다. 다만 FP8도 수백 GB라 개인 PC보다는 멀티 GPU 서버급이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 확인(라이선스는 모델 카드 기준 Tencent Hy License, 일부 매체의 Apache 2.0 표기와 다름)"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy4.png",
+    "specs": {
+      "params": "770B(활성 49B) MoE",
+      "license": "Tencent Hy License",
+      "modality": "텍스트·이미지·영상 입력"
+    },
+    "links": [
+      {
+        "label": "tencent/Hy4",
+        "url": "https://huggingface.co/tencent/Hy4",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hy4 컬렉션",
+        "url": "https://huggingface.co/collections/tencent/hy4",
+        "type": "huggingface"
+      },
+      {
+        "label": "SGLang Hy4 쿡북",
+        "url": "https://docs.sglang.io/cookbook/autoregressive/Tencent/Hy4",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-samsung-tsmc-china-shipment-halt-stock",
+    "date": "2026-11-20",
+    "category": "한국 IT",
+    "title": "업데이트: [보도] FT \"삼성·TSMC, 中 일부 칩 출하 중단\"…삼성전자 7.01%↓·코스피 5.21%↓ 마감",
+    "summary": "FT는 삼성전자와 TSMC가 美 BIS의 16일 규정 변경으로 허가를 신청하는 동안 바이두 쿤룬·바이트댄스 등 중국 고객사에 일부 프로세서 출하를 중단한다고 통보했다고 보도했다. 20일 삼성전자는 7.01% 내린 18만3,100원, SK하이닉스는 5.92% 내린 111만3,000원, 코스피는 5.21% 내린 4,869.96에 마감했다.",
+    "why": "美 수출통제가 국내 파운드리의 중국 매출과 주가에 직접 영향을 주고 있다. 기존 '장중 4%대 급락' 소식 이후 종가와 하락 배경이 새로 확인됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "출하 중단은 FT 단독 보도(연합뉴스·한국일보·서울경제 등 인용, 회사 공식 확인 없음). 주가는 연합뉴스 종가 기사로 확인"
+    },
+    "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112014030001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(FT 인용)",
+        "url": "https://www.yna.co.kr/view/AKR20261120012400009",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(종가)",
+        "url": "https://www.yna.co.kr/view/AKR20261120039251008",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20-samsung-2027-president-reshuffle",
     "date": "2026-11-20",
     "category": "한국 IT",
@@ -244,6 +335,85 @@
       {
         "label": "GPT-Live 위임(delegation) 가이드",
         "url": "https://developers.openai.com/api/docs/guides/live-delegation",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-openai-dots-plus-test",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "OpenAI, ChatGPT 'dots' 에이전트 Plus 일부 시험·Business Standard 전체 확대…모바일 새 디자인도 시험",
+    "summary": "OpenAI 엔지니어링 책임자 티보 소티오(Thibault Sottiaux)가 상시 실행 에이전트 dots를 소수 ChatGPT Plus 사용자 대상으로 시험하고 Business Standard 전체 사용자에게 제공한다고 밝혔다. 홈·Dot 탭이 있는 하단 탭바에 Codex·Images 등을 고정할 수 있는 모바일 새 디자인도 시험 중이며, dots가 있거나 대상인 Pro 사용자는 설정에서 켤 수 있다.",
+    "why": "Pro·상위 요금제 전용이던 상시 에이전트가 월 20달러 요금제로 내려오기 시작했다는 신호다. Plus의 사용 한도는 아직 공개되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "9to5Mac·The Verge가 소티오의 X 게시물과 스크린샷을 인용해 각각 보도, OpenAI 도움말 문서에서 Plus 단계적 시험 확인"
+    },
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/chatgpt-blue.webp?resize=1200,628",
+    "links": [
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge(모바일 디자인)",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038334/openai-is-testing-a-new-design-for-mobile-chatgpt",
+        "type": "source"
+      },
+      {
+        "label": "OpenAI 도움말",
+        "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-mistral-singapore-apac-hq",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "미스트랄, 싱가포르에 아태 본부 개설…2027년까지 인력 200명으로",
+    "summary": "미스트랄이 싱가포르에 아시아태평양 본부를 열고, 공공·첨단 제조·로보틱스용 소버린 AI 모델을 개발하는 확장 '사이언스 허브'로 운영한다고 발표했다. 아태 인력은 2027년까지 두 배 이상인 200명으로 늘릴 계획이다.",
+    "why": "유럽 대표 AI 기업의 첫 아태 거점으로, 소버린 AI를 내세워 아시아 정부·기업 시장을 겨냥한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "싱가포르 경제개발청(EDB)에 게재된 미스트랄 보도자료 + 비즈니스타임스·연합조보 보도"
+    },
+    "links": [
+      {
+        "label": "미스트랄 보도자료(EDB)",
+        "url": "https://www.edb.gov.sg/en/news-and-insights/mistral-opens-singapore-office-as-an-extended-science-hub-for-sovereign-ai-in-asia-pacific",
+        "type": "source"
+      },
+      {
+        "label": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/mistral-ai-opens-regional-hq-singapore-seeks-fill-200-roles-apac",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-meta-muse-chrome-extension",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "메타 Muse 크롬 확장 공식 발표…사이드 패널에서 에이전트 브라우징",
+    "summary": "알렉산더 왕 메타 최고AI책임자가 20일 X에서 Muse 크롬 확장 출시를 공식 발표했고, 크롬 웹 스토어에는 이용자 20만 명·평점 4.6으로 표시돼 있다(목록은 13일 처음 발견). Muse는 전용 탭 그룹 안에서만 작업하며 저장된 비밀번호·방문 기록·크롬 설정은 볼 수 없다고 메타는 설명했다.",
+    "why": "OpenAI·구글에 이어 메타도 브라우저 안에서 직접 움직이는 에이전트 경쟁에 합류했다. 앞서 보도된 Muse 안전 사고 논란과 함께 권한 범위를 봐야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "알렉산더 왕 X 게시물(Digital Trends 인용) + Muse 공식 Threads 발표 + 메타 도움말 문서"
+    },
+    "image": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/Muse-Chrome-Extension.jpg?resize=1200%2C630&ssl=1",
+    "links": [
+      {
+        "label": "Digital Trends",
+        "url": "https://www.digitaltrends.com/computing/meta-is-putting-muse-in-a-chrome-sidebar-and-the-official-announcement-just-arrived/",
+        "type": "source"
+      },
+      {
+        "label": "Muse 공식 Threads",
+        "url": "https://www.threads.com/@muse/post/Df8c5nrDRHs/video-bring-your-muse-along-for-the-browse-introducing-the-muse-extension-for-chrome/",
         "type": "source"
       }
     ]
@@ -543,6 +713,26 @@
     ]
   },
   {
+    "id": "2026-11-20-apec-shenzhen-ai-jobs",
+    "date": "2026-11-20",
+    "category": "AI·IT",
+    "title": "APEC 정상들, AI 고용 충격 대비 '선전 전망' 채택…재교육·노동자 권리 보호",
+    "summary": "APEC 정상들이 19일 중국 선전 정상회의에서 AI 등 디지털 신기술로 직무가 바뀌는 노동자의 재교육 기회 확대와 노동자 권리 보호 원칙을 담은 공동문서 '선전 전망'을 채택했다. 한국은 'APEC AI 이니셔티브(2026~2030)'를 바탕으로 아태 AI 센터 설립을 추진 중이다.",
+    "why": "AI 일자리 영향이 아태 정상급 의제로 공식화됐다. 미국은 산업 성장을 막는 규제에 반대한다는 입장을 냈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 보도(정상회의 공동문서 내용), 국내외 APEC 정상회의 보도와 교차 확인"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/20/3c4d8301251fa6335d6331141a8769e0.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261120142917",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20-anthropic-nasdaq-debut-close",
     "date": "2026-11-20",
     "category": "AI·IT",
@@ -628,6 +818,31 @@
       {
         "label": "이투데이",
         "url": "https://www.etoday.co.kr/news/view/2650868",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-ai-committee-domestic-npu-7",
+    "date": "2026-11-20",
+    "category": "한국 IT",
+    "title": "국가AI전략위, 국산 NPU 7개사 간담회…NPU 검증센터·전용 컴퓨팅센터·MS·AWS 판로 협력",
+    "summary": "하정우 국가AI전략위 부위원장이 광주 AICA에서 리벨리온·퓨리오사AI·하이퍼엑셀·디노티시아(서버용)와 딥엑스·모빌린트·엣지에이아이(엣지용) 등 7개사와 만나 TTA와 준비 중인 NPU 검증센터, 과기정통부와 기획 중인 NPU 전용 컴퓨팅센터, MS·AWS 인증·판로 협력을 논의했다. 성능지표 'K-Perf' 활용 검증과 국산 AI 모델+NPU 결합 실증 확대도 검토한다.",
+    "why": "국산 AI 반도체가 실제 도입 레퍼런스를 쌓을 수 있도록 정부가 수요처 확보까지 챙기겠다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea·전자신문 독립 보도(위원회 제공 자료) 교차 확인"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/20/24b9fa1eb1d636d718a22c9367a9416a.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261120103721",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261120000248",
         "type": "source"
       }
     ]
