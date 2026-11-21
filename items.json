@@ -50,6 +50,31 @@
     ]
   },
   {
+    "id": "2026-11-21-openai-medchembench",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "OpenAI, 의약화학 추론 벤치마크 'MedChemBench' 공개…GPT-6.2 Astra 84.5%",
+    "summary": "OpenAI가 20일 공개한 MedChemBench는 발표된 연구에서 뽑은 99문제로 분자 구조 해석, 실험 근거 설명, 화합물 선택, 물성 예측을 평가한다. xhigh 추론 설정에서 GPT-6.2 Astra는 84.5%, GPT-6 Astra 83.3%, GPT-6.1 Sol 82.0%, GPT-5.6 Sol 58.2%를 기록했다.",
+    "why": "AI가 신약 후보 선별을 도울 수 있는지 재는 공개 기준이다. 구조 재구성은 강했지만 화합물 선택·수치 예측은 여전히 약하다고 OpenAI가 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 블로그 + Unite.AI 보도 확인."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 블로그",
+        "url": "https://openai.com/index/introducing-medchembench/",
+        "type": "source"
+      },
+      {
+        "label": "Unite.AI",
+        "url": "https://www.unite.ai/openai-introduces-medchembench-for-medicinal-chemistry-reasoning/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-openai-combatting-adversarial-distillation",
     "date": "2026-11-21",
     "category": "AI·IT",
@@ -66,6 +91,128 @@
         "label": "OpenAI 공식 글",
         "url": "https://openai.com/index/combatting-adversarial-distillation/",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-nvidia-sec-accounting-probe-ca-subpoena",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "업데이트: 美 SEC, 엔비디아 회계 조사(로이터)·캘리포니아 법무장관 소환장…엔비디아 주가 14.01% 급락",
+    "summary": "로이터는 20일(현지시간) 복수 소식통을 인용해 SEC가 엔비디아의 잠재적 회계 문제를 조사 중이라고 보도했고, 지역별 매출 공시 기준 변경(싱가포르 매출 제외)과 '순환형 자금 조달' 거래가 쟁점으로 거론된다. 앞서 19일 롭 본타 캘리포니아 법무장관은 첨단 칩·기밀 정보의 중국 유출 여부와 투자자 오도 여부를 묻는 조사 소환장을 발부했다. 엔비디아는 20일 14.01% 내린 125.53달러에 마감했다.",
+    "why": "젠슨 황 해임 사태 이후 법무부·상무부 수출통제·반독점 조사에 증권·회계 조사까지 겹쳤다. SEC는 논평을 거부했고 조사 개시 시점과 구체 사안은 확인되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "캘리포니아 법무부 공식 보도자료 + 로이터 보도를 전한 연합뉴스·investingLive(주가) 확인. SEC 조사 내용은 익명 소식통 기반."
+    },
+    "image": "https://oag.ca.gov/sites/default/files/og-link-card-24.jpg",
+    "links": [
+      {
+        "label": "연합뉴스(로이터 인용)",
+        "url": "https://www.yna.co.kr/view/AKR20261121008700072",
+        "type": "source"
+      },
+      {
+        "label": "캘리포니아 법무부 보도자료",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia",
+        "type": "source"
+      },
+      {
+        "label": "investingLive 마감 시황",
+        "url": "https://investinglive.com/stocks/nasdaq-100-posts-worst-week-since-march-2020/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-nasdaq100-worst-week-since-2020",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "나스닥100 주간 10.43% 하락, 2020년 3월 이후 최악…마이크론·AMD 13%대 폭락",
+    "summary": "20일(현지시간) 나스닥100은 5.61%, 나스닥 종합은 5.28%, S&P500은 3.70% 내렸고 나스닥100은 주간 10.43% 떨어져 2020년 3월 이후 최악의 한 주를 기록했다. S&P500은 7거래일 연속 하락했고, AMD·마이크론은 13%대 급락했다.",
+    "why": "엔비디아 호실적과 앤트로픽 사상 최대 IPO에도 AI 데이터센터 투자 수익성 의구심이 커지며 반도체·메모리·광통신·전력주까지 매도가 번졌다. 국내에서는 SK하이닉스 ADR도 13%대 급락해 월요일 코스피 부담이 거론된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "investingLive 마감 수치 + 디지털데일리 + 뉴데일리(마이크론·하이닉스 ADR) 교차 확인."
+    },
+    "image": "https://www.ddaily.co.kr/photos/2026/11/17/2026111706373984598_l.jpg",
+    "links": [
+      {
+        "label": "investingLive",
+        "url": "https://investinglive.com/stocks/nasdaq-100-posts-worst-week-since-march-2020/",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026112107251226435",
+        "type": "source"
+      },
+      {
+        "label": "뉴데일리(하닉 ADR)",
+        "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/21/2026112150003.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-moreh-tide-sc26",
+    "date": "2026-11-21",
+    "category": "한국 IT",
+    "title": "모레, SC26서 자기 개선형 추론 최적화 'TIDE' 공개…처리량 최대 1.66배",
+    "summary": "국내 AI 인프라 기업 모레가 SC26에서 실제 추론 데이터로 보조(드래프트) 모델을 계속 학습시키는 추측 디코딩 프레임워크 TIDE를 발표했다. 논문 기준 gpt-oss-120b를 H100 4장에 배치 크기 1로 돌린 NuminaMath 워크로드에서 추측 디코딩 미사용 대비 처리량이 최대 1.66배 높았다.",
+    "why": "엔비디아·AMD GPU를 섞은 이기종 환경에서도 시스템 처리량을 1.22배 개선했다고 밝혀, 국산 추론 인프라 소프트웨어의 경쟁력을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SC26 논문/arXiv + 전자신문·디지털데일리 보도 확인. 수치는 자체 측정."
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261120000159",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026112016453866399",
+        "type": "source"
+      },
+      {
+        "label": "arXiv 논문",
+        "url": "https://arxiv.org/abs/2602.05145",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-llamacpp-b12600-inkling2-mini",
+    "date": "2026-11-21",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12600: Thinking Machines 'Inkling 2 Mini' 지원",
+    "summary": "llama.cpp b12600(11월 21일 08:30 KST 프리릴리스)이 Inkling 2 Mini 변환·모델 타입·루프 그래프와 새 is_varloop 속성을 지원하도록 추가됐다. macOS·Linux·Windows·Android용 CUDA·ROCm·Vulkan·SYCL·OpenVINO·스냅드래곤 바이너리가 함께 배포됐다.",
+    "why": "오늘 아침 공개된 26.4B 루프 MoE 오픈 모델을 GGUF로 로컬 실행할 수 있는 길이 열렸다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 페이지 + PR #32694 확인."
+    },
+    "specs": {
+      "params": "Inkling 2 Mini 26.4B 총 / 약 3B 활성",
+      "license": "Apache 2.0(모델)"
+    },
+    "links": [
+      {
+        "label": "GitHub 릴리스 b12600",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12600",
+        "type": "source"
+      },
+      {
+        "label": "b12600 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12600",
+        "type": "github"
+      },
+      {
+        "label": "PR #32694",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/32694",
+        "type": "github"
       }
     ]
   },
@@ -90,6 +237,31 @@
         "label": "b12568 (Domyn Edge 4B)",
         "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12568",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-iitp-physical-ai-rnd-3482",
+    "date": "2026-11-21",
+    "category": "한국 IT",
+    "title": "IITP '피지컬AI 핵심기술개발' 기획안: 2031년까지 최대 3,482억 원·첫해 550억 원",
+    "summary": "IITP의 2027년 피지컬AI 핵심기술개발사업 기획안에 따르면 5개 과제 지원 상한은 2027년 550억 원, 2031년까지 총 3,482억8,000만 원이다. 범용 피지컬AI 파운데이션 모델에 1,773억2,000만 원(약 51%)을 배정해 컨소시엄 2곳을 끝까지 지원하고, 10종 이상 로봇 구동과 모델 가중치·추론 코드 공개를 목표로 한다.",
+    "why": "국산 로봇 파운데이션 모델 개발 경로를 복수로 확보하려는 설계다. 다만 확정 예산이 아닌 기획안상 상한이라 심의에 따라 바뀔 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "디지털데일리 + 테크M 보도 교차 확인(IITP 기획과제안 기반)."
+    },
+    "image": "https://www.ddaily.co.kr/photos/2026/09/04/2026090414543569796_l.jpg",
+    "links": [
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026112102592077504",
+        "type": "source"
+      },
+      {
+        "label": "테크M",
+        "url": "https://www.techm.kr/news/articleView.html?idxno=157230",
+        "type": "source"
       }
     ]
   },
@@ -119,6 +291,36 @@
       {
         "label": "CNBC",
         "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-anthropic-ipo-close-day2",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "업데이트: 앤트로픽 IPO 공식 마감(총 약 935억 달러)·AMD·엔비디아 등 260억 달러 동시 사모…둘째 날 8.5% 하락",
+    "summary": "앤트로픽은 20일 그린슈 1억4,700만 주 전량 행사를 포함한 클래스A 11억2,700만 주(주당 83달러) 공모를 마감했다고 발표했다. 총 조달액은 약 935억 달러(회사 수령 약 916억 달러)이며, AMD·브로드컴·구글·마이크론·마이크로소프트·엔비디아·TSMC에 클래스N 주식 약 260억 달러어치를 같은 가격에 사모로 매각했다. 주가는 둘째 날 88.91달러로 8.5% 내렸다.",
+    "why": "사상 최대 규모 IPO의 최종 수치가 확정됐지만, AI 매도세 속에 상장 첫날 상승분 상당 부분을 반납했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 발표(공모 수치) + StockAnalysis·Moneycontrol(둘째 날 종가) 확인."
+    },
+    "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "links": [
+      {
+        "label": "앤트로픽 공식 발표",
+        "url": "https://www.anthropic.com/news/ipo-close",
+        "type": "source"
+      },
+      {
+        "label": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/news/business/ipo/anthropic-slides-8-5-to-shrink-ipo-gain-as-ai-trade-unravels-14085928.html",
+        "type": "source"
+      },
+      {
+        "label": "ANT 시세",
+        "url": "https://stockanalysis.com/stocks/ant/",
         "type": "source"
       }
     ]
@@ -154,6 +356,41 @@
       {
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-ai-navier-stokes-euler-blowup-grh-masullo",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "업데이트: 테런스 타오 \"AI 도움으로 3D 오일러·나비에-스토크스 유한시간 폭발 증명\"…같은 날 인간 GRH 증명안도 등장(미검증)",
+    "summary": "테런스 타오는 20일 블로그에서 알푀게·버크마스터·코이쿨레스쿠가 AI를 크게 활용해 외력 없는 3차원 비압축 오일러 방정식의 유한시간 폭발을 사람이 읽을 수 있는 증명과 Lean 형식화로 냈고, 알푀게·버크마스터는 나비에-스토크스 방정식에 대해서도 Lean 형식화된 증명을 냈다고 전했다. 나비에-스토크스 쪽은 전략은 분명하지만 정식 논문화가 더 필요하고, 일반화 리만 가설(GRH)은 거대한 Lean 전용 증명이라 검증·해석에 시간이 걸릴 것이라고 했다. 한편 사이언티픽 아메리칸에 따르면 스탠퍼드의 알레산드로 마술로가 AI 없이 쓴 GRH 증명안도 공개됐으나, 브라이언 콘래드는 \"대대적 수정 중\"이라며 판단을 유보했다.",
+    "why": "나비에-스토크스는 밀레니엄 문제와 연관된 난제라 사실이면 파급이 크지만, 모든 주장은 아직 전문가 검증 전 단계다.",
+    "verification": {
+      "status": "미확인",
+      "note": "테런스 타오 블로그(1차) + 사이언티픽 아메리칸 확인. 증명 자체의 타당성은 독립 검증 전."
+    },
+    "image": "https://static.scientificamerican.com/dam/asset/5a454f85-c214-4a50-baa8-5ad368ab6e35/shutterstock_2026898477-Converted.jpg?m=1795204023.103&w=1200",
+    "links": [
+      {
+        "label": "Terence Tao 블로그",
+        "url": "https://terrytao.wordpress.com/",
+        "type": "source"
+      },
+      {
+        "label": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/dueling-claims-of-riemann-hypothesis-proofs-emerge/",
+        "type": "source"
+      },
+      {
+        "label": "HN: 타오 글 토론",
+        "url": "https://news.ycombinator.com/item?id=50578358",
+        "type": "source"
+      },
+      {
+        "label": "HN: 마술로 GRH 토론",
+        "url": "https://news.ycombinator.com/item?id=50579568",
         "type": "source"
       }
     ]
