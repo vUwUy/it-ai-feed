@@ -184,6 +184,65 @@
     ]
   },
   {
+    "id": "2026-11-21-maxwell-v1-flash",
+    "date": "2026-11-21",
+    "category": "로컬 AI",
+    "title": "Maxwell-V1.0-Flash 공개…35B/활성 3B MoE, 256K 컨텍스트, Apache 2.0",
+    "summary": "Maxwell 팀이 총 35B·토큰당 활성 3B(임베딩 제외) MoE 모델을 허깅페이스에 공개했다. 블록 희소 어텐션(MBSA)으로 256K 컨텍스트를 지원하며 256K에서 dense GQA보다 커널이 6.7배 빠르다고 밝혔고, 약 26T 토큰으로 사전학습했다.",
+    "why": "Qwen 30B-A3B급 크기에 Apache 2.0이라 로컬 장문 처리 후보다. 모델 카드상 MATH-500 71.40 등 일부 지표는 Qwen3.5 35B-A3B base보다 높고 GPQA·CMMLU 등은 낮다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 공식 모델 카드(1차 출처) 확인. 벤치마크는 개발사 자체 수치"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/maxwell-model/Maxwell-V1-Flash.png",
+    "specs": {
+      "params": "35B (활성 3B)",
+      "license": "Apache 2.0",
+      "context": "256K"
+    },
+    "links": [
+      {
+        "label": "모델 카드(공식)",
+        "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+        "type": "source"
+      },
+      {
+        "label": "maxwell-model/Maxwell-V1-Flash",
+        "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-llm-self-rewriting-weights-paper",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "논문 \"언어 모델이 스스로 가중치를 고쳐 쓴다\"…27B 오픈 모델, 학습 없이 미공개 문제 정확도 6.6포인트↑",
+    "summary": "UIUC·CMU·프린스턴·스탠퍼드 등 연구진이 오픈 27B 모델에 자기 가중치와 채점된 답을 주자 그래디언트나 학습 없이 스스로 실패를 진단하고 가중치를 직접 수정해, 처음 보는 문제에서 정확도가 6.6포인트 올랐다고 보고했다. 8번 연속 세션에서 정확도가 계속 올랐고, 손상된 자기 복제본을 원래 정확도의 80% 이상으로 복구했다고 주장한다.",
+    "why": "'모델이 자기 자신의 최적화기가 된다'는 주장이라 화제가 됐지만, 동료 심사 전 프리프린트다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "arXiv 원문(2611.21885) 확인. 결과 자체는 저자 주장이며 독립 재현 전"
+    },
+    "links": [
+      {
+        "label": "arXiv 2611.21885",
+        "url": "https://arxiv.org/abs/2611.21885",
+        "type": "source"
+      },
+      {
+        "label": "HF Papers",
+        "url": "https://huggingface.co/papers/2611.21885",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50577265",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-llamacpp-b12600-inkling2-mini",
     "date": "2026-11-21",
     "category": "로컬 AI",
@@ -241,6 +300,31 @@
     ]
   },
   {
+    "id": "2026-11-21-lee-ulsan-sk-aidc-visit",
+    "date": "2026-11-21",
+    "category": "한국 IT",
+    "title": "李대통령, 울산 SK AI데이터센터 점검 \"AIDC·메모리 수요 더 늘 것…속도가 생명\"",
+    "summary": "이재명 대통령이 21일 울산 SK AI 데이터센터 건설 현장을 찾아 \"기술이 발전할수록 AI 데이터센터와 메모리 수요는 더 늘어날 것\"이라고 말했다. 첨단 시설 공정 인력이 매우 부족하다며 \"속도가 생명\"인 만큼 인력 문제를 정부 부처 차원에서 고민하겠다고 했다.",
+    "why": "반도체주 급락 직후 대통령이 AI 인프라·메모리 수요 전망과 건설 인력·전력 문제를 직접 언급했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + CNA(로이터) 보도 확인"
+    },
+    "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/21/PYH2026112102630001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261121033751001",
+        "type": "source"
+      },
+      {
+        "label": "CNA",
+        "url": "https://www.channelnewsasia.com/business/south-koreas-lee-says-speed-vital-in-ai-race-data-centre-visit-6571286",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-iitp-physical-ai-rnd-3482",
     "date": "2026-11-21",
     "category": "한국 IT",
@@ -261,6 +345,36 @@
       {
         "label": "테크M",
         "url": "https://www.techm.kr/news/articleView.html?idxno=157230",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-house-report-prc-open-weight-models",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "美 하원 공동 보고서 \"중국 오픈 웨이트 모델, 연방 시스템·고위험 인프라에서 빼라\"…커서는 단계적 중단 검토",
+    "summary": "미 하원 국토안보위원회와 중국특별위원회가 20일(현지) 중국산 오픈 웨이트 AI 모델의 미국 기업 도입을 조사한 공동 보고서를 내고 12개 정책 권고를 제시했다. 조사 대상은 에어비앤비(알리바바 모델 고객 지원 사용), 애니스피어(커서 Composer 2를 문샷 Kimi K2.5 기반으로 구축), 도어대시이며, 커서는 지정학적 위험을 이유로 중국산 오픈 웨이트 모델의 단계적 중단을 검토한다고 위원회에 밝혔다.",
+    "why": "중국 오픈 모델을 쓰는 미국 기업에 대한 첫 의회 차원의 공식 압박으로, 오픈 웨이트 모델 선택과 미국의 오픈 모델 전략 논의에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "하원 국토안보위원회 공식 보도자료 + CNBC 단독 보도 확인"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108295661-1776885403878-gettyimages-2271955278-boivin-notitle260422_npyod.jpeg?v=1776885479&w=1920&h=1080",
+    "links": [
+      {
+        "label": "하원 국토안보위 보도자료",
+        "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+        "type": "source"
+      },
+      {
+        "label": "보고서 페이지",
+        "url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
         "type": "source"
       }
     ]
@@ -1401,6 +1515,36 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261120000248",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-california-ai-kill-switch-recommendations",
+    "date": "2026-11-19",
+    "category": "AI·IT",
+    "title": "캘리포니아 뉴섬, AI '킬 스위치'·독립 감사 의무화 권고안 공개…12월 입법 추진",
+    "summary": "개빈 뉴섬 캘리포니아 주지사가 전문가 패널의 AI 안전 권고안을 공개했다. 주 당국이 위험하다고 판단한 AI 시스템에 즉시 긴급 중단을 명령할 수 있는 권한, 독립 감사기관의 모델 평가 의무화, 안전·보안 기준 수립이 핵심이며, 제리 맥너니 주 상원의원은 의회가 복귀하는 12월 7일 이후 관련 법안을 내겠다고 밝혔다.",
+    "why": "OpenAI·앤트로픽 등 주요 AI 기업 본거지인 캘리포니아가 모델 배포 중단 권한을 법제화하려는 첫 구체안이다. 아직 법안은 발의되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "캘리포니아 주지사실 발표 + CalMatters + 맥너니 의원실 보도자료 확인"
+    },
+    "image": "https://calmatters.org/wp-content/uploads/2026/11/092926-OpenAI-AP-CM.jpg",
+    "links": [
+      {
+        "label": "주지사실 발표",
+        "url": "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/",
+        "type": "source"
+      },
+      {
+        "label": "CalMatters",
+        "url": "https://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch/",
+        "type": "source"
+      },
+      {
+        "label": "맥너니 의원실",
+        "url": "https://sd05.senate.ca.gov/news/becerra-says-he-will-move-quickly-ai-emergency-shutdown-proposal",
         "type": "source"
       }
     ]
