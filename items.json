@@ -94,6 +94,36 @@
     ]
   },
   {
+    "id": "2026-11-21-crowdstrike-zscaler-talks",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "[보도] 크라우드스트라이크, 지스케일러 인수 협상 중…성사 시 보안업계 최대급 딜",
+    "summary": "블룸버그와 로이터가 20일(현지시간) 소식통을 인용해 크라우드스트라이크가 지스케일러 인수를 협상 중이라고 보도했다. 협상은 진행 중이며 성사는 보장되지 않는다. 지스케일러 시가총액은 금요일 종가 기준 약 320억 달러이며, 시간외 거래에서 주가가 17~18% 뛰었고 크라우드스트라이크는 8% 넘게 떨어졌다(CNBC·로이터).",
+    "why": "성사되면 사이버보안 업계 역대 최대급 인수(구글-위즈 320억 달러, 시스코-스플렁크 약 280억 달러와 비교)가 된다. 엔드포인트(Falcon)와 클라우드 네트워크 보안(Zscaler)을 합쳐 팔로알토와의 플랫폼 경쟁 구도가 바뀔 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그·로이터 각각 독립 소식통 보도 확인(CNBC가 블룸버그 보도 인용). 협상 사실은 보도 단계이며 양사 공식 발표 없음, 크라우드스트라이크는 논평 거부."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108556888-1795209058076-gettyimages-2202994362-img_2497.jpeg?v=1795209111&w=1920&h=1080",
+    "links": [
+      {
+        "label": "Bloomberg",
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/crowdstrike-is-said-in-talks-to-buy-cybersecurity-firm-zscaler",
+        "type": "source"
+      },
+      {
+        "label": "Reuters (StreetInsider)",
+        "url": "https://www.streetinsider.com/Reuters/CrowdStrike+in+talks+to+acquire+Zscaler%2C+sources+say/27382225.html",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-alpoge-claude-riemann-hypothesis-claim",
     "date": "2026-11-21",
     "category": "AI·IT",
