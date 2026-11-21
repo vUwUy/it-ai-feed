@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-11-22-upload2shell-ghostscript",
+    "date": "2026-11-22",
+    "category": "AI·IT",
+    "title": "pwn.ai 'Upload2Shell'(CVE-2026-125396) 공개…고스트스크립트 폰트 로더로 -dSAFER 탈출",
+    "summary": "pwn.ai는 고스트스크립트 Type 1 폰트 로더의 use-after-free로 조작된 문서가 -dSAFER 샌드박스를 넘어 명령을 실행할 수 있다고 공개했다. 데비안 13 CUPS 무인증 원격 명령 실행, Roundcube·Plesk·WordPress 플러그인·MediaWiki 등 업로드·미리보기 경로에서 실행을 확인했다고 밝혔다.",
+    "why": ".png·.jpg 이름의 파일도 ImageMagick 변환을 거쳐 고스트스크립트에 닿을 수 있다는 점이 핵심이다. 고스트스크립트 10.08.0(9월)과 데비안 보안 업데이트로 이미 수정됐으니 업로드·썸네일 처리 서버는 패치 여부를 확인할 필요가 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "발견자(pwn.ai) 연구 페이지 원문 확인. 수정 버전·CVE는 해당 페이지 기준."
+    },
+    "image": "https://pwn.ai/upload2shell-share.png?v=2",
+    "links": [
+      {
+        "label": "pwn.ai Upload2Shell",
+        "url": "https://pwn.ai/upload2shell",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50592097",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-us-china-human-control-military-ai",
     "date": "2026-11-21",
     "category": "AI·IT",
@@ -45,6 +70,26 @@
       {
         "label": "Axios",
         "url": "https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-suneung-ai-cheating-tf-followup",
+    "date": "2026-11-21",
+    "category": "한국 IT",
+    "title": "업데이트: 정부, 수능 AI 부정행위 사후 추적…무선 신호 분석·AI 업로드 전수조사",
+    "summary": "정부는 20일 한성숙 국무총리 주재 '범정부 수능 부정행위 대응 TF' 첫 회의에서 감독관이 기록한 와이파이·블루투스 신호를 분석해 의심 시 경찰에 수사를 의뢰하고, AI 기업과 협력해 시험 중 문제지 사진을 AI에 올린 사례를 전수조사하기로 했다. 교육부가 밝힌 올해 수능 전자기기 관련 부정행위 적발은 111건이다.",
+    "why": "이 대통령은 빅테크가 부정행위 조사 자료를 제출하도록 법적 근거 마련을 지시했고, 교육부는 스마트기기 부정행위자의 수능 응시를 최대 10년 제한하는 방안을 국회와 논의하기로 했다. AI 서비스 이용 기록 제출 문제로 번질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea 기사(국무조정실 발표 인용) 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/19/ff1444a1fa5ba4429907e57eecc26d59.png",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261121072639",
         "type": "source"
       }
     ]
@@ -179,6 +224,26 @@
       {
         "label": "arXiv 논문",
         "url": "https://arxiv.org/abs/2602.05145",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-metr-q4-2026-capability-update",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "METR 4분기 역량 보고서 \"급격한 AI R&D 가속, 현재 공개 증거로는 배제 못 해\"",
+    "summary": "METR은 11월 20일 Opus 5.5·GPT-6 Astra까지 평가한 보고서에서 모델들이 코딩·최적화 과제에서 숙련된 인간과 대체로 같거나 더 낫다고 밝혔다. Al Zimmermann 최적화 대회 15개에서 최강 모델(Fable 5.1·Opus 5.5·GPT-6 Astra)의 중앙 순위는 인간 참가자 상위 96~98번째 백분위였다.",
+    "why": "METR은 인간이 위험을 이해·대응하지 못할 만큼 빠른 'AI R&D 급가속'을 향후 몇 년 안에 배제할 공개 증거가 부족하다고 봤고, AI 심판이 더 강한 모델이 만든 과제를 후하게 채점하는 등 측정 자체가 어려워지고 있다고 짚었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "METR 공식 블로그 원문 확인."
+    },
+    "image": "https://metr.org/assets/images/q4-2026-capability-update/1eb15f15412f8e86-og.png",
+    "links": [
+      {
+        "label": "METR 블로그",
+        "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
         "type": "source"
       }
     ]
@@ -325,6 +390,35 @@
     ]
   },
   {
+    "id": "2026-11-21-lean-community-certifies-riemann-proof",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "업데이트: Lean·Mathlib 커뮤니티 \"알푀게의 리만 가설 Lean 증명은 정확\" 공동 인증",
+    "summary": "Lean·Mathlib 커뮤니티는 Lean FRO·Mathlib Initiative가 지지한 공동 성명에서 알푀게가 11월 20일 공개한 1,700만 줄 규모 Lean 라이브러리의 리만 가설 증명에 대해 \"명제와 증명 모두 정확함을 인증한다\"고 밝혔다. comparator와 con-leche --compare 두 독립 도구로 증명된 정리가 Mathlib의 리만 가설 명제와 정확히 같음을 확인했고, Lean 공식 커널과 독립 검증기들도 증명을 받아들였다고 설명했다.",
+    "why": "전날까지 '검증 진행 중'이던 Claude 활용 증명이 Lean 공식 커뮤니티 차원의 인증을 받았다. MIT 앤드루 서덜랜드의 검증 페이지에는 일부 커널 재검증이 아직 진행 중으로 표시돼 있다(11/21 12:55 UTC 기준). 인간 증명안(마술로, GRH)은 별개로 검토 중.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Lean 커뮤니티 블로그 공동 성명 + MIT 서덜랜드 검증 파일 페이지 직접 확인. HN 680점·544댓글."
+    },
+    "links": [
+      {
+        "label": "Lean 커뮤니티 공동 성명",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "type": "source"
+      },
+      {
+        "label": "MIT 검증 파일(Sutherland)",
+        "url": "https://math.mit.edu/~drew/grh/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50589618",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-iitp-physical-ai-rnd-3482",
     "date": "2026-11-21",
     "category": "한국 IT",
@@ -375,6 +469,30 @@
       {
         "label": "보고서 페이지",
         "url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-21-gpgme-cve-2026-129975",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "GnuPG GPGME 치명적 취약점(CVE-2026-129975)…긴 사용자 ID 키로 이중 해제, RCE 가능성",
+    "summary": "GnuPG 프로젝트는 조작된 매우 긴 사용자 ID를 가진 OpenPGP 키로 GPGME에서 이중 해제(double free)를 일으켜 데이터를 빼낼 수 있고 원격 코드 실행도 배제할 수 없다며 GPGME 2.3.1로 즉시 업데이트를 권고했다. Gpg4win, GnuPG Desktop, 대부분의 메일 클라이언트, 다수 XMPP 클라이언트, Samba, Flatpak 등이 영향을 받는다.",
+    "why": "당초 11/25 공개 예정이었으나 Ruby2Shell 대응으로 GitLab이 먼저 업데이트하면서 11/20로 앞당겨 공개됐다. 메일·패키지 도구 전반에 깔린 라이브러리라 업데이트 확인이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GnuPG 공식 gnupg-announce 공지 확인. HN 208점."
+    },
+    "links": [
+      {
+        "label": "GnuPG 보안 공지",
+        "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50587208",
         "type": "source"
       }
     ]
@@ -1221,6 +1339,47 @@
         "label": "Yonhap (EN)",
         "url": "https://en.yna.co.kr/view/AEN20261120004300320",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-20-kittenml-kitten-tts-2",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "KittenML 'KittenTTS 2' 공개…1.7B 음성 복제 TTS, 1.58비트 954MB·한국어 음성 포함",
+    "summary": "KittenML은 5~30초 음성으로 목소리를 복제하는 1.7B 음성 언어 모델 KittenTTS 2를 허깅페이스에 공개했다. 기본 115개 음성과 감정 태그를 지원하고, 1.58비트 삼진 가중치 기본판은 954MB(4비트 임베딩판 469MB)이며 CPU 실행용 llama.cpp 포크도 제공한다.",
+    "why": "한국어 포함 16개 언어 음성이 있어 로컬 음성 복제를 1GB 이하로 돌릴 수 있다. 다만 가중치는 Stellon Labs Community License로, 무료 상업 이용에 한도가 있어 확인이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "허깅페이스 모델 카드 직접 확인(라이선스·용량·언어). r/LocalLLaMA 반응은 커뮤니티 요약 기준."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/KittenML/kitten-tts-2.png",
+    "specs": {
+      "params": "1.7B",
+      "license": "Stellon Labs Community License(로더 패키지 Apache 2.0)",
+      "memory": "954MB(packed)·469MB(emb4)",
+      "modality": "텍스트→음성·음성 복제"
+    },
+    "links": [
+      {
+        "label": "허깅페이스 모델 카드",
+        "url": "https://huggingface.co/KittenML/kitten-tts-2",
+        "type": "source"
+      },
+      {
+        "label": "KittenML/kitten-tts-2",
+        "url": "https://huggingface.co/KittenML/kitten-tts-2",
+        "type": "huggingface"
+      },
+      {
+        "label": "KittenML/KittenTTS",
+        "url": "https://github.com/KittenML/KittenTTS",
+        "type": "github"
+      },
+      {
+        "label": "KittenML/kitten-tts-2-cpp",
+        "url": "https://github.com/KittenML/kitten-tts-2-cpp",
+        "type": "github"
       }
     ]
   },
