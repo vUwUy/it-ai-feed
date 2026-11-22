@@ -1,5 +1,312 @@
 [
   {
+    "id": "2026-11-23-skt-adot-all",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "SKT, 에이닷을 '모두의 AI' 서비스 '에이닷올(A.LL)'로 개편해 다음 달 출시",
+    "summary": "SK텔레콤은 1,000만 명이 넘는 에이닷 가입자 기반을 살려 정부 '모두의 AI' 사업 방향에 맞춘 '에이닷올'로 다음 달 개편한다. 별도 플랫폼을 새로 만들지 않고 기존 서비스를 확대하는 방식이다.",
+    "why": "카카오 '카나나 스페이스'와 함께 국내 통신·플랫폼사의 '모두의 AI' 서비스 경쟁이 12월에 본격화된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 보도 + 머니투데이 단독(명칭 검토) 2곳. SKT 공식 발표 전."
+    },
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261120000272",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/17/2026111714212477031",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-sarvam-105b-1711",
+    "date": "2026-11-23",
+    "category": "로컬 AI",
+    "title": "Sarvam-105B-1711 공개…105B/10.3B 활성 MoE, Apache 2.0, NVFP4 65GB",
+    "summary": "인도 사르밤 AI는 105B MoE의 새 체크포인트를 BF16과 단일 워크스테이션 GPU용 65GB NVFP4로 공개했다. 8개 대화형 에이전트 벤치마크 평균이 2월판 42.6에서 73.9로 올랐고(제미나이 3.5 Flash-Lite 74.0), 블렌디드 가격은 100만 토큰당 0.44달러에서 0.15달러로 내렸다고 밝혔다.",
+    "why": "도구 호출·지시 수행(IFBench 32.5→82.5, τ²-Bench 46.2→85.5)이 크게 개선된 Apache 2.0 중형 MoE다. 수치는 회사 자체 측정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Sarvam 공식 블로그 + Hugging Face 모델 카드 확인."
+    },
+    "specs": {
+      "params": "105B(10.3B 활성)",
+      "license": "Apache 2.0",
+      "memory": "NVFP4 65GB",
+      "modality": "텍스트"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/sarvamai/sarvam-105b-1711.png",
+    "links": [
+      {
+        "label": "Sarvam 블로그",
+        "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+        "type": "source"
+      },
+      {
+        "label": "sarvamai/sarvam-105b-1711",
+        "url": "https://huggingface.co/sarvamai/sarvam-105b-1711",
+        "type": "huggingface"
+      },
+      {
+        "label": "sarvamai/sarvam-105b-1711-bf16",
+        "url": "https://huggingface.co/sarvamai/sarvam-105b-1711-bf16",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-openai-perplexity-and-intelligence",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "OpenAI 수석과학자 파호츠키 '퍼플렉시티와 지능'…내부 사전학습 손실 공개, 업계 공동 개발 한도 제안",
+    "summary": "야쿠프 파호츠키는 OpenAI 내부 평가셋 기준 로그 퍼플렉시티가 GPT-3.5 약 0.99, GPT-4 약 0.91이었고 현재 0.8 아래로 내려왔으며, 약 0.76 모델부터 수학에서 획기적 결과가 나왔다고 공개했다. 퍼플렉시티 등을 기준으로 이해·감시 능력이 일정 수준에 이를 때까지 넘지 않는 업계 공통 한도를 두자고 제안했다.",
+    "why": "선도 랩이 내부 사전학습 지표를 공개하고 '개발 속도 조절' 기준을 직접 제안한 이례적 글이다. 0.68~0.7 구간에서 또 다른 변혁적 능력이 나올 수 있다고 전망했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 블로그 원문 확인(2026-11-22). HN 392점·260댓글."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI 블로그",
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50601525",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-kakaopay-toss-id-verification",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "오늘부터 카카오페이·토스에서도 주민등록증 사진까지 정부 진위확인",
+    "summary": "행정안전부는 23일부터 카카오페이와 토스의 비대면 고객확인에 정부 주민등록증 진위확인 서비스를 적용한다. 은행·증권·보험사와 같은 수준으로 신분증 사진 정보까지 검증하며, 네이버페이는 12월 중 연계된다.",
+    "why": "위·변조 신분증을 이용한 간편결제·송금 부정 거래를 줄이려는 조치다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·전자신문·디지털타임스 등 복수 보도(행안부 발표)."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261120141900530",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261121000055",
+        "type": "source"
+      },
+      {
+        "label": "디지털타임스",
+        "url": "https://www.dt.co.kr/article/12096493",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-databricks-225b-talks",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "[보도] 데이터브릭스, 기업가치 약 2,250억 달러로 수십억 달러 투자 유치 초기 협상(WSJ)",
+    "summary": "WSJ는 데이터브릭스가 기업가치 약 2,250억 달러로 수십억 달러 규모 신규 투자 유치를 초기 협상 중이라고 보도했고, 조건은 바뀔 수 있다고 전했다. 회사는 8월 1,900억 달러 가치로 50억 달러를 조달했다고 밝힌 바 있다.",
+    "why": "기업용 AI·데이터 인프라에 대한 투자 수요가 여전히 강하다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(WSJ 인용)·지디넷코리아 보도 확인. 회사 공식 확인은 없음."
+    },
+    "links": [
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-wsj-reports-5042898",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261121090138",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-cpp26-done-again",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "업데이트: C++26 기술 작업 '재완료'…계약(Contracts) 보완 후 두 번째 DIS 투표로",
+    "summary": "허브 서터에 따르면 ISO C++ 위원회는 브라질 부지오스 회의에서 첫 DIS 투표 부결 뒤 접수된 각국 의견(주로 계약 기능)을 처리하고 C++26 기술 작업을 다시 마쳤다. 수정본을 두 번째 승인 투표에 부칠 예정이며, C++29 초안에는 break/continue 레이블 등이 채택됐다.",
+    "why": "사상 첫 부결로 불확실해졌던 C++26 표준화가 다시 궤도에 올랐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ISO C++ 위원회 의장 허브 서터의 회의 보고서 원문 확인."
+    },
+    "links": [
+      {
+        "label": "Sutter's Mill",
+        "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50600838",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-china-nda-token-standards",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "중국 국가데이터국, AI 토큰(词元) 계량·과금·품질평가 표준 정비 방침",
+    "summary": "류례훙 국가데이터국장은 20일 세계컴퓨팅대회에서 '토큰 공장'이 빠르게 늘고 있다며 토큰 계량·과금·품질 평가 표준을 정비하고 저품질 중복 투자를 막겠다고 밝혔다. 발표 시점은 제시하지 않았다.",
+    "why": "중국이 AI 사용량을 토큰 단위로 계량·거래하는 체계를 국가 표준으로 만들려는 흐름이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "제일재경(증권시보 인용)·TNW(블룸버그 인용) 2곳 확인."
+    },
+    "links": [
+      {
+        "label": "제일재경",
+        "url": "https://www.yicai.com/news/103449026.html",
+        "type": "source"
+      },
+      {
+        "label": "TNW",
+        "url": "https://thenextweb.com/news/chinas-data-regulator-plans-standards-for-measuring-and-billing-ai-tokens",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-bessent-nvidia-answers",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "업데이트: 베선트 \"엔비디아 답변 아직 못 받아\"…수출통제 준수 문화 조사 압박",
+    "summary": "스콧 베선트 재무장관은 22일 CBS '페이스 더 네이션'에서 엔비디아에 요구한 수출통제 준수 관련 답변을 아직 받지 못했다며 \"답이 필요하다\"고 말했다. 임시 경영진·선임 이사·변호인과 접촉 중이며, 외부 인사를 CEO로 데려와야 한다는 입장도 거듭 밝혔다.",
+    "why": "젠슨 황 사임 이후 엔비디아의 대중국 칩 판매 의혹이 행정부 차원 조사로 이어지고 있다는 점을 재확인한 발언이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CBS 뉴스 기사·방송 녹취록 확인."
+    },
+    "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/22/c9086ee4-e943-463e-a513-2f52fbb7e081/thumbnail/1200x630/e9361894e48a17663bd5b9e09b4bf86a/cbsn-fusion-bessent-says-trump-administration-has-been-in-touch-with-nvidia-leadership-but-still-needs-answers-thumbnail.jpg",
+    "links": [
+      {
+        "label": "CBS 뉴스",
+        "url": "https://www.cbsnews.com/news/bessent-nvidia-china-ai-chips-alice-huang-canard/",
+        "type": "source"
+      },
+      {
+        "label": "CBS 녹취록",
+        "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-backblaze-privacy-ads",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "백블레이즈 새 개인정보처리방침(12/1 시행)…식별자·위치 등 맞춤광고용 '판매·공유' 명시",
+    "summary": "클라우드 백업 업체 백블레이즈의 개정 방침은 추적 기술 사용이 교차 맥락 행동 광고를 위한 개인정보 판매·공유에 해당할 수 있다며 식별자, 상거래 정보, 인터넷 활동, 위치 데이터를 대상으로 적었다. 백업된 파일 자체가 아니라 고객에 관해 수집한 정보에 관한 내용이다.",
+    "why": "이전 방침과 달라진 문구라 이용자 반발이 크다. 사용 중이라면 12월 1일 전에 옵트아웃 설정을 확인할 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "백블레이즈 방침 페이지 + Neowin 보도. HN 120점."
+    },
+    "image": "https://cdn.neowin.com/news/images/uploaded/2026/07/1784930611_depositphotos_250294908_l_full.webp",
+    "links": [
+      {
+        "label": "백블레이즈 개인정보처리방침",
+        "url": "https://www.backblaze.com/company/policy/privacy",
+        "type": "source"
+      },
+      {
+        "label": "Neowin",
+        "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50600435",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-anthropic-power-fossil-analysis",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "[분석] 시민단체 \"앤트로픽 2028년 전력 87% 가스·11% 석탄 추정\"…HN 790점대 화제",
+    "summary": "Better Data Center Project는 앤트로픽이 계약한 미국 데이터센터의 현장 가스 발전과 한계 발전원을 따져 2028년 전력의 약 87%가 가스, 11%가 석탄에서 나오고 이산화탄소 배출이 3,200만 톤에 이를 수 있다고 추정했다. 앤트로픽의 공개된 재생에너지 약정은 노르웨이·캐나다뿐이라고 지적했다.",
+    "why": "AI 데이터센터 'BYOP(자체 발전)' 확산이 화석연료 수요를 키운다는 논쟁의 구체적 사례다. 수치는 단체 자체 추정이다.",
+    "verification": {
+      "status": "미확인",
+      "note": "단체 보고서 원문 확인. 추정치이며 앤트로픽 입장·독립 검증 없음. HN 793점·820댓글."
+    },
+    "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1",
+    "links": [
+      {
+        "label": "Better Data Center Project",
+        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/item?id=50597612",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-ant-lingsante-3-1",
+    "date": "2026-11-23",
+    "category": "로컬 AI",
+    "title": "앤트그룹 의료 특화 'LingSante-3.1' 오픈 웨이트…flash 560B/25B·air-VL 124B/5.5B, MIT",
+    "summary": "inclusionAI는 Ling-3.1-flash 기반 의료 추론·장기 작업 모델 LingSante-3.1-flash(총 560B, 토큰당 25B 활성, 1M 컨텍스트)와 첫 의료 멀티모달 모델 LingSante-3.1-air-VL(124B/5.5B 활성, 256K, 텍스트·이미지)을 MIT 라이선스로 공개했다. 22일에는 flash의 MXFP4 버전도 올라왔다.",
+    "why": "공개된 의료 특화 모델 중 대형급이며 air-VL은 활성 5.5B라 비교적 가볍게 돌릴 수 있다. 연구용이며 의료기기가 아니라고 명시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 2종·MXFP4 저장소 확인."
+    },
+    "specs": {
+      "params": "560B(25B 활성) / 124B(5.5B 활성)",
+      "license": "MIT",
+      "context": "1M / 256K",
+      "modality": "텍스트 / 텍스트·이미지"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/LingSante-3.1-flash.png",
+    "links": [
+      {
+        "label": "LingSante-3.1-flash 모델 카드",
+        "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+        "type": "source"
+      },
+      {
+        "label": "inclusionAI/LingSante-3.1-flash",
+        "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+        "type": "huggingface"
+      },
+      {
+        "label": "inclusionAI/LingSante-3.1-air-VL",
+        "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL",
+        "type": "huggingface"
+      },
+      {
+        "label": "inclusionAI/LingSante-3.1-flash-MXFP4",
+        "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash-MXFP4",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-22-upload2shell-ghostscript",
     "date": "2026-11-22",
     "category": "AI·IT",
