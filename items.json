@@ -50,6 +50,36 @@
     ]
   },
   {
+    "id": "2026-11-22-opencode-glm53-deepseek-flash-60off",
+    "date": "2026-11-22",
+    "category": "AI·IT",
+    "title": "OpenCode, GLM 5.3·DeepSeek V4.1 Flash 가격 60% 인하",
+    "summary": "OpenCode 콘솔에서 GLM 5.3은 100만 토큰당 입력 $1.40→$0.56·출력 $4.40→$1.76, DeepSeek V4.1 Flash는 입력 $0.30→$0.12·출력 $0.48로 내렸다. 개발자 Dax Raad는 자체 GPU로 Fireworks·Baseten보다 60% 싸다고 주장했다.",
+    "why": "오픈 웨이트 모델 추론 가격 경쟁이 본격화하는 신호다. 다만 처리량 비교 주장('더 많은 물량')은 수치가 공개되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenCode 콘솔 가격 페이지 직접 확인 + Sulat 기사(공식 X 게시 인용)."
+    },
+    "image": "https://news.sulat.com/wp-content/uploads/2026/11/hero-opencode-price-cut-bursting-bubble.jpg",
+    "links": [
+      {
+        "label": "OpenCode 콘솔 가격",
+        "url": "https://opencode.ai/console/models",
+        "type": "source"
+      },
+      {
+        "label": "Sulat 기사",
+        "url": "https://news.sulat.com/2026/11/22/opencode-price-cut/",
+        "type": "source"
+      },
+      {
+        "label": "anomalyco/opencode PR #65470",
+        "url": "https://github.com/anomalyco/opencode/pull/65470",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-22-lookatmyquant-inkling-2-mini-5gb",
     "date": "2026-11-22",
     "category": "로컬 AI",
@@ -110,6 +140,26 @@
     ]
   },
   {
+    "id": "2026-11-22-lee-exam-cheating-legal-basis",
+    "date": "2026-11-22",
+    "category": "한국 IT",
+    "title": "업데이트: 李대통령 \"문제지 촬영·외부 전송 기술적 차단 법적 근거 정비\"…문제지 고유 식별 표식 검토",
+    "summary": "이재명 대통령은 22일 X에 AI 악용 부정행위 우려가 수능을 넘어 논술·내신으로 번지고 있다며, 시험 중 문제지 촬영과 외부 전송을 기술적으로 막을 법적 근거를 전면 정비하도록 지시하겠다고 밝혔다. 국가자격시험 등 관리 실태를 전 부처가 점검하고, 문제지에 고유 식별 표식을 넣어 유출 출처를 확인하는 방안도 검토하라고 했다.",
+    "why": "시험장 전파 차단 등 기술적 조치의 법적 근거 마련이 공식 과제로 올라왔다는 점이 이전 사후 추적 발표와 다른 새 내용이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 기사(대통령 X 게시 인용) 원문 확인."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/20/rcv.YNA.20261120.PYH2026112011060001300_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261122000074",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-22-dragos-canary-openrouter-zdr",
     "date": "2026-11-22",
     "category": "AI·IT",
@@ -135,6 +185,31 @@
       {
         "label": "Ars Technica",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-chey-korea-japan-ai-talent",
+    "date": "2026-11-22",
+    "category": "한국 IT",
+    "title": "최태원 \"한일 기업·대학이 AI 인재 공동 육성·인턴십 연계하자\"",
+    "summary": "최태원 SK그룹 회장이 21일 도쿄대 '도쿄포럼 2026'에서 한국·일본 기업과 대학이 AI 인재 육성 프로그램을 함께 운영하고 양국 인턴십·일자리를 연계하자고 제안했다. 'AI 네이티브 대학'은 기존 교육과정 수정이 아닌 완전히 다른 설계와 거버넌스가 필요하다고 말했다.",
+    "why": "SK가 'AI 컴퍼니' 재정의 이후 인재 확보를 국경 너머 산학협력으로 넓히려는 메시지다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴스핌·중앙일보·머니투데이 등 복수 보도(SK그룹 발표 기반)."
+    },
+    "image": "https://img.newspim.com/news/2026/11/22/261122104005546_651_tc.jpg",
+    "links": [
+      {
+        "label": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261122000037",
+        "type": "source"
+      },
+      {
+        "label": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25480767",
         "type": "source"
       }
     ]
@@ -190,6 +265,85 @@
       {
         "label": "칼칼리스트",
         "url": "https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-meditech-series-c-338",
+    "date": "2026-11-21",
+    "category": "한국 IT",
+    "title": "AI 로봇내시경 메디인테크, 338억 원 시리즈C 유치",
+    "summary": "모터 기반 정밀제어로 연성 내시경을 전동화한 메디인테크가 KB인베스트먼트·에이티넘인베스트먼트 공동 주도로 338억 원 규모 시리즈C를 유치했다. 누적 투자액은 약 622억 원이며 라운드는 추가 모집 중이다.",
+    "why": "AI 영상 분석을 실제 기기 움직임으로 연결하는 의료 피지컬 AI에 대형 자금이 몰린 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "머니투데이 원문 + 이데일리 VC's Pick 보도 교차 확인."
+    },
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026112012083111529_1.jpg",
+    "links": [
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/future/2026/11/21/2026112012083111529",
+        "type": "source"
+      },
+      {
+        "label": "이데일리",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=01817126645648016",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-eu-costa-digital-levy-3pct",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "EU 코스타 상임의장, 빅테크 디지털 매출 3% 과세안 제시(2028~2034 예산안)",
+    "summary": "안토니우 코스타 유럽이사회 상임의장이 2028~2034 다년간 재정계획(MFF) 조정안에서 온라인 광고·디지털 중개·사용자 데이터 수익화 매출에 3%를 매기는 디지털 서비스 부담금을 제안했다. 기존 법인 과세안(CORE)을 대체하는 내용이며, 예산 총액은 집행위안보다 약 2,000억 유로(10%) 줄였다.",
+    "why": "구글·메타 등 미국 빅테크를 겨냥한 EU 차원의 첫 공동 재원안이라 미국 정부의 반발 가능성이 크다. 아직 제안 단계로, 회원국 만장일치와 2027년 지침 합의가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "유로뉴스 원문 + 디지털데일리 보도 교차 확인(유럽이사회 보도자료 11/21 게시)."
+    },
+    "image": "https://images.euronews.com/articles/stories/10/00/25/53/1200x675_cmsv2_938d680d-756a-57bc-ae81-3693fee283ea-10002553.jpg",
+    "links": [
+      {
+        "label": "Euronews",
+        "url": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
+        "type": "source"
+      },
+      {
+        "label": "유럽이사회 보도자료",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/ai",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-aws-quick-plugins",
+    "date": "2026-11-21",
+    "category": "AI·IT",
+    "title": "AWS Quick 플러그인 지원…에이전트·스킬·커넥터·플로를 한 번에 설치",
+    "summary": "AWS가 업무용 AI 'AWS Quick'에 에이전트·스킬·커넥터·플로를 묶은 플러그인 기능을 추가했다. 일정·회의 비서, 영업 개발 등 공식 플러그인을 포함해 100개 이상의 스킬·플러그인을 제공하고, 채팅으로 설명하면 맞춤 플러그인을 조립해 팀에 공유할 수 있다.",
+    "why": "앤트로픽·OpenAI가 밀고 있는 '스킬/플러그인' 패키징 방식을 AWS도 기업용 에이전트에 도입한 것이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AWS What's New 공식 공지(11/21) 원문 확인."
+    },
+    "links": [
+      {
+        "label": "AWS What's New",
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
+        "type": "source"
+      },
+      {
+        "label": "AWS ML 블로그",
+        "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
         "type": "source"
       }
     ]
@@ -993,6 +1147,71 @@
         "label": "HN: 마술로 GRH 토론",
         "url": "https://news.ycombinator.com/item?id=50579568",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-metric-ai-ayb-05-armenian",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "Metric AI 'Ayb 0.5' 아르메니아어 오픈 웨이트 LLM(0.8B·4B·9B)",
+    "summary": "아르메니아 예레반의 Metric AI가 Qwen3.5 기반 아르메니아어 특화 모델 Ayb 0.5(0.8B·4B·9B)를 공개했다. 9B는 아르메니아어 토큰 2,558개를 추가하고 약 26B 토큰으로 추가 사전학습한 뒤 SFT·DPO·GRPO로 후처리했으며 ArmBench 0.616을 기록했다고 밝혔다.",
+    "why": "저자원 언어용 소버린 AI를 소형 오픈 모델로 만드는 방법(토크나이저 확장+지속 사전학습)의 참고 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 공식 블로그 + Ayb-0.5-9B 모델 카드 확인. 라이선스는 카드 상단에서 확인하지 못함."
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6285491b2f579a26d6442ad4/OdB7cShxIdrdUjsBNR0pM.png",
+    "specs": {
+      "params": "0.8B·4B·9B",
+      "modality": "텍스트(초기 비전)"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/Metric-AI/ayb-05-intro",
+        "type": "source"
+      },
+      {
+        "label": "Metric-AI/Ayb-0.5-9B",
+        "url": "https://huggingface.co/Metric-AI/Ayb-0.5-9B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-baseten-bison-1-groundhog-1",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "Baseten 'bison-1'(31B)·'groundhog-1'(26B/4B 활성) 결정 모델 가중치 공개",
+    "summary": "Baseten Base Labs가 Gemma 4 기반 결정(분류·확률) 모델 bison-1(Gemma-4-31B 후처리)과 MoE 형제 groundhog-1(Gemma-4-26B-A4B 기반)을 허깅페이스에 공개했다. 텍스트·이미지 입력, 131,072토큰 컨텍스트이며, bison-1은 Artificial Analysis Decision Index v2.1에서 76점으로 19개 중 1위, Brier 0.14로 최고 보정도를 기록했다고 밝혔다.",
+    "why": "텍스트를 생성하지 않고 여러 질문에 대한 보정된 확률을 한 번에 내는 라우팅·분류용 모델이라, 로컬 파이프라인의 경량 판단기로 쓸 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Baseten 공식 블로그 + HF 모델 카드 2종 확인."
+    },
+    "image": "https://www.datocms-assets.com/104802/1795202394-blog-image_bison.png?auto=format&w=1600",
+    "specs": {
+      "params": "31B / 26B(4B 활성)",
+      "context": "128K",
+      "modality": "텍스트·이미지 입력",
+      "price": "Baseten API bison-1 $0.10/1M 토큰"
+    },
+    "links": [
+      {
+        "label": "Baseten 블로그",
+        "url": "https://www.baseten.co/blog/meet-bison-1-and-groundhog-1/",
+        "type": "source"
+      },
+      {
+        "label": "baselabs/bison-1",
+        "url": "https://huggingface.co/baselabs/bison-1",
+        "type": "huggingface"
+      },
+      {
+        "label": "baselabs/groundhog-1",
+        "url": "https://huggingface.co/baselabs/groundhog-1",
+        "type": "huggingface"
       }
     ]
   },
