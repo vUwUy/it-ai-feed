@@ -25,6 +25,61 @@
     ]
   },
   {
+    "id": "2026-11-22-ccw-killer-robots-mandate-2028",
+    "date": "2026-11-22",
+    "category": "AI·IT",
+    "title": "유엔 CCW '킬러 로봇' 구속력 있는 조약 협상 위임 무산…2028년까지 규범 '구체화'만 합의",
+    "summary": "제네바 특정재래식무기금지협약(CCW) 회의에서 128개국이 살상용 자율무기 규범을 향후 2년간 '구체화(elaborate)'하기로 합의했다. 100개국 가까이가 법적 구속력 있는 규칙의 신속한 채택을 요구했지만 미국·러시아·이스라엘 등이 반대했고, 만장일치 원칙 때문에 '협상(negotiate)' 문구가 빠졌다.",
+    "why": "AI가 표적을 고르는 무기가 이미 실전 배치되는 상황에서 10년 넘은 국제 규제 논의가 구속력 없는 방향으로 후퇴했다. Stop Killer Robots는 '물 탄 위임'이라고 비판했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "가디언·알자지라(AFP)·폴리티코·CBC 등 독립 보도 일치."
+    },
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-16T000042Z_1292707567_RC24NOARZ1O5_RTRMADP_3_ARMS-AI-1795253797.jpg?resize=1920%2C1440",
+    "links": [
+      {
+        "label": "가디언",
+        "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+        "type": "source"
+      },
+      {
+        "label": "알자지라",
+        "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit",
+        "type": "source"
+      },
+      {
+        "label": "폴리티코",
+        "url": "https://www.politico.eu/article/effort-regulate-killer-robots-delayed-until-2028-ai-un/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-amazon-decart-7-5b-report",
+    "date": "2026-11-22",
+    "category": "AI·IT",
+    "title": "[보도] 아마존, AI 스타트업 데카르트 최대 75억 달러 인수 막바지(FT·칼칼리스트)",
+    "summary": "FT는 아마존이 데카르트 인수를 위한 막바지 협상 중이며 이르면 다음 주 발표될 수 있다고 보도했다. 칼칼리스트는 현금·주식·이연 지급으로 70억 달러 이상, 목표 달성 조건부 대금을 합치면 75억 달러 가까이 되고 창업자들은 5년간 잔류하기로 했다고 전했다.",
+    "why": "성사되면 올해 최대급 AI 스타트업 인수다. 데카르트는 앞서 앤트로픽(60억 달러 논의)·엔비디아와의 인수 협상이 무산된 바 있다. 아직 공식 발표 전이다.",
+    "verification": {
+      "status": "미확인",
+      "note": "FT(로이터 인용)·칼칼리스트 독립 보도. 아마존·데카르트 공식 발표 없음."
+    },
+    "image": "https://pic1.calcalist.co.il/picserver3/crop_images/2026/08/16/H12h7OJvGg/H12h7OJvGg_0_5_3000_1689_0_large.jpg",
+    "links": [
+      {
+        "label": "로이터(FT 인용)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N472034:0-amazon-in-advanced-stages-of-7-5-billion-deal-for-decart-ft/",
+        "type": "source"
+      },
+      {
+        "label": "칼칼리스트",
+        "url": "https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-us-china-human-control-military-ai",
     "date": "2026-11-21",
     "category": "AI·IT",
