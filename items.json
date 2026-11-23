@@ -1,5 +1,24 @@
 [
   {
+    "id": "2026-11-23-skt-naver-refuse-agent-calls",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "[보도] SKT·네이버, AI 에이전트가 건 고객센터 전화 응대 거부 방침",
+    "summary": "조선일보 단독에 따르면 SK텔레콤은 AI 에이전트 문의 전화에는 가입자 본인에게만 상담하겠다고 안내하며 통화를 거부하고 있고, 네이버도 '본인 외에는 대응하지 않는다'는 정책을 세웠다. AI 에이전트의 법적 지위(대리인 여부)가 불명확하다는 이유다.",
+    "why": "사용자 대신 전화를 거는 AI 에이전트 서비스가 늘면서 대리 권한·본인 확인 규칙이 새 쟁점이 되고 있다.",
+    "verification": {
+      "status": "미확인",
+      "note": "조선일보 단독 1곳(양사 관계자 발언 인용). 타 매체·공식 발표 교차 확인 안 됨"
+    },
+    "links": [
+      {
+        "label": "조선일보",
+        "url": "https://www.chosun.com/economy/tech_it/2026/11/23/56I3GEDHFVA5FACSFRL62BZIUQ/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-skt-adot-all",
     "date": "2026-11-23",
     "category": "한국 IT",
@@ -60,6 +79,36 @@
     ]
   },
   {
+    "id": "2026-11-23-pipc-ai-privacy-decree",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "개인정보위, AI 개발용 개인정보 특례 시행령 입법예고…침해 위험 크면 사전 위험요인평가 의무",
+    "summary": "개인정보위가 AI 기술 개발 개인정보 처리 특례에 필요한 안전조치(책임자 지정·내부관리계획·접근통제·불필요 정보 파기)와 심의·의결 절차를 담은 시행령 개정안을 23일부터 내년 1월 4일까지 입법예고한다. 민감·고유식별정보 이용, 아동 정보, 관찰·추적·행태 예측 AI 등은 사전 위험요인평가 대상이다.",
+    "why": "내년 3월 9일 시행되는 개정 개인정보보호법의 AI 학습 특례가 실제로 어떻게 운용될지 정하는 세부 기준이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 아주경제 보도, 국민참여입법센터 입법예고 게시"
+    },
+    "image": "https://img1.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102813600001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261123044100530",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261123092409964",
+        "type": "source"
+      },
+      {
+        "label": "국민참여입법센터",
+        "url": "https://community.lawmaking.go.kr/gcom/ogLmPp/89596",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-openai-perplexity-and-intelligence",
     "date": "2026-11-23",
     "category": "AI·IT",
@@ -80,6 +129,120 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50601525",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-nga-ai-principles",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "美 주지사협회, 초당적 AI 거버넌스 원칙 발표…\"주 권한 유지한 연방 프레임워크\" 요구",
+    "summary": "전미주지사협회(NGA)의 초당적 'Governors Council to Secure American AI Dominance'(웨스 무어·마이크 브라운·조시 스타인·스펜서 콕스 주지사 주도)가 22일 주·연방 AI 거버넌스 원칙을 발표하고, 차기 의회에 연방주의 원칙에 맞는 AI 프레임워크를 함께 만들자고 촉구했다.",
+    "why": "연방 AI 법안(주법 선점) 논의가 진행되는 가운데 주정부들이 공동 입장을 정리했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NGA 공식 보도자료 + 블룸버그 로 보도"
+    },
+    "image": "https://www.nga.org/wp-content/uploads/2026/11/ai_policy3.jpg",
+    "links": [
+      {
+        "label": "NGA 보도자료",
+        "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/governors-call-for-federal-ai-rules-without-sidelining-states",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-mcst-ai-training-contract",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "문체부, AI 학습용 저작물 이용허락·저작권 양도 표준계약서안 공개…26일 공청회",
+    "summary": "문체부가 한국저작권위원회·법무법인 세종과 함께 'AI 학습을 위한 저작물 이용허락'과 '저작권 양도' 표준계약서 제정안 2종을 23일 공개하고 26일 공청회를 연다. 사전 질의는 25일 오후 6시까지 받는다.",
+    "why": "권리자와 AI 개발사 사이 학습 데이터 거래의 이용 범위·대가·데이터 폐기 기준을 처음으로 표준화하는 시도다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·전자신문·ZDNet Korea 등 복수 보도(문체부 제공)"
+    },
+    "image": "https://img2.yna.co.kr/etc/inner/KR/2026/11/23/AKR20261123015300005_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261123015300005",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261123000163",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-llamacpp-hibiki-adreno",
+    "date": "2026-11-23",
+    "category": "로컬 AI",
+    "title": "llama.cpp, Kyutai 'Hibiki' 실시간 전이중 음성 지원·Adreno 850 OpenCL coopmat GEMM 추가",
+    "summary": "llama.cpp b12619에서 moshi 기반 실시간 전이중(음성 입력→음성 출력) 모델 kyutai/hibiki 1B·2B 지원이 들어갔고, 서버에 전이중 지원이 함께 추가됐다. b12629에서는 Adreno 850용 OpenCL coopmat GEMM(Q4_0·Q5_0·Q8_0·Q4_K·Q5_K·Q6_K)이 추가됐다.",
+    "why": "실시간 음성 대화·통역 모델을 로컬 서버로 돌릴 기반이 생겼고, 스냅드래곤 폰 GPU 추론도 빨라진다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b12619·b12629 + PR #32491·#32686 본문"
+    },
+    "links": [
+      {
+        "label": "b12619 릴리스",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12619",
+        "type": "source"
+      },
+      {
+        "label": "PR #32491 (Hibiki)",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/32491",
+        "type": "github"
+      },
+      {
+        "label": "PR #32686 (Adreno 850)",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/32686",
+        "type": "github"
+      },
+      {
+        "label": "kyutai/hibiki-2b-pytorch-bf16",
+        "url": "https://huggingface.co/kyutai/hibiki-2b-pytorch-bf16",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-kospi-4700-stabilization-fund",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "업데이트: 코스피 장중 4%대 급락해 4,700 하회…F4, 18년 만의 증안펀드 가동 준비",
+    "summary": "23일 코스피는 4,740선에서 출발해 4%대까지 밀리며 4,600선을 기록했고 삼성전자·SK하이닉스도 3~4%대 하락했다(연합뉴스TV 오전 장중). 22일 긴급 시장상황점검회의에서 F4는 증권시장안정펀드 즉시 가동 준비, 24일부터 3개월간 자사주 매수 한도 완화, 불법 공매도 특별 집중 감시를 결정했다.",
+    "why": "지난주 미국 AI·반도체주 폭락의 충격이 국내 반도체 대형주와 정책 대응으로 이어지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 장중 시황 + 연합뉴스·파이낸셜뉴스 F4 회의 보도, 정책브리핑 보도자료"
+    },
+    "image": "https://img0.yna.co.kr/mpic/YH/2026/11/23/MYH20261123008200038_P1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스 장중 시황",
+        "url": "https://www.yna.co.kr/view/MYH20261123008200038",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스 F4 회의",
+        "url": "https://www.yna.co.kr/view/AKR20261122044351002",
+        "type": "source"
+      },
+      {
+        "label": "정책브리핑",
+        "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790262",
         "type": "source"
       }
     ]
@@ -133,6 +296,25 @@
       {
         "label": "The Verge",
         "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-daum-dd-shutdown",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "다음 앱 AI 뉴스 비서 '디디(DD)' 12월 14일 종료…'AI 모드'로 개편 예고",
+    "summary": "다음은 맞춤 뉴스 추천·요약·소비성향 리포트를 제공해 온 AI 콘텐츠 추천 비서 '디디'를 2026년 12월 14일 종료한다고 공지했다. 서비스 전반을 AI 중심으로 새로 준비하고 있으며, 앞으로 'AI 모드'로 선보이겠다고 밝혔다.",
+    "why": "카카오에서 분리되는 포털 다음이 AI 서비스 구성을 재편하는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Daum 고객센터 공식 공지 + 디지털데일리 보도"
+    },
+    "links": [
+      {
+        "label": "Daum 공지",
+        "url": "https://cs.daum.net/notice/5169",
         "type": "source"
       }
     ]
@@ -327,6 +509,35 @@
         "label": "inclusionAI/LingSante-3.1-flash-MXFP4",
         "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash-MXFP4",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-altman-backs-pachocki-limits",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "업데이트: 올트먼, 파호츠키의 '공동 개발 한도' 제안 공개 지지…HN 500점대 토론",
+    "summary": "샘 올트먼이 X에서 업계가 AI 개발 공동 한도에 합의해야 한다며 파호츠키의 글을 지지했다(민트 보도). 파호츠키는 초기 한도 수치나 시행 시점은 제시하지 않았다.",
+    "why": "OpenAI 수석과학자 개인 제안을 CEO가 공식 지지하면서 회사 차원의 입장에 가까워졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 원문 + 민트·비즈니스스탠더드 보도"
+    },
+    "links": [
+      {
+        "label": "Mint",
+        "url": "https://www.livemint.com/ai/artificial-intelligence/sam-altman-joins-openai-s-chief-scientist-jakub-pachocki-in-calling-for-common-industry-standard-on-powerful-ai-models-11795399744915.html",
+        "type": "source"
+      },
+      {
+        "label": "OpenAI 원문",
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론 (504점·348댓글)",
+        "url": "https://news.ycombinator.com/item?id=50601525",
+        "type": "source"
       }
     ]
   },
