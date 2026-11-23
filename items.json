@@ -491,6 +491,35 @@
     ]
   },
   {
+    "id": "2026-11-23-glm-5-4-loop-transformer-blog",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "업데이트: Z.ai GLM-5.4 기술 블로그 공개…750B 첫 루프 트랜스포머, 가중치는 '안전 보강 후 공개 예정'",
+    "summary": "Z.ai가 GLM-5.4를 첫 루프 트랜스포머 플래그십으로 공개했다. GLM-5 기본 모델의 28개 층을 2회 반복 실행하는 750B 규모이며, 회사는 2T~3T 파라미터 모델에 견줄 지능이라고 주장한다. 코딩 플랜·ZCode·Z.ai 챗에서 쓸 수 있고 API는 준비 중이다.",
+    "why": "앞서 코딩 플랜 제공 때 미공개였던 아키텍처·규모가 공개됐다. 오픈 웨이트는 '필요한 안전 보강 후 책임 있게 공개할 계획'이라고만 밝혀 로컬 사용 시점은 아직 미정이다. 지나치게 긴 '마라톤 사고'에 빠지는 한계도 회사가 직접 인정했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Z.ai 공식 블로그 확인(성능 비교는 회사 주장), HN 1위"
+    },
+    "image": "https://z-ai-bj.oss-cn-beijing.aliyuncs.com/prompts-rich-media-resources/5.4-blog/20261123-173242.jpeg?w=1280&h=720&fit=fill",
+    "specs": {
+      "params": "750B (루프 2회)",
+      "license": "가중치 미공개(공개 예정)"
+    },
+    "links": [
+      {
+        "label": "Z.ai 공식 블로그",
+        "url": "https://z.ai/blog/glm-5.4",
+        "type": "source"
+      },
+      {
+        "label": "TestingCatalog",
+        "url": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-delta-weight-balance-outage",
     "date": "2026-11-23",
     "category": "AI·IT",
@@ -553,6 +582,30 @@
       {
         "label": "지디넷코리아",
         "url": "https://zdnet.co.kr/view/?no=20261121090138",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-crowdstrike-acquire-zscaler",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "크라우드스트라이크, 지스케일러 약 439억 달러에 전액 주식 인수 계약",
+    "summary": "크라우드스트라이크가 지스케일러를 전액 주식 방식으로 인수하는 최종 계약을 맺었다. 지스케일러 가치는 약 439억 달러, 주주는 주당 크라우드스트라이크 1.135주를 받는다. 주주·규제 승인이 필요하다.",
+    "why": "보안 업계 최대급 인수합병으로, 엔드포인트 1위가 제로 트러스트·SASE 네트워크 보안에 진출한다. 두 회사 합산 연간 반복 매출은 100억 달러 이상으로 시작할 것이라고 회사는 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "크라우드스트라이크 IR 공식 보도자료 + CNBC·US News 보도 확인"
+    },
+    "links": [
+      {
+        "label": "크라우드스트라이크 IR 보도자료",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html",
         "type": "source"
       }
     ]
