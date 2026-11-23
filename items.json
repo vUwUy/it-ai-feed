@@ -30,6 +30,31 @@
     ]
   },
   {
+    "id": "2026-11-23-tesla-fsd-v15-reality-view",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "테슬라 FSD v15 배포 시작…주변을 실사처럼 생성하는 'Reality View' 탑재",
+    "summary": "테슬라가 FSD(Supervised) v15를 얼리 액세스 이용자부터 배포하기 시작했다. 릴리스 노트는 '안전 결정적 상황 처리 25배 개선'을 내세웠고, 차량 뒤 위쪽 가상 카메라 시점에서 주변을 사실적으로 렌더링하는 'Tesla Reality View'를 추가했다(머스크 \"GTA 같다\", 광범위 배포는 12월).",
+    "why": "주행 시각화를 게임 엔진이 아닌 실시간 AI 영상 생성으로 구현했다는 주장이어서, 차량용 '월드 모델'의 상용 적용 사례로 주목받고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "테슬라 공식 X 게시물을 인용한 기즈모도 + 테슬라라티 릴리스 노트 보도(11/21 미국 시간) 교차 확인."
+    },
+    "image": "https://gizmodo.com/app/uploads/2026/11/tesla-fsd-gta-1200x675.jpg",
+    "links": [
+      {
+        "label": "Gizmodo",
+        "url": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
+        "type": "source"
+      },
+      {
+        "label": "Teslarati 릴리스 노트",
+        "url": "https://www.teslarati.com/tesla-full-self-driving-v15-rollout-begins-full-release-notes-improvements/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-skt-naver-refuse-agent-calls",
     "date": "2026-11-23",
     "category": "한국 IT",
@@ -189,6 +214,71 @@
     ]
   },
   {
+    "id": "2026-11-23-naver-logix-subsidiary",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "네이버, 물류 자회사 '네이버로직스' 설립…초대 대표에 김범준 COO",
+    "summary": "네이버가 물류 전문 자회사 네이버로직스 설립을 마쳤고, 우아한형제들 대표 출신 김범준 COO를 초대 대표로 내정했다. 연내 공식 출범 예정이다.",
+    "why": "최수연 대표가 3분기 콘퍼런스콜에서 밝힌 '2030년까지 약 1조 원 투자' 물류 계획의 실행 단계로, 쇼핑 배송 경쟁력 강화 목적이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(업계 인용) 보도 + 11/12 실적 발표의 자회사 설립 계획과 일치."
+    },
+    "image": "https://img4.yna.co.kr/etc/inner/KR/2026/11/23/AKR20261123117700017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261123117700017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-msit-nais-ai-scientist",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "과기정통부, 'AI 과학자' 미션 로드맵 논의…국가과학AI연구센터 통합 플랫폼 연내 시범 운영",
+    "summary": "배경훈 부총리가 국가과학AI연구센터(NAIS)에서 산학연 간담회를 열고 K-문샷 'AI 과학자' 미션 방향을 논의했다. NAIS는 바이오·핵융합·원자력 분야 출연연과 학습 데이터를 확보하고 연내 과학 AI 통합 플랫폼 시범 서비스를 운영한다.",
+    "why": "인간 책임하에 AI가 연구 전주기를 자율 수행하는 단계까지 고도화하겠다는 정부 로드맵으로, 슈퍼컴퓨터 6호기 등 전용 컴퓨팅 확보도 논의됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 머니투데이 보도(과기정통부 발표) 교차 확인."
+    },
+    "image": "https://img1.yna.co.kr/photo/yna/YH/2026/11/23/PYH2026112316700001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261123087300017",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/23/2026112309442760491",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-mit-slic-analog-chip-small-lm",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "MIT 'SLIC': 노트북에서 도는 소형 LM으로 아날로그 회로 설계…GPT-6-Astra에 근접",
+    "summary": "MIT 연구진이 수십억 파라미터 소형 언어모델에 다중 턴 검증 가능 보상 강화학습을 적용해 아날로그 집적회로를 설계하게 하는 SLIC를 발표했다. 최신 GPT 모델(GPT-6-Astra)에 근접한 성능을 훨씬 적은 연산으로 냈다고 밝혔다.",
+    "why": "로컬에서 학습·구동해 기업의 회로·파운드리 데이터를 클라우드에 노출하지 않고 쓸 수 있다는 점이 핵심이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "MIT News 공식 발표(11/23)."
+    },
+    "image": "https://news.mit.edu/sites/default/files/images/202611/MIT-AnalogOptimize-01-Press.jpg",
+    "links": [
+      {
+        "label": "MIT News",
+        "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-mcst-ai-training-contract",
     "date": "2026-11-23",
     "category": "한국 IT",
@@ -248,6 +338,26 @@
     ]
   },
   {
+    "id": "2026-11-23-kospi-close-4708",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "업데이트: 코스피 3.31% 내린 4,708.54 마감…고점 대비 48% 하락, 코스닥 2년 만의 최저",
+    "summary": "코스피는 장중 5.8% 하락한 4,586.80까지 밀린 뒤 4,708.54로 마감해 6월 22일 종가 최고점(9,114.55) 대비 48.34% 하락했다. 올해 32번째 매도 사이드카가 발동됐고, 코스닥은 635.45로 약 2년 만의 종가 최저치다.",
+    "why": "삼성전자(-3.06%)·SK하이닉스(-2.52%)가 하락을 주도했으며, 연합뉴스는 글로벌 'AI 불신' 확산에 따른 기술주 투매를 원인으로 꼽았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(한국거래소 집계) 종가 기사."
+    },
+    "image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/23/PYH2026112315240001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261123064951008",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-kospi-4700-stabilization-fund",
     "date": "2026-11-23",
     "category": "한국 IT",
@@ -278,6 +388,60 @@
     ]
   },
   {
+    "id": "2026-11-23-koboldcpp-1-125-1",
+    "date": "2026-11-23",
+    "category": "로컬 AI",
+    "title": "KoboldCpp 1.125.1: Inkling 2 Mini·llama.cpp TTS 모델·Qwen3ASR 전사·BeaverNet 워커 지원",
+    "summary": "KoboldCpp 1.125.1이 Inkling 2 Mini·Xing 4.0 29BA4B 등 신규 모델, 업스트림 llama.cpp TTS 모델(Kokoro 등), Qwen3ASR·SenseVoice 전사와 단어 단위 타임스탬프 정렬기, 자원봉사형 LLM 공유망 BeaverNet 워커 호스팅을 추가했다.",
+    "why": "Inkling 2 Mini는 Unsloth 양자화가 아직 제대로 동작하지 않아 ggml-org 양자화를 쓰라고 안내했고, --password 설정 시 모든 생성 엔드포인트에 API 키를 요구하는 호환성 변경이 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트(11/22 16:54 KST)."
+    },
+    "links": [
+      {
+        "label": "GitHub 릴리스 노트 (LostRuins/koboldcpp v1.125.1)",
+        "url": "https://github.com/LostRuins/koboldcpp/releases/tag/v1.125.1",
+        "type": "source"
+      },
+      {
+        "label": "LostRuins/koboldcpp",
+        "url": "https://github.com/LostRuins/koboldcpp",
+        "type": "github"
+      },
+      {
+        "label": "ggml-org/Inkling-2-Mini-GGUF",
+        "url": "https://huggingface.co/ggml-org/Inkling-2-Mini-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-knu-knuai-solar-pro-4",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "경북대, 전 구성원에 업스테이지 '솔라 프로 4' 무제한 제공 '크누아이' 개통",
+    "summary": "경북대가 국내 대학 최초로 학생·교원·직원 전원에게 국산 LLM 업스테이지 '솔라 프로 4'를 무제한 제공하는 멀티 LLM 서비스 '크누아이(KNUAI)'를 개통했다. ChatGPT·Gemini·Claude는 대학 제공 한도 내에서 쓸 수 있다.",
+    "why": "독자 AI 파운데이션 모델 정예팀인 업스테이지 모델의 대규모 실사용 사례로, 학사 챗봇·RAG 서비스로 단계 확장할 계획이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 + 연합뉴스(경북대 발표) 보도 확인."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/23/news-p.v1.20261123.8cecffee017d446193486cc30c9a2c31_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261123000466",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261123099800053",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-kakaopay-toss-id-verification",
     "date": "2026-11-23",
     "category": "한국 IT",
@@ -302,6 +466,26 @@
       {
         "label": "디지털타임스",
         "url": "https://www.dt.co.kr/article/12096493",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-kakao-tpg-icc-arbitration",
+    "date": "2026-11-23",
+    "category": "한국 IT",
+    "title": "카카오, TPG와 1조5천억 원대 ICC 국제중재…카카오모빌리티 美 ADR 상장 갈등",
+    "summary": "카카오모빌리티 2대 주주 TPG 측이 카카오가 주주간 계약상 미국 ADR 상장 추진 의무를 위반했다며 ICC에 중재를 신청했고, 청구 가치를 11억 달러(약 1조5천억 원) 이상으로 추산했다고 카카오가 23일 공시했다. 카카오 자기자본의 9.85% 규모다.",
+    "why": "카카오 이사회는 9월 22일 ADR 구조에 반대 결의했으며, 카카오는 청구와 금액을 모두 부인하고 적극 대응하겠다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "카카오 공시 내용을 전한 연합뉴스 보도 확인."
+    },
+    "image": "https://img6.yna.co.kr/photo/cms/2023/03/12/11/PCM20230312000011990_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261123100000017",
         "type": "source"
       }
     ]
@@ -393,6 +577,41 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/item?id=50600838",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-china-telecom-xing4-1-preview",
+    "date": "2026-11-23",
+    "category": "로컬 AI",
+    "title": "차이나텔레콤 'Xing4.1-Preview' 오픈 웨이트…285B/17B 활성 MoE, 1M 컨텍스트, Apache 2.0",
+    "summary": "차이나텔레콤 AI(TeleAI)가 TeleChat 계열 최신작 Xing4.1-Preview를 Apache 2.0으로 Hugging Face·ModelScope에 공개했다. 총 285B·토큰당 약 17B 활성 MoE에 MLA+DSA(딥시크 V3.2 계열) 어텐션, 최대 1M 컨텍스트이며 전 과정을 중국 국산 연산 스택에서 학습했다고 밝혔다.",
+    "why": "국산 칩 학습 프런티어급 오픈 모델이지만 BF16 가중치만 약 521GiB이고, 모델 카드상 llama.cpp·KTransformers 지원은 Xing4.0 계열에만 해당한다. 자체 표에서 Terminal-Bench 4.0 20.6으로 GLM-5.3-Flash(35.4)보다 낮다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(license: apache-2.0) + arXiv 기술 보고서 2611.22115 확인."
+    },
+    "specs": {
+      "params": "285B 총 / ~17B 활성 (전문가 256개 중 8개)",
+      "license": "Apache 2.0",
+      "memory": "BF16 약 521.4GiB (FP8·NVFP4 별도 저장소)",
+      "context": "1M"
+    },
+    "links": [
+      {
+        "label": "XingChen-AGI/Xing4.1-Preview",
+        "url": "https://huggingface.co/XingChen-AGI/Xing4.1-Preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "ModelScope",
+        "url": "https://modelscope.cn/models/XingChen-AGI/Xing4.1-Preview",
+        "type": "source"
+      },
+      {
+        "label": "arXiv 2611.22115",
+        "url": "https://arxiv.org/abs/2611.22115",
         "type": "source"
       }
     ]
@@ -567,6 +786,30 @@
       {
         "label": "HN 토론 (504점·348댓글)",
         "url": "https://news.ycombinator.com/item?id=50601525",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-alice-huang-mss-contacts-nyt",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] NYT \"앨리스 황, 2025년 봄~올가을 中 국가안전부 요원과 접촉\"…동업자 캉웨이도 국안부와 협력",
+    "summary": "뉴욕타임스가 미 정보 보고서를 아는 복수 소식통을 인용해, 엔비디아 스캔들의 중심인 앨리스 황이 2025년 봄부터 올가을까지 중국 국가안전부(MSS) 요원과 연락했고 동업자 캉웨이도 같은 기관과 일했다는 증거를 미 정보당국이 수집했다고 보도했다.",
+    "why": "접촉 시기가 젠슨 황과의 관계 및 메가스피드의 엔비디아 칩 대량 확보 시기와 겹친다는 점에서, 미 당국이 젠슨 황을 정보 공작 대상으로 본 근거가 구체화됐다. 트럼프 대통령 등은 스파이 의혹을 축소해 왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NYT 단독 보도(소식통 인용) — NYT 중문판 및 비즈니스타임스 전재본 확인. 당사자·정부 공식 확인은 아님."
+    },
+    "links": [
+      {
+        "label": "NYT 중문판(이중언어)",
+        "url": "https://cn.nytimes.com/technology/20261123/alice-huang-china-spy-agency-nvidia/zh-hant/dual/",
+        "type": "source"
+      },
+      {
+        "label": "The Business Times(NYT 전재)",
+        "url": "https://www.businesstimes.com.sg/international/global/us-tracked-alice-huangs-contacts-china-spy-agency-during-nvidia-affair",
         "type": "source"
       }
     ]
