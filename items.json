@@ -114,6 +114,30 @@
     ]
   },
   {
+    "id": "2026-11-23-delta-weight-balance-outage",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "델타항공 중량·균형 자동화 시스템 장애…애틀랜타 등 1,000편 넘게 지연",
+    "summary": "미국 추수감사절 여행 성수기인 22일(현지) 델타항공의 항공기 중량 계산 자동화 시스템이 오작동해 1,000편 넘게 지연됐다(AP). 델타는 오후에 시스템을 복구했다고 밝혔다.",
+    "why": "항공 운항이 핵심 IT 시스템 하나에 크게 의존한다는 점을 다시 보여 준 대규모 장애다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "AP + ABC·The Verge·FOX 5 애틀랜타 보도"
+    },
+    "links": [
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/delta-atlanta-flight-delays-d4bdb732da930205ec3453d35c28daa2",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-databricks-225b-talks",
     "date": "2026-11-23",
     "category": "AI·IT",
@@ -502,6 +526,31 @@
     ]
   },
   {
+    "id": "2026-11-22-glinet-cloud-flaw-malware",
+    "date": "2026-11-22",
+    "category": "AI·IT",
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/11/22/routers-kvms.jpg",
+    "title": "GL.iNet 클라우드 원격관리 취약점 악용…라우터·KVM에 악성코드 설치",
+    "summary": "GL.iNet이 클라우드 원격관리 서비스 취약점을 통해 일부 라우터·KVM 기기에 악성코드가 설치됐다고 공지했다. 공격 경로는 차단됐지만 이미 감염된 기기는 그대로라, 'crond -i /tmp/.log' 프로세스를 확인하고 보안 펌웨어(11/22 예정)를 설치하라고 권고했다. 피해 규모는 공개되지 않았다.",
+    "why": "원격 PC 제어용 KVM까지 감염돼 연결된 컴퓨터도 위험할 수 있다(회사 조사 중). 포럼에서는 공식 점검법으로 모든 감염을 찾지 못할 수 있다는 경고도 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GL.iNet 공식 공지 + BleepingComputer·heise 보도"
+    },
+    "links": [
+      {
+        "label": "GL.iNet 공식 공지",
+        "url": "https://www.gl-inet.com/blogs/blog/glinet-security-notice-2026-11-20",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-22-dragos-canary-openrouter-zdr",
     "date": "2026-11-22",
     "category": "AI·IT",
@@ -527,6 +576,35 @@
       {
         "label": "Ars Technica",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-22-choi-kyo-jin-resigns-suneung-ai",
+    "date": "2026-11-22",
+    "category": "한국 IT",
+    "title": "업데이트: 최교진 교육부 장관, 수능 AI 부정행위 대책 '대혼란' 책임지고 사임…李대통령 면직 재가",
+    "summary": "최교진 교육부 장관이 수능 직전 AI·스마트기기 부정행위 방지 지침이 잇달아 바뀌며 혼란을 빚은 데 책임을 지고 22일 사의를 표명했고, 이재명 대통령이 약 1시간 만에 수리해 면직안을 재가했다. 후임 임명 전까지 최은옥 차관이 직무대행을 맡을 전망이다.",
+    "why": "AI 부정행위 대응 실패가 장관 경질로 이어진 첫 사례로, 앞으로 시험·자격 관리의 AI 대응 정책 방향에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(종합2보·청와대 재가 보도) + BBC 코리아 교차 확인"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261122021453530",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스(면직 재가)",
+        "url": "https://www.yna.co.kr/view/AKR20261122024052001",
+        "type": "source"
+      },
+      {
+        "label": "BBC 코리아",
+        "url": "https://www.bbc.com/korean/articles/cx1l0mzyrjmro",
         "type": "source"
       }
     ]
