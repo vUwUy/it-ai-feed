@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-11-23-zai-glm-5-4-coding-plan",
+    "date": "2026-11-23",
+    "category": "AI·IT",
+    "title": "Z.ai GLM-5.4 공개…코딩 플랜 전체 사용자에 제공, 비전 추가·주간 한도 50%↑",
+    "summary": "Z.ai 책임자 Zixuan Li가 11월 23일 X에서 GLM-5.4를 모든 GLM Coding Plan 사용자에게 제공한다고 밝혔다. 새 비전 기능과 더 강해진 전반적 코딩 성능을 내세웠고, 주간 한도 사용자는 GLM-5.3 대비 50% 많은 한도를 받는다. 가격·파라미터 수·벤치마크·가중치는 아직 공개되지 않았다.",
+    "why": "GLM은 대표적인 중국 오픈 웨이트 모델 계열이라, 5.4 가중치가 공개되면 로컬·오픈 모델 판도에 영향을 줄 수 있다. 지금은 코딩 플랜 API로만 쓸 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Z.ai 책임자 Zixuan Li X 공식 게시물 + IT之家·Sulat 보도로 확인. 모델 페이지·사양은 아직 미공개"
+    },
+    "image": "https://news.sulat.com/wp-content/uploads/2026/11/hero-glm-coding-plan-z-lens-gauge-scaled.jpg",
+    "links": [
+      {
+        "label": "Zixuan Li X 게시물",
+        "url": "https://x.com/ZixuanLi_/status/2124719275864670681",
+        "type": "source"
+      },
+      {
+        "label": "IT之家",
+        "url": "https://www.ithome.com/1/030/809.htm",
+        "type": "source"
+      },
+      {
+        "label": "Sulat",
+        "url": "https://news.sulat.com/2026/11/23/glm-coding-plan/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-skt-naver-refuse-agent-calls",
     "date": "2026-11-23",
     "category": "한국 IT",
