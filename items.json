@@ -79,6 +79,91 @@
     ]
   },
   {
+    "id": "2026-11-24-sierra-series-f-30b",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "브렛 테일러의 Sierra, 17.5억 달러 시리즈F…기업가치 300억 달러, ARR 4억 달러 돌파",
+    "summary": "고객 응대 AI 에이전트 기업 Sierra가 Greenoaks·Lightspeed 주도로 17억5천만 달러를 기업가치 300억 달러에 유치한다고 밝혔다. 회사는 2년 반여 만에 연간반복매출(ARR) 4억 달러를 넘었고 토큰이 아닌 '성과' 기준으로 과금한다고 설명했다.",
+    "why": "5월 158억 달러에서 반년 만에 두 배로 뛰어 기업용 AI 에이전트 시장의 과열·성장세를 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Sierra 공식 블로그 + SiliconANGLE·TechCrunch 보도"
+    },
+    "image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F6d45483341dd07019f9afc51fe10ba8e351d2bf1-2400x1260.png&width=1200&quality=75",
+    "links": [
+      {
+        "label": "Sierra 블로그",
+        "url": "https://sierra.ai/blog/series-f-30b",
+        "type": "source"
+      },
+      {
+        "label": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/11/23/ai-agent-provider-sierra-closes-1-75b-investment-amid-rapid-revenue-growth/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-samsung-2027-executive-promotions",
+    "date": "2026-11-24",
+    "category": "한국 IT",
+    "title": "삼성전자 2027년 임원인사 131명…승진 19% 줄였지만 반도체 70명·HBM4·로봇·AI 인재 중용",
+    "summary": "삼성전자가 부사장 39명, 상무 78명, 펠로우 2명, 마스터 12명 등 131명을 승진시켰다(지난해 161명). 반도체(DS) 부문이 70명으로 53%를 차지했고 HBM4 개발·양산 주역과 파운드리, 휴머노이드 로봇 인재가 발탁됐으며 여성 임원 11명은 역대 최다다.",
+    "why": "HBM·파운드리·로봇에 인사 무게를 실어 AI 메모리 경쟁 대응 방향을 드러냈다. 조직개편·보직인사는 곧 발표된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성전자 뉴스룸(인원 구성은 공식 발표 기준) + 연합뉴스·전자신문"
+    },
+    "image": "https://img.kr.news.samsung.com/kr/wp-content/uploads/2026/11/20074535/DX_932x524-4.jpg",
+    "links": [
+      {
+        "label": "삼성전자 뉴스룸",
+        "url": "https://news.samsung.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-2027%eb%85%84-%ec%a0%95%ea%b8%b0-%ec%9e%84%ec%9b%90-%ec%9d%b8%ec%82%ac",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124044651003",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261124000060",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-oregon-virginia-sue-spacex-grok",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "오리건·버지니아주, Grok 이미지 생성 성적 딥페이크로 스페이스X 제소…첫 주정부 소송",
+    "summary": "두 주 법무장관이 Grok Imagine 'Spicy' 모드 등이 동의 없는 성적 이미지와 아동 성착취물 생성을 가능케 했는데도 안전하다고 허위 홍보했다며 스페이스X(X·xAI 모회사)를 각각 주 법원에 제소했다. 금지명령·민사 제재금·부당이득 환수를 청구했고 스페이스X는 위반 시도 계정 조치·수사기관 통보를 한다고 반박했다.",
+    "why": "생성형 AI 이미지 도구의 안전성 '마케팅'을 소비자보호법으로 겨냥한 첫 주정부 소송이라 다른 주로 번질 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "버지니아 법무장관실 보도자료 + CNBC·The Verge 보도"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108282790-1774443628624-gettyimages-2265843824-raa-grokaieu260313_np8wx.jpeg?v=1774443657&w=1920&h=1080",
+    "links": [
+      {
+        "label": "버지니아 법무장관실",
+        "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-openai-cisco-shirudo",
     "date": "2026-11-24",
     "category": "AI·IT",
@@ -129,6 +214,84 @@
     ]
   },
   {
+    "id": "2026-11-24-national-exam-ai-cheating-measures",
+    "date": "2026-11-24",
+    "category": "한국 IT",
+    "title": "업데이트: 국가자격시험 'AI 커닝' 대책…꺼진 기기 탐지기·감독관 보디캠, 처벌 징역 5년·응시제한 10년",
+    "summary": "고용노동부·한국산업인력공단이 24일 국무회의에 국가자격시험 전 과정 대응 강화안을 보고했다. 블루투스 감지 앱·부직포 가리개를 즉시 적용하고 전파·비선형접합탐지기와 보디캠을 도입하며, 기술자격 부정행위 응시제한은 3년→10년, 형사처벌은 징역 2년 이하→5년 이하로 상향을 추진한다.",
+    "why": "세무사 시험 AI 부정행위 이후 수능에 이어 국가자격시험 전반으로 대책이 확대되고, 필기 위주 시험을 실기·면접형으로 바꾸는 개편도 예고됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 중앙일보·머니투데이 보도(국무회의 보고 내용)"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124044300530",
+        "type": "source"
+      },
+      {
+        "label": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25481415",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-llama-cpp-b12669-target-size-quant",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12669, 목표 파일 크기·bpw 지정 자동 혼합 양자화 추가",
+    "summary": "llama-quantize에 --target-size(예: 1.5g)나 --target-bpw를 주면 텐서별 오차를 추정해 정해진 크기에서 오차가 가장 작은 양자화 타입 조합을 자동으로 고르는 기능이 들어갔다. PR 작성자는 34개 모델·238개 테스트에서 표준 양자화와 같거나 더 나은 품질(KLD 기준)이 93%였다고 밝혔다.",
+    "why": "24GB VRAM 같은 메모리 한도에 딱 맞는 GGUF를 만들 수 있어 로컬 구동 품질을 끌어올릴 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b12669(11/24 11:38 KST) + PR #15550 본문(수치는 작성자 측정)"
+    },
+    "image": "https://opengraph.githubassets.com/1/ggml-org/llama.cpp/pull/15550",
+    "links": [
+      {
+        "label": "GitHub 릴리스 b12669",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669",
+        "type": "source"
+      },
+      {
+        "label": "PR #15550",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/15550",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-inclusionai-ling-3-2-air",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "앤트그룹 inclusionAI 'Ling-3.2-air' 가중치 공개…124B/5.5B 멀티모달 MoE, MIT",
+    "summary": "Ling-3.0-flash-VL과 같은 네이티브 멀티모달 구조의 하이브리드 선형 MoE로, AutomationBench-AA 15.7%→61%, Terminal-Bench 4.0 0%→27% 등 전작 대비 향상을 모델 카드에 밝혔다. 별도 발표 없이 HF·ModelScope에 올라왔고 SGLang 지원 이미지를 제공한다.",
+    "why": "활성 5.5B라 대형 메모리 워크스테이션급에서 노려볼 만한 MIT 라이선스 멀티모달 모델이다(권장 레시피는 141GB급 GPU 4장).",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드 + Artificial Analysis 모델 페이지·SGLang 쿡북 등재. 벤치마크는 자체 수치"
+    },
+    "specs": {
+      "params": "124B 총 / 5.5B 활성(MoE)",
+      "license": "MIT",
+      "modality": "텍스트·이미지·영상 입력"
+    },
+    "links": [
+      {
+        "label": "inclusionAI/Ling-3.2-air",
+        "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+        "type": "huggingface"
+      },
+      {
+        "label": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai/models/ling-3-2-air",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-illuin-ive-4b-ivonnet",
     "date": "2026-11-24",
     "category": "로컬 AI",
@@ -155,6 +318,36 @@
         "label": "illuin/IVE-4B",
         "url": "https://huggingface.co/illuin/IVE-4B",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-huang-senate-testimony-trump-deal",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "업데이트: 젠슨 황, 12월 3일 상원 은행위 첫 공개 증언…트럼프 \"복귀는 내가 성사\"·메가스피드 블랙리스트",
+    "summary": "팀 스콧 상원 은행위원장이 '수출통제 감독' 청문회를 12월 3일 오전 10시(미 동부, 한국시간 4일 0시)로 잡았고 황이 유일한 증인이다. 트럼프 대통령은 CNBC에 \"내가 거래를 성사시켰다\"며 이사회에 황이 국가안보 위협이 아니라는 보증을 줬다고 말했고, 상무부는 같은 날 메가스피드를 거래 제한 목록에 올렸다.",
+    "why": "복귀 직후 의회 공개 검증과 백악관 개입 논란이 겹쳐 엔비디아 리스크가 끝나지 않았음을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC(트럼프 인터뷰·메가스피드 등재) + Just The News·Bloomberg Law(청문회 일정)"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108414319-1792072406505-108414319-1792072326279-gettyimages-2297774940-kbd15015_cmzhzqga.jpg?v=1795450515&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
+        "type": "source"
+      },
+      {
+        "label": "Just The News",
+        "url": "https://justthenews.com/government/congress/senate-banking-committee-schedules-jensen-huang-testimony-december-3",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/jensen-huang-will-testify-publicly-before-senators-next-week-1",
+        "type": "source"
       }
     ]
   },
@@ -194,6 +387,61 @@
       {
         "label": "구글 블로그",
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-embo-110m-seed-robot-world-model",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "Dreamer 개발자 다니자르 하프너의 'Embo' 출범…로봇 두뇌 월드모델로 1억1천만 달러 시드",
+    "summary": "구글 딥마인드 Dreamer 시리즈를 이끈 하프너와 VideoGPT의 윌슨 얀이 세운 Embo가 a16z 주도 1억1천만 달러 시드를 유치했다고 밝혔다. 인터넷 영상으로 사전학습한 월드모델 안에서 로봇이 '상상 연습'(강화학습)을 하는 단일 모델을 만들며 코슬라·DST·엔비디아 등이 참여했다.",
+    "why": "VLA 대신 월드모델 기반 로봇 AI에 대형 시드가 몰리는 흐름이다. 공개 제품·고객은 아직 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Embo 공식 발표 + a16z 투자 발표 + Dealroom 보도"
+    },
+    "image": "https://embo.com/images/posts/introducing-embo/banner.jpg",
+    "links": [
+      {
+        "label": "Embo 발표",
+        "url": "https://embo.com/introducing-embo",
+        "type": "source"
+      },
+      {
+        "label": "a16z",
+        "url": "https://a16z.com/announcement/investing-in-embo/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-deepmind-gemini4-agents-quantum-lean",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "딥마인드, Gemini 4 에이전트 팀으로 양자 알고리즘 개선…Lean으로 정확성·비용 증명",
+    "summary": "구글 딥마인드·구글 퀀텀 AI가 Gemini 4 에이전트 팀이 양자 회로를 개선하고 Lean으로 검증했다고 밝혔다. 관성가둠 핵융합 계산 비용 11.8배, 광화학 분자 8배, 시토크롬 P450 2.5배, 그로버 탐색 2.57배, arcsin 루틴 290배 절감을 보고했고 Lean 라이브러리와 해를 오픈소스로 공개한다.",
+    "why": "검증 불가능한 규모의 양자 알고리즘을 형식 증명으로 '심판'해 AI가 연구하는 방식이다. 다만 공식 블로그도 실제 과학 시뮬레이션엔 초기 오류정정 양자컴퓨터보다 더 많은 자원이 필요하다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥마인드 공식 블로그(11/23) + arXiv 2611.09822 + TNW 보도. 독립 분석(sxz.io)은 arcsin 290배 중 약 260배가 고전 시뮬레이션 가능 단계에서 나왔다고 지적"
+    },
+    "image": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w1200-h630-n-nu-rw",
+    "links": [
+      {
+        "label": "딥마인드 블로그",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+        "type": "source"
+      },
+      {
+        "label": "arXiv 논문",
+        "url": "https://arxiv.org/abs/2611.09822v3",
+        "type": "source"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
         "type": "source"
       }
     ]
@@ -239,6 +487,41 @@
       {
         "label": "9to5Google",
         "url": "https://9to5google.com/2026/11/23/antigravity-gemini-4-carbon/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-anthropic-claude-vp-vnp-proof",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "앤트로픽, 'VP ≠ VNP' 증명 공개…내부 연구용 Claude가 발견, Lean 형식화 포함",
+    "summary": "앤트로픽이 formal-math 저장소에 Valiant의 1979년 추측인 'VP ≠ VNP(모든 체에서)' 증명 논문과 Lean 4 형식화를 올렸다. 영구식(permanent)·해밀턴 순환 다항식 회로에 m^(c(log m)^(1/3))개 초과 게이트가 필요하다는 주장으로, README는 논문과 Lean 코드 모두 AI가 작성했고 '어떤 인간 수학자도 증명을 검토하지 않았다', 'P vs NP를 해결하지는 않는다'고 밝혔다.",
+    "why": "대수적 계산복잡도의 47년 난제를 AI가 풀었다는 주장으로, 리만 가설 건에 이어 AI 수학의 파급이 크다. 다만 Lean 진술이 의도한 주장과 일치하는지는 기계가 검증하지 않으며 인간 검토 전이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소 README·커밋(11/24 06:43 KST 병합) 1차 확인 + Hexagon 논문 페이지·Interesting Engineering 보도. 증명의 정확성 자체는 인간 미검증(주장 단계)"
+    },
+    "image": "https://opengraph.githubassets.com/1/anthropics/formal-math",
+    "links": [
+      {
+        "label": "anthropics/formal-math (vp-vnp)",
+        "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+        "type": "github"
+      },
+      {
+        "label": "Hexagon 논문 페이지",
+        "url": "https://hexagonmath.org/2611.00954v1",
+        "type": "source"
+      },
+      {
+        "label": "Interesting Engineering",
+        "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론(260점대·200+ 댓글)",
+        "url": "https://news.ycombinator.com/item?id=50620102",
         "type": "source"
       }
     ]
@@ -295,6 +578,38 @@
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-aleph-alpha-kolibri-1-1",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "Aleph Alpha 'Kolibri 1.1' 오픈 웨이트…75B/3.44B MoE, 희소 어텐션, Apache 2.0",
+    "summary": "독일 Aleph Alpha가 영·독 이중언어 MoE 추론 모델 Kolibri 1.1을 공개했다. 1.0 대비 작업당 GPU 시간 3.4배 감소, 출력 토큰 41% 감소, 100만 토큰 문맥에서 디코딩 최대 14배 빠르다고 밝혔고, 공식 양자화 빌드와 vLLM·transformers를 지원한다.",
+    "why": "유럽 '소버린' 오픈 모델이 활성 3B급 효율로 로컬·온프레미스 배포를 노린다. 원본 가중치는 ~77.6GB라 양자화 빌드가 관건이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공식 블로그 + HF 모델 카드(11/23 릴리스 커밋)"
+    },
+    "image": "https://aleph-alpha.com/_astro/00-cover.Cqyhjitl_Z1tJrF.jpeg",
+    "specs": {
+      "params": "75B 총 / 3.44B 활성(MoE)",
+      "license": "Apache 2.0",
+      "context": "262K 기본, 최대 1M",
+      "memory": "~77.6GB(원본)",
+      "modality": "텍스트(영·독)"
+    },
+    "links": [
+      {
+        "label": "공식 블로그",
+        "url": "https://aleph-alpha.com/en/blog/kolibri-1-1/",
+        "type": "source"
+      },
+      {
+        "label": "Aleph-Alpha/Kolibri-1.1",
+        "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+        "type": "huggingface"
       }
     ]
   },
