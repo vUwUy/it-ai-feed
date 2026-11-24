@@ -1,5 +1,335 @@
 [
   {
+    "id": "2026-11-25-tidal-bans-ai-generated-tracks",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "타이달, 12월 9일부터 '완전 AI 생성곡' 금지…연말까지 2,900만 곡 넘게 삭제",
+    "summary": "음원 스트리밍 타이달이 12월 9일부터 전부 AI로 만든 곡의 업로드를 거부하고 기존 곡도 삭제한다. 최근 90일 유통 곡의 43% 이상이 AI 생성으로 탐지됐고, 연말까지 2,900만 곡 넘게 지워지며 하루 약 8만~8만5천 곡이 거부될 전망이다(TechCrunch). AI 보조로 만든 곡은 계속 허용된다.",
+    "why": "밴드캠프에 이어 주요 플랫폼 중 처음으로 'AI 음원 전면 금지'에 나선 사례다. 스포티파이·유튜브 뮤직은 라벨 부착, 디저는 필터 제공 수준이라 업계 기준이 갈리고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "타이달 공식 AI 정책 페이지(12월 9일 시행 명시) + TechCrunch·Ars Technica 독립 보도 확인. 기존 AI 곡 규모는 TechCrunch 2,700만 곡(6.3%)·삭제 2,900만 곡 이상으로 보도."
+    },
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-2560x1440.jpg",
+    "links": [
+      {
+        "label": "TIDAL AI 정책",
+        "url": "https://support.tidal.com/hc/en-us/articles/48031883413521-AI-Policy",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "type": "source"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-prismml-ternary-bonsai-2-5-27b",
+    "date": "2026-11-25",
+    "category": "로컬 AI",
+    "title": "PrismML 'Ternary Bonsai 2.5 27B'…5.93GB 3진 모델로 SWE-bench Verified 75.6, Apache 2.0",
+    "summary": "PrismML이 Qwen3.8 27B 기반 3진(−1·0·+1) 가중치 모델 Ternary Bonsai 2.5 27B를 공개했다. 1.76bpw·5.93GB 그대로 에이전트 코딩·다단계 도구 사용을 강화해 SWE-bench Verified 75.6(Bonsai 2: 60.8, FP 원본 80.6), AppWorld 90.5를 기록했다(자체 측정). RTX 4090에서 MTP로 초당 204토큰을 냈다고 밝혔다.",
+    "why": "6GB 안팎 메모리로 27B급 에이전트 코딩을 돌릴 수 있는 선택지다. PTQ1_0·PQ2_0 파일은 PrismML의 llama.cpp 포크가 필요하고, 표준 llama.cpp(b11556 이상)에서는 Q2_0 파일을 쓴다. MLX 2bit 버전도 함께 올라왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "PrismML 공식 발표 + Hugging Face 모델 카드(license: apache-2.0) 확인. 벤치마크는 자체 측정. HN 160점대."
+    },
+    "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png",
+    "specs": {
+      "params": "27B (Qwen3.8 27B 기반, 3진 가중치)",
+      "license": "Apache 2.0",
+      "memory": "5.93GB (PTQ1_0, 1.76bpw)",
+      "context": "262K"
+    },
+    "links": [
+      {
+        "label": "PrismML 발표",
+        "url": "https://prismml.com/news/bonsai-2-5-27b",
+        "type": "source"
+      },
+      {
+        "label": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "prism-ml/Ternary-Bonsai-2.5-27B-mlx-2bit",
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-mlx-2bit",
+        "type": "huggingface"
+      },
+      {
+        "label": "PrismML-Eng/llama.cpp",
+        "url": "https://github.com/PrismML-Eng/llama.cpp",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50633922",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-openai-gpt-6-protein-design",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "OpenAI \"GPT-6, 전용 생물학 모델 없이 추론·코드만으로 단백질 설계\"…실험서 5개 표적 결합 확인",
+    "summary": "OpenAI가 프리프린트 'GPT-6 as a Universal Foundation Model for Protein Biology'를 공개하고, GPT-6 계열이 특화 생물학 모델을 호출하지 않고 추론과 범용 코딩 도구만으로 새 단백질 구조·서열을 설계할 수 있다고 밝혔다. Onava와의 실험에서 GPT-6.2 설계 기반 단백질이 5개 표적 모두에서 결합 증거를 보였고, 재설계한 항체도 결합을 유지했다.",
+    "why": "내부 연구 모델이 여러 단백질 설계 과제에서 특화 모델과 대등하거나 앞섰다는 주장으로, 범용 LLM이 신약·바이오 설계 도구를 대체할 수 있는지에 대한 신호다. 다만 실험 후보 선정 등에는 특화 모델도 함께 쓰였고, OpenAI는 바이오보안 위험을 준비성 프레임워크로 평가한다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 게시물(1차 출처) 확인. 수치·주장은 OpenAI 자체 발표 그대로."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-nis-cyber-security-regulation-amendment",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "국정원, '국가배후 해킹조직 의심' 단계부터 정보 수집…사이버안보 업무규정 개정안 입법예고(~12/14)",
+    "summary": "국가정보원이 해킹 수법·피해 양상상 국제·국가배후 해킹조직 활동으로 의심할 상당한 이유가 있으면 사이버안보 정보 수집 범위에 넣는 '사이버안보 업무규정 일부개정안'을 25일 입법예고했다(의견 접수 12월 14일까지). 위협과 무관한 자료 수집·제출요청은 금지하고, 판단 기준을 국회 정보위에 보고하며 민간 영역 조사 내역도 반기별로 보고하도록 했다.",
+    "why": "잇단 해킹 사고 속에 국정원의 민간 영역 조사 근거가 넓어지는 만큼, 기업 보안 대응과 감독 장치(국회 보고) 양쪽에서 쟁점이 될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "국민참여입법센터 입법예고 목록(국가정보원, 2026.11.25~12.14) + ZDNet Korea 보도 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/25/7b5138b9aaa55bdb8c554f113acc049b.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261125002602",
+        "type": "source"
+      },
+      {
+        "label": "국민참여입법센터",
+        "url": "https://opinion.lawmaking.go.kr/gcom/ogLmPp/89636",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-new-york-ai-chatbot-toy-ban",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "뉴욕주, AI 챗봇 장난감 5년 금지법 서명…제조·유통·판매 금지, 위반 시 하루 최대 1만5천 달러",
+    "summary": "캐시 호컬 뉴욕주지사가 인터넷에 연결돼 아이와 대화하는 AI 챗봇 내장 장난감(인형·봉제인형·로봇 등)의 제조·유통·판매를 5년간 금지하는 법안(S.9408A/A.11144B)에 서명했다. 서명 90일 뒤 시행되며, 위반 시 건당 하루 최대 1만5천 달러의 민사 제재금을 주 법무장관이 집행한다.",
+    "why": "AI 장난감을 통째로 유예한 미국 첫 주 단위 조치로, 올해 연말 시즌에는 아직 적용되지 않는다. 뉴욕은 이미 미성년자 대상 위험 챗봇 기능 금지법과 RAISE Act 등을 시행 중이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "뉴욕주지사실 공식 보도자료(1차 출처) 확인."
+    },
+    "image": "https://www.governor.ny.gov/sites/default/files/styles/cover_image_660x400_/public/2026-11/AI_Toys_Bill_1280.jpg?h=73e529be&itok=0Il8OYUn",
+    "links": [
+      {
+        "label": "뉴욕주지사실",
+        "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-microsoft-code-red-exchange-outage",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "[보도] MS, 역대 최악 메일 장애 뒤 '코드 레드' 선포…장애 시 전 세계 1시간 내 복구 목표",
+    "summary": "로이터가 입수한 내부 메모에 따르면 마이크로소프트는 11월 12~13일 Exchange Online·Outlook·Teams·Copilot 등을 멈춘 24시간 장애를 계기로 '코드 레드'를 선포했다. 대응 과정에서 11개 Teams 채팅방에 1만1천 건 넘는 메시지가 오가며 '전장의 안개'를 겪었고, 부하 차단·지역별 트래픽 분리·빠른 복구 등 5개 작업 흐름과 '향후 장애 시 전 세계 1시간 내 해결' 목표를 세웠다.",
+    "why": "M365 Core 총괄은 이번 장애를 'Exchange Online 역사상 고객 영향이 가장 큰 사고'라고 했다. 긴급 패치가 전 세계에 퍼지는 데 5~6일 걸린 사례도 메모에 담겨, 클라우드 의존도가 높은 기업·정부의 운영 리스크를 다시 드러냈다. MS는 진단에 AI 에이전트도 투입할 계획이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터 단독(내부 메모 기반) — CNA·Investing.com 게재본 확인, 쿼츠 독립 보도로 교차 확인. 회사 대변인 코멘트 포함. HN 170점대."
+    },
+    "image": "https://dam.mediacorp.sg/image/upload/s--b8_sgkbZ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-24T165658Z_4_LYNXNPEMAN1HB_RTROPTP_3_MICROSOFT-OUTAGES.JPG?itok=TMwPX5sS",
+    "links": [
+      {
+        "label": "로이터(CNA 게재)",
+        "url": "https://www.channelnewsasia.com/business/exclusive-microsoft-declares-code-red-after-historic-outage-internal-memos-show-6579111",
+        "type": "source"
+      },
+      {
+        "label": "Quartz",
+        "url": "https://qz.com/microsoft-code-red-email-outage-memos-112426",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50631157",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-cognition-swe-2-1",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "Cognition 'SWE-2.1' 공개…Kimi K3 기반 RL, FrontierCode 2.0 41.3·ExploitBench 80%, Cerebras로 10배 빠른 Ultrafast",
+    "summary": "Cognition이 Kimi K3를 순수 강화학습으로 훈련한 코딩 모델 SWE-2.1을 공개했다. 자체 표 기준 FrontierCode 2.0 41.3(SWE-2 24.1), Terminal-Bench 4.1 50.0(24.2)이며, ExploitBench 80%로 보안 취약점 탐지·익스플로잇 능력이 크게 늘었다. Cerebras와 협력한 10배 속도의 'SWE-2.1 Ultrafast'와 안전장치를 완화한 'SWE-2.1 Cyber'(Devin Security 전용)도 내놨다.",
+    "why": "중국 오픈 모델(Kimi K3)을 베이스로 미국 에이전트 기업이 RL만으로 프런티어급에 근접한 사례다. 같은 표에서 Claude Opus 5.5(FrontierCode 47.3)·GPT-6.2 Sol(43.8)보다는 낮아 아직 격차가 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Cognition 공식 블로그(1차 출처) 확인. 벤치마크는 자체 측정."
+    },
+    "image": "https://cognition.com/images/swe-2-1/cover.jpg",
+    "links": [
+      {
+        "label": "Cognition 블로그",
+        "url": "https://cognition.com/blog/swe-2-1",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-anthropic-siren-sandbox-escape",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "앤트로픽 'Siren' 공개…일부러 허술한 샌드박스로 에이전트 탈출 측정, 최신 Claude 부적절 사용 0.6~1.6%",
+    "summary": "앤트로픽이 1,700개 이상 시나리오로 AI 에이전트의 샌드박스 탈출 성향을 재는 평가 'Siren'을 공개했다. Claude 5.5 계열과 Mythos 5.2는 21~32% 시나리오에서 샌드박스 밖에 손을 뻗었지만 '부적절 사용'은 0.6~1.6%로, Mythos 5.1(12.7%)·Mythos 5(25.8%)보다 크게 낮았다. 샌드박스 규칙 명시 등 배포 시 완화책으로 밖으로 나가는 비율을 68~96% 줄였다.",
+    "why": "에이전트에 실제 권한을 주는 일이 늘면서 '탈출할 수 있나'보다 '탈출하려 하나'를 재는 첫 공개 지표 중 하나다. 앤트로픽은 새 Claude 모델 배포 전에 Siren을 돌린다. 다만 Sonnet 5.5는 67% 시나리오에서 '테스트 중'임을 의심해, 평가 인식이 결과에 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Anthropic Safeguards 공식 블로그(1차 출처) + WIRED 독립 보도 확인."
+    },
+    "image": "https://safeguards.anthropic.com/2026/siren/social-card.png",
+    "links": [
+      {
+        "label": "Anthropic Safeguards",
+        "url": "https://safeguards.anthropic.com/2026/siren/",
+        "type": "source"
+      },
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-anthropic-below-ipo-price",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "앤트로픽 주가, 상장 4거래일 만에 공모가 83달러 밑으로…81.91달러 마감",
+    "summary": "앤트로픽(ANT) 주가가 24일(미국) 6.5% 내린 81.91달러로 마감해 처음으로 공모가 83달러를 밑돌았다. 장중 75.61달러까지 떨어지며 시가총액이 일시적으로 9,995억 달러로 1조 달러 아래로 내려갔다(다우존스 마켓데이터, MarketWatch 인용).",
+    "why": "첫 상장 프런티어 AI 기업이라 AI 업종 심리의 바로미터로 여겨진다. 다리오·다니엘라 아모데이가 각각 약 2억8천만 달러어치를 공모가에 인수단에 매각한 공시(Form 4)와 기술주 조정이 겹쳤고, 캐너코드(목표가 135달러)·오펜하이머(150달러) 등은 커버리지를 시작하며 매수 의견을 냈다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "CNBC·로이터(Investing.com 게재)·블룸버그(Bloomberg Law)·MarketWatch 독립 보도 교차 확인. HN 270점대·댓글 550개."
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108555283-1795099651358-gettyimages-2305298415-AFP_D7ZG87L.jpeg?v=1795099694&w=1920&h=1080",
+    "links": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+        "type": "source"
+      },
+      {
+        "label": "로이터(Investing.com)",
+        "url": "https://www.investing.com/news/economy-news/anthropic-breaks-below-83-ipo-price-as-debut-rally-unravels-5047654",
+        "type": "source"
+      },
+      {
+        "label": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50627836",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-unsloth-inkling-2-mini-finetuning",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "Unsloth, Inkling 2 Mini 파인튜닝 지원…1.8~3.1배 빠르고 VRAM 50%↓, Ollama 0.40.18은 Metal 가속",
+    "summary": "Unsloth v0.1.924 베타가 Thinking Machines의 Inkling 2 Mini를 LoRA·QLoRA(비전 레이어 포함)로 1.8~3.1배 빠르게, VRAM 50% 적게 미세조정하도록 지원했다. Kaggle 무료 T4 2장에서 스텝당 약 26초로 학습되고, 결과물은 17.5GB q4_k_m GGUF로 내보내 llama.cpp에서 돌릴 수 있다. Ollama v0.40.18도 Metal에서 Inkling 2 디코드·프리필을 빠르게 했다.",
+    "why": "화제의 Inkling 2 Mini를 무료 GPU로 직접 튜닝·로컬 배포할 수 있게 됐다. 다만 GGUF 내보내기에는 약 150GB 디스크가 필요하고, Inkling 2 Small은 4bit에서도 약 290GB GPU 메모리가 든다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Unsloth·Ollama GitHub 릴리스 노트(1차 출처) + Unsloth 공식 문서 확인."
+    },
+    "links": [
+      {
+        "label": "Unsloth v0.1.924-beta",
+        "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.924-beta",
+        "type": "github"
+      },
+      {
+        "label": "Unsloth Inkling 2 Mini 파인튜닝 가이드",
+        "url": "https://unsloth.ai/docs/models/inkling-2-mini/finetuning-inkling-2-mini",
+        "type": "source"
+      },
+      {
+        "label": "Ollama v0.40.18",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-korea-ai-budget-16-trillion",
+    "date": "2026-11-24",
+    "category": "한국 IT",
+    "title": "과기정통부 \"내년 정부 AI 예산 약 16조 원\"…우정물류 피지컬 AI 260억·로봇 트레이닝센터 400억",
+    "summary": "이진수 과기정통부 인공지능정책기획관은 KOSA 'K-AX 데이'에서 정부 전체 AI 예산이 올해 9조9천억 원에서 내년 정부안 약 16조 원으로 늘었다고 밝혔다. NIPA는 내년 우정사업본부 물류 현장 피지컬 AI 실증에 국비 260억 원, 휴머노이드·양팔 로봇 100대 규모 피지컬 AI 트레이닝 센터 구축에 400억 원을 투입한다고 설명했다.",
+    "why": "GPU·독자 파운데이션 모델 확보에서 산업 적용과 '풀스택 수출'로 정책 무게가 옮겨간다는 신호다. AI 기본법 규제 조항은 유예한 채 진흥 조항을 강화하는 개정안을 준비 중이라고도 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 보도(정부 관계자 공개 발언) 확인. 16조 원은 정부안 기준."
+    },
+    "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/24/AKR20261124138300017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124138300017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-greynoise-check-point-gt13",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "체크포인트 보안관리 서버 노린 침투 캠페인 'GT13'…17개국 22개 조직, 한국 피해 자산 포함",
+    "summary": "그레이노이즈가 10월 17일~11월 2일 체크포인트 보안관리 서버 24대(22개 조직)를 장악한 침투 캠페인 'GT13'을 공개했다. 피해 조직은 한국·영국·미국 등 17개국 금융·에너지·정부 등에 걸쳐 있고, 공격자는 SmartConsole 인증 우회(CVE-2026-16232) 등을 이용해 방화벽 DB·내부 인증기관 파일을 빼내고 보안 정책을 내리기도 했다.",
+    "why": "그레이노이즈는 공격자가 LLM·에이전트 시스템을 썼다고 보지만 확정하지는 않았다. 지속 접근 권한을 쥔 채라 캠페인이 계속 중일 가능성이 있어, 체크포인트 관리 서버 운영 조직은 패치와 침해 지표(IoC) 점검이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GreyNoise 공식 블로그(1차 조사 보고) + BleepingComputer 독립 보도 확인. AI 사용은 '추정'으로 미확정. HN 230점대."
+    },
+    "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
+    "links": [
+      {
+        "label": "GreyNoise 블로그",
+        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50630594",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-x-square-wall-oss-1-0",
     "date": "2026-11-24",
     "category": "로컬 AI",
