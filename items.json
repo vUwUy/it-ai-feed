@@ -29,6 +29,41 @@
     ]
   },
   {
+    "id": "2026-11-24-tencent-omnievie-4b",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "텐센트 'OmniEVIE-4B' 공개…텍스트·문서·영상 통합 멀티벡터 검색, CPU 1스레드로 100만 건 54.2ms",
+    "summary": "Qwen3.5-4B 기반 4.54B 검색 모델로, 문서·영상 하나를 최대 128×64차원 int8 벡터(레코드당 9,472바이트 이하)로 압축해 100만 건을 CPU 1스레드에서 54.2ms에 검색한다고 밝혔다. 검색 결과마다 페이지 영역이나 영상 시점을 함께 돌려준다.",
+    "why": "로컬 RAG에서 표·차트·영상까지 한 모델로 색인하면서 인덱스 크기(100만 건당 8.82GiB)를 작게 유지할 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(Apache 2.0) + GitHub 저장소·기술 보고서"
+    },
+    "image": "https://opengraph.githubassets.com/809383ad2dff5bc0c14c66986b1e56a4d79267ab8c9f522ce59ea4d368f5bd2a/Tencent/OmniEVIE",
+    "specs": {
+      "params": "4.54B",
+      "license": "Apache 2.0",
+      "modality": "텍스트·이미지·문서·영상 (임베딩)"
+    },
+    "links": [
+      {
+        "label": "HF 모델 카드",
+        "url": "https://huggingface.co/tencent/OmniEVIE-4B",
+        "type": "source"
+      },
+      {
+        "label": "tencent/OmniEVIE-4B",
+        "url": "https://huggingface.co/tencent/OmniEVIE-4B",
+        "type": "huggingface"
+      },
+      {
+        "label": "Tencent/OmniEVIE",
+        "url": "https://github.com/Tencent/OmniEVIE",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-telcos-naver-block-ai-agent-calls",
     "date": "2026-11-24",
     "category": "한국 IT",
@@ -74,6 +109,36 @@
       {
         "label": "파이낸셜뉴스",
         "url": "https://www.fnnews.com/news/202611240631586617",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-singapore-wong-chip-rerouting-us",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "업데이트: 싱가포르 웡 총리 \"AI 칩 환적·우회 기업 조사…미국과 정보 공유 체계\"·메가스피드 조사 계속",
+    "summary": "로런스 웡 총리는 캔버라 기자회견에서 싱가포르를 거쳐 칩을 환적·우회하는 기업을 살피고 있으며 미국이 자체 단속할 수 있도록 정보 공유 체계를 마련 중이라고 말했다. 메가스피드 조사는 진행 중이고, 앨리스 황은 조사 후 기소 근거가 없어 석방했으며 미국에 요청한 정보를 다 받지는 못했다고 밝혔다.",
+    "why": "미 상무부의 메가스피드 블랙리스트 직후 나온 싱가포르 정부 첫 공개 입장으로, 동남아 칩 우회 경로 단속이 강화될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "싱가포르 총리실 발언록 + 스트레이츠타임스 + 연합뉴스(AFP 인용)"
+    },
+    "image": "https://cassette.sphdigital.com.sg/image/straitstimes/772b46bdc0c00742c3fb81b788137517ea2c7b83e5a8865f3696f55fbf64f47b?t=og",
+    "links": [
+      {
+        "label": "싱가포르 총리실 발언록",
+        "url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-q-a-segment-of-the-joint-press-conference-with-australia-pm-anthony-albanese-in-canberra-australia-nov-2026/",
+        "type": "source"
+      },
+      {
+        "label": "스트레이츠타임스",
+        "url": "https://www.straitstimes.com/singapore/spore-working-with-us-on-chip-export-enforcement-as-megaspeed-probe-continues-pm-wong",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124149500104",
         "type": "source"
       }
     ]
@@ -164,6 +229,36 @@
     ]
   },
   {
+    "id": "2026-11-24-openai-openworks-small-business",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "OpenAI 'OpenWorks' 시범…미국 20개 지역 소상공인 무료 AI 지원, 파트너에 월 최대 8,000달러",
+    "summary": "OpenAI가 지역 AI 전문가(OpenWorks 파트너)가 소상공인과 직접 AI 프로젝트를 진행하도록 월 최대 8,000달러를 지원하는 시범사업을 시카고·뉴욕·LA 등 20개 지역에서 시작했다. 참여 업체는 ChatGPT Business 3개월 무료를 받고, 소프트웨어·VC·PE 소유 기업은 제외된다.",
+    "why": "대기업 위주였던 AI 도입 경쟁이 지역 소상공인 현장 지원으로 확대되는 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 페이지 + 도움말 센터 + Decrypt 보도"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5C733J8RVX7JsCtZqVZnWA/2141154acad14442e507124e8b57fac3/openworks-social.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI OpenWorks",
+        "url": "https://openai.com/openworks/",
+        "type": "source"
+      },
+      {
+        "label": "OpenAI 도움말",
+        "url": "https://help.openai.com/en/articles/20001724-how-to-apply-to-openworks-and-follow-up-on-your-application",
+        "type": "source"
+      },
+      {
+        "label": "Decrypt",
+        "url": "https://decrypt.co/383848/openai-will-pay-8k-preach-ai-gospel-small-businesses",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-openai-cisco-shirudo",
     "date": "2026-11-24",
     "category": "AI·IT",
@@ -238,6 +333,31 @@
     ]
   },
   {
+    "id": "2026-11-24-meta-muse-uk-launch",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "메타 개인 AI 에이전트 'Muse' 영국 출시…M&S·세인스버리·easyJet 등 현지 커넥터",
+    "summary": "메타가 Muse를 영국 18세 이상 이용자에게 iOS·안드로이드·muse.ai·WhatsApp으로 출시했다. 기본 무료에 선택형 구독이 있고, Marks & Spencer·Sainsbury's·Currys·ASOS·easyJet 등 영국 브랜드와 연동하며, 이메일 발송·구매 같은 중요한 작업은 사용자 승인을 받는다고 밝혔다.",
+    "why": "북미·일본에 이어 유럽권 첫 출시로, 소비자용 '행동하는 에이전트' 경쟁이 영국 소매·여행 서비스로 넓어졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메타 공식 뉴스룸 + Sainsbury's 보도자료(가디언 등 보도)"
+    },
+    "image": "https://about.fb.com/wp-content/uploads/2026/11/England_v2a_4x3.png?w=1200",
+    "links": [
+      {
+        "label": "메타 뉴스룸",
+        "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+        "type": "source"
+      },
+      {
+        "label": "Sainsbury's 보도자료",
+        "url": "https://corporate.sainsburys.co.uk/news/press-releases/muse-from-meta-gives-customers-even-more-choice-in-how-they-shop-with-sainsbury-s/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-llama-cpp-b12669-target-size-quant",
     "date": "2026-11-24",
     "category": "로컬 AI",
@@ -259,6 +379,56 @@
         "label": "PR #15550",
         "url": "https://github.com/ggml-org/llama.cpp/pull/15550",
         "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-kospi-rebounds-5000-huang",
+    "date": "2026-11-24",
+    "category": "한국 IT",
+    "title": "업데이트: 젠슨 황 복귀에 코스피 6.32% 급등 5,006.03 마감…3거래일 만에 '5천피' 회복",
+    "summary": "코스피는 297.49포인트(6.32%) 오른 5,006.03, 코스닥은 4.79% 오른 665.88에 마감했다. 삼성전자(18만9,400원)와 SK하이닉스(115만8,000원)가 각각 6.7%대 올랐고, 외국인은 8거래일 만에 순매수로 돌아섰으며 양 시장에 매수 사이드카가 발동됐다.",
+    "why": "전날 4,708.54까지 밀렸던 AI·반도체 불안이 엔비디아 리더십 복원으로 일단 진정됐지만, 증권가는 수출통제·SEC 조사 등 변동성 요인이 남았다고 본다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 뉴스핌 마감시황(한국거래소 기준)"
+    },
+    "image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/24/PYH2026112415440001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124138251008",
+        "type": "source"
+      },
+      {
+        "label": "뉴스핌",
+        "url": "https://newspim.com/news/view/20261124001157",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-kisa-ai-agent-security-rules",
+    "date": "2026-11-24",
+    "category": "한국 IT",
+    "title": "KISA 'AI 에이전트·업무 자동화 도구 보안수칙'…최소 권한·사람 승인·외부 입력 경계·기록·중지",
+    "summary": "한국인터넷진흥원이 AI 에이전트를 쓰는 기업에 4대 원칙을 권고했다. 중요정보 외부 전송·대량 삭제·결제·권한 변경 같은 고위험 작업은 건별 사전 승인, MCP 서버는 내부 접속 기본·외부 개방 시 인증 필수, 외부 메일·문서 속 숨은 지시(프롬프트 인젝션) 의심 시 즉시 중지하도록 했다.",
+    "why": "통신사·네이버의 AI 에이전트 상담 제한에 이어 정부 기관이 기업용 에이전트 보안 기준을 처음 구체적으로 제시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "KISA 보호나라 공지(11/23 등록, PDF 첨부) + 연합뉴스"
+    },
+    "image": "https://img3.yna.co.kr/etc/inner/KR/2026/11/24/AKR20261124142900017_02_i_P4.jpg",
+    "links": [
+      {
+        "label": "KISA 보호나라",
+        "url": "https://www.boho.or.kr/kr/bbs/view.do?bbsId=B0000127&nttId=72323&menuNo=205021",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124142900017",
+        "type": "source"
       }
     ]
   },
@@ -347,6 +517,36 @@
       {
         "label": "Bloomberg Law",
         "url": "https://news.bloomberglaw.com/artificial-intelligence/jensen-huang-will-testify-publicly-before-senators-next-week-1",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-hanwha-changwon-defense-ai-datacenter",
+    "date": "2026-11-24",
+    "category": "한국 IT",
+    "title": "한화에어로, 창원에 180MW 국방 AI 데이터센터…1단계 10조 원, 2028년 7월 첫 가동",
+    "summary": "한화에어로스페이스가 창원사업장 인근 약 1만3천 평 부지에 국방 AI 데이터센터를 짓고 2028년 7월 일부 가동 후 최종 180MW 규모 GPU 센터로 완성할 계획이라고 밝혔다. 1단계 투자금은 10조 원이며, 군이 데이터 소유·통제권을 갖고 방산기업이 수탁 운용하는 방식을 검토 중이다.",
+    "why": "국방부 자체 구축에 6~8년이 걸리는 공백을 민간 주도 데이터센터로 메우겠다는 구상으로, 국방 AI 인프라 경쟁의 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 조선비즈 + 매일경제 보도(회사 설명 기반)"
+    },
+    "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/24/AKR20261124148600003_02_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124148600003",
+        "type": "source"
+      },
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/industry/company/2026/11/24/3266ZKZCRBH2XCCPKA34PHKX6I/",
+        "type": "source"
+      },
+      {
+        "label": "매일경제",
+        "url": "https://www.mk.co.kr/news/business/12217197",
         "type": "source"
       }
     ]
@@ -472,6 +672,43 @@
     ]
   },
   {
+    "id": "2026-11-24-baidu-ernie-5-5-flash-preview-weights",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "바이두 'ERNIE 5.5 Flash Preview' 가중치 공개…280B/14B 활성 MoE, 1M 컨텍스트, Apache 2.0",
+    "summary": "ERNIE 5.5 Flash Base 위에 사후 학습한 첫 모델로, 기본 저장소는 라우팅 전문가를 MXFP4(W4A8 QAT)·나머지를 블록 FP8로 담았고 FP8·BF16 저장소도 따로 냈다. DSpark 드래프트 헤드를 포함하며, 학습이 끝나지 않은 중간 체크포인트라고 밝혔다(벤치마크는 자체 평가).",
+    "why": "11월 11일 API로만 나왔던 모델의 가중치가 풀려, 4비트 QAT 상태 그대로 배포 가능한 대형 오픈 MoE가 추가됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(11/23 18시 KST 생성, apache-2.0) + 바이두 공식 블로그"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/baidu/ERNIE-5.5-Flash-Preview.png",
+    "specs": {
+      "params": "280B (활성 14B)",
+      "license": "Apache 2.0",
+      "context": "1M",
+      "modality": "텍스트",
+      "compute": "전문가 MXFP4 + FP8 (FP8·BF16 별도 저장소)"
+    },
+    "links": [
+      {
+        "label": "바이두 블로그",
+        "url": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+        "type": "source"
+      },
+      {
+        "label": "baidu/ERNIE-5.5-Flash-Preview",
+        "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+        "type": "huggingface"
+      },
+      {
+        "label": "baidu/ERNIE-5.5-Flash-Preview-BF16",
+        "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview-BF16",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-antigravity-gemini-4-carbon-ai-pro",
     "date": "2026-11-24",
     "category": "AI·IT",
@@ -487,6 +724,31 @@
       {
         "label": "9to5Google",
         "url": "https://9to5google.com/2026/11/23/antigravity-gemini-4-carbon/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-anthropic-working-with-ai-58-firms",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "앤트로픽 'Working with AI' 보고서…기업 58곳 66건 인터뷰, AI 해고는 드물고 채용은 줄어",
+    "summary": "앤트로픽이 기업 고객 58곳과 66건 인터뷰한 결과, 대부분 AI 가치는 비용 절감보다 산출 증가에서 나왔고 AI 자동화에 따른 국내 해고 사례는 매우 적었다. 다만 대다수가 AI 때문에 채용을 줄였고 외주(특히 해외) 계약자 사용도 줄였다고 답했다.",
+    "why": "해외 비즈니스 서비스 업종 일자리 충격의 초기 신호일 수 있다고 보고서 스스로 지적했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 연구 페이지 + AI Weekly 보도"
+    },
+    "image": "https://assets.claude.com/cd30ce2e82eb423476801098073b39e025839018.jpg",
+    "links": [
+      {
+        "label": "앤트로픽 연구",
+        "url": "https://www.anthropic.com/research/working-with-ai",
+        "type": "source"
+      },
+      {
+        "label": "AI Weekly",
+        "url": "https://aiweekly.co/alerts/anthropic-study-of-58-firms-finds-few-layoffs-slower-hiring",
         "type": "source"
       }
     ]
