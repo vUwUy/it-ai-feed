@@ -169,6 +169,46 @@
     ]
   },
   {
+    "id": "2026-11-24-sensenova-u1-6-open",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "센스타임 'SenseNova U1.6' 오픈소스 공개…8B 통합 멀티모달, 이미지 자기수정, Apache 2.0",
+    "summary": "이해·생성 통합 8B 모델에 원생 이미지 자기수정(생성→검사→수정)을 처음 넣었다. UltraTextBench에서 U1.6 Lite 점수가 단일 생성 86.04에서 자기수정 시 92.28로 올랐다고 밝혔다. BF16·FP8·INT8·GGUF 가중치와 4/8스텝 LoRA, ComfyUI 지원.",
+    "why": "글자 정확도가 강점인 오픈 이미지 생성·편집 모델을 GGUF·ComfyUI로 로컬에서 바로 돌릴 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "센스타임 공식 발표 + Hugging Face 모델 카드(Apache 2.0) + GitHub 저장소"
+    },
+    "image": "https://oss.sensetime.com/strapi/uploads/u1_6kaiyuan_36497917d9.png",
+    "specs": {
+      "params": "8B (MoT)",
+      "license": "Apache 2.0",
+      "modality": "텍스트·이미지 생성/편집"
+    },
+    "links": [
+      {
+        "label": "센스타임 발표",
+        "url": "https://www.sensetime.com/cn/news/sensenova-u1-6-open-source-20261124-1152",
+        "type": "source"
+      },
+      {
+        "label": "sensenova/SenseNova-U1.6-8B-MoT",
+        "url": "https://huggingface.co/sensenova/SenseNova-U1.6-8B-MoT",
+        "type": "huggingface"
+      },
+      {
+        "label": "GGUF",
+        "url": "https://huggingface.co/sensenova/SenseNova-U1.6-8B-MoT-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "OpenSenseNova/SenseNova-U1",
+        "url": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-samsung-2027-executive-promotions",
     "date": "2026-11-24",
     "category": "한국 IT",
@@ -194,6 +234,36 @@
       {
         "label": "전자신문",
         "url": "https://www.etnews.com/20261124000060",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-pg-breach-nhnkcp-kis-welcome",
+    "date": "2026-11-24",
+    "category": "한국 IT",
+    "title": "NHN KCP·KIS정보통신·웰컴페이먼츠 개인정보 유출…금융위, PG사 긴급 소집",
+    "summary": "웰컴페이먼츠는 가맹점 관리자 페이지로 이용자 1,326명의 이름·휴대전화·이메일·결제내역·빌링키가 유출됐고(카드번호·CVC 등은 미유출), KIS정보통신은 VAN 업무지원 서버 침입으로 최대 862명, NHN KCP는 매출전표 160건(마스킹된 주문자명·현금영수증 식별번호)이 조회됐다. 금융위는 23일 주요 PG사를 소집해 가맹점 접속 계정 추가 인증과 노후 시스템 보안 점검을 주문했다.",
+    "why": "결제망 중간에 있는 PG·VAN사가 잇달아 뚫리면서 결제 인프라 전반의 보안 관리가 도마에 올랐다. 유출 정보가 스미싱·사칭에 악용될 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 단독 + ZDNet Korea(각 사 공지문 인용) + SBS Biz·데일리시큐 보도"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/24/news-p.v1.20261124.7190f4e6f1f047f98e9aef0c21dce8a2_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261124000100",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261124110519",
+        "type": "source"
+      },
+      {
+        "label": "SBS Biz",
+        "url": "https://biz.sbs.co.kr/article/20000348417",
         "type": "source"
       }
     ]
