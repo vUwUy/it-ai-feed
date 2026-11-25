@@ -191,6 +191,36 @@
     ]
   },
   {
+    "id": "2026-11-25-cia-odni-osint-system-breach",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "미 CIA·ODNI 비기밀 OSINT 분석 시스템 해킹…AI 공격 도구 'ARTEX' 사용 추정",
+    "summary": "CIA와 국가정보장실(ODNI)이 공개·상용 정보를 분석하는 비기밀 시스템의 침해를 발견했다고 NYT가 처음 보도했고 AP·Nextgov·CyberScoop이 소식통을 통해 확인했다. 소식통은 기밀 네트워크·기밀 정보는 영향이 없었고 사안은 해결됐다고 했으며, 배후와 정보 유출 여부는 불분명하다. Nextgov는 중국인 보안 엔지니어 'Autumn-27'이 만든 자동 침투 AI 도구 ARTEX가 쓰인 것으로 추정된다고 전했다.",
+    "why": "FBI·NSA 등 미 안보기관 침해가 잇따르는 가운데 정보기관 분석 시스템까지 뚫려, 분석관의 관심 주제·우선순위가 노출될 수 있다는 우려가 나온다. AI 자동 침투 도구가 국가기관 공격에 쓰였다는 보도라는 점도 주목된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "NYT 최초 보도, AP·Nextgov/FCW·CyberScoop이 각자 소식통으로 확인. CIA는 논평 거부. ARTEX 사용·배후는 보도상 추정 단계"
+    },
+    "image": "https://cdn.nextgov.com/media/img/cd/2026/11/24/GettyImages_2306037179/open-graph.jpg",
+    "links": [
+      {
+        "label": "Nextgov/FCW",
+        "url": "https://www.nextgov.com/cybersecurity/2026/11/cia-odni-unclassified-intelligence-system-hacked/417438/",
+        "type": "source"
+      },
+      {
+        "label": "CyberScoop",
+        "url": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+        "type": "source"
+      },
+      {
+        "label": "AP",
+        "url": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-anthropic-siren-sandbox-escape",
     "date": "2026-11-25",
     "category": "AI·IT",
