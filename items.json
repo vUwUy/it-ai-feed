@@ -1,5 +1,302 @@
 [
   {
+    "id": "2026-11-26-openai-private-inference-alpha",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "OpenAI, 기업 프롬프트를 처리 중에도 보호하는 'Private Inference' 알파 시험 시작",
+    "summary": "샘 올트먼이 기밀 컴퓨팅(격리된 칩에서 처리)과 '검증 가능한 엄격한 통제'로 기업 고객의 프롬프트·응답을 모델 처리 중에도 보호하는 Private Inference를 소수 고객과 시험한다고 밝혔다. Private Intelligence 패키지의 두 번째 기능으로, 첫 번째는 9월에 배포를 시작한 Private Safety Processing이다. 같은 날 ChatGPT의 Chat·Work 통합 화면도 일부 Pro 구독자에게 배포되기 시작했다(공유 사용량 한도는 12월 확대).",
+    "why": "민감한 데이터 때문에 프런티어 모델을 쓰지 못하던 기업 업무로 사용처가 넓어질 수 있다. 다만 대규모 배포 일정은 아직 없다. OpenAI는 컴퓨팅을 더 확보해 확대할 계획이라고 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI Private Intelligence 공식 페이지(ZDR·Private Inference 명시) + The Next Web 보도(올트먼 X 게시). Chat·Work 통합 배포는 TechCrunch·The Verge 보도"
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/2D7bnDspZQ8ToVTcHmG1fO/350f6f59472b8e9ff39547b892fbdaa4/PI_OGImage_3844x2162.png?w=1600&h=900&fit=fill",
+    "links": [
+      {
+        "label": "OpenAI Private Intelligence",
+        "url": "https://openai.com/business/private-intelligence/",
+        "type": "source"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/openai-private-inference-testing-customers",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch (Chat·Work 통합 배포)",
+        "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-kakao-namyangju-dc-delay",
+    "date": "2026-11-26",
+    "category": "한국 IT",
+    "title": "카카오 남양주 제2데이터센터 연내 착공 무산…새 시장 '재검토'로 일정도 미정",
+    "summary": "카카오가 약 6,000억 원을 들여 남양주 왕숙 도시첨단산업단지에 짓기로 한 제2 자체 데이터센터 '디지털 허브'의 착공 일정을 정하지 못하고 있다. 7월 취임한 최현덕 남양주시장이 사업 재검토와 추가 지역 기여를 요구하고 있어서다. 토지공급계약과 건축허가가 끝나지 않아 당초 계획한 연내 착공은 어렵다.",
+    "why": "카카오의 제2데이터센터는 제주(2022년 철회)와 서울대 시흥캠퍼스(2023년 무산)에 이어 세 번째 시도다. 송전·인허가 지연 탓에 국내 AI 데이터센터 투자가 멈칫하는 흐름과 맞물려 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문(11/25, 26일자 지면) + 시사저널e(11/17, 착공 내년 연기 전망) 독립 보도"
+    },
+    "image": "https://img.etnews.com/news/article/2025/06/13/news-p.v1.20250613.601db6d9081e42139b1df660c9ed92d4_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261125000342",
+        "type": "source"
+      },
+      {
+        "label": "시사저널e",
+        "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=425096",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-iqm-qai-seoul-54-qubit",
+    "date": "2026-11-26",
+    "category": "한국 IT",
+    "title": "핀란드 IQM, 국내 양자-AI 데이터센터 기업 QAI에 54큐비트 양자컴퓨터 공급…서울에 2027년 말까지 설치",
+    "summary": "IQM 퀀텀 컴퓨터스가 한국의 양자-AI 데이터센터·클라우드 기업 QAI에서 54큐비트 'IQM Radiance' 시스템과 관련 서비스를 일괄 주문받았다고 공시했다. 주문 규모는 800만~1,000만 유로이며, 2027년 말까지 QAI의 서울 데이터센터에 설치하고 매출도 2027년에 인식할 예정이다.",
+    "why": "AI 데이터센터 안에 양자컴퓨터를 함께 두는 국내 첫 상업 사례 중 하나다. IQM은 이 주문을 내부자 정보로 공시했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IQM 공식 보도자료 + 나스닥 유럽 공시(Inside information) 확인"
+    },
+    "image": "https://iqm.tech/wp-content/uploads/2026/11/IQM-PR-Hero-25-Nov-2026-2.jpg",
+    "links": [
+      {
+        "label": "IQM 보도자료",
+        "url": "https://iqm.tech/press-releases/iqm-quantum-computers-partners-with-qai-a-south-korean-quantum-ai-company-to-deploy-a-quantum-computer-in-their-private-ai-data-center-in-korea/",
+        "type": "source"
+      },
+      {
+        "label": "Nasdaq 공시",
+        "url": "https://view.news.eu.nasdaq.com/view?id=bf9ba2155c1b6ed1e001b93e0acc829cd&lang=en&src=listed",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-fcc-spacex-starmind",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "미 FCC, 스페이스X 'Starmind' 승인…궤도 AI 데이터센터 위성 최대 100만 기",
+    "summary": "FCC가 11월 25일 태양광으로 움직이는 궤도 데이터센터 위성망 Starmind에 최대 1,000,000기의 비정지궤도 위성을 쏘아 올릴 권한을 스페이스X에 내줬다. 브렌던 카 위원장은 '미국이 세계를 초지능 시대로 이끌고 있다'고 말했다.",
+    "why": "이번 승인은 상한일 뿐 발사 일정이 아니다. 현재 궤도에 있는 위성은 약 1만7천 기다. 스타링크도 4만2천 기를 승인받았지만 실제 발사는 1만1천여 기다. 우주 AI 컴퓨팅 경쟁(구글 Suncatcher 등)에서 규제 측면의 첫 큰 관문을 넘었다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FCC 명령서(2026-11-25 채택·공개) PDF + The Verge·CNBC 보도"
+    },
+    "image": "https://image.cnbcfm.com/api/v1/image/108368728-1790601399956-Screenshot_2026-09-28_at_91434_AM.png?v=1790601411&w=1920&h=1080",
+    "links": [
+      {
+        "label": "FCC 명령서 (PDF)",
+        "url": "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/bltf4cdf2af47159e12/6b071c5f5506bb38bca5b0ec/FCC_report_and_order_on_SpaceX_Starmind_AI_constellation_11-25-2026.pdf",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+        "type": "source"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-deepmind-mass-spec-skills-antigravity",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "구글 딥마인드 'Mass Spec Skills' 공개…Antigravity로 질량분석 스펙트럼에서 분자 구조 추정",
+    "summary": "딥마인드가 Gemini의 화학 추론에 공개 질량분석 도구와 화학 DB 검색을 결합한 Google Antigravity용 스킬 묶음을 내놨다. 탠덤 질량분석(MS/MS) 스펙트럼을 해석해 근거를 정리해 주며, 가벼운 모델로도 프런티어급 검색 정확도를 낸다고 밝혔다. 과학자 1만 명에게 Antigravity 최상위 사용 등급을 6개월 무료로 제공하며 신청을 받는다.",
+    "why": "기존 스펙트럼 라이브러리 검색으로는 측정 스펙트럼의 평균 약 5%(인체 시료는 10%)만 식별된다. 나머지 '암흑물질'을 해석하는 작업을 자동화하려는 시도다. 거울상 이성질체처럼 MS/MS만으로는 구별할 수 없는 한계도 함께 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google DeepMind 공식 블로그(2026-11-25) 원문 확인"
+    },
+    "image": "https://lh3.googleusercontent.com/CtAfS_JWygw2R9cuDNty3xd0S4WFRzVew1vtNDiPaN1ZOGa88hCwTiCLxtgCtpSFER2t3jFO-moRkPnQYPjXziNgMvKHVc0wkOkzBTdGRoOYL3Ld=w1200-h630-n-nu-rw",
+    "links": [
+      {
+        "label": "DeepMind 블로그",
+        "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-anthropic-messages-api-rust",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "앤트로픽, Claude로 Messages API를 파이썬→러스트 전환…요청당 CPU 약 70%↓·첫 토큰 지연 약 20%↓",
+    "summary": "앤트로픽이 고객과 Claude Code·Cowork가 쓰는 Messages API를 러스트로 옮긴 과정을 공개했다. 핵심 요청 경로의 첫 버전은 Claude가 약 1주 만에 작성했다. 운영 중인 API 자체를 검증기로 삼아 실제 트래픽에서 두 구현의 차이를 찾고, 에이전트가 자동으로 고치게 했다. 서비스 중단 없이 9월에 공개 트래픽을 러스트로 옮겼다.",
+    "why": "2024년 초부터 2026년 가을까지 API 트래픽이 약 1,800배 늘었다. 테스트만으로 검증하기 어려운 라이브 시스템 마이그레이션을 AI 에이전트에게 맡긴 대규모 실사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "앤트로픽 공식 연구 블로그(11/25) 원문 확인. HN 프런트에도 올랐다."
+    },
+    "image": "https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg",
+    "links": [
+      {
+        "label": "Anthropic 블로그",
+        "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-amazon-meta-muse-talks",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "[보도] 아마존·메타, 'Muse' 쇼핑 에이전트 차단 해제 협상…검색 노출·광고가 쟁점",
+    "summary": "포춘 단독 보도에 따르면 아마존과 메타가 9월부터 막혀 있던 메타 AI 에이전트 Muse의 아마존 직접 구매 허용을 놓고 여러 차례 협상했다. Muse가 아마존 광고를 건너뛸 수 있어서 검색 결과를 어떻게 보여 줄지와 광고 처리가 핵심 쟁점이다.",
+    "why": "플랫폼이 외부 AI 쇼핑 에이전트를 막다가 조건을 붙여 받아들이는 첫 사례가 될 수 있다. 에이전트 커머스의 수수료·광고 모델에 영향을 준다. 양사 공식 확인은 없다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "포춘 단독 보도와 The Verge·TechCrunch 후속 보도를 확인했다. 익명 소식통에 근거한 보도이고 회사 공식 발표는 없다."
+    },
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2296209094_cc3633-e1795590650418.jpg?resize=1200,600",
+    "links": [
+      {
+        "label": "Fortune (단독)",
+        "url": "https://www.fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-1password-backend-breach",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "1Password 백엔드 침해…직원 GitHub 계정 탈취로 일부 고객 이름·이메일 유출, 볼트는 안전",
+    "summary": "1Password는 11월 19일 직원의 회사 GitHub 계정이 탈취된 정황을 조사하기 시작했다. 공격자는 이 계정으로 소스코드에 접근하고 백엔드에 악성 코드를 넣어 일부 고객의 이름·이메일, 계정 ID, 초대·복구 이메일 링크 토큰 등을 내려받았다. 비공개 저장소 소스코드도 복사했고 CI/CD 시스템에도 접근했다. 볼트 데이터와 이를 보호하는 키, 계정 비밀번호, Secret Key는 영향이 없다고 밝혔다.",
+    "why": "초대·복구 이메일 코드를 숫자 6자리에서 영숫자 10자리로 늘렸고, 노출됐을 수 있는 내부 자격증명을 모두 교체했다. 사용자가 할 조치는 없지만 '1Password 초대·계정 복구'를 사칭한 피싱을 조심하라고 권고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "1Password 공식 블로그(11/25) + The Verge·TechCrunch 독립 보도"
+    },
+    "image": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp",
+    "links": [
+      {
+        "label": "1Password 공식 공지",
+        "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론 (850점대)",
+        "url": "https://news.ycombinator.com/item?id=50644817",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-krafton-raon-1-mini",
+    "date": "2026-11-25",
+    "category": "로컬 AI",
+    "title": "크래프톤 '라온-1 미니' 정식 공개…처음부터 직접 학습한 30B-A4B MoE, Apache 2.0, GGUF·MLX·NVFP4",
+    "summary": "크래프톤이 설계부터 학습까지 직접 한 LLM 'Raon-1 mini' 정식 버전을 Hugging Face에 Apache 2.0으로 공개했다. 총 28.8B 중 토큰당 4.3B가 활성화되는 MoE(전문가 128개 중 6개+공유 1개)이고, 25개 층 중 18개가 자체 선형 어텐션(Raon Delta Attention)이다. 컨텍스트는 262,144 토큰이며, 추론 강도를 none부터 max까지 6단계로 고를 수 있다.",
+    "why": "MultiChallenge 64.9(프리뷰보다 5.9점↑), BrowseComp Plus 55.9, GDPVal 72.3, AIME 2026 96.7 등을 제시했다(자체 측정). NVFP4로 RTX 5090(32GB) 한 장에서 돌릴 수 있고, GGUF·MLX와 DFlash2 추측 디코딩 드래프트 모델도 함께 나왔다. 한국어에 강한 국산 오픈 웨이트 선택지다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 모델 카드(license: apache-2.0) + 조선비즈·아주경제 보도"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/KRAFTON/Raon-1-mini.png",
+    "specs": {
+      "params": "28.8B 총 / 4.3B 활성 (MoE)",
+      "license": "Apache 2.0",
+      "memory": "NVFP4 기준 RTX 5090(32GB) 1장",
+      "context": "262,144 토큰",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "조선비즈",
+        "url": "https://biz.chosun.com/it-science/ict/2026/11/25/EC4GDYKFD5ANPGKYAXE66SJRPA/",
+        "type": "source"
+      },
+      {
+        "label": "아주경제",
+        "url": "https://www.ajunews.com/view/20261125152343740",
+        "type": "source"
+      },
+      {
+        "label": "KRAFTON/Raon-1-mini",
+        "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
+        "type": "huggingface"
+      },
+      {
+        "label": "Raon-1-mini-gguf",
+        "url": "https://huggingface.co/KRAFTON/Raon-1-mini-gguf",
+        "type": "huggingface"
+      },
+      {
+        "label": "Raon-1-mini-mlx",
+        "url": "https://huggingface.co/KRAFTON/Raon-1-mini-mlx",
+        "type": "huggingface"
+      },
+      {
+        "label": "Raon-1-mini-nvfp4",
+        "url": "https://huggingface.co/KRAFTON/Raon-1-mini-nvfp4",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-google-cogentic-factoring-papers",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "구글 'Cogentic'(Gemini 4) 수학 논문 6편 공개…정수 인수분해 무조건부 L[1/3] 상한 주장",
+    "summary": "구글 리서치·딥마인드의 에이전트 수학 프레임워크 Cogentic이 Gemini 4로 만든 논문 6편을 GitHub에 올렸다. 핵심은 가설 없이 성립하는 영오류 라스베이거스 인수분해 알고리즘(기대 시간 L_N[1/3, 105])이며, 이산로그·내시균형·로그랭크 추측 등도 포함됐다. 구글은 '초기 프롬프트 외 사람 개입 없이' 증명과 Lean 4 형식화를 얻었다고 밝혔고, Lean 코드는 별도로 공개할 예정이다.",
+    "why": "인수분해 복잡도를 '증명된' 형태로 L[1/3]까지 끌어내렸다는 주장이지만 상수 105가 매우 커서 RSA를 실제로 깨는 방법은 아니다(R&D World·MLQ 분석). Lean 형식화가 아직 공개되지 않았고 전문가 검토도 거치지 않았다. HN에서 돈 '인수분해가 P에 속한다' 소문은 근거가 없는 미확인 정보다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "google-research GitHub 커밋(2026-11-25 10:11 UTC)과 논문 README를 직접 확인했고, R&D World·MLQ.ai가 독립 보도했다. 증명이 맞는지는 아직 검증되지 않았다."
+    },
+    "image": "https://mlq.ai/media/news_images/googles-cogentic-agent-posts-six-math-papers-led-by-a-claimed-proven-l13-bou_CaD7Cul.jpg",
+    "links": [
+      {
+        "label": "Cogentic 논문 6편 (GitHub)",
+        "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+        "type": "source"
+      },
+      {
+        "label": "R&D World 보도",
+        "url": "https://www.rdworldonline.com/google-cogentic-ai-integer-factoring-bounds-lean-proofs/",
+        "type": "source"
+      },
+      {
+        "label": "MLQ.ai 보도",
+        "url": "https://mlq.ai/news/googles-cogentic-agent-posts-six-math-papers-led-by-a-claimed-proven-l13-bound-for-factoring-integers/",
+        "type": "source"
+      },
+      {
+        "label": "google-research/cogentic_research_papers",
+        "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers/integer_factorization",
+        "type": "github"
+      },
+      {
+        "label": "Hacker News 토론 (400점대)",
+        "url": "https://news.ycombinator.com/item?id=50642086",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-update-eu-commission-eu-academy-data-leak",
     "date": "2026-11-25",
     "category": "AI·IT",
@@ -4126,6 +4423,38 @@
         "label": "HN: 마술로 GRH 토론",
         "url": "https://news.ycombinator.com/item?id=50579568",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-tml-d24-varloop-research",
+    "date": "2026-11-20",
+    "category": "로컬 AI",
+    "title": "Thinking Machines 'TML-d24-varloop-research' 오픈 웨이트…반복 횟수를 추론 때 고르는 Inkling 2 Mini 연구판",
+    "summary": "Thinking Machines Lab이 Inkling 2 Mini의 루프 층(가운데 12개 층)을 추론 시점에 1~5회 중 원하는 만큼 반복할 수 있는 연구용 멀티모달 모델을 Apache 2.0으로 공개했다. 26.4B 총·3.4B 활성 MoE이며, 반복을 1회 늘릴 때마다 활성 파라미터가 약 1.0B씩 늘어난다(3회 5.4B, 5회 7.4B). 컨텍스트는 최대 1M 토큰이다.",
+    "why": "같은 가중치로 '연산량을 더 쓰면 얼마나 좋아지는지'를 비교할 수 있는 연구 도구다. 약 20GB 체크포인트(NVFP4·MXFP8 원본 정밀도)라 32GB GPU나 32GB 맥 한 대에서 돌아간다. 회사는 3회 외 설정에서 동작이 불안정할 수 있다며 프로덕션 사용은 권하지 않았다. 11월 20일 공개됐으나 그동안 다루지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Thinking Machines 공식 모델 카드 + Hugging Face 모델 페이지(license: apache-2.0) 확인"
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/thinkingmachines/TML-d24-varloop-research.png",
+    "specs": {
+      "params": "26.4B 총 / 3.4B 활성 (+반복 1회당 약 1.0B)",
+      "license": "Apache 2.0",
+      "memory": "32GB 이상 GPU·통합 메모리 (체크포인트 약 20GB)",
+      "context": "최대 1M 토큰",
+      "modality": "텍스트·이미지 입력"
+    },
+    "links": [
+      {
+        "label": "Thinking Machines 모델 카드",
+        "url": "https://thinkingmachines.ai/model-card/tml-d24-varloop-research/",
+        "type": "source"
+      },
+      {
+        "label": "thinkingmachines/TML-d24-varloop-research",
+        "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research",
+        "type": "huggingface"
       }
     ]
   },
