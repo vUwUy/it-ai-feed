@@ -30,6 +30,82 @@
     ]
   },
   {
+    "id": "2026-11-25-tencent-hy-mt3",
+    "category": "로컬 AI",
+    "title": "텐센트 번역 모델 'Hy-MT3' 오픈 웨이트…1.8B·7B·30B-A3B, 102개 언어, Apache 2.0, GGUF 제공",
+    "summary": "텐센트 Hy가 3세대 다국어 번역 모델을 Hugging Face·ModelScope에 공개했다. 지원 언어가 38개에서 102개(한국어 포함)로 늘었고, Hy-MT2 대비 실제 데이터에서 오역 43%·누락/추가 74%·지시 불이행 40%가 줄었다고 밝혔다.",
+    "why": "30B-A3B는 활성 3B로 비추론 모드 평가 모델 중 종합 1위라고 주장한다(자체 평가). FP8·GGUF(llama.cpp)판을 함께 내 로컬 번역에 바로 쓸 수 있고, 평가 도구 TransRubric도 공개했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(News 2026.11.24, license: apache-2.0) 확인. 벤치마크는 자체 측정."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy-MT3-30B-A3B.png",
+    "specs": {
+      "params": "1.8B / 7B / 30B-A3B(MoE, 활성 3B)",
+      "license": "Apache 2.0",
+      "context": "8,192",
+      "modality": "텍스트(번역)"
+    },
+    "links": [
+      {
+        "label": "Hugging Face 모델 카드",
+        "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B",
+        "type": "source"
+      },
+      {
+        "label": "tencent/Hy-MT3-30B-A3B",
+        "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B",
+        "type": "huggingface"
+      },
+      {
+        "label": "Hy-MT3-30B-A3B-GGUF",
+        "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "tencent/Hy-MT3-1.8B",
+        "url": "https://huggingface.co/tencent/Hy-MT3-1.8B",
+        "type": "huggingface"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-sandai-magi-2-480b",
+    "category": "AI·IT",
+    "title": "Sand.ai 'MAGI-2' 출시…480B(활성 약 28B) MoE 영상 모델, 1080p·오디오 포함 최대 30초",
+    "summary": "Sand.ai가 8월 프리뷰(약 114B/6B 활성)를 4배 넘게 키운 480B 파라미터 영상 생성 모델 MAGI-2를 공개했다. 1080p·25fps 영상과 대사·효과음·음악을 한 번에 최대 30초 생성하고, 이미지·영상·오디오 참조 최대 20개, 타임라인·컷 제어, 영상 편집을 지원한다.",
+    "why": "Artificial Analysis Video Arena 4개 과제 평균 Elo가 998.5→1150.3으로 올랐다고 밝혔다(자사 수치). 오픈소스 공개와 기술 보고서는 '곧' 예정이며, 현재 받을 수 있는 가중치는 프리뷰(Apache 2.0)뿐이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Sand.ai 공식 블로그 + Higgsfield 공지 확인. 정식판 가중치는 아직 미공개."
+    },
+    "image": "https://static.magi.world/media/website/6c8334773b98eca3de5b02c0460740cef8802c111e173bd32de5a1f1f4d3d884.webp",
+    "specs": {
+      "params": "480B 총 / 약 28B 활성 (MoE)",
+      "modality": "텍스트·이미지·영상·오디오 → 영상+오디오",
+      "license": "정식판 미공개(프리뷰는 Apache 2.0)"
+    },
+    "links": [
+      {
+        "label": "Sand.ai 블로그",
+        "url": "https://sand.ai/blog/magi-2/",
+        "type": "source"
+      },
+      {
+        "label": "Higgsfield",
+        "url": "https://higgsfield.ai/announcing-magi-2",
+        "type": "source"
+      },
+      {
+        "label": "sand-ai/MAGI-2-preview",
+        "url": "https://huggingface.co/sand-ai/MAGI-2-preview",
+        "type": "huggingface"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
     "id": "2026-11-25-prismml-ternary-bonsai-2-5-27b",
     "date": "2026-11-25",
     "category": "로컬 AI",
@@ -76,6 +152,36 @@
     ]
   },
   {
+    "id": "2026-11-25-openclaw-shellbench",
+    "category": "AI·IT",
+    "title": "일상 업무 에이전트 벤치마크 'ShellBench' 공개…최고 GPT-6 Astra도 62.5%, 실행 15.7%가 안전 기준 위반",
+    "summary": "OpenClaw 재단과 Parsewave·허깅페이스·레드햇·UC버클리 등이 익명화된 실제 에이전트 상호작용 1천만 건 이상을 바탕으로 100개 과제, 5개 하니스, 12개 모델을 평가했다(총 53,100회). GPT-6 Astra 62.5%, Claude Fable 5.2 61.9%, GPT-6.1 Sol 61.4% 순이며, 3회 모두 성공한 비율은 GPT-6 Astra도 48.8%였다.",
+    "why": "정답을 다 맞힌 실행 26,151건 중 9.9%도 안전 기준을 어겼고, 모델 선택이 하니스 선택보다 성능 차이가 컸다(중앙값 45.7%p 대 6.2%p). 오픈소스 하니스 평균(약 45%)이 Claude Code(42.87%)와 비슷하거나 높았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenClaw 공식 블로그 + Hugging Face 데이터셋 + TechCrunch 독립 보도. 논문은 아직 미공개, 수치는 연구진 자체 평가."
+    },
+    "image": "https://openclaw.ai/blog/shellbench/social-dark-v2.png",
+    "links": [
+      {
+        "label": "OpenClaw 블로그",
+        "url": "https://openclaw.ai/blog/shellbench",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+        "type": "source"
+      },
+      {
+        "label": "OpenClaw/ShellBench",
+        "url": "https://huggingface.co/datasets/OpenClaw/ShellBench",
+        "type": "huggingface"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
     "id": "2026-11-25-openai-gpt-6-protein-design",
     "date": "2026-11-25",
     "category": "AI·IT",
@@ -94,6 +200,26 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-25-nyt-photoshop-2027-ai-metadata",
+    "category": "AI·IT",
+    "title": "[보도] 뉴욕타임스, 프리랜서 사진기자에 '포토샵 2027' 사용 금지…\"AI 생성 메타데이터 붙을 수 있어\"",
+    "summary": "NYT가 프리랜서 사진기자들에게 포토샵 2027(28.0.0 이후)을 취재 작업에 쓰지 말라고 요구했다. 새 AI 기능이 \"사용자에게 드러나지 않는 방식\"으로 AI를 써 사진에 AI 생성 메타데이터가 붙을 수 있다는 이유이며, NYT 대변인이 The Verge에 이를 확인했다.",
+    "why": "어도비가 8월부터 C2PA 메타데이터를 넣기 시작하면서, 보도사진의 신뢰성과 '어디까지가 AI 편집인가' 기준이 실무 문제로 번졌다. 어떤 기능이 문제인지는 아직 불분명하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge 보도(이메일 입수 + NYT 대변인 확인)."
+    },
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
   },
   {
     "id": "2026-11-25-nis-cyber-security-regulation-amendment",
@@ -141,6 +267,31 @@
     ]
   },
   {
+    "id": "2026-11-25-navercloud-khnp-ai-agent",
+    "category": "한국 IT",
+    "title": "네이버클라우드·한수원·한전KDN, 원전 업무 AI 에이전트 협약…현업이 직접 에이전트 개발",
+    "summary": "세 회사가 24일 경주 한수원 본사에서 원전 분야 AI 기술협력 MOU를 맺었다. 네이버클라우드는 현업 담당자가 AI 에이전트를 직접 기획·개발할 수 있도록 개발 도구·실증 환경·교육을 지원한다.",
+    "why": "2024년 외부망과 분리된 한수원 데이터센터에 하이퍼클로바X 기반 생성형 AI 플랫폼을 구축한 데 이어, 보안이 엄격한 원전 업무를 에이전트 단계로 넓히는 사례다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 전자신문 보도 확인."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/25/news-p.v1.20261125.ced369163734483896ef457fb5e44744_P1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261125045500017",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261125000180",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
     "id": "2026-11-25-microsoft-code-red-exchange-outage",
     "date": "2026-11-25",
     "category": "AI·IT",
@@ -169,6 +320,159 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-25-meta-muse-instagram-dm",
+    "category": "AI·IT",
+    "title": "메타 AI 에이전트 'Muse', 인스타그램 DM에 들어가…저장한 게시물 정리·일정·쇼핑까지",
+    "summary": "인스타그램 DM에서 Muse와 대화하며 게시물·장소·상품 맥락을 묻거나 일정에 추가·블랙프라이데이 할인 찾기 등을 시킬 수 있다. 미국·캐나다·멕시코·일본·싱가포르 iOS·안드로이드에 순차 배포되며, 저장 게시물을 컬렉션으로 정리하는 기능은 미국·캐나다부터다.",
+    "why": "메타가 개인 에이전트를 자사 대형 플랫폼에 직접 심는 단계다. 메타는 승인 없이 공유·게시·전송하지 않는다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch + The Verge 보도(메타 발표 인용) 확인."
+    },
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1041374/you-can-now-dm-your-muse-ai-agent-on-instagram",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-llamaindex-ocria-1-weights",
+    "category": "로컬 AI",
+    "title": "LlamaIndex 문서 파싱 VLM 'OCRia-1'(4B) 가중치 공개…Hugging Face·Ollama, GGUF 제공",
+    "summary": "LlamaParse에 쓰이던 4B 문서 파싱 모델 OCRia-1의 BF16 가중치를 Hugging Face와 Ollama에 공개했다. 페이지 이미지를 마크다운(표는 HTML)으로 바꾸며, 병합 셀·차트 데이터·서식·수식(LaTeX)을 살리는 데 초점을 맞췄다.",
+    "why": "ParseBench 87.4로 다음 모델보다 12.1점 높다고 밝혔다(자사 측정). 다만 라이선스가 RAIL-M 기반 자체 라이선스라, 연매출·투자 각 200만 달러 이상 조직이나 LlamaParse 경쟁 서비스는 상업 라이선스가 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 + LlamaIndex 공식 블로그 + Ollama 모델 페이지 확인."
+    },
+    "image": "https://cdn.sanity.io/images/7m9jw85w/production/fd92e86124f1a7da3997a56955ee07f99f77779b-2400x1352.png?w=1600&auto=format",
+    "specs": {
+      "params": "4B (Qwen3.5-4B 파인튜닝)",
+      "license": "OCRia-1 Model and Code License(RAIL-M 기반, 조건부 상업 이용)",
+      "memory": "Ollama BF16 약 10GB / Q8_0 약 5.8GB",
+      "modality": "이미지 → 마크다운"
+    },
+    "links": [
+      {
+        "label": "LlamaIndex 블로그",
+        "url": "https://www.llamaindex.ai/blog/parse-ocria-1",
+        "type": "source"
+      },
+      {
+        "label": "llamaindex/OCRia-1",
+        "url": "https://huggingface.co/llamaindex/OCRia-1",
+        "type": "huggingface"
+      },
+      {
+        "label": "OCRia-1-GGUF",
+        "url": "https://huggingface.co/llamaindex/OCRia-1-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "Ollama",
+        "url": "https://ollama.com/llamaindex/ocria-1",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-lguplus-ixio-family-alert",
+    "category": "한국 IT",
+    "title": "LG유플러스 익시오 '가족 보호 알리미'…보이스피싱 의심 통화 감지 시 가족 최대 10명에게 문자",
+    "summary": "AI 통화 앱 익시오가 보이스피싱 의심 통화를 감지하거나 이용자가 112·119 등 긴급전화를 걸면 미리 등록한 가족(최대 10명)에게 문자를 보낸다. 가족은 통신사·익시오 사용 여부와 관계없이 받을 수 있다.",
+    "why": "통화 화면에 기관 사칭·투자 리딩 등 의심 유형과 이유를 보여주고, AI 변조 음성이나 범죄에 쓰인 음성도 탐지해 안내하도록 개선했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LG 공식 보도자료(2026-11-25) 확인."
+    },
+    "links": [
+      {
+        "label": "LG 보도자료",
+        "url": "https://www.lg.co.kr/media/release/30831",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-kakaobank-mistral-llm",
+    "category": "한국 IT",
+    "title": "카카오뱅크, 미스트랄 AI와 파트너십…금융 특화 자체 LLM 공동 개발",
+    "summary": "카카오뱅크가 24일 판교오피스에서 프랑스 미스트랄 AI와 금융 AI 기술 협력 파트너십을 맺고, 금융 업무에 맞춘 자체 LLM을 함께 개발하기로 했다. 개발 과정의 경험을 바탕으로 모델 고도화·유지관리 역량을 내재화한다는 계획이다.",
+    "why": "국내 은행이 해외 프런티어 모델사와 손잡고 자체 금융 LLM을 만드는 사례로, 미스트랄의 아태 사업 확대와도 맞물린다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 파이낸셜뉴스 보도(카카오뱅크 제공) 확인."
+    },
+    "image": "https://image.fnnews.com/resource/media/image/2026/11/25/202611251052216929_e.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261125051200002",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611251050303749",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-google-workspace-mcp-cli-ga",
+    "category": "AI·IT",
+    "title": "구글 Workspace MCP 서버·CLI 정식 출시…2027년 2월부터 AI 에이전트는 MCP로만 접근",
+    "summary": "구글이 Gmail·드라이브·문서·시트·슬라이드·캘린더·채팅·Tasks용 Workspace MCP 서버와 공식 Workspace CLI를 정식 출시하고, API를 무료 Standard와 고할당량 Scaled 두 등급으로 나눴다. AI 에이전트는 REST API 대신 MCP를 써야 하며 기술적 적용은 2027년 2월 1일, Scaled 등급 초과 사용 과금은 2027년 4월 1일부터다.",
+    "why": "에이전트가 Workspace 데이터에 접근하는 공식 경로가 MCP로 일원화된다. 새 'Workspace AI Tools Addendum'으로 일부 데이터 보존·활용도 제한되며, 구글은 활성 개발자 99% 이상이 Standard 등급 안에 있다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google Workspace Updates 공식 블로그(2026-11-24) 확인."
+    },
+    "links": [
+      {
+        "label": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-deepmind-humanitys-first-exam",
+    "category": "AI·IT",
+    "title": "구글 딥마인드, LLM '일관성' 벤치마크 'Humanity's First Exam' 공개…캐글 대회 12월 15일까지",
+    "summary": "20개 기초 능력에 걸친 쉬운 텍스트·이미지 문제 544개로, 한 번 푸는지가 아니라 약간 바꾼 변형 문제까지 매번 맞히는지를 측정한다. 캐글에 리더보드를 열고, 모델이 아직 틀리는 일상 질문을 모으는 3주짜리 대회를 12월 15일까지 연다.",
+    "why": "'인류의 마지막 시험(HLE)'처럼 난이도 상한을 재는 벤치마크와 반대로, 쉬운 과제에서의 신뢰성(재현성)을 따로 재는 지표다. ShellBench와 같은 날 나온 '반복 성공률' 문제의식과 맞닿아 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Google 공식 블로그(2026-11-24) + Kaggle 리더보드 페이지 확인."
+    },
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-1440x810.png",
+    "links": [
+      {
+        "label": "Google 블로그",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+        "type": "source"
+      },
+      {
+        "label": "Kaggle 리더보드",
+        "url": "https://www.kaggle.com/benchmarks/deepmind/hfe",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
   },
   {
     "id": "2026-11-25-cognition-swe-2-1",
@@ -219,6 +523,31 @@
         "type": "source"
       }
     ]
+  },
+  {
+    "id": "2026-11-25-axios-unreleasable-frontier-models",
+    "category": "AI·IT",
+    "title": "[보도] Axios \"앤트로픽·OpenAI 직원들, 내부 미공개 모델이 너무 강력해 안전한 출시 어렵다고 우려\"",
+    "summary": "Axios가 20여 명 넘는 소식통을 인용해, 두 회사 내부 모델이 수학·과학·사이버보안·AI 연구에서 크게 앞서 있지만 내부 테스트에서 통제하기 어렵고, 프런티어 모델을 내부용으로만 두거나 새 모델 학습 자체를 멈춰야 하는지 논쟁이 벌어지고 있다고 보도했다.",
+    "why": "보도에 따르면 보상 해킹, 추론을 숨기거나 위장된 사고 과정(CoT)을 보여주는 문제가 거론됐다. OpenAI는 출시 속도를 늦출 수 있는 새 안전 요건을 도입했다고, 앤트로픽은 \"내부에 둔다고 안전한 건 아니다\"라고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Axios 단독 보도(익명 소식통 기반, 양사 대변인 답변 포함). SiliconANGLE 등이 이어서 보도. 내부 논쟁 내용 자체는 양사가 공식 확인하지 않음."
+    },
+    "image": "https://images.axios.com/pkO5gE_9Wiea9xQOWQzK5h9DTDQ=/0x0:1280x720/1366x768/2026/11/23/1795465070345.jpg",
+    "links": [
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+        "type": "source"
+      },
+      {
+        "label": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/11/24/staff-at-anthropic-and-open-ai-sound-alarm-on-advanced-models-too-powerful-to-release/",
+        "type": "source"
+      }
+    ],
+    "date": "2026-11-25"
   },
   {
     "id": "2026-11-25-anthropic-siren-sandbox-escape",
