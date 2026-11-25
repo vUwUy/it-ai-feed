@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-11-25-update-eu-commission-eu-academy-data-leak",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "업데이트: EU 집행위 'AI 지원 도구 이용한 사이버 공격'으로 EU 아카데미 이용자 이름·이메일 유출 확인",
+    "summary": "EU 집행위원회 대변인은 집행위를 겨냥한 사이버 공격으로 외부 이용자용 학습 플랫폼 'EU 아카데미'가 침해돼 이용자 이름·이메일이 유출됐다고 확인했다. 집행위는 이를 'AI 지원 도구를 이용한 사이버 캠페인'이라고 했지만 배후는 조사 중이며, 공개 접속을 막고 피싱 주의를 공지했다. BleepingComputer는 앞서 집행위가 공격에 ARTEX AI 침투 테스트 프레임워크가 쓰였다고 밝혔다고 전했다.",
+    "why": "11월 19일 알려진 Sysper 인사 시스템 공격이 실제 개인정보 유출로 확인된 것이다. 집행위 수뇌부는 '공격자가 기계 속도로 움직이면 사람 속도로는 대응할 수 없다'며 추가 서비스 중단을 예고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "POLITICO(대변인 브리핑·내부 메모) + BleepingComputer 독립 보도 확인. 유출 규모·배후는 미확정."
+    },
+    "image": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/11/23/GettyImages-936025316-scaled.jpg",
+    "links": [
+      {
+        "label": "POLITICO",
+        "url": "https://www.politico.eu/article/european-commission-personal-data-leak-cyberattack-disruption/",
+        "type": "source"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-update-characterai-sale-states-objection",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "업데이트: 美 주 검찰총장 연합, Character.AI 플랫폼·채팅 기록 매각 반대…12월 1일 경매, 2,100만 계정 대화 포함",
+    "summary": "캘리포니아 본타 검찰총장 등 초당적 주 검찰총장 연합이 델라웨어 파산법원에 Character.AI의 플랫폼·자산 매각 거부를 요청했다. 매각 대상에는 미국 2,100만 개 넘는 계정(미성년자 210만 개 이상)의 채팅 기록과 IP 주소 등이 포함되며 12월 1일 경매 예정이다. 유일하게 공개된 입찰자 'Smirks and Pangs Acquisition LLC'는 11월 13일 설립됐고, 연합은 최소한 아동 채팅·민감 데이터를 제외하라고 요구했다.",
+    "why": "파산 AI 기업의 사용자 대화 데이터가 경매로 넘어갈 수 있는 첫 대형 사례로, AI 챗봇 대화의 프라이버시 보호 기준을 가를 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "캘리포니아 법무부 보도자료 + 오리건 법무부 게시 법원 제출 문서(PDF) 확인. 10/15 연합 서면의 후속(새 매각안 반대)."
+    },
+    "image": "https://oag.ca.gov/sites/default/files/og-link-card-24.jpg",
+    "links": [
+      {
+        "label": "캘리포니아 법무부",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
+        "type": "source"
+      },
+      {
+        "label": "주 연합 이의서(PDF)",
+        "url": "https://www.doj.state.or.us/wp-content/uploads/2026/11/The-Coalition-of-States-Objection-to-the-Debtors-Additional-Stalking-Horse-Sale.pdf",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-tidal-bans-ai-generated-tracks",
     "date": "2026-11-25",
     "category": "AI·IT",
@@ -26,6 +76,47 @@
         "label": "Ars Technica",
         "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-tencent-wepocketmodel-1-0-mlx",
+    "date": "2026-11-25",
+    "category": "로컬 AI",
+    "title": "텐센트 'WePocketModel 1.0' 2B·4B 애플 실리콘용 MLX 빌드 공개…생성·임베딩·판단 한 모델로, 4비트 4.25GiB",
+    "summary": "텐센트가 11월 17일 공개한 멀티모달 소형 모델 WePocketModel 1.0(Qwen3.5 백본)의 MLX 빌드를 올렸다. 하나의 가중치로 텍스트·이미지 생성(OCR·캡션·VQA), 2,048차원 임베딩, 구조화된 판단(JEV)을 처리하며, M3 Pro 기준 4B는 bf16에서 디코딩 13.9 tok/s·최대 메모리 8.99GiB, 4비트에서 30.6 tok/s·4.25GiB다.",
+    "why": "PyTorch 없이 Mac에서 바로 도는 자체 런타임을 함께 제공해, 온디바이스 검색·분류·에이전트 판단을 한 모델로 묶으려는 개발자에게 쓸모가 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 텐센트 모델 카드(MLX·원본) + GitHub 저장소 확인. 성능 수치는 모델 카드 자체 측정."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/WePocketModel1.0-4B-MLX.png",
+    "specs": {
+      "params": "2B·4B",
+      "license": "Apache 2.0",
+      "memory": "4B: bf16 8.99GiB / 4비트 4.25GiB",
+      "modality": "텍스트·이미지"
+    },
+    "links": [
+      {
+        "label": "모델 카드(Hugging Face)",
+        "url": "https://huggingface.co/tencent/WePocketModel1.0-4B-MLX",
+        "type": "source"
+      },
+      {
+        "label": "tencent/WePocketModel1.0-4B-MLX",
+        "url": "https://huggingface.co/tencent/WePocketModel1.0-4B-MLX",
+        "type": "huggingface"
+      },
+      {
+        "label": "tencent/WePocketModel1.0-2B-MLX",
+        "url": "https://huggingface.co/tencent/WePocketModel1.0-2B-MLX",
+        "type": "huggingface"
+      },
+      {
+        "label": "Tencent/WePocketModel",
+        "url": "https://github.com/Tencent/WePocketModel",
+        "type": "github"
       }
     ]
   },
@@ -106,6 +197,36 @@
     "date": "2026-11-25"
   },
   {
+    "id": "2026-11-25-samsung-display-ams-osram-microled-stake",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "삼성디스플레이, ams오스람 지분 9.1% 확보해 최대주주로…약 2억1천만 유로, 초소형 마이크로 LED 공동 개발",
+    "summary": "삼성디스플레이가 약 2억1천만 유로(약 3,100억 원)에 ams오스람 신주 998만4,439주를 사들여 지분 9.1%로 최대주주가 되는 계약을 맺었다. 양사는 초소형 마이크로 LED 공동 개발 파트너십도 체결했고, ams오스람은 목표 달성을 전제로 말레이시아 쿨림2 공장 생산능력 일부를 삼성디스플레이에 배정한다. 지분 취득은 승인을 거쳐 2027년 초 마무리 예정이다.",
+    "why": "OLED 1위 업체가 차세대 무기발광 기술 공급망에 지분으로 들어간 것이다. 업계는 스마트워치, 장기적으로 AR·AI 글래스용 마이크로 LED를 겨냥한 것으로 본다(지디넷 관측).",
+    "verification": {
+      "status": "확인됨",
+      "note": "삼성디스플레이 공식 보도자료 + ams오스람 보도자료 + 지디넷코리아·연합뉴스 영문 보도 확인."
+    },
+    "image": "https://global.samsungdisplay.com/upload/notice/2026/11/zsX6j85_hY_20261125152640.jpg",
+    "links": [
+      {
+        "label": "삼성디스플레이",
+        "url": "https://global.samsungdisplay.com/31499",
+        "type": "source"
+      },
+      {
+        "label": "ams OSRAM",
+        "url": "https://ams-osram.com/news/press-releases/sdc-partnership",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261125155409",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-prismml-ternary-bonsai-2-5-27b",
     "date": "2026-11-25",
     "category": "로컬 AI",
@@ -182,6 +303,46 @@
     "date": "2026-11-25"
   },
   {
+    "id": "2026-11-25-openai-matrix-multiplication-exponent-9-4",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "OpenAI \"행렬 곱셈 지수 ω는 정확히 9/4\" 프리프린트 공개…하한 증명 주장, 외부 검증 전",
+    "summary": "OpenAI가 공식 GitHub 저장소(openai/math)에 '행렬 곱셈 지수는 9/4다' 프리프린트를 올려, 모든 체에서 정사각 행렬 곱셈 지수가 9/4(2.25)이며 n≥2인 모든 크기에서 최소 ⌈n^(9/4)/2⌉개의 곱셈·나눗셈 게이트가 필요하다는 하한을 증명했다고 주장했다. 상한 9/4는 10월에 보였던 결과이고, Lean 형식화는 나눗셈 없는 회로의 지수 9/4까지만 다루며 크기별 하한은 형식화되지 않았다.",
+    "why": "맞다면 'ω를 2까지 낮출 수 있다'는 오랜 추측이 틀렸다는 뜻이라 계산복잡도 이론의 큰 결과다. 다만 동료 심사·제3자 검증이 아직 없고, 원고는 이름 없는 내부 모델이 작성했다고 저장소에 적혀 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI GitHub 프리프린트·Lean 범위 문서(107.md) 직접 확인 + ORIENS 독립 보도. '프리프린트 게시'는 확인, 증명의 정확성은 외부 검증 전(미검증)."
+    },
+    "image": "https://ai-oriens.com/art/openai-omega-9-4.jpg",
+    "links": [
+      {
+        "label": "OpenAI 프리프린트(GitHub)",
+        "url": "https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026",
+        "type": "github"
+      },
+      {
+        "label": "논문 PDF",
+        "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+        "type": "source"
+      },
+      {
+        "label": "Lean 형식화 범위",
+        "url": "https://github.com/openai/math/blob/main/lean/docs/107.md",
+        "type": "source"
+      },
+      {
+        "label": "ORIENS",
+        "url": "https://ai-oriens.com/en/news/openai-omega-9-4/",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론(521점)",
+        "url": "https://news.ycombinator.com/item?id=50637220",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-openai-gpt-6-protein-design",
     "date": "2026-11-25",
     "category": "AI·IT",
@@ -197,6 +358,31 @@
       {
         "label": "OpenAI",
         "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-openai-astra-codex-exoplanet-candidates",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "OpenAI, 아마추어 천문가 2명이 Codex·Astra로 외계행성 후보 찾은 사례 공개…SETI 연구소가 2개 신호 독립 확인",
+    "summary": "OpenAI 엔지니어 케빈 본드는 Codex로 케플러 망원경의 약 10만 개 별을 검색해 200개 넘는 신호(기존 확인 행성 10개 포함)를 찾았고, 그중 KIC 5689121(13.8일 주기)·KIC 6691030(4.8일 주기) 두 신호를 SETI 연구소 천문학자가 독립 검색으로 다시 찾았다. 에단 버드는 Astra로 약 1,900만 개 별 데이터를 분석해 49개 후보를 얻었고, 가장 유력한 후보 하나를 TESS 연구진에 보냈다.",
+    "why": "범용 AI 에이전트가 공개 과학 데이터에서 비전문가의 연구를 돕는 사례다. 다만 아직 '후보'로, 확인에는 수개월~수년이 걸릴 수 있다고 OpenAI도 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "OpenAI 공식 글 확인(SETI 연구소 비샬 가자르 인용 포함) + 지디넷코리아 보도 확인. 행성 확정은 아님."
+    },
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png",
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+        "type": "source"
+      },
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261125154720",
         "type": "source"
       }
     ]
@@ -290,6 +476,60 @@
       }
     ],
     "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-msit-ai-basic-act-agent-definition-pickle",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "과기정통부 \"AI 에이전트 법적 정의·규율, AI 기본법 개정 검토\"…'피클' 논란 계기",
+    "summary": "엄열 과기정통부 인공지능정책실장은 제3차 과학기술·인공지능 미래전략회의에서 피클 같은 AI 에이전트를 AI 기본법상 어떻게 정의하고 규율할지 검토하고 있다고 밝혔다. 피클은 국내 출시 40여 일 만에 MAU 약 40만 명(업계 추산)을 기록했고, 이통 3사와 네이버는 본인확인 등을 이유로 AI 에이전트를 통한 상담을 제한하고 있다.",
+    "why": "사용자 대신 예약·주문·상담을 처리하는 AI 에이전트의 권한 범위와 책임 소재를 정부가 처음 공식적으로 법 개정 과제로 꺼냈다. 개정안 확정이나 일정이 나온 것은 아니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "지디넷코리아 + 머니투데이·디지털데일리 독립 보도 확인. 정부 '검토' 단계 발언."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/25/8e9edeaa9924235767a4f7ff0a24fb18.jpg",
+    "links": [
+      {
+        "label": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261125140053",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/25/2026112512555811081",
+        "type": "source"
+      },
+      {
+        "label": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026112513422198102",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-mlx-0-32-5-llama-cpp-inkling2-dspark",
+    "date": "2026-11-25",
+    "category": "로컬 AI",
+    "title": "MLX v0.32.5(슬라이딩 윈도우 어텐션·M1/M2 커널)·llama.cpp b12720(Inkling 2 DSpark 추측 디코딩)",
+    "summary": "애플 MLX v0.32.5가 슬라이딩 윈도우 어텐션을 추가하고 M1/M2용 head_dim 256 SDPA 벡터 커널, 추측 디코딩용 sdpa_split 커널, fp4→half 디퀀트 빠른 경로, DGX Spark·RTX에서의 CUDA 그래프 문제 수정 등을 담았다. llama.cpp b12720은 Thinking Machines Inkling 2의 DSpark 추측 디코딩 드래프터를 지원한다.",
+    "why": "Mac에서 최신 슬라이딩 윈도우 모델과 추측 디코딩을 더 빠르게 돌릴 수 있고, 인기 로컬 모델 Inkling 2 Mini를 llama.cpp에서 드래프터로 가속할 길이 열렸다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 공식 릴리스 노트 2건 직접 확인(MLX 11/25 16:24 KST, llama.cpp 11/25 15:44 KST)."
+    },
+    "links": [
+      {
+        "label": "ml-explore/mlx v0.32.5",
+        "url": "https://github.com/ml-explore/mlx/releases/tag/v0.32.5",
+        "type": "source"
+      },
+      {
+        "label": "llama.cpp b12720",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12720",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-25-microsoft-code-red-exchange-outage",
@@ -430,6 +670,36 @@
       {
         "label": "이투데이 (13:01)",
         "url": "https://www.etoday.co.kr/news/view/2652788",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-kcsc-gosrn-ai-sexual-imagery-statement",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "방미심위 등 11개국 온라인 안전 규제기관 \"AI 성적 이미지, 개발 단계부터 막아야\" 공동 입장문",
+    "summary": "방송미디어통신심의위원회는 호주 시드니 글로벌 온라인 안전 규제기관 네트워크(GOSRN) 연례회의에서 영국 오프컴·호주 e세이프티 등 회원 11개 기관과 AI 생성 아동 성착취물·비동의 성적 이미지 대응 공동 입장문을 채택했다. 입장문은 AI 설계·개발 단계 안전장치, 연령 확인 강화, 피해자 신고·삭제 절차 마련, 규제기관 간 정보 공유를 촉구했다.",
+    "why": "그록 이미지 사태 등으로 AI 성적 딥페이크 규제가 국제 공조로 넘어가는 흐름에 한국 규제기관도 참여했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 + 파이낸셜뉴스 + 호주 Medianet(GOSRN 발표) 확인."
+    },
+    "image": "https://image.fnnews.com/resource/media/image/2026/11/25/202611251526289592_e.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261125107000017",
+        "type": "source"
+      },
+      {
+        "label": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611251526315978",
+        "type": "source"
+      },
+      {
+        "label": "Medianet(GOSRN)",
+        "url": "https://newshub.medianet.com.au/2026/11/global-regulators-unite-in-sydney-to-tackle-ai-driven-harms-and-expand-international-network/183898/",
         "type": "source"
       }
     ]
@@ -577,6 +847,41 @@
       }
     ],
     "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-anthropic-skills-over-mcp-install-as-app",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "앤트로픽, MCP 서버가 '스킬' 배포 가능(공개 베타)·Tasks·Elicitation 정식…아티팩트는 데스크톱 앱으로 설치",
+    "summary": "MCP 2주년을 맞아 Claude·Claude Code에서 MCP 서버가 도구와 함께 스킬을 제공하는 'Skills over MCP'가 공개 베타로, 백그라운드 장기 작업(Tasks)과 작업 중 사용자 확인 요청(Elicitation)이 정식 출시됐고 파일 업로드도 곧 나온다. 별도로 아티팩트를 Mac·Windows 독립 앱으로 설치하는 'Install as app'이 전 요금제 베타로 배포되며, 앱별 권한(기본·앱 권한·전체 컴퓨터 접근) 3단계를 둔다.",
+    "why": "MCP 서버를 '또 하나의 에이전트'처럼 다루는 방향으로, Shopify·HubSpot·Supabase·GitHub 등이 바로 활용한다. Elicitation은 결제·삭제 같은 되돌리기 어려운 작업 전 사람 승인을 표준화한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Claude 공식 글 2건(Skills over MCP, Install as app) + The New Stack·The Verge 독립 보도 확인."
+    },
+    "image": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more/opengraph-image/og",
+    "links": [
+      {
+        "label": "Claude: Skills over MCP·Tasks",
+        "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+        "type": "source"
+      },
+      {
+        "label": "Claude: Install as app",
+        "url": "https://claude.com/resources/articles/install-as-app",
+        "type": "source"
+      },
+      {
+        "label": "The New Stack",
+        "url": "https://thenewstack.io/mcp-skills-tasks-claude/",
+        "type": "source"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1041882/anthropic-artifact-desktop-apps-mac-windows",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-25-anthropic-siren-sandbox-escape",
