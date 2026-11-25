@@ -675,6 +675,30 @@
     ]
   },
   {
+    "id": "2026-11-25-korea-investment-savings-bank-breach",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "한국투자저축은행 8만6,433명 개인정보 유출…저축은행 업권 최대, 피해 저축은행 6곳으로",
+    "summary": "11월 22일 22시 42분~23일 3시 35분 모바일 홈페이지에 비정상 외부 접근이 있었고 고객명·생년월일·성별·휴대전화번호·CI가 유출됐다. 은행 측은 계좌 비밀번호 등 금융거래 정보는 유출되지 않았다고 밝혔다.",
+    "why": "저축은행 업권 역대 최대 규모이며, 예가람·OK·웰컴·DB·하나에 이어 2금융권 해킹이 6곳째로 이어지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "은행 홈페이지 사과문 내용을 연합뉴스·보안뉴스·한국경제·머니투데이가 같은 수치로 보도"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261125165600002",
+        "type": "source"
+      },
+      {
+        "label": "보안뉴스",
+        "url": "https://www.boannews.com/news/articleView.html?idxno=147536",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-kcsc-gosrn-ai-sexual-imagery-statement",
     "date": "2026-11-25",
     "category": "한국 IT",
@@ -819,6 +843,35 @@
       {
         "label": "AP",
         "url": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-bithumb-hack-update-15days",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "업데이트: 빗썸 해킹 피해자 7,159명보다 늘고, 침입 기간 1시간 아닌 보름(10월 12~27일)",
+    "summary": "빗썸이 다우오피스 유출 사고 후속 점검에서 고객·임직원 외 협력업체 직원 피해까지 추가 확인했다고 25일 공지했다(추가 인원은 미공개). 해킹은 10월 27일 1시간이 아니라 10월 12일 13시 49분~27일 15시 22분에 일어났고, 주민등록번호·여권번호·계좌번호·신분증 사본·거래내역·지갑주소 등이 유출됐다.",
+    "why": "국내 최대급 가상자산 거래소가 보름 넘게 침입을 몰랐고, 인지 뒤에도 2시간여 외부 접속이 이어졌다. 민감 신원정보가 포함돼 2차 피싱 위험이 크다. 빗썸은 거래소 계정·고객 DB가 직접 침해된 정황은 없다고 밝혔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "빗썸 공식 공지 + 연합뉴스·서울경제·파이낸셜뉴스 보도 일치"
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261125176100002",
+        "type": "source"
+      },
+      {
+        "label": "빗썸 공지",
+        "url": "https://feed.bithumb.com/notice/1655458",
+        "type": "source"
+      },
+      {
+        "label": "서울경제",
+        "url": "https://www.sedaily.com/article/20119031",
         "type": "source"
       }
     ]
