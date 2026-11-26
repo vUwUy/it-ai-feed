@@ -30,6 +30,60 @@
     ]
   },
   {
+    "id": "2026-11-26-openai-math-preprints-nov24",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "업데이트: OpenAI, ω=9/4 말고도 프리프린트 9편 더 공개…'강다항 시간 선형계획'·'다항 허시 추측 반증'·VP≠VNP 주장",
+    "summary": "OpenAI의 openai/math 저장소에 11월 23~24일자 프리프린트 10편이 올라왔다. 강다항 시간 선형계획, 단순 폴리토프의 초다항 지름(다항 허시 추측 반증), VP와 VNP 분리, 푸리에 변환·정수 곱셈의 로그 지수 등을 다룬다.",
+    "why": "선형계획의 강다항 알고리즘은 스메일의 9번째 문제로 꼽히는 난제다. 스콧 아론슨은 블로그에서 이번 결과들의 무게를 강조했다(HN 800점 이상). 다만 외부 전문가 검증은 아직이다.",
+    "verification": {
+      "status": "미확인",
+      "note": "OpenAI 공식 GitHub 저장소에서 공개 사실은 확인. 증명 자체는 독립 검증·동료 심사 전(다항 허시 반증은 외부 검증 없음)"
+    },
+    "links": [
+      {
+        "label": "openai/math preprints",
+        "url": "https://github.com/openai/math/tree/main/preprints",
+        "type": "github"
+      },
+      {
+        "label": "Shtetl-Optimized(스콧 아론슨)",
+        "url": "https://scottaaronson.blog/?p=10379",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-nfs2root-cve-2026-99362",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "리눅스 커널 NFS 서버 12년 묵은 원격 루트 취약점 'NFS2ROOT'(CVE-2026-99362, CVSS 9.8)",
+    "summary": "NFSv4.1/4.2를 켠 리눅스 nfsd에 tcp/2049로 접속만 되면 로그인 없이 커널 힙 오버플로를 일으켜 루트 셸까지 얻을 수 있다고 OpenSec이 공개했다. 2014년 리눅스 3.16부터 있던 버그로, 6.12.117·6.18.61·7.3.2·7.4-rc1에서 고쳐졌다.",
+    "why": "파일 서버·NAS·빌드 서버·쿠버네티스 스토리지 노드처럼 NFS를 쓰는 리눅스 장비가 인증 없이 장악될 수 있다. 커널을 업데이트하고 재부팅해야 하며, 그 전까지는 tcp/2049를 방화벽으로 막으라고 권고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "리눅스 커널 CVE 공지(Greg Kroah-Hartman, 11/19) + 발견사 OpenSec 기술 블로그(11/25). CVSS 9.8은 OpenSec 평가"
+    },
+    "image": "https://opensec.in/blog/media/ddf81bad-ef8d-43da-8d5b-bbb9d0a5f9a3.jpg",
+    "links": [
+      {
+        "label": "OpenSec: NFS2ROOT",
+        "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+        "type": "source"
+      },
+      {
+        "label": "linux-cve-announce: CVE-2026-99362",
+        "url": "https://lists.openwall.net/linux-cve-announce/2026/11/19/36",
+        "type": "source"
+      },
+      {
+        "label": "Hacker News 토론",
+        "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-kakao-namyangju-dc-delay",
     "date": "2026-11-26",
     "category": "한국 IT",
