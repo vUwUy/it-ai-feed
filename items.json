@@ -405,6 +405,35 @@
     ]
   },
   {
+    "id": "2026-11-26-fincen-cyber-incident",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "미 재무부 금융범죄단속네트워크(FinCEN) 해킹…일부 시스템 가동 중단",
+    "summary": "FinCEN은 무단 접근이 '제한된 일부 시스템'에 발생해 해당 시스템을 선제적으로 오프라인으로 전환했고, 재무부가 FBI·CISA·외부 포렌식 업체와 피해 범위를 조사 중이다. 은행비밀법(BSA)·기업 실소유자 데이터베이스 침해 증거는 현재까지 없으며, 영향받은 기관의 보고서 제출 기한은 12월 30일까지 연장됐다.",
+    "why": "FBI·CIA 등에 이어 자금세탁 감시 기관까지 뚫리며, AI 도구로 취약점 공격이 쉬워진다는 우려 속 美 정부기관 보안 사고가 이어지고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "FinCEN 당국자 성명(로이터) + CyberScoop + 연합뉴스, 독립 보도 3곳 일치"
+    },
+    "links": [
+      {
+        "label": "로이터(야후)",
+        "url": "https://www.yahoo.com/news/us/articles/us-fincen-takes-systems-offline-144239506.html",
+        "type": "source"
+      },
+      {
+        "label": "CyberScoop",
+        "url": "https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261126003300072",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-fcc-spacex-starmind",
     "date": "2026-11-26",
     "category": "AI·IT",
