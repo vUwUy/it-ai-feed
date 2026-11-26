@@ -54,6 +54,41 @@
     ]
   },
   {
+    "id": "2026-11-26-nvidia-sp-creditwatch-alice-huang-briefing",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "업데이트: S&P, 엔비디아 신용등급 'AA' 하향 검토…美 정보당국은 \"앨리스 황 스파이 지시 증거 없어\"",
+    "summary": "S&P 글로벌 레이팅스가 25일(현지시간) 엔비디아의 AA 등급을 '부정적 관찰대상(CreditWatch Negative)'에 올렸다. 이사회 독립성 약화, 경영진 감독 미흡, 승계 계획 부재와 '핵심 인물(key man)' 위험을 이유로 들었고, 90일 안에 하향하면 한 단계(AA-)에 그칠 가능성이 높다고 했다. 같은 날 미 정보당국은 의회 정보위 보좌진에게 앨리스 황이 젠슨 황을 상대로 정보를 모으라는 지시를 받았거나 가치 있는 정보를 넘긴 정황은 지금까지 없다고 브리핑했다. 다만 2025년 봄부터 중국 국가안전부 요원과 접촉한 사실은 방첩상 우려로 남는다고 했다(CBS·WSJ 보도).",
+    "why": "젠슨 황 복귀 뒤에도 지배구조 문제가 자금 조달 비용으로 번질 수 있다. TechCrunch는 엔비디아가 네오클라우드 대출을 보증하고 있어, 등급이 내려가면 대주단이 보증을 더 요구할 수 있다고 짚었다. 젠슨 황은 다음 주 하원 비공개 면담에 이어 12월 3일 상원 은행위 공개 청문회에 출석한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "S&P 조치는 로이터 기반 Investing.com과 TechCrunch가 교차 확인. 정보당국 브리핑은 CBS News 원문 확인, WSJ 보도는 전자신문 인용으로 확인(WSJ 원문은 유료라 직접 열람 못 함)"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+    "links": [
+      {
+        "label": "TechCrunch (S&P)",
+        "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+        "type": "source"
+      },
+      {
+        "label": "Investing.com/로이터 (S&P)",
+        "url": "https://www.investing.com/news/stock-market-news/sp-puts-nvidia-on-creditwatch-over-governance-concerns-5051348",
+        "type": "source"
+      },
+      {
+        "label": "CBS News (정보당국 브리핑)",
+        "url": "https://www.cbsnews.com/news/chinese-intel-may-have-surveilled-alice-huang-after-affair-nvidia-ceo/",
+        "type": "source"
+      },
+      {
+        "label": "전자신문 (WSJ 인용)",
+        "url": "https://www.etnews.com/20261126000226",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-nfs2root-cve-2026-99362",
     "date": "2026-11-26",
     "category": "AI·IT",
@@ -79,6 +114,80 @@
       {
         "label": "Hacker News 토론",
         "url": "https://news.ycombinator.com/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-naver-cloud-gov-image-generation-mcp",
+    "date": "2026-11-26",
+    "category": "한국 IT",
+    "title": "네이버클라우드, 범정부 AI 공통기반에 이미지 생성 도입…공무원이 행정망에서 포스터·카드뉴스 제작, MCP 연동",
+    "summary": "네이버클라우드가 범정부 AI 공통기반 '클로바 스튜디오 포 거브'에 이미지 생성 모델을 도입하고, 범정부 협업툴 네이버웍스에서 이미지 생성·편집 기능을 제공한다고 26일 밝혔다. 클로바 스튜디오에는 MCP 서버 연동을 추가했고, 자연어로 에이전트를 만드는 'EASY'에는 한글·PDF·영수증 정보 추출과 공문 정리 템플릿을 더했다. 네이버웍스는 행안부 온AI 사업을 통해 25개 중앙부처를 포함한 52개 기관이 쓰고 있다.",
+    "why": "공공 AX의 초점이 문서 요약에서 콘텐츠 제작, 공무원이 직접 만드는 에이전트로 옮겨가고 있다. 공공 협업툴 시장에서 네이버의 입지도 굳어지는 흐름이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "네이버 공식 보도자료 + 연합뉴스 보도"
+    },
+    "links": [
+      {
+        "label": "네이버 보도자료",
+        "url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034921",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261126056500017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-llama-cpp-v1-1-0",
+    "date": "2026-11-26",
+    "category": "로컬 AI",
+    "title": "llama.cpp v1.1.0 버전 태그(b12752)…llama_batch API 폐기 예고, 웹 UI 'Llama Chat' 재설계, MiniMax-M3.1·Zaya1 8B 추가",
+    "summary": "llama.cpp가 b12752에서 버전을 1.1.0으로 올리고 그동안의 변경을 정리했다. 기존 llama_batch API는 llama_batch_ext·llama_process로 대체되며 폐기 예정(deprecated)이 됐다. DFlash 추측 디코딩은 draft-dflash·dflash2·dspark·lilicorr로 나뉘었다. 음성 메시지와 에이전트 추적을 넣은 'Llama Chat' 웹 UI 재설계, 토큰 기반 채팅 파싱, OpenAI식 named tool_choice도 포함됐다. 새 모델로는 Inkling 2 계열, Domyn Edge 4B, Zaya1 8B, MiniMax-M3.1과 Kokoro·Kyutai Hibiki 등 TTS·음성 모델이 들어갔다. ggml도 1.1.0으로 올라갔다.",
+    "why": "llama.cpp를 라이브러리로 쓰는 앱(Ollama·LM Studio 바인딩 등)은 llama_batch 폐기에 대비해야 한다. 그동안 빌드 번호로만 흩어져 있던 기능이 하나의 버전으로 묶였다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub PR #33043(버전 1.1.0 릴리스 노트) + 릴리스 b12752(2026-11-26 10:58 KST) 확인"
+    },
+    "image": "https://opengraph.githubassets.com/2ab8a2e6842caf7a808d55ee33f4217ccc411c235052affd996266ba91097077/ggml-org/llama.cpp/pull/33043",
+    "links": [
+      {
+        "label": "PR #33043 (v1.1.0 노트)",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/33043",
+        "type": "source"
+      },
+      {
+        "label": "릴리스 b12752",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12752",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-kt-cloud-ansan2-ai-datacenter-60mw",
+    "date": "2026-11-26",
+    "category": "한국 IT",
+    "title": "KT클라우드, 안산에 60MW AI 데이터센터 추가…안산1과 묶어 110MW 클러스터, 싱가포르 케펠과 협력",
+    "summary": "KT클라우드가 경기 안산에 수전용량 60MW 규모의 '안산2 AI 데이터센터'를 짓는다고 26일 밝혔다. 연면적 약 5만2,622㎡, 지하 2층·지상 8층 규모로 이달 착공해 2030년 안에 서비스를 시작하는 것이 목표다. 약 2.5km 떨어진 안산1(50MW)과 연계해 총 110MW 클러스터를 만들고, 전 층에 액체냉각 대응 인프라를 적용한다. 싱가포르 자산운용사 케펠이 국내에서 처음 추진하는 데이터센터 사업이며, KT클라우드는 파트너로 참여한다.",
+    "why": "수도권 AI 데이터센터 공급 경쟁에 외국계 자본이 본격적으로 들어오는 사례다. KT그룹은 2031년까지 1GW 이상의 AI 데이터센터 공급을 목표로 하고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(회사 발표) + 전자신문 보도 교차 확인"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/26/news-p.v1.20261126.a228ec27e3c04800b423b5014c79e121_P1.png",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261126069900017",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261126000079",
         "type": "source"
       }
     ]
@@ -164,6 +273,36 @@
     ]
   },
   {
+    "id": "2026-11-26-etri-youra-autonomous-research-agent",
+    "date": "2026-11-26",
+    "category": "한국 IT",
+    "title": "ETRI, 주제 선정부터 논문 작성까지 스스로 하는 연구 에이전트 '유라(YouRA)'…사카나 AI Scientist-V2 앞서",
+    "summary": "한국전자통신연구원(ETRI)이 학회 워크숍 논문 공모를 입력하면 연구 주제를 정하고, 여러 에이전트의 토론으로 가설을 세운 뒤 선행연구 분석·실험·논문 작성까지 수행하는 'YouRA'를 공개했다. 국제 벤치마크 MLR-Bench 중 논문 완성형 10개 과제에서 평균 종합 점수가 사카나 AI의 'AI Scientist-V2'보다 0.64점, NUS의 'MLR-Agent'보다 0.85점 높았다(통계적으로 유의). 아이디어·계획서 평가 201개 과제에서는 MLR-Agent와 뚜렷한 차이가 없었다.",
+    "why": "'AI 과학자' 경쟁에 국내 연구기관도 측정 가능한 결과로 합류했다. 실패 이력과 근거를 기록하는 구조여서 검증이 중요한 업무용 에이전트로 넓힐 계획이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·전자신문 보도 + ACL Anthology 논문(AACL 2026 short) 확인"
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/26/news-p.v1.20261126.c247ac3fb16f4c95b18b1a324ed1e7c3_P1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261126084100063",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261126000229",
+        "type": "source"
+      },
+      {
+        "label": "논문 (ACL Anthology)",
+        "url": "https://aclanthology.org/2026.aacl-short.26/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-deepmind-mass-spec-skills-antigravity",
     "date": "2026-11-26",
     "category": "AI·IT",
@@ -184,6 +323,36 @@
     ]
   },
   {
+    "id": "2026-11-26-asia-ai-datacenter-loans-paused-chip-curbs",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "업데이트: [보도] 美 AI 칩 원격 접근 규제 여파…동남아 AI 데이터센터 대출 수십억 달러 보류",
+    "summary": "블룸버그에 따르면 금융기관들이 바이트댄스·알리바바·텐센트와 연관된 동남아 데이터센터·네오클라우드 대출을 보류하거나 재검토하고 있다. 베인캐피털 계열 브리지 데이터센터의 66억 달러 대출은 일부 대주단이 실사를 이유로 미뤘다. 디지털 헤일로의 3억7,200만 달러 대출에서는 은행 한 곳이 빠졌고, 아올라니의 4억8,000만 달러 GPU 대출도 재검토에 들어갔다. 미국의 새 규정은 싱가포르·말레이시아·인도네시아·태국·브라질 기업의 첨단 AI 칩 구매를 허가제로 바꿨고, 중국 기업에 연산을 대규모로 임대하는 데이터센터에는 90일 안에 별도 허가를 받으라고 했다.",
+    "why": "지난주 미 상무부의 원격 접근 규제가 실제 돈줄을 막기 시작했다는 신호다. 아시아 AI 인프라 투자 속도와 국내 네오클라우드의 자금 조달 환경에도 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 기사를 실은 스트레이츠타임스·비즈니스타임스 원문 + ZDNet Korea(블룸버그 인용). 대출 관계자 익명 전언 기반 보도"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/11/6dae9baaae9a8d47d5661d43e1375023.jpg",
+    "links": [
+      {
+        "label": "The Straits Times (Bloomberg)",
+        "url": "https://www.straitstimes.com/business/billions-in-data-centre-deals-grind-to-halt-after-ai-chip-curbs",
+        "type": "source"
+      },
+      {
+        "label": "The Business Times (Bloomberg, 아올라니 대출)",
+        "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/banks-pause-us480-million-chip-loan-tied-chinas-bytedance",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261126090344",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-anthropic-messages-api-rust",
     "date": "2026-11-26",
     "category": "AI·IT",
@@ -199,6 +368,31 @@
       {
         "label": "Anthropic 블로그",
         "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-amodei-rebuts-axios-ai-control",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "업데이트: 아모데이, Axios 보도에 \"AI에 통치 넘긴다는 건 터무니없다\"…자율적 자기개선에는 '제한 필요'",
+    "summary": "앤트로픽 CEO 다리오 아모데이가 25일(현지시간) X 장문 글에서 앤트로픽 내부에 인간이 결정권을 AI에 넘겨야 한다는 시각이 퍼져 있다는 Axios 보도를 반박했다. 그는 \"효율이나 안보를 위해 정당성과 자기결정권을 희생해선 안 된다\"며 AI에 통치를 넘기는 데 반대한다고 했다. 다만 자율주행, 신약 설계, 소프트웨어 작성처럼 특정 업무의 자동화는 별개라고 선을 그었다. AI가 더 강한 시스템을 자율적으로 개발하는 데에는 제한이 필요할 수 있다고 했고, 경쟁사 경영진의 '인간 통제' 구호는 \"분위기에 기댄 포지셔닝\"이라고 비판했다.",
+    "why": "상장 직후 앤트로픽 CEO가 낸 가장 중요한 공개 발언이다(Axios). 그런데 직원 우려의 핵심, 즉 내부 미공개 모델을 안전하게 출시할 수 있느냐는 질문에는 직접 답하지 않았다. 미 민주당 의원들은 같은 보도를 근거로 AI 규제를 요구하고 나섰다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Axios 후속 기사 + TechCrunch 보도에서 아모데이 X 게시물 인용 확인"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
+    "links": [
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
         "type": "source"
       }
     ]
@@ -937,6 +1131,46 @@
     "date": "2026-11-25"
   },
   {
+    "id": "2026-11-25-magnitude-ssd-expert-streaming",
+    "date": "2026-11-25",
+    "category": "로컬 AI",
+    "title": "오픈소스 추론 엔진 Magnitude 0.3, SSD 전문가 스트리밍…RTX 3090에서 66GB MoE 41 tok/s(개발사 측정)",
+    "summary": "Magnitude가 0.3.0부터 GPU 메모리나 시스템 RAM보다 큰 MoE 모델을 돌릴 수 있게 했다. 자주 쓰는 전문가(expert)는 VRAM과 RAM에 두고 나머지는 NVMe SSD에서 미리 불러오는 방식이다. 개발사 측정에 따르면 2비트·64K 컨텍스트·추측 디코딩 기준으로 Qwen 3.8 Flash Next(66GB)가 RTX 3090(24GB)+RAM 64GB에서 디코드 41 tok/s, RTX 3060(12GB)에서 17 tok/s였다. RTX 5090에서는 DeepSeek V4.1 Flash(249GB)가 17 tok/s였다. Apple Silicon·NVIDIA·AMD·Intel·CPU를 지원하고 GGUF를 쓰며, 라이선스는 Apache 2.0이다.",
+    "why": "수백 GB짜리 초희소 MoE를 게이밍 PC 한 대로 돌릴 수 있다는 주장이다. SSD 읽기는 읽기 전용이라 마모가 없다고 한다. 다만 수치는 모두 개발사 자체 측정이고, 프리필(프롬프트 처리) 대기 시간은 따로 따져봐야 한다. 덴스 모델은 스트리밍 대상이 아니다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "공식 사이트·벤치마크 페이지 + GitHub 릴리스(0.3.0, 2026-11-25 06:49 KST) 확인. 속도 수치는 개발사 측정이며 독립 검증 전(Forge PC 등도 '주장'으로 보도)"
+    },
+    "image": "https://magnitude.dev/og-image.png",
+    "specs": {
+      "license": "Apache 2.0",
+      "memory": "VRAM에 활성 전문가만 들어가면 실행, 나머지는 RAM·SSD",
+      "modality": "GGUF MoE(Qwen·GLM·DeepSeek 등)"
+    },
+    "links": [
+      {
+        "label": "Magnitude 벤치마크",
+        "url": "https://magnitude.dev/benchmarks",
+        "type": "source"
+      },
+      {
+        "label": "magnitude.dev",
+        "url": "https://magnitude.dev/",
+        "type": "source"
+      },
+      {
+        "label": "magnitudedev/magnitude",
+        "url": "https://github.com/magnitudedev/magnitude",
+        "type": "github"
+      },
+      {
+        "label": "0.3.0 릴리스",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev%2Fcli%400.3.0",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-llamaindex-ocria-1-weights",
     "category": "로컬 AI",
     "title": "LlamaIndex 문서 파싱 VLM 'OCRia-1'(4B) 가중치 공개…Hugging Face·Ollama, GGUF 제공",
@@ -1105,6 +1339,43 @@
     "date": "2026-11-25"
   },
   {
+    "id": "2026-11-25-jetbrains-mellum2-1-instruct",
+    "date": "2026-11-25",
+    "category": "로컬 AI",
+    "title": "JetBrains 'Mellum2.1 Instruct' 공개…12B/2.5B 활성 MoE 코딩 모델, 사고 과정 없이 답해 토큰 절반, Apache 2.0·GGUF",
+    "summary": "JetBrains가 10월 공개한 Mellum2.1 Thinking의 형제 모델 'Mellum2.1 Instruct'를 공개했다. 구조와 학습 방식은 같고, 사고 과정(CoT) 없이 바로 답하는 것이 차이다. 에이전트 코딩에서 Thinking보다 토큰을 약 절반만 쓰면서 SWE-bench Verified 40.4%를 기록했다(Thinking 47.0%, 이전 Mellum2 Instruct 20.2%). MTP 헤드도 함께 나왔고, GGUF는 Q4_K_M 8.1GB(권장)부터 MXFP4_MOE 7.0GB까지 제공된다. 컨텍스트는 131,072토큰이다.",
+    "why": "로컬에서 큰 추론 모델 옆에 붙이는 빠른 '작업자' 서브에이전트로 쓰기 좋은 크기다. 같은 급의 Qwen3.5 9B보다 SWE-bench Verified 점수는 낮지만, 활성 파라미터가 2.5B라 단일 요청 기준 약 1.4배 빠르다(JetBrains 측정).",
+    "verification": {
+      "status": "확인됨",
+      "note": "JetBrains 공식 블로그(2026-11-25 20:00 KST 게시) + HF 모델 카드·GGUF 파일 표 확인. 벤치마크는 JetBrains 자체 측정"
+    },
+    "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/mellum2.1-instruct-cover-2560x1440-jetbrains-nvidia-1.png",
+    "specs": {
+      "params": "12B (활성 2.5B, 64 전문가 중 8개)",
+      "license": "Apache 2.0",
+      "memory": "Q4_K_M 8.1GB · MXFP4_MOE 7.0GB",
+      "context": "131K",
+      "modality": "텍스트(코딩·도구 호출)"
+    },
+    "links": [
+      {
+        "label": "JetBrains 블로그",
+        "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/",
+        "type": "source"
+      },
+      {
+        "label": "JetBrains/Mellum2.1-12B-A2.5B-Instruct",
+        "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Instruct",
+        "type": "huggingface"
+      },
+      {
+        "label": "JetBrains/Mellum2.1-12B-A2.5B-Instruct-GGUF",
+        "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Instruct-GGUF",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-google-workspace-mcp-cli-ga",
     "category": "AI·IT",
     "title": "구글 Workspace MCP 서버·CLI 정식 출시…2027년 2월부터 AI 에이전트는 MCP로만 접근",
@@ -1164,6 +1435,31 @@
       {
         "label": "Cognition 블로그",
         "url": "https://cognition.com/blog/swe-2-1",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-claude-korea-card-spend-1-5x-chatgpt",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "국내 클로드 카드 결제액 10월 1,086억 원…챗GPT(709억 원)의 1.5배, 결제자 수는 챗GPT가 많아",
+    "summary": "아이지에이웍스 모바일인덱스 '트렌드 크로스 2026'에 따르면 10월 앤트로픽(클로드)의 국내 신용·체크카드 추정 결제액은 1,086억 원으로, 오픈AI(709억 원)의 약 1.5배였다. 클로드는 올해 3월 처음 챗GPT를 앞질렀다. 결제자 수는 오픈AI 78만8천 명, 앤트로픽 68만4천 명으로 챗GPT가 많지만, 1인당 결제액은 클로드가 15만9천 원으로 챗GPT(9만 원)보다 약 77% 높았다. 주말 앱 이용자 감소율도 클로드 18%, 챗GPT 9%로 클로드가 업무용으로 쓰이는 경향이 뚜렷했다.",
+    "why": "국내 유료 AI 시장에서 '업무용 AI'에 돈이 먼저 몰리고 있다는 데이터다. 다만 개인·법인 카드 결제의 약 20~23%를 표본으로 한 추정치이고, 현금·간편결제는 빠져 있어 실제 매출과는 차이가 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea + 머니투데이가 같은 아이지에이웍스 리포트 수치를 교차 보도"
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/25/697365d3d5ebd86faefbfcaff58489d7.jpg",
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261125165637",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/future/2026/11/25/2026112517133169226",
         "type": "source"
       }
     ]
