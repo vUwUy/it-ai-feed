@@ -1,5 +1,346 @@
 [
   {
+    "id": "2026-11-27-zhipu-denies-glm55-delay",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "업데이트: 즈푸(Z.ai) 경영진, 로이터 'GLM-5.5 연기' 보도 부인…\"가짜 뉴스\", 12월 출시 관측 유지",
+    "summary": "즈푸 경영진 양하오이(杨昊翊)가 위챗 모멘트에 GLM-5.5 연기 보도를 '가짜 뉴스'라고 올렸다고 중국 콰이커지(신랑 전재)와 Neural Wire가 전했다. 구체 일정은 공개하지 않았고, 12월 출시·2~3조 파라미터 전망은 중국 증권사(궈롄민성) 리포트 내용이다.",
+    "why": "전날 로이터의 '中 AI 차질' 보도 중 핵심 사례가 당사자 반박을 받은 셈이다. 다만 회사 공식 발표는 아직 없어 실제 출시 시점으로 확인해야 한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "신랑과기(콰이커지)·Neural Wire 독립 보도 2곳 확인. 경영진 위챗 게시는 원문 미확인, 공식 보도자료 없음."
+    },
+    "links": [
+      {
+        "label": "신랑과기(快科技)",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-11-26/doc-inkaapny8176881.shtml",
+        "type": "source"
+      },
+      {
+        "label": "Neural Wire",
+        "url": "https://neuralwire.co/articles/z.ai-issues-clarification-on-glm-5.5-release-schedule/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50657724",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-whitehouse-coupang-fine-criticism",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "업데이트: 백악관·국무부, 쿠팡 과징금 두고 \"美 기업 공정대우 약속 위반\" 비판…주미대사관 \"적법 절차\" 반박",
+    "summary": "폭스뉴스에 따르면 백악관 관계자는 한국이 쿠팡 등 미국 기술기업을 공정하게 대우하겠다는 트럼프 대통령과의 약속을 지키길 기대한다고 했고, 국무부는 공정위의 '지속적 공격'이 한미동맹을 위협한다며 대응책을 검토 중이라고 밝혔다. 주미 한국대사관은 모든 조사·결정이 관련 법령에 따라 적법하게 이뤄졌다고 반박했다.",
+    "why": "공정위의 쿠팡 3,008억 원 잠정 과징금(11월 초) 이후 미국 정부 차원의 압박이 공개적으로 이어지는 것으로, 한국 플랫폼 규제가 통상 문제로 번질 수 있다는 신호다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·디지털타임스 독립 보도 확인(폭스뉴스 인용)."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261126148900009",
+        "type": "source"
+      },
+      {
+        "label": "디지털타임스",
+        "url": "https://www.dt.co.kr/article/12097474",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-torvalds-ext4-ai-fixes-pull",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "토발즈, AI 생성 수정·테스트 4만1천 줄 ext4 풀 리퀘스트에 격노…\"AI 동료에게도 브랜치 쓰라고 전해라\"",
+    "summary": "리누스 토발즈가 리눅스 7.4-rc5에 들어온 ext4 풀 리퀘스트(41,197줄 추가)에 대해 \"너든 AI든 버그를 고치면서 새 버그를 안 만든다고 생각하지 마라\"며 이런 대규모 변경은 머지 윈도에 넣어야 한다고 질타했다. 관리자 테드 츠오는 추가분 대부분이 AI 생성 패치를 검증하기 위한 KUnit 테스트라고 설명했고, 토발즈는 강한 경고와 함께 결국 병합했다.",
+    "why": "AI로 수만 줄 규모의 '그럴듯한 수정'을 싸게 만들 수 있게 되면서, 사람 검토·안정화 기간에 기대는 커널 개발 절차와 충돌하기 시작했다는 상징적 장면이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LKML 원문(openwall 아카이브) 확인 + Phoronix 보도 교차 확인."
+    },
+    "links": [
+      {
+        "label": "LKML 원문",
+        "url": "https://lists.openwall.net/linux-kernel/2026/11/24/3012",
+        "type": "source"
+      },
+      {
+        "label": "Phoronix",
+        "url": "https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-tencent-dfly2-open-source",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "텐센트, 희소 어텐션 모델용 추측 디코딩 'DFly2' 전면 오픈소스…DeepSeek V4.1 Flash·GLM-5.3 Flash 드래프터도",
+    "summary": "텐센트 훈위안 AI 인프라팀이 대상 모델의 희소 KV 캐시와 top-k 인덱스를 공유해 컨텍스트가 길어져도 초안 비용이 일정한 추측 디코딩 드래프터 DFly2의 가중치·학습 코드(AngelSpec)·기술 보고서를 공개했다. Hy4·Hy4 flash 외에 DeepSeek-V4.1-Flash와 GLM-5.3-Flash용 드래프터도 함께 냈다.",
+    "why": "자체 측정에서 DeepSeek-V4.1-Flash 기준 자기회귀 대비 디코딩 속도가 벤치마크별 최대 3.82배였다(동시성 1, greedy). 드래프터가 자체 KV 캐시를 갖지 않아 같은 메모리로 더 많은 요청을 받을 수 있다. vLLM 서빙 지원은 진행 중이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Tencent/AngelSpec GitHub README(2026-11-26 공개 공지) + Hugging Face 모델 카드 + arXiv 2611.34776 확인. 수치는 자체 측정."
+    },
+    "image": "https://opengraph.githubassets.com/f7121d5e54b355256ef5ab2cf5fafcd25f48e58181b04c7e72c700b7b46e3375/Tencent/AngelSpec",
+    "links": [
+      {
+        "label": "Tencent/AngelSpec",
+        "url": "https://github.com/Tencent/AngelSpec",
+        "type": "github"
+      },
+      {
+        "label": "AngelSlim/DS-V4.1-Flash-DFly2-B6",
+        "url": "https://huggingface.co/AngelSlim/DS-V4.1-Flash-DFly2-B6",
+        "type": "huggingface"
+      },
+      {
+        "label": "arXiv 2611.34776",
+        "url": "https://arxiv.org/abs/2611.34776",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-perplexity-time-machine",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "퍼플렉시티 'Time Machine'…에이전트가 '과거 시점의 웹'만 검색·열람(최대 365일 전)",
+    "summary": "퍼플렉시티가 Search API·Context API에 snapshot_as_of 파라미터를 추가해, 지정한 시각 이전에 저장된 페이지 사본만으로 검색하고 전문을 읽게 하는 Time Machine을 출시했다. 현재 최대 365일 전까지 지정할 수 있고, Context API는 라이브 사이트에 접속하지 않고 그 시점 사본만 돌려준다.",
+    "why": "결과가 이미 알려진 과거 질문으로 에이전트를 학습(RL)·평가하거나 예측·금융 백테스트를 할 때 '정답 유출'을 막을 수 있다. 벤치마크를 특정 스냅샷에 고정해 재현 가능한 평가를 하는 용도로도 쓸 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "퍼플렉시티 공식 블로그(2026-11-25) + API 문서 확인."
+    },
+    "image": "https://cdn.sanity.io/images/aqo64vfr/production/e4faee5b384f4c4ad7b37e5a2426149361b434e7-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fm=jpg&q=80&fit=crop",
+    "links": [
+      {
+        "label": "Perplexity 블로그",
+        "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine",
+        "type": "source"
+      },
+      {
+        "label": "API 문서",
+        "url": "https://docs.perplexity.ai/docs/search/time-machine",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-omlx-0-8-4-inkling2-mini",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "oMLX 0.8.4: 애플 실리콘서 Inkling 2 Mini 프리필 최대 124%·디코딩 2배↑, 24GB 맥 메모리 10.2GB로",
+    "summary": "애플 실리콘용 LLM 서버 oMLX 0.8.4가 새 Metal 커널로 Inkling 2 Mini 프리필을 0.8.3 대비 51~124% 높이고 128K 프롬프트 디코딩을 56.2→112.1 tok/s로 2배 끌어올렸다(M5 Ultra, 자체 측정). 루프 트랜스포머용 디코딩 옵션 LoopCD(실험 기능)를 추가했고, 라우팅 전문가를 SSD에 둬 24GB 맥에서 메모리 사용을 17.0GB→10.2GB로 줄였다.",
+    "why": "같은 날 llama.cpp b12785도 Inkling-2-Mini용 DFlash2 추측 디코딩을 지원해, 이번 주 가장 화제인 로컬 모델의 맥·PC 실행 속도가 빠르게 오르고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "jundot/omlx GitHub 릴리스 노트(v0.8.4) + llama.cpp b12785 릴리스 확인."
+    },
+    "image": "https://opengraph.githubassets.com/50c484f8e27f7cec0d95d5499ce5014d94bc56bf0c12c0bf57d034e2335b0d0b/jundot/omlx/releases/tag/v0.8.4",
+    "specs": {
+      "license": "Apache 2.0",
+      "compute": "애플 실리콘(macOS 15/26/27)"
+    },
+    "links": [
+      {
+        "label": "oMLX v0.8.4 릴리스 노트",
+        "url": "https://github.com/jundot/omlx/releases/tag/v0.8.4",
+        "type": "source"
+      },
+      {
+        "label": "llama.cpp b12785",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12785",
+        "type": "github"
+      },
+      {
+        "label": "jundot/omlx",
+        "url": "https://github.com/jundot/omlx",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-ming-image-0-2-design",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "앤트그룹 'Ming-Image-0.2-Design' 오픈 웨이트…6B 디자인 특화 이미지 모델, MIT",
+    "summary": "앤트그룹 inclusionAI가 UI 시안·포스터·이커머스 메인 이미지처럼 글자가 많은 디자인에 특화한 6B DiT 이미지 생성 모델 Ming-Image-0.2-Design을 MIT 라이선스로 Hugging Face에 공개했다. 모델 카드는 11월 25일 기준 Artificial Analysis 텍스트→이미지(AA-Image-T2I v2.1) 리더보드에서 오픈 웨이트 1위라고 밝혔다.",
+    "why": "공식 검증 환경은 80GiB VRAM GPU 1장(BF16, 12스텝)이라 그대로는 소비자용 GPU에 무겁지만, 공개 하루 만에 커뮤니티 GGUF·fp8·MLX 양자화본이 올라오고 있다(비공식).",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드(license: mit) + 공식 GitHub 저장소 확인. 리더보드 순위는 모델 카드 주장."
+    },
+    "image": "https://opengraph.githubassets.com/0c39457136f522637f690b98a3c2aadf635011de73392288cd676fd4b4411843/inclusionAI/Ming-Image",
+    "specs": {
+      "params": "6B (DiT)",
+      "license": "MIT",
+      "memory": "검증 구성: 80GiB VRAM GPU 1장(BF16)",
+      "modality": "텍스트→이미지(디자인·글자 렌더링)"
+    },
+    "links": [
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+        "type": "source"
+      },
+      {
+        "label": "inclusionAI/Ming-Image-0.2-Design",
+        "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+        "type": "huggingface"
+      },
+      {
+        "label": "inclusionAI/Ming-Image",
+        "url": "https://github.com/inclusionAI/Ming-Image",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-llama-cpp-rdna-boosts",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "AMD 라데온용 llama.cpp 패치 모음 'llama-cpp-rdna-boosts' 화제…R9700서 생성 35→55 tok/s(사용자 측정)",
+    "summary": "llama.cpp 고정 커밋 위에 RDNA/HIP 최적화 패치를 얹는 MIT 라이선스 프로젝트 llama-cpp-rdna-boosts를 쓴 한 사용자가, AMD R9700(eGPU)에서 Qwen3.8-27B 파생 모델(Q6_K_L, MTP) 토큰 생성이 35→55 tok/s, 프리필이 700→1,300 tok/s로 올랐다는 후기를 올려 HN에서 화제가 됐다. ROCm 이미지(ghcr.io)로 podman 실행이 가능하다.",
+    "why": "모델 동작을 바꿔 속도를 내는 '특화 엔진'과 달리 llama.cpp에 최소 패치만 계속 재적용하는 방식이라 유지보수 부담이 적다는 평가다. 수치는 개인 측정이라 환경마다 다를 수 있다. HN에선 R9700 사용자들이 radiance·vicuna.cpp 등 다른 AMD 특화 엔진 경험도 공유했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 저장소(MIT) 확인 + 사용자 블로그 원문 확인. 성능 수치는 개인 측정(미검증)."
+    },
+    "image": "https://opengraph.githubassets.com/f19bac4ff0557bd5f126074a679ff99fe49984502ab0585834b514a1e3e9922d/stew675/llama-cpp-rdna-boosts",
+    "specs": {
+      "license": "MIT",
+      "compute": "AMD RDNA GPU(ROCm)"
+    },
+    "links": [
+      {
+        "label": "stew675/llama-cpp-rdna-boosts",
+        "url": "https://github.com/stew675/llama-cpp-rdna-boosts",
+        "type": "github"
+      },
+      {
+        "label": "사용자 후기(devnull.land)",
+        "url": "https://devnull.land/amd-specific-llama-cpp",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50657265",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-deepl-aure-v2",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "딥엘 'Aure v2' 출시…음성→음성 직접 번역, 지연 50%↓·한국어 포함 6개 언어",
+    "summary": "딥엘이 도쿄 'Unmute Summit'에서 전사·번역·음성합성 단계를 하나로 합친 엔드투엔드 음성 번역 모델 Aure v2를 공개했다. 자체 벤치마크에서 이전 Aure보다 중간값 번역 지연이 50% 줄었고, 영어-일본어 번역 오류는 Google Gemini 3.5 Live Translate보다 32% 적었다고 밝혔다.",
+    "why": "출시 언어가 영어·독일어·프랑스어·스페인어·일본어·한국어 6개로 한국어가 처음부터 포함됐다. DeepL Voice(온라인 회의·대면 대화)와 Voice API에 추가 설정 없이 자동 적용된다. 성능 수치는 모두 딥엘 내부 측정이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "딥엘 공식 보도자료(2026-11-26) 원문 확인, PR Newswire 배포본 존재."
+    },
+    "image": "https://www.deepl.com/img/favicon/automatic_social_share_deepl.png",
+    "links": [
+      {
+        "label": "DeepL 보도자료",
+        "url": "https://www.deepl.com/en/press-release/aure-v2",
+        "type": "source"
+      },
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model-302950629.html",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-danawa-security-incident",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "다나와, 외부 침해 추정 보안 사고로 서비스 전면 중단…개인정보 유출 여부 조사 중",
+    "summary": "가격비교 플랫폼 다나와 운영사 커넥트웨이브가 외부 침해로 추정되는 보안 사고를 확인하고 26일 오전 2시부터 서비스를 중단했다. KISA 등 관계 기관에 신고했고 사고 원인·영향 범위·개인정보 유출 여부를 조사 중이며, 다른 서비스에서 같은 비밀번호를 쓰는 이용자에게 변경을 권고했다.",
+    "why": "27일 오전 7시 현재도 danawa.com은 공지 페이지로만 연결된다(직접 확인). 하루 전 ChatGPT 연동 가격비교 서비스를 시작했던 터라, 유출 범위가 확인되면 파장이 클 수 있다. 다나와 사칭 전화·문자에 주의.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문·뉴시스·ZDNet Korea·보안뉴스 등 독립 보도 확인, 회사 공지 인용."
+    },
+    "image": "https://img1.newsis.com/2026/11/26/NISI20261126_0002303592_web.jpg",
+    "links": [
+      {
+        "label": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261126_0003885067",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261126000392",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261126153610",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-cloudflare-search-for-agents",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "클라우드플레어 'Search for Agents'…토글 하나로 내 사이트에 AI 에이전트용 검색 API",
+    "summary": "클라우드플레어가 대시보드 토글 하나로 사이트(zone)를 자동 크롤링·색인하는 AI Search 인스턴스를 만들고, 자기 도메인의 /.well-known/search 엔드포인트로 에이전트가 검색할 수 있게 하는 Search for Agents를 내놨다. 모든 페이지 <head>에 agent:endpoint 등 메타데이터를 자동으로 넣어 에이전트가 검색 API를 찾게 하고, 결과는 답변 생성 없이 마크다운 본문으로 돌려준다.",
+    "why": "에이전트가 사이트를 통째로 긁는 대신 사이트 주인이 제공하는 검색을 쓰게 하는 방식으로, Markdown for Agents에 이은 '에이전트용 웹' 표준화 시도다. Free 요금제 포함 전 고객이 쓸 수 있고(제한 있음), 봇 관리·WAF 설정은 그대로 적용된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "클라우드플레어 공식 블로그 + 개발자 문서 체인지로그(2026-11-25) 확인."
+    },
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M87EHBMCJY691A3ADBXCMG6A.png",
+    "links": [
+      {
+        "label": "Cloudflare 블로그",
+        "url": "https://blog.cloudflare.com/search-for-agents/",
+        "type": "source"
+      },
+      {
+        "label": "Changelog",
+        "url": "https://developers.cloudflare.com/changelog/post/2026-11-25-search-for-agents/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-cj-oliveyoung-hack",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "CJ올리브영 업무시스템 해킹…임직원·협력사·고객 790명 개인정보 유출",
+    "summary": "CJ올리브영이 지난 23일 업무시스템에 외부 비인가 접근이 발생해 790명(임직원 639명·협력사 106명·고객 45명)의 회원번호와 일부 이름·IP·회원ID·전화번호·생년월일·이메일이 유출됐다고 26일 공지했다. 결제 정보와 비밀번호는 유출되지 않았다고 밝혔다.",
+    "why": "회사는 네트워크 격리, 공격자 계정 비활성화, 저장된 접속 인증정보 폐기·교체, 로그인 방식 변경 등을 했다고 밝혔다. 빗썸·다나와 등 국내 침해 사고가 연달아 나오고 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·ZDNet Korea 독립 보도 2곳 확인(회사 공지 인용)."
+    },
+    "image": "https://image.zdnet.co.kr/2026/03/26/e35734ff8e513b99d3e27bde3709aca2.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261126192200030",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261126223041",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-samsung-dx-reorg-home-ai-team",
     "date": "2026-11-26",
     "category": "한국 IT",
