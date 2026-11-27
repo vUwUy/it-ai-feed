@@ -77,6 +77,36 @@
     ]
   },
   {
+    "id": "2026-11-27-tokyo-court-chatgpt-history-evidence",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "日 도쿄지법, 챗GPT 대화 기록으로 '마약 인식' 인정…MDMA 밀수범에 구금형 8년",
+    "summary": "도쿄지방재판소는 26일 독일에서 MDMA 정제 약 12kg을 밀수한 35세 남성에게 구금형 8년·벌금 500만 엔을 선고했다. 피고가 '해외 화물을 받고 보수 50만 엔을 받는 위험'을 챗GPT에 묻고 '약물·불법물일 가능성이 높다'는 답을 받은 기록을 근거로, 재판부는 '불법 약물 가능성을 인식하고 있었다'며 '정밀기계인 줄 알았다'는 주장을 배척했다.",
+    "why": "생성형 AI와의 대화 기록이 범죄 고의를 입증하는 증거로 쓰인 이례적 판결이다. AI 채팅 기록이 검색 기록처럼 수사·재판 증거가 될 수 있다는 점에서 개인정보·대화 보관 정책 논의에도 영향을 줄 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "요미우리신문·지지통신 독립 보도 확인(ZDNet Korea 국내 보도)."
+    },
+    "image": "https://www.yomiuri.co.jp/media/2026/11/20261126-GYT1I00260-1.jpg?type=ogp",
+    "links": [
+      {
+        "label": "요미우리신문",
+        "url": "https://www.yomiuri.co.jp/national/20261126-GYT1T00259/",
+        "type": "source"
+      },
+      {
+        "label": "지지통신",
+        "url": "https://www.jiji.com/jc/article?g=soc&k=2026112601080",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261127101150",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-tencent-dfly2-open-source",
     "date": "2026-11-27",
     "category": "로컬 AI",
@@ -102,6 +132,98 @@
       {
         "label": "arXiv 2611.34776",
         "url": "https://arxiv.org/abs/2611.34776",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-sber-gigachat-4-open-weights",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "러시아 스베르 'GigaChat 4' 오픈 웨이트…708B/41B MoE, MIT, 1M 컨텍스트",
+    "summary": "스베르가 GigaChat 4(708B 전체·41B 활성 MoE, Gated DeltaNet+DeepSeek Sparse Attention 3:1 하이브리드, 1M 토큰)를 FP8·BF16·GGUF·베이스·중간 체크포인트까지 MIT 라이선스로 공개했다. 한 모델에서 Instant·Reasoning 모드를 고를 수 있고, 모델 카드 기준 SWE-bench Verified 80.89%·Terminal-Bench 2.0 71.26%다. 함께 나온 37B-A4B는 개인 비상업 라이선스다.",
+    "why": "중국·미국 외 지역에서 나온 최대급 MIT 오픈 웨이트로, 베이스와 중간 학습 체크포인트까지 공개해 연구용 가치가 크다. 다만 GGUF Q4_K_M만 약 429GB라 개인 PC보다는 대형 서버급이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드·기술보고서(giga.chat) 확인 + Unite.AI·Neural Wire 보도. 벤치마크는 자체 수치."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ai-sage/GigaChat4-708B-A41B.png",
+    "specs": {
+      "params": "708B(활성 41B)",
+      "license": "MIT (37B-A4B는 비상업 개인용)",
+      "memory": "GGUF Q4_K_M 약 429GB",
+      "context": "1M",
+      "modality": "텍스트"
+    },
+    "links": [
+      {
+        "label": "GigaChat 4 기술보고서",
+        "url": "https://giga.chat/blog/en/posts/gigachat-4-tech-report",
+        "type": "source"
+      },
+      {
+        "label": "ai-sage/GigaChat4-708B-A41B",
+        "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B",
+        "type": "huggingface"
+      },
+      {
+        "label": "ai-sage/GigaChat4-708B-A41B-GGUF",
+        "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "Unite.AI",
+        "url": "https://www.unite.ai/gigachat-4-debuts-with-1m-token-context-and-two-model-sizes/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-sap-weighs-10000-job-cuts",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "[보도] SAP, AI 전환 구조조정으로 최소 1만 명 감원 검토…전체 인력의 9% 이상",
+    "summary": "블룸버그는 SAP가 AI 시대에 맞춰 소프트웨어 사업을 재편하면서 최소 1만 개 일자리(전 세계 인력의 최소 9%)를 줄이는 계획을 준비 중이라고 보도했다. 제품·엔지니어링과 영업이 주요 검토 대상이고, 최종 규모는 노사 협의에 따라 바뀔 수 있다. SAP는 '전략과 고객 수요에 맞춰 조직을 계속 점검한다'며 확인을 거부했다.",
+    "why": "유럽 최대 소프트웨어 기업이 2024년(약 1만 명, 약 30억 유로 비용)에 이어 2년 만에 다시 AI를 이유로 대규모 인력 재편에 나서는 것이다. 기업용 SW 업계에서 AI 전환이 실제 인력 구조 변화로 이어지고 있음을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 단독 보도를 로이터·CNA·ZDNet Korea가 인용해 보도(로이터는 독자 확인 못 함). SAP 공식 발표 아님."
+    },
+    "image": "https://dam.mediacorp.sg/image/upload/s--Jp3B9P_R--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-26T163241Z_1_LYNXNPEMAP1IB_RTROPTP_3_SAP-PLANQC.JPG?itok=ZXpnNFy8",
+    "links": [
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
+        "type": "source"
+      },
+      {
+        "label": "CNA(로이터)",
+        "url": "https://www.channelnewsasia.com/business/sap-job-cuts-ai-restructuring-6585781",
+        "type": "source"
+      },
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261127100428",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-pipc-breach-reports-emergency",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "개인정보 유출신고 1~10월 1,019건, 작년 전체(447건)의 2배 넘어…개인정보위 긴급대응 체계 가동",
+    "summary": "개인정보보호위원회는 올해 1~10월 유출 신고가 1,019건(공공 271·민간 748)으로 작년 전체 447건의 두 배를 넘었다며 긴급대응·점검지원 체계로 전환한다고 27일 밝혔다. AI를 활용한 해킹 확산과 계정·접근키 탈취, 수탁사 침해 증가를 원인으로 꼽았고, 다음 달부터 3개월간 집중 관리하며 예방 가능했던 유출은 엄정 처분하고 관계부처 강화대책을 다음 달 발표한다.",
+    "why": "다나와·올리브영 등 최근 잇단 사고에 이어 정부가 유출 급증을 공식 수치로 확인하고 대응 수위를 올렸다. 개인정보위는 연간 신고가 작년의 3배를 넘을 것으로 전망해, 기업 보안 투자 여부가 과징금 감경·가중으로 이어질 전망이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "개인정보보호위원회 발표 내용을 연합뉴스가 보도(사무처장 백브리핑 발언 포함)."
+    },
+    "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/25/PYH2026112515820001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261127013100530",
         "type": "source"
       }
     ]
@@ -166,6 +288,61 @@
     ]
   },
   {
+    "id": "2026-11-27-nvidia-pauses-sea-server-shipments",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "엔비디아, 말레이시아·싱가포르·태국·인도네시아행 AI 서버 출하 중단 지시…美 '중국 원격 접근' 규제 여파",
+    "summary": "FT·WSJ 보도에 따르면 엔비디아가 델·슈퍼마이크로 등 서버 협력사에 동남아 4개국행 AI 서버 선적을 기간을 정하지 않고 중단하라고 지시했다. 미 상무부가 19일 시행한 새 규정(해당 국가행 첨단 칩 별도 허가, 클라우드 사업자는 90일 안에 최종 사용자 중 제재 대상이 없음을 입증)에 맞추려는 조치로, 엔비디아는 논평을 거부했다.",
+    "why": "중국 AI 기업이 동남아 데이터센터를 빌려 엔비디아 칩을 쓰던 우회로가 실제 출하 단계에서 막히기 시작했다는 뜻이다. 전날 전한 동남아 데이터센터 대출 보류에 이어 공급 자체가 멈춘 것으로, 엔비디아 싱가포르 매출(지난해 1,040억 달러, 대만·중국 일부 포함)에도 영향이 갈 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "TechCrunch(WSJ 인용)·전자신문(FT 인용) 독립 보도 확인. 엔비디아 공식 입장 없음(논평 거부), 중단 기간 미정."
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261127000010",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-naver-kmed-31b-report",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "네이버 의료 특화 'KMed-31B' 기술보고서 공개…HealthBench Hard 51.48점, 병원 자체 서버용",
+    "summary": "네이버 KMed 팀이 공개한 기술보고서에 따르면 오픈 웨이트 모델(Gemma-4-31B-IT)을 후학습한 KMed-31B는 HealthBench Hard를 23.80→51.48점(추론 모드), HealthBench Professional을 41.97→59.18점으로 끌어올렸다. 의학 문제풀이·진단·환자 상담 등 분야별 전문가 모델을 'MOPD²' 증류로 하나로 합쳤고, 비교 모델(독점 모델 포함) 중 HealthBench Hard 최고점이라고 주장했다.",
+    "why": "병원이 환자 정보를 외부로 보내지 않고 온프레미스에서 돌릴 수 있는 중형 의료 모델을 목표로 했다는 점에서 국내 의료 AI 상용화와 연결된다. 다만 점수는 자체 평가(GPT-5-mini 채점)이고 가중치 공개 여부는 확인되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "arXiv 기술보고서(2611.28719, NAVER KMed 팀) 원문 확인 + 한국경제 보도. 성능은 자체 평가."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28719/gradient.png",
+    "links": [
+      {
+        "label": "arXiv 기술보고서",
+        "url": "https://arxiv.org/abs/2611.28719",
+        "type": "source"
+      },
+      {
+        "label": "한국경제",
+        "url": "https://www.hankyung.com/article/202611261907i",
+        "type": "source"
+      },
+      {
+        "label": "HF Papers",
+        "url": "https://huggingface.co/papers/2611.28719",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-ming-image-0-2-design",
     "date": "2026-11-27",
     "category": "로컬 AI",
@@ -202,6 +379,31 @@
     ]
   },
   {
+    "id": "2026-11-27-llamacpp-amd-benchmark-dashboard",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "허깅페이스·ggml, AMD 라이젠·라데온용 llama.cpp 벤치마크 대시보드 공개",
+    "summary": "llama.cpp 빌드·모델·양자화별 프롬프트 처리(PP512)와 생성 속도(TG128), 컨텍스트 길이에 따른 생성 속도 변화를 추적하는 공개 대시보드다. 현재 Radeon 8060S(gfx1151)와 Radeon AI Pro R9700S(gfx1201)에서 Inkling 2 Mini·Qwen·Gemma·gpt-oss·LFM을 매주 llama-bench로 측정(FA 켜고/끄고, 10회 반복)하며 원본 데이터도 공개한다.",
+    "why": "AMD GPU·스트릭스 헤일로로 로컬 모델을 돌리는 사람이 양자화·빌드 선택 시 참고할 수 있는 공식 수치가 생겼다. 빌드별 성능 회귀·개선도 바로 확인할 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 공식 블로그(ggml-org, 2026-11-26) 원문 확인."
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+        "type": "source"
+      },
+      {
+        "label": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-llama-cpp-rdna-boosts",
     "date": "2026-11-27",
     "category": "로컬 AI",
@@ -231,6 +433,73 @@
       {
         "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50657265",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-ista-inkling2-mini-gsq-rco-gguf",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "ISTA, Inkling 2 Mini 비균일 GGUF(GSQ-RCO) 공개…3.5bpw 11.4GB로 원본 성능 99.2%",
+    "summary": "오스트리아 ISTA DASLab이 Inkling 2 Mini(26.4B 루프형 MoE)를 텐서별로 다른 양자화 타입을 배정한 GGUF 4종(IQ2_S 2.75bpw~IQ3_S 3.50bpw)으로 공개했다. 권장 IQ3_S는 GPU 10.50GB+임베딩 0.93GB(시스템 메모리)로 AIME25·GPQA-D·LCB v6 평균에서 원본의 99.2%, 가장 작은 IQ2_S(8.98GB)는 94.3%를 유지했다고 밝혔다.",
+    "why": "요즘 가장 인기 있는 로컬 모델을 12GB급 GPU 한 장에 올릴 수 있게 해준다. 표준 GGUF라 llama.cpp b12611 이상에서 그대로 쓸 수 있고, DSpark 추측 디코딩 드래프터도 함께 제공된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(Apache 2.0, 2026-11-26 업로드) 원문 확인. 벤치마크는 제작자 측정."
+    },
+    "image": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF/resolve/main/assets/banner.webp",
+    "specs": {
+      "params": "26.4B 루프형 MoE(원본)",
+      "license": "Apache 2.0",
+      "memory": "8.98~11.43GB(IQ2_S~IQ3_S)",
+      "context": "1M(원본)",
+      "modality": "텍스트·이미지(mmproj)"
+    },
+    "links": [
+      {
+        "label": "HF 모델 카드",
+        "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+        "type": "source"
+      },
+      {
+        "label": "ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+        "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+        "type": "huggingface"
+      },
+      {
+        "label": "IST-DASLab/GSQ",
+        "url": "https://github.com/IST-DASLab/GSQ",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-huawei-4096dq-custom-hbm-isscc",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "화웨이, ISSCC 2027서 4096-DQ 맞춤형 HBM 논문 발표 예정…HBM4(2048비트)의 2배 인터페이스",
+    "summary": "ISSCC 2027 사전 프로그램에 화웨이 논문 'A 64-Channel 4096-DQ Custom HBM with Memory Controllers and 5-Layer Wafer-on-Wafer Hybrid Bonding'(세션 22.6, 2월 16일)이 올랐다. 64채널·4096비트 데이터 인터페이스에 메모리 컨트롤러를 통합하고 5층 웨이퍼 하이브리드 본딩을 썼다는 내용이며, 용량·핀당 속도·대역폭·양산 일정은 공개되지 않았다.",
+    "why": "미국 제재로 삼성·SK하이닉스 HBM 확보가 막힌 화웨이가 자체 HBM 설계를 국제 학회에 내놓는 것이다. 다만 공개된 건 논문 제목 수준이고, 인터페이스 폭 2배가 곧 성능 2배를 뜻하지는 않는다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그·트렌드포스·第一财经 등 복수 보도와 ISSCC 프로그램 기재 내용 일치. 실제 성능 수치는 미공개."
+    },
+    "image": "https://img.trendforce.com/blog/wp-content/uploads/2025/09/01144150/Huawei-building-624x430.jpg",
+    "links": [
+      {
+        "label": "TrendForce",
+        "url": "https://www.trendforce.com/news/2026/11/26/news-huawei-reportedly-set-to-unveil-custom-hbm-architecture-with-twice-hbm4s-interface-width-and-hybrid-bonding/",
+        "type": "source"
+      },
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix",
+        "type": "source"
+      },
+      {
+        "label": "AI타임스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=217848",
         "type": "source"
       }
     ]
