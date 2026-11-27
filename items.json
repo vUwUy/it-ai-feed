@@ -338,6 +338,41 @@
     ]
   },
   {
+    "id": "2026-11-27-nemotron-35-parse-open-data-dflash2",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "엔비디아 Nemotron 3.5 Parse 학습 데이터 1,888만 건·파인튜닝 레시피·DFlash2 드래프터 공개",
+    "summary": "엔비디아가 문서 파싱 모델 Nemotron 3.5 Parse 학습에 쓴 합성 차트 998만·표 100만·다국어 OCR 790만 건 데이터셋과 SFT→GRPO 파인튜닝 레시피, 89.3M DFlash2 추측 디코딩 드래프터를 공개했다. H200 BF16 동시성 512에서 DFlash2 적용 시 초당 20.44페이지로 Parse 2.0 대비 6.86배라고 밝혔다.",
+    "why": "RAG용 문서 구조화 모델을 자기 문서 유형·언어에 맞게 직접 미세조정할 재료가 통째로 풀렸다. 커뮤니티가 이미 태국어·페르시아어·아랍어로 확장했다고 해 한국어 적용도 해볼 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 엔비디아 공식 블로그 + HF 데이터셋·모델 카드(라이선스 OpenMDW-1.1) 확인. 수치는 자체 측정."
+    },
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+    "specs": {
+      "params": "약 0.63B",
+      "license": "OpenMDW-1.1",
+      "modality": "문서 이미지→구조화 텍스트"
+    },
+    "links": [
+      {
+        "label": "HF 블로그",
+        "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+        "type": "source"
+      },
+      {
+        "label": "nvidia/Nemotron-3.5-Parse",
+        "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse",
+        "type": "huggingface"
+      },
+      {
+        "label": "nvidia/Synthetic-Charts-V1",
+        "url": "https://huggingface.co/datasets/nvidia/Synthetic-Charts-V1",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-naver-kmed-31b-report",
     "date": "2026-11-27",
     "category": "한국 IT",
@@ -364,6 +399,30 @@
         "label": "HF Papers",
         "url": "https://huggingface.co/papers/2611.28719",
         "type": "huggingface"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-msit-national-research-data-policy",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "정부 R&D, 2027년 6월 신규 과제부터 연구데이터 관리계획 제출·등록 의무화…'공개 원칙'",
+    "summary": "과기정통부가 제15회 과학기술관계장관회의(11/25~26 서면)에서 '국가연구데이터 정책 기본방향'을 의결했다. 신규 R&D 과제는 신청·협약 단계부터 데이터 관리계획을 내야 하고, 결과 검증 데이터와 국가 지정 대형장비 데이터를 데이터셋 단위로 최종평가 전까지 등록해야 한다.",
+    "why": "등록 데이터는 공개가 원칙이고 고유식별자 부여로 원 생산자 기여를 인정한다. 정부는 이를 국가 AI 모델 학습의 기반 자산으로 보고 있다(2027년 6월 '국가연구데이터법' 시행).",
+    "verification": {
+      "status": "확인됨",
+      "note": "과기정통부 보도자료(한경일보 전문 게재) + 연합뉴스 보도 확인."
+    },
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261127062200017",
+        "type": "source"
+      },
+      {
+        "label": "한경일보(보도자료)",
+        "url": "https://www.hkilbo.kr/news/articleView.html?idxno=147836",
+        "type": "source"
       }
     ]
   },
@@ -458,6 +517,60 @@
       {
         "label": "HN 토론",
         "url": "https://news.ycombinator.com/item?id=50657265",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-lablup-aigo-2",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "래블업 'AI:GO 2.0' 출시…PC에서 언어·비전·이미지·음성 로컬 모델+파일 다루는 에이전트, 개인 무료",
+    "summary": "래블업이 클라우드 없이 PC에서 로컬 AI 모델과 에이전트를 돌리는 데스크톱 앱 AI:GO 2.0을 내놨다. 폴더 파일을 읽고 수정하는 '코워크', 역할별 에이전트 협업 '스쿼드', 기기별 모델 속도 벤치마크를 지원하고, 코드·셸 실행은 MS 실행 컨테이너(MXC) 기반 OS 샌드박스에 가둔다.",
+    "why": "국산 로컬 AI 앱이 에이전트 실행 보안(지정 폴더 제한·네트워크 기본 차단·결제·삭제 등 매번 승인)까지 갖췄다. 회원가입 없이 무료이며 Apple Silicon macOS 15+, Windows 10·11 64비트, 리눅스를 지원한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "ZDNet Korea + 인공지능신문 보도(래블업 발표) 확인."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/27/8c4470efa5d8d11ac28578a83a93acb5.jpg",
+    "specs": {
+      "license": "개인·팀 무료(엔터프라이즈 유료)",
+      "platform": "macOS 15+(Apple Silicon)·Windows 10/11·Linux"
+    },
+    "links": [
+      {
+        "label": "ZDNet Korea",
+        "url": "https://zdnet.co.kr/view/?no=20261127153208",
+        "type": "source"
+      },
+      {
+        "label": "인공지능신문",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42914",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-kospi-rebound-4915",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "업데이트: 코스피 4.34% 급등 4,915.68·코스닥 8.13%(매수 사이드카)…삼성전자 4.55%·SK하이닉스 5.41%↑",
+    "summary": "젠슨 황 스캔들발 'AI 조정' 여파가 다소 진정되며 코스피가 204.47포인트 오른 4,915.68, 코스닥이 53.28포인트 오른 708.99로 마감했다. 삼성전자는 17만9,100원, SK하이닉스는 111만원에 장을 마쳤고 외국인이 두 종목을 가장 많이 순매수했다.",
+    "why": "반도체 대형주 급락 뒤 저가 매수·로봇 테마·증안펀드 기대가 겹친 반등이다. 다만 전문가들은 다음 주 황 CEO 미 의회 청문회, 12월 FOMC 등으로 변동성이 남아 있다고 봤다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스 종합 기사 + YTN 속보(마감 수치 일치) 확인."
+    },
+    "image": "https://img1.yna.co.kr/photo/yna/YH/2026/11/27/PYH2026112712560001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261127078351008",
+        "type": "source"
+      },
+      {
+        "label": "YTN 속보",
+        "url": "https://www.ytn.co.kr/_ln/0102_202611271537423793",
         "type": "source"
       }
     ]
@@ -635,6 +748,30 @@
     ]
   },
   {
+    "id": "2026-11-27-canada-ai-compute-access-fund-700m",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "캐나다, 'AI 컴퓨트 접근 기금' 7억 캐나다달러 증액(총 10억)…소버린 클라우드 쓰면 비용 최대 80% 지원",
+    "summary": "캐나다 정부가 중소기업 AI 컴퓨팅 비용 지원 기금에 7억 캐나다달러를 추가해 총액을 10억 캐나다달러로 늘렸다. 첫 공모는 보건·생명과학 분야이며, 45개 기업에 5,200만 달러 이상 지원도 함께 발표했다(누적 89개사 1억1,800만 달러+).",
+    "why": "캐나다 소유·운영 '소버린' 컴퓨트 사용 시 최대 80%(그 외 캐나다 소재 사업자는 최대 50%)를 지원해 수요 쪽에서 자국 인프라를 키우는 방식이다. 한국의 GPU 바우처·소버린 AI 정책과 비교해 볼 만하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "캐나다 ISED 공식 보도자료(11/26 토론토) + 프로그램 가이드, BetaKit 보도 확인."
+    },
+    "links": [
+      {
+        "label": "Canada.ca 보도자료",
+        "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html",
+        "type": "source"
+      },
+      {
+        "label": "프로그램 가이드",
+        "url": "https://www.ised-isde.canada.ca/site/ised/en/canadian-sovereign-ai-compute-strategy/ai-compute-access-fund/program-guide-ai-compute-access-fund",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-samsung-dx-reorg-home-ai-team",
     "date": "2026-11-26",
     "category": "한국 IT",
@@ -655,6 +792,31 @@
       {
         "label": "조선일보",
         "url": "https://www.chosun.com/economy/tech_it/2026/11/26/VYG3FMPPH5GYBAA6LK4EX5WBXI/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-samsung-ds-robotics-team-fab",
+    "date": "2026-11-26",
+    "category": "한국 IT",
+    "title": "[보도] 삼성전자 DS, '로보틱스팀' 신설…반도체 공장 유지보수·자재운송 로봇화, 2028년 현장 투입 목표",
+    "summary": "전자신문에 따르면 삼성전자 DS부문 글로벌 제조&인프라총괄 산하에 이석원 부사장이 이끄는 로보틱스팀이 신설됐다. 연내 외부 로봇 협력사를 선정하고 2027년 기술 평가를 거쳐 2028년부터 AGV·AMR·로봇팔을 장비 유지보수·부품 교체·자재 운송에 투입하는 로드맵이다.",
+    "why": "전공정 90%·후공정 80% 수준인 팹 자동화의 '남은 수작업'을 겨냥한다. 이날 코스닥 로봇주 급등의 배경으로도 거론됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "전자신문 단독(11/26) + 엠투데이 등 후속 보도. 삼성전자 공식 발표는 없음."
+    },
+    "image": "https://img.etnews.com/news/article/2026/11/03/news-p.v1.20261103.1ea0f92701c84d6f8aeae3e844c7a42f_P1.jpg",
+    "links": [
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261126000296",
+        "type": "source"
+      },
+      {
+        "label": "엠투데이",
+        "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=602515",
         "type": "source"
       }
     ]
@@ -847,6 +1009,61 @@
       {
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261126056500017",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-microsoft-artex-defender-report",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "MS 위협 인텔리전스, AI 공격 프레임워크 'ARTEX' 방어 가이드…中·北 국가 해커 등 6개 그룹 악용 확인",
+    "summary": "마이크로소프트가 2026년 7월 공개된 AI 침투 테스트 프레임워크 ARTEX를 Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, Salt Typhoon 등이 공격 도구에 통합해 쓰고 있다고 밝혔다. 설정에 따라 정찰부터 권한 있는 지속 접근까지 '수 분' 만에 진행할 수 있다고 했다.",
+    "why": "ARTEX는 새 공격 기법이 아니라 기존 도구를 '기계 속도'로 자동화하는 것이 핵심이라, IP·UA 같은 정적 지표보다 짧은 시간 대량·변형 요청 같은 행위 기반 탐지가 필요하다는 게 MS의 권고다. 한국 금융권 표적 사례(CrowdStrike)도 참고문헌에 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Microsoft Security Blog 원문(11/25 PT) 확인, The Record·The Register 독립 보도."
+    },
+    "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/11/ARTEX-featured.png",
+    "links": [
+      {
+        "label": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+        "type": "source"
+      },
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+        "type": "source"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-meta-muse-fca-declined-testing",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "[보도] 메타, 'Muse' 영국 출시 전 FCA 공동 샌드박스 테스트 제안 거절…CMA·ICO도 경고",
+    "summary": "영국 금융행위감독청(FCA) 혁신 책임자 콜린 페인이 메타가 지난주 Muse 공동 테스트 제안을 거절했다고 WIRED에 밝혔다. FCA는 에이전트의 결제 방식과 자율 행동이 소비자 이익에 맞는지 보려 했으며, 메타는 '규제 당국과 건설적으로 협력해 왔다'고만 답했다.",
+    "why": "결제·쇼핑을 대행하는 소비자 에이전트가 금융·경쟁·개인정보 규제와 정면으로 부딪힌 첫 사례 중 하나다. CMA는 이미 메타에 영국 약관에 '합리적 주의·전문적 성실' 의무를 넣게 했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "WIRED 단독(FCA 인사 실명 인용) + The Next Web 후속 보도. FCA 공식 성명은 없음."
+    },
+    "image": "https://media.wired.com/photos/6b07201067745997b8ffd8ed/191:100/w_1280,c_limit/Meta-Refused-to-Share-Muse-for-Testing-Business-2300550254.jpg",
+    "links": [
+      {
+        "label": "WIRED",
+        "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+        "type": "source"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://thenextweb.com/news/meta-muse-agent-fca-sandbox-test-wired",
         "type": "source"
       }
     ]
@@ -1124,6 +1341,36 @@
       {
         "label": "논문 (ACL Anthology)",
         "url": "https://aclanthology.org/2026.aacl-short.26/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-elevenlabs-33b-valuation-talks",
+    "date": "2026-11-26",
+    "category": "AI·IT",
+    "title": "[보도] 일레븐랩스, 기업가치 330억 달러 투자 유치 초기 협상…연환산 매출 7억 달러",
+    "summary": "블룸버그에 따르면 음성 AI 기업 일레븐랩스가 2027년 1분기 마무리를 목표로 330억 달러 가치의 신규 투자 유치를 초기 논의 중이다. SiliconANGLE은 연환산 매출이 9월 이후 1억 달러 늘어 7억 달러가 됐다고 전했다(직전 라운드 가치 220억 달러).",
+    "why": "음성 AI가 실제 매출로 큰 밸류에이션을 정당화하는 대표 사례다. 일본 Kotoba 인수(11/16 발표, 4분기 종결 예정)와 2028년 IPO 준비 언급까지 확장 속도가 빠르다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그(익명 소식통) 보도 + SiliconANGLE 독립 정리. 회사 공식 확인 없음 → 협상 단계 보도."
+    },
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/unsplash-1.png",
+    "links": [
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-25/elevenlabs-in-early-talks-for-2027-funding-at-33-billion-value",
+        "type": "source"
+      },
+      {
+        "label": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
+        "type": "source"
+      },
+      {
+        "label": "ElevenLabs: Kotoba 인수",
+        "url": "https://elevenlabs.io/blog/kotoba",
         "type": "source"
       }
     ]
@@ -1708,6 +1955,31 @@
       }
     ],
     "date": "2026-11-25"
+  },
+  {
+    "id": "2026-11-25-samsung-hbm4e-17gbps-isscc",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "삼성전자, ISSCC 2027서 핀당 17Gbps·48GB HBM4E 논문 발표 예정…5월 16Gbps에서 상향",
+    "summary": "ISSCC 2027 사전 프로그램에 삼성전자 화성사업장 연구진의 '48GB·17Gbps HBM4E' 논문이 포함됐다(발표 2027년 2월 16일). 아이뉴스24는 2048비트 인터페이스 기준 이론 대역폭이 초당 약 4.35TB라고 전했다.",
+    "why": "엔비디아가 요구한 것으로 알려진 17~18Gbps 범위에 들어간 수치다. 다만 논문 결과가 곧 양산 사양이나 엔비디아용 8단 제품과 같다는 뜻은 아니다. 같은 학회에서 화웨이도 맞춤형 HBM 논문을 낸다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "아이뉴스24(ISSCC 사전 프로그램 인용) + 이지이콘 등 독립 보도 확인. ISSCC 프로그램 원문은 직접 열람 못 함."
+    },
+    "image": "https://image.inews24.com/v1/a5bb76d6a0baea.jpg",
+    "links": [
+      {
+        "label": "아이뉴스24",
+        "url": "https://www.inews24.com/view/2030030",
+        "type": "source"
+      },
+      {
+        "label": "이지이콘",
+        "url": "https://ezecon.co.kr/news/samsung-electronics-hbm4e-reaches-17gbps-pin-speed-isscc-2027/",
+        "type": "source"
+      }
+    ]
   },
   {
     "id": "2026-11-25-samsung-display-ams-osram-microled-stake",
@@ -3144,6 +3416,36 @@
     ]
   },
   {
+    "id": "2026-11-24-ladybird-browser-alpha",
+    "date": "2026-11-24",
+    "category": "AI·IT",
+    "title": "독자 엔진 브라우저 'Ladybird' 첫 알파 배포…macOS·리눅스, 크로미움 포크 아님",
+    "summary": "안드레아스 클링이 처음부터 새로 만든 엔진을 쓰는 Ladybird 브라우저가 알파 단계에 들어가 macOS(14.4+)·리눅스(x86-64·ARM64)용 다운로드를 열었다. 롤링 채널로 자동 업데이트되며, 일부 사이트 미작동·충돌이 있고 보안은 아직 보장하지 않는다고 밝혔다.",
+    "why": "크로미움·게코·웹킷 외 독립 엔진이 일반 사용자가 설치할 수 있는 단계에 온 것은 드문 일이다. WebDriver·Firefox DevTools 프로토콜을 지원해 웹 개발자 호환성 테스트에 쓸 수 있다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Ladybird 공식 블로그·다운로드 페이지 + Ars Technica 실사용 리뷰 확인."
+    },
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ladybird_Browser_Rendering_Ladybird_Page_wide-1152x648-1795619607.png",
+    "links": [
+      {
+        "label": "Ladybird 블로그",
+        "url": "https://ladybird.org/posts/alpha/",
+        "type": "source"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+        "type": "source"
+      },
+      {
+        "label": "다운로드",
+        "url": "https://ladybird.org/download/",
+        "type": "buy"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-kospi-rebounds-5000-huang",
     "date": "2026-11-24",
     "category": "한국 IT",
@@ -3190,6 +3492,42 @@
         "label": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261124142900017",
         "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-kandinsky-imagesr-2",
+    "date": "2026-11-24",
+    "category": "로컬 AI",
+    "title": "Kandinsky ImageSR 2.0 공개…가중치 하나로 2배·4배 업스케일, 5B·MIT",
+    "summary": "Kandinsky Lab이 이미지 초해상도 모델 Kandinsky ImageSR 2.0을 Diffusers 번들로 공개했다. 텍스트 타워와 크로스어텐션 50개 층을 시점별 테이블로 대체한 one-step 방식이며, H100 기준 1K→4K(x4) 7.80초, 1K→2K(x2) 2.78초라고 밝혔다.",
+    "why": "트랜스포머·파이프라인 코드가 MIT라 상업 이용이 비교적 자유로운 로컬 업스케일러다. 1024px 타일 처리로 8K까지 출력할 수 있고, 창의성(creativity) 0~8 단계 조절을 지원한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Hugging Face 모델 카드 + GitHub 저장소 확인, HF 트렌딩 상위. 벤치는 자체 측정(H100)."
+    },
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/kandinskylab/Kandinsky-ImageSR-2.0.png",
+    "specs": {
+      "params": "5B",
+      "license": "MIT(번들 VAE는 Apache 2.0)",
+      "modality": "이미지 초해상도 x2·x4",
+      "compute": "H100 1K→4K 7.80초"
+    },
+    "links": [
+      {
+        "label": "모델 카드",
+        "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+        "type": "source"
+      },
+      {
+        "label": "kandinskylab/Kandinsky-ImageSR-2.0",
+        "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+        "type": "huggingface"
+      },
+      {
+        "label": "kandinskylab/kandinsky-image-sr",
+        "url": "https://github.com/kandinskylab/kandinsky-image-sr",
+        "type": "github"
       }
     ]
   },
