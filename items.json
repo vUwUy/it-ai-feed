@@ -53,6 +53,31 @@
     ]
   },
   {
+    "id": "2026-11-27-uk-dwp-cyber-incident",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "영국 노동연금부(DWP) '사이버 사고'로 온라인 서비스 거의 전면 중단",
+    "summary": "DWP가 시스템에 영향을 준 사이버 사고를 확인하고 예방 차원에서 일부 온라인 서비스를 내렸다고 발표했다. BBC에 따르면 연금·유니버설 크레딧·PIP 신청, 'Tell Us Once' 등 거의 모든 온라인 시스템이 중단됐고 복구 시점은 밝히지 않았다. 정기 급여·연금 지급은 정상이라고 했다.",
+    "why": "영국 최대 복지 부처의 대규모 정부 서비스 장애다. 원인·해킹 여부는 아직 확인되지 않았고 NCSC 등과 조사 중이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GOV.UK 공식 공지 + BBC 보도. 해킹·데이터 접근 여부는 미확인"
+    },
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/c16d/live/d01bdb90-958d-11f1-b8bb-1b597db1ad66.jpg",
+    "links": [
+      {
+        "label": "GOV.UK 공지",
+        "url": "https://www.gov.uk/government/news/temporary-disruption-to-some-dwp-online-services",
+        "type": "source"
+      },
+      {
+        "label": "BBC",
+        "url": "https://www.bbc.com/news/articles/ck1l0e946dqmo",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-torvalds-ext4-ai-fixes-pull",
     "date": "2026-11-27",
     "category": "AI·IT",
@@ -229,6 +254,36 @@
       {
         "label": "ZDNet Korea",
         "url": "https://zdnet.co.kr/view/?no=20261127100428",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-sap-github-security-incident",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "SAP, 깃허브 환경 의심 활동 보안 사고 확인('프로젝트 그래니트')…고객 데이터 접근 증거 없어",
+    "summary": "SAP가 BleepingComputer에 의심 활동을 확인하고 조치했다며 현재까지 고객 비즈니스 데이터 무단 접근 증거는 없다고 밝혔다. 슈피겔은 소식통을 인용해 공격자가 직원 인증 토큰을 탈취해 깃허브의 SAP 소스코드를 복사·조작했으며 AI 도구가 쓰였을 수 있다고 보도했다.",
+    "why": "전 세계 기업 ERP를 공급하는 SAP의 소스코드 저장소 침해 정황이라 공급망 위험이 거론된다. 독일 BSI는 전날 ARTEX 등 에이전트형 AI 공격 도구를 경고했다. AI 에이전트 개입은 SAP가 확인하지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SAP 공식 입장(BleepingComputer) + 슈피겔·연합뉴스·SecurityWeek 보도. 소스코드 조작·AI 개입은 소식통 보도로 미확인"
+    },
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/sap.jpg",
+    "links": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+        "type": "source"
+      },
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261127153300082",
+        "type": "source"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
         "type": "source"
       }
     ]
