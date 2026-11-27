@@ -1,5 +1,329 @@
 [
   {
+    "id": "2026-11-28-webrtc-card-skimmer-retailers",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "WebRTC로 숨은 카드 스키머, 샘소나이트·리볼브 등 쇼핑몰 5곳서 발견…블랙프라이데이 직전 제거",
+    "summary": "InfoHawk는 라스카나·샘소나이트·아메리칸투어리스터·리볼브·FWRD 결제 페이지에 카드번호·유효기간·CVV·연락처를 빼가는 스크립트가 심겼다고 공개했다. 마케팅 픽셀·쿠키 배너 설정·자사 CDN 파일 변조로 유입됐고, 모바일 결제 페이지에서만 작동하며 클라우드플레어 WebRTC 릴레이로 전송됐다. 5곳 모두 11월 24~25일 제거.",
+    "why": "WebRTC 채널은 CSP·모니터링이 잘 안 보는 경로라 기존 웹 스키밍 탐지를 우회한다. 실제 피해 규모는 미확인.",
+    "verification": {
+      "status": "확인됨",
+      "note": "InfoHawk 1차 보고서 확인(리볼브·Quorum 공식 답변 포함). 실제 탈취 건수는 미공개."
+    },
+    "image": "https://www.infohawk.com/_app/immutable/assets/2026-11-27-black-friday-webrtc-skimmer.BQAmEGg5.png",
+    "links": [
+      {
+        "label": "InfoHawk 보고서",
+        "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50668145",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-usaf-cloud-one-breach",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "미 공군 핵심 클라우드 'Cloud One' 해킹…제어 평면까지 침입, 사이버사령부 투입",
+    "summary": "로이터는 소식통 5명을 인용해 공군 클라우드 플랫폼 Cloud One이 해킹됐고, 지난 한 달 사이 업그레이드 중 발견됐다고 보도했다. 공격자는 미확인 소프트웨어 취약점으로 제어 평면(control plane)에 접근했으며, 앱 이전·업데이트가 중단되고 일부 관리자 권한이 회수됐다. NBC는 미 당국자가 해킹을 확인했다고 전했다.",
+    "why": "MS·아마존·오라클·구글 4사 자원을 묶은 미군 최대급 클라우드로 인사·급여·탄약 추적·북미 방공 C2 앱이 올라가 있다. 공격 주체·데이터 유출 여부는 아직 불명.",
+    "verification": {
+      "status": "확인됨",
+      "note": "로이터(CNBC 전재)·NBC News(미 당국자 확인) 독립 보도 확인. 공군은 '특정 시스템에 대해 언급하지 않는다'는 입장."
+    },
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261127-us-air-force-mb-1526-138dff.jpg",
+    "links": [
+      {
+        "label": "CNBC(로이터)",
+        "url": "https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html",
+        "type": "source"
+      },
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/news/us-news/hackers-attack-penetrate-air-forces-computing-platform-rcna611559",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50666375",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-tokyotech-swaflow-flow-lm",
+    "date": "2026-11-28",
+    "category": "로컬 AI",
+    "title": "도쿄과학대 Swallow 팀 'SwaFlow' 공개…비자기회귀 구면(리만) 플로 언어모델 3B·500M, Apache 2.0",
+    "summary": "tokyotech-llm이 토큰을 한 개씩 생성하는 대신 구면 위 플로를 노이즈에서 적분해 문장을 만드는 'SwaFlow' 제품군을 공개했다. SwaFlow-3B-Instruct는 3.74B 파라미터, Dolma 3 Mix 4T 토큰 사전학습, 컨텍스트 2,048, fp32 가중치이며 학습 코드도 공개됐다.",
+    "why": "확산·플로 계열 언어모델 연구용 공개 체크포인트로, 자기회귀형(SwaFlow-AR-500M) 대조 모델까지 함께 나와 비교 실험이 가능하다. 영어 전용·짧은 컨텍스트라 실사용보다는 연구용.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드 + GitHub 코드 저장소 직접 확인."
+    },
+    "specs": {
+      "params": "3.74B / 500M",
+      "license": "Apache 2.0",
+      "context": "2,048",
+      "modality": "텍스트(영어)"
+    },
+    "links": [
+      {
+        "label": "tokyotech-llm/SwaFlow-3B-Instruct",
+        "url": "https://huggingface.co/tokyotech-llm/SwaFlow-3B-Instruct",
+        "type": "huggingface"
+      },
+      {
+        "label": "SwaFlow 제품군(HF 컬렉션)",
+        "url": "https://huggingface.co/collections/tokyotech-llm/swaflow-suite",
+        "type": "source"
+      },
+      {
+        "label": "swallow-llm/swaflow-suite",
+        "url": "https://github.com/swallow-llm/swaflow-suite",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-sakana-namazu-small",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "사카나 AI 'Namazu Small' 발표…Nemotron 3 Nano 기반 30B 추론 모델, 온프레미스 제공 예정",
+    "summary": "사카나 AI가 엔비디아 Nemotron 3 Nano(30B-A3B) 베이스에 자체 계속 사전학습·사후학습을 한 'Sakana Namazu Small'을 공개했다. 웹 검색 조사·장문 근거 답변에 초점을 뒀고, 25개 벤치마크 평균에서 Nemotron 3 Nano와 약 4배 큰 Nemotron 3 Super를 앞섰다고 밝혔다(BrowseComp 73.5 vs 36.1).",
+    "why": "일본 대표 AI 스타트업이 '사내에서 돌릴 수 있는 크기'를 겨냥한 모델이다. 가중치·라이선스는 미공개이며 온프레미스 제공 세부는 12월 초·중순 공지 예정.",
+    "verification": {
+      "status": "확인됨",
+      "note": "사카나 AI 공식 발표(11/25) + 닛케이 보도 확인. 수치는 자체 측정."
+    },
+    "image": "https://sakana.ai/assets/home/sakana_ogp.png",
+    "specs": {
+      "params": "30B (활성 3B)",
+      "license": "미공개",
+      "context": "262K(평가 설정)"
+    },
+    "links": [
+      {
+        "label": "사카나 AI 공식 발표",
+        "url": "https://sakana.ai/namazu-small/",
+        "type": "source"
+      },
+      {
+        "label": "닛케이",
+        "url": "https://www.nikkei.com/article/DGXZQOUC255DS0V21C26A1000000/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-openai-countersues-apple",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "OpenAI, 애플에 맞소송…\"영업비밀 탈취·공급사 압박으로 하드웨어 진출 방해\"",
+    "summary": "OpenAI가 11월 27일(현지) 캘리포니아 북부 연방법원에 애플을 상대로 맞소송을 냈다. 애플이 공유 하드웨어 공급사를 '강압·위협'하고, 퇴사자를 영업비밀 절도로 몰 수 있는 고용 관행으로 경쟁사를 늦춘다고 주장했다(FT·CBS 보도).",
+    "why": "애플이 6~7월 제기한 영업비밀 소송(OpenAI·io·탕 탄 등 피고)에 대한 반격으로, OpenAI 자체 기기 출시를 둘러싼 두 회사의 법정 다툼이 쌍방 소송으로 커졌다. 애플 원 소송은 2027년 7월 19일 재판 예정.",
+    "verification": {
+      "status": "확인됨",
+      "note": "9to5Mac(FT 인용)·CBS News 독립 보도 2곳 확인. 애플은 CBS 질의에 즉답 안 함. 소장 원문 미확인."
+    },
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/apple-vs-openai-01.jpg?quality=82&strip=all&resize=1200,628",
+    "links": [
+      {
+        "label": "9to5Mac",
+        "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+        "type": "source"
+      },
+      {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/news/openai-countersues-apple-trade-secrets-lawsuit/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-nielsen-takes-down-nn-book",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "마이클 닐슨, 딥러닝 입문서 『Neural Networks and Deep Learning』 공개 중단…\"프론티어 랩의 무모함\"",
+    "summary": "닐슨은 책 사이트에 \"프론티어 랩들이 알면서 인류 전체를 위험에 빠뜨리고 있다\"며 \"이 일에 기여할 사람을 훈련시키는 데 (아주 작게라도) 돕고 싶지 않아 책을 내렸다\"고 적었다. 2011~2015년 집필한 무료 온라인 교재다.",
+    "why": "수많은 엔지니어가 신경망을 처음 배운 대표 무료 교재여서 상징성이 크다. HN에서는 아카이브 링크 공유와 함께 결정을 두고 찬반 논쟁이 이어졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "책 공식 사이트(neuralnetworksanddeeplearning.com)의 저자 성명 직접 확인."
+    },
+    "links": [
+      {
+        "label": "저자 성명(공식 사이트)",
+        "url": "https://neuralnetworksanddeeplearning.com/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50670757",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-ksef-member-data-breach",
+    "date": "2026-11-28",
+    "category": "한국 IT",
+    "title": "과학기술인공제회 해킹으로 회원정보 약 21만 건 유출…탈퇴 회원까지, 주민번호(암호화) 등 16종",
+    "summary": "과기공제회는 11월 8일 서버 취약점을 노린 비인가 접근으로 회원번호·이름·주민등록번호(암호화)·비밀번호(암호화)·연락처·자택/직장 주소·직급 등 16종이 유출됐다고 공지했다. 규모는 약 21만 건으로 현 회원 전원과 과거 탈퇴 회원이 포함됐다.",
+    "why": "과기정통부 소관 기관에서 사실상 전 회원 정보가 빠져나갔다. 침해 인지(8일)부터 회원 문자 통지(27일)까지 19일이 걸려 늑장 대응 비판이 나온다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·뉴시스 독립 보도 확인(공제회 공지 인용)."
+    },
+    "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/27/AKR20261127047651017_01_i_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261127047651017",
+        "type": "source"
+      },
+      {
+        "label": "뉴시스",
+        "url": "https://www.newsis.com/view/NISX20261127_0003885875",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-kakao-kim-beomsu-acquittal-final",
+    "date": "2026-11-28",
+    "category": "한국 IT",
+    "title": "업데이트: 카카오 김범수, 'SM 시세조종' 무죄 확정…공소청 상고 포기",
+    "summary": "공소청이 1·2심 판결 취지와 상고 인용 가능성을 검토해 상고하지 않기로 하면서 김범수 카카오 창업자의 무죄가 27일 확정됐다. 카카오는 \"3년간의 사법적 불확실성이 완전히 해소됐다\"고 밝혔다.",
+    "why": "20일 2심 무죄 이후 최종 확정으로, 카카오의 인적분할·AI 사업 재편 등 경영 의사결정의 최대 불확실성이 사라졌다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·아이뉴스24(카카오 입장 포함)·전자신문 독립 보도 확인."
+    },
+    "image": "https://img6.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112003910001300_P4.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261127156300004",
+        "type": "source"
+      },
+      {
+        "label": "아이뉴스24",
+        "url": "https://ibiz.inews24.com/view/2031455",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-gigachat-3-5-omni-open-weights",
+    "date": "2026-11-28",
+    "category": "로컬 AI",
+    "title": "스베르 'GigaChat 3.5 Omni' 오픈 웨이트…432B/28B MoE, 텍스트·이미지·오디오·소리 포함 영상 입력, MIT",
+    "summary": "스베르가 GigaChat 3.5 Ultra의 멀티모달판을 허깅페이스에 MIT 라이선스로 공개했다. MLA+GatedDeltaNet 하이브리드에 InternViT(300M) 비전·GigaAM 오디오 인코더를 붙였고 컨텍스트 131K, FP8 체크포인트(SGLang)로 배포된다. 모델 카드상 소리 포함 영상 4종 평균 61.17로 Qwen3-Omni-30B-A3B(55.26)를 앞섰다(자체 측정).",
+    "why": "오디오·영상까지 한 번에 받는 대형 오픈 웨이트 옴니 모델이다. 다만 약 437GB FP8로 H100 80GB×8 구성에서 테스트돼 개인 로컬 실행은 어렵고, 같은 날 음성인식 GigaAM-v4(MIT)도 나왔다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "HF 모델 카드(라이선스·구조) 직접 확인 + ORIENS 보도. 벤치마크는 스베르 자체 측정."
+    },
+    "specs": {
+      "params": "432B (활성 28B)",
+      "license": "MIT",
+      "memory": "~437GB(FP8), H100 80GB×8 테스트",
+      "context": "131K",
+      "modality": "텍스트·이미지·오디오·영상 → 텍스트"
+    },
+    "links": [
+      {
+        "label": "ai-sage/GigaChat3.5-Omni-432B-A28B",
+        "url": "https://huggingface.co/ai-sage/GigaChat3.5-Omni-432B-A28B",
+        "type": "huggingface"
+      },
+      {
+        "label": "ai-sage/GigaAM-v4",
+        "url": "https://huggingface.co/ai-sage/GigaAM-v4",
+        "type": "huggingface"
+      },
+      {
+        "label": "ORIENS",
+        "url": "https://ai-oriens.com/en/news/gigachat-3-5-omni/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-epost-hack-registered-mail",
+    "date": "2026-11-28",
+    "category": "한국 IT",
+    "title": "인터넷우체국 해킹…등기우편 고객 성명·주소·전화번호 유출, 하루치만 11만3,855명",
+    "summary": "우정사업본부는 해외 IP 공격자가 인터넷우체국(모바일) '수취인 배달장소 변경서비스'로 11월 17~24일 배달 중이던 등기우편의 수취인 성명·주소·전화번호를 조회했다고 28일 밝혔다. 분석을 마친 하루치에서만 11만3,855명(법인 포함)이 확인됐고 전체 규모는 조사 중이다.",
+    "why": "공공 우편 서비스까지 유출이 번졌다. 우본은 해당 서비스·비회원 로그인을 중단하고 해외 IP를 전면 차단했으며, 우체국 사칭 주소 변경·추가 배송비 문자 주의를 당부했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스·디지털타임스 독립 보도 확인(우정사업본부 발표 인용)."
+    },
+    "image": "https://wimg.dt.co.kr/news/cms/2026/11/28/news-p.v1.20261128.839df9656aad4c4bbf5e28f4c32d8f5a_R.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261128000900017",
+        "type": "source"
+      },
+      {
+        "label": "디지털타임스",
+        "url": "https://www.dt.co.kr/article/12097685",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-deterministic-subexp-dlp-eprint",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "저장대, '결정론적 준지수 시간 이산로그 알고리즘' 논문…단 OpenAI 미검증 구성에 조건부",
+    "summary": "IACR ePrint 2026/3020(류수창·장빙성·런쿠이)은 소수체 F_p*와 소수 위수 타원곡선의 이산로그를 난수 없이 2^O(b/√log log b) 시간에 푼다고 주장한다. 다만 OpenAI(2026년 10월)의 'Cauchy–Hermite 불리언 텐서 축약' 구성을 전제로 하며, 저자도 이를 유일한 비심사 전제로 명시했다.",
+    "why": "10월 ETH 반증 이후 이어지는 복잡도 이론 연쇄 결과다. HN에서는 \"log log b 항이 워낙 느리게 커서 실제 암호(ECC) 공격에는 의미가 거의 없다\"는 지적이 많았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "IACR ePrint 원문(초록·정리 1.1) 확인. 동료 심사·독립 검증 전, 조건부 결과."
+    },
+    "links": [
+      {
+        "label": "IACR ePrint 2026/3020",
+        "url": "https://eprint.iacr.org/2026/3020",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50665968",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-danawa-member-data-leak-confirmed",
+    "date": "2026-11-28",
+    "category": "한국 IT",
+    "title": "업데이트: 다나와 \"회원정보 일부 유출 확인\"…성명·아이디·전화번호, 비밀번호·결제정보는 제외",
+    "summary": "다나와 운영사 커넥트웨이브가 사과문에서 25일 외부 불법 접근으로 침해사고가 발생했고 일부 회원의 성명·아이디·휴대전화번호·전화번호가 유출됐다고 밝혔다고 ZDNet코리아가 28일 보도했다. 유출 규모·침입 경로·서비스 재개 일정은 미공개.",
+    "why": "26일 새벽부터 사이트가 사흘째 멈춘 가운데 '점검'→'침해 추정'→'유출 확인'으로 공지가 바뀌었다. 다나와 회원이라면 다나와 사칭 문자·전화를 조심해야 한다.",
+    "verification": {
+      "status": "미확인",
+      "note": "ZDNet코리아 단독 보도(다나와 사과문 이미지 인용). 다나와 사이트가 공지 이미지만 띄워 원문 직접 확인 못 함, 2차 독립 보도 아직 없음."
+    },
+    "image": "https://image.zdnet.co.kr/2026/11/28/ddf0f9f1923a47a4193b79b1f2e44d20.jpg",
+    "links": [
+      {
+        "label": "ZDNet코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261128050855",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-zhipu-denies-glm55-delay",
     "date": "2026-11-27",
     "category": "AI·IT",
