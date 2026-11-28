@@ -249,6 +249,35 @@
     ]
   },
   {
+    "id": "2026-11-28-kenya-ecitizen-leak-claim",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "케냐 정부 포털 eCitizen 해킹 주장…3,212만 명 신원·생체정보 다크웹 유출 시작 보도",
+    "summary": "케냐 데일리 네이션은 해커 그룹 ByteToBreach가 eCitizen에서 빼낸 자료를 다크웹에 공개하기 시작했으며, 자사가 본 파일에 32,128,394명의 여권 사본·사진·주민등록(ID) 번호·생년월일·KRA 납세번호·지문·SHA 건강 ID 등이 담겼다고 보도했다. 해커 측은 KYC 문서 600GB·DB 100GB·소스코드 40GB(총 740GB)를 훔쳤다고 주장한다.",
+    "why": "국가 단위 행정 포털에서 인구 대부분 규모의 신원·생체정보가 노출됐다면 신원 도용·사칭 사기 위험이 장기간 이어진다. 정부 디지털 ID 집중화의 위험 사례.",
+    "verification": {
+      "status": "미확인",
+      "note": "데일리 네이션(유출 파일 직접 확인)·ITWeb Africa·The Star 보도. 케냐 이민·시민서비스부는 조사 중이라고만 밝혔고 정부는 침해를 공식 확인하지 않음."
+    },
+    "links": [
+      {
+        "label": "Daily Nation",
+        "url": "https://nation.africa/kenya/news/ecitizen-hackers-begin-leaking-data-of-32-million-kenyans-on-dark-web-5687214",
+        "type": "source"
+      },
+      {
+        "label": "ITWeb Africa",
+        "url": "https://itweb.africa/article/kenya-investigates-740gb-breach-claim/KA3WwqdzbEw7rydZ",
+        "type": "source"
+      },
+      {
+        "label": "The Star(정부 조사 발표)",
+        "url": "https://www.the-star.co.ke/news/2026-11-24-state-probes-alleged-ecitizen-data-breach",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-28-kakao-kim-beomsu-acquittal-final",
     "date": "2026-11-28",
     "category": "한국 IT",
