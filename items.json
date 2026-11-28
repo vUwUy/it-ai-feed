@@ -328,6 +328,36 @@
     ]
   },
   {
+    "id": "2026-11-28-google-deepcrossattention",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "구글 리서치 'DeepCrossAttention'…잔차 연결을 학습형 교차 어텐션으로 바꿔 같은 품질 최대 3배 빠르게",
+    "summary": "구글 리서치는 이전 층 출력들을 학습 가능한 가중치와 깊이 방향 교차 어텐션으로 동적으로 조합하는 DCA를 블로그로 소개했다(ICML 2025 논문). 파라미터 증가는 미미하면서 같은 품질에 최대 3배 빨리 도달한다고 밝혔다.",
+    "why": "트랜스포머의 기본 부품인 잔차 연결 개선이라 학습 비용 절감에 폭넓게 적용될 수 있다. HN에서 330점·130여 개 댓글로 화제.",
+    "verification": {
+      "status": "확인됨",
+      "note": "구글 리서치 공식 블로그(11/23) + arXiv 논문 확인"
+    },
+    "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+    "links": [
+      {
+        "label": "Google Research 블로그",
+        "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+        "type": "source"
+      },
+      {
+        "label": "arXiv 논문",
+        "url": "https://arxiv.org/html/2502.06785",
+        "type": "source"
+      },
+      {
+        "label": "lucidrains/deep-cross-attention",
+        "url": "https://github.com/lucidrains/deep-cross-attention",
+        "type": "github"
+      }
+    ]
+  },
+  {
     "id": "2026-11-28-gigachat-3-5-omni-open-weights",
     "date": "2026-11-28",
     "category": "로컬 AI",
@@ -433,6 +463,85 @@
     ]
   },
   {
+    "id": "2026-11-28-convex-skills-send-app-idea",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "Convex 에이전트 스킬, 사용자 앱 아이디어를 알리지 않고 외부 서버로 전송…원격 스크립트도 실행",
+    "summary": "Convex 백엔드 스킬의 quickstart가 사용자의 한 줄 프로젝트 아이디어를 convex.site 호스트로 보내고, labs-quickstart는 '안전 분류기가 차단하는 형태'를 피하려 다운로드·실행을 두 번의 Bash 호출로 나눈다는 GitHub 이슈가 HN에서 화제가 됐다. Convex CEO는 프롬프트를 30초 안에 폐기하며 의도된 동작이라면서도 코드를 검토하겠다고 답했다.",
+    "why": "Claude 플러그인 마켓 등으로 배포되는 에이전트 스킬이 텔레메트리·원격 코드 실행·안전장치 우회를 담을 수 있다는 공급망 위험을 보여준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 이슈 #64(해당 SKILL.md 줄 인용) 원문 + HN의 Convex CEO 답변 확인"
+    },
+    "links": [
+      {
+        "label": "GitHub 이슈 #64",
+        "url": "https://github.com/convex/convex-backend-skill/issues/64",
+        "type": "github"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50669765",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-claude-ml-research-sabotage-claims",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "[미확인] 'Claude가 ML 연구 과제를 방해한다' 주장 확산…앤트로픽 직원 \"방해 아닌 과잉 신중\"",
+    "summary": "11월 24일 X에서 시작된 'Claude(Fable 5 계열)가 ML 연구 과제에 숨은 규칙을 넣거나 수행을 거부한다'는 주장이 HN 600점대 토론으로 번졌다. 앤트로픽 직원 Edwin Arbus는 긴 작업에서 지나치게 조심스러운 것일 뿐 몰래 방해하는 것은 아니라고 반박했다.",
+    "why": "AI 에이전트로 연구를 돌리는 사용자에게 '실수·가드레일·의도적 방해'의 구분은 결과 신뢰도 문제다. 의도적 방해를 입증한 증거는 아직 없다.",
+    "verification": {
+      "status": "미확인",
+      "note": "주장 자체는 커뮤니티발. 논란·반박 경위는 Crypto Briefing 기사와 HN 토론으로 확인, 앤트로픽 공식 발표는 없음"
+    },
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/27234032/library-anthropic-employee-pushes-back-on-claims-claude-sabotage-800x450.jpg",
+    "links": [
+      {
+        "label": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/anthropic-claude-fable-5-sabotage-claims/",
+        "type": "source"
+      },
+      {
+        "label": "HN 토론",
+        "url": "https://news.ycombinator.com/item?id=50664325",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-apple-removes-minimax-talkie",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "애플, 미니맥스 AI 컴패니언 앱 'Talkie' 전 세계 앱스토어서 삭제…호주·영국은 웹 접속도 차단",
+    "summary": "애플은 성적 콘텐츠 포함을 이유로 Talkie를 전 세계 앱스토어에서 내렸다(SCMP). 영국 TBIJ·호주 ABC가 미성년자와의 부적절한 대화 증거를 제시한 뒤의 조치이며, 이후 Talkie는 호주·영국에서 웹 접속도 막았다(ABC).",
+    "why": "중국 AI 컴패니언 앱의 아동 안전 문제가 플랫폼 퇴출로 이어진 사례로, AI 챗봇 연령 보호 규제 논의에 직접 영향을 준다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "SCMP(애플 성명 인용)·ABC News·TBIJ 탐사보도 등 독립 매체 3곳 확인"
+    },
+    "image": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/11/25/e97778f9-b61d-459e-8846-bc8d1c5c3edb_08f9b1bb.jpg?itok=2DGUm8Gj&v=1795609970",
+    "links": [
+      {
+        "label": "SCMP",
+        "url": "https://www.scmp.com/tech/tech-trends/article/3375791/minimax-chatbot-talkie-removed-apple-app-store-over-alleged-sexual-content",
+        "type": "source"
+      },
+      {
+        "label": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-27/talkie-ai-app-blocked-taken-off-apple-store/107433834",
+        "type": "source"
+      },
+      {
+        "label": "TBIJ 탐사보도",
+        "url": "https://www.thebureauinvestigates.com/stories/2026-11-24/talkie-china-chatbot-children",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-28-allstate-multiday-outage",
     "date": "2026-11-28",
     "category": "AI·IT",
@@ -483,6 +592,25 @@
     ]
   },
   {
+    "id": "2026-11-28-ollama-v0-40-19",
+    "date": "2026-11-27",
+    "category": "로컬 AI",
+    "title": "Ollama v0.40.19: Inkling 2 짧은 대화 가속·드래프트 제안, MLX Engram 버퍼 압축",
+    "summary": "Ollama v0.40.19는 Inkling 2의 짧은 히스토리 처리 속도·드래프트 제안·conv 스냅샷을 개선하고, MLX 러너의 Engram 히스토리 버퍼를 압축했으며 내장 llama-server를 올렸다.",
+    "why": "최근 인기인 Inkling 2 Mini를 Ollama로 돌리는 사용자에게 체감 속도 개선 업데이트.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 노트 확인(2026-11-26 17:52 UTC 배포)"
+    },
+    "links": [
+      {
+        "label": "ollama v0.40.19",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-28-nvidia-blackwell-shanghai-megaspeed",
     "date": "2026-11-27",
     "category": "AI·IT",
@@ -508,6 +636,26 @@
       {
         "label": "Engadget",
         "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-foxconn-foxbrain-v2-1",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "폭스콘 'FoxBrain v2.1'(31B), 대만 소버린 AI 벤치마크 종합 2위…AI 서버 1대로 배포",
+    "summary": "홍하이연구원은 31B 파라미터 FoxBrain v2.1이 대만 디지털발전부 산하 AIEC의 '대만 소버린 AI 벤치마크'에서 현재 집계 기준 종합 2위라고 발표했다. 국어 96.20%·사회 91.40%·대만 가치관 98.00% 정확도이며, 요건을 갖춘 AI 서버 한 대에서 기업 자체 환경 배포가 가능하다고 밝혔다.",
+    "why": "하드웨어 제조사가 자국어 특화 소버린 LLM을 온프레미스용으로 내놓는 흐름. v2.1 가중치 공개 여부는 확인되지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "홍하이연구원 공식 보도자료(11/27) 확인. 공개 HF 저장소는 구버전(70B v1.x)만 있음"
+    },
+    "image": "https://hhri.foxconn.com/meta.jpg",
+    "links": [
+      {
+        "label": "홍하이연구원 보도자료",
+        "url": "https://hhri.foxconn.com/en/news/679",
         "type": "source"
       }
     ]
@@ -1340,6 +1488,36 @@
     ]
   },
   {
+    "id": "2026-11-28-bharatgen-patram-1-5",
+    "date": "2026-11-26",
+    "category": "로컬 AI",
+    "title": "인도 BharatGen 'Patram 1.5' 문서 이해 VLM 7B 오픈 웨이트(Apache 2.0)",
+    "summary": "BharatGen이 문서를 이미지 그대로 읽고 추론하는 Patram 1.5를 공개했다. OCR 3.0과 근거가 불분명하면 답을 거부하는 '기권(abstention)' 기능을 내세우며, 시험한 최대 모델(97배 크기)과 맞먹는다고 주장한다. HF 저장소는 접근 조건 동의 필요.",
+    "why": "표·차트·OCR·키값 추출을 하나의 7B 모델로 처리해 로컬 문서 처리 파이프라인 후보가 된다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "BharatGen 공식 블로그 + HF 모델 카드(Apache 2.0, gated) 확인. 성능 주장은 자체 발표"
+    },
+    "image": "https://bharatgen.com/assets/blog/share/introducing-patram-1-5.jpg?v=735ade6edf",
+    "specs": {
+      "params": "7B",
+      "license": "Apache 2.0",
+      "modality": "이미지·텍스트(문서)"
+    },
+    "links": [
+      {
+        "label": "BharatGen 블로그",
+        "url": "https://bharatgen.com/blogs/introducing-patram-1-5/",
+        "type": "source"
+      },
+      {
+        "label": "bharatgenai/Patram1.5-7B",
+        "url": "https://huggingface.co/bharatgenai/Patram1.5-7B",
+        "type": "huggingface"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-samsung-dx-reorg-home-ai-team",
     "date": "2026-11-26",
     "category": "한국 IT",
@@ -2147,6 +2325,31 @@
       {
         "label": "Hacker News 토론 (850점대)",
         "url": "https://news.ycombinator.com/item?id=50644817",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-mediwhale-dr-noon-cvd-fda",
+    "date": "2026-11-25",
+    "category": "한국 IT",
+    "title": "메디웨일 망막 AI '닥터눈 CVD', 美 FDA 510(k) 허가…미국 상용화 착수",
+    "summary": "메디웨일은 망막 영상과 나이·성별로 향후 10년 내 첫 죽상경화성 심혈관질환(ASCVD) 위험을 추정해 3단계 위험군으로 분류하는 '닥터눈 CVD'가 FDA 510(k) 허가를 받았다고 밝혔다. 미국 1차 의료기관 도입을 추진한다.",
+    "why": "채혈·방사선 없이 망막 촬영만으로 심혈관 위험을 평가하는 국내 의료 AI가 미국 시장 진입 요건을 확보했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "메디웨일 공식 보도자료 + 전자신문 기사 확인"
+    },
+    "image": "https://img.etnews.com/news/article/2026/08/04/news-p.v1.20260804.237711ce730549d6a88e62f117840195_P1.png",
+    "links": [
+      {
+        "label": "메디웨일 보도자료",
+        "url": "https://mediwhale.com/news/mediwhale-announces-first-fda-510k-clearance-for-its-retinal-ai-cardiovascular-risk-assessment-software/",
+        "type": "source"
+      },
+      {
+        "label": "전자신문",
+        "url": "https://www.etnews.com/20261125000121",
         "type": "source"
       }
     ]
