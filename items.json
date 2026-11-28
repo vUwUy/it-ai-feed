@@ -169,6 +169,61 @@
     ]
   },
   {
+    "id": "2026-11-28-llama-cpp-b12818-fp8-nvfp4-scales",
+    "date": "2026-11-28",
+    "category": "로컬 AI",
+    "title": "llama.cpp b12818: FP8·NVFP4 양자화 스케일 지원…HF의 FP8/NVFP4 safetensors 직접 변환",
+    "summary": "ggml에 텐서 스케일(텐서별·채널별·전문가별 등) 지원이 들어가, PR 설명에 따르면 HF에 올라온 많은 FP8/NVFP4 safetensors 모델을 직접 변환할 수 있게 됐다. 현재는 CUDA가 성능 손실 없이 지원하고 다른 백엔드는 스케일 연산을 아직 거부한다.",
+    "why": "최근 신모델이 FP8·NVFP4 체크포인트로 많이 배포되는 만큼 GGUF 변환 경로가 넓어진다. 함께 b12811에서는 Llama Chat 웹 UI 대화를 Hugging Face 데이터셋에 에이전트 트레이스로 공유하는 기능도 추가됐다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "GitHub 릴리스 b12818(11/28 05:43 KST)·PR #28898 본문, b12811·PR #32608 확인."
+    },
+    "image": "https://opengraph.githubassets.com/3bbf706cfaae33c0e1ec35455af8328c6741956eaa570145212e768b83a67f3c/ggml-org/llama.cpp/pull/28898",
+    "links": [
+      {
+        "label": "llama.cpp b12818",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+        "type": "github"
+      },
+      {
+        "label": "PR #28898",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/28898",
+        "type": "source"
+      },
+      {
+        "label": "PR #32608 (HF 트레이스 공유)",
+        "url": "https://github.com/ggml-org/llama.cpp/pull/32608",
+        "type": "github"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-lausd-blocks-google-ai-overviews",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "LA 교육청, 학생 기기에서 구글 'AI 개요' 차단…구글 '분리 불가' 입장 정면 반박",
+    "summary": "학생 약 50만 명의 LA 통합교육구(LAUSD)가 제3자 필터로 학교 지급 기기의 구글 AI Overviews를 차단했다. 구글은 검색과 AI가 분리될 수 없다고 해왔으며, 교육구는 '일시 중단'이고 구글은 이번 조치에 관여하지 않았다고 밝혔다.",
+    "why": "구글이 내년 초 시행 예정인 '검색=AI 일체' 정책에 대해 대형 교육구가 실제 차단에 성공한 첫 사례로 보도됐다. 뉴욕시 교육청도 이 정책을 '최후통첩'이라 부르며 대안을 검토 중이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "LA Times(교육구 성명 인용)·Engadget(AP 인용) 확인, AP·NBC LA도 동일 보도."
+    },
+    "image": "https://www.engadget.com/img/gallery/la-school-district-blocks-googles-ai-search-features/l-intro-1795816633.jpg",
+    "links": [
+      {
+        "label": "LA Times",
+        "url": "https://www.latimes.com/california/story/2026-11-27/lausd-blocks-google-ai-search",
+        "type": "source"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2329851/la-school-district-blocks-google-ai-search-features/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-28-ksef-member-data-breach",
     "date": "2026-11-28",
     "category": "한국 IT",
@@ -214,6 +269,31 @@
       {
         "label": "아이뉴스24",
         "url": "https://ibiz.inews24.com/view/2031455",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-gs-donghae-aidc-groundbreaking",
+    "date": "2026-11-28",
+    "category": "한국 IT",
+    "title": "GS 동해 AI 데이터센터 착공…'3대 메가프로젝트' 첫 GW급 AIDC",
+    "summary": "과기정통부는 28일 오전 강원 동해 북평제2산단에서 'GS AI 데이터센터 착공식'이 열렸다고 밝혔다. GS가 발표한 2.4GW 계획 중 1단계인 1.2GW 규모로, 2028년부터 순차 완공해 2029년 준공·가동이 목표이며 이재명 대통령·배경훈 부총리 등이 참석했다.",
+    "why": "정부 '3대(반도체·AI DC·피지컬AI) 메가프로젝트' 중 첫 GW급 AI 데이터센터 착공이다. 청와대는 '아시아 최대 규모 AI 인프라'라고 밝혔고, 과기정통부는 2027년 3월 시행되는 AI 데이터센터 특별법 시행령을 다음 달 말까지 의견수렴 후 개정할 계획이다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(청와대 발표 인용)와 머니투데이(과기정통부 발표 인용) 두 독립 보도 확인, 조선일보 보도도 존재."
+    },
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026112810060179134_1.jpg",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261128025100001",
+        "type": "source"
+      },
+      {
+        "label": "머니투데이",
+        "url": "https://www.mt.co.kr/tech/2026/11/28/2026112810060179134",
         "type": "source"
       }
     ]
@@ -319,6 +399,86 @@
       {
         "label": "ZDNet코리아",
         "url": "https://zdnet.co.kr/view/?no=20261128050855",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-allstate-multiday-outage",
+    "date": "2026-11-28",
+    "category": "AI·IT",
+    "title": "미 보험사 올스테이트, 11/23부터 웹·앱·긴급출동 접속 장애 5일째…원인 미공개",
+    "summary": "올스테이트는 11월 23일부터 웹사이트·모바일 앱·온라인 긴급출동 서비스 장애를 겪고 있으며, 27일(현지) 오후에도 계정 접속이 안 되는 상태였다. 회사는 '지난 48시간 일부 접근을 제한했다'며 결제 차질 시 보장 상실·연체료는 없다고 밝혔다.",
+    "why": "추수감사절 주간 대형 장애로, 최근 마이크로소프트·JP모건 등 잇단 장애 목록에 추가됐다. 회사는 원인을 공개하지 않았다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "The Verge·CBS News 두 독립 보도에서 회사 성명 확인(WSJ도 보도). 원인은 미확인."
+    },
+    "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/27/f99d84ce-f00f-4e72-8a6d-cc0fdef3bfa6/thumbnail/1200x630/a44e8396eee5d63c3bd1013260c38522/gettyimages-2306519918.jpg",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
+        "type": "source"
+      },
+      {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/news/allstate-roiled-tech-outage-thanksgiving-week/",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-sk-hynix-buyback-doubled",
+    "date": "2026-11-27",
+    "category": "한국 IT",
+    "title": "SK하이닉스, 자사주 하루 매수 주문 35만→70만 주로 2배 확대",
+    "summary": "SK하이닉스는 27일 장 마감 후 공시로 하루 자사주 매수 주문량을 약 35만 주에서 약 70만 주로 늘린다고 밝혔다. 주가는 6월 25일 장중 298만7천원에서 27일 111만원으로 약 62.8% 떨어졌고, 회사는 저평가가 심화했다고 판단했다.",
+    "why": "10월 28일 결의한 1,492만 주(약 20조원) 매입의 집행 속도를 높이는 조치로, 매경 환산 기준 하루 주문 규모가 약 3,885억원에서 7,770억원으로 커진다. 올해 약 100조원 주주환원(자사주 60조원 이상) 계획의 연장이며 현재 매입 완료 후 추가 매입도 예고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "연합뉴스(11/27 20:26)·매일경제(11/28 09:33) 두 독립 보도, 회사 공시 내용 인용."
+    },
+    "image": "https://pimg.mk.co.kr/news/cms/202611/28/news-p.v1.20261128.e96c5f4a6ce74cde9357cf9abf61bfe6_R.png",
+    "links": [
+      {
+        "label": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261127165200003",
+        "type": "source"
+      },
+      {
+        "label": "매일경제",
+        "url": "https://www.mk.co.kr/news/business/12220647",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-nvidia-blackwell-shanghai-megaspeed",
+    "date": "2026-11-27",
+    "category": "AI·IT",
+    "title": "[보도] 수출 금지 엔비디아 블랙웰 GB300 랙, 메가스피드 연관 상하이 데이터센터서 확인(블룸버그)",
+    "summary": "블룸버그는 중국 규제당국에 제출된 대출 담보 서류에서 상하이 '양쯔강 삼각주 프로젝트'에 GB300 NVL72 랙(9,600만 위안 대출 담보)과 GB200 서버가 설치된 사실을 확인했다고 보도했다. 랙은 기가바이트가 조립했으며 최초 구매자는 밝혀지지 않았다.",
+    "why": "블랙웰 칩이 이 부지에 들어간 첫 공개 증거로, 미국이 이번 달 블랙리스트에 올린 메가스피드(창업자 앨리스 황) 밀수 의혹과 맞물린다. 블룸버그는 메가스피드가 직접 반입했다는 증거는 없다고 밝혔고 메가스피드는 혐의를 부인한다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "블룸버그 원보도 + TechSpot·Engadget·The Verge 후속 보도 확인(11/27 저녁 KST 보도, 직전 회차 미포함분)."
+    },
+    "image": "https://www.techspot.com/images2/news/bigimage/2026/11/2026-11-27-image-22.jpg",
+    "links": [
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang",
+        "type": "source"
+      },
+      {
+        "label": "TechSpot",
+        "url": "https://www.techspot.com/news/114735-nvidia-newest-blackwell-servers-have-turned-up-shanghai.html",
+        "type": "source"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
         "type": "source"
       }
     ]
