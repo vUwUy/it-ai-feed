@@ -169,6 +169,26 @@
     ]
   },
   {
+    "id": "2026-11-28-malicious-gguf-hf-mir2k",
+    "date": "2026-11-28",
+    "category": "로컬 AI",
+    "title": "허깅페이스에 악성 GGUF 모델 5개…채팅 템플릿 오염·RAT 숨겨 2,428회 다운로드(Malspark)",
+    "summary": "Malspark가 11월 26일 허깅페이스 공개 모델 저장소 3,273,389개를 스캔해 악성 GGUF 모델 5개(다운로드 2,428회, 행위자 2명)를 찾았다고 밝혔다. 최대 캠페인 'Mir2k'는 무검열 GGUF 2개의 파일 끝에 윈도우 원격 접근 트로이목마를 숨기고, 26일 채팅 템플릿을 고쳐 모델이 사용자에게 압축 해제 명령을 실행하라고 출력하게 만들었다.",
+    "why": "로컬 LLM 배포 표준인 GGUF의 채팅 템플릿이 에이전트·사용자에게 명령을 실행시키는 공격 경로로 쓰였다는 보고다. 출처가 불분명한 무검열 GGUF를 받았다면 공개된 지표(IoC)와 gguf-radar로 점검이 필요하다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "Malspark 1차 연구 보고서(스캔 수치·IoC·YARA 공개). r/LocalLLaMA에서 공유됨. 허깅페이스 공식 입장은 아직 확인 못 함"
+    },
+    "image": "https://malspark.com/blog/malicious-gguf-models-hugging-face/cover.png",
+    "links": [
+      {
+        "label": "Malspark 보고서",
+        "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+        "type": "source"
+      }
+    ]
+  },
+  {
     "id": "2026-11-28-llama-cpp-b12818-fp8-nvfp4-scales",
     "date": "2026-11-28",
     "category": "로컬 AI",
@@ -2325,6 +2345,31 @@
       {
         "label": "Hacker News 토론 (850점대)",
         "url": "https://news.ycombinator.com/item?id=50644817",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-todoist-breach-6pct",
+    "date": "2026-11-25",
+    "category": "AI·IT",
+    "title": "투두이스트 프로덕션 침해…고객 약 6% 이메일·구형 비밀번호 해시 탈취",
+    "summary": "투두이스트는 탈취된 자격 증명으로 11월 22~23일 버전 관리 시스템에 침입한 공격자가 클라우드 인프라에 접근해 고객 약 6%의 이메일, 비밀번호 해시, 계정 생성일을 가져갔다고 밝혔다. 약 0.001%는 작업·댓글에서 다른 서비스 자격 증명을 검색당했고 API·Slack 토큰과 Outlook 연동 데이터도 노출됐다.",
+    "why": "할 일 앱에 API 키·복구 문구를 적어 둔 사용자가 많아 2차 피해 우려가 크다. 회사는 비밀번호 재설정, 토큰 갱신, 연동 재연결, Todoist에 저장한 자격 증명 교체를 권고했다.",
+    "verification": {
+      "status": "확인됨",
+      "note": "투두이스트 공식 보안 사고 안내 + TechCrunch 보도"
+    },
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Todoist-feat.jpg?resize=1200,632",
+    "links": [
+      {
+        "label": "Todoist 공식 안내",
+        "url": "https://www.todoist.com/help/todoist/get-started/security-incident-in-november-2026-cG0EIACNU",
+        "type": "source"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
         "type": "source"
       }
     ]
